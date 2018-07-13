@@ -1,0 +1,568 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2671                
+POS_VISITOR 13690               
+POS_DAY 14076               
+POS_DOMAIN 3327                
+POS_LOGIN 3609                
+POS_ROBOT 3764                
+POS_WORMS 4067                
+POS_EMAILSENDER 4198                
+POS_EMAILRECEIVER 4341                
+POS_SESSION 14326               
+POS_SIDER 14506               
+POS_FILETYPES 4476                
+POS_DOWNLOADS 4560                
+POS_OS 4608                
+POS_BROWSER 4715                
+POS_SCREENSIZE 4831                
+POS_UNKNOWNREFERER 4905                
+POS_UNKNOWNREFERERBROWSER 4992                
+POS_ORIGIN 5074                
+POS_SEREFERRALS 5206                
+POS_PAGEREFS 5350                
+POS_SEARCHWORDS 5498                
+POS_KEYWORDS 5650                
+POS_MISC 2334                
+POS_ERRORS 5709                
+POS_CLUSTER 3465                
+POS_SIDER_404 5813                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501062409 1 0 10139039296715
+FirstTime 0
+LastTime 20170428221713
+LastUpdate 20170501133045 1 0 0 0 0
+TotalVisits 35                  
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 42 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 9719 11 14 67736
+1 1 1 365 12 16 60066
+2 2 2 54306 4 5 22511
+3 1 1 9346 5 7 60142
+4 0 0 0 4 4 14926
+5 5 5 28781 2 7 835
+6 3 3 19067 1 4 497
+7 1 1 9345 4 5 22506
+8 1 1 9344 7 10 82331
+9 3 3 19058 6 10 7943
+10 14 14 564327 410 430 8515264
+11 0 0 0 1 2 179
+12 1 1 9349 4 5 22506
+13 1 1 9353 1 4 7620
+14 4 4 37396 3 7 696
+15 3 3 28051 10 15 37929
+16 0 0 0 1 2 7561
+17 4 4 19423 5 11 30564
+18 2 2 18697 4 9 37563
+19 1 1 9345 1 4 15062
+20 0 0 0 5 7 37440
+21 1 1 9357 4 8 30071
+22 7 7 168060 10 13 134909
+23 3 3 28053 16 21 45477
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 43 43 371191
+ro 13 13 554979
+gb 2 2 59744
+eu 1 1 29872
+jp 1 1 44956
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+googlebot 13 1534 20170429203259 13
+no_user_agent 3 99920 20170421102006 0
+netcraft 3 134856 20170426222224 0
+curl 1 44956 20170412225727 0
+unknown 1 153 20170421101939 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 60 1060742 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+unix 13 13
+win7 45 45
+linux 1 1
+winnt 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+msie11.0 45 45
+chrome57.0.2987.133 1 1
+netscape5.0 13 13
+wget 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 55 55
+From1 0 0
+From2 0 0
+From3 0 0
+From4 5 5
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 402 8973241
+301 155 996
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 305
+/access/ 1 -
+/scripts/3tc8JuzDQDPY.php4 1 -
+/3tc8JuzDQDPY.shtml 1 -
+/_vti_shm/ 1 -
+/start.php 1 -
+/auth/login 1 -
+/ToDo/ 1 -
+/login 9 -
+/login.action 1 -
+/cgi-bin/userlogin!default.action 1 -
+/cgi-bin/typo3_src/ChangeLog 2 -
+/cgi-bin/3tc8JuzDQDPY.htm 1 -
+/scripts/chksession.cgi 1 -
+/index.jsp 1 -
+/scripts/composer.json 1 -
+/SeoPanel/ 1 -
+/servlet/Login 1 -
+/cgi-bin/3tc8JuzDQDPY.html 1 -
+/scripts/3tc8JuzDQDPY.inc 1 -
+/cgi-bin/docs/distribution/tour_page1.htm 1 -
+/scripts/3tc8JuzDQDPY.php5 1 -
+/PHPMailer/composer.json 1 -
+/index.rb 1 -
+/confluence/login.action 1 -
+/.well-known/assetlinks.json 20 -
+/_scripts/ 1 -
+/scripts/3tc8JuzDQDPY.htm 1 -
+/content.php 1 -
+/archives/ 1 -
+/scripts/php/login.php 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 1 -
+/bak/ 1 -
+/News/ 1 -
+/321894850openvas.aspx 1 -
+/PHPMailer/extras 1 -
+/manager/status 1 -
+/EmployeeSearch.cc 1 -
+/readme.txt 1 -
+/cgi-bin/content.php 1 -
+/cgi-bin/RELEASE_NOTES.txt 1 -
+/scripts/extras 1 -
+/admin/ 2 -
+/_vti_pvt/ 1 -
+/b2evolution/blogs/htsrv/login.php 1 -
+/CVS/Entries 1 -
+/wiki/login.action 1 -
+/backups/ 1 -
+/scripts/readme.html 1 -
+/cgi-bin/php/mytutos.php 1 -
+/Backburner/ 1 -
+/_errors/ 1 -
+/wsman 1 -
+/postnuke/ 1 -
+/_private/ 1 -
+/3tc8JuzDQDPY.php7 1 -
+/Mail/ 1 -
+/phpmailer/lib/composer.json 1 -
+/_vti_txt/ 1 -
+/tomcat-docs/changelog.html 1 -
+/sNews/readme.txt 1 -
+/Login 1 -
+/typo/typo3_src/ChangeLog 1 -
+/scripts/admin/ 2 -
+/WebCalendar/ 1 -
+/vbulletin/content.php 1 -
+/tracker/index.html 1 -
+/admin-old/ 1 -
+/RELEASE_NOTES.txt 1 -
+/magento/admin/ 1 -
+/Login.jsp 1 -
+/NonExistant968495927/ 1 -
+/analog/ 2 -
+/admin/login.php 1 -
+/poll/admin/lost-pass.php 1 http://invisual.pt/poll/admin/lost-pass.php
+/scripts/login.php 1 -
+/docs/distribution/tour_page1.htm 1 -
+/PHPMailer/lib/composer.json 1 -
+/scripts/admin/lost-pass.php 1 http://invisual.pt/scripts/admin/lost-pass.php
+/cgi-bin/3tc8JuzDQDPY.pl 1 -
+/session_login.cgi 1 -
+/login.cgi 1 -
+/system/login 1 -
+/cgi-bin/3tc8JuzDQDPY.php 1 -
+/scripts/3tc8JuzDQDPY.html 1 -
+/cgi-bin/3tc8JuzDQDPY.cgi 1 -
+/magento/ 1 -
+/en-US/account/login 1 -
+/archive/ 1 -
+//admin/login.php 1 http://invisual.pt//admin/login.php
+/userlogin!default.action 1 -
+/RELEASE-NOTES.txt 1 -
+/scripts/RELEASE_NOTES.txt 1 -
+/shop/admin/ 1 -
+/cgi-bin/downloader/ 2 -
+/php/mytutos.php 1 -
+/cgi-bin/admin/login.php 2 http://invisual.pt/cgi-bin/admin/login.php
+/icfb/ 1 -
+/javascripts/app.js 1 -
+/Readme/ 1 -
+/3tc8JuzDQDPY.asp 1 -
+/web/guest 1 -
+/configurations.do 1 -
+/Install/ 1 -
+/PHPMailer/README 1 -
+/AdvWebAdmin/ 1 -
+/README/ 1 -
+/magento/RELEASE_NOTES.txt 1 -
+/readme.html 1 -
+/magento/downloader/ 1 -
+/auth/ 1 -
+/scripts/3tc8JuzDQDPY.sh 1 -
+/openvas/i_dont_exist 1 -
+/_vti_bot/ 1 -
+/scripts 1 -
+/PassTrixMain.cc 1 -
+/backup/ 1 -
+/3tc8JuzDQDPY.pl 1 -
+/Zikula_Core/ 1 -
+/cgi-bin/ 2 -
+/scripts/README 1 -
+/3tc8JuzDQDPY.htm 1 -
+/cgi-bin/login.php 1 -
+/cgi-bin/chksession.cgi 1 -
+/scripts/web/guest 1 -
+/3tc8JuzDQDPY.php 1 -
+/cgi-bin/EmployeeSearch.cc 1 -
+/cgi-bin/extras 1 -
+/dmanager/php/login.php 1 -
+/scripts/3tc8JuzDQDPY.pl 1 -
+/cgi-bin/admin/lost-pass.php 1 http://invisual.pt/cgi-bin/admin/lost-pass.php
+/Administration/ 1 -
+/cgi-bin/users/login.php 1 -
+/admin.back/ 1 -
+/cgi-bin/index.html 1 -
+/cgi-bin/3tc8JuzDQDPY.php7 1 -
+/cgi-bin/login.action 1 -
+/login.php 1 -
+/asp/ 2 -
+/account/login 1 -
+/typo3/typo3_src/ChangeLog 1 -
+/broadWeb/bwRoot.asp 1 -
+/ntop-bin/dashboard.cgi 1 -
+/commoncgi/servlet/CCGIServlet 1 -
+/cgi-bin/start.php 1 -
+/cgi-bin/readme.html 1 -
+/scripts/lib/composer.json 1 -
+/postnuke/themes/SeaBreeze/style/style.css 1 -
+/manager/html 1 -
+/chksession.cgi 1 -
+/downloader/ 1 -
+/typo/ChangeLog 1 -
+/scripts/typo3_src/ChangeLog 2 -
+/wps/portal/Home/Welcome/ 1 -
+/Stats/ 1 -
+/3tc8JuzDQDPY.sh 1 -
+/scripts/login.action 1 -
+/users/login.php 1 -
+/3tc8JuzDQDPY.html 1 -
+/cgi-bin/3tc8JuzDQDPY.php4 1 -
+/solr/ 1 -
+/3tc8JuzDQDPY.php5 1 -
+/ccards/ 1 -
+/cgi-bin/composer.json 1 -
+/scripts/3tc8JuzDQDPY.php3 1 -
+/cgi-bin/lib/composer.json 1 -
+/3tc8JuzDQDPY.cgi 1 -
+/documentation.html 1 -
+/PHPMailer-master/composer.json 1 -
+/PostNuke/themes/SeaBreeze/style/style.css 1 -
+/orion/login 1 -
+/xmlpserver/login.jsp 1 -
+/cgi-bin/3tc8JuzDQDPY.shtml 1 -
+/blogs/htsrv/login.php 1 -
+/authadmin/ 1 -
+/php/login.php 1 -
+/_passwords/ 1 -
+/cgi-bin/README 1 -
+/ChangeLog 2 -
+/scripts/start.php 1 -
+/shop/RELEASE_NOTES.txt 1 -
+/phpmailer/composer.json 1 -
+/cgi-bin/index.rb 1 -
+/auth/led_auth.asp 1 -
+/PHPMailer-master/extras 1 -
+/bw/users/login.php 1 -
+/manageengine/EmployeeSearch.cc 1 -
+/_backup/ 1 -
+/PostNuke/docs/distribution/tour_page1.htm 1 -
+/adminuser/ 1 -
+/MSWSMTP/Common/Authentication/Logon.aspx 1 -
+/extras 1 -
+/typo3/ChangeLog 1 -
+/scripts/branding.js 1 -
+/cgi-bin/admin/ 1 -
+/shop/downloader/ 1 -
+/ControlManager/default.htm 1 -
+/scripts/downloader/ 2 -
+/scripts/ 2 -
+/zikula/docs/distribution/tour_page1.htm 1 -
+/cgi-bin/3tc8JuzDQDPY.php3 1 -
+/apoll/admin/lost-pass.php 1 http://invisual.pt/apoll/admin/lost-pass.php
+/crowd/console/login.action 1 -
+/Orbis/admin/login.php 1 -
+/scripts/users/login.php 1 -
+/cgi-bin/3tc8JuzDQDPY.inc 1 -
+/xampp/start.php 1 -
+/scripts/readme.txt 1 -
+/vbulletin/forum/content.php 1 -
+/scripts/ChangeLog 2 -
+/admin_/ 1 -
+/cgi-bin/ChangeLog 3 -
+/AdminWeb/ 1 -
+/_tests/ 1 -
+/admin-bak/ 1 -
+/console/faces/jsp/login/BeginLogin.jsp 1 -
+/scripts/3tc8JuzDQDPY.php 1 -
+/framework/ 1 -
+/LoginPage.do 1 -
+/users/login 1 -
+/apachesolr/ 1 -
+/PHPMailer-master/README 1 -
+/cgi-bin/3tc8JuzDQDPY.sh 1 -
+/cgi-bin/3tc8JuzDQDPY.php5 1 -
+/Liferay/web/guest 1 -
+/PHPMailer-master/lib/composer.json 1 -
+/composer.json 1 -
+/i_dont_exist 1 -
+/typo3/ 1 -
+/_vti_bin/ 1 -
+/3tc8JuzDQDPY.inc 1 -
+/adminweb/ 1 -
+/zikula/ 1 -
+/tdiary/index.rb 1 -
+/Admin_files/ 1 -
+/snews/readme.txt 1 -
+/orbis/admin/login.php 1 -
+/3tc8JuzDQDPY.php4 1 -
+/logon.jsp 1 -
+/lib/composer.json 1 -
+/docs/RELEASE-NOTES.txt 1 -
+/cgi-bin/mapserv 1 -
+/scripts/3tc8JuzDQDPY.shtml 1 -
+/PDG_Cart/ 1 -
+/snews/readme.html 1 -
+/README 1 -
+/adm/ 1 -
+/account/ 1 -
+/scripts/userlogin!default.action 1 -
+/scripts/admin/login.php 2 http://invisual.pt/scripts/admin/login.php
+/scripts/3tc8JuzDQDPY.php7 1 -
+/framework/docs/distribution/tour_page1.htm 1 -
+/scripts/index.html 1 -
+/cms/ 1 -
+/scripts/index.rb 1 -
+/.well-known/apple-app-site-association 20 -
+/administration/ 1 -
+/cgi-bin/readme.txt 1 -
+//admin/lost-pass.php 1 http://invisual.pt//admin/lost-pass.php
+/rt/index.html 1 -
+/scripts/3tc8JuzDQDPY.cfm 1 -
+/opensso/UI/Login.jsp 1 -
+/542254040.aspx 1 -
+/_vti_log/ 1 -
+/WebTrend/ 1 -
+/host-manager/html 1 -
+/tutos/ChangeLog 1 -
+/PostNuke/ 1 -
+/apoll/admin/login.php 1 http://invisual.pt/apoll/admin/login.php
+/3tc8JuzDQDPY.cfm 1 -
+/scripts/php/mytutos.php 1 -
+/forum/content.php 1 -
+/bitweaver/users/login.php 1 -
+/.well-known/dnt-policy.txt 17 -
+/.cobalt/ 1 -
+/cms/typo3_src/ChangeLog 1 -
+/cgi-bin/mapserv.exe 1 -
+/seopanel/ 1 -
+/tutos/php/mytutos.php 1 -
+/accounting/ 1 -
+/StoreDB/ 1 -
+/cgi-bin/php/login.php 1 -
+/scripts/EmployeeSearch.cc 1 -
+/typo3_src/ChangeLog 1 -
+/cgi-bin/web/guest 1 -
+/postnuke/docs/distribution/tour_page1.htm 1 -
+/poll/admin/login.php 1 http://invisual.pt/poll/admin/login.php
+/scripts/3tc8JuzDQDPY.cgi 1 -
+/apple-app-site-association 19 -
+/ccard/ 1 -
+/phpmailer/extras 1 -
+/bamboo/userlogin!default.action 1 -
+/phpmailer/README 1 -
+/sNews/readme.html 1 -
+/administrator/ 1 -
+/scripts/content.php 1 -
+/Zikula_Core/docs/distribution/tour_page1.htm 1 -
+/cms/ChangeLog 1 -
+/scripts/docs/distribution/tour_page1.htm 1 -
+/intruvert/jsp/admin/Login.jsp 1 -
+/cgi-mod/index.cgi 2 -
+/cbi-bin/ 1 -
+/login.aspx 1 -
+/3tc8JuzDQDPY.php3 1 -
+/cgi-bin/3tc8JuzDQDPY.cfm 1 -
+/login.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+8.23.52.10 41 41 311447 20170411183931
+185.45.12.211 13 13 554979 20170421102415
+150.70.172.237 1 1 44956 20170411024826
+54.255.228.250 1 1 29872 20170428221713
+176.58.89.182 1 1 29872 20170428221710
+79.79.148.103 1 1 29872 20170428221710
+185.25.84.27 1 1 29872 20170428221710
+54.77.74.58 1 1 29872 20170428221710
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20170404 1 1 9349 1
+20170406 5 5 1825 3
+20170407 8 8 47838 6
+20170408 6 6 56092 4
+20170409 10 10 93485 7
+20170410 4 4 37411 3
+20170411 8 8 110403 5
+20170421 13 13 554979 1
+20170428 5 5 149360 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 5
+0s-30s 25
+5mn-15mn 3
+15mn-30mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 53 850883 30 29
+/smart_aqua_eng/ 5 149360 5 5
+/webmail/ 1 33887 0 1
+/shop/ 1 26612 0 0
+END_SIDER

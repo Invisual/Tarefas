@@ -1,0 +1,474 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 200912 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2536                
+POS_VISITOR 7778                
+POS_DAY 11685               
+POS_DOMAIN 3250                
+POS_LOGIN 3662                
+POS_ROBOT 3817                
+POS_WORMS 4226                
+POS_EMAILSENDER 4357                
+POS_EMAILRECEIVER 4500                
+POS_SESSION 12091               
+POS_SIDER 12297               
+POS_FILETYPES 4635                
+POS_OS 4778                
+POS_BROWSER 4889                
+POS_SCREENSIZE 5105                
+POS_UNKNOWNREFERER 5179                
+POS_UNKNOWNREFERERBROWSER 5527                
+POS_ORIGIN 5777                
+POS_SEREFERRALS 5919                
+POS_PAGEREFS 6076                
+POS_SEARCHWORDS 6688                
+POS_KEYWORDS 6910                
+POS_MISC 2199                
+POS_ERRORS 7035                
+POS_CLUSTER 3518                
+POS_SIDER_404 7145                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100101081948 1 0 9458232039745
+FirstTime 20091203161007
+LastTime 20091231191217
+LastUpdate 20100101183622 1 0 0 0 0
+TotalVisits 113                 
+TotalUnique 97                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 97                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 19 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 17 5460536 2 2 1190515
+1 32 38 12147242 5 5 6815
+2 9 9 205294 2 2 3291
+3 3 7 112308 3 3 3524
+4 0 0 0 2 2 3291
+5 0 0 0 6 6 10106
+6 0 0 0 0 0 0
+7 13 24 2322602 5 5 3291
+8 0 0 0 0 0 0
+9 14 21 147545 5 5 6815
+10 31 50 9930003 6 9 4153972
+11 41 58 6726841 5 8 2206691
+12 47 68 11712468 6 20 3120840
+13 7 10 28707 1 1 0
+14 52 72 5212241 3 3 3524
+15 16 23 356624 6 6 3524
+16 27 34 3505261 10 11 105935
+17 84 100 24060698 12 14 4386599
+18 27 32 8404549 7 7 6582
+19 12 12 7270791 3 3 699
+20 4 4 13164 2 2 3524
+21 17 26 1622194 1 1 246
+22 27 31 18324342 6 6 2367017
+23 8 9 1214763 5 7 217311
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+pt 409 537 103050375
+es 24 29 11082747
+cn 17 29 1402578
+ma 7 11 1974766
+us 7 10 32136
+co 5 9 1154513
+nl 4 6 19630
+jp 2 2 6588
+br 2 2 6582
+fr 2 3 17547
+se 2 2 6582
+at 2 3 17547
+tr 1 1 3291
+gb 1 1 3291
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 18 3375846 20091231163937 0
+no_user_agent 16 6436679 20091222152537 0
+bot[+:,\.\;\/\\-] 7 23037 20091231141913 0
+crawl 7 122181 20091219175644 0
+spider 3 9873 20091228054600 0
+slurp 3 9873 20091230014935 0
+msnbot 1 3291 20091228235013 0
+robot 1 3291 20091227051711 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 198 474130 0 0
+js 99 206912 0 0
+jpg 4 105340 0 0
+gif 57 5809914 0 0
+swf 287 112181877 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 108
+winxp 398
+winlong 97
+win2000 9
+Unknown 19
+win98 1
+win2008 13
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+firefox2.0.0.11 11
+msie6.0 127
+msie8.0 253
+firefox3.5.6 21
+firefox2.0.0.20 3
+firefox3.0.16 2
+mozilla 2
+chrome 12
+msie7.0 100
+firefox2.0.0.16 39
+Unknown 17
+safari 58
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Java/1.6.0_15 20091224235147
+Mozilla/5.0_(compatible;_DNS-Digger-Explorer/1.02;__http://www.dnsdigger.com) 20091230164214
+Java/1.6.0_14 20091226132701
+MLBot_(www.metadatalabs.com/mlbot) 20091227162036
+Java/1.6.0_17 20091227174959
+Shockwave_Flash 20091227184953
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Java/1.6.0_15 20091224235147
+Java/1.6.0_14 20091226132701
+MLBot_(www.metadatalabs.com/mlbot) 20091227162036
+Java/1.6.0_17 20091227174959
+Shockwave_Flash 20091227184953
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 108 131
+From1 0 0
+From2 17 17
+From3 54 54
+From4 306 443
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 17 17
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://www.opticanascimento.pt/menu.swf 37 37
+http://www.opticanascimento.pt/opticanasc.swf 4 4
+http://www.drame.cn/web/page_3.htm 3 3
+http://www.netculture.gr/showcategory.asp 2 2
+http://www.studiolightworld.com/pt/referrals 2 2
+http://www.opticanascimento.pt 1 1
+http://www.fontenova.pt 1 1
+http://www.litoralmagazine.com/links.swf 1 1
+http://www.litoralmagazine.com/Magazine%20Flip%20Book.swf 1 1
+http://www.jabric.pt 1 1
+http://www.grenos.pt/swf/menu.swf 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+invisual 8
+invisual+aveiro 5
+in+visual 3
+http+//www.invisual-am.pt/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+invisual 13
+aveiro 5
+visual 3
+in 3
+//www.invisual-am.pt/ 1
+http 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 5 7814669
+301 32 5372
+404 35 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 8
+/google_sitemap.xml 1 -
+/sitemap.xml 1 -
+/eurogres/natal/AC_RunActiveContent.js 4 http://www.invisual.pt/eurogres/natal/eurogres.html
+/robots.txt 25 -
+/sitemap/ 1 -
+/AC_RunActiveContent.js 1 http://www.invisual.pt/
+/application/x-shockwave-flash 1 http://www.invisual.pt/AC_RunActiveContent.js
+/eurogres/natal/natal.gif 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 97
+217.129.140.60 74 120 9037566 20091222102939
+89.214.113.87 34 36 14351332 20091222181047
+85.241.23.195 30 45 72573 20091223073741
+77.54.95.216 28 30 15070407 20091230124841
+93.108.66.77 26 30 18341797 20091222223023
+89.155.164.198 23 27 7624677 20091226022148
+188.81.44.246 21 25 5698876 20091226171429
+62.93.173.228 18 20 11053302 20091231191217
+62.28.28.43 12 18 4688608 20091222105438
+87.103.76.46 11 15 1980747 20091221173601
+188.80.112.3 10 12 2487991 20091228010536
+84.90.162.137 10 12 4599059 20091222185522
+85.240.195.15 10 12 5444127 20091224004807
+89.155.165.37 9 11 2145586 20091229174926
+93.102.41.42 9 13 2347282 20091220164723
+217.129.29.177 8 10 2326111 20091225231450
+93.102.98.242 8 14 454015 20091221215500
+196.12.242.168 7 11 1974766 20091221174007
+85.241.162.15 7 11 1267343 20091222105426
+77.211.92.228 6 9 29445 20091226132700
+218.74.4.160 6 12 1168089 20091230074919
+93.102.70.71 5 5 2229989 20091222015318
+186.80.72.250 5 9 1154513 20091222070618
+93.102.83.244 5 7 1127954 20091219162133
+87.196.249.87 5 7 1151782 20091222124906
+59.45.177.28 4 4 3291 20091227184953
+193.37.153.37 2 3 17547 20091222114748
+150.70.84.155 2 2 6588 20091222182546
+217.129.26.127 1 1 3291 20091229134156
+85.244.51.32 1 1 3291 20091222140146
+188.80.151.34 1 1 3291 20091231011738
+95.95.149.231 1 1 3291 20091222162828
+87.103.63.196 1 1 3291 20091222161527
+84.90.26.185 1 1 3291 20091221220654
+216.104.15.134 2 2 6588 20091222125637
+188.80.247.195 1 1 3291 20091221154338
+193.136.203.172 1 1 3291 20091222132831
+85.240.162.246 1 1 3291 20091223122415
+194.65.92.189 1 1 3291 20091228180454
+125.39.134.47 3 7 112308 20091222032457
+217.129.207.155 1 1 3291 20091222201124
+82.155.102.143 2 3 17547 20091222125055
+194.65.103.1 2 3 17547 20091222114931
+84.91.224.199 2 4 112308 20091228124806
+89.155.160.10 1 1 3291 20091226005757
+82.154.58.121 1 1 3291 20091227205624
+61.157.185.99 1 1 3291 20091224022448
+77.164.117.126 2 3 9815 20091227174959
+87.196.243.27 1 1 3291 20091223115420
+85.241.21.235 1 1 3291 20091226142603
+187.20.118.190 1 1 3291 20091230141801
+85.241.104.205 1 1 3291 20091228112236
+85.241.227.203 1 1 3291 20091228231543
+93.108.195.241 1 1 3291 20091222191106
+217.129.35.156 2 3 17547 20091222114850
+93.102.48.56 2 4 112308 20091230144142
+85.138.195.23 1 1 3291 20091223121039
+217.129.209.196 1 1 3291 20091227003943
+81.193.29.152 2 3 18834 20091221174053
+85.139.171.200 1 1 3291 20091222122228
+216.104.15.142 1 3 9763 20091221003957
+85.139.247.113 1 1 3291 20091222170246
+93.102.68.213 1 1 3291 20091221155501
+85.241.162.154 1 1 3291 20091230091454
+216.104.15.130 2 2 5970 20091222163645
+84.90.26.16 1 1 3291 20091226170808
+62.29.86.85 1 1 3291 20091226142959
+62.194.147.95 2 3 9815 20091224235146
+193.136.173.41 2 4 112308 20091223154402
+81.84.2.254 2 2 3291 20091228175115
+189.59.49.250 1 1 3291 20091222144053
+213.22.108.189 1 1 3291 20091230161607
+87.196.117.80 1 1 3291 20091224091357
+87.196.156.100 1 1 3291 20091229180518
+81.193.156.160 2 3 17547 20091222114711
+62.160.117.198 2 3 17547 20091222114253
+85.240.33.80 1 1 3291 20091229200137
+217.129.136.190 1 1 3291 20091224171254
+85.138.206.156 1 1 3291 20091230194302
+81.193.168.190 1 1 3291 20091229213229
+80.240.238.34 2 3 17547 20091222122832
+77.54.61.245 1 1 3291 20091228205609
+188.80.106.98 1 1 3291 20091222233840
+216.104.15.138 1 2 6524 20091223175903
+193.137.168.116 1 1 3291 20091221142649
+85.242.245.24 2 2 6582 20091230165700
+84.39.77.230 1 1 3291 20091229211937
+66.219.58.34 1 1 3291 20091227162036
+213.89.137.211 2 2 6582 20091230164214
+188.80.109.172 1 1 3291 20091229140330
+81.193.29.206 1 1 3291 20091228175656
+89.180.248.145 2 3 17547 20091228112033
+85.241.157.148 1 1 3291 20091223175351
+213.22.222.94 1 1 3291 20091221145410
+220.189.39.181 2 4 112308 20091229123332
+86.146.213.234 1 1 3291 20091228222856
+119.136.96.213 1 1 3291 20091224122146
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20091203 3 3 609 1
+20091219 5 7 1127954 1
+20091220 9 13 2347282 1
+20091221 101 157 9562950 16
+20091222 169 225 52072776 32
+20091223 9 13 131996 7
+20091224 18 22 5476921 7
+20091225 10 13 2335926 3
+20091226 50 59 13346532 7
+20091227 9 10 22979 6
+20091228 22 27 2640883 10
+20091229 18 22 2280931 10
+20091230 43 53 16373841 10
+20091231 19 21 11056593 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 6
+0s-30s 78
+30s-2mn 8
+2mn-5mn 6
+15mn-30mn 7
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 55
+/ 117 329942 93 68
+/eurogres/natal/eurogres.html 45 50898 15 1
+/eurogres/natal/home.swf 41 256120 0 14
+/idioma.swf 36 3045087 0 6
+/home.swf 25 20242960 0 2
+/pt.html 25 65780 0 0
+/swf/borbuletas.swf 23 456703 1 1
+/swf/internet.swf 16 15476695 0 4
+/swf/design.swf 14 3236556 0 1
+/swf/contactos.swf 13 88752 0 4
+/swf/empresa.swf 11 1081650 0 2
+/swf/eventos.swf 9 6420636 0 1
+/swf/fotografia.swf 6 3117738 0 0
+/swf/multimedia.swf 6 1425186 0 1
+/swf/design/linhasgraficas.swf 6 14161212 0 0
+/swf/design/embalagens.swf 5 1059700 0 1
+/swf/design/grandesformatos.swf 5 10060575 0 0
+/swf/fotografia/gastronomia.swf 4 2488636 0 1
+/swf/fotografia/automovel.swf 4 2058440 0 0
+/swf/fotografia/objectos.swf 4 2186164 0 0
+/swf/design/insercoes.swf 4 7101788 0 0
+/swf/videos.swf 3 24180 1 0
+/eurogres/eurogres.html 3 8034 2 0
+/eurogres/home.swf 3 133932 0 0
+/eng/ 3 9867 0 0
+/swf/multimedia/mercentro.swf 1 36218 0 0
+/esp/home.swf 2 2021730 0 0
+/eng/swf/eventos.swf 1 712779 0 1
+/eng/swf/multimedia/lf08_01.swf 1 36226 0 0
+/eng/swf/contactos.swf 1 7196 0 1
+/eurogres/natal/news_eurogres.html 1 1887 0 1
+/swf/multimedia/lf.swf 2 707166 0 0
+/swf/multimedia/fm07.swf 1 36218 0 0
+/swf/eventos/litoraldesign.swf 1 1222510 0 0
+/eng/swf/borbuletas.swf 3 72111 0 0
+/esp/ 2 6578 1 0
+/eng/swf/empresa.swf 1 107560 0 0
+/swf/multimedia/biju_01.swf 3 108657 0 0
+/ClearExternalAll.swf 3 16311 0 0
+/swf/multimedia/lf08_01.swf 2 72452 0 0
+/eng/swf/multimedia.swf 1 237272 0 0
+/swf/fotografia/espacos.swf 3 1892733 0 0
+/swf/eventos/smart.swf 2 2557674 0 1
+/eng/home.swf 3 3032337 0 0
+/eng/ClearExternalAll.swf 1 5437 0 1
+/esp/swf/borbuletas.swf 1 24037 0 1
+/swf/eventos/biju.swf 2 2343968 0 0
+/eurogres/natal/ 2 1144 0 0
+/swf/multimedia/filinox.swf 2 514126 0 0
+/swf/multimedia/lf07_01.swf 1 36222 0 0
+/eng/swf/videos.swf 1 8060 0 0
+/swf/multimedia/lf07_02.swf 3 108675 0 0
+/swf/multimedia/serie7.swf 2 642138 0 0
+/swf/eventos/bmw7.swf 3 826968 0 0
+/swf/multimedia/mini.swf 2 672386 0 0
+END_SIDER

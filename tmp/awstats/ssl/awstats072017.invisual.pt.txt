@@ -1,0 +1,664 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201707 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2670                
+POS_VISITOR 16657               
+POS_DAY 16895               
+POS_DOMAIN 3308                
+POS_LOGIN 3582                
+POS_ROBOT 3737                
+POS_WORMS 4058                
+POS_EMAILSENDER 4189                
+POS_EMAILRECEIVER 4332                
+POS_SESSION 17048               
+POS_SIDER 17205               
+POS_FILETYPES 4467                
+POS_DOWNLOADS 4589                
+POS_OS 4637                
+POS_BROWSER 4738                
+POS_SCREENSIZE 4843                
+POS_UNKNOWNREFERER 4917                
+POS_UNKNOWNREFERERBROWSER 5037                
+POS_ORIGIN 5152                
+POS_SEREFERRALS 5286                
+POS_PAGEREFS 5430                
+POS_SEARCHWORDS 5578                
+POS_KEYWORDS 5730                
+POS_MISC 2334                
+POS_ERRORS 5789                
+POS_CLUSTER 3438                
+POS_SIDER_404 5916                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170801015233 1 0 12112563593259
+FirstTime 0
+LastTime 20170729024124
+LastUpdate 20170802011939 1 0 0 0 0
+TotalVisits 5                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 6 6 190242
+1 0 0 0 2 2 45206
+2 26 26 312563 10 10 211942
+3 0 0 0 5 5 97877
+4 0 0 0 9 14 70453
+5 25 25 268484 13 13 116335
+6 0 0 0 1 2 7941
+7 19 19 764329 177 177 2856640
+8 4 4 190236 14 15 76626
+9 0 0 0 5 5 67616
+10 0 0 0 12 12 98240
+11 0 0 0 3 4 53159
+12 0 0 0 8 8 158386
+13 0 0 0 9 12 102665
+14 0 0 0 9 11 138895
+15 0 0 0 6 6 15683
+16 0 0 0 2 2 55383
+17 0 0 0 4 4 30581
+18 0 0 0 4 5 30698
+19 0 0 0 6 7 15102
+20 53 57 2526200 575 593 10141809
+21 0 0 0 4 4 99581
+22 0 0 0 6 7 116346
+23 0 0 0 9 9 197035
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+ua 53 57 2526200
+lt 51 51 581047
+se 19 19 764329
+us 4 4 190236
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 38 1770604 20170728200649 0
+googlebot 15 1770 20170730132041 15
+bot[\s_+:,\.\;\/\\-] 5 39726 20170721045119 1
+netcraft 1 45200 20170709102502 0
+unknown 1 153 20170721200306 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+css 4 526011 0 0
+Unknown 1 58707 0 0
+html 125 3475571 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+unix 76 72
+win8.1 51 51
+Unknown 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+netscape5.0 76 72
+Unknown 4 4
+chrome54.0.2840.99 51 51
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Python-urllib/2.7 20170728080148
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Python-urllib/2.7 20170728080148
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 127 131
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+500 5 26832
+404 557 13109265
+301 310 772
+400 1 119
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 381
+/portfolio_cat/impressao/non-existent-1728297601 1 -
+/foo.php 1 -
+/lua/onlinehelp/LUHelp0002.html 2 -
+/forums/ 1 -
+/wiki/login.action 1 -
+/manageengine/EmployeeSearch.cc 1 -
+/3/ 1 -
+/comments/feed/non-existent-1874520115 1 -
+/xampp/start.php 2 -
+/invisual-branding-solutions/feed/non-existent-861753094 1 -
+/PostNuke/themes/SeaBreeze/style/style.css 1 -
+/foo.shtml 1 -
+/9/ 1 -
+/status/hostgroup 2 -
+/conteudo/plugins/uncode-daves-wordpress-live-search/js/non-existent-1108014797 1 -
+/portfolio_cat/paginacao/non-existent-1092846737 1 -
+/SeoPanel/ 2 -
+/userlogin!default.action 1 -
+/xenforo/ 1 -
+/timesheet/about-show.do 1 -
+/Backburner/ 1 -
+/portfolio/carne-marinhoa/non-existent-1107856355 1 -
+/admin.php 2 -
+/index.jsp 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 2 -
+/2/ 1 -
+/cgi-bin/login.jsp 1 -
+/PHPMailer-master/extras 1 -
+/cgi-bin/index.rb 1 -
+/app 2 -
+/5/ 1 -
+/web/magmi.php 1 -
+/portfolio_cat/eventos/non-existent-2037624302 1 -
+/genealogie_sql/Index2.php 2 -
+/scripts/admin/login.php 1 -
+/index.rb 1 -
+/leap/ 2 -
+/portfolio/clinicas-persona-identidade-visual/non-existent-1290805794 1 -
+/login.html 4 -
+/cgi-bin/README.txt 1 -
+/flashlight/README.txt 1 -
+/login.cgi 2 -
+/main.html 1 -
+/scripts/start.php 2 -
+/login.action 1 -
+/cms/typo3_src/ChangeLog 1 -
+/feed/index.rb 1 -
+/cgi-bin/start.php 2 -
+/index.html 1 -
+/.well-known/assetlinks.json 20 -
+/downloader/ 1 -
+/portfolio_cat/ativacao-de-marca/web/guest 1 -
+/conteudo/plugins/LayerSlider/static/js/chksession.cgi 1 -
+/postnuke/docs/distribution/tour_page1.htm 1 -
+/scripts/changelog 2 -
+/ecommerce/admin/login.php 1 -
+/README 1 -
+/tdiary/index.rb 1 -
+/portfolio_cat/assessoria/non-existent-1564122756 1 -
+/NonExistant1481545847/ 1 -
+/scripts/chklogin.cgi 1 -
+/rtm.log 1 -
+/portfolio_cat/web-design/evalsmsi.php 1 -
+/forum/content.php 1 -
+/portfolio/apartamento-civilria/awstats.pl 1 -
+/magento/RELEASE_NOTES.txt 1 -
+/cgi-bin/main.html 1 -
+/icingaweb2/authentication/login 1 -
+/portfolio_cat/paginacao/web/guest 1 -
+/web/index.html 2 -
+/seopanel/ 2 -
+/wp-json/index.php 4 -
+/configurations.do 2 -
+/Siestta/ 1 -
+/siestta/ 1 -
+/site_admin/ 2 -
+/xf/ 1 -
+/cgi-bin/mapserv.exe 2 -
+/portfolio/festival-dos-canais/index.html 1 -
+/cgi-bin/web/guest 1 -
+/portfolio/ls-medicall/non-existent-1766877190 1 -
+/cgi-bin/mapserv 2 -
+/portfolio/salpoente/chksession.cgi 1 -
+/cgi-bin/web_index.cgi 2 -
+/cgi-bin/about-show.do 1 -
+/dmanager/php/login.php 1 -
+/NonExistant1125564719/ 1 -
+/portfolio_cat/embalagem/non-existent-1293973584 1 -
+/conteudo/plugins/i-recommend-this/js/non-existent-884128537 1 -
+/portfolio_cat/ativacao-de-marca/chklogin.cgi 1 -
+/lYq0On4ABKyj.inc 1 -
+/icfb/ 2 -
+/scripts/login.php 1 -
+/roller/index.jsp 1 -
+/docman/admin.php 2 -
+/tcpbx/ 2 -
+/users/login 2 -
+/portfolio/civilria-web-design/non-existent-223326602 1 -
+/portfolio/apartamento-civilria/start.php 1 -
+/cgi-bin/index.html 1 -
+/bamboo/userlogin!default.action 1 -
+/en-US/account/login 1 -
+/Login 2 -
+/apache/openmeetings/signin 1 -
+/scripts/index.rb 1 -
+/bitweaver/users/login.php 1 -
+/authentication/login 1 -
+/Agents/ 1 -
+/portfolio/festival-dos-canais/start.php 1 -
+/Admin_files/ 1 -
+/changelog 1 -
+/cgi-bin/EmployeeSearch.cc 1 -
+/users/login.php 1 -
+/scripts/ 2 -
+/opensso/UI/Login.jsp 2 -
+/login 14 -
+/scripts/index.html 1 -
+/rainloop/ 2 -
+/8/ 1 -
+/cgi-bin/ 3 -
+/scripts/about-show.do 1 -
+/lib/CHANGES 1 -
+/10/ 1 -
+/portfolio/iorc/non-existent-1478281602 1 -
+/awstats/wwwroot/cgi-bin/awstats.pl 1 -
+/guestbook.php 2 -
+/contactos/non-existent-735804259 1 -
+/cgi-bin/guestbook.php 1 -
+/PHPMailer/composer.json 1 -
+/scripts/authentication/login 1 -
+/lib 1 -
+/scripts/login.jsp 1 -
+/sNews/readme.txt 1 -
+/logon.jsp 2 -
+/PassTrixMain.cc 2 -
+/index.htm 2 -
+/evalsmsi/evalsmsi.php 2 -
+/comments/feed/index.jsp 1 -
+/7/ 1 -
+/feed/start.php 1 -
+/hudson/ 1 -
+/php/login.php 1 -
+/wp-includes/js/non-existent-62263804 1 -
+/.cobalt/ 1 -
+/DMC/titleBar.php 1 -
+/portfolio_cat/video/non-existent-1239846851 1 -
+/invisual/non-existent-1422926129 1 -
+/scripts/ReleaseNotes.txt 1 -
+/cgi-bin/userlogin!default.action 1 -
+/snews/readme.html 1 -
+/portfolio_cat/identidade/EmployeeSearch.cc 1 -
+/discloser/login.php 2 -
+/vbulletin/content.php 1 -
+/invisual-branding-solutions/feed/index.rb 1 -
+/titleBar.php 2 -
+/ChangeLog 2 -
+/portfolio/festival-dos-canais/awstats.pl 1 -
+/portfolio/festival-dos-canais/Index2.php 1 -
+/conteudo/plugins/vcparticlesbackground/non-existent-1448530115 1 -
+/Microsoft-Server-ActiveSync 1 -
+/lYq0On4ABKyj.asp 1 -
+/login.jsp 1 -
+/ui/modules/login/ 2 -
+/partymgr/control/main 1 -
+/icinga/cgi-bin/config.cgi 1 -
+/ntop-bin/dashboard.cgi 2 -
+/scripts/EmployeeSearch.cc 1 -
+/WebConsole/Login.jsp 2 -
+/portfolio_cat/assessoria/chksession.cgi 1 -
+/corporate/webpages/login.jsp 2 -
+/web/guest 1 -
+/cgi-bin/admin/login.php 1 -
+/cgi-bin/login.rol 1 -
+/cgi-bin/signin 1 -
+/portfolio/unimadeiras-video-institucional-2016/non-existent-97241435 1 -
+/main/web/status/ 2 -
+/kanboard/ 2 -
+/docs/distribution/tour_page1.htm 1 -
+/portfolio/clinicas-persona-identidade-visual/chksession.cgi 1 -
+/wp-json/oembed/1.0/index.php 3 -
+/wp-json/non-existent-1169658607 1 -
+/backend/ 2 -
+/postnuke/ 1 -
+/scripts/awstats.pl 1 -
+/cgi-bin/ChangeLog 1 -
+/wp-json/oembed/1.0/non-existent-57281314 1 -
+/trc/ 2 -
+/scripts/index.jsp 1 -
+/Site/Pages/login.aspx 2 -
+/account/login 1 -
+/scripts/web/guest 1 -
+/4/ 1 -
+/cgi-bin/titleBar.php 1 -
+/scripts/php/login.php 1 -
+/kallithea/ 1 -
+/cgi-bin/web/magmi.php 1 -
+/Documentation/misc/about.jsp 2 -
+/Agent/ 1 -
+/MNU_access_login_top.htm 2 -
+/content.php 1 -
+/apple-app-site-association 21 -
+/genealogie/Index2.php 2 -
+/PHPMailer/lib/composer.json 1 -
+/license/records 2 -
+/wp-json/oembed/1.0/evalsmsi.php 1 -
+/RELEASE_NOTES.txt 1 -
+/cgi-bin/login.action 1 -
+/lYq0On4ABKyj.pl 1 -
+/scripts/php/mytutos.php 1 -
+/scripts/main.html 1 -
+/cgi-bin/config.cgi 1 -
+/wps/portal/Home/Welcome/ 2 -
+/lYq0On4ABKyj.shtml 1 -
+/chklogin.cgi 1 -
+/express/ 2 -
+/01.htm 2 -
+/<SCRIPT>foo</SCRIPT> 1 -
+/magento/admin/ 1 -
+/SilverStream/Meta/Tables/ 1 -
+/conteudo/plugins/vcparticlesbackground/_3rdparty/particles.js/non-existent-926904664 1 -
+/crowd/console/login.action 2 -
+/typo3_src/ChangeLog 1 -
+/login/ 2 -
+/magento/downloader/ 1 -
+/postnuke/themes/SeaBreeze/style/style.css 1 -
+/lYq0On4ABKyj.html 1 -
+/portfolio_cat/video/EmployeeSearch.cc 1 -
+/README.txt 1 -
+/feed/evalsmsi.php 1 -
+/cgi-bin/index.jsp 2 -
+/.well-known/apple-app-site-association 18 -
+/scripts/signin 1 -
+/documentation.html 2 -
+/chksession.cgi 1 -
+/PostNuke/docs/distribution/tour_page1.htm 1 -
+/scripts/login.action 1 -
+/scripts/userlogin!default.action 1 -
+/portfolio_cat/paginacao/chklogin.cgi 1 -
+/cgi-bin/admin.php 1 -
+/portfolio/apartamento-civilria/non-existent-1951448228 1 -
+/cgi-bin/ReleaseNotes.txt 1 -
+/admin/login.php 1 -
+/console/faces/jsp/login/BeginLogin.jsp 2 -
+/portfolio_cat/fotografia/non-existent-213125116 1 -
+/cgi-bin/chksession.cgi 1 -
+/scripts/web/magmi.php 1 -
+/foo.thtml 1 -
+/jag/guestbook.php 1 -
+/portfolio_cat/ativacao-de-marca/non-existent-711079883 1 -
+/EmployeeSearch.cc 1 -
+/kanboard/jsonrpc.php 1 -
+/opennms/login.jsp 1 -
+/portfolio_cat/identidade/non-existent-1524956571 1 -
+/lYq0On4ABKyj.cgi 1 -
+/conteudo/plugins/LayerSlider/static/js/non-existent-1672724385 1 -
+/1/ 1 -
+/comments/feed/index.rb 1 -
+/conteudo/uploads/2016/09/ 1 -
+/cgi-bin/login.php 1 -
+/conteudo/uploads/2016/09/non-existent-574915955 1 -
+/portfolio/ekena-bay-2017/non-existent-1497731732 1 -
+/foo.cfm 1 -
+/index.php5 2 -
+/portfolio/festival-dos-canais/non-existent-1333491446 1 -
+/ucmdb-ui/login_page.jsp 2 -
+/Administration/ 1 -
+/conteudo/plugins/LayerSlider/static/js/ 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi 2 -
+/lYq0On4ABKyj.htm 1 -
+/siteadmin/ 2 -
+/scripts/guestbook.php 1 -
+/jpgraph/docportal/index.html 1 -
+/cgi-bin/cgi-bin/config.cgi 1 -
+/lib/composer.json 1 -
+/.well-known/dnt-policy.txt 1 -
+/portfolio/salpoente/non-existent-1000559913 1 -
+/feed/awstats.pl 1 -
+/cms/ 2 -
+/PHPMailer-master/lib/composer.json 1 -
+/invoiceplane/sessions/login 2 -
+/Liferay/web/guest 1 -
+/conteudo/plugins/contact-form-7/includes/js/non-existent-73596911 1 -
+/forum/ 1 -
+/auth 2 -
+/portfolio_cat/assessoria/chklogin.cgi 1 -
+/roller-ui/index.jsp 1 -
+/scripts 2 -
+/wsman 2 -
+/php/mytutos.php 1 -
+/clientes/non-existent-1876857034 1 -
+/sNews/readme.html 1 -
+/AdminWeb/ 1 -
+/about-show.do 1 -
+/opendocman/admin.php 1 -
+/LoginPage.do 2 -
+/geneald/Index2.php 2 -
+/jsonrpc.php 1 -
+/Security/login 2 -
+/system/login 2 -
+/magento/ 1 -
+/CHANGES 1 -
+/scripts/admin.php 1 -
+/portfolio/festival-dos-canais/changelog 1 -
+/tutos/ChangeLog 1 -
+/roller/login.rol 1 -
+/ControlManager/default.htm 2 -
+/orion/login 2 -
+/scripts/README.txt 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_105923512 1 -
+/cgi-bin/changelog 2 -
+/zport/acl_users/cookieAuthHelper/login_form 2 -
+/composer.json 1 -
+/tutos/php/mytutos.php 1 -
+/accounting/control/main 1 -
+/lib/README 1 -
+/auth/login 2 -
+/cms/ChangeLog 1 -
+/login.xhtml 2 -
+/oscmax/catalog/admin/login.php 1 -
+/admin/ 2 -
+/AdvWebAdmin/ 1 -
+/session_login.cgi 2 -
+/evalsmsi.php 2 -
+/bw/users/login.php 1 -
+/roller-ui/login.rol 1 -
+/cgi-bin/php/mytutos.php 1 -
+/icinga/main.html 1 -
+/JAG/guestbook.php 1 -
+/signin 1 -
+/gc/flash.php 2 -
+/intruvert/jsp/admin/Login.jsp 2 -
+/feed/signin 1 -
+/CVS/Entries 1 -
+/oscmax/admin/login.php 1 -
+/commoncgi/servlet/CCGIServlet 2 -
+/arsys/shared/login.jsp 2 -
+/start.php 1 -
+/jpgraph/index.html 1 -
+/servlet/Login 2 -
+/scripts/Index2.php 1 -
+/feed/non-existent-1230759149 1 -
+/wcm/index.jsp 1 -
+/cgi-bin/Index2.php 1 -
+/flash/README.txt 1 -
+/dtlt/home.html 2 -
+/sphider/changelog 2 -
+/ReleaseNotes.txt 1 -
+/webtools/control/main 1 -
+/nuxeo/login.jsp 2 -
+/scripts/login.rol 1 -
+/cgi-mod/index.cgi 4 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_1338241786 1 -
+/asbru/index.jsp 1 -
+/wp-json/index.jsp 1 -
+/icinga/authentication/login 1 -
+/cgi-bin/MANGA/index.cgi 2 -
+/cgi-bin/chklogin.cgi 1 -
+/OperaLogin/Welcome.do 2 -
+/xmlpserver/login.jsp 2 -
+/login.php 1 -
+/openmeetings/signin 1 -
+/cgi-bin/non-existent-1147990666 1 -
+/scripts/titleBar.php 1 -
+/cgi-bin/awstats.pl 1 -
+/scripts/chksession.cgi 1 -
+/lYq0On4ABKyj.sh 1 -
+/mail/ 2 -
+/cgi-bin/php/login.php 1 -
+/portfolio_cat/web-design/non-existent-1550825465 1 -
+/scripts/evalsmsi.php 2 -
+/snews/readme.txt 1 -
+/6/ 1 -
+/vbulletin/forum/content.php 1 -
+/cgi-bin/evalsmsi.php 2 -
+/confluence/login.action 1 -
+/readme.txt 1 -
+/PHPMailer-master/README 1 -
+/cgi-bin/authentication/login 1 -
+/PHPMailer-master/composer.json 1 -
+/foo.jsp 1 -
+/Login.jsp 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+194.54.80.110 53 57 2526200 20170721200952
+185.80.128.131 51 51 581047 20170729024124
+80.67.10.206 19 19 764329 20170727075334
+34.229.12.53 4 4 190236 20170728080148
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20170721 53 57 2526200 1
+20170727 19 19 764329 1
+20170728 29 29 458720 2
+20170729 26 26 312563 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 3
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 32
+/ 56 2336606 5 3
+/webmail/ 4 135548 0 0
+/portfolio_cat/assessoria/ 3 53341 0 0
+/portfolio/apartamento-civilria/ 3 72479 0 0
+/portfolio_cat/embalagem/ 3 48006 0 0
+/portfolio_cat/fotografia/ 3 26189 0 0
+/portfolio_cat/video/ 3 71205 0 0
+/portfolio/ls-medicall/ 3 54625 0 0
+/portfolio/festival-dos-canais/ 3 54295 0 0
+/portfolio_cat/paginacao/ 3 55052 0 0
+/comments/feed/ 3 2439 0 0
+/portfolio/salpoente/ 3 56798 0 0
+/portfolio/clinicas-persona-identidade-visual/ 3 52714 0 0
+/portfolio/civilria-web-design/ 2 76902 0 0
+/portfolio_cat/web-design/ 2 54725 0 0
+/wp-json/oembed/1.0/ 2 3046 0 0
+/portfolio/ekena-bay-2017/ 2 18738 0 0
+/feed/ 2 1834 0 0
+/contactos/ 2 16966 0 0
+/portfolio/carne-marinhoa/ 2 17986 0 0
+/portfolio_cat/identidade/ 2 77617 0 1
+/invisual/ 2 19276 0 0
+/portfolio_cat/ativacao-de-marca/ 2 17576 0 0
+/portfolio/iorc/ 2 18902 0 0
+/portfolio/unimadeiras-video-institucional-2016/ 2 19028 0 0
+/wp-json 1 58707 0 0
+/wp-json/ 1 58707 0 0
+/wp-json/oembed/1.0 1 1523 0 0
+/clientes/ 2 19276 0 0
+/portfolio_cat/impressao/ 2 17448 0 1
+/portfolio_cat/eventos/ 2 17416 0 0
+/invisual-branding-solutions/feed/ 1 831 0 0
+END_SIDER

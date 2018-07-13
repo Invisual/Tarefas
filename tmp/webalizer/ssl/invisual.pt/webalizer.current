@@ -1,0 +1,995 @@
+# Webalizer V2.23-08 Incremental Data - 02/15/2018 05:39:41
+2018 2 15 5 39 41
+5344 2099 145 156 28 30 117204345 2550 281 0
+6 2 1252 1 15
+254 235 5871101 16 27 18
+963 317 20611131 19 502 24
+47 37 747596 14 16 12
+56 47 1087173 11 13 10
+452 419 10851636 24 41 22
+144 119 3484860 24 35 26
+1558 331 34289818 21 906 37
+57 44 936426 11 15 14
+57 45 996920 14 21 16
+64 55 1889084 10 13 12
+50 41 997004 11 11 10
+175 161 5019280 18 22 18
+1353 153 27626514 19 897 37
+96 81 2439568 18 24 19
+18 14 356234 6 7 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+52 47 915590 9
+64 48 1169485 24
+121 99 2015626 28
+53 39 864166 12
+12 5 52251 6
+57 51 1180953 11
+64 45 1553360 18
+28 12 305827 16
+327 33 6698587 235
+511 162 11049858 259
+167 157 4610897 20
+660 37 13687179 491
+825 258 18962458 411
+67 52 1435186 9
+49 43 1067495 9
+172 160 4800498 17
+250 244 7087450 21
+219 202 5410481 19
+190 183 4238950 14
+17 11 343918 8
+48 43 1530048 11
+67 59 1410136 11
+60 51 1029062 11
+1264 58 25784884 880
+1
+0
+0
+2099
+0
+0
+0
+0
+0
+0
+0
+1183
+46
+0
+2
+0
+0
+0
+6
+0
+36
+1970
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+# -urls- 
+/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js
+0 21 3417233155821823354 376719 0 0
+/wp-content/themes/uncode/library/js/min/uncode.gmaps.min.js
+0 5 13114764896425356848 6420 0 0
+/wp-content/uploads/2015/09/BMW_GREY-1.png
+0 12 0 63924 0 0
+/wp-content/uploads/2014/12/filipe_feio_.jpg
+0 1 7958824813261225984 14430 0 0
+/dia-mundial-da-crianca-litoral-magazine/
+0 1 8026098927956656128 11004 1 1
+/wp-content/uploads/2018/01/miniatua-home-persona-uai-193x258.jpg
+0 10 7310237408949251385 89550 0 0
+/wp-content/plugins/i-recommend-this/js/dot_irecommendthis.js
+0 21 4121125952932610304 6027 0 0
+/invisual-branding-solutions/feed/
+0 2 28870880 985 2 0
+/wp-content/uploads/2017/10/posters2.jpg
+0 1 0 69689 0 0
+/wp-content/uploads/2017/10/posters2-uai-258x175.jpg
+0 1 0 10235 0 0
+/wp-content/uploads/2017/10/EK_miniaturaB.jpeg
+0 3 0 46488 0 0
+/wp-content/uploads/2018/01/Portfolio-header-RENAULT-uai-258x155.jpg
+0 1 0 2609 0 0
+/portefolios/ekena-bay/
+0 2 0 26552 1 1
+/wp-content/uploads/2018/01/miniatura-portefolio.jpg
+0 2 0 30212 0 0
+/wp-content/uploads/2014/12/nuno-carvalho-ceo.jpg
+0 1 0 25122 0 0
+/webmail/htdocs/login.php
+0 3 0 102231 0 0
+/wp-content/uploads/2017/10/miniatura-portefolio-marinhoa-1.jpg
+0 2 0 116108 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff2
+0 8 0 980912 0 0
+/wp-content/uploads/2014/12/relatorio16-unimadeiras_.jpg
+0 1 0 110556 0 0
+/webmail/
+0 9 0 305280 0 2
+/wp-content/uploads/2017/10/inserção.jpg
+0 1 0 33583 0 0
+/wp-content/uploads/2018/01/civilria001.jpg
+0 3 0 976362 0 0
+/wp-content/uploads/2017/10/aaa.jpg
+0 1 0 70370 0 0
+/wp-content/uploads/2017/10/logo_filled_white.png
+0 15 0 7080 0 0
+/wp-content/uploads/2018/01/EK_destaque-uai-193x258.jpg
+0 10 0 106180 0 0
+/wp-content/uploads/2018/01/ramalhos-Portfolio.jpg
+0 3 0 68937 0 0
+/wp-content/uploads/2017/09/miniatura-portefolio.jpg
+0 2 0 27372 0 0
+/webmail/login.php
+0 2 0 67972 0 0
+/wp-includes/js/underscore.min.js
+0 18 0 104796 0 0
+/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js
+0 20 0 791400 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.svg
+0 1 3328781352991457280 295759 0 0
+/wp-content/plugins/revslider/admin/assets/images/dummy.png
+0 1 5930980 73 0 0
+/wp-content/uploads/2018/01/renault2.jpg
+0 1 90 303453 0 0
+/portefolios/renault/
+0 2 3330186528851755008 22593 2 1
+/wp-content/uploads/2017/10/Ek_site-uai-258x167.jpg
+0 1 86745090230203956 11175 0 0
+/wp-content/uploads/2018/01/miniatua-home-marinhoa-uai-193x258.jpg
+0 10 7814699928108872237 200460 0 0
+/wp-content/uploads/2018/01/Portfolio-header-RENAULT-uai-2064x1242.jpg
+0 1 4049915845277646848 57947 0 0
+/wp-content/uploads/2014/12/in_brand_lina_iria3.jpg
+0 1 0 18259 0 0
+/wp-content/uploads/2018/01/IMG_5598-uai-258x172.jpg
+0 1 0 19192 0 0
+/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js
+0 1 0 7022 0 0
+/quem-somos/
+0 3 0 38953 2 0
+/wp-content/uploads/2018/01/miniatua-home-uni-uai-193x258.jpg
+0 10 0 189250 0 0
+/wp-content/uploads/2018/01/CivilRia-Destaque-uai-193x258.jpg
+0 10 0 165710 0 0
+/wp-content/themes/uncode/library/js/init.js
+0 88 0 2266616 0 0
+/portefolios/civilria/
+0 2 0 25035 2 0
+/wp-content/uploads/2014/12/mupi-unimadeiras-mockup_.jpg
+0 2 0 455600 0 0
+/wp-content/uploads/2014/12/in_brand_miguel_bastos.jpg
+0 1 0 13160 0 0
+/wp-content/uploads/2018/01/renault1-uai-258x172.jpg
+0 1 0 18652 0 0
+/wp-content/uploads/2018/01/FestivaldosCanais-Destaque-uai-193x258.jpg
+0 10 0 120690 0 0
+/wp-content/plugins/uncode-daves-wordpress-live-search/js/daves-wordpress-live-search.js
+0 21 0 76839 0 0
+/wp-content/uploads/2018/01/miniatura-portefolio-ac.jpg
+0 3 0 38634 0 0
+/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+0 22 0 838816 0 0
+/wp-content/uploads/2017/10/miniatura-portefolio_persona.jpg
+0 2 0 23582 0 0
+/portefolios/festival-dos-canais/
+0 2 0 24810 0 1
+/wp-content/uploads/2017/10/etiquetas-uai-258x175.jpg
+0 1 0 6515 0 0
+/favicon.ico
+0 8 0 1272 0 0
+/wp-content/uploads/2018/01/icon-pizzarteArtboard-2-1.png
+0 1 0 118340 0 0
+/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js
+0 1 0 3239 0 0
+/wp-content/uploads/2017/07/digitl-agency-underline-uai-516x17.png
+0 4 0 15952 0 0
+/wp-content/uploads/2018/01/renault3.jpg
+0 1 0 338291 0 0
+/wp-content/uploads/2018/01/miniatua-home-persona.jpg
+0 9 0 429471 0 0
+/wp-content/uploads/2018/01/CP_miniaturaBW.jpg
+0 2 0 55514 0 0
+/wp-content/uploads/2017/05/heliflex_grey.png
+0 13 0 11635 0 0
+/wp-content/uploads/2017/07/digitl-agency-underline.png
+0 1 0 4935 0 0
+/wp-content/uploads/2015/09/entreposto_grey.png
+0 11 0 25278 0 0
+/portefolios/marinhoa/
+0 2 0 23020 2 0
+/wp-content/uploads/2017/05/pizzarte_grey.png
+0 12 0 12732 0 0
+/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js
+0 19 0 64524 0 0
+/wp-content/uploads/2017/05/alital_grey.png
+0 11 0 8976 0 0
+/portefolios/civilria/assessoria/
+0 4 0 44366 4 2
+/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js
+0 16 0 690624 0 0
+/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+0 18 0 9918 0 0
+/wp-includes/js/comment-reply.min.js
+0 16 0 9424 0 0
+/wp-includes/js/jquery/jquery-migrate.min.js
+0 18 0 72252 0 0
+/wp-content/uploads/2015/09/salpoente_grey.png
+0 12 0 38376 0 0
+/wp-content/uploads/2018/01/FestivaldosCanais-Destaque.jpg
+0 8 0 880616 0 0
+/portefolios/persona/
+0 3 0 38621 3 1
+/wp-content/uploads/2017/05/equipa_banner_V2_sem_filtro-uai-258x172.jpg
+0 9 0 197532 0 0
+/category/uncategorized/
+0 1 0 10476 1 1
+/wp-content/plugins/contact-form-7/includes/css/styles.css
+0 26 0 16506 0 0
+/wp-content/uploads/2017/05/exporlux_grey.png
+0 11 0 13530 0 0
+/wp-content/uploads/2017/05/ramalhos_grey.png
+0 13 0 14599 0 0
+/wp-includes/js/jquery/jquery.js
+0 18 0 607788 0 0
+/wp-content/uploads/2015/09/hospitalluz_grey-1.png
+0 13 0 61347 0 0
+/wp-content/uploads/2015/09/persona_grey.png
+0 12 0 44844 0 0
+/wp-includes/js/wp-embed.min.js
+0 20 0 15020 0 0
+/wp-content/plugins/contact-form-7/includes/js/scripts.js
+0 21 0 83196 0 0
+/wp-content/uploads/2018/01/IMG_5598.jpg
+0 1 0 282697 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.ttf
+0 1 7867340375392871795 151055 0 0
+/portefolios/exporlux/
+0 1 0 11287 1 0
+/wp-content/uploads/2018/01/civilria001-uai-1440x519.jpg
+0 2 3330468193766681909 485226 0 0
+/wp-includes/js/wp-emoji-release.min.js
+0 19 3543616503552045933 80793 0 0
+/wp-content/uploads/2017/10/logo_filled_black.png
+0 14 3978139917148447342 6608 0 0
+/wp-content/themes/uncode/library/js/min/ai-uncode.min.js
+0 18 435472461173 18288 0 0
+/wp-content/plugins/revslider/public/assets/css/settings.css
+0 26 28845104 185302 0 0
+/wp-content/themes/uncode/library/js/app.js
+0 87 0 2937729 0 0
+/wp-content/themes/uncode/library/img/preloader.svg
+0 14 0 5698 0 0
+/wp-content/uploads/2017/09/poster2-unimadeiras_.jpg
+0 1 0 95907 0 0
+/portefolios/colegio-portugues/
+0 2 0 22739 2 2
+/wp-content/uploads/2017/05/teka_grey.png
+0 13 0 13936 0 0
+/joel-reigota-outinv-2018-19/
+0 2 0 20666 1 0
+/wp-includes/js/mediaelement/wp-mediaelement.min.js
+0 19 0 8491 0 0
+/litoral-awards/
+0 2 0 21906 2 1
+/wp-content/themes/uncode/library/js/plugins.js
+0 87 0 12747066 0 0
+/wp-content/uploads/2017/07/digitl-agency-underline-uai-720x23.png
+0 2 0 9142 0 0
+/portefolios/salpoente/
+0 1 0 15035 1 0
+/wp-content/uploads/2018/01/renault3-uai-258x172.jpg
+0 1 0 21483 0 0
+/wp-content/uploads/2017/10/CivilRia-Portfolio.jpg
+0 2 0 53412 0 0
+/wp-content/themes/uncode/library/css/uncode-icons.css
+0 89 0 955237 0 0
+/wp-content/uploads/2014/12/FestivaldosCanais-Port.jpg
+0 2 0 52666 0 0
+/wp-content/themes/uncode/core/inc/uncode-ajax.php
+0 199 0 55367 0 0
+/wp-content/uploads/2018/01/exporlux-portfolio.jpg
+0 2 0 26954 0 0
+/wp-content/uploads/2018/01/miniatura-portefolio-RENAULT.jpg
+0 2 0 10104 0 0
+/
+0 238 0 10090468 156 91
+/wp-content/uploads/2017/10/wdd.jpg
+0 1 0 73153 0 0
+/portefolios/adriano-carreira/
+0 1 0 14789 1 0
+/wp-content/uploads/2017/01/joel-reigota-litoral-magazine.jpg
+0 2 0 361420 0 0
+/wp-content/uploads/2017/07/digitl-agency-underline-uai-1440x47.png
+0 2 0 25592 0 0
+/wp-content/uploads/2017/05/unimadeiras_grey.png
+0 12 0 35124 0 0
+/wp-content/uploads/2014/12/carina_mouro_designer_invisual.jpg
+0 1 0 13138 0 0
+/wp-content/uploads/2014/12/inv.jpg
+0 1 0 143798 0 0
+/wp-content/uploads/2014/12/in_claudia_costela_.jpg
+0 1 0 28344 0 0
+/comments/feed/
+0 2 0 996 2 1
+/wp-content/uploads/2018/01/miniatua-home-uni.jpg
+0 10 0 1152390 0 0
+/wp-content/uploads/2017/06/banner_dia_crianca.jpg
+0 1 28838528 344451 0 0
+/wp-content/themes/uncode/library/css/style-custom.css
+0 88 0 1695232 0 0
+/wp-content/uploads/2018/01/miniatua-home-marinhoa.jpg
+0 9 0 2271285 0 0
+/wp-content/uploads/2017/10/estacionário.jpg
+0 1 0 40229 0 0
+/wp-content/uploads/2017/05/equipa_banner_V2_sem_filtro-uai-1440x960.jpg
+0 4 0 1381484 0 0
+/wp-content/uploads/2015/09/ekena_grey.png
+0 11 0 28226 0 0
+/portefolios/unimadeiras/
+0 2 0 25503 2 0
+/wp-content/uploads/2017/05/aveirobus_grey.png
+0 13 0 25220 0 0
+/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css
+0 28 0 108192 0 0
+/wp-content/uploads/2015/09/mercentro.png
+0 12 0 44328 0 0
+/wp-content/uploads/2018/01/renault2-uai-258x172.jpg
+0 1 0 20449 0 0
+/robots.txt
+0 108 0 7452 0 0
+/wp-content/themes/uncode/library/css/style.css
+0 94 0 5139450 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff
+0 2 0 0 0 0
+/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js
+0 21 0 805035 0 0
+/feed/
+0 2 0 4886 2 0
+/wp-content/uploads/2018/01/CivilRia-Destaque.jpg
+0 10 0 1064100 0 0
+/portefolio/
+0 3 0 37375 1 0
+/2017/01/
+0 1 0 10094 1 1
+/wp-content/uploads/2018/01/renault1.jpg
+0 1 0 310581 0 0
+/wp-content/uploads/2015/09/meivcore_semsombra_grey.png
+0 12 0 32952 0 0
+/wp-content/uploads/2017/07/digitl-agency-underline-uai-258x8.png
+0 10 0 15730 0 0
+/wp-cron.php
+0 31 0 620 0 0
+/wp-content/uploads/2018/01/EK_destaque.jpg
+0 10 0 551160 0 0
+/wp-content/uploads/2014/12/joao_gaspar_invisual__.jpg
+0 1 0 13103 0 0
+/wp-content/uploads/2014/12/economato-unimadeiras.jpg
+0 1 0 104258 0 0
+/wp-content/uploads/2014/12/inv-uai-1440x900.jpg
+0 1 0 175717 0 0
+/mailman/listinfo
+0 3 0 4137 0 0
+/wp-content/uploads/2017/05/bosh_grey.png
+0 12 0 12084 0 0
+/wp-content/uploads/2017/05/equipa_banner_V2_sem_filtro.jpg
+0 7 0 2261126 0 0
+/webmail/src/login.php
+0 2 0 66785 0 0
+/contacto/
+0 5 0 57132 0 0
+# End Of Table - urls
+# -sites- (monthly)
+msnbot-40-77-167-109.search.msn.com
+0 2 1 24177 2 1518054901
+/
+185.93.181.90
+0 659 29 13194022 3 1517566317
+-
+crawl-66-249-73-144.googlebot.com
+0 16 12 439253 1 1518028451
+/
+msnbot-40-77-167-193.search.msn.com
+0 2 0 18510 2 1518636521
+-
+38.142.98.194
+0 1 0 0 1 1517635589
+/
+msnbot-157-55-39-47.search.msn.com
+0 8 8 552 0 0
+-
+crawl-66-249-75-89.googlebot.com
+0 11 3 89058 3 1517956327
+-
+185.230.125.46
+0 1240 40 25470241 13 1518047548
+-
+msnbot-207-46-13-190.search.msn.com
+0 2 1 19488 1 1518500432
+-
+38.142.119.250
+0 1 0 0 1 1518171641
+/
+bl17-79-43.dsl.telepac.pt
+0 86 85 2633486 1 1517833659
+/
+msnbot-157-55-39-245.search.msn.com
+0 14 8 228930 9 1517675247
+/
+msnbot-157-55-39-122.search.msn.com
+0 1 1 14915 1 1517829694
+/
+ec2-35-162-70-167.us-west-2.compute.amazonaws.com
+0 2 1 14941 1 1517448648
+/
+msnbot-207-46-13-49.search.msn.com
+0 1 0 9245 1 1517832835
+-
+msnbot-40-77-167-31.search.msn.com
+0 8 8 144352 1 1517867426
+/portefolio/
+bl18-96-191.dsl.telepac.pt
+0 53 52 682099 1 1517510288
+/
+msnbot-157-55-39-82.search.msn.com
+0 13 12 213799 1 1518650574
+-
+crawl-66-249-66-10.googlebot.com
+0 1 1 69 0 0
+-
+mail.vaa.pt
+0 4 2 29876 1 1517851986
+/
+msnbot-157-55-39-169.search.msn.com
+0 3 2 85314 2 1518377238
+/
+msnbot-207-46-13-171.search.msn.com
+0 1 1 493 1 1518022627
+/invisual-branding-solutions/feed/
+msnbot-207-46-13-139.search.msn.com
+0 13 13 596092 1 1518586940
+/quem-somos/
+msnbot-40-77-167-134.search.msn.com
+0 10 10 160858 3 1518474755
+/portefolios/civilria/
+msnbot-157-55-39-209.search.msn.com
+0 1 0 9253 1 1518504483
+-
+msnbot-157-55-39-18.search.msn.com
+0 2 2 138 0 0
+-
+msnbot-157-55-39-219.search.msn.com
+0 6 3 369138 3 1518658214
+/
+192.200.26.250
+0 1223 43 24931300 16 1518524047
+-
+researchscan19.comsys.rwth-aachen.de
+0 4 2 29885 1 1517828886
+/
+38.142.99.2
+0 1 1 84358 1 1517670261
+/
+crawl-66-249-75-88.googlebot.com
+0 24 15 371671 2 1517938218
+-
+msnbot-199-30-24-50.search.msn.com
+0 19 19 311318 1 1518493611
+/portefolios/civilria/
+msnbot-207-46-13-168.search.msn.com
+0 1 1 12749 1 1517452181
+/portefolios/unimadeiras/
+msnbot-40-77-167-123.search.msn.com
+0 1 1 11287 1 1517782107
+/portefolios/exporlux/
+msnbot-40-77-167-71.search.msn.com
+0 1 1 13271 1 1517487701
+/quem-somos/
+a213-22-34-241.cpe.netcabo.pt
+0 256 250 7334270 4 1518455549
+/contacto/
+159.65.47.130
+0 1 0 0 1 1517900409
+/
+165.227.112.138
+0 1 0 0 1 1517901528
+/
+128.14.69.148.rev.vodafone.pt
+0 1 1 227800 0 0
+-
+38.142.98.210
+0 1 0 0 1 1517453110
+/
+msnbot-157-55-39-233.search.msn.com
+0 11 10 155672 2 1517674428
+/portefolios/persona/
+msnbot-40-77-167-30.search.msn.com
+0 1 1 14930 1 1518526268
+/
+146.30.69.148.rev.vodafone.pt
+0 80 79 2490402 1 1517844359
+/
+msnbot-207-46-13-164.search.msn.com
+0 3 3 161429 1 1518572953
+/litoral-awards/
+38.142.192.34
+0 1 1 84352 1 1518630667
+/
+165.227.186.85
+0 2 0 0 1 1517901038
+/
+38.142.99.18
+0 1 0 0 1 1517980542
+/
+msnbot-207-46-13-86.search.msn.com
+0 3 1 33421 3 1518485915
+-
+gitlab.attorneyfinderpro.com-1514388032638-s-1vcpu-2gb-nyc3-01
+0 1 0 35 1 1517902179
+/
+ec2-52-41-211-72.us-west-2.compute.amazonaws.com
+0 13 6 89696 7 1518673181
+/
+crawl-66-249-66-31.googlebot.com
+0 66 56 1268608 13 1518655761
+/portefolios/civilria/assessoria/
+bl21-172-175.dsl.telepac.pt
+0 98 97 2901716 1 1517589128
+/portefolio/
+msnbot-40-77-167-188.search.msn.com
+0 3 1 33425 3 1518254564
+-
+msnbot-157-55-39-150.search.msn.com
+0 4 4 276 0 0
+-
+crawl-66-249-66-24.googlebot.com
+0 8 8 331649 0 0
+-
+crawl-66-249-64-90.googlebot.com
+0 1 1 69 0 0
+-
+msnbot-207-46-13-110.search.msn.com
+0 2 0 9271 2 1518313007
+-
+msnbot-157-55-39-186.search.msn.com
+0 1 0 9246 1 1517565868
+-
+ec2-52-34-24-33.us-west-2.compute.amazonaws.com
+0 11 5 74746 6 1518317980
+/
+msnbot-207-46-13-96.search.msn.com
+0 1 0 9244 1 1517837231
+-
+msnbot-157-55-39-73.search.msn.com
+0 5 2 38786 4 1517970393
+-
+crawl-66-249-75-86.googlebot.com
+0 51 47 1114608 2 1517837247
+/
+crawl-66-249-64-78.googlebot.com
+0 25 25 649886 0 0
+-
+196-47-64-42.mweb.com.na
+0 1 1 84355 1 1518180744
+/
+msnbot-40-77-167-62.search.msn.com
+0 1 1 6515 0 0
+-
+msnbot-40-77-167-117.search.msn.com
+0 1 1 11175 0 0
+-
+crawl-66-249-66-25.googlebot.com
+0 2 2 165782 0 0
+-
+38.142.192.26
+0 3 1 84352 3 1518558245
+/
+cp68.webserver.pt
+0 61 60 189203 5 1518523924
+/
+msnbot-207-46-13-85.search.msn.com
+0 2 2 34487 1 1518660436
+/portefolios/marinhoa/
+msnbot-40-77-167-141.search.msn.com
+0 3 1 9772 3 1518083002
+-
+crawl-66-249-66-23.googlebot.com
+0 32 31 390929 1 1517538173
+/portefolios/festival-dos-canais/
+msnbot-40-77-167-106.search.msn.com
+0 2 0 18505 2 1518290152
+-
+msnbot-207-46-13-178.search.msn.com
+0 11 11 240572 1 1518093085
+/portefolios/persona/
+msnbot-40-77-167-52.search.msn.com
+0 1 0 9248 1 1517767889
+-
+pal-213-228-181-11.netvisao.pt
+0 3 2 15021 1 1518603464
+/
+msnbot-207-46-13-72.search.msn.com
+0 3 1 13229 2 1518156127
+-
+msnbot-157-55-39-176.search.msn.com
+0 2 1 14934 2 1517495671
+/
+researchscan19.netintum.umbrellastudy.com
+0 4 0 0 4 1518647748
+/
+msnbot-40-77-167-17.search.msn.com
+0 4 3 63502 1 1517865815
+-
+crawl-66-249-73-10.googlebot.com
+0 3 1 109 1 1518024670
+-
+msnbot-157-55-39-85.search.msn.com
+0 4 4 238734 0 0
+-
+msnbot-40-77-167-122.search.msn.com
+0 1 1 14925 1 1518319068
+/
+msnbot-207-46-13-98.search.msn.com
+0 1 0 9250 1 1517955963
+-
+msnbot-40-77-167-50.search.msn.com
+0 3 1 24199 3 1518293816
+-
+165.227.72.171
+0 1 0 0 1 1517901174
+/
+62.28.223.225
+0 92 91 2557274 1 1517854773
+/portefolio/
+159.89.36.237
+0 1 0 39636 1 1517902831
+/
+crawl-66-249-66-8.googlebot.com
+0 1 0 20 1 1517538500
+-
+crawl-66-249-66-30.googlebot.com
+0 136 112 2927355 15 1518543793
+/portefolios/civilria/assessoria/
+38.142.192.50
+0 1 0 0 1 1518591471
+/
+census6.shodan.io
+0 1 1 84358 1 1517668423
+/
+msnbot-157-55-39-83.search.msn.com
+0 10 10 172143 1 1518143962
+/feed/
+165.227.122.193
+0 1 0 39648 1 1517899342
+/
+msnbot-157-55-39-224.search.msn.com
+0 19 12 170580 10 1518505540
+-
+msnbot-157-55-39-25.search.msn.com
+0 2 2 138 0 0
+-
+msnbot-157-55-39-241.search.msn.com
+0 5 5 8837 0 0
+-
+crawl-66-249-73-142.googlebot.com
+0 59 51 1295819 2 1518024671
+-
+159.65.44.109
+0 1 0 0 1 1517900172
+/
+msnbot-207-46-13-56.search.msn.com
+0 3 2 109938 1 1518413132
+-
+msnbot-207-46-13-53.search.msn.com
+0 11 10 267213 4 1518444477
+/
+msnbot-40-77-167-100.search.msn.com
+0 1 0 9248 1 1517460752
+-
+msnbot-207-46-13-20.search.msn.com
+0 3 1 199215 2 1518535620
+-
+ec2-54-183-130-127.us-west-1.compute.amazonaws.com
+0 24 12 179372 12 1518575666
+/
+159.65.40.198
+0 1 0 0 1 1517902422
+/
+crawl-66-249-64-80.googlebot.com
+0 6 6 255161 2 1518599953
+/
+msnbot-40-77-167-131.search.msn.com
+0 2 0 18507 1 1518318752
+-
+msnbot-207-46-13-70.search.msn.com
+0 4 4 276 0 0
+-
+crawl-66-249-64-94.googlebot.com
+0 1 0 9253 0 0
+-
+msnbot-40-77-167-128.search.msn.com
+0 1 0 20 1 1517451011
+/
+msnbot-40-77-167-80.search.msn.com
+0 1 1 14927 1 1517954817
+/
+crawl-66-249-73-146.googlebot.com
+0 8 5 208609 3 1517986229
+-
+msnbot-207-46-13-200.search.msn.com
+0 2 2 138 0 0
+-
+msnbot-157-55-39-52.search.msn.com
+0 4 4 276 0 0
+-
+38.142.192.74
+0 1 0 0 1 1518170687
+/
+msnbot-157-55-39-71.search.msn.com
+0 5 3 30397 4 1518333896
+/
+crawl-66-249-73-12.googlebot.com
+0 3 1 109 1 1518009895
+/
+msnbot-40-77-167-51.search.msn.com
+0 6 6 21715 0 0
+-
+msnbot-207-46-13-199.search.msn.com
+0 2 2 138 0 0
+-
+bl16-237-113.dsl.telepac.pt
+0 4 4 538521 0 0
+-
+msnbot-207-46-13-47.search.msn.com
+0 9 9 303711 1 1517853126
+/invisual-branding-solutions/feed/
+msnbot-207-46-13-79.search.msn.com
+0 16 15 282247 1 1518478826
+-
+msnbot-207-46-13-137.search.msn.com
+0 1 0 9248 1 1517810741
+-
+47.86.166.178.rev.vodafone.pt
+0 79 78 2424084 1 1518006242
+/contacto/
+38.142.192.10
+0 1 1 84352 1 1518020816
+/
+159.89.176.175
+0 1 1 84358 1 1517901130
+/
+crawl-66-249-66-28.googlebot.com
+0 7 5 385 2 1518514990
+-
+msnbot-40-77-167-59.search.msn.com
+0 7 7 121303 0 0
+-
+crawl-66-249-79-148.googlebot.com
+0 2 1 9318 0 0
+-
+165.227.187.134
+0 1 0 0 1 1517900862
+/
+138.197.65.195
+0 1 0 39316 1 1517901816
+/
+msnbot-157-55-39-248.search.msn.com
+0 1 1 10658 1 1517764880
+/joel-reigota-outinv-2018-19/
+msnbot-207-46-13-65.search.msn.com
+0 2 1 14938 2 1518020461
+/
+82-135-155-204.static.zebra.lt
+0 1 0 20 1 1517843721
+/
+msnbot-40-77-167-132.search.msn.com
+0 3 2 28218 2 1517769320
+/portefolios/ekena-bay/
+35.67.69.148.rev.vodafone.pt
+0 77 76 2173235 1 1517994980
+/
+msnbot-157-55-39-184.search.msn.com
+0 1 1 11512 1 1518020392
+/portefolios/marinhoa/
+crawl-66-249-66-29.googlebot.com
+0 312 291 8174691 14 1518655760
+-
+bl11-180-80.dsl.telepac.pt
+0 45 45 2052810 1 1518005306
+/
+msnbot-157-55-39-70.search.msn.com
+0 8 8 136063 0 0
+-
+bl28-149-197.dsl.telepac.pt
+0 102 101 3106314 1 1517934000
+/contacto/
+msnbot-157-55-39-240.search.msn.com
+0 1 1 2443 1 1517970164
+/feed/
+38.142.98.226
+0 1 0 0 1 1517969552
+/
+crawl-66-249-73-154.googlebot.com
+0 2 2 14999 1 1518022767
+/
+msnbot-40-77-167-177.search.msn.com
+0 5 5 74808 1 1517603396
+/portefolios/salpoente/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+msnbot-157-55-39-219.search.msn.com
+0 1 0 20 1 1518658214
+/
+ec2-52-41-211-72.us-west-2.compute.amazonaws.com
+0 3 1 14966 2 1518673181
+/
+crawl-66-249-66-31.googlebot.com
+0 5 5 191644 1 1518655761
+/portefolios/civilria/assessoria/
+msnbot-207-46-13-85.search.msn.com
+0 2 2 34487 1 1518660436
+/portefolios/marinhoa/
+crawl-66-249-66-30.googlebot.com
+0 3 3 89098 0 0
+-
+crawl-66-249-66-29.googlebot.com
+0 4 3 26019 1 1518655760
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://invisual.pt/portfolio/festival-dos-canais/
+0 2
+https://invisual.pt/portefolios/civilria/assessoria/
+0 57
+https://invisual.pt/portfolio/agner-service/
+0 9
+https://invisual.pt/quem-somos/
+0 14
+https://www.litoralfashion.pt/
+0 4
+https://invisual.pt/contacto/
+0 45
+https://www.google.pt/
+0 32
+https://invisual.pt/portefolios/unimadeiras/
+0 11
+https://invisual.pt/portfolio/salpoente/
+0 6
+https://invisual.pt/wp-content/themes/uncode/library/css/uncode-icons.css
+0 5
+https://invisual.pt/portefolios/renault/
+0 70
+https://invisual.pt/wp-content/themes/uncode/library/css/style.css
+0 4
+https://www.eventosportugal.pt/
+0 4
+https://invisual.pt/portefolios/civilria/
+0 18
+- (Direct Request)
+0 3693
+https://94.46.176.249:443/
+0 2
+https://invisual.pt/joel-reigota-outinv-2018-19/
+0 9
+https://invisual.pt/portfolio/litoral-awards/
+0 1
+invisual.pt
+0 1
+https://invisual.pt/portefolios/colegio-portugues/
+0 46
+https://invisual.pt/2017/01/
+0 8
+https://www.invisual.pt/
+0 4
+https://invisual.pt/
+0 1177
+[en]
+0 1
+https://invisual.pt/portfolio/litoral-magazine/
+0 11
+https://invisual.pt/portefolio/
+0 40
+https://invisual.pt/portefolios/festival-dos-canais/
+0 39
+https://invisual.pt/wp-cron.php
+0 31
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 4
+WordPress/4.9.2; https://invisual.pt
+0 22
+Microsoft WinRM Client OpenVAS
+0 3
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 13
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b
+0 19
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0
+0 8
+Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.9)
+0 3093
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 S
+0 81
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 273
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 603
+Mozilla/5.1 (Windows NT 6.0; WOW64) AppleWebKit/533.36 (KHTML, like Gecko) Chrome/46.0.2754.75 Safari/533.36
+0 1
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 298
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 24
+X11, U; OpenVAS 8.0.9)
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6
+0 102
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 86
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+0 7
+Googlebot-Image/1.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 92
+WordPress/4.9.3; https://invisual.pt
+0 38
+Magic Browser
+0 26
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile S
+0 173
+Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/41.0.178428663 Mobile/1
+0 79
+Screaming Frog SEO Spider/8.3
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.2.5 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.5
+0 251
+Safari/10603.2.5 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)
+0 4
+Mozilla/5.0 zgrab/0.x (compatible; Researchscan/t12l; +http://researchscan.comsys.rwth-aachen.de)
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

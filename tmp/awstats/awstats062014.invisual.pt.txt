@@ -1,0 +1,3284 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201406 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2691                
+POS_VISITOR 97730               
+POS_DAY 134696              
+POS_DOMAIN 3710                
+POS_LOGIN 4807                
+POS_ROBOT 4962                
+POS_WORMS 5632                
+POS_EMAILSENDER 5763                
+POS_EMAILRECEIVER 5906                
+POS_SESSION 135649              
+POS_SIDER 135865              
+POS_FILETYPES 6041                
+POS_DOWNLOADS 6485                
+POS_OS 8862                
+POS_BROWSER 9173                
+POS_SCREENSIZE 11760               
+POS_UNKNOWNREFERER 11834               
+POS_UNKNOWNREFERERBROWSER 14154               
+POS_ORIGIN 15256               
+POS_SEREFERRALS 15409               
+POS_PAGEREFS 15597               
+POS_SEARCHWORDS 20539               
+POS_KEYWORDS 20896               
+POS_MISC 2354                
+POS_ERRORS 21167               
+POS_CLUSTER 4663                
+POS_SIDER_404 21344               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140701000015 1026 252504 16498596409134
+FirstTime 20140601000134
+LastTime 20140630234056
+LastUpdate 20140701132359 1026 0 1025 0 0
+TotalVisits 1717                
+TotalUnique 568                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1111                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 81 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 428 2710 19136035 250 388 5606657
+1 202 701 18975446 168 313 5021518
+2 231 869 17701227 134 278 4569290
+3 124 393 8650206 164 293 3332525
+4 423 564 4314788 169 266 7742171
+5 163 507 8072666 156 328 6480251
+6 153 359 3658881 185 325 18423214
+7 193 363 5180715 228 419 7556809
+8 209 719 14725120 231 405 10640327
+9 405 3610 34566742 202 445 4689797
+10 1356 9102 65617227 357 645 8058074
+11 1670 12286 128029093 240 571 11510827
+12 1648 10524 113136934 283 556 4352530
+13 434 1754 32396951 230 407 4247574
+14 1242 9632 87061718 512 829 8917097
+15 2264 14929 169497235 414 810 7798053
+16 3128 23750 258603893 518 911 17352031
+17 1444 11920 63194055 282 686 11605844
+18 1210 11588 83449163 238 533 17535565
+19 495 4501 49413441 192 365 11971587
+20 272 975 27118554 144 375 15599846
+21 315 1266 43893601 181 429 14286267
+22 339 1869 60797786 175 423 8261791
+23 380 2003 60684881 198 481 11365345
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 56
+pt 15761 118460 1149160296
+us 472 2180 97186632
+ua 382 451 12992334
+lv 294 294 413534
+de 265 813 13792139
+ru 237 453 10079011
+es 145 241 4173552
+cn 142 143 1829180
+tr 122 127 533548
+br 121 1593 37241492
+sa 114 258 5442209
+se 91 169 2218349
+nl 88 88 226367
+gb 85 142 1978686
+fr 78 123 6470072
+ca 64 65 4667271
+it 35 265 6129408
+jp 34 37 470159
+il 25 33 102623
+id 21 21 38829
+ma 16 108 2788763
+is 15 15 27735
+ke 10 48 222184
+co 9 125 5414034
+no 8 61 1833509
+eg 0 1 90486
+ph 3 70 827117
+mx 6 48 1487365
+ro 7 7 59369
+dk 0 4 834994
+in 5 11 500472
+sg 6 6 11094
+mz 0 1 278068
+th 1 1 33040
+cz 2 2 32446
+by 6 6 3858
+fi 2 2 38335
+lt 3 3 56029
+py 6 49 1488548
+be 5 76 808174
+cv 0 1 30139
+ao 0 3 554132
+cl 3 4 101126
+gr 6 55 1539107
+bs 0 1 22025
+au 6 70 802686
+eu 4 4 18950
+at 1 1 4699
+bg 0 1 21186
+dz 0 1 30139
+za 3 67 770379
+pl 8 9 178626
+ar 4 68 773496
+uy 0 1 278068
+lu 7 7 112831
+pe 0 1 21186
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+googlebot 1530 30928405 20140630205318 66
+bot[\s_+:,\.\;\/\\-] 1277 41611830 20140630230952 281
+spider 776 103841894 20140630231019 14
+msnbot\-media 313 10277848 20140630144330 79
+robot 185 2606846 20140630234922 89
+crawl 178 2721014 20140629144047 1
+slurp 161 5329555 20140630212958 23
+no_user_agent 35 325628 20140630134516 0
+unknown 18 2194 20140630085744 18
+[\s_+:,\.\;\/\\-]bot 8 151550 20140625182430 0
+discovery 8 0 20140624221306 0
+checker 2 51524 20140621100423 0
+msnbot 1 118 20140612085735 1
+netcraft 1 22070 20140614072013 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 19
+css 34044 14618548 0 0
+ico 210 44246 0 0
+txt 6 63814 0 0
+woff 60 1245909 0 0
+php 14898 94779622 0 0
+html 3590 36775744 0 0
+xml 14 14729 0 0
+jpg 22006 725747085 0 0
+eot 75 353792 0 0
+png 11959 126925563 0 0
+bmp 3 30682 0 0
+pdf 39 76272271 0 0
+htm 2 2696 0 0
+zip 16 161438409 0 0
+js 36802 92891265 0 0
+jpeg 4 172630 0 0
+Unknown 89 788515 0 0
+svg 30 16121 0 0
+gif 3047 45050642 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 43
+/robots.txt 558 53 83928
+/arcadamagazine/arcadamagazine_n13.pdf 34 0 123781919
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 13 0 17961553
+/aveiroexpo/ficha_sector_diversao.pdf 12 0 13287523
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 9 0 10510677
+/aveiroexpo/dossier_imprensa_farav09.pdf 9 0 845514
+/download/eb2014.zip 8 0 105299324
+/aveiroexpo/programa_educacao.pdf 8 0 380122
+/aveiroexpo/regulamento_fm2011.pdf 7 0 10021874
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 7 0 7120065
+/aveiroexpo/agrovouga2010_reg.pdf 6 0 756444
+/aveiroexpo/sector_exposicao.pdf 6 0 2796852
+/wp-content/plugins/contact-form-7/license.txt 6 0 63508
+/aveiroexpo/programa_porto_aveiro.pdf 6 0 449500
+/aveiroexpo/programa_seminario_PFMC.pdf 5 0 143268
+/smart_aqua/wp-content/uploads/2012/04/tribuna_de_macau.pdf 5 0 503970
+/aveiroexpo/regulamento_feira_marco2012.pdf 5 0 667190
+/aveiroexpo/programa_festa_freguesias.pdf 5 0 96580
+/aveiroexpo/farav2010_regulamento.pdf 4 0 318732
+/aveiroexpo/sector_comercial.pdf 4 0 1551024
+/aveiroexpo/agrovouga2010_fic_inscr.pdf 4 0 615256
+/aveiroexpo/ficha_sector_comercial.pdf 4 0 4328804
+/programa_aveironoivos.pdf 3 3 4074801
+/download/ekenabay.zip 3 0 53209098
+/aveiroexpo/agrovouga2012_ficha_inscricao.pdf 3 0 972393
+/aveiroexpo/sector_diversao.pdf 3 0 1109274
+/aveiroexpo/ficha_sector_exposicao.pdf 2 0 2329691
+/aveiroexpo/programa_ti_s_.pdf 2 0 181880
+/aveiroexpo/ficha_inscr_agrovouga09.pdf 2 0 695466
+/aveiroexpo/dossier_imprensa_fm_09.pdf 2 0 339666
+/aveiroexpo/agrovouga2012_regulamento.pdf 2 0 501204
+/aveiroexpo/programa_agrovouga_2010.pdf 2 0 3369466
+/smart_aqua/wp-content/uploads/2012/04/aicep_30_mar_2012.pdf 2 0 854504
+/aveiroexpo/programa_frilac2011.pdf 2 0 9661763
+/oksofas/wp-content/themes/fiction/plugins/content-blocks.zip 1 0 5681
+/oksofas/wp-content/themes/fiction/plugins/js_composer.zip 1 0 1709242
+/aveiroexpo/ficha_de_inscr2010.pdf 1 0 295907
+/oksofas/wp-content/themes/fiction/plugins/nivo-slider.zip 1 0 190971
+/oksofas/wp-content/themes/fiction/plugins/mnky-vector-icons.zip 1 0 661883
+/aveiroexpo/frilac_inscricao.pdf 1 0 1723418
+/oksofas/wp-content/themes/fiction/plugins/css3-pricing-tables.zip 1 0 362210
+/aveiroexpo/farav2010_ficha_inscric.pdf 1 0 609295
+/smart_aqua/wp-content/uploads/2012/04/expresso_24_mar.pdf 1 0 643874
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 24
+linuxsuse 1
+linuxandroid 1212
+linuxredhat 1
+blackberry 2
+winlong 1400
+winxp 4322
+symbian 1
+win2000 611
+winvista 4406
+win95 21
+winunknown 58
+j2me 2
+wince 3
+win2003 44
+unix 7
+winnt 55
+java 256
+linuxubuntu 7
+win98 40
+linux 1276
+win7 104598
+winme 11
+macosx 6733
+Unknown 1883
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 148
+firefox28.0 630
+safari7.0.3 303
+webcapture 15
+chrome32.0.1700.72 1
+chrome12.0.742.100 296
+chrome34.0.1847.137 32
+chrome33.0.1750.166 4
+chrome15.0.872.0 1
+chrome29.0.1547.62 15
+chrome31.0.1650.57 2
+lynx 3
+chrome31.0.1650.63 178
+safari7.0.1 123
+chrome23.0.1271.95 1
+safari6.1.4 50
+safari5.0.2 67
+chrome24.0.1312.71 74
+msie8.0 1684
+chrome34.0.1847.132 49
+chrome27.0.1453.93 1
+msie7.0 859
+chrome27.0.1453 229
+msie10.6 11
+chrome31.0.1650.59 1
+chrome25.0.1364.123 1
+chrome32.0.1700.107 1725
+chrome35.0.1916.114 4501
+netscape0.6 6
+firefox25.0 3
+chrome33.0.1750.117 4
+netscape5.0 1
+firefox14.0.1 10
+chrome17.0.963.65 1
+chrome13.0.782.41 1
+safari6.1.1 1
+safari5.1.9 393
+safari6.1 67
+safari 243
+safari7.0 2336
+firefox5.0 10
+chrome11.0.672.2 1
+safari4.1.3 102
+firefox4.0.1 1
+chrome24.0.1309.0 4
+android 824
+chrome18.0.1025.11 1
+chrome22.0.1229.79 64
+chrome23.0.1271.6 2
+firefox24.0 280
+chrome14.0.812.0 1
+opera9.80 144
+iphone 61
+chrome32.0.1700.102 2
+netscape0.91 3
+chrome34.0.1847.116 37
+chrome13.0.766.0 1
+msie5.0 13
+chrome26.0.1410.43 1
+chrome28.0.1500.52 14
+msie9.0 743
+opera7.54 6
+blackberry 2
+chrome17.0.963.56 1
+chrome18.0.1025.166 1
+safari10.2.1.3175 1
+samsung 1
+chrome35.0.1916.141 343
+opera8.01 6
+msie5.5 57
+chrome28.0.1500.71 5
+firefox30.0 90062
+chrome13.0.782.215 1
+chrome22.0.1229.95 1
+chrome36.0.1985.97 2
+chrome23.0.1271.17 5
+nokia 1
+chrome35.0.1916.153 4380
+firefox22.0 11
+firefox1.5.0.10 1
+safari4.0.4 1
+msie6.0 939
+chrome18.0.1025.308 2
+firefox26.0 161
+safari7.0.4 371
+chrome5.0.375.99 5
+firefox4.0 18
+msie4.01 12
+firefox18.0 5
+safari5.0.6 26
+opera7.60 3
+netscape3.0 3
+safari5.1.8 1
+chrome29.0.1547.66 30
+opera9.0 12
+netscape 16
+chrome32.0.1700.68 2
+opera7.11 5
+chrome33.0.1750.152 52
+chrome10.0.626.0 1
+chrome34.0.1847.131 182
+firefox21.0 95
+lg\- 32
+safari6.0 8
+firefox29.0 1864
+firefox3.5.2 5
+firefox2.0.0.6 2
+chrome14.0.803.0 1
+firefox12.0 5
+safari6.0.5 1419
+mozilla 6316
+chrome32.0.1700.76 101
+netscape4.0 4
+firefox3.6.3 5
+firefox15.0.1 1
+firefox3.0.7 60
+firefox20.0 68
+chrome29.0.1547.57 7
+chrome29.0.1547.76 2
+chrome13.0.782.220 1
+opera9.00 23
+msie3.02 3
+firefox31.0 48
+chrome15.0.874.121 1
+chrome30.0.1599.13014 3
+msie2.0 12
+chrome10.0.648.204 5
+chrome33.0.1750.154 530
+chrome33.0.1750.146 3
+chrome30.0.1599.101 1
+firefox27.0 1
+Unknown 1901
+firefox11.0 4
+chrome14.0.813.0 1
+chrome30.0.0.0 1
+chrome30.0.1599.17 8
+opera8.00 6
+chrome29.0.1547.59 3
+chrome34.0.1847.114 4
+chrome27.0.1453.110 2
+safari5.1.7 86
+firefox3.0.5 1
+firefox1.0 1
+seamonkey 9
+firefox5.0.1 7
+msie10.0 1268
+safari5.1 2
+firefox6.0 3
+chrome27.0.1453.116 52
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/35.2843;_U;_en)_Presto/2.8.119_Version/11.10 20140611104744
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20140618123451
+Pinterest/0.1__http://pinterest.com/ 20140603042054
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20140618224731
+HTTPClient/1.0_(2.4.0,_ruby_1.9.3_(2013-06-27)) 20140621091744
+WordPress/3.9.1;_http://invisual.pt/oksofas 20140628154145
+rarely_used 20140621022822
+WordPress/3.7.3;_http://invisual.pt 20140630221303
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.2369;_U;_en)_Presto/2.8.119_Version/11.10 20140608162038
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140618200332
+Googlebot-Image/1.0 20140618133453
+Mozilla/4.0_(compatible;_Synapse) 20140614162031
+WordPress/3.5.2;_http://invisual.pt/magmacaracas 20140618142851
+PHP/5.3.29 20140627014218
+Mozilla 20140606013044
+WordPress/3.2.1;_http://invisual.pt/insidepipe4 20140629045637
+Kml-Google;_(_http://code.google.com/apis/kml),_gzip 20140630070809
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20140609001319
+SAMSUNG-SGH-E250/1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_UP.Browser/6.2.3.3.c.1.101_(GUI)_MMP/2.0_(compatible;_Googlebot-Mobile/2.1;__http://www.google.com/bot.html) 20140618072723
+Mozilla/4.0 20140629120814
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20140630234049
+nutch-1.4/Nutch-1.4 20140622012602
+visionutils/0.2 20140625011039
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20140630230433
+Opera/9.80_(Android;_Opera_Mini/7.0.32026/34.2336;_U;_en)_Presto/2.8.119_Version/11.10 20140605170301
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20140618180540
+Mozilla/5.0_(compatible;_Baiduspider/2.0;__http://www.baidu.com/search/spider.html) 20140618130452
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20140629223234
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.3175_Mobile_Safari/537.35_ 20140623223442
+LSSRocketCrawler/1.0_LightspeedSystems 20140629143726
+Mozilla/5.0_(compatible;_Exabot/3.0;__http://www.exabot.com/go/robot) 20140618193330
+WordPress/3.9.1;_http://oksofas.pt 20140628123422
+Mozilla/4.0_(compatible;) 20140628101107
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 22
+Pinterest/0.1__http://pinterest.com/ 20140603042054
+visionutils/0.2 20140625011039
+HTTPClient/1.0_(2.4.0,_ruby_1.9.3_(2013-06-27)) 20140621091744
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20140630230433
+WordPress/3.9.1;_http://invisual.pt/oksofas 20140628154145
+rarely_used 20140621022822
+WordPress/3.7.3;_http://invisual.pt 20140630221303
+msnbot-media/1.1_(_http://search.msn.com/msnbot.htm) 20140618180540
+Googlebot-Image/1.0 20140618133453
+WordPress/3.5.2;_http://invisual.pt/magmacaracas 20140618142851
+PHP/5.3.29 20140627014218
+Java/1.7.0_60 20140603014533
+WordPress/3.2.1;_http://invisual.pt/insidepipe4 20140629045637
+Java/1.7.0_11 20140628075045
+LSSRocketCrawler/1.0_LightspeedSystems 20140629143726
+Kml-Google;_(_http://code.google.com/apis/kml),_gzip 20140630070809
+Java/1.6.0_03 20140628170543
+Java/1.6.0_31 20140615063713
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20140630234049
+WordPress/3.9.1;_http://oksofas.pt 20140628123422
+nutch-1.4/Nutch-1.4 20140622012602
+Java/1.6.0_04 20140625085733
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2427 4565
+From1 0 0
+From2 204 456
+From3 767 938
+From4 15330 120991
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 202 447
+bing 2 7
+yandex 0 1
+sapo 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 150
+http://www.smartaqua.pt 151 151
+http://kochanelli.com 21 21
+http://russ-tractor.ru 16 16
+http://golden-praga.ru 15 15
+http://smartaqua.pt 15 15
+http://ruslan-motul.ru 15 15
+http://semalt.semalt.com/crawler.php 12 12
+http://sk.golden-praga.ru 12 12
+http://bigcities.org 12 12
+http://banan.tv 12 12
+http://serialsway.ucoz.ru 12 12
+http://binarystart.ru 9 9
+http://brus-vsem.ru 9 9
+http://www.fc-007.com/Page_1_Main.htm 9 9
+http://www.prostitutki-kiev.org 9 9
+http://kinohit1.ru 9 9
+http://sergeevs.eu 9 9
+http://dostavka-v-krim.ru 9 9
+http://www.trafaret74.ru 9 9
+http://gmt-max.org 9 9
+http://vintasik.info 9 9
+http://avon-severozapad.ru 9 9
+http://2kata.ru 9 9
+http://pontorez.ru 9 9
+http://www.prostitutki-rostova.org 8 8
+http://espertamariana.blogspot.pt/search 0 1
+http://robot-forex.biz 6 6
+http://ladyselect.com 3 3
+http://pornofiljmi.com 3 3
+http://www.arcada-imobiliaria.com/quemsomos/ 0 2
+http://www.prostitutki-kaliningrada.org 3 3
+http://hifidesign.ru 3 3
+http://maldita.pt 1 1
+http://www.archeage-info.ru 3 3
+http://www.prostitutki-tolyatti.org 3 3
+http://inzn.ru 3 3
+http://alif-ba-ta.com/ru/index.html 3 3
+http://funpoper.com/pic7/what-you-think/ 0 1
+http://www.artparquet.ru 6 6
+http://www.veigas.pt/index.html 1 1
+http://dentuled.net 6 6
+http://www.prostitutki-ekaterinburga.org 3 3
+http://www.insidepipe.pt/consultoria/ 0 10
+http://www.skladvaz.ru 3 3
+http://android-systems.ru 3 3
+http://www.insidepipe.pt/sample-page-2/ 0 14
+http://askow.ru 6 6
+http://onlineigry.su 6 6
+http://tvoystartup.ru 6 6
+http://venigreth.ru 3 3
+http://maldita.pt/discencias-academia-maldita/ 1 1
+http://www.infoempresas.com.pt/N_ACTIVIDADES-ADMINISTRATIVAS-SERVICOS-APOIO/Concelho_AVEIRO/Empresas-2.html 1 1
+http://aveicabo.pt 1 1
+http://www.insidepipe.pt/portfolio-2/ 0 2
+http://oksofas.pt/wp-admin/post.php 0 1
+http://pc-games.su 3 3
+http://digest-project.ru 6 6
+http://ruex.org.ua 3 3
+http://www.invisiblegrille.org/wp-login.php 1 1
+http://mypets.by 3 3
+http://www.insidepipe.pt/consultoria/solucoes/ 0 2
+http://education-cz.ru 3 3
+http://blog.viagroid.ru 3 3
+http://www.veigas.pt/contactos.html 1 1
+http://medosmotr-ufa.ru 3 3
+http://nordstar.pro 3 3
+http://espertamariana.blogspot.pt 0 6
+http://www.testagent.ru 6 6
+http://www.insidepipe.pt 0 2
+http://traveluar.net 6 6
+http://www.tipsoffice.com/ru/ 3 3
+http://www.gurusmart.ru/chehol-akkumulyator-dlja-samsung-galaxy-s4 3 3
+http://mtech-world.net 3 3
+http://www.wpthemedetector.com 1 1
+http://oksofas.pt/transportes/ 1 1
+http://www.da-hostel.ru 3 3
+http://litoralmagazine.com 2 2
+http://smartaqua.pt 2 2
+http://portal-eu.ru 3 3
+http://replica-watch.ru 3 3
+http://pornogig.com 3 3
+http://www.vniitest.ru 6 6
+http://atmagroup.ru 3 3
+http://www.insidepipe.pt/consultoria/diagnostico/ 0 9
+http://pohudenie-shop.org 6 6
+http://vetklinika.kz 3 3
+http://handliot.com 2 2
+http://oksofas.pt/dt_portfolios/essenceplus/ 0 2
+http://liderpak.ru 3 3
+http://krovlya-fasady.ru 3 3
+http://dominterior.org 6 6
+http://www.pageglimpse.com/invisual.pt 1 1
+http://igru-xbox.net 3 3
+http://profxclan.org 2 2
+http://muizre.ru 3 3
+http://qwarckoine.com 5 5
+http://www.arcada-imobiliaria.com/lojas/ 0 2
+http://megaapteka.ru 3 3
+http://www.prostitutki-almata.org 3 3
+http://new-apps.ru 3 3
+http://ru-tao.kz 6 6
+http://mrlupen.com 3 3
+http://www.artdeko.info 6 6
+http://mastermolotok.ru 3 3
+http://oksofas.pt 6 52
+http://oksofas.pt/dt_portfolios/ok-sofas-verao/ 0 1
+http://www.radiogambling.com/ru/ 6 6
+http://blogig.org 6 6
+http://boonex.ru 3 3
+http://www.respublica-otel.ru 3 3
+http://zebradudka.com 3 3
+http://smolotkom.ru 3 3
+http://screen-recorder.srecorder.com/screen-recorder.php 1 1
+http://best-poppers.com.ua 3 3
+http://centenario.pt 1 1
+http://espertamariana.blogspot.com.br/search 0 1
+http://jobspapa.com/smart-boys-thinking-about-you.html 0 1
+http://zolotoy-lis.ru 3 3
+http://rus-teh.narod.ru 8 8
+http://www.prostitutki-kemerovo.org 2 2
+http://schellenberg.center 6 6
+http://lampokrat.ws 2 2
+http://www.arcada-imobiliaria.com 0 4
+http://aveicabo.pt/wp-content/themes/rttheme15/style.css 1 1
+http://sendalion.com 6 6
+http://best-poppers.com 3 3
+http://infoportnews.com 2 2
+http://www.nvformula.ru 3 3
+http://pornokajf.com 3 3
+http://www.prostitutki-izhevska.org 5 5
+http://pornuck.com 6 6
+http://espertamariana.blogspot.com 0 2
+http://mest-com.ru 3 3
+http://www.insidepipe.pt 0 47
+http://pornoforadult.com 3 3
+http://cranly.net 3 3
+http://www.arcada-imobiliaria.com/glossario/ 0 2
+http://www.insidepipe.pt/a-agua/ 0 8
+http://sportliga.net 6 6
+http://credonyl.biz 3 3
+http://notfastfood.ru 6 6
+http://games.kolossale.ru 3 3
+http://mest-kom.ru 3 3
+http://bilmroun.net 3 3
+http://shlyahten.ru 3 3
+http://allpdfmags.net 3 3
+http://www.insidepipe.pt/contactos/ 0 5
+http://oksofas.pt/produtos-sofas/ 2 2
+http://www.smartaqua.pt 2 2
+http://www.androids-store.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+invisual 2
+%69%6e%76%69%73%75%61%6c 2
+invisuais.pt 2
+www.invisual.pt 1
+branding+design+aveiro 1
+maldita+invisual 1
+population+according+to+uno 1
+revista+litoral+magazine 1
+invisual.pt 1
+brand+solutions 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 18
+invisual 3
+%69%6e%76%69%73%75%61%6c 2
+invisuais.pt 2
+population 1
+revista 1
+brand 1
+solutions 1
+www.invisual.pt 1
+design 1
+uno 1
+to 1
+magazine 1
+litoral 1
+according 1
+branding 1
+aveiro 1
+maldita 1
+invisual.pt 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 31 607221
+302 1090 38652
+206 255 13319694
+500 17 1457
+508 8 2064
+404 4147 14997449
+301 1359 74107
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1169
+/oksofas/wp-content/uploads/2014/06/sofa023_eden.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/fb13002/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333-699x422.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent05.jpg 7 -
+/html/archives/gallery-category/arquitectura 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-IROKO.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_viscofan2.jpg 1 -
+/wp-content/plugins/wp-pagenavi/timthumb.php 3 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/thumb.php 3 -
+/html/videos-2 1 -
+/wp-content/plugins/custom-content-type-manager/index.html 4 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa05.jpg 1 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-12.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/gnr1.jpg 1 -
+/html/wp-content/uploads/2011/08/farmacia1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-1-699x422.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-CAJONES-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-MIXTO.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico021.jpg 13 -
+/oksofas/wp-content/uploads/2014/06/colchao_topper.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_LITERA-OCEANIC.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa037_italia.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pegaso002.jpg 2 http://oksofas.pt/dt_portfolios/pegaso/
+/civilria4/wp-content/uploads/2012/01/canidelo_gaia02-1024x576.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/classes/timthumb.php 1 -
+/html/wp-content/uploads/2011/09/AFCN-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/cart%C3%A3o-oferta-1.png 1 http://oksofas.pt/
+/html/wp-content/uploads/2011/09/ambientes-018.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/ainda_n_existe4-300x219.jpg 1 -
+/aveiroexpo/site/buraka-som-sistema/ 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-KING-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/smart_aqua/wp-content/themes/smartaqua/images/bg-content.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/style.css
+/html/wp-content/uploads/2011/10/A_Barca-7.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2013/05/farav2013.ficha_.inscricao.pdf 8 http://www.caseiro.pt/farav-feira-de-artesanato-de-aveiro/
+/smart_aqua_eng/wp-content/themes/invisual/scripts/timthumb.php 2 -
+/oksofas/ 2 -
+/html/wp-content/uploads/2011/09/mini-4.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa72_tello.jpg 1 -
+/aveiroexpo/site/imprensa/imprensa-congressos/ 6 -
+/html/wp-content/uploads/2011/09/lake-22.jpg 1 -
+/aveiroexpo/site/2012/10/20/ 1 -
+/ekenabay/shop-online/product-category/curvy/bk13105/ 4 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/functions/timthumb.php 1 -
+/ekenabay/shop-online/wp-content/uploads/2013/01/BK-13104_COR-398_COSTAS.jpg 1 -
+/aveiroexpo/site/mapa-do-site/ 1 -
+/aveiroexpo/ 25 -
+/oksofas/wp-content/uploads/2014/06/colchao_sensitive.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/logos_qren.png 326 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/ekenabay/shop-online/product-category/curvy/bk13107/ 3 -
+/oksofas/wp-content/uploads/2014/06/colchao_geridom-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-STYLE-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo/news/aveicabo.html 3 -
+/smart_aqua/wp-content/themes/smartaqua/lib/scripts/timthumb.php 3 -
+/oksofas/wp-content/uploads/2014/06/sofa038_lagoa.jpg 2 http://oksofas.pt/dt_portfolios/lagoa/
+/html/wp-content/uploads/2011/09/SEDE-64.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-POLIPIEL-ARTICULADO.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/aveiro_park04.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00004.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-2.jpg 1 -
+/html/wp-content/uploads/2011/09/B-25_editorial.jpg 1 -
+/html/wp-content/uploads/2011/09/ambientes-002.jpg 1 -
+/html/gallery/design-outros-suportes-stand-bmw-na-feira-de-marco-2012 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00002.jpg 1 -
+/oksofas/dt_portfolios/pablo/PIE.htc 1 -
+/manager/ht.access 1 -
+/html/archives/5227 2 -
+/oksofas/wp-content/uploads/2014/06/complementos_LITERA-OCEANIC-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/smart_aqua/wp-content/themes/smartaqua/themify/img.php 3 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica051.jpg 38 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/html/wp-content/uploads/2011/09/smart-2.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/portico_fm_rossio_1949.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica061.jpg 40 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/oksofas/wp-content/uploads/2014/06/sofa48_mediterranio.jpg 1 -
+/html/administrator/ 2 -
+/html/archives/5645 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao031.jpg 6 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LINE-REF-1-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/PLUS.jpg 3 http://oksofas.pt/dt_portfolios/plus/
+/html/wp-content/uploads/2011/09/lake-10.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-18.jpg 1 -
+/insidepipe4/wp-content/plugins/contact-form-7/'+%20s.iframeSrc%20+' 1 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-1.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/TK-13001_COR-0011-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax012_CRONOS.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/noticias_aveirol23_04_2012.jpg 1 -
+/html/gallery/fotografia-moda-balenciaga 1 -
+/smart_aqua/wp-content/themes/smartaqua/includes/thumb.php 3 -
+/administrator/components/com_virtuemart/virtuemart.xml 1 -
+/oksofas/wp-content/uploads/2014/06/sofa043_lunar.jpg 1 -
+/aveiroexpo/site/farav-2011/ 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_articulado.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/cliria_01.jpg 1 -
+/aveiroexpo/js/jquery.localscroll-min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/2012/04/ 1 -
+/oksofas/sofas-cama/ 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13004_COR-3411-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-21-300x200.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/antas_premiere01.jpg 1 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes/ 2 -
+/aveiroexpo/site/feira-de-marco-2011/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre011-300x225.jpg 1 -
+/html/wp-content/uploads/2011/09/AN_1667-158x96.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/abola.jpg 1 -
+/oksofas/wp-admin/admin.php 2 http://invisual.pt/oksofas/wp-admin/import.php
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-0.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_pouf-quadrado.jpg 1 -
+/html/gallery/eventos-mini 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/continente-300x71.jpg 1 -
+/wp-content/plugins/user-avatar/readme.txt 4 -
+/aveicabo1/wp-content/uploads/2012/10/aresent03-294x180.jpg 1 -
+/aveiroexpo/pavilhao_a.html 1 -
+/atzsite/sugestoes/ 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BASIC-LISO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/congressos-e-convencoes/salas-de-conferencia/ 4 -
+/html/videos 4 -
+/oksofas/wp-content/uploads/2014/06/complementos_00005-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo-300x191.jpg 1 -
+/aveiroexpo/site/aveiro-expo-servicos/ 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao041-294x180.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-14.jpg 1 -
+/html/wp-content/uploads/2011/09/ambientes-015.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13011/ 3 -
+/oksofas/wp-content/uploads/2014/06/essence002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre041-300x225.jpg 1 -
+/html/wp-content/uploads/2011/09/pav-juvenal-802.jpg 1 -
+/html/gallery/insercoes/constrave-2 1 -
+/aveicabo1/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/aveicabo1/portfolio/grupo-gesconect-3/ 1 -
+/wp-content/themes/central/scripts/thumb.php 5 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031-294x180.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/fb13001/ 4 -
+/wp-content/plugins/wp-pagenavi/cache/external_384fa10d8f5e7cdc8b52a11052b08178.php 3 -
+/wp-content/plugins/wp-pagenavi/functions/timthumb.php 3 -
+/aveiroexpo/calendario2010.html 3 -
+/html/wp-content/uploads/2011/09/pav-juvenal-902.jpg 1 -
+/aveiroexpo/js/jquery.scrollTo-min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa07.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/themify/img.php 1 -
+/html/wp-content/uploads/2011/09/pav-juvenal-512.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pegaso001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/fcchat/default.png 2 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa04.jpg 7 -
+/oksofas/wp-content/uploads/2014/06/colchao_baby-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/logos-6.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_juvenil001.jpg 1 -
+/html/wp-content/uploads/2011/10/A_Barca-1.jpg 1 -
+/html/gallery/embalagens 2 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_essenceplus02.jpg 23 http://oksofas.pt/dt_portfolios/essenceplus/
+/oksofas/wp-content/uploads/2014/06/complementos_pouf-quadrado-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo1/portfolio/redes-4/ 2 -
+/oksofas/wp-content/uploads/2014/06/relax021_JAZZ.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_America-tipo-A-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/archives/gallery-category/web_design 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-4.jpg 11 http://aveicabo.pt/portfolios/solar-termico/
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa58_nuvem.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BASIC-CAPITON%C3%89.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa61_pallas.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-3-294x180.jpg 1 -
+/aveiroexpo/js/supersubs.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/oksofas/wp-content/uploads/2014/06/sofa030_france.jpg 3 http://oksofas.pt/dt_portfolios/france/
+/html/wp-content/uploads/2011/09/mini-8.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pera-negro.jpg 1 -
+/' 1 -
+/ekenabay/shop-online/wp-content/uploads/2013/01/FB-13001_COR-364.jpg 1 -
+/html/wp-content/uploads/2011/09/DSC_1888-1.jpg 1 -
+/aveicabo1/feed/atom/ 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/functions/thumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/GALAXY002.jpg 5 http://oksofas.pt/dt_portfolios/galaxy-2/
+/aveiroexpo/site/category/calendario-2013/ 3 -
+/html/wp-content/uploads/2011/09/3D20.1.jpg 1 -
+/aveiroexpo/js/jquery.cluetip.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/oksofas/wp-content/uploads/2014/06/relax_SOLO2.jpg 6 http://oksofas.pt/dt_portfolios/solo/
+/aveiroexpo/site/congressos-e-convencoes/auditorio/ 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-FASHION-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/atzsite/fr/nouvelles/ 1 -
+/wp-content/plugins/wp-pagenavi/scripts/thumb.php 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias031-300x225.jpg 1 -
+/html/gallery/fotografia-espacos-comerciais-visual 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 5 -
+/wp-content/plugins/wp-pagenavi/inc/cache/384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/html/wp-content/uploads/2011/10/A_Barca-3.jpg 1 -
+/html/gallery/fotografia-gastronomia 1 -
+/civilria4/wp-content/uploads/2012/01/cais_falcoeiras02-1024x682.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-1.jpg 1 -
+/html/wp-content/uploads/2011/09/Angeja-15.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa77.jpg 1 http://oksofas.pt/dt_portfolios/sofa-4/
+/ekenabay/site/wp-content/uploads/2013/01/BK-13009_COR-1381-300x219.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/mirador_coimbra07.jpg 1 -
+/wp-content/themes/specialist/style.css 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/missao.jpg 1 -
+/html/feed/rss 10 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico011.jpg 12 -
+/aveiroexpo/site/wp-content/uploads/2012/09/reg_modelo_e_andamentos_agrovouga2012_lusitano.pdf 1 -
+/oksofas/wp-content/uploads/2014/06/relax005_VITA.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax_romo2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BASIC-LISO.jpg 1 -
+/html/gallery/produtos-decoracao 1 -
+/html/wp-content/uploads/2011/09/pav-juvenal-272.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa62_PARIS.jpg 2 http://oksofas.pt/dt_portfolios/paris/
+/aveicabo1/wp-content/uploads/2012/10/climatizacao011.jpg 3 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-MICROFIBRA.jpg 1 -
+/html/wp-content/uploads/2011/09/DSC_1855-158x96.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax008_NEON.jpg 1 -
+/editor/editor/filemanager/browser/default/connectors/uploadtest.html 1 -
+/html/gallery/desdobraveis-aveiro-park 1 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta3.pdf 1 -
+/atzsite/loja/6205/ 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13003_COR-3351-300x219.jpg 1 -
+/aveiroexpo/site/imprensa/ 2 -
+/aveiroexpo/site/congressos-e-convencoes/foyer-atrio/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/04/terranova23_04_2012.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa47_Modus.jpg 1 -
+/html/wp-content/uploads/2011/09/lake-23.jpg 1 -
+/wp-content/themes/events/style.css 2 -
+/oksofas/dt_portfolios/pulsar/PIE.htc 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pedro_abrunhosa2-227x300.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax034_NOVA.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-1.jpg 1 -
+/html/wp-content/uploads/2011/09/linhaGr4.jpg 1 -
+/html/gallery/fotografia-espacos-comerciais-castigodelito 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/portico_fm_rossio_1949-282x300.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/designer.png&text=designer 2 http://invisual.pt/oksofas/
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/digg.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/oksofas/wp-content/uploads/2014/06/ion.jpg 1 -
+/html/wp-content/uploads/2011/09/BIJU-Final052.jpg 1 -
+/html/wp-content/uploads/2011/09/insercoes-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_articulado-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-NIZA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/smart_aqua_eng/wp-content/themes/invisual/functions/thumb.php 2 -
+/oksofas/wp-content/uploads/2014/06/hypnos002.jpg 4 http://oksofas.pt/dt_portfolios/live/
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-FLORENCIA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2011/07/farav2011.jpg 1 -
+/html/xmlrpc.php 1 -
+/wp-content/plugins/tell-a-friend/win.php 2 http://eventosportugal.pt/wp-content/plugins/tell-a-friend/win.php
+/ekenabay/shop-online/product-category/trendy/tk13002/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conf02-2.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/functions/timthumb.php 3 -
+/cds-pp/2012/ 1 -
+/wp-content/plugins/wp-pagenavi/thumb.php 3 -
+/civilria2/wp-content/themes/artboard_v1.03b/functions/timthumb/timthumb.php 17 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-BOX.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-5-300x224.jpg 1 -
+/ekenabay/web/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/11/8_expoaveiro.jpg 1 -
+/aveiroexpo/js/jquery.easing.1.3.min.js 4 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/gallery/fotografia-arquitectura-sede-construtora-da-bairrada 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-KIDS-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/archives/5225 2 -
+/smart_aqua_eng/wp-content/themes/invisual/framework/timthumb.php 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-QUEEN-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo1/wp-content/uploads/2012/10/instalac_manutenc051-640x272.jpg 1 -
+/html/gallery/outros 2 -
+/wp-content/themes/central/includes/timthumb.php 5 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/scripts/thumb.php 1 -
+/aveiroexpo/site/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/civilria2/wp-content/uploads/2012/01/antas_premiere03.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa76_wave.jpg 2 http://oksofas.pt/dt_portfolios/wave/
+/wp-content/themes/5star/style.css 2 -
+/smart_aqua/wp-content/themes/smartaqua/functions/thumb.php 3 -
+/html/gallery/fotografia-arquitectura-quartel-de-bombeiros-de-oliveira-do-bairro 2 -
+/oksofas/wp-content/uploads/2014/06/colchao_bora_aloe_vera2-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-KING.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta2.pdf 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/Agrovouga2012_ficha_inscri%C3%A7%C3%A3o.pdf 1 -
+/html/wp-content/uploads/2011/09/lake-19.jpg 1 -
+/wp-content/plugins/simple-dropbox-upload-form/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/11/animeventos-284x186.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent01.jpg 6 http://aveicabo.pt/portfolios/apresentacao/
+/ekenabay/site/wp-content/uploads/2013/01/FB-13005_COR-3711-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-POLIPIEL-MIXTA-3D.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/core/timthumb.php 3 -
+/site/wp-login.php 1 -
+/oksofas/wp-content/uploads/2014/06/sofa029_Fran.jpg 2 http://oksofas.pt/dt_portfolios/fran/
+/oksofas/wp-content/uploads/2014/06/CROMA0002.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 8 -
+/oksofas/wp-content/uploads/2014/06/relax032_NIQUEL.jpg 1 -
+/html/wp-content/uploads/2011/08/bike-165x90.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/filipa-pouf-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo1/wp-content/uploads/2012/10/etiqueta.png 366 -
+/wp-content/themes/central/themify/img.php 6 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/uploadtest.html 1 -
+/wp-content/plugins/gallery-plugin/gallery-plugin.php 4 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/wp-content/plugins/nextgen-gallery/changelog.txt 2 -
+/html/wp-login.php 2 -
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 4 -
+/aveicabo1/wp-content/uploads/2012/10/biomassa_01-294x180.jpg 1 -
+/aveiroexpo/site/aveiro-expo-apresentacao/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-4.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect03.jpg 15 http://aveicabo.pt/portfolios/grupo-gesconect/
+/aveiroexpo/site/wp-content/uploads/2011/07/ferro.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa70_silver-cortado.jpg 2 http://oksofas.pt/dt_portfolios/silver-recortado/
+/aveicabo1/wp-content/uploads/2012/10/aresent03.jpg 5 -
+/html/archives/category/noticias 2 -
+/ekenabay/shop-online/product-category/curvy/bk13106/ 4 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-10.jpg 1 -
+/html/archives/gallery-category/outros 1 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-3D-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/relax031_NIQUEL.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica041.jpg 40 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/ekenabay/shop-online/product-category/trendy/fb13004/ 5 -
+/html/gallery/eventos-mercentro-classe-c 1 -
+/civilria4/wp-content/uploads/2012/01/mirador_barra05-670x390.jpg 1 -
+/comments/feed 10 -
+/oksofas/wp-content/uploads/2014/06/sofa75_tuareg.jpg 1 -
+/atzsite 1 -
+/wp-content/themes/central/classes/timthumb.php 5 -
+/aveiroexpo/site/2012/11/21/ 1 -
+/smart_aqua_eng/ 12 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-17.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa57_norden.jpg 18 http://oksofas.pt/dt_portfolios/norden/
+/smart_aqua/wp-content/themes/smartaqua/includes/timthumb.php 3 -
+/aveicabo1/wp-content/uploads/2012/09/workshop09.jpg 1 -
+/aveiroexpo/site/2012/04/25/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/correiodamanha.jpg 1 -
+/wp-content/plugins/user-meta/readme.txt 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/SLK_2008_interior_sol-102-300x200.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa53_moti-promo.jpg 1 -
+/wp-content/plugins/wp-pagenavi/inc/thumb.php 3 -
+/html/wp-content/uploads/2011/09/A-18_capa.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_feira_de_marco2013.jpg 11 -
+/2011/wp-login.php 1 -
+/html/wp-content/uploads/2011/09/linhaGr6.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-25.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-BOX-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/front-end-upload/destination.php 6 -
+/html/archives/449 2 -
+/html/wp-content/uploads/2011/10/Parque_do_Prego-8.jpg 7 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-KIT-POLIPIEL.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-2-699x422.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/MAYA001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/fm2012.jpg 1 -
+/html/archives/gallery-category/eventos 3 -
+/ekenabay/shop-online/product-category/trendy/bk13008/http:/ 4 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-5.jpg 9 http://aveicabo.pt/portfolios/solar-termico/
+/oksofas/wp-content/uploads/2014/06/MAYA002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa01.jpg 7 http://aveicabo.pt/portfolios/biomassa/page/2/
+/civilria4/wp-content/uploads/2012/01/mirador_coimbra01-1024x512.jpg 2 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_001.jpg 2 http://oksofas.pt/dt_portfolios/sofa-cama-essence/
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-BASIC.jpg 1 -
+/html/wp-content/uploads/2011/09/3D18.1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa_sheila.jpg 1 http://oksofas.pt/dt_portfolios/sheila/
+/aveiroexpo/site/aviso-legal/ 2 -
+/oksofas/wp-content/uploads/2014/06/sort-rinconera-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/10/carochas-284x186.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/mirador_barra06.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/porter-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/portfolio/2-pavilhoes/ 1 -
+/wp-content/themes/central/framework/timthumb.php 5 -
+/oksofas/wp-content/uploads/2014/06/complementos_MARBELLA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/cds-pp/gallery/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/timthumb.php 3 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13002_COR-3691-300x219.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13010/ 3 -
+/html/wp-content/uploads/2011/09/DSC_1893-1.jpg 1 -
+/html/wp-content/uploads/2011/09/lake-30.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_juvenil001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias021-300x225.jpg 1 -
+/aveiroexpo/js/jquery.overlabel.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2013/10/1111.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13006/ 3 -
+/insidepipe4/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/civilria4/wp-content/uploads/2012/01/sintra01-1024x629.jpg 1 -
+/aveiroexpo/site/category/calendario-2012-2/ 5 -
+/oksofas/wp-content/uploads/2014/06/somos-fabricantes.png 1 http://oksofas.pt/
+/ekenabay/shop-online/product-category/trendy/bk13001/ 3 -
+/aveicabo1 2 -
+/html/gallery/desdobraveis-veigas 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031.jpg 13 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 6 -
+/wp-content/themes/twentyten/search.php 2 http://invisual.pt/wp-content/themes/twentyten/search.php
+/ekenabay/site/wp-content/uploads/2013/01/BK-13501_COR-300-300x219.jpg 6 http://ekenabay.com/sunny-shop/
+/smart_aqua/wp-content/themes/smartaqua/thumbopen.php 3 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa08.jpg 8 -
+/oksofas/wp-content/uploads/2014/06/GALAXY001.jpg 4 http://oksofas.pt/dt_portfolios/galaxy-2/
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/outofstock.png 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/oksofas/wp-content/uploads/2014/06/relax037_PLASMA.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-CAYENNE.jpg 1 -
+/cds-pp/the-issues-3-items-in-accordion/ 1 -
+/wp-content/plugins/wp-pagenavi/inc/cache/external_384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/feed/ 16 -
+/aveicabo1/aveicabo-na-cebit-2012/ 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-7.jpg 4 -
+/oksofas/wp-content/uploads/2014/06/sofa026_eros.jpg 3 -
+/wp-content/themes/central/thumbopen.php 5 -
+/oksofas/wp-content/uploads/2014/06/relax017_HELIO.jpg 1 -
+/wp-content/themes/central/thumb.php 5 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/oksofas/wp-admin/admin-ajax.php 1 http://invisual.pt/oksofas/wp-admin/admin.php
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_DA.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade02-294x180.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/thumbopen.php 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BLACK-WHITE-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/contact/ 7 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-11-300x225.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-STYLE-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-STYLE.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/timthumb/timthumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_geridom.jpg 1 http://oksofas.pt/dt_portfolios/geridom/
+/aveiroexpo/site/wp-content/uploads/2012/03/servicos.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-9.jpg 1 -
+/aveiroexpo/site/assembleia-geral-apcrf-19-dezembro/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa09-300x229.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_latex.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4133-300x200.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceria01_150.png 1 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb/timthumb.php 2 -
+/oksofas/wp-content/uploads/2014/06/colchao_viscofan.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa69_sheila.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13007_COR-3511-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa015_carol.jpg 6 http://oksofas.pt/dt_portfolios/carol/
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-6-294x180.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/includes/timthumb.php 1 -
+/aveiroexpo/site/agrovouga-2012/ 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao031-294x180.jpg 1 -
+/gesconect/ 1 -
+/aveiroexpo/site/category/calendario-2012-2/page/2/ 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop08.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pegaso002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/carrinha_insidepipe.jpg 50 http://www.insidepipe.pt/consultoria/solucoes/
+/oksofas/wp-content/uploads/2014/06/relax044_SOLAR.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa041_lucia.jpg 1 -
+/html/gallery/desdobraveis-eurogres-marca-celebration 1 -
+/oksofas/wp-content/uploads/2014/06/sofa016_chic.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-0.jpg 3 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-IROKO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/gesconect/wp-content/uploads/2012/01/indicadorgesconect.png 370 -
+/ekenabay/shop-online/product-category/curvy/bk13101/ 6 -
+/html/wp-content/uploads/2011/09/logos-30.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre021-300x225.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica021-294x180.jpg 1 -
+/html/wp-content/uploads/2011/08/tapumes_lake-165x90.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-0-699x422.jpg 1 -
+/wp-content/plugins/wp-filemanager/fm.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/278anos-300x229.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pouf0001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_BASE-FIJA-TATAMI-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/gallery/fotografia-arquitectura-universidade-de-aveiro 2 -
+/oksofas/wp-content/uploads/2014/06/colchao_bora_aloe_vera-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/ekenabay/shop-online/product-category/trendy/tk13001/ 3 -
+/oksofas/wp-content/uploads/2014/06/essence003.jpg 2 http://oksofas.pt/dt_portfolios/sofa-cama-essence/
+/oksofas/wp-content/uploads/2014/06/sofa71_soul.jpg 1 -
+/invisual/&sa=U&ei=5KSVU56rEKnI0AWl_oGQDw&ved=0CB4QFjAB&usg=AFQjCNFf-I7atKyHDIf53KTGfBl9doeSuQ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias01-204x104.jpg 1 -
+/html/gallery/fotografia-arquitectura-centro-cultural-de-angeja 2 -
+/civilria4/wp-content/uploads/2012/01/mirador_barra04-1024x768.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/produtos-sofas/PIE.htc 4 -
+/aveiroexpo/site/6o-salao-automovel-e-motociclo-antigo-classico-e-sport-de-aveiro/ 2 -
+/html/wp-content/uploads/2011/09/constrave2-158x96.jpg 1 -
+/html/wp-content/uploads/2011/09/B-25_editorial-158x96.jpg 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-SAFARI-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/xmlrpc.php 1 -
+/aveiroexpo/site/seminario-major-technological-and-natural-hazards-in-europe-and-the-civil-protection-systems-response/ 1 -
+/wp-content/themes/central/functions/thumb.php 5 -
+/aveiroexpo/js/jquery.bgiframe.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/smart_aqua/ 10 -
+/aveiroexpo/site/pavilhoes/ 1 -
+/wp-content/plugins/wp-pagenavi/inc/cache/66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/aveiroexpo/auditorio.html 1 -
+/html/gallery/multimedia-cd-apresentacao-aveiro-expo 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13505_COR-325-300x219.jpg 6 http://ekenabay.com/sunny-shop/
+/oksofas/wp-content/uploads/2014/06/colchao_baby.jpg 2 http://oksofas.pt/dt_portfolios/baby/
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica011-294x180.jpg 1 -
+/aveiroexpo/site/visitantes/ 3 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-KING-PLAFON-MADERA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/ 36 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-4-300x224.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-METAL-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/relax001_Canape-Isabel.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo_alboran1-284x186.jpg 8 -
+/aveiroexpo/canina/regulamento.pdf 2 -
+/html/wp-content/uploads/2011/09/logos-28-158x96.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/live_in_03.jpg 1 -
+/wp-content/plugins/wp-property/action_hooks.php 3 -
+/civilria4/wp-content/uploads/2012/01/mirador_12.jpg 1 -
+/aveiroexpo/site/portfolio/project-number-5/ 1 -
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 3 -
+/2014/wp-login.php 1 -
+/oksofas/wp-content/uploads/2014/06/sofa022_DUBAI.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13003_COR-3811-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/melodias_aveiro.jpg 1 -
+/html/gallery/desdobraveis-clinica-do-certoma 2 -
+/smart_aqua/wp-content/themes/smartaqua/classes/timthumb.php 3 -
+/html/wp-content/uploads/2011/09/smart-14.jpg 1 -
+/html/gallery/fotografia-moda-biju 1 -
+/html/wp-content/uploads/2011/09/AFCN-2.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_ficha_inscricao.pdf 1 -
+/civilria4/wp-content/uploads/2012/01/mirador_barra07-682x1024.jpg 1 -
+/html/archives/gallery-category/3d 1 -
+/civilria2/wp-content/uploads/2012/01/mirador18.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-KIDS.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/porter.jpg 17 http://oksofas.pt/dt_portfolios/poster/
+/aveicabo1/wp-content/uploads/2012/09/workshop01-150x150.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LINE-REF-2.jpg 1 -
+/html/gallery/insercoes 3 -
+/html/wp-content/uploads/2011/09/pav-juvenal-392.jpg 1 -
+/aveicabo1/portfolios/biomassa/ 3 -
+/aveicabo1/wp-content/uploads/2012/10/fundo_energia-2.jpg 1 -
+/ekenabay/web/wp-content/uploads/2013/01/TK-13002_COR-3591-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/civilria4/wp-content/uploads/2012/01/mirador_barra05-1024x768.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-4.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pera-orange-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/2011/11/ 1 -
+/https:/maps.googleapis.com/maps/api/js 11 -
+/html/archives/4867 2 -
+/oksofas/wp-content/uploads/2014/06/hypnos002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa07-175x300.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa80.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13008/ 3 -
+/oksofas/wp-content/uploads/2014/06/relax004_CELESTE.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00005.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa49_monaco.jpg 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/aveiroexpo/calendario2009.html 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop06.jpg 1 -
+/aveiroexpo/site/2012/08/06/ 1 -
+/wp-content/themes/Events/style.css 2 -
+/aveicabo1/wp-content/uploads/2012/10/logo_aveicabo.png 1 -
+/aveiroexpo/site/festa-de-natal/ 4 -
+/oksofas/wp-content/uploads/2014/06/sofa027_faltanome.jpg 3 http://oksofas.pt/dt_portfolios/falta-nome/
+/html/wp-content/uploads/2011/09/BIJU-Final113.jpg 1 -
+/aveiroexpo/site/2012/05/ 1 -
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/google_bmarks.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/smartaqua/wp-admin/ 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-CHAROL.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_bora_aloe_vera.jpg 1 -
+/html/wp-content/uploads/2011/09/fotomontagem_toten02.jpg 1 -
+/aveiroexpo/js/jquery.cycle.all.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/wp-content/uploads/2011/10/Moradia_Barro-11.jpg 1 -
+/html/wp-content/uploads/2011/09/clivenex2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-3D.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-1.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13004/ 3 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os15.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_Therapy-an+-nimo.jpg 1 -
+/aveiroexpo/site/farav-2012-27-de-julho-a-5-de-agosto/ 1 -
+/civilria4/wp-content/uploads/2012/01/live_in_04.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax033_NIQUEL.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio01-204x104.jpg 1 -
+/aveicabo1/bombas-de-calor/ 2 -
+/aveiroexpo/site/2011/12/03/ 3 -
+/html/wp-content/uploads/2011/10/arq15.jpg 1 -
+/aveicabo1/portfolio/1038/ 2 -
+/wp-includes/js/jquery/!=typeof 8 -
+/oksofas/wp-content/uploads/2014/06/bases_ARCON-TAPIZADO-STYLO.jpg 1 -
+/wp-content/plugins/wp-pagenavi/timthumb.phptimthumb.php 3 -
+/oksofas/wp-content/uploads/2014/06/complementos_00002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_BASE-FIJA-TATAMI.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13005_COR-3481-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_essenceplus02-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/aveiroexpo.html 1 -
+/oksofas/wp-content/uploads/2014/06/sort.jpg 10 http://oksofas.pt/dt_portfolios/sort/
+/html/archives/gallery-category/desdobraveis-design 1 -
+/wp-content/themes/dailydeal/style.css 2 -
+/aveiroexpo/site/informacao-institucional-aviso-legal/ 3 -
+/aveiroexpo/js/hoverIntent.min.js 4 http://www.farmaciacapaofilipe.com/apresentacao.html
+/smart_aqua_eng/wp-content/themes/invisual/thumbopen.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/05/feira_outlet.jpg 1 -
+/aveicabo1/portfolios/redes-fixas-nova-geracao-fibra-optica/ 2 -
+/aveiroexpo/js/LiberationSans.font.js 2 -
+/ekenabay/shop-online/product-category/curvy/bk13104/ 3 -
+/oksofas/wp-content/uploads/2014/06/colchao_orange.jpg 1 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto/ 3 -
+/oksofas/wp-content/uploads/2014/06/Pegaso-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/gallery/desdobraveis-mariana-urbanizacao 3 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_alma.jpg 5 http://oksofas.pt/dt_portfolios/alma/
+/oksofas/wp-content/uploads/2014/06/PLUS-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-0.jpg 1 -
+/html/gallery/eventos-litoral-design 1 -
+/aveiroexpo/site/aveiro-expo-missao-estatuto/ 3 -
+/html/wp-content/uploads/2011/10/A_Barca-4.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13004_COR-1471-300x219.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-31.jpg 1 -
+/aveiroexpo/site/aveiro-expo-videos/ 4 -
+/oksofas/wp-content/uploads/2014/06/relax003_CELESTE-FRENTE.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/ANPC-284x186.jpg 1 -
+/html/wp-content/uploads/2011/09/DSC_1871-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos003_PROTON-SILL%C3%93N.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica051-294x180.jpg 1 -
+/aveiroexpo/site/2012/05/15/ 2 -
+/html/gallery/3d-gesconect-2 1 -
+/oksofas/wp-content/uploads/2014/06/sofas00001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/sofa74_Tokio.jpg 3 http://oksofas.pt/dt_portfolios/tokio/
+/html/wp-content/uploads/2011/09/mini-23.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax011_REFLEX.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13103/ 3 -
+/oksofas/wp-content/uploads/2014/06/sofa55_new-lona.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-31-158x96.jpg 1 -
+/wp-content/plugins/wp-image-news-slider/functions.php 4 -
+/html/archives/5344 2 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13504_COR-319-300x219.jpg 6 http://ekenabay.com/sunny-shop/
+/aveiroexpo/site/category/calendario-2011/ 2 -
+/html/gallery/fotografia-espacos-comerciais-latina-adega 2 -
+/oksofas/wp-content/uploads/2014/06/colchao_bora_visco.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-1-300x224.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-MARBELLA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/colchao_boreal_cotton.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax014_diva.jpg 1 -
+/html/gallery/desdobraveis-asl 2 -
+/aveiroexpo/site/convencao-internacional-de-fitness/ 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LINE-REF-1.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-17.jpg 1 -
+/aveiroexpo/site/aveiro-noivos-2012/ 1 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade01.jpg 8 -
+/aveiroexpo/site/wp-content/uploads/2011/03/test_avatar.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13001_COR-330-11-300x219.jpg 1 -
+/html/archives/5351 1 -
+/wp-content/themes/nextbiz/images/slider_btn_icon.png 1 http://invisual.pt/magmacaracas/
+/oksofas/wp-content/uploads/2014/06/sofa60_Pablo.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax041_SEHILA_REYES-ORDO%C3%91EZ.jpg 4 -
+/html/gallery/eventos-diario-de-aveiro-25-anos 1 -
+/html/wp-content/uploads/2011/09/smart-10.jpg 1 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/oksofas/wp-content/uploads/2014/06/relax026_lord.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa031_galaxy.jpg 11 http://oksofas.pt/dt_portfolios/galaxy/
+/html/archives/gallery-category/produtos 2 -
+/images/stories/food.php 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 8 -
+/aveicabo1/instalacao-manutencao/ 1 -
+/html/gallery/outros-stand-aveicabo 1 -
+/atzsite/es/noticias-2/ 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/core/timthumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/pera-negro-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/hypnos001.jpg 4 -
+/aveicabo1/portfolio/politica-de-qualidade/ 2 -
+/html/wp-content/uploads/2011/09/sl11-158x96.jpg 1 -
+/hpjxoympimgkpdjc.html 1 -
+/html/wp-content/uploads/2011/09/mini-3.jpg 1 -
+/html/wp-content/uploads/2011/10/SEDE-5.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa07-294x180.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/framework/timthumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/relax_elba2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/essence003-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/sofa013_barcelona.jpg 1 -
+/atzsite/categoria-produto/batentes/ 1 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro/ 6 -
+/oksofas/wp-content/uploads/2014/06/sofa_cuzco2.jpg 2 http://oksofas.pt/dt_portfolios/cuzco/
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102-699x422.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/08/agrovouga2012_calendario-284x186.jpg 1 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-9.jpg 1 -
+/administrator/ 4 -
+/oksofas/wp-content/uploads/2014/06/pera-verda-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/relax019_ICARO.jpg 1 -
+/html/wp-content/uploads/2011/10/Parque_do_Prego-7.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-2-300x224.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/fb13103/ 3 -
+/html/gallery/fotografia-moda-tom-ford 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-4-699x422.jpg 1 -
+/oksofas/dt_portfolios/sheila/PIE.htc 1 -
+/html/gallery/outros/ferro-2 1 -
+/aveiroexpo/site/expotrakinas-1-a-4-novembro/ 2 -
+/oksofas/wp-content/uploads/2014/06/relax023_KELVIN.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-2-699x422.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa05-175x300.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop03-150x150.jpg 1 -
+/wp-content/uploads/2013/10/1.jpg 1 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-6.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-5.jpg 1 -
+/insidepipe4/ 3 -
+/civilria4/ 4 -
+/oksofas/wp-content/uploads/2014/06/sofa54_nasa.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/cliria_02.jpg 1 -
+/html/wp-content/uploads/2011/09/Angeja-28.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-3D-AIRFLOW.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/06/expocanina-284x186.png 1 -
+/civilria2/wp-content/uploads/2012/01/A17_logist_02.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb.php 2 -
+/html/wp-content/uploads/2011/10/SEDE-79.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-METAL.jpg 1 -
+/wp-content/plugins/wp-pagenavi/inc/cache/external_66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/html/wp-content/uploads/2011/09/BIJU-Final121.jpg 1 -
+/aveicabo1/climatizacao/ 8 -
+/aveiroexpo/site/melodias-de-aveiro-22-jun-a-10-nov-2013 1 -
+/html/gallery/linhas-graficas 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias01-204x104.jpg 1 -
+/ekenabay/shop-online/wp-content/uploads/2013/01/BK-13104_COR-398.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax_sima2.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumb.php 2 -
+/html/gallery/fotografia-espacos-comerciais-hotel-de-ilhavo 3 -
+/ekenabay/shop-online/product-category/trendy/fb13005/ 3 -
+/aveiroexpo/site/wp-content/uploads/2013/07/MlAvr_50x70-731x1024.jpg 62 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_regulamento.pdf 1 -
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/furl.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/html/wp-content/uploads/2011/10/Parque_do_Prego-2.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor01.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/visao23_04_2012.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/smart_residence04-1024x682.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos001_mesa-pouf.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/filipa-pouf.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/MAYA001.jpg 4 http://oksofas.pt/dt_portfolios/maya/
+/civilria4/wp-content/uploads/2012/01/aveiro_park01.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb/timthumb.php 3 -
+/comments/feed/ 58 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-COBRA.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-16.jpg 1 -
+/marcas/&sa=U&ei=5KSVU56rEKnI0AWl_oGQDw&ved=0CDEQFjAE&usg=AFQjCNFdjEghi4OXi7_lTIC7A0lXNs4cRQ 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop_2011.jpg 1 -
+/aveiroexpo/js/superfish.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/wp-content/uploads/2012/11/veigas_saldos_fev_2013_net4.jpg 3 -
+/html/archives/5634 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/aveiroexpo-1571-300x200.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/mirador_17.jpg 1 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 4 -
+/aveiroexpo/site/portfolio/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/dnportugal23_04_2012.jpg 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_02.jpg 1 -
+/aveiroexpo/espacos.html 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-6.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/05/fitness1-284x186.jpg 21 -
+/html/gallery/fotogarfia-arquitectura-parque-do-prego 1 -
+/aveiroexpo/site/ 98 -
+/ekenabay/shop-online/product-category/trendy/fb13003/ 3 -
+/oksofas/wp-content/uploads/2014/06/relax013_CRONOS.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica071.jpg 38 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhao_A02-204x104.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-211.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa66_PULSAR.jpg 1 -
+/html/gallery/desdobraveis-forgestil 1 -
+/oksofas/wp-content/uploads/2014/06/sofa001_Algarve.jpg 1 http://oksofas.pt/dt_portfolios/algarve/
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-DUPLO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/dona-azeitona.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 7 -
+/html/feed 10 -
+/2010/wp-login.php 1 -
+/html/wp-content/uploads/2011/09/LMA6382.jpg 1 -
+/html/gallery/desdobraveis-smart-aqua 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13008_COR-3531-300x219.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax016_ETER.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/renovaveis_biomassa1.jpg 6 http://aveicabo.pt/portfolios/biomassa/page/2/
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica071-294x180.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pouf0003-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/themes/central/includes/thumb.php 5 -
+/oksofas/wp-content/uploads/2014/06/sofa56_nirvana.jpg 1 http://oksofas.pt/dt_portfolios/nirvana/
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias011-300x225.jpg 1 -
+/html/gallery/fotografia-moda-giorgio-armani 1 -
+/marcas/RK=0/RS=KsMpgp5uytdr15kEK1PW.uz6120- 1 http://invisual.pt/
+/oksofas/wp-content/uploads/2014/06/pouf0003.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-241-300x225.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo-227x300.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/A17_logist_03.jpg 1 -
+/html/wp-content/uploads/2011/10/A_Barca-9.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-POLIPIEL-MIXTA-3D-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 4 -
+/download/rotulosghouse.zip 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/external_384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/oksofas/wp-content/uploads/2014/06/pegaso001.jpg 1 http://oksofas.pt/dt_portfolios/pegaso/
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-ARTICULADO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/mini-16.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa_cuzco.jpg 2 http://oksofas.pt/dt_portfolios/cuzco/
+/oksofas/wp-content/uploads/2014/06/sofa_cama_alma-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/islidex/js/timthumb.php 4 -
+/ekenabay/shop-online/product-category/trendy/bk13009/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4135-300x200.jpg 1 -
+/civilria/boas_festas_civilria.gif 1 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/thumb.php 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BLACK-WHITE.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/regulamento_da_feira_de_marco_2013.pdf 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-0.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conf02-2-699x422.jpg 1 -
+/html/gallery/fotografia-veiculos-electra-rat-fink-3i 2 -
+/wp-content/plugins/wp-pagenavi/functions/cache/external_66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/html/gallery/fotografia-veiculos-mercedes-classe-e-coupe 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LINE-REF-2-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/search.php 2 http://invisual.pt/wp-content/plugins/search.php
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 4 -
+/smart_aqua/wp-content/themes/smartaqua/thumb.php 3 -
+/oksofas/wp-content/uploads/2014/06/sofa018_COPERNICO.jpg 2 http://oksofas.pt/dt_portfolios/copernico/
+/oksofas/wp-content/uploads/2014/06/bases_BASE-MICROFIBRA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/ekenabay/shop-online/product-category/trendy/bk13007/ 3 -
+/invisual/&sa=U&ei=ZZqjU8ycF6vA7AaUmICABQ&ved=0CBsQFjAB&usg=AFQjCNHg8b3jETmDTYAwQINlw1HUzW1Lmg 1 -
+/html/wp-content/uploads/2011/09/mini-1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/278anos.jpg 1 -
+/html 14 -
+/oksofas/wp-content/uploads/2014/06/sofa011_ANGULAR.jpg 1 -
+/html/wp-content/uploads/2011/09/logotipo-adriano-carreira.jpg 2 -
+/wp-content/plugins/wp-pagenavi/scripts/timthumb.php 3 -
+/aveiroexpo/site/2012/11/18/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/11/avnoivos.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-13.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop05.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-SAFARI.jpg 1 -
+/aveiroexpo/site/aurea/ 1 -
+/html/wp-content/uploads/2011/10/Bombeiros-20.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa67_QUASAR.jpg 5 http://oksofas.pt/dt_portfolios/quasar/
+/aveicabo1/ 5 -
+/aveiroexpo/site/wp-content/uploads/2011/12/salao.jpg 1 -
+/wp-content/uploads/2013/10/114.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa03.jpg 10 http://aveicabo.pt/portfolios/biomassa/page/2/
+/aveiroexpo/site/wp-content/uploads/2013/06/noticia_farav_2013_-284x186.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/main_ex.jpg 1 -
+/wp-content/themes/central/functions/timthumb.php 5 -
+/aveiroexpo/site/wp-content/uploads/2012/04/fm2012_buraka-227x300.jpg 1 -
+/wp-content/plugins/wp-e-commerce/license.txt 4 -
+/aveiroexpo/site/gnr/ 1 -
+/wp-content/plugins/wp-pagenavi/cache/384fa10d8f5e7cdc8b52a11052b08178.php 3 -
+/html/wp-content/uploads/2011/09/BIJU-Final085.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_MARBELLA.jpg 2 -
+/aveiroexpo/calendario2008.html 1 -
+/aveiroexpo/site/caravana-rodoviaria-fundacao-mapfre/ 5 -
+/aveiroexpo/site/wp-content/uploads/2013/07/cartaz_feira_marco_2013-731x1024.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/farav_2012_cartaz-214x300.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13102/ 4 -
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/wp-content/plugins/category-grid-view-gallery/includes/timthumb.php 2 -
+/html/gallery/logotipos 2 -
+/aveiroexpo/site/wp-content/uploads/2011/05/cidadania.jpg 1 -
+/aveiroexpo/site/feira-de-marco-2012-2/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/framework/timthumb.php 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-2-699x422.jpg 1 -
+/html/wp-content/uploads/2012/11/newsletter_veigas_20132.jpg 2 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/aveicabo1/wp-content/uploads/2012/09/workshop_2011-150x150.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pouf0002.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-3.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-4.jpg 1 -
+/html/wp-content/uploads/2011/09/lake-17.jpg 1 -
+/civilria2/wp-content/uploads/2012/01/mirador_barra09.jpg 1 -
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 1 -
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/magnolia.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/aveiroexpo/site/wp-content/uploads/2011/05/automobilia.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-3-699x422.jpg 2 -
+/html/wp-content/uploads/2011/09/G-13.jpg 1 -
+/aveicabo/news/workshop.htm 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica021.jpg 39 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/atzsite/wp-content/plugins/revslider/rs-plugin/js/'+i+' 1 -
+/civilria2/wp-content/uploads/2012/01/mirador14.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchoes0000001.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/fb13102/ 3 -
+/smart_aqua_eng/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/stocks-284x186.jpg 1 -
+/html/gallery/fotografia-veiculos-mercedes-cls 1 -
+/civilria4/wp-content/uploads/2012/01/mirador6.jpg 1 -
+/html/wp-content/uploads/2011/09/DSC_1944-1.jpg 1 -
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/wp-content/themes/visualmedia/images/layout/favicon.png 24 -
+/html/wp-content/uploads/2011/09/logos-23.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/10/frilac.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/correiodamanha002.jpg 1 -
+/html/wp-content/uploads/2011/10/SEDE-16.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/essence002.jpg 3 http://oksofas.pt/dt_portfolios/sofa-cama-essence/
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia01-173x300.jpg 1 -
+/oksofas/dt_portfolios/alisio/PIE.htc 1 -
+/smartaqua/ 10 http://eficienciahidrica.wordpress.com/
+/aveiroexpo/site/2012/10/23/ 2 -
+/aveiroexpo/site/melodias-de-aveiro-22-jun-a-10-nov-2013/ 2 -
+/aveicabo1/portfolio/apresentacao03/ 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 3 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-NIZA.jpg 1 -
+/smart_aqua/images/stories/food.php 1 -
+/wp-content/plugins/formidable/pro/js/ofc-library/ofc_upload_image.php 2 -
+/aveiroexpo/site/wp-content/uploads/2013/05/farav2013.regulamento.pdf 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/objectivos.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/relax043_SENSOR.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-WOOD-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/lake-29.jpg 1 -
+/aveiroexpo/site/imprensa/eventos/ 5 -
+/html/archives/5338 1 -
+/smart_aqua_eng/wp-content/themes/invisual/classes/timthumb.php 2 -
+/blog/wp-login.php 1 -
+/html/wp-content/uploads/2011/09/mini-6.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/12/outlet.jpg 1 -
+/wp-content/plugins/resume-submissions-job-postings/installer.php 4 -
+/html/gallery/fotografia-espacos-comerciais-pizzarte 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/leandro1.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/core/timthumb.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102-204x104.jpg 1 -
+/html/wp-content/uploads/2011/09/smart-1.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/timthumb.php 2 -
+/atzsite/ 2 -
+/oksofas/wp-content/uploads/2014/06/sofa042_lucia.jpg 1 -
+/wp-content/plugins/wp-homepage-slideshow/functions.php 4 -
+/html/wp-content/uploads/2011/09/foto0092-158x96.jpg 1 -
+/aveiroexpo/site/imprensa/imprensa-institucional/ 4 -
+/oksofas/wp-content/uploads/2014/06/pouf0005-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 4 -
+/oksofas/wp-content/uploads/2014/06/colchao_denim_silver_tex-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/sofa81.jpg 8 http://oksofas.pt/dt_portfolios/sofa-8/
+/wp-content/plugins/wp-pagenavi/functions/thumb.php 3 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica031-294x180.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 9 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-3.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-BASIC-CAPITON%C3%89-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/ekenabay/shop-online/wp-content/uploads/2013/01/FB-13103_COR-430.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_essenceplus.jpg 22 http://oksofas.pt/dt_portfolios/essenceplus/
+/oksofas/wp-content/uploads/2014/06/relax040_PROTON.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-COBRA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/ekenabay/site/wp-content/uploads/2013/01/BK-13502_COR-306-300x219.jpg 6 http://ekenabay.com/sunny-shop/
+/oksofas/wp-content/uploads/2014/06/sofa033.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-2.jpg 1 -
+/aveiroexpo/js/cufon-yui.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/plugins/font-uploader/font-uploader-free.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/11/apcrf.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa020_diana.jpg 1 -
+/html/wp-content/uploads/2011/09/vgg3.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/mirador_barra03.jpg 1 -
+/aveiroexpo/site/pedro-abrunhosa/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/concerto_aurea.jpg 1 -
+/wp-content/themes/central/core/timthumb.php 5 -
+/html/wp-content/uploads/2011/09/corecta-group.jpg 1 -
+/aveicabo1/noticias/ 4 -
+/oksofas/wp-content/uploads/2014/06/complementos_00004-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/themes/realestate/style.css 2 -
+/aveiroexpo/site/calendario-pea-2012/ 4 -
+/oksofas/wp-content/uploads/2014/06/sofa_cama_essenceplus-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/LMA6495-158x96.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent02.jpg 8 http://aveicabo.pt/portfolios/apresentacao/
+/admin.php 2 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-7.jpg 1 -
+/aveiroexpo/site/2012/05/14/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias011-300x225.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica041-294x180.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect02.jpg 16 http://aveicabo.pt/portfolios/grupo-gesconect/
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/lib/scripts/timthumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_America-tipo-A.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/bk13005/ 3 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico021-294x180.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/fb13101/ 3 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13006_COR-1511-300x219.jpg 1 -
+/wp-content/themes/nightlife/style.css 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/slider_short_1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sort-rinconera.jpg 15 http://oksofas.pt/dt_portfolios/sort-rinconera/
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica031.jpg 37 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-MIXTO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-FLORENCIA.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/cartaz_2012_XX_web-284x186.jpg 2 -
+/aveiroexpo/site/2012/04/21/ 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00001.jpg 1 -
+/ekenabay/survey/index/sid/129874/newtest/Y/lang/pt 3 -
+/oksofas/wp-content/uploads/2014/06/sofa68_rex-escala-de-cinza.jpg 2 -
+/html/gallery/fotografia-veiculos-mercedes-slk 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-0.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/timthumb.php 1 -
+/aveiroexpo/site/2012/03/24/ 1 -
+/civilria4/wp-content/uploads/2012/01/smart_residence04.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/background02.jpg 1 -
+/html/wp-content/uploads/2011/09/logos-0.jpg 1 -
+/2012/wp-login.php 1 -
+/aveiroexpo/site/2013/07/01/ 1 -
+/mdpebbqzueyft.html 1 -
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/blinklist.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/aveiroexpo/site/wp-content/uploads/2012/03/MG_7333-300x200.jpg 1 -
+/wp-content/plugins/wp-mailinglist/js/tinymce/editor_plugin.js 2 -
+/aveiroexpo/site/2012/08/ 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-CHAROL-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/logos-32.jpg 1 -
+/yydookgzsnmlsulk.html 1 -
+/aveiroexpo/site/imprensa/imprensa-feiras/ 14 -
+/wp-content/plugins/auto-attachments/a-a.css 2 -
+/civilria2 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_bora_visco-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_ARCON-TAPIZADO-STYLO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/plugins/zingiri-web-shop/admin.css 2 -
+/aveicabo1/biomassa/ 1 -
+/oksofas/wp-content/uploads/2014/06/relax035_O.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-20.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/hypnos001-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/logos-17.jpg 1 -
+/aveiroexpo/site/2012/10/ 2 -
+/html/archives/3453 1 -
+/aveiroexpo/site/leandro/ 4 -
+/oksofas/wp-content/uploads/2014/06/sofa039_LASAR.jpg 3 http://oksofas.pt/dt_portfolios/lasar/
+/html/feed/atom 10 -
+/civilria4/wp-content/uploads/2012/01/canidelo_gaia05-1024x682.jpg 1 -
+/wp-content/plugins/wpstorecart/lgpl.txt 4 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica011.jpg 33 http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/
+/oksofas/wp-content/uploads/2014/06/credito-1.png 1 http://oksofas.pt/
+/oksofas/wp-content/uploads/2014/06/pera-orange.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-DUPLO.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/info_inst.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao021.jpg 5 -
+/aveiroexpo/site/home/ 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LISA.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pera-verda.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchoes0000002.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/sintra02-1024x581.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa06.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent01-294x180.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre01-204x104.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa02.jpg 8 -
+/html/gallery/design-outros-gesconect 1 -
+/rsmoda 1 -
+/editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/aveiroexpo/js/jquery-1.4.min.js 4 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/2013/07/ 1 -
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro/ 2 -
+/oksofas/wp-content/uploads/2014/06/sofa79.jpg 1 http://oksofas.pt/dt_portfolios/sofa-6/
+/oksofas/wp-content/uploads/2014/06/relax027_LUNE.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade01-294x180.jpg 1 -
+/blog_old/wp-login.php 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_boreal_cotton-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/smart_aqua/wp-content/themes/smartaqua/timthumb.php 3 -
+/ekenabay/web/wp-content/uploads/2013/01/BK-13503_COR-314-1-300x219.jpg 6 http://ekenabay.com/sunny-shop/
+/oksofas/wp-content/uploads/2014/06/sofa52_moti-canto.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo1-227x300.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa01-294x180.jpg 1 -
+/marcas/&sa=U&ei=ZZqjU8ycF6vA7AaUmICABQ&ved=0CC4QFjAE&usg=AFQjCNHE9U_uPLlqqusFNEtfvDuWYr60iA 1 -
+/html/gallery/www-veigas-pt 1 -
+/aveiroexpo/site/feira-de-stocks-2/ 1 -
+/html/wp-content/uploads/2011/09/lake-28.jpg 1 -
+/contactos/(https: 2 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/external_384fa10d8f5e7cdc8b52a11052b08178.php 2 -
+/smart_aqua_eng/wp-content/themes/invisual/themify/img.php 2 -
+/oksofas/wp-content/uploads/2014/06/colchao_denim_silver_tex.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-7-640x422.jpg 1 -
+/html/gallery/www-vonhaff-com-pt 2 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect01.jpg 13 http://aveicabo.pt/portfolios/grupo-gesconect/
+/wp-content/themes/central/includes/ajax_mail.php 2 http://invisual.pt/contactos/
+/aveicabo1/redes-fixas-e-de-nova-geracao-fibra-optica/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/02/fpao.jpg 1 -
+/wp-content/themes/Realestate/style.css 2 -
+/admin/categories.php/login.php 2 -
+/smart_aqua/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/LMA0427-300x199.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/GALAXY003.jpg 4 http://oksofas.pt/dt_portfolios/galaxy-2/
+/optica/dior-2010/ 1 -
+/aveiroexpo/site/conferencia-do-banco-de-portugal-26-novembro/ 1 -
+/oksofas/wp-admin/ 1 http://invisual.pt/oksofas/
+/aveiroexpo/site/wp-content/uploads/2012/04/terranova.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico011-294x180.jpg 1 -
+/wp-content/plugins/wpmarketplace/readme.txt 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/cartaz_fm20124.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_supreme.jpg 2 http://oksofas.pt/dt_portfolios/supreme/
+/html/wp-content/uploads/2011/10/Bombeiros-10.jpg 1 -
+/html/gallery/desdobraveis 4 -
+/oksofas/wp-content/uploads/2014/06/sort-150x150.jpg 2 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/03/pedro_abrunhosa2.jpg 1 -
+/html/gallery/paginacao-lake-ii 1 -
+/oksofas/wp-admin/import.php 1 http://invisual.pt/oksofas/wp-admin/update.php
+/aveiroexpo/site 3 -
+/smart_aqua_eng/wp-content/themes/invisual/scripts/thumb.php 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-QUEEN.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 7 -
+/oksofas/wp-content/uploads/2014/06/relax3.jpg 1 http://oksofas.pt/dt_portfolios/relax-2/
+/html/wp-content/uploads/2011/09/logos-26.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-CAYENNE-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/logos-24-158x96.jpg 1 -
+/wp-content/plugins/another-wordpress-classifieds-plugin/AWPCP.po 4 -
+/wp-content/themes/central/scripts/timthumb.php 5 -
+/civilria4/wp-content/uploads/2012/01/mirador11.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 5 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/timthumb.php 2 -
+/atzsite/wp-content/themes/bueza/css/responsive.css 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/slider_short_2.jpg 1 -
+/html/archives/gallery-category/moda 2 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/external_66bbcd2273d5c4158e58b16ef8611cde.php 4 -
+/aveiroexpo/site/wp-content/uploads/2013/07/cartaz_feira_marco_2013.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao011-294x180.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/mapa_aveiro2.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect01-294x180.jpg 1 -
+/aveiroexpo/site/pablo-alboran/ 3 -
+/html/archives/5387 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/org_sociais.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/garantia-10-anos-web.png 1 http://oksofas.pt/
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa06-174x300.jpg 1 -
+/html/wp-content/uploads/2011/09/mini-5.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade02.jpg 8 -
+/oksofas/wp-content/uploads/2014/06/sofa47_lux.jpg 2 http://oksofas.pt/dt_portfolios/lux/
+/oksofas/wp-content/uploads/2014/06/cama-italiana.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_01.jpg 3 -
+/atzsite/es/quienes-somos/ 2 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-KIT-POLIPIEL-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/sofa004_alisio-promo-2-canto.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-2-300x224.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00003.jpg 1 -
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo/ 6 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/timthumb.php 2 -
+/aveiroexpo/site/aveiro-expo-objectivos/ 5 -
+/civilria4/wp-content/uploads/2012/01/moradias_vilar01-670x390.jpg 1 -
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 3 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 4 http://go2aveiro.blogspot.pt/search
+/aveicabo1/wp-content/uploads/2012/10/aresent04.jpg 7 -
+/aveiroexpo/site/2011/11/18/ 2 -
+/aveiroexpo/contactos.html 2 -
+/html/wp-content/uploads/2011/09/lake-21.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-DOBLE-APERTURA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-POLIPIEL-ARTICULADO-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/themes/central/lib/scripts/timthumb.php 5 -
+/smart_aqua_eng/wp-content/plugins/wp-e-commerce/wpsc-core/js/ 1 -
+/html/archives/5360 2 -
+/oksofas/wp-content/uploads/2014/06/pouf0001.jpg 1 -
+/html/archives/5642 1 -
+/html/wp-content/uploads/2011/09/litoralmagazine-158x96.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13108/ 3 -
+/civilria4/wp-content/uploads/2012/01/live_in_02.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/logo_aveiroexpo-291x300.png 1 -
+/ekenabay/shop-online/product-category/trendy/bk13003/ 3 -
+/oksofas/wp-content/uploads/2014/06/sofa45_lupo.jpg 6 http://oksofas.pt/dt_portfolios/lupo/
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/scripts/timthumb.php 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-LISA-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveicabo1/wp-content/uploads/2012/09/workshop08-150x150.jpg 1 -
+/civilria4/wp-content/uploads/2012/01/cascais_platz02.jpg 1 -
+/html/gallery/desdobraveis-aveicabo 1 -
+/wp-content/plugins/wp_404/ups.php 4 http://invisual.pt/wp-content/plugins/wp_404/ups.php
+/blog_antigo/wp-login.php 1 -
+/html/wp-content/uploads/2011/09/mini-14.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/colchao_sensitive2.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/base_elevavel.jpg 1 -
+/labstestevao/01/styles/silver.css 1 http://invisual.wufoo.com/embed/z7x4a3/def/embedKey=z7x4a3526202&entsource=&referrer=http%3Awuslashwuslashwww.labstestevao.comwuslashempresa.html
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-BASIC-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/ekenabay/site/wp-content/uploads/2013/01/FB-13001_COR-3641-300x219.jpg 1 -
+/aveicabo1/portfolios/solar-fotovoltaico/ 1 -
+/smart_aqua/admin/categories.php/login.php 2 -
+/wp-content/plugins/wp-pagenavi/cache/66bbcd2273d5c4158e58b16ef8611cde.php 6 -
+/aveicabo1/portfolio/grupo-gesconect/ 1 -
+/html/wp-content/uploads/2011/10/Moradia_Barro-2.jpg 1 -
+/feed 11 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao041.jpg 7 -
+/aveicabo1/wp-content/uploads/2012/10/biomassa_01.jpg 8 http://aveicabo.pt/portfolios/biomassa/page/2/
+/oksofas/wp-content/uploads/2014/06/Pegaso.jpg 18 http://oksofas.pt/dt_portfolios/pegaso-2/
+/aveiroexpo/site/wp-content/uploads/2012/03/aurea1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pouf0002-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/html/wp-content/uploads/2011/09/B-7.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/mapa_de_aveiro.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-3.jpg 10 http://aveicabo.pt/portfolios/solar-termico/
+/oksofas/wp-content/uploads/2014/06/sofa64_PENELOPE.jpg 2 http://oksofas.pt/dt_portfolios/penelope/
+/smart_aqua/wp-content/themes/wpsc-core/images/social_networking/delicious.gif 1 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/aveicabo1/wp-content/uploads/2012/09/workshop01.jpg 1 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/includes/thumb.php 1 -
+/aveiroexpo/site/2011/12/08/ 1 -
+/civilria2/ 20 -
+/oksofas/wp-content/uploads/2014/06/MAYA002.jpg 4 http://oksofas.pt/dt_portfolios/maya/
+/oksofas/wp-content/uploads/2014/06/sofa017_cibell-2.jpg 2 http://oksofas.pt/dt_portfolios/cibell/
+/html/wp-content/uploads/2011/09/BIJU-Final065.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa65_power.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-TAPIZADO-DOBLE-APERTURA.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos001_nice.jpg 1 -
+/wp-content/themes/central/timthumb.php 5 -
+/wp-content/plugins/user-photo/admin.css 2 -
+/oksofas/wp-content/uploads/2014/06/sofa46_lupo.jpg 6 http://oksofas.pt/dt_portfolios/lupo/
+/oksofas/wp-content/uploads/2014/06/sofa59_Ok-Sofa-Ver%C3%A3o.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofas00001.jpg 3 http://oksofas.pt/dt_portfolios/ok-sofas-line/
+/html/gallery/fotografia-veiculos-bmw-x6 2 -
+/wp-content/plugins/magic-fields/MF_Constant.php 4 -
+/aveicabo1/portfolios/instalacao-manutencao/ 2 -
+/oksofas/wp-content/uploads/2014/06/bases_BASE-3D-AIRFLOW-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/2012/04/14/ 1 -
+/ekenabay/shop-online/product-category/trendy/bk13002/ 3 -
+/oksofas/wp-content/uploads/2014/06/sofa024_ELTON1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/sofa010_AMBAR-Conto-C-chlg.jpg 2 http://oksofas.pt/dt_portfolios/ambar/
+/wp-content/plugins/wp-pagenavi/inc/timthumb.php 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-3-699x422.jpg 1 -
+/html/wp-content/uploads/2011/09/bmwserie7-1.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-ARTICULADO.jpg 1 -
+/ekenabay/shop/wp-content/themes/mercor/js/timthumb.php 11 -
+/html/admin.php 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa03-94x300.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/image001-284x186.jpg 3 -
+/oksofas/wp-content/uploads/2014/06/bases_CANAPE-MADERA-CAJONES.jpg 1 -
+/aveiroexpo/site/frilac/ 3 -
+/oksofas/wp-content/uploads/2014/06/pouf0005.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/complementos_00003-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2012/05/aveiro.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/bases_CABECERO-KING-PLAFON-MADERA.jpg 1 -
+/oksofas/wp-content/uploads/2014/06/pouf0004-150x150.jpg 1 http://oksofas.pt/wp-admin/post.php
+/wp-content/themes/central/timthumb/timthumb.php 5 -
+/2013/wp-login.php 1 -
+/html/wp-content/uploads/2011/09/smart-15.jpg 1 -
+/wp-content/plugins/wp-pagenavi/cache/external_66bbcd2273d5c4158e58b16ef8611cde.php 6 -
+/insidepipe4/wp-content/themes/rttheme-15-premium-wordpress-theme/thumb.php 1 -
+/aveiroexpo/site/imprensa/convencoes/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1111
+89.155.125.14 11349 91883 348944083 20140630163413
+130.185.84.82 1279 1624 35408280 20140630234049
+84.90.82.30 551 4057 30977393 20140629211857
+193.169.195.67 294 294 413534 20140605045107
+193.150.120.14 135 135 2993130 20140617112543
+46.119.115.144 94 94 2083814 20140617062129
+78.168.107.252 69 69 232579 20140629210452
+193.137.168.32 65 288 14691387 20140620161516
+24.114.29.162 62 62 249736 20140630102720
+46.165.206.78 60 60 110940 20140630205001
+194.39.218.10 60 184 1609614 20140627161127
+46.37.81.195 57 63 1054324 20140615063713
+87.255.57.169 57 57 105393 20140630211147
+89.153.128.206 56 352 10465892 20140630193110
+37.134.72.251 55 61 1010184 20140608133639
+213.228.163.76 53 411 7525742 20140624113259
+64.34.173.227 51 51 94299 20140630152230
+62.30.101.82 49 49 197372 20140630220311
+5.135.165.206 49 49 90601 20140630040320
+213.228.163.6 47 258 6423452 20140626101511
+5.248.83.92 45 45 996912 20140608025647
+46.118.155.40 45 45 997254 20140617104219
+109.120.157.179 41 41 904870 20140629223234
+83.66.187.44 40 40 136171 20140621181326
+82.193.99.33 39 39 864150 20140628184254
+202.46.62.202 1 1 22184 20140613114203
+87.103.74.125 0 1 9898 
+201.92.102.44 0 1 278068 
+2.81.145.3 0 1 4413837 
+186.203.212.236 0 1 278068 
+87.103.13.156 0 2 326453 
+179.107.19.50 3 67 770378 20140616231618
+173.164.136.238 1 1 4840 20140601174407
+146.120.158.47 1 1 16223 20140625080627
+217.69.133.169 2 4 10000 20140621051535
+173.192.176.157 30 30 39168 20140629063400
+94.132.166.113 0 1 8126 
+194.38.144.136 0 1 40307 
+97.74.127.145 9 9 16641 20140617131226
+184.73.104.170 1 1 22070 20140621091744
+85.246.228.62 0 1 8126 
+87.196.114.180 0 2 19796 
+191.138.86.17 0 3 257242 
+188.250.134.40 0 3 556926 
+213.22.7.107 19 96 2562530 20140624133207
+88.198.110.130 1 1 4840 20140603110633
+82.155.122.227 6 56 923290 20140624132118
+82.58.204.17 6 49 1488548 20140618050231
+165.233.47.163 3 67 770379 20140619110851
+188.251.222.200 6 49 1487750 20140617202018
+188.140.65.83 0 1 32674 
+213.205.84.210 3 67 770378 20140604093856
+190.107.177.102 2 2 3698 20140616165106
+83.174.36.198 0 1 40307 
+188.251.237.157 0 1 4898 
+177.9.113.185 0 3 243504 
+193.137.168.219 0 2 278858 
+177.128.124.218 0 1 278068 
+2.82.50.32 0 1 8126 
+217.129.211.183 6 29 434168 20140629050739
+82.155.211.181 0 1 32674 
+116.73.49.242 4 8 39454 20140619072741
+2.82.91.43 11 88 2526669 20140624190141
+82.155.203.69 0 1 40307 
+177.140.38.235 0 1 8649 
+188.251.60.177 8 52 1502441 20140624143710
+187.8.187.66 0 1 278068 
+121.205.242.92 27 27 368912 20140623154144
+36.248.164.8 38 38 492644 20140605002738
+202.46.62.133 1 1 4959 20140614004009
+193.137.168.12 7 58 3198347 20140626133020
+108.59.252.133 1 1 1849 20140616201422
+84.90.160.221 0 2 80614 
+217.129.61.215 0 1 111013 
+193.126.191.171 1 3 3810652 20140621210633
+2.81.223.209 0 1 433998 
+2.81.135.46 8 85 2508094 20140606142724
+94.132.171.243 0 4 1468625 
+93.125.99.33 1 1 3118 20140628102023
+14.153.208.38 0 1 228159 
+84.90.216.89 0 1 6696 
+87.103.49.218 0 1 9898 
+188.251.223.139 35 148 2595230 20140619102451
+2.81.93.78 0 1 278068 
+201.26.108.218 0 1 228159 
+88.214.167.45 0 4 32631 
+205.237.88.146 4 4 88280 20140630103709
+37.200.65.208 1 1 22070 20140601002325
+188.82.142.150 0 1 4898 
+187.41.19.11 0 1 278068 
+188.250.239.61 5 26 221048 20140613171928
+187.126.42.171 0 1 21186 
+2.81.59.84 6 39 562475 20140605234404
+213.58.141.66 0 2 278858 
+186.231.112.132 3 67 770378 20140614185546
+95.95.188.14 0 1 32674 
+81.92.197.49 0 2 278858 
+134.249.141.83 1 1 32883 20140629015700
+188.83.199.203 7 50 1491926 20140611122240
+193.124.60.68 3 3 444 20140617124153
+81.193.245.188 0 1 9898 
+89.154.182.136 6 32 252644 20140601192611
+188.80.39.27 5 26 220143 20140601213108
+91.236.75.123 2 2 33214 20140602201643
+188.83.138.177 0 1 30139 
+84.91.44.201 0 1 133438 
+140.255.85.186 1 1 22184 20140604064013
+188.80.65.140 0 2 278858 
+188.83.200.89 0 1 159 
+188.83.76.7 6 34 2332229 20140623225831
+88.214.167.175 0 2 18743 
+46.229.170.193 1 1 22070 20140628202901
+188.80.96.136 6 49 1487750 20140624151646
+93.159.230.89 4 37 324769 20140613143533
+89.155.235.182 0 1 8126 
+191.10.83.111 0 1 278068 
+93.102.192.190 0 1 9898 
+119.63.193.132 1 1 22184 20140609054341
+62.48.248.142 10 63 1845805 20140627165949
+176.74.192.84 7 49 1492432 20140623045339
+2.81.144.207 6 37 1586996 20140602095628
+187.36.47.59 6 49 1488548 20140614012812
+213.30.51.218 4 70 781563 20140618095624
+71.206.63.103 6 49 1488548 20140626085740
+87.103.90.62 0 2 278858 
+193.137.78.252 8 76 2177026 20140604110259
+217.129.241.164 0 1 8126 
+199.30.24.114 5 47 1482750 20140613085123
+46.105.105.58 10 10 18490 20140627154051
+89.153.139.233 0 1 4898 
+89.155.201.248 3 3 9402 20140601202500
+49.249.199.72 0 1 228159 
+178.43.99.233 0 1 40307 
+217.129.28.6 0 1 111062 
+195.245.136.226 0 1 327672 
+2.81.83.126 12 263 1632145 20140609161054
+2.136.112.208 28 31 516127 20140603014528
+89.155.1.55 0 1 28989 
+188.81.37.219 1 1 5886 20140601093643
+189.68.179.56 0 1 15389 
+93.186.202.241 0 1 82316 
+46.50.78.94 5 29 221048 20140605165135
+93.102.1.65 0 1 4898 
+85.242.229.82 0 1 8126 
+213.30.84.31 0 1 8126 
+187.38.254.67 0 1 37157 
+85.240.125.164 21 160 2673548 20140613230932
+77.54.85.159 1 1 5326 20140602195737
+87.103.66.86 0 2 3809304 
+89.155.200.73 6 49 1487750 20140605144838
+212.55.161.171 0 1 278068 
+84.90.55.191 0 1 9898 
+189.19.238.139 0 2 13392 
+2.81.139.144 6 49 1487750 20140617105120
+69.58.178.58 10 10 175126 20140611005914
+203.195.184.151 27 27 49923 20140630195757
+81.7.13.161 0 1 48112 
+187.94.99.18 0 1 278068 
+82.145.220.31 1 1 10990 20140615145944
+88.157.197.186 3 67 770378 20140603165815
+186.49.49.51 0 1 278068 
+62.28.81.210 19 106 946606 20140605133419
+194.38.144.22 0 4 1914337 
+89.109.106.18 0 1 12800 
+177.143.153.93 0 1 22025 
+101.226.89.116 1 1 22070 20140614120340
+185.25.48.97 3 3 14109 20140603184433
+85.18.35.39 19 98 2081796 20140611134724
+89.47.253.2 3 3 5547 20140610110409
+2.81.161.33 0 1 278068 
+89.155.217.98 7 50 1491926 20140601191518
+109.128.184.223 5 76 808174 20140610184152
+112.198.64.24 0 1 18913 
+46.246.47.240 10 10 43751 20140629224803
+188.37.165.74 0 1 34583 
+46.246.36.161 2 2 6088 20140602135802
+177.30.143.62 0 1 30139 
+62.28.237.142 0 1 278068 
+187.44.136.34 0 1 9898 
+37.228.106.71 0 2 37826 
+85.245.86.186 28 99 2187545 20140617214933
+46.246.37.224 20 20 96820 20140612010447
+92.161.49.158 6 49 1488548 20140630112715
+89.155.202.102 0 1 4413837 
+69.147.158.130 25 25 100700 20140619154339
+188.80.107.55 0 2 19796 
+179.235.196.89 6 49 1488548 20140621012858
+85.139.147.100 3 36 471228 20140625163536
+93.102.224.120 0 4 13850 
+188.80.158.229 5 64 543750 20140616212834
+95.60.203.4 0 2 278858 
+93.108.193.163 0 1 278068 
+87.196.237.76 0 1 32729 
+64.207.147.191 4 4 7396 20140625032502
+62.28.244.121 13 150 1795390 20140625171119
+199.19.249.196 9 9 121174 20140627161118
+217.129.132.61 0 1 456415 
+90.165.247.54 0 1 228159 
+217.92.149.154 0 2 278858 
+41.221.193.212 0 1 30139 
+89.153.70.167 3 67 770378 20140613152044
+2.81.141.22 13 109 6331854 20140621220857
+189.32.3.83 0 1 228159 
+119.63.193.194 2 2 44368 20140613114212
+79.222.168.166 32 35 576532 20140616232509
+89.155.217.122 0 1 278068 
+79.168.237.182 3 77 1209075 20140628145052
+87.103.66.27 0 1 9898 
+84.90.141.242 6 49 1487750 20140622171350
+173.252.79.116 0 1 221890 
+213.63.138.194 6 49 1487750 20140603093015
+152.241.234.105 3 60 552695 20140605080556
+79.166.52.38 0 1 9898 
+85.243.99.197 0 1 641061 
+84.90.86.118 10 78 2185270 20140622192538
+200.219.198.250 3 67 770378 20140616183646
+5.9.121.109 12 12 22188 20140630150030
+89.155.48.5 6 50 1732362 20140602230406
+95.0.26.85 1 1 1849 20140616105407
+200.230.207.2 3 61 528191 20140609222146
+107.153.85.205 1 1 4700 20140624064228
+89.152.241.173 0 1 111013 
+62.28.11.29 7 50 1491926 20140611152914
+54.81.200.210 6 24 213720 20140610211525
+195.2.240.106 18 18 267012 20140624074024
+198.228.200.46 0 1 90486 
+200.150.142.234 0 1 8649 
+94.132.217.13 3 67 770378 20140618231315
+2.83.58.46 10 90 894021 20140612110235
+74.52.245.146 1 1 22070 20140615220949
+84.91.113.69 6 49 1487750 20140616224940
+166.63.127.244 23 23 42527 20140630185817
+85.240.48.31 0 1 8126 
+2.83.168.43 0 1 8126 
+37.247.108.196 1 1 4046 20140613163040
+200.159.5.220 0 3 78855 
+178.166.104.176 0 1 4413837 
+94.132.186.237 29 80 1568288 20140629021355
+87.103.58.3 4 132 1533598 20140623193510
+85.241.215.176 7 161 829839 20140618235254
+188.81.214.236 8 55 1500672 20140611111225
+2.81.192.165 3 52 438255 20140625123342
+89.153.106.69 0 1 30139 
+62.28.157.210 13 95 5774479 20140601225352
+82.155.191.185 0 1 8126 
+213.228.181.64 0 1 8126 
+60.12.119.200 7 7 12943 20140627185704
+85.241.103.204 6 140 832703 20140608104413
+188.83.25.72 0 1 425433 
+193.137.112.14 3 67 770379 20140601221708
+188.81.235.138 0 1 9898 
+2.81.68.73 0 1 32674 
+93.102.151.64 0 1 8126 
+177.138.237.170 3 24 175590 20140613023027
+93.102.151.192 33 118 1058680 20140619103304
+193.126.176.84 11 45 1068275 20140618232831
+82.154.94.118 0 1 32674 
+37.28.232.82 0 1 9898 
+82.155.181.44 1 1 5885 20140606150220
+46.246.37.165 2 2 6087 20140617105013
+217.129.159.77 6 49 1487750 20140613123050
+37.189.47.248 6 49 1487750 20140617181456
+103.246.38.196 3 3 32307 20140605160617
+66.220.159.119 0 11 1683 
+190.185.223.61 3 67 770378 20140618020031
+213.30.86.141 9 85 2516582 20140604162246
+87.103.49.145 0 1 9898 
+189.100.251.242 0 1 8126 
+62.28.85.196 0 1 8126 
+77.54.61.210 0 3 29694 
+66.249.83.235 0 2 16252 
+144.64.107.150 0 1 58055 
+66.249.91.2 0 3 136763 
+131.253.24.39 0 1 226698 
+84.91.32.193 3 67 770378 20140616222619
+79.168.215.250 0 1 278068 
+46.189.195.115 0 6 143341 
+187.38.100.221 1 1 5885 20140609032525
+193.137.168.74 0 1 31461 
+119.63.193.130 1 1 22184 20140619214318
+188.83.139.6 0 1 641061 
+193.137.97.58 6 6 6882 20140612161227
+85.246.220.60 0 1 30139 
+54.221.162.79 1 1 22070 20140618143514
+62.28.143.33 3 67 1268894 20140606072620
+173.252.114.117 0 1 30139 
+87.103.66.249 0 1 8126 
+95.95.98.9 0 1 42713 
+188.251.254.109 0 1 4413837 
+2.81.90.120 5 26 221048 20140625175414
+188.81.80.122 1 1 3827 20140616002815
+189.58.190.70 0 1 28727 
+187.121.89.41 7 51 1497600 20140617134244
+213.133.166.10 15 84 5235955 20140630155258
+188.82.142.169 0 2 254263 
+195.23.86.54 0 50 0 
+120.42.77.120 1 1 22184 20140619135650
+87.103.74.61 0 1 9898 
+187.62.215.226 0 1 8649 
+195.235.15.243 0 1 46756 
+81.193.250.217 11 57 2115214 20140618182836
+85.244.177.119 0 1 278068 
+85.243.121.204 10 35 443710 20140603164840
+157.56.122.216 0 1 9898 
+89.155.251.125 0 1 8126 
+213.228.165.63 0 2 556136 
+177.148.206.19 0 1 228159 
+84.91.112.249 0 1 6696 
+200.101.61.216 3 39 427689 20140624030144
+187.6.124.152 0 1 278068 
+93.183.31.170 0 1 8126 
+213.228.163.64 8 52 1501776 20140617173821
+82.155.52.64 0 1 8126 
+64.202.240.136 5 5 9245 20140630202946
+188.82.164.97 7 42 592612 20140604103447
+192.99.147.201 2 2 38335 20140623031825
+198.211.107.189 16 34 250209 20140608131946
+95.95.42.254 12 89 2526526 20140613130258
+177.125.233.63 0 1 37157 
+188.83.218.82 7 25 217896 20140617111303
+2.83.115.6 0 1 8126 
+81.45.52.111 0 1 4898 
+66.220.159.117 0 6 918 
+186.244.204.229 3 62 531324 20140603061727
+50.63.144.181 1 1 1849 20140609193833
+108.220.81.176 0 1 28727 
+2.81.120.11 6 49 1487750 20140604170319
+93.167.197.126 0 4 834994 
+188.37.4.71 0 2 19796 
+217.129.194.53 10 78 2185935 20140606010052
+84.91.224.127 0 1 4413837 
+84.90.148.235 0 1 278068 
+87.103.68.81 0 1 9898 
+144.64.15.169 3 72 1454855 20140624201421
+217.129.134.69 0 1 8126 
+89.214.16.73 3 76 1194445 20140628130901
+177.100.20.182 0 1 21186 
+198.50.112.114 21 21 38829 20140630195836
+178.137.129.209 23 23 509890 20140624231346
+82.145.222.144 3 49 600505 20140608150907
+85.241.27.214 24 248 6176723 20140605161910
+82.155.224.88 4 70 781557 20140628165758
+193.136.237.31 0 1 6992 
+2.81.123.165 0 8 39592 
+85.242.117.181 0 1 32674 
+85.247.163.77 0 1 8126 
+188.81.84.193 7 60 1828773 20140625155522
+188.250.188.244 0 2 278858 
+199.30.25.116 0 1 89066 
+87.103.64.214 0 1 4898 
+62.48.198.124 0 1 9898 
+188.81.214.175 6 49 1488548 20140601205518
+193.137.170.234 7 51 1497600 20140604160102
+89.154.147.229 14 66 1839434 20140623141052
+89.152.246.81 4 87 776263 20140606113009
+198.7.62.195 5 5 3917 20140625041152
+188.251.88.28 17 70 1858193 20140603201348
+77.222.61.42 1 1 3118 20140628102046
+93.186.202.198 0 2 96224 
+217.129.24.121 0 3 556926 
+213.228.158.150 0 2 278858 
+87.103.59.29 0 3 9796 
+87.103.51.192 0 1 9898 
+89.152.244.185 0 3 33646 
+66.249.83.64 0 1 40307 
+188.80.111.142 0 1 9898 
+92.250.126.245 0 1 5824 
+177.188.250.31 0 1 40307 
+62.28.233.68 0 16 0 
+46.119.122.50 4 4 9750 20140604133338
+173.234.44.64 1 1 4840 20140615090856
+217.129.229.15 13 98 2985032 20140604192157
+85.240.220.140 10 48 222184 20140620224205
+82.145.211.74 0 1 278068 
+81.84.245.113 0 4 9898 
+188.250.142.169 4 18 129772 20140603184009
+37.57.231.126 4 4 19364 20140623004700
+85.246.174.50 8 27 187738 20140607134454
+66.249.90.72 0 4 143546 
+188.251.9.26 7 50 1491926 20140606121242
+79.51.225.23 0 1 278068 
+173.236.21.58 2 2 3698 20140616131724
+85.247.79.170 0 2 13850 
+188.82.148.40 8 62 1838624 20140613114451
+188.82.141.3 3 49 441590 20140612234430
+84.91.47.72 6 58 924582 20140618172706
+41.222.9.39 10 48 222184 20140627090430
+95.95.11.156 5 72 1006471 20140619165445
+41.63.163.20 0 1 275274 
+82.154.77.12 3 67 770379 20140611120619
+150.70.75.32 2 3 40466 20140621084656
+78.130.46.77 0 1 40307 
+79.222.140.216 1 1 22070 20140614213503
+37.189.172.24 18 105 977452 20140626123849
+85.246.56.252 0 1 37348 
+37.24.153.202 29 32 538197 20140628075040
+85.242.163.193 6 88 867002 20140620002110
+94.132.230.18 0 1 32674 
+217.129.27.244 6 35 1447049 20140608201635
+190.7.156.114 0 1 1769246 
+87.103.59.20 0 1 9898 
+2.83.5.153 3 67 770378 20140624144121
+87.196.106.114 8 96 971380 20140609164845
+88.214.167.238 3 68 777074 20140627152148
+62.48.243.188 0 2 108971 
+178.166.28.90 10 77 2181034 20140628212649
+109.50.102.7 0 1 297168 
+188.251.29.254 0 2 27700 
+46.246.33.194 2 2 6087 20140621010432
+195.23.222.120 31 151 4786156 20140619172442
+217.129.27.192 0 1 8126 
+89.152.164.57 11 57 1492146 20140611165127
+189.79.111.12 3 67 770378 20140604221410
+62.28.59.214 3 60 504615 20140626155457
+85.247.142.194 0 1 8126 
+177.67.63.254 7 74 2167176 20140630182814
+188.80.216.56 0 1 21186 
+5.43.34.128 7 50 1491926 20140617162318
+95.92.232.160 8 76 600269 20140606180541
+87.103.51.188 0 1 9898 
+82.155.104.226 7 81 832893 20140603170640
+186.239.253.195 0 1 278068 
+188.81.163.181 9 86 2516987 20140622232258
+179.182.27.213 0 1 278068 
+177.193.34.60 3 67 770378 20140628145855
+217.129.135.108 8 50 1497273 20140614005420
+205.186.142.240 15 15 27735 20140620084252
+189.81.152.133 0 1 28092 
+85.139.249.132 3 67 770378 20140604180416
+192.114.71.13 25 33 102623 20140606024039
+188.250.238.143 0 4 19796 
+84.90.137.107 8 60 1831887 20140625171145
+89.155.139.111 0 3 556136 
+87.103.114.198 4 69 774617 20140617181121
+94.46.226.146 0 2 278858 
+82.155.202.215 0 1 8126 
+2.226.25.134 6 49 1488548 20140621101754
+188.80.101.20 0 1 9898 
+37.189.196.12 0 1 30139 
+162.243.101.146 1 1 4841 20140608160238
+89.155.189.61 0 1 8126 
+188.250.64.150 5 26 220143 20140621194209
+2.82.29.248 34 209 1828448 20140612204718
+37.205.32.122 15 15 27735 20140617172332
+64.74.215.86 1 1 4840 20140606175132
+188.80.100.232 20 158 7932745 20140603155546
+85.139.83.50 4 68 776263 20140603104354
+84.90.169.219 0 1 8126 
+93.108.226.104 0 3 538125 
+188.37.203.135 7 49 1492432 20140601152033
+178.166.11.38 3 67 770378 20140625172938
+84.91.44.119 0 1 6696 
+2.81.129.53 0 1 0 
+188.81.160.64 8 76 2177026 20140615164802
+190.128.193.74 6 49 1488548 20140605131715
+81.84.88.153 0 1 8126 
+184.73.19.118 1 1 22070 20140618163501
+31.13.192.134 0 1 21186 
+188.80.105.128 14 139 3430168 20140625165921
+50.63.141.164 5 5 9245 20140622122713
+213.228.163.74 0 2 278858 
+89.152.47.9 0 11 392284 
+66.249.93.131 0 56 8148893 
+92.250.38.100 0 1 0 
+2.80.153.47 0 2 260636 
+193.126.12.42 7 56 927068 20140620112717
+89.154.13.65 0 2 278858 
+89.155.49.162 0 1 9898 
+195.23.252.108 1 11 150618 20140613144938
+87.103.72.166 0 1 9898 
+86.51.26.23 1 1 14290 20140624042023
+94.132.103.91 0 3 107861 
+79.169.206.116 3 67 770378 20140603191914
+46.118.157.232 1 1 3628 20140607103810
+94.153.10.193 38 38 841738 20140607154630
+188.80.150.50 0 1 0 
+83.240.246.157 6 49 1487750 20140620220816
+8.28.16.254 5 5 56634 20140609222413
+212.165.76.169 1 1 4841 20140627104047
+191.191.43.104 0 1 66257 
+95.94.182.190 3 67 770378 20140605214647
+201.48.5.29 6 49 1488548 20140626220513
+202.162.79.79 1 1 33040 20140607211040
+173.252.113.113 0 1 18323 
+198.27.65.70 1 1 22070 20140606105332
+213.30.28.214 6 39 1177165 20140617084510
+177.19.46.163 0 1 30139 
+188.81.164.51 0 1 0 
+200.192.78.6 0 1 8649 
+216.185.58.29 0 4 19796 
+36.248.165.10 19 19 246322 20140605143401
+87.245.168.74 6 6 24189 20140626044420
+79.169.97.59 0 1 278068 
+187.2.180.27 3 67 770380 20140610064250
+197.218.71.222 0 1 278068 
+150.70.97.127 1 2 40276 20140621084447
+89.154.71.175 5 26 220143 20140607191326
+197.214.81.10 0 1 30139 
+66.220.159.115 0 4 612 
+2.82.117.66 0 1 8126 
+200.217.120.171 0 1 9898 
+85.240.178.27 0 1 3807331 
+82.155.140.226 7 32 256571 20140604143305
+50.57.190.90 1 1 22070 20140627125802
+50.62.41.168 3 3 5547 20140601133947
+198.2.218.195 1 1 22184 20140606081400
+199.30.24.198 5 47 1482750 20140602192756
+66.249.93.157 24 278 19786476 20140621022827
+87.103.68.208 0 1 9898 
+187.37.5.181 0 1 228159 
+188.82.144.19 6 72 791275 20140612121235
+94.132.84.139 0 2 74696 
+78.130.24.75 1 4 14270 20140620125721
+2.80.143.39 0 2 278858 
+89.152.250.233 13 58 1499342 20140605151659
+217.129.48.115 4 63 613681 20140623174449
+75.119.222.149 1 1 4046 20140616180456
+144.64.106.209 0 1 28989 
+88.157.198.204 0 2 9898 
+199.30.24.166 0 1 278068 
+94.132.42.37 18 104 8982227 20140606220543
+213.58.138.180 12 68 5452578 20140630161031
+187.56.53.132 0 2 456318 
+188.81.214.34 0 3 0 
+144.64.106.9 0 2 7614662 
+188.80.98.123 24 134 19152882 20140612154849
+188.37.123.21 0 1 4413837 
+142.162.118.102 0 1 4413837 
+89.152.71.193 15 81 2092720 20140620025826
+201.79.191.181 0 1 278068 
+2.81.133.246 0 1 8126 
+199.116.169.254 2 2 24327 20140609222144
+31.22.225.74 3 67 770379 20140611164108
+188.82.212.134 3 49 441590 20140603014925
+185.10.104.132 1 1 4841 20140612011008
+178.124.140.162 5 5 740 20140628231934
+189.72.115.27 6 49 1488548 20140616160106
+62.28.187.132 30 160 7555846 20140606111114
+83.223.174.109 0 1 8126 
+79.168.99.68 0 1 6696 
+213.228.181.43 8 76 2177026 20140617164401
+212.18.172.52 0 1 8126 
+95.212.0.175 0 1 90486 
+85.245.179.223 0 1 40307 
+2.81.28.71 0 1 40307 
+89.153.128.252 6 49 1487750 20140604034332
+79.169.204.25 0 1 28092 
+188.80.148.92 5 26 220143 20140606164505
+5.175.223.36 1 1 16558 20140614162031
+62.99.3.117 0 2 120960 
+66.249.90.85 0 2 26171 
+2.81.13.27 0 1 0 
+188.251.115.138 0 1 8126 
+2.80.168.2 0 1 4413837 
+217.129.254.188 3 67 770378 20140615184823
+62.28.4.45 12 220 1715953 20140612155516
+31.22.225.253 0 1 0 
+213.30.118.65 6 41 1325663 20140626114847
+2.83.142.59 0 1 278068 
+2.81.97.20 0 2 278858 
+93.102.11.111 0 1 9898 
+84.91.24.129 3 67 770378 20140607123851
+2.81.123.245 6 32 252752 20140612121947
+174.142.104.207 2 2 3698 20140603134650
+62.28.82.100 0 1 23716 
+188.80.137.129 5 71 847317 20140616102613
+85.138.164.223 6 79 864481 20140618184709
+191.243.206.18 3 67 770378 20140627043009
+2.81.143.46 5 60 476439 20140605174208
+189.30.64.166 0 1 278068 
+144.76.185.173 0 1 48112 
+46.246.33.199 2 2 6088 20140607175350
+195.23.89.198 0 1 32674 
+5.43.35.177 11 86 2103502 20140604124610
+199.30.24.42 0 4 6686 
+87.103.49.242 0 7 85094 
+90.156.197.160 2 2 6236 20140628202759
+222.71.216.103 1 1 22184 20140617182825
+54.204.205.187 1 1 22070 20140616222909
+177.206.128.154 6 49 1487750 20140616194752
+134.249.76.109 6 6 179166 20140623111814
+93.186.202.239 1 3 114149 20140629211112
+157.55.43.26 0 2 271028 
+78.130.23.68 0 1 4898 
+89.155.150.122 0 3 353583 
+179.211.3.195 0 1 278068 
+94.132.226.71 0 1 6696 
+89.154.8.210 3 67 770378 20140612115524
+188.80.101.252 10 83 4287651 20140611090022
+87.112.161.24 0 1 278068 
+2.81.144.230 6 48 1487345 20140602211223
+37.59.29.48 31 31 57319 20140630071947
+95.21.253.13 0 3 52502 
+188.80.108.61 7 81 873969 20140603221154
+188.81.163.72 17 95 2529897 20140622194320
+54.225.41.125 1 1 5735 20140603042054
+101.226.89.120 1 1 22070 20140616120642
+2.81.78.74 0 1 40307 
+188.250.140.165 0 2 9898 
+89.153.128.47 0 1 9898 
+62.28.102.241 0 1 278068 
+2.80.14.237 9 63 1843364 20140625001831
+31.22.204.135 0 2 19796 
+85.244.208.51 0 7 0 
+200.229.238.74 0 1 8126 
+2.81.97.225 0 1 8126 
+2.81.175.226 0 1 40307 
+82.154.185.152 3 67 770378 20140605191857
+2.81.145.171 0 1 4413837 
+91.200.13.64 10 10 12070 20140625212900
+79.168.186.52 0 1 8126 
+2.83.183.187 0 1 278068 
+217.129.26.174 0 1 683933 
+195.35.96.10 0 1 9898 
+180.153.205.252 1 1 22070 20140629120814
+193.137.168.233 7 50 1491926 20140612175039
+88.174.62.172 0 1 4413837 
+85.244.105.232 0 1 6696 
+85.243.160.71 0 1 6696 
+198.199.66.41 18 42 384779 20140603125441
+66.155.8.207 6 49 1488548 20140610170632
+91.236.74.121 1 1 22070 20140614184228
+213.228.140.2 6 41 273840 20140623100024
+84.76.40.74 5 73 814309 20140605121734
+186.212.122.217 3 60 552695 20140606225422
+77.54.236.31 0 5 18024 
+87.103.51.224 0 1 278068 
+66.220.159.118 0 5 765 
+94.69.253.234 0 2 19796 
+91.108.70.40 1 1 4699 20140605025458
+95.136.95.244 0 2 278858 
+85.138.132.171 0 2 278858 
+89.155.112.71 0 1 22025 
+84.91.35.56 6 65 734630 20140618210819
+188.251.183.70 0 1 30139 
+177.40.224.196 6 49 1487750 20140620055525
+188.250.137.176 0 1 278068 
+41.74.245.137 0 2 278858 
+49.98.210.86 0 1 20891 
+2.81.123.53 0 2 19796 
+192.34.61.81 1 1 4841 20140619032445
+186.222.168.34 0 1 30139 
+188.37.87.194 0 2 278858 
+87.103.66.147 0 1 9898 
+176.79.65.183 0 1 30139 
+218.66.127.36 1 1 22184 20140620162356
+173.252.113.119 0 1 6992 
+91.227.100.17 0 9 89082 
+88.214.162.46 0 4 32631 
+195.234.134.115 3 30 562599 20140605160618
+176.9.50.43 1 1 4840 20140601041958
+46.50.123.36 0 1 8126 
+2.80.63.160 0 1 3807331 
+180.235.150.156 2 2 3698 20140609144944
+188.82.216.248 3 49 441590 20140623093456
+188.250.92.99 14 82 2183951 20140603121620
+188.82.44.230 0 1 110345 
+144.64.84.161 3 67 770378 20140603193858
+188.83.139.97 0 1 8126 
+151.62.82.124 1 1 22070 20140615195721
+217.129.132.120 0 1 8126 
+62.28.7.84 6 49 1487750 20140624131702
+95.95.66.173 5 69 782148 20140613114507
+85.245.103.166 0 1 40307 
+82.154.176.229 2 2 44368 20140606113229
+92.250.118.128 0 2 0 
+89.154.68.214 0 1 228159 
+66.220.159.113 0 5 765 
+78.158.11.226 3 3 56029 20140609001319
+81.193.236.7 0 1 133438 
+194.210.189.232 19 113 2341289 20140626115025
+88.214.165.250 0 5 764295 
+200.9.237.243 1 1 3118 20140607161255
+2.80.248.218 0 1 48443 
+87.103.57.162 0 1 9898 
+72.8.169.84 1 1 4841 20140616015935
+89.155.200.25 6 49 1487750 20140613091448
+2.81.94.104 0 1 221890 
+37.59.35.4 9 9 16641 20140630202912
+157.55.230.158 0 1 9898 
+101.226.33.203 1 1 22070 20140619121900
+66.249.80.45 6 54 922068 20140603053924
+78.187.49.154 6 10 37682 20140621135509
+89.175.172.115 8 8 32252 20140625213326
+79.129.105.131 0 1 9898 
+93.102.148.157 7 79 819140 20140629102435
+188.121.62.249 15 15 27735 20140628032225
+85.243.70.31 0 1 6696 
+89.155.5.52 6 39 1952839 20140628011627
+144.29.129.20 10 93 1454456 20140605120152
+194.38.144.195 4 75 804836 20140624171821
+188.251.56.254 9 71 5456566 20140611141713
+82.155.141.31 8 58 936961 20140609092929
+121.54.44.88 3 67 770378 20140627110034
+95.136.119.23 0 1 8126 
+89.214.141.52 0 1 45891 
+65.55.217.219 1 1 5735 20140602175208
+177.83.202.38 0 1 228159 
+188.80.140.236 15 226 1845173 20140617101025
+202.46.48.45 1 1 24081 20140625184138
+89.152.241.252 8 52 1502441 20140620171355
+81.90.51.93 31 127 1166614 20140605151026
+189.69.118.224 0 1 278068 
+85.243.30.115 0 1 8126 
+87.196.105.122 8 85 2508100 20140611114639
+2.81.148.148 7 52 1498524 20140609102508
+109.48.62.72 0 1 31944 
+188.82.145.102 0 2 15345 
+85.242.51.200 3 67 770380 20140610172243
+186.215.146.146 3 62 531324 20140609143936
+31.22.234.193 0 1 3335 
+2.81.59.238 0 1 0 
+195.22.24.254 0 7 123063666 
+197.148.95.224 6 51 919431 20140617095259
+178.166.1.201 0 2 466502 
+217.129.135.254 12 64 3200793 20140624201506
+202.46.63.51 1 1 5885 20140614003205
+87.103.66.190 7 33 257619 20140616160043
+194.65.49.53 24 72 3614234 20140605150514
+188.250.9.46 0 1 8126 
+84.90.46.67 6 39 1133585 20140605011649
+62.28.163.170 0 11 19796 
+188.81.219.236 0 1 278068 
+188.82.240.41 7 51 1497600 20140602104846
+194.38.144.19 24 294 6665652 20140616031844
+85.244.95.245 0 1 278068 
+194.65.136.228 0 2 74314 
+213.22.115.168 0 1 8126 
+27.99.22.226 3 67 770379 20140619050915
+91.236.75.124 2 2 33214 20140604210644
+85.241.92.208 19 109 1025257 20140620191707
+198.211.110.12 16 34 250209 20140628113605
+98.139.160.207 0 80 7241697 
+199.30.25.127 0 1 1002 
+120.28.168.2 0 1 18913 
+199.30.25.92 2 56 711140 20140620125753
+179.199.135.31 0 1 278068 
+188.37.51.124 5 71 787448 20140630215501
+188.250.142.157 0 1 23289 
+186.204.77.185 0 1 30139 
+188.80.148.237 0 1 601715 
+2.82.225.118 0 1 9898 
+79.168.3.49 0 3 3809304 
+188.251.175.136 8 100 985033 20140629195259
+46.0.139.226 0 1 228159 
+186.67.58.2 0 1 75244 
+201.21.68.51 0 1 228159 
+188.81.242.21 0 3 52502 
+183.60.243.232 1 1 22070 20140620184609
+79.169.177.174 0 1 8126 
+82.155.120.204 0 1 13850 
+88.210.80.148 0 1 8126 
+66.249.91.146 0 1 21186 
+94.132.130.12 1 3 3810652 20140618124941
+199.30.18.215 0 1 228159 
+213.205.83.82 0 2 19796 
+188.37.107.145 0 1 8126 
+89.155.232.126 0 1 8726 
+188.81.174.128 6 49 1487750 20140601220403
+193.130.234.15 0 1 23289 
+89.214.202.128 0 1 8126 
+5.249.40.191 5 71 787448 20140612123731
+2.81.157.45 0 1 9898 
+193.169.86.13 1 1 4046 20140616174743
+117.78.13.54 1 1 4841 20140622012602
+89.152.125.180 16 83 2188442 20140614173452
+190.187.11.25 0 1 21186 
+188.83.249.58 8 62 4239214 20140603190735
+82.154.251.92 6 35 548957 20140623184801
+200.198.212.168 8 52 1502441 20140627210115
+188.250.213.230 6 39 1589023 20140604172542
+208.90.57.196 1 1 22070 20140626053756
+2.81.233.124 22 120 6176139 20140601012112
+85.246.156.75 0 1 8126 
+64.31.25.60 9 9 16641 20140605032622
+176.79.65.189 6 73 789570 20140617005716
+208.91.113.22 1 1 22070 20140608180118
+95.94.10.171 0 1 8126 
+148.251.75.46 0 1 35616 
+188.240.236.11 2 2 9682 20140609183652
+186.227.51.190 3 67 770378 20140626031526
+81.20.253.168 8 189 852622 20140617214448
+89.154.11.225 1 3 44799 20140626094900
+93.102.99.27 0 1 8126 
+187.0.13.183 0 1 228159 
+2.81.132.83 0 1 963 
+194.38.144.4 36 83 1625759 20140611134905
+41.142.76.88 0 1 23289 
+144.64.95.135 0 1 30139 
+128.69.116.252 2 2 9682 20140620001607
+188.83.249.194 1 1 4841 20140604123723
+87.196.98.240 0 1 9898 
+95.95.31.136 0 2 108971 
+217.129.26.235 8 62 1829857 20140602185534
+88.214.165.154 0 1 6696 
+82.155.250.212 0 1 32674 
+194.117.10.254 0 1 8126 
+162.243.170.59 16 34 250210 20140622234255
+200.247.47.10 3 49 730255 20140616121032
+199.30.25.63 0 16 105486 
+217.129.28.185 0 9 0 
+188.83.43.217 0 1 278068 
+95.95.89.194 5 76 1027711 20140621224005
+213.228.163.67 3 67 770378 20140621153647
+2.81.161.138 0 2 9898 
+94.70.242.206 0 1 9898 
+95.69.85.220 3 55 475237 20140601131106
+188.82.242.134 0 1 20891 
+210.210.178.20 19 19 35131 20140626211409
+187.84.183.114 0 1 278068 
+84.90.167.24 0 1 96189 
+85.240.42.52 0 1 30139 
+62.28.240.181 7 50 1492591 20140603094945
+85.242.244.80 0 1 21186 
+179.235.122.33 3 67 770378 20140627175717
+62.28.179.178 10 56 1499960 20140619092822
+188.82.243.103 0 6 534177 
+2.82.167.28 0 1 228159 
+206.48.129.147 6 49 1488548 20140610192117
+66.249.81.131 0 1 9898 
+87.103.72.32 19 96 891711 20140604201950
+14.139.108.98 1 1 4700 20140617130812
+2.80.169.233 6 31 252593 20140623101825
+85.245.177.254 0 7 0 
+213.58.173.138 1 3 21230 20140604103126
+81.193.119.230 0 1 278068 
+74.50.56.73 6 49 1488548 20140620104933
+93.108.54.241 0 2 16252 
+2.81.153.107 0 10 0 
+106.187.47.170 6 6 11094 20140629001741
+199.30.24.163 0 17 40074 
+176.57.143.60 0 1 35616 
+78.130.28.144 0 1 9898 
+2.81.79.178 0 1 9898 
+2.81.87.27 0 1 40307 
+179.216.160.97 0 1 228159 
+85.245.149.113 12 99 950623 20140628112520
+93.159.230.88 1 1 5885 20140627143540
+2.83.70.13 22 101 2523433 20140617205204
+187.20.73.198 0 1 278068 
+213.128.180.90 8 61 1833509 20140625212708
+179.223.71.92 0 1 278068 
+62.28.238.4 0 14 13850 
+177.66.6.102 0 1 6696 
+194.114.62.125 20 277 2458301 20140606113135
+194.79.70.206 0 27 128674 
+5.249.20.230 6 49 1487750 20140618162837
+189.102.59.226 6 37 2230907 20140604180408
+217.129.232.25 0 1 8126 
+85.246.70.20 6 49 1487750 20140610170658
+188.37.123.38 3 67 770378 20140626135848
+54.82.33.252 1 1 22070 20140620110345
+91.236.75.106 3 3 49821 20140606113035
+187.193.154.141 6 48 1487365 20140628212259
+194.65.103.1 0 1 8126 
+79.168.16.130 11 90 923436 20140626135136
+85.244.72.244 6 65 485643 20140607132217
+192.95.4.43 1 1 4883 20140616015845
+184.168.112.26 4 4 7396 20140630094931
+189.48.38.124 0 1 2002 
+87.103.124.162 6 72 791263 20140629074730
+192.241.130.212 14 32 243744 20140625082018
+79.116.31.254 2 2 44140 20140625085733
+193.137.97.187 27 98 2209327 20140610235802
+202.46.48.52 1 1 4780 20140614001145
+213.123.189.192 1 1 22070 20140628054304
+93.102.13.101 20 128 1216406 20140627054611
+62.28.237.170 0 15 347354 
+95.94.4.232 0 2 36078 
+126.10.233.98 19 19 246322 20140624051902
+213.22.76.55 0 1 278068 
+46.246.37.237 12 12 54490 20140619181300
+85.139.158.137 6 39 562475 20140606134516
+188.82.242.202 7 50 1491926 20140627152330
+88.80.205.219 12 76 1704107 20140625181852
+93.108.79.112 9 11 21225 20140618190855
+188.82.133.155 21 190 3330363 20140611164640
+150.70.75.206 1 1 22184 20140621085122
+84.90.33.94 0 1 30139 
+59.32.40.78 1 1 22070 20140628170543
+192.81.210.204 16 34 250209 20140613115629
+31.22.193.246 0 7 13850 
+115.85.23.3 0 1 18913 
+2.83.17.233 0 1 30139 
+194.38.156.26 0 2 278858 
+177.8.207.70 3 67 770378 20140630234056
+82.155.52.203 8 57 3599619 20140624121740
+187.60.115.154 0 1 228159 
+83.240.154.45 0 1 114395 
+69.84.207.246 0 44 1344608 
+87.196.105.196 0 1 278068 
+88.214.161.88 0 1 32674 
+66.249.81.157 1 2 5000 20140612215909
+187.54.156.58 0 1 228159 
+213.30.118.66 6 50 1488707 20140616012455
+83.132.243.181 0 1 228159 
+193.126.22.96 12 98 2975500 20140625145802
+85.240.82.128 0 1 8126 
+2.83.66.2 0 1 8126 
+83.240.252.175 0 1 8126 
+54.89.175.83 1 1 22070 20140616224440
+193.126.22.189 0 1 9898 
+93.102.36.7 0 1 4898 
+202.46.62.199 1 1 4068 20140623003231
+194.65.37.72 11 115 1079290 20140622220538
+81.84.200.172 26 121 1093485 20140618201605
+144.64.1.254 0 2 278858 
+209.133.77.165 1 1 29454 20140619113021
+46.246.36.199 2 2 6088 20140602103448
+84.91.32.131 0 1 30139 
+109.51.66.130 0 1 221890 
+92.249.127.111 27 27 620631 20140616012553
+23.27.220.51 0 1 278068 
+188.186.41.174 0 1 21186 
+84.91.236.231 0 2 482609 
+82.154.72.145 0 1 8126 
+157.56.122.217 0 16 158368 
+89.155.127.81 0 1 221890 
+201.4.177.112 3 67 770378 20140630171236
+46.165.208.207 30 30 39226 20140625005430
+89.153.122.136 0 1 278068 
+213.22.2.225 6 78 820824 20140602122413
+84.90.161.185 0 2 81451 
+82.155.52.26 0 2 27700 
+58.62.252.212 1 1 22184 20140624012237
+213.30.6.166 0 2 34894208 
+66.220.159.116 0 3 459 
+195.154.8.239 20 20 441400 20140629092730
+195.23.156.75 0 2 278858 
+46.235.9.199 5 5 9245 20140611112504
+177.97.1.25 0 2 456318 
+105.235.133.228 0 2 366446 
+202.46.63.58 1 1 5333 20140620030956
+82.145.221.159 1 4 23142 20140608162034
+177.81.60.215 0 1 71217 
+89.154.49.62 0 1 4898 
+81.193.119.226 6 49 1487750 20140605093900
+195.23.49.246 10 46 594015 20140624155850
+50.63.130.155 1 1 1849 20140611215416
+2.81.92.52 0 1 32674 
+199.30.24.83 0 17 40074 
+202.46.62.17 1 1 22184 20140619214306
+89.155.126.124 3 67 770378 20140628105705
+176.57.141.193 0 1 48112 
+77.92.76.250 27 30 494057 20140615075939
+222.77.228.163 1 1 22184 20140618173518
+2.81.126.51 6 49 1487630 20140626172032
+46.229.167.149 2 2 44140 20140609135947
+189.71.133.97 0 1 278068 
+177.80.25.241 0 1 21186 
+95.94.35.170 0 1 93946 
+94.132.187.14 0 2 19796 
+188.83.208.188 8 59 1831728 20140624154843
+46.119.120.207 36 36 798282 20140615012323
+82.145.222.228 1 2 23142 20140611104740
+2.80.82.154 3 59 522557 20140621113816
+89.152.245.165 0 1 278068 
+189.110.136.123 0 1 28727 
+84.91.34.172 0 1 8126 
+2.80.171.66 0 1 9898 
+202.46.54.56 1 1 22184 20140607034228
+94.46.143.167 0 1 278068 
+46.189.159.237 8 169 863570 20140624155249
+188.37.0.169 7 51 1497600 20140626220530
+188.250.236.183 0 2 49490 
+66.220.159.114 0 6 918 
+192.81.213.112 16 34 250209 20140613223447
+197.148.0.160 10 54 1479597 20140626154422
+81.193.178.171 0 1 6696 
+188.251.134.31 0 1 9898 
+188.165.202.118 2 2 3698 20140630142813
+87.103.60.198 0 3 14694 
+66.220.159.112 0 11 1683 
+81.193.178.153 0 1 8126 
+200.158.245.117 0 1 278068 
+188.82.74.15 1 1 4841 20140612003817
+213.63.137.139 6 50 2108233 20140624165415
+186.201.13.114 0 1 278068 
+79.168.238.81 5 62 556168 20140604180515
+24.51.87.226 0 1 22025 
+188.81.204.246 0 1 221890 
+179.199.49.131 0 1 278068 
+95.136.20.171 0 1 4898 
+188.80.109.182 0 3 0 
+83.96.132.85 12 12 22188 20140629204517
+188.82.138.155 0 1 587334 
+179.235.101.63 0 1 278068 
+177.47.116.166 6 49 1488548 20140615232943
+77.69.28.50 6 50 1489617 20140626091634
+150.70.97.126 1 1 190 20140621084449
+82.155.183.178 3 56 482584 20140611143925
+212.55.162.8 0 1 21186 
+188.82.123.106 3 3 14523 20140608005007
+31.22.131.105 0 1 8126 
+82.102.31.193 0 1 8126 
+95.95.209.208 0 1 8726 
+200.199.123.82 0 1 37157 
+87.103.49.201 0 1 4898 
+189.13.225.21 0 1 8126 
+213.30.118.68 7 60 1828668 20140608235832
+176.33.6.186 0 1 111976 
+87.158.209.78 0 1 278068 
+188.250.140.32 6 21 146302 20140607102718
+206.197.217.20 0 3 816393 
+81.220.68.233 0 1 30139 
+82.155.141.216 0 1 9898 
+98.136.171.205 0 473 38602765 
+88.214.162.93 6 51 1489670 20140614204658
+2.81.70.235 0 1 188822 
+2.83.243.24 1 1 4841 20140616134234
+2.38.251.85 3 67 770378 20140617124424
+188.82.62.225 0 1 8126 
+85.246.216.207 1 2 12581 20140605100910
+2.81.150.204 8 52 1501776 20140617113624
+213.22.114.192 0 1 40307 
+82.155.53.34 9 89 3715757 20140612104729
+81.193.24.136 0 1 6696 
+177.9.176.25 0 1 18913 
+2.81.194.81 0 1 159 
+2.83.4.197 0 1 4413837 
+85.214.27.40 2 2 3698 20140617004926
+87.103.64.54 0 1 4898 
+50.57.190.97 1 1 22070 20140627125758
+66.87.121.115 0 1 22559 
+94.242.222.44 7 7 112831 20140627210029
+178.166.31.254 0 2 19796 
+85.240.19.1 0 1 37157 
+193.137.232.10 8 60 3846990 20140603124805
+188.80.107.17 8 63 3031322 20140604035310
+198.199.83.127 16 34 250210 20140617174331
+199.30.24.139 0 14 32805 
+5.158.4.100 0 1 9898 
+188.250.139.208 5 26 220143 20140626225048
+134.249.50.128 1 1 32883 20140619124931
+201.3.134.76 0 1 278068 
+88.214.164.128 0 1 9898 
+66.147.235.81 9 9 16641 20140617082724
+194.114.62.123 4 86 653598 20140623110303
+195.23.61.236 0 1 45891 
+189.73.32.185 0 1 8649 
+199.30.24.172 5 47 1482750 20140606160335
+118.139.162.178 6 6 11094 20140630092833
+144.64.104.198 6 48 1487591 20140625012348
+187.112.180.252 0 1 6696 
+212.13.37.149 4 77 855262 20140612183841
+66.249.91.130 0 3 46458 
+85.244.176.136 3 57 489691 20140605131308
+5.249.72.110 6 40 2024462 20140630104109
+84.91.224.24 0 1 4413837 
+88.214.180.65 33 133 1063795 20140620025214
+85.139.84.249 0 1 111013 
+46.50.103.10 0 3 0 
+2.81.132.174 35 121 5674957 20140629193238
+189.46.162.32 0 1 6696 
+191.247.231.60 0 1 228159 
+177.134.87.168 0 1 278068 
+144.64.11.78 5 84 869588 20140619101445
+62.28.80.186 6 83 845785 20140605141646
+177.157.55.3 0 1 30139 
+81.177.6.221 1 1 22070 20140607072215
+178.166.48.56 0 1 8126 
+86.51.26.19 1 1 14290 20140628233425
+194.65.226.147 0 1 278068 
+212.55.146.155 0 1 4413837 
+188.83.110.2 0 2 278858 
+82.145.221.207 1 2 23142 20140611104739
+191.249.229.3 0 1 278068 
+178.166.65.76 0 1 9898 
+183.60.243.196 1 1 22070 20140619193446
+66.249.90.59 0 3 74722 
+212.0.161.140 4 70 781563 20140603150315
+2.81.96.163 0 1 4898 
+191.184.87.34 6 49 1488548 20140604164037
+62.28.168.18 8 81 830579 20140601013643
+82.154.176.86 0 1 5059061 
+188.82.158.111 3 49 441590 20140626005920
+195.23.39.223 0 1 4898 
+87.103.51.189 0 2 19796 
+84.90.66.139 0 2 278858 
+2.83.39.27 0 5 200725 
+106.220.30.13 0 1 228159 
+78.130.109.74 3 67 770378 20140620225346
+95.23.116.154 0 1 8649 
+87.103.51.229 7 52 1514854 20140611175810
+187.65.176.68 7 51 1497600 20140612160602
+216.70.68.242 9 9 16641 20140624133501
+85.244.81.196 3 67 770378 20140618194211
+95.94.15.65 3 67 770378 20140614191806
+213.30.17.106 7 59 1827711 20140617170700
+188.83.211.232 1 1 4068 20140625115943
+146.120.158.181 1 1 16223 20140625080632
+188.81.163.98 18 101 3948505 20140623225732
+177.107.64.52 3 67 770379 20140601062001
+195.242.218.133 33 33 730704 20140628161930
+2.80.231.252 0 1 9898 
+200.234.196.206 1 1 4046 20140616175626
+179.214.130.207 0 1 278068 
+191.247.231.2 0 1 278068 
+93.102.9.67 0 1 8126 
+89.109.118.6 14 102 971835 20140618164936
+88.198.56.239 0 2 4978805 
+95.94.203.207 0 1 111013 
+89.180.207.45 0 2 278858 
+88.214.166.97 0 1 32674 
+82.207.102.82 4 4 16126 20140614163114
+144.64.26.198 6 48 1487591 20140620143308
+222.77.224.65 1 1 22184 20140617205329
+95.94.122.186 6 50 1525098 20140610110116
+95.93.34.128 37 84 1511887 20140618233606
+2.83.192.61 4 73 798130 20140613144957
+173.252.79.113 0 1 1338447 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140601 198 902 31594618 65
+20140602 191 766 22571864 67
+20140603 311 1603 49404331 77
+20140604 278 1515 44303514 70
+20140605 626 2027 90612209 69
+20140606 267 1355 36622848 68
+20140607 126 301 4103213 52
+20140608 202 501 7525477 46
+20140609 175 825 51415554 64
+20140610 152 655 20386281 48
+20140611 257 1144 64515610 70
+20140612 228 1355 42195480 65
+20140613 203 972 18110567 53
+20140614 140 508 9505528 51
+20140615 171 476 25734071 42
+20140616 389 1714 28572736 62
+20140617 387 1912 45136846 74
+20140618 641 2957 99627941 55
+20140619 370 1500 61980521 57
+20140620 1497 10127 65954212 61
+20140621 163 637 22066925 51
+20140622 136 532 10953972 41
+20140623 2814 20429 91852056 50
+20140624 3012 31369 127449804 54
+20140625 2104 16933 102050275 64
+20140626 503 3000 38904769 49
+20140627 2416 17455 69680583 50
+20140628 366 1954 59353348 54
+20140629 246 663 11241582 39
+20140630 159 807 24449623 49
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 138
+5mn-15mn 56
+2mn-5mn 46
+30s-2mn 91
+15mn-30mn 62
+0s-30s 1209
+30mn-1h 115
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 202
+/oksofas/wp-admin/admin-ajax.php 7040 8263915 0 5
+/oksofas/wp-admin/post.php 1114 31930141 1 0
+/ 1045 16544976 477 298
+/smart_aqua/ 647 4471777 180 97
+/wp-login.php 638 1523999 124 131
+/smart_aqua/wp-cron.php 603 0 193 180
+/smart_aqua/wp-login.php 526 972574 497 497
+/oksofas/wp-admin/edit.php 475 5563600 0 0
+/oksofas/wp-admin/async-upload.php 377 165345 0 0
+/oksofas/wp-admin/load-scripts.php 362 21722772 0 0
+/wp-content/themes/central/css/style_dynamic_responsive.php 340 44350 1 5
+/smart_aqua/index.php 340 191021 0 81
+/wp-content/themes/central/css/style_dynamic.php 335 65935 15 8
+/wp-content/themes/central/css/custom_css.php 334 7716 2 5
+/wp-content/themes/central/js/default_dynamic.php 320 575080 0 38
+/wp-content/themes/central/js/custom_js.php 319 6818 0 92
+/oksofas/wp-cron.php 262 0 9 8
+/oksofas/wp-admin/post-new.php 237 6344100 0 0
+/smart_aqua_eng/wp-cron.php 209 0 28 43
+/oksofas/ 204 1515914 7 0
+/wp-cron.php 179 0 26 28
+/oksofas/wp-admin/admin.php 146 3127818 0 0
+/contactos/ 124 866857 19 26
+/marcas/ 119 1213448 12 12
+/oksofas/wp-admin/load-styles.php 106 7388580 0 0
+/oksofas/blog/ 3 15677 0 0
+/oksofas/blog/blog-two-column-with-left-sidebar/ 1 7099 0 0
+/oksofas/wp-content/themes/appmojo/font/fontawesome-webfont.woff 52 1045632 0 2
+/oksofas/produtos-relax/ 14 99517 0 0
+/oksofas/dt_portfolios/sofa-11/ 4 28091 0 0
+/oksofas/dt_portfolios/nasa/ 1 6164 0 0
+/wp-login.php/ 5 6035 0 2
+/oksofas/wp-admin/options-discussion.php 8 67978 0 0
+/oksofas/produtos/page/2/ 2 13131 0 0
+/oksofas/dt_portfolios/sort/ 1 6977 0 0
+/apresentacao/ 29 150472 0 11
+/oksofas/dt_portfolios/cama-italiana/ 3 20705 0 0
+/oksofas/portfolio_entries/sofas-cama/ 2 12862 0 0
+/oksofas/dt_portfolios/pulsar/ 1 5356 0 0
+/oksofas/wp-admin/upload.php 8 93189 0 0
+/oksofas/produtos-poufs/ 11 75061 0 0
+/oksofas/2014/06/ 1 7387 0 0
+/smart_aqua_eng/ 25 448783 15 13
+/oksofas/wp-admin/media-upload.php 52 169130 0 0
+/oksofas/wp-admin/revision.php 1 10234 0 0
+/xmlrpc.php 22 5061 2 3
+/oksofas/wp-includes/js/tinymce/wp-tinymce.php 3 368889 0 0
+/oksofas/sofas/ 10 99894 0 0
+/portfolio_page/adriano-e-lito/ 9 131688 1 8
+/oksofas/dt_portfolios/cuzco/ 1 5393 0 0
+/oksofas/contact/ 3 17162 0 0
+/oksofas/page/2/ 3 24083 0 0
+/oksofas/dt_portfolios/alisio/ 1 5329 0 0
+/oksofas/wp-admin/options-general.php 9 98480 0 0
+/oksofas/produtos/ 40 386616 1 2
+/portfolio_page/aveicabo/ 13 136938 3 0
+/oksofas/dt_portfolios/galaxy/ 1 6453 0 0
+/oksofas/portfolio_entries/poufs/ 1 6227 0 0
+/oksofas/produtos/page/6/ 1 7399 0 0
+/oksofas/dt_portfolios/sima/ 3 16005 0 0
+/oksofas/fabrica/ 23 176685 0 0
+/oksofas/wp-admin/edit-tags.php 42 381306 0 0
+/oksofas/wp-content/plugins/designthemes-core-features/shortcodes/tinymce/dialog.php 7 3080 0 0
+/oksofas/portfolio_entries/bases/ 3 19788 0 0
+/oksofas/audio-nam-libero/ 1 7094 0 0
+/oksofas/dt_portfolios/cronos/ 3 18848 0 0
+/insidepipe4/wp-cron.php 25 0 8 5
+/oksofas/dt_portfolios/sofa-5/ 2 14107 0 0
+/magmacaracas/entradas/ 1 4127 0 0
+/oksofas/wp-admin/options-media.php 7 48772 0 0
+/oksofas/dt_portfolios/grecia/ 1 6501 0 0
+/oksofas/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.eot 2 9744 0 0
+/portfolio_page/litoral-magazine/ 31 306409 4 6
+/portfolio_page/ekenabay/ 29 251938 2 5
+/oksofas/wp-content/themes/appmojo/php/send.php 7 873 0 0
+/oksofas/services/ 70 479575 0 0
+/oksofas/contactos/ 68 484319 1 0
+/oksofas/wp-admin/profile.php 1 9086 0 0
+/oksofas/wp-admin/options-reading.php 9 71006 0 0
+/oksofas/dt_portfolios/solo/ 2 10744 0 0
+/insidepipe4/ 6 20175 1 1
+/oksofas/colchoes/ 11 64513 0 0
+/oksofas/category/analysis/ 2 13788 0 0
+/wp-includes/wlwmanifest.xml 13 13676 0 0
+/wp-login.php/wp-login.php 5 6035 2 0
+/portfolio_page/restaurante-salpoente/ 16 162020 0 2
+/oksofas/mais-uma-loja-perto-de-ti-abre-dia-23-de-novembro-de-2013-a-nova-loja-de-telheiras/ 2 12918 0 0
+/portfolio_page/metalegi/ 15 154619 3 2
+/invisual/ 75 504309 6 12
+/oksofas/features/ 31 205839 0 0
+/oksofas/page/4/ 2 15781 0 0
+/oksofas/dt_portfolios/nova/ 2 12426 0 0
+/portfolio_page/feira-de-marco/ 13 167175 2 2
+/oksofas/produtos-sofas/ 23 229737 0 0
+/oksofas/page/3/ 2 15787 0 0
+/portfolio_page/aveiro-expo/ 14 156664 2 1
+/oksofas/dt_portfolios/ion/ 1 6335 0 0
+/oksofas/bases/ 8 61374 0 0
+/oksofas/limpeza/ 24 150819 0 1
+/oksofas/page/13/ 4 31091 0 0
+/oksofas/wp-admin/customize.php 7 168127 0 0
+/oksofas/wp-admin/themes.php 102 1538010 0 0
+/oksofas/dt_portfolios/base-elevatoria/ 2 13869 0 0
+/oksofas/page/10/ 1 7825 0 0
+/oksofas/produtos/page/5/ 3 22083 0 0
+/oksofas/page/9/ 2 15739 0 0
+/oksofas/wp-admin/export.php 3 134372 0 0
+/oksofas/wp-admin/options-permalink.php 8 62723 0 0
+/oksofas/youtube-lorem/ 2 13759 0 0
+/portfolio_page/heliflex/ 25 289238 2 2
+/oksofas/wp-content/plugins/revslider/rs-plugin/font/revicons.woff 1 7491 0 0
+/oksofas/blog/blog-two-column/ 1 6995 0 0
+/oksofas/wp-login.php 72 100974 10 9
+/oksofas/credito/ 16 133240 0 0
+/portfolio_page/ekenabay/\r 1 16151 1 1
+/portfolio_page/mercentro/ 23 202038 2 4
+/oksofas/wp-admin/media-new.php 13 103943 0 0
+/oksofas/wp-content/plugins/bwp-minify/min/ 29 183124 0 0
+/oksofas/portfolio_entries/colchoes/ 1 5913 0 0
+/oksofas/shortcodes/ 39 522491 0 0
+/portfolio_page/pizzarte/ 28 216544 0 5
+/portfolio_page/maldita/ 17 165237 3 2
+/oksofas/portfolio_entries/relax/ 1 5954 0 0
+/oksofas/dt_portfolios/sofa-6/ 2 10167 0 1
+/civilria/civilria_boas_festas.htm 2 2696 2 2
+/oksofas/oferta/ 10 69487 0 0
+/oksofas/wp-admin/theme-editor.php 2 43630 0 0
+/oksofas/wp-admin/widgets.php 21 306166 0 0
+/oksofas/2013/07/ 1 7412 0 0
+/magmacaracas/contactos-y-reservas/ 1 4619 0 0
+/oksofas/junte-se-a-nos/ 46 312215 0 0
+/oksofas/page/6/ 1 7888 0 0
+/oksofas/portfolio_entries/sofas/ 8 54101 0 0
+/oksofas/wp-admin/plugin-install.php 9 101582 0 0
+/smart_aqua/wp-includes/wlwmanifest.xml 1 1053 0 0
+/oksofas/page/5/ 3 23668 0 0
+/oksofas/dt_portfolios/eden/ 2 12430 0 0
+/oksofas/dt_portfolios/eter/ 2 10754 0 0
+/portfolio_page/susana-lopes/ 10 131276 1 1
+/oksofas/produtos-sofas-cama/ 11 66960 0 0
+/oksofas/wp-content/themes/appmojo/PIE.php 4 67536 0 1
+/oksofas/phasellus-diam-odio/ 1 7104 0 0
+/magmacaracas/eventos/ 2 8134 0 0
+/oksofas/wp-content/plugins/revslider/css/font/egfont.woff 1 34125 0 0
+/oksofas/wp-content/themes/appmojo/font/fontawesome-webfont.eot 37 186870 0 0
+/oksofas/wp-admin/plugins.php 26 482149 0 0
+/portfolio_page/civilria/ 22 217088 2 2
+/oksofas/produtos-colchoes/ 23 147676 0 0
+/oksofas/pricing-table/ 2 14329 0 0
+/oksofas/sofas-cama/ 8 40799 0 0
+/oksofas/dt_portfolios/sofa-4/ 2 14179 0 0
+/oksofas/wp-content/plugins/option-tree/assets/fonts/option-tree-font.woff 6 158661 0 0
+/magmacaracas/wp-cron.php 1 0 0 0
+/oksofas/transportes/ 49 374921 0 0
+/oksofas/designers/ 20 122851 0 0
+/oksofas/impermeabilizacao/ 65 432826 0 0
+/oksofas/about/ 11 71762 0 0
+/portfolio_page/future-cityscapes/ 12 127168 0 1
+/oksofas/dt_portfolios/sheila/ 4 26449 0 0
+/whm 57 499881 19 22
+/wp-content/plugins/wysija-newsletters/index.php 6 1056 1 4
+/portfolio_page/optica-nascimento/ 13 163768 3 3
+/oksofas/page/8/ 1 7892 0 0
+/author/invisual/ 3 444 3 0
+/oksofas/page/14/ 1 7046 0 0
+/oksofas/dt_portfolios/pablo/ 1 5338 0 0
+/oksofas/wp-admin/update.php 12 98668 0 0
+/oksofas/page/12/ 1 7880 0 0
+/oksofas/dt_portfolios/romo/ 4 26556 0 0
+/smart_aqua/xmlrpc.php 3 954 0 0
+/portfolio_page/bmw/ 23 201329 4 2
+/oksofas/wp-admin/options-writing.php 3 26156 0 0
+/portfolio_page/litoral-fashion/ 13 202472 1 2
+/oksofas/wp-content/plugins/revslider/rs-plugin/css/captions.php 32 40768 0 0
+/portfolio_page/diario-de-aveiro/ 10 122451 0 1
+/oksofas/garantia/ 14 102912 0 0
+/oksofas/category/hosting/ 1 6900 0 0
+/oksofas/aliquam-commodo/ 1 7744 0 0
+/oksofas/wp-admin/nav-menus.php 84 2093376 0 0
+/oksofas/portfolio_entries/complementos-e-poufs/ 1 5985 0 0
+/oksofas/wp-admin/theme-install.php 7 78773 0 0
+/magmacaracas/ 1 7663 0 0
+/oksofas/page/7/ 1 7889 0 0
+/oksofas/wp-admin/ 46 682745 2 0
+/portfolio_page/royal-school-of-languages/ 23 191482 2 1
+/oksofas/blog/blog-three-column/ 1 6974 0 0
+/oksofas/sample-page/ 2 12270 0 0
+/oksofas/complementos/ 18 130311 0 0
+/oksofas/portfolio_entries/sofa-cama/ 1 7057 0 0
+/oksofas/wp-admin/index.php 1 13198 0 0
+/oksofas/cras-lobortis-ante/ 1 6440 0 0
+/oksofas/etiam-ac-feugiat/ 1 7054 0 0
+/oksofas/dt_portfolios/helio/ 2 10671 0 0
+/webmail 31 272483 13 12
+/smart_aqua_eng/index.php 6 2439 0 2
+/oksofas/produtos/page/7/ 1 6637 0 0
+/subscriptions/ 1 155 1 1
+/portfolio_page/ferro/ 21 176493 0 2
+/oksofas/dt_portfolios/sofa-10/ 1 7025 0 0
+/oksofas/lojas/ 61 400868 1 1
+/oksofas/wp-includes/fonts/dashicons.eot 36 157178 0 1
+/oksofas/wp-admin/import.php 8 88139 0 0
+END_SIDER

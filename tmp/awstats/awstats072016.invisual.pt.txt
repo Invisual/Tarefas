@@ -1,0 +1,2738 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201607 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2694                
+POS_VISITOR 111220              
+POS_DAY 111381              
+POS_DOMAIN 3762                
+POS_LOGIN 4009                
+POS_ROBOT 4164                
+POS_WORMS 4950                
+POS_EMAILSENDER 5081                
+POS_EMAILRECEIVER 5224                
+POS_SESSION 112368              
+POS_SIDER 112521              
+POS_FILETYPES 5359                
+POS_DOWNLOADS 5841                
+POS_OS 6741                
+POS_BROWSER 7274                
+POS_SCREENSIZE 13292               
+POS_UNKNOWNREFERER 13366               
+POS_UNKNOWNREFERERBROWSER 16811               
+POS_ORIGIN 18415               
+POS_SEREFERRALS 18573               
+POS_PAGEREFS 18803               
+POS_SEARCHWORDS 28731               
+POS_KEYWORDS 29516               
+POS_MISC 2357                
+POS_ERRORS 30197               
+POS_CLUSTER 3865                
+POS_SIDER_404 30383               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160801000013 1319 319793 10614052478030
+FirstTime 20160701000010
+LastTime 20160731235614
+LastUpdate 20160801131201 1319 0 1318 0 0
+TotalVisits 32                  
+TotalUnique 2                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 2                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 96 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1193 3001 94022496 576 990 10640114
+1 1325 2429 56189748 638 953 12743062
+2 1064 1525 26616511 474 871 13216490
+3 1098 1609 24868961 379 706 9633503
+4 930 1266 21047815 536 901 14011053
+5 968 1413 25527265 533 879 10013405
+6 956 1234 16535485 510 835 6916003
+7 1072 1786 26404192 762 1058 12204728
+8 1007 1965 41125134 579 965 8537232
+9 1528 4764 149122428 670 993 9784130
+10 2553 7699 261752619 789 1330 12570465
+11 2336 7082 244860596 751 1151 14336856
+12 2578 7429 260920026 708 1074 22854791
+13 1383 3877 114555961 522 940 11502878
+14 2431 6273 216345154 890 1414 20147027
+15 2686 7549 263816686 594 1176 10302927
+16 3264 9177 332734283 537 890 12394132
+17 4145 8915 257804301 1199 1601 16893025
+18 4910 8690 231103548 959 1405 11294712
+19 1375 4121 147905961 488 858 8168199
+20 1122 3391 92931387 642 1047 8661718
+21 1173 3273 99745444 487 838 11114814
+22 1149 3445 107715626 729 1006 16703850
+23 1188 3425 93256022 497 1012 17891235
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+pt 43433 105337 3203668219
+us 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+googlebot 4969 61952648 20160731224433 1265
+bot[\s_+:,\.\;\/\\-] 3476 66841857 20160731230619 641
+bingpreview 1014 20287540 20160731030737 0
+scanner 508 30868177 20160731191250 252
+slurp 411 8248104 20160731195726 70
+googlebot\-image 402 32639651 20160731211454 0
+robot 384 1819932 20160731205113 99
+google[_+\s]web[_+\s]preview 383 12298753 20160728193556 0
+spider 355 6472071 20160731192504 21
+unknown 203 25844 20160731222208 203
+crawl 135 997156 20160731173747 22
+php 73 7719409 20160730150155 0
+[\s_+:,\.\;\/\\-]bot 43 2890755 20160731154839 0
+msnbot\-media 5 26550 20160721113647 0
+curl 5 151728 20160715172331 0
+netcraft 2 67330 20160715045132 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+woff2 4 260023 0 0
+pdf 41 129314813 0 0
+txt 11 89880 0 0
+html 4974 75851235 0 0
+webm 3 11009611 0 0
+cgi 2 6768 0 0
+css 7436 38537530 0 0
+svg 14 9718 0 0
+gif 4743 14134278 0 0
+js 12193 224392120 0 0
+png 16614 150811451 0 0
+Unknown 387 3148744 0 0
+php 37925 199371683 0 0
+ttf 3 86528 0 0
+jpg 20330 2343758703 0 0
+ico 519 110603 0 0
+eot 5 46679 0 0
+ogv 1 1656858 0 0
+mp4 2 3763010 0 0
+woff 130 7307524 0 0
+xml 1 460 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 15
+/arcadamagazine/arcadamagazine_n17.pdf 33 2 108326792
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 10 0 9967620
+/wp-content/plugins/contact-form-7/license.txt 6 0 2832
+/arcadamagazine/arcadamagazine_n14.pdf 4 0 39169343
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 3 0 3767976
+/license.txt 3 0 47178
+/arcadamagazine/arcadamagazine_n13.pdf 2 0 8827674
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 2 0 3459142
+/smart_aqua/wp-content/uploads/2012/04/tribuna_de_macau.pdf 2 0 177592
+/programa_aveironoivos.pdf 2 0 1748580
+/modelin/wp-content/uploads/2014/03/Bridge-Slide-Video.mp4 2 0 3763010
+/hotelaveirocenter/license.txt 2 0 39870
+/arcadamagazine/arcadamagazine_n15.pdf 2 0 7760498
+/modelin/wp-content/uploads/2014/03/Bridge-Slide-Video.ogv 1 0 1656858
+/arcadamagazine/arcadamagazine_16.pdf 1 0 3228415
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 32
+win2003 44 38
+ios_ipad 1649 134
+bsdfreebsd 1 1
+ios_iphone 4073 335
+macosx9 508 80
+win2000 56 56
+win98 10 10
+macosx7 38 1
+macosx5 6 2
+win8.1 3668 420
+winlong 1173 276
+win16 15 15
+blackberry 2 2
+macosx6 137 20
+macosx8 427 63
+win7 17708 5210
+winphone 205 9
+linuxandroid 5037 367
+j2me 7 1
+linux 2696 492
+linuxubuntu 25 21
+winme 17 17
+winnt 17097 2085
+win95 8 8
+Unknown 21913 21298
+winxp 3859 1570
+java 3 2
+psp 3 0
+unix 9 5
+macosx 24438 10836
+winunknown 17 15
+win8 491 45
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 289
+firefox46.0 31 5
+msie5.01 8 8
+chrome47.0.2526.80 9 0
+chrome45.0.2454.101 2 0
+chrome52.0.2743.75 46 6
+chrome46.0.2490.76 9 0
+chrome43.0.2357.121 22 0
+chrome40.0.2214.111 53 13
+opera12.16 12 5
+chrome38.0.2125.104 9 7
+chrome25.0.1349.2 1 0
+chrome40.0.2214.114 9 0
+chrome33.0.0.0 56 0
+firefox45.0 158 21
+chrome48.0.2564.95 17 0
+chrome41.0.2272.89 3 0
+firefox3.6.11 1 1
+firefox2.0.0.6 1 1
+chrome45.0.2454.93 3 3
+chrome14.0.813.0 1 1
+firefox48.0 83 5
+chrome51.27.2704.63 11 0
+chrome42.0.2311.90 2 1
+chrome34.0.1847.131 14 14
+chrome46.0.2490.86 69 3
+chrome17.0.963.65 1 0
+safari6.0.1 2 0
+chrome46.0.2490.80 195 10
+opera7.02 8 8
+chrome11.0.696.14 1 0
+chrome47.0.2526.106 4 1
+safari6.0.4 1 1
+firefox27.0 1 1
+opera7.11 9 9
+safari9.1 153 19
+chrome17.0.963.66 1 1
+chrome43.0.2357.132 2 0
+chrome12.0.742.93 1 0
+firefox3.5.2 4 4
+chrome49.0.2623 1 0
+safari 686 107
+chrome37.0.0.0 35 0
+chrome45.0.2454.85 2 0
+chrome47.0.2526.73 2 0
+chrome48.4.2564.88 2 0
+firefox6.0 3 3
+firefox3.6.3 36 27
+chrome11.0.654.0 1 0
+opera9.00 4 4
+chrome50.0.2661.94 13 0
+chrome47.0.2526.111 570 66
+safari9.1.1 5793 1984
+chrome10.0.648.134 1 1
+firefox22.0 45 6
+safari9.0.2 9 0
+chrome5.0.375.99 10 10
+chrome26.0.1410.65 4 4
+chrome49.0.2623.75 12 5
+safari6.1 2 0
+firefox14.0.1 18 10
+chrome36.0.1985.135 47 6
+chrome28.0.1500.71 40 18
+chrome44.0.2427.81 1 1
+chrome45.0.2469.78 1 1
+opera38.0.2220.31 6 0
+opera7.60 2 2
+iphone 1457 15
+firefox2.0.0.11 2 2
+chrome52.0.2743.82 767 80
+lg\- 50 6
+firefox34.0 4 4
+opera36.0.2130.32 15 15
+chrome25.0.1364.172 1 1
+chrome50.14.2661.78 1 0
+chrome53.0.2785.8 1 0
+firefox3.6.16 2 2
+safari9.0.3 65 6
+chrome14.0.801.0 1 1
+lynx 4 3
+firefox31.0 229 211
+opera31.0.1889.99 1 0
+chrome51.26.2704.63 3 0
+firefox44.0 65 7
+chrome31.0.1650.59 1 0
+msie4.01 3 3
+chrome49.0.2623.112 2466 256
+safari8.0.3 2 0
+chrome39.0.2171.71 2 0
+chrome36.0.2056.12 1 1
+opera8.00 21 21
+chrome44.0.2403.157 58 6
+chrome32.0.1667.0 3 0
+chrome23.0.1271.97 1 1
+firefox43.0 130 19
+chrome27.0.1453 61 6
+chrome46.0.2486.0 1358 135
+msie2.0 7 7
+chrome34.0.1847.116 51 8
+firefox47.0 5371 947
+chrome30.0.1599.82 46 6
+sonyericsson 3 0
+chrome40.0.2214.109 3 0
+chrome24.0.1312.57 67 3
+msie6.0 812 796
+vodafone 2 0
+firefox37.0 1855 195
+chrome50.0.2661.75 2 0
+chrome34.0.1809.0 5 5
+Unknown 3619 3168
+chrome45.0.2423.0 1 0
+firefox3.6.12 1 0
+firefox3.6.6 1 0
+chrome43.0.2357.93 38 7
+firefox5.0 1 1
+safari7.0.3 6 5
+chrome45.0.2454.94 13 0
+msie7.0 736 99
+chrome50.11.2661.78 1 0
+chrome37.0.2062.120 16 16
+chrome48.0.2564.97 1 1
+netscape 8 8
+safari8.0.8 1175 258
+chrome34.0.1847.76 19 0
+chrome50.0.2661.87 2 0
+chrome38.0.1025.166 18 0
+chrome51.0.2704.81 3011 236
+chrome51.0.2704.103 22224 2263
+safari8.0 242 37
+chrome40.0.2214.115 4 3
+opera8.50 6 6
+firefox25.0 1 0
+chrome43.0.2357.134 1 1
+firefox3.6 160 160
+chrome35.0.1916.141 67 8
+safari9.0.1 2 0
+chrome49.0.2623.110 66 7
+netscape0.91 3 3
+chrome11.0.696.34 16 1
+msie9.0 3930 3751
+chrome43.0.2357.81 2 0
+chrome10.0.648.204 40 39
+chrome52.0.2743.60 61 3
+blackberry 2 2
+netscape3.0 3 3
+safari8.0.2 79 10
+chrome34.0.1847.137 4 4
+opera9.0 14 14
+chrome26.0.1410.43 1 1
+chrome37.0.2049.0 15 15
+chrome16.0.912.77 2 2
+chrome51.23.2704.63 2 0
+msie8.0 920 266
+chrome30.0.1599.66 4 4
+chrome39.0.2171.95 51 9
+opera11.01 1 1
+safari5.1 53 9
+chrome37.0.2123.99 1 1
+chrome33.0.1750.154 5 0
+opera7.0 3 3
+opera37.0.2192.105088 3 0
+chrome50.0.2661.89 229 19
+chrome44.0.2403.155 3 0
+chrome10.0.648.133 1 1
+chrome42.0.2311.111 2 0
+opera11.10 1 1
+firefox3.5.0 2 2
+firefox13.0 53 53
+chrome48.0.2564.116 27 23
+firefox36.0 2 2
+chrome49.0.2623.91 2 0
+chrome32.0.1700.107 102 3
+chrome50.10.2661.78 3 0
+samsung 18 0
+firefox20.0 3 0
+chrome38.0.2125.111 5 0
+firefox29.0 59 48
+chrome39.0.2171.93 3 0
+chrome50.0.2632.0 2 0
+firefox23.0 3 1
+mozilla 1510 321
+chrome1.0.154.48 1 0
+chrome42.0.0.0 3 0
+firefox28.0 9 9
+chrome47.0.2526.83 81 6
+firefox13.0.1 1 1
+chrome49.0.2623.108 27 7
+chrome42.0.2355.21 1 1
+firefox40.0 2 2
+netscape4.79 1 1
+chrome18.0.1025.166 3 0
+safari7.0 245 45
+chrome44.0.2403.133 271 12
+chrome39.0.2171.99 5 2
+chrome51.19.2704.63 4 0
+chrome48.0.2564.109 3 1
+chrome52.0.2743.91 11 0
+opera38.0.2220.41 107 11
+firefox41.0 6 3
+firefox16.0 3 3
+firefox6.0.2 17 4
+msie5.5 16 16
+chrome26.0.1410.63 45 45
+chrome35.0.1916.114 9 6
+chrome27.0.1453.93 1 1
+chrome13.0.782.41 1 1
+msie11.0 2949 337
+chrome38.0.2125.101 144 43
+chrome40.0.2214.85 2 2
+netscape5.0 17882 17873
+firefox2.0.0.4 7 7
+firefox3.0.7 1 0
+chrome36.0.1985.67 14 14
+chrome41.0.2224.3 1 1
+chrome14.0.803.0 1 1
+chrome17.0.1025.133 4 4
+safari7.1.3 4 4
+chrome27.0.1453.110 3 3
+android 284 19
+safari9.0 2816 300
+chrome10.0.648.11 2 2
+chrome30.0.1599.101 70 8
+chrome51.0.2704.106 2285 277
+chrome3.0.195.21 1 1
+opera8.01 14 14
+firefox35.0 1 1
+chrome44.0.2403.89 3 0
+firefox39.0 8 0
+msie10.0 266 52
+chrome47.0.2526.100 8 0
+opera10.54 2 1
+chrome49.0.2623.105 121 12
+chrome42.0.2311.135 44 5
+firefox3.5.6 3 3
+safari6.0 6 0
+chrome50.0.2661.86 24 0
+chrome39.0.0.0 124 8
+opera36.0.2130.65 3 0
+netscape4.61 5 5
+ibrowse 2 0
+firefox4.2 1 1
+firefox11.0 99 5
+chrome51.0.2704.84 185 15
+chrome54.0.2810.2 14 4
+msie5.0 16 16
+chrome18.0.1025.308 4 0
+firefox4.0 9 9
+chrome52.0.2743.62 2 0
+svn080 1 0
+safari6.2.8 159 22
+chrome48.0.2564.106 4 0
+safari9.1.2 12770 7803
+chrome31.0.1650.63 54 10
+opera7.54 8 8
+chrome35.0.1916.153 61 6
+firefox24.0 4 0
+firefox40.1 10 10
+chrome47.0.0.11490 4 0
+chrome30.0.0.0 108 0
+chrome49.0.2623.87 291 85
+chrome28.0.1500.94 75 7
+firefox0.10.1 1 1
+chrome13.0.782.220 1 1
+safari5.0.6 5 1
+chrome36.0.1985.143 761 80
+chrome38.0.2125.102 69 0
+firefox42.0 3 1
+safari5.0.2 104 18
+chrome34.0.1847.114 16 0
+chrome42.0.2311.152 6 6
+netscape0.6 6 6
+firefox38.0 55 6
+chrome31.0.1650.57 6 6
+firefox21.0 16 16
+webcapture 5 5
+chrome14.0.794.0 1 1
+chrome35.0.1926.64 1 1
+safari10.3.2.2876 4 0
+chrome34.0.1847.118 73 4
+firefox17.0 1 1
+chrome48.0.2564.82 92 12
+chrome50.0.2661.102 161 15
+firefox18.0 14 7
+chrome41.0.2272.96 1 0
+safari6.1.6 28 0
+chrome18.0.1025.142 1 0
+chrome43.0.2357.124 7 0
+chrome10.0.611.0 1 0
+firefox4.0.1 1 1
+chrome43.0.2357.65 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 51
+Mozilla 20160727214126
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20160726161350
+viz/Nutch-1.7 20160709164058
+WordPress/4.5.3;_http://invisual.pt 20160731235614
+Mozilla/5.0_(Android_5.0.2;_Tablet;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160711211531
+WordPress/4.5.3;_http://invisual.pt/festival 20160704154629
+Mozilla/5.0_(compatible;_Attracta) 20160729123313
+ltx71_-_(http://ltx71.com/) 20160729141915
+Safari/11601.7.7_CFNetwork/760.6.3_Darwin/15.6.0_(x86_64) 20160731235615
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20160718190146
+Mozilla/5.0_(SAMSUNG;_SAMSUNG-GT-S8500-ORANGE/S8500BVLA2;_U;_Bada/2.0;_fr-fr)_AppleWebKit/534.20_(KHTML,_like_Gecko)_Dolfin/3.0_Mobile_WVGA_SMM-MMS/1.2.0_OPN-B 20160715231212
+Mozilla/4.0_(compatible;_Synapse) 20160726194630
+Softaculous 20160726155739
+WordPress/4.3.5;_http://invisual.pt/modelin 20160704104743
+WordPress/4.5.3;_http://invisual.pt/hoteldassalinas 20160731230619
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20160731222212
+Mozilla/5.0_(compatible;_Dataprovider/6.92;__https://www.dataprovider.com/) 20160708071415
+()_{_foo;};echo;_/bin/bash_-c_\ 20160715190716
+Safari/11601.6.17_CFNetwork/760.5.1_Darwin/15.5.0_(x86_64) 20160705102158
+IPS/1.0 20160717141908
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20160725225600
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20160731181211
+UniversalFeedParser/5.2.0__https://code.google.com/p/feedparser/ 20160722023033
+Mozilla/5.0_(Android_5.0.1;_Mobile;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160726171912
+WordPress/4.5.3;_http://invisual.pt/hotelaveirocenter 20160727074206
+Go_1.1_package_http 20160703071352
+WordPress/4.5.3;_http://invisual.pt/modelin_web 20160731060725
+Mozilla/5.0 20160731235514
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20160731100553
+scrapyproject_(_http://www.profound.net) 20160707113407
+Lynx/2.8.8pre.4_libwww-FM/2.14_SSL-MM/1.4.1_GNUTLS/2.12.23 20160713175936
+Go-http-client/1.1 20160723072947
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.3.2.2876_Mobile_Safari/537.35_ 20160723231816
+WordPress/4.5.3;_http://invisual.pt/festivaldoscanais 20160708043711
+Mozilla-1.1 20160702175925
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20160720080031
+Mozilla/5.0_(compatible;_Qwantify/2.2w;__https://www.qwant.com/)/* 20160718032152
+com.apple.WebKit.WebContent/10600.8.9_CFNetwork/720.5.7_Darwin/14.5.0_(x86_64) 20160726151014
+WordPress/4.5.3;_http://invisual.pt/alboi 20160731101507
+WordPress/4.5.3;_http://invisual.pt/hosteldoalboi 20160717105843
+Xenu_Link_Sleuth/1.3.8 20160701180153
+Mozilla/5.0_(Android_5.0;_Mobile;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160701171738
+Mozilla/4.0_(compatible;) 20160729111212
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20160704142542
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20160720120319
+Mozilla/5.0_(WordPress.com;_http://support.wordpress.com/contact) 20160714202623
+Mozilla/5.0_(Android_6.0.1;_Mobile;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160723043130
+WordPress/3.9.3;_http://invisual.pt 20160705123110
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20160731052411
+WordPress/4.5.3;_http://invisual.pt/modelin 20160729182541
+facebookexternalhit/1.1 20160727010611
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 28
+WordPress/3.9.3;_http://invisual.pt 20160705123110
+IPS/1.0 20160717141908
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20160731181211
+UniversalFeedParser/5.2.0__https://code.google.com/p/feedparser/ 20160722023033
+Apache-HttpClient/4.3.5_(java_1.5) 20160721142556
+Apache-HttpClient/4.5_(Java/1.8.0_73) 20160707100548
+WordPress/4.5.3;_http://invisual.pt/modelin 20160729182541
+facebookexternalhit/1.1 20160727010611
+WordPress/4.5.3;_http://invisual.pt/hotelaveirocenter 20160727074206
+python-requests/2.7.0_CPython/2.7.6_Linux/3.13.0-85-generic 20160712105641
+Go_1.1_package_http 20160703071352
+WordPress/4.5.3;_http://invisual.pt/modelin_web 20160731060725
+WordPress/4.5.3;_http://invisual.pt/hosteldoalboi 20160717105843
+Softaculous 20160726155739
+Xenu_Link_Sleuth/1.3.8 20160701180153
+WordPress/4.3.5;_http://invisual.pt/modelin 20160704104743
+WordPress/4.5.3;_http://invisual.pt/hoteldassalinas 20160731230619
+()_{_foo;};echo;_/bin/bash_-c_\ 20160715190716
+com.apple.WebKit.WebContent/10600.8.9_CFNetwork/720.5.7_Darwin/14.5.0_(x86_64) 20160726151014
+WordPress/4.5.3;_http://invisual.pt/alboi 20160731101507
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20160731100553
+viz/Nutch-1.7 20160709164058
+WordPress/4.5.3;_http://invisual.pt 20160731235614
+scrapyproject_(_http://www.profound.net) 20160707113407
+Go-http-client/1.1 20160723072947
+WordPress/4.5.3;_http://invisual.pt/festival 20160704154629
+WordPress/4.5.3;_http://invisual.pt/festivaldoscanais 20160708043711
+ltx71_-_(http://ltx71.com/) 20160729141915
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 23855 26414
+From1 19 19
+From2 497 1169
+From3 725 9532
+From4 18338 68206
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+search 1 1
+live 1 11
+google_image 6 10
+google 471 1108
+baidu 7 7
+yandex 6 6
+bing 5 26
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 246
+http://www.smartaqua.pt 185 185
+http://smartaqua.pt 21 21
+http://fix-website-errors.com/try.php 16 16
+http://kw21.org 9 9
+http://xn----7sbaphztdjeboffeiof6c.xn--p1ai 9 9
+http://wallpapersdesk.info 8 8
+http://gps495.ru 8 8
+http://burger-imperia.com 8 8
+http://ivanovo.xrus.org 7 7
+http://kirov.xrus.org 7 7
+http://running-line.ru 7 7
+http://pravoholding.ru 7 7
+http://www.rospromtest.ru/content.php 7 7
+http://buy-cheap-pills-order-online.com 6 6
+http://cheboksary.xrus.org 6 6
+http://barnaul.xrus.org 6 6
+http://www.rospromtest.ru/sertifikati/deklaraciya-sootvetstviya-tamojennogo-soyuza/ 6 6
+http://kemerovo.xrus.org 6 6
+http://uytmaster.ru 6 6
+http://video-chat.in 6 6
+http://itbc.kiev.ua 6 6
+http://anapa.xrus.org 6 6
+http://djonwatch.ru 6 6
+http://xn----7sbahjd3btneuw1joc.xn--p1ai 6 6
+http://videochat.mx 6 6
+http://alital.pt/portfolio_page/emme/ 1 1
+http://www.turismodocentro.pt/pt/produtos_.3/ilhavo_.a859.html 1 1
+http://www.example.com 1 1
+http://www.o-trubah.com 3 3
+http://www.arcada-imobiliaria.com/lojas/ 0 2
+http://belgorod.xrus.org 5 5
+http://civilria.pt/contactos/ 1 1
+http://speedyburritosreno.com 1 1
+http://hotelaveirocenter.com 0 22
+http://hoteldassalinas.com/en/service/breakfast/ 0 3
+http://hotelaveirocenter.com/room/quarto-duplo-standard/ 0 6
+http://hoteldassalinas.com/en/news/ 0 3
+http://civilria.pt 1 1
+http://maldita.pt 1 1
+http://www.hoteis.pt/pesquisa/regiao/Santarem/page/11 1 1
+http://freenode.info 5 5
+http://hoteldassalinas.com/en/attraction/forum-aveiro-shopping-center-950-m/ 0 4
+http://hvd-store.com 1 1
+http://zdesformula.ru 3 3
+http://berlininsl.com 3 3
+http://poisk-zakona.ru/zakon-ob-osago/ 2 2
+http://webmail.cm-aveiro.pt/exchange/agenio/Inbox/Desdobravel%20-%20textos%20para%20verifica%C3%A7%C3%A3o%20urgente.EML 0 1
+http://hoteldassalinas.com 0 60
+http://magnitogorsk.xrus.org 3 3
+http://dimkino.ru 1 1
+http://hoteldassalinas.com/en/the-city/ 0 2
+http://www.pai.pt/nieto-fernandez-actividades-turisticas-de-torres-novas-lda-torres-novas-santa-maria-salvador-e-santiago-2350-418/ 3 3
+http://hoteldassalinas.com/servicos/ 0 3
+http://www.hoteldassalinas.pt/en/booking 0 6
+http://isistaylorporn.info 3 3
+http://pizza-tycoon.com 5 5
+http://chiptuninger.com 3 3
+http://irkutsk.xrus.org 2 2
+http://alojamentodoalboi.com/attraction/barra-beach/ 0 3
+http://pornogig.com 1 1
+http://hoteldassalinas.com/en/room/studio-room/ 0 4
+http://hotelaveirocenter.com/informacao-ao-consumidor/ 0 2
+http://pron.pro 3 3
+http://busca.uol.com.br/web/ 1 1
+http://hotelaveirocenter.com/es/room/suite/ 0 1
+http://most-kerch.org 2 2
+http://autoplate.info 3 3
+http://hotelaveirocenter.com/en/ 0 39
+http://ziesta.ru 2 2
+http://hotelaveirocenter.com/attraction/praia-da-costa-nova/ 0 2
+http://xbaboon.com 1 1
+http://65.55.108.4/proxy.ashx 0 6
+http://nlb-lx-crm/PRD-CRM/_controls/emailbody/msgBody.aspx 0 1
+http://grupoalboi.com 1 1308
+http://esk-sambist.ru 1 1
+https://td-33.ru 3 3
+http://eupornstar.info 5 5
+http://hotelaveirocenter.com/en/booking/ 0 4
+http://www.aveiro.co.pt/categoria.aspx 2 2
+http://www.losviajeros.com/index.php 2 2
+http://linerdrilling.com 2 2
+http://hotelaveirocenter.com/en/contacts/ 0 6
+http://advogados-vgg.pt 2 2
+http://www.arcada-imobiliaria.com 0 12
+http://wallpapers-best.com 5 5
+http://civilria.pt/residencial-arrendamento/ 1 1
+http://hoteldassalinas.com/en/room/double-standard-room/ 0 4
+http://www.ctm-stroy.ru 3 3
+http://kostroma.xrus.org 3 3
+http://festivaldoscanais.pt 1 1
+http://abiente.ru 4 4
+http://astrakhan.xrus.org 2 2
+http://xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai 2 2
+http://www.bookmaker-bet.com 5 5
+http://alojamentodoalboi.com/en/attraction/train-station/ 0 3
+http://hoteldassalinas.com/service/internet/ 0 4
+http://xn-----7kceclhb4abre1b4a0ccl2fxch1a.xn--p1ai 3 3
+http://kredit-pod-zalog-krasnodar.ru 3 3
+http://alojamentodoalboi.com 0 261
+http://www.arcada-imobiliaria.com/imoveis/pesquisa/ 0 1
+http://hotelaveirocenter.com/es/informacion-al-consumidor/ 0 1
+http://www.hoteis.pt/6407/link/http://www.hoteldeilhavo.com 1 1
+http://hotelaveirocenter.com/es/hotel/ 0 4
+http://kruzakivrazbor.ru 5 5
+http://hoteldassalinas.com/attraction/reserva-natural-das-dunas-de-s-jacinto-15-km/ 0 2
+http://www.mybesthotel.eu/hoteis/hotel-de-ilhavo-plaza 4 4
+http://orenburg.xrus.org 4 4
+http://tadalafil-sildenafil.com 3 3
+http://hd720kino.ru 4 4
+http://hotelaveirocenter.com/nossos-quartos/ 0 4
+http://www.symbol-s.ru 4 4
+http://hoteldassalinas.com/es/ 0 30
+http://www.maisturismo.pt/pt/Alojamento/Centro-de-Portugal/Ilhavo/Hotel-de-Ilhavo-Plaza/14206 1 1
+http://colegioportugues.pt 1 1
+http://civilria.pt/projects/uno-al-mar-vila-nova-de-gaia/ 1 1
+http://www.vesnatehno.com 4 4
+http://hoteldassalinas.com/a-cidade/ 0 6
+http://kupit-adenu.ru 5 5
+http://www.allmetalworking.ru 5 5
+http://bryansk.xrus.org 4 4
+http://hotelaveirocenter.com/reserva/ 0 10
+http://remontgruzovik.ru 3 3
+http://feirademarco.pt 1 1
+http://www.playocean.net/portugal/ilhavo/alojamento 3 3
+http://hotelaveirocenter.com 2 1822
+http://hotelaveirocenter.com/service/lavandaria/ 0 2
+http://gastronom.com.ua 2 2
+http://mirtorrent.net 1 1
+http://index-au.com 2 2
+http://e-collantes.com 3 3
+http://hotelaveirocenter.com/en/service/hotel-reception-provided-services/ 0 4
+http://www.arcada.hcpro.pt/index.asp 0 2
+http://www.smartaqua.pt 2 2
+http://confeitariaframboesa.pt 2 2
+http://igrovyeavtomaty777.ru 5 5
+http://www.vesnatehno.ru 3 3
+http://gfiquwerutijfmn474859378tug9keofmi49.com 1 1
+http://hotelaveirocenter.com/es/nuestras-habitaciones-2/ 0 6
+http://hotelaveirocenter.com/es/room/habitacion-triple-estandar/ 0 2
+http://archidom.info 5 5
+http://hoteldassalinas.com 0 4905
+http://hoteldassalinas.com/en/ 0 35
+http://hundejo.com 1 1
+http://aveicabo.pt 2 2
+http://www.bonssons.com/onde-ficar/ 5 5
+http://grupoalboi.com 0 24
+http://alital.pt/portfolio_page/grafite/ 1 1
+http://vr2p.pt 2 2
+http://confeitariaframboesa.pt/confeitarias-framboesa-criam-campanha-de-solidariedade/ 1 1
+http://hoteldassalinas.com/es/contactos-2/ 0 6
+http://xn----9sbebi2bvzr7h.xn--p1ai 3 3
+http://hotelaveirocenter.com/es/contactos-2/ 0 2
+http://yalta.xrus.org 3 3
+http://www.rbot.info/link/brepinefiruguny 1 1
+http://leonorreis.com 1 1
+https://mrwhite.biz 3 3
+http://pt.letsbonus.com/cascais/hotel-ilhavo-4-viagens-2-6-20160531160736-375209 1 1
+http://penza.xrus.org 5 5
+http://scenarii-1-sentyabrya.uroki.org.ua 3 3
+http://hotelaveirocenter.com/premio-booking-2015/ 0 2
+http://sexphoto.site 4 4
+http://online.abreu.pt/NewAvailabilityServlet/servlet/HotelInfo 1 1
+http://finteks.ru 2 2
+http://arcada-imobiliaria.com 0 1
+http://freshwallpapers.info 2 2
+http://hoteldassalinas.com/nossos-quartos/ 0 14
+http://vr2p.pt/contactos/ 1 1
+http://hotelaveirocenter.com/reserva 0 4
+http://hoteldassalinas.com/en/attraction/teatro-aveirense-250-m/ 0 2
+http://kursk.xrus.org 3 3
+http://hoteldassalinas.com/reservas/ 0 8
+http://xn----8sbdbjgb1ap7a9c4czbh.xn--p1acf 3 3
+http://hotelaveirocenter.com/es/la-ciudad/ 0 2
+http://mylida.org 3 3
+http://https-legalrc.biz 2 2
+http://mmog-play.ru 2 2
+http://alojamentodoalboi.com/reservas/ 0 3
+http://hotelaveirocenter.com/es/ 0 21
+http://zaim-pod-zalog-krasnodar.ru 3 3
+http://www.arcada-imobiliaria.com/contactos/ 0 1
+http://xn----7sbbahebfbcddeqjohba5bl3ajhliejfi4cfxf3a35a.xn--p1ai 3 3
+http://meivcore.pt/services/eletricidade-automacao-instrumentacao-e-valvulas/ 1 1
+http://hoteldassalinas.com/o-hotel/ 0 10
+http://maldita.pt/pyaperbrew/ 1 1
+http://www.sribno.com 2 2
+http://hoteldassalinas.com/room/quarto-duplo-standard/ 0 3
+http://tuapse.xrus.org 3 3
+http://www.losviajeros.com/foros.php 1 1
+http://hotelaveirocenter.com/contactos/ 0 12
+http://sevastopol.xrus.org 3 3
+https://www.facebook.com 1 1
+http://www.ledevoir.com/plaisirs/voyage/357684/long-courrier 3 3
+http://pizza-imperia.com 1 1
+http://turismoactivo.pt/default.asp 1 1
+http://xn--80aaajbdbddwj2alwjieei2afr3v.xn--p1ai 1 1
+http://m.facebook.com 0 1
+http://hotelaveirocenter.com/attraction/se-catedralmuseu-santa-joana-550-m/ 0 2
+http://civilria.pt/projects/urban-flat-residence/ 1 1
+http://www.styro.ru 3 3
+http://confib.ifmo.ru 2 2
+http://hoteldassalinas.com/es/hotel/ 0 8
+http://www.ideoworld.org 3 3
+http://meivcore.pt/services/mechanics/ 1 1
+http://free-video-tool.com 1 1
+http://alital.pt/portfolio_page/mustang/ 1 1
+http://tagil.xrus.org 3 3
+https://translate.googleusercontent.com/translate_c 3 23
+http://hoteldassalinas.com/en/services/ 0 2
+http://adrianocarreira.com 1 1
+http://tver.xrus.org 3 3
+http://meivcore.pt 4 4
+http://xn-----6kccaibs5cb8afhjrfmix2n.xn--p1ai 2 2
+http://hotelaveirocenter.com/es/nuestras-habitaciones/ 0 2
+http://yoshkarola.xrus.org 2 2
+http://alital.pt/noticias/ 2 2
+http://stavropol.xrus.org 2 2
+http://www.all-number.com 3 3
+http://vologda.xrus.org 3 3
+http://hoteldassalinas.com/en/attraction/barra-beach/ 0 3
+http://alital.pt 3 3
+http://hotelaveirocenter.com/promocoes/ 0 2
+http://domdeco.net 3 3
+http://hoteldassalinas.com/es/la-ciudad/ 0 11
+http://hotelaveirocenter.com/pt 0 4
+http://interesnie-faktu.ru 2 2
+http://civilria.pt/projects/icon/ 1 1
+http://civilria.pt/projects/largo-de-s-domingos/ 1 1
+http://vashsvet.com 5 5
+http://hoteldassalinas.com/en/booking/ 0 11
+http://cervejamaldita.pt 3 3
+http://hoteldassalinas.com/en/contacts/ 0 6
+http://www.varikozdok.ru 2 2
+http://alojamentodoalboi.com/attraction/bioria-20-km/ 0 3
+http://www.infoempresas.com.pt/M741_ATIVIDADES-DESIGN/Empresas-3.html 1 1
+http://www.krasivye-devushki.net 3 3
+http://hotelaveirocenter.com/en/our-rooms/ 0 4
+http://hoteldassalinas.com/gallery/galeria/ 0 2
+http://zajm-pod-zalog-nedvizhimosti.ru 5 5
+http://xn-----8kcatubaocd1bneepefojs1h2e.xn--p1ai 3 3
+http://biznesluxe.ru 3 3
+http://www.lekkoo.com 1 1
+http://prepodka.net 2 2
+http://montalegrehotel.com 1 1
+http://vr2p.pt/membros/ 1 1
+http://hoteldassalinas.com/es/servicio/ 0 6
+http://www.genericlevitra20mg.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 8
+litoralfashion 4
+invisual+pt 3
+ekena+bay+2016 3
+invisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion+aveiro+portugal+moda%7cinvisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion+aveiro+portugal+moda 3
+smart+aqua+lda. 1
+invisual.pt 1
+in+civilria+aveiro 1
+hotel+torres+novas+torres+novas 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 20
+aveiro 7
+portugal 6
+litoralfashion 4
+pt 3
+invisual 3
+2016 3
+invisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion 3
+moda%7cinvisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion 3
+moda 3
+ekena 3
+bay 3
+torres 2
+novas 2
+in 1
+civilria 1
+invisual.pt 1
+lda. 1
+hotel 1
+smart 1
+aqua 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 1924 24147
+206 5 28428
+405 4 0
+404 4591 48597210
+302 653 299340
+508 7 1806
+301 3897 226110
+500 1348 32488
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1394
+/smart_aqua_eng/ 11 -
+/support.php 1 http://eurathlon.info/update/123wso123.php
+/unn114_admin/editor/editor/ 3 -
+/tools/editer/fck/editor/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-manhattan_.jpg 14 http://alital.pt/wp-admin/admin.php
+/Fbrrchive.php 4 -
+/festivaldoscanais/news-2/ 1 -
+/modelin/editar 4 -
+/indigroup/edit_plus/fckeditor/editor/ 2 -
+/html/archives/5624 3 -
+/html/gallery/fotografia-veiculos-mercedes-slk 2 -
+/html/gallery/fotografia-arquitectura-mariana-urbanizacao 1 -
+/att/include/editor/editor/ 3 -
+/wp-content/themes/central/system.php 5 -
+/wp-content/uploads/2016/04/ 2 -
+/magmacaracas/ 1 -
+/smart_aqua_eng/%3Fp%3D175&amp 2 -
+/p/parcerias-e-anuncios.html 2 -
+/configurationbak.php 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-emme_0001_Emme-4.jpg 3 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/site/assembleia-geral-apcrf-19-dezembro/ 1 -
+/testeali/portfolio_page/format/ 1 -
+/testeali/wp-content/themes/bridge/css/style_dynamic.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php
+/administrator/ 12 -
+/testeali/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/conns.php 6 -
+/fesend/manage/include/editor/ 2 -
+/fim_semana_romantico_ilhavo.pdf 5 -
+/festivaldoscanais/wp-content/uploads/2015/01/spa_feature_img.jpg 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-icon_0000_ambiente-icon_0001_Icon-2-1.jpg 13 http://alital.pt/wp-admin/admin.php
+/whk 1 -
+/festivaldoscanais/&amp 1 -
+/include/FCKeditor/editor/ 1 -
+/festivaldoscanais/category/cold-countries/ 7 -
+/smart_aqua_eng/%3Fpage_id%3D59&amp 22 -
+/uploadify/uploadify.php 2 http://invisual.pt/uploadify/uploadify.php
+/_data/admin/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/plugins/contact-form-7/includes/css/styles.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/wp-includes/js/tinymce/themes/advanced/skins/wp_theme/ini.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/wp_theme/ini.php
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 2 -
+/html/gallery/fotografia-veiculos-mercedes-classe-e-cabrio 1 -
+/ekenabay/shop/portfolioentry/activa/ 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 3 -
+/testevgg/2013/10/04/madrids-photographer-marathon/ 2 -
+/testeali/portfolio/ 4 -
+/alboi/ 2 -
+/aveiroexpo/site/feira-de-outlet/ 1 -
+/wp-content/plugins/w3-total-cache/lib/Microsoft/Http/Client/userlog.php 1 http://hoteltorresnovas.com/wp-content/plugins/w3-total-cache/lib/Microsoft/Http/Client/userlog.php
+/angel_ckf110/editor/ 3 -
+/home.php 2 -
+/festivaldoscanais/category/feature/feed/ 1 -
+/home.bak.php 3 -
+/includes/routing.php 1 -
+/festivaldoscanais/2015/06/15/in-vel-tempor-sollicitudin/ 1 -
+/wp-content/themes/mTheme-Unus/css/css.php 4 http://invisual.pt/wp-content/themes/mTheme-Unus/css/css.php
+/html/archives/3453 2 -
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 3 -
+/wp-content/plugins/wpmarketplace/readme.txt 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-flex_0001_ambiente-flex_0003_Flex-2.jpg 2 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/give/ 1 -
+/generic-temovate/ 1 -
+/meivcore/2015/11/ 4 -
+/smart_aqua/.unix.php 1 -
+/testevgg/2013/10/04/supernatural-fx-showreel/ 6 -
+/assets/js/uploadify/uploadify.php 3 http://invisual.pt/assets/js/uploadify/uploadify.php
+/bogel.php 1 -
+/portfolio_page/royal-school-of-languages 2 -
+/wp-content/plugins/sfbrowser/css/sfbrowser.css 1 http://invisual.pt/wp-content/plugins/sfbrowser/css/sfbrowser.css
+/festivaldoscanais/contact-2/ 1 -
+/manage/include/editor/ 3 -
+/admin 5 -
+/admin/ 9 -
+/sonatah.php 1 http://eurathlon.info/update/123wso123.php
+/leonorreis/ 1 -
+/wp-content/uploads/2016/04/marca_adriano_carreira-2.jpg 1 -
+/smart_aqua/wp-xmlrpc.php 4 -
+/mobile/smart_aqua_eng/ 5 -
+/aveicabo1/portfolios/grupo-gesconect/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/09/blog_2c-compressor-2-500x383.jpg 1 -
+/images/js/fckeditor/editor/ 2 -
+/festivaldoscanais/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/excepteur-sint-occaecat/
+/plugin/editor/editor/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/07/ 1 -
+/festivaldoscanais/category/summer/ 11 -
+/modelinclinic 1 -
+/html/gallery/3d 3 -
+/wp-includes/pomo/systemc.php 5 -
+/festivaldoscanais/wp-content/plugins/bbpress/templates/default/js/editor.js 2 http://invisual.pt/festivaldoscanais/2015/06/30/
+/wp-includes/js/tinymce/skins/wordpress/images/wp-manage.php 2 http://eventosportugal.pt/wp-includes/js/tinymce/skins/wordpress/images/wp-manage.php
+/festivaldoscanais/portfolio-items/proin-eget-mi-tortor/ 1 -
+/plugins/authentication/joomla/joomla.xml 1 http://www.example.com/
+/festivaldoscanais/wp-content/uploads/2015/01/flowers_top.png 2 -
+/wp-admin/wp-editors.php 1 -
+/aveiroexpo/programa_agrovouga_2010.pdf 2 -
+/festivaldoscanais/wp-content/uploads/2015/02/blog8-500x383.jpg 1 -
+/html/gallery/www-litoralmagazine-com 1 -
+/aveiroexpo/js/cufon-yui.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/gallery/fotografia-veiculos-electra-rat-fink-3i 1 -
+/aveiroexpo/pavilhao_a.html 1 -
+/portfolio_page/adriano-e-lito/ 1 -
+/wp-content/themes/felici/sprites/js/uploadify/uploadify.php 1 http://invisual.pt/wp-content/themes/felici/sprites/js/uploadify/uploadify.php
+/festivaldoscanais/wp-content/uploads/2015/02/blog6-500x383.jpg 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider8/ 6 -
+/smart_aqua_eng/wp-admin/includes/themes.php 7 -
+/testeali/wp-content/themes/bridge/js/plugins.js 1 -
+/festivaldoscanais/event/faith-conference/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 2 -
+/portfolio_page/leonor-reis-personal-branding/ 1 -
+/CHANGELOG.php 7 -
+/festivaldoscanais/wp-content/uploads/2015/01/wedding_featured.jpg 2 -
+/include.php 3 -
+/aveiroexpo/sala_conferencia_2.html 1 -
+/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php 2 http://eventosportugal.pt/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+/html/archives/5227 2 -
+/portfolio_page/diario-de-aveiro/ 5 -
+/modelin/wp-content/plugins/LayerSlider/static/%20codemirror/lib/codemirror.js 3 http://invisual.pt/modelin/wp-admin/admin.php
+/manager/ 2 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-968.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/neque-porro-quisquam/
+/Sala%20de%20Pequenos%20Almo%C3%A7os 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-karma_0002_ambiente-karma_.jpg 6 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/activities/ 1 -
+/_cmseditor/editor/ 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/me.php 2 -
+/aveiroexpo/site/buraka-som-sistema/ 1 -
+/smart_aqua_eng/wp-admin/admin-ajax.php 33 -
+/aveiroexpo/site/congresso-da-regiao-de-aveiro/ 1 -
+/festivaldoscanais/portfolio-items/sed-consequat-efficitur/ 7 -
+/aveiroexpo/site/wp-content/uploads/2011/10/ 1 -
+/festivaldoscanais/2016/07/04/hello-world/&amp 2 -
+/wp-content/plugins/gallery-plugin/upload/php.php 2 http://invisual.pt/wp-content/plugins/gallery-plugin/upload/php.php
+/html/gallery/desdobraveis 4 -
+/example.gitignore 1 -
+/wp-content/themes/central/includes/ajax_mail.php 3 http://invisual.pt/contactos/
+/zhiyang_1.0/admin/fckeditor/editor/ 3 -
+/README.txt 3 -
+/cron.php 3 -
+/eg.htm 1 -
+/aveiroexpo/site/portfolio/ 1 -
+/wp-indeks.php 21 -
+/wp-content/plugins/revslider/rs-plugin/css/captions.css 1 -
+/robots.txt.php 4 -
+/Fachada 1 -
+/html/videos 1 -
+/festivaldoscanais/category/spa/wp-admin/includes/class-wp-upgrader-list.php 1 -
+/wp-content/uploads/wysija/themes/egya/ego.php 1 -
+/festivaldoscanais/travel-blog/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/spa_2-500x383.jpg 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-171.css 2 http://invisual.pt/festivaldoscanais/2015/09/02/music-brings-us-together-in-celebration/
+/aveiroexpo/site/paulo-gonzo/ 1 -
+/smartaqua/ 3 -
+/include/source/fckeditor/editor/ 3 -
+/wp-content/themes/lightspeed/functions/jwpanel/scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/lightspeed/functions/jwpanel/scripts/valums_uploader/php.php
+/wp-content/themes/kernel-theme/functions/upload-handler.php 1 http://invisual.pt/wp-content/themes/kernel-theme/functions/upload-handler.php
+/testeali/wp-content/uploads/2016/06/ambiente-spark_-1.jpg 12 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/configbacks.php 5 -
+/js/fr.php 107 -
+/testeali/wp-content/uploads/2016/06/ambiente-berlim_0002_Layer-14.jpg 4 http://alital.pt/wp-admin/admin.php
+/ihuzuedit/editor/ 2 -
+/bbs/boke/edit_plus/fckeditor/editor/ 3 -
+/wp-content/themes/corporate/404.php 1 invisual.pt/wp-content/themes/corporate/404.php
+/festivaldoscanais/spa/ 1 -
+/cgi-bin/index.cgi 1 -
+/testeali/wp-content/themes/bridge/js/jquery.fullPage.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/testeali/wp-content/themes/bridge/js/ScrollToPlugin.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/acommodations/executive-room/ 1 -
+/testevgg/portfolio_page/adventures-in-zonderland/ 3 -
+/cfg-contactform-6/inc/upload.php 1 -
+/wp-content/themes/anthology/functions/upload-handler.php 1 http://invisual.pt/wp-content/themes/anthology/functions/upload-handler.php
+/contato/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/arhy.php 7 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/wp-feed-file.php 2 -
+/ementa_grupos.pdf 14 -
+/portfolio_page/restaurante-salpoente 2 -
+/festivaldoscanais/2016/07/04/hello-world/wp-includes/default-string.php 1 -
+/admin/fckeditor/editor/ 6 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/index.phtml 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-oslo_.png 4 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/css/style_dynamic.php 3 http://invisual.pt/
+/components/com_sexycontactform/fileupload/ 1 -
+/slide02 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/spa_port_1.jpg 2 -
+/editor/editor/ 6 -
+/smart_aqua/wp-includes/unix.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/index.phtml 4 -
+/cgi-bin/ping.sh 1 -
+/uploadify/uploadify.css 2 http://invisual.pt/uploadify/uploadify.css
+/wp-includes/js/crop/sys.php 1 http://invisual.pt/wp-includes/js/crop/sys.php
+/testeali/wp-content/uploads/2016/06/ambiente-aktiva_0002_Aktiva-8.jpg 3 http://alital.pt/wp-admin/post.php
+/festivaldoscanais/2015/06/03/how-do-you-give-back-to-our-family/ 1 -
+/festivaldoscanais/2015/06/03/what-challenges-face-a-family-who-lives-by-faith/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/post_img_1-500x383.jpg 1 -
+/sites/all/themes/default/fckeditor/editor/ 3 -
+/festivaldoscanais/home__trashed/ 1 -
+/festivaldoscanais/editar 1 -
+/smart_aqua/wp-content/uploads/2012/ 1 -
+/wp-content/plugins/wp-cache.php 10 http://www.googlebot.com/bot.html
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 2 http://eventosportugal.pt/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+/festivaldoscanais/category/winter/ 9 -
+/testeali/wp-content/uploads/2016/06/ambiente-domino_0000_Domino.jpg 12 http://alital.pt/wp-admin/admin.php
+/wp-includes/unix.php 1 -
+/testeali/tag/art/ 1 -
+/festivaldoscanais/acommodations/residential-room/ 6 -
+/hotelaveirocenter/wp-content/plugins/form-lightbox/colorbox/style-1/colorbox.css 1 -
+/wp-content/plugins/gallery-plugin/gallery-plugin.php 3 -
+/aveiroexpo/site/xix-automobilia/ 1 -
+/festivaldoscanais/tag/mountains/wp-includes/default-string.php 1 -
+/htmleditor/editor/ 3 -
+/INSTALL 1 -
+/wp-content/themes/twentyeleven/404.php 2 eventosportugal.pt/wp-content/themes/twentyeleven/404.php
+/content/fckeditor/editor/ 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-format_0000_Layer-1.jpg 4 http://alital.pt/wp-admin/admin.php
+/testeali/wp-content/uploads/2016/06/ambiente-karma_0000_ambiente-karma_0002_Layer-11.jpg 3 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/programa_educacao.pdf 3 -
+/wp-content/plugins/another-wordpress-classifieds-plugin/AWPCP.po 3 -
+/wp-content/themes/bulteno-theme/style.css 1 http://invisual.pt/wp-content/themes/bulteno-theme/style.css
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 2 -
+/cgi-bin/test.cgi 1 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto/ 2 -
+/wp-content/themes/rayoflight/functions/upload-handler.php 1 http://eventosportugal.pt/wp-content/themes/rayoflight/functions/upload-handler.php
+/meivcore/2015/03/09/ 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-parker_0001_Parker-19.jpg 3 http://alital.pt/wp-admin/post.php
+/cgi-bin/security.php 10 -
+/festivaldoscanais/2015/06/03/faith-is-like-a-loving-parent-when-you-need-it-most/ 6 -
+/wp-includes/js/tinymce/themes/advanced/skins/wp_theme/thumbs.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/wp_theme/thumbs.php
+/festival/wp-admin/themes.php 1 -
+/festivaldoscanais/wp-content/uploads/2015/04/beach_5.jpg 1 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 2 -
+/wp-admin/includes/themes.php 67 -
+/wp-content/plugins/html5avmanager/lib/uploadify/custom.php 1 http://invisual.pt/wp-content/plugins/html5avmanager/lib/uploadify/custom.php
+/festivaldoscanais/our-destination/argentina/ 1 -
+/festivaldoscanais/2015/01/27/travelers-checklist/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-class_0000_Class-11.jpg 3 http://alital.pt/wp-admin/post.php
+/editors/FCKeditor/editor/ 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-box_.jpg 14 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/arhy.php 8 -
+/wp-includes/js/tinymce/themes/advanced/skins/highcontrast/ini.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/highcontrast/ini.php
+/aveiroexpo/site/farav-2011/ 1 -
+/wp-content/plugins/front-end-upload/destination.php 3 -
+/festivaldoscanais/2015/06/15/aenean-id-neque-eget-quam/ 1 -
+/ckeditor/editor/ 5 -
+/hoteldassalinas/wp-json/oembed/1.0/embed 3 -
+/wp-content/plugins/wp-easy-gallery-pro/admin/php.php 1 http://eventosportugal.pt/wp-content/plugins/wp-easy-gallery-pro/admin/php.php
+/testeali/wp-content/themes/bridge/css/font-awesome/css/font-awesome.min.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/dpllnzesgr4lops.php 4 -
+/administrator/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/js/public.js 1 http://invisual.pt/wp-content/plugins/work-the-flow-file-upload/public/assets/js/public.js
+/festivaldoscanais/portfolio-items/excepteur-sint-occaecat/feed/ 1 -
+/festivaldoscanais/2015/06/30/suspendisse-sed-sagittis/ 1 -
+/festivaldoscanais/2016/07/04/hello-world/xmlrpc.php 1 -
+/festivaldoscanais/category/news/feed/ 1 -
+/wp-content/plugins/font-uploader/font-uploader-free.php 3 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/.libs.php 1 -
+/festivaldoscanais/2016/07/04/hello-world/wp-content.php 1 -
+/testeali/wp-content/themes/bridge/js/jquery.carouFredSel-6.2.1.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/2015/02/02/beauty-of-bike-touring/ 1 -
+/fck_about.html 3 -
+/wp-includes/js/tinymce/themes/advanced/skins/o2k7/thumbs.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/o2k7/thumbs.php
+/admin/include/fckeditor/editor/ 3 -
+/wp-content/themes/switchblade-v1.3/framework/_scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/switchblade-v1.3/framework/_scripts/valums_uploader/php.php
+/festivaldoscanais/wp-content/uploads/2015/01/business_featured.jpg 2 -
+/wp-content/themes/famous/style.css 2 http://eventosportugal.pt/wp-content/themes/famous/style.css
+/festivaldoscanais/tag/must-do/xmlrpc.php 1 -
+/wp-includes/js/tinymce/themes/advanced/skins/default/thumbs.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/default/thumbs.php
+/editor/fckeditor/editor/ 5 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.phtml 3 -
+/wp-includes/ms-files-qu.php 4 -
+/wp-content/plugins/form-lightbox/colorbox/style-1/colorbox.css 1 -
+/ekenabay/shop-online/product-category/trendy/bk13007 2 -
+/administrator/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-1485.css 2 http://invisual.pt/festivaldoscanais/acommodations/deluxe-room/
+/portfolio_page/mirador-business-center 2 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/love.php 8 -
+/html/archives/449 3 -
+/cgi-mod/index.cgi 1 -
+/bypass.php 4 -
+/aveiroexpo/js/jquery.easing.1.3.min.js 12 http://farmaciacapaofilipe.com/apresentacao.html
+/festivaldoscanais/portfolio-items/sed-consequat-efficitur/feed/ 1 -
+/.cpanel_config.php 3 -
+/testeali/portfolio_page/67b-construction-studio/ 2 -
+/plugin.php 4 -
+/wp-includes/js/tinymce/themes/advanced/skins/highcontrast/thumbs.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/highcontrast/thumbs.php
+/html/gallery/fotografia-moda-crisalida-01 1 -
+/p/fale-comigo.html 2 -
+/portfolio_page/restaurante-salpoente/ 5 -
+/aveicabo/news/aveicabo.html 2 -
+/wp-content/themes/license.php 2 invisual.pt/wp-content/themes/license.php
+/bitrix/admin/ 2 -
+/wp-data.php 4 -
+/testeali/wp-content/uploads/2016/05/ambiente-kelly.jpg 12 http://alital.pt/wp-admin/admin.php
+/e/admin/ecmseditor/infoeditor/editor/ 3 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 1 -
+/festivaldoscanais/category/spa/wp-includes/default-string.php 1 -
+/festivaldoscanais/category/traveling/feed/ 1 -
+/portfolio_page/mercentro 2 -
+/portfolio_page/montages-metalegi 1 -
+/wp-includes/class-wp-roles.php 5 -
+/festivaldoscanais/portfolio-items/maecenas-nisl-urna/feed/ 1 -
+/smart_aqua/wp-admin/options-link.php 9 -
+/editor1/editor/ 1 -
+/relaxe_em_ilhavo.pdf 6 -
+/festivaldoscanais/category/news/&amp 1 -
+/buy-emsam/ 1 -
+/festivaldoscanais/2015/06/29/ 7 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 1 -
+/festivaldoscanais/category/feature/ 7 -
+/html/gallery/fotografia-veiculos-mercedes-sls 1 -
+/wp-content/themes/profoblog20/functions/jquery-ui/css/ui-lightness/ini.php 1 http://invisual.pt/wp-content/themes/profoblog20/functions/jquery-ui/css/ui-lightness/ini.php
+/readme.php 1 -
+/html/archives/date/2011/10 1 -
+/wp-content/plugins/configbacks.php 5 -
+/Fckeditornew/editor/ 1 -
+/festivaldoscanais/2015/02/02/154-tips-on-avoiding-scotland-tourist-traps/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-nielsen_0000_ambiente-nielsen_0000_Nielsen.jpg 3 http://alital.pt/wp-admin/post.php
+/festivaldoscanais/wp-content/uploads/2015/06/blog_2-compressor-500x383.jpg 1 -
+/cs/editor/editor/ 3 -
+/lj_feditor/editor/ 2 -
+/colegioportugues/bem-vindo/inscricoes/ 1 -
+/sic-wp-content/themes/saengerjugend/footer.php 1 http://eurathlon.info/update/123wso123.php
+/html/gallery/fotografia-arquitectura-universidade-de-aveiro 1 -
+/aveiroexpo/site/evento-de-inauguracao-das-novas-instalacoes-da-ferro-ind-quimica-portugal/ 1 -
+/testeali/portfolio/wp-admin/admin-ajax.php 2 -
+/festivaldoscanais/tag/mountains/wp-sidebarchange.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider8/index.php4 6 -
+/smart_aqua/string.php 3 -
+/festivaldoscanais/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-86.css 2 http://invisual.pt/festivaldoscanais/2015/01/27/aenean-odio-mauris-mauris/
+/wp-content/plugins/user-avatar/readme.txt 3 -
+/festivaldoscanais/wp-includes/js/comment-reply.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/cgi-bin/php4 1 -
+/portfolio_page/future-cityscapes/ 3 -
+/xmlrpc.php 46 -
+/p/blog-page.html 2 -
+/buy-benazepril/ 1 -
+/festivaldoscanais/2015/02/02/europe-travel-guide-2015/feed/ 1 -
+/festivaldoscanais/2015/01/27/deals-of-the-week/ 7 -
+/ks_editor/fckeditor/editor/ 3 -
+/ekenabay/shop-online/product-category/trendy/bk13005 2 -
+/preview.swf 2 -
+/mko.php 8 -
+/wp-content/themes/dimension/style.css 1 http://invisual.pt/wp-content/themes/dimension/style.css
+/html/gallery/fotografia-moda-editorial-joias-verdegreen 1 -
+/festivaldoscanais/portfolio-items/argentina/feed/ 2 -
+/smart_aqua/wp-admin/admin-ajax.php 42 -
+/administrator/components/com_redmystic/chart/ofc-library/ofc_upload_image.php 1 -
+/festivaldoscanais/2015/02/02/south-america-expeditions/ 1 -
+/wp-content/uploads/2016/04/marca_colegio_portugues.jpg 1 -
+/elements.php 3 -
+/edit_plus/fckeditor/editor/ 3 -
+/admincwc/fck/editor/ 3 -
+/Hodienne.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/31.03.2012-gazeta-rural.pdf 1 -
+/wp-content/uploads/wpfeet.php 5 -
+/festivaldoscanais/wp-content/uploads/2015/09/events_calendar_logo-150x150.png 2 http://invisual.pt/festivaldoscanais/wp-admin/post.php
+/admin/login.php 2 -
+/festivaldoscanais/2015/06/15/curabitur-nisi-ultricies/ 1 -
+/smart_aqua/red2l-135x135.jpg 1 -
+/festivaldoscanais/xmlrpc.php 1 -
+/siteserver/texteditor/fckeditor/editor/ 3 -
+/aspkuadmin/editor/editor/ 2 -
+/kfckeditor/editor/ 2 -
+/festivaldoscanais/acommodations/residential-room/&amp 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.phtml 3 -
+/insidepipe4/ 4 -
+/wp-admin/includes/unix.php 1 -
+/buy-cheap-hydrochlorothiazide/ 1 -
+/inc/fck/editor/ 3 -
+/backup/wp-admin/setup-config.php 2 -
+/wp-includes/error-log.php 4 -
+/themes/garland/images/menu-expanded.gif 1 -
+/e/admin/ecmseditor/fckeditor/editor/ 3 -
+/generic-vimax/ 1 -
+/html/gallery/eventos-workshop-lean-energy 1 -
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.css 1 http://invisual.pt/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.css
+/ekenabay/shop-online/product-category/trendy/bk13006 2 -
+/festivaldoscanais/wp-content/uploads/2015/06/blog_3-compressor-500x383.jpg 1 -
+/aveiroexpo/js/supersubs.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/festivaldoscanais/2015/06/03/tribute-paid-to-the-victims-of-devastating-recent-earthquake/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-lyra_0001_ambiente-lyra_0000_Lyra-2-copy.jpg 3 http://alital.pt/wp-admin/post.php
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 3 -
+/wp-content/plugins/ecstatic/readme.txt 1 http://invisual.pt/wp-content/plugins/ecstatic/readme.txt
+/testeali/wp-content/uploads/2016/06/ambiente-heritage_.jpg 13 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.php.gif 3 -
+/festivaldoscanais/our-team/ 1 -
+/wp-content/archive.php 5 -
+/aveiroexpo/site/wp-content/uploads/2012/10/carochas-284x186.jpg 1 -
+/festivaldoscanais/2015/02/02/the-top-10-ski-resorts-in-north-america-for-2015/ 1 -
+/festivaldoscanais/2015/02/02/europe-travel-guide-2015/ 7 -
+/festivaldoscanais/sermons/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 3 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-1615.css 2 http://invisual.pt/festivaldoscanais/acommodations/residential-room/
+/cfg-contactform-3/inc/upload.php 1 -
+/festivaldoscanais/portfolio-items/canada/ 10 -
+/cfg-contactform-1/inc/upload.php 1 -
+/html/archives/5383 2 -
+/include/editor/editor/ 3 -
+/html/wp-includes/css/admin-bar.css 2 -
+/festivaldoscanais/wp-content/uploads/2015/02/beach_2-500x383.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13103 2 -
+/programa_ementa_fim_ano2011.pdf 2 -
+/aveiroexpo/auditorio.html 1 -
+/html/gallery/fotografia-moda-castigo-delito 1 -
+/festivaldoscanais/wp-content/themes/Avada/assets/css/bbpress.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/js/main.js 1 http://invisual.pt/wp-content/plugins/i-dump-iphone-to-wordpress-photo-uploader/js/main.js
+/testeali/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 -
+/aveiroexpo/site/congressos-e-convencoes/foyer-atrio/ 1 -
+/webconfig.txt.php 4 -
+/html/gallery/fotografia-espacos-comerciais-levira 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/beach_4.jpg 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/love.php 7 -
+/wp-content/plugins/gravityforms/js/gravityforms.js 1 -
+/admin/ad_html/editor/ 3 -
+/modelin/servicos 1 http://invisual.pt/modelin/
+/ekenabay/shop-online/product-category/trendy/bk13003 2 -
+/festivaldoscanais/portfolio-items/excepteur-sint-occaecat/ 8 -
+/wp-content/plugins/Analyser.php 5 -
+/aveiroexpo/site/wp-content/uploads/2011/03/test_avatar.jpg 1 -
+/festivaldoscanais/2015/06/15/fusce-quis-velit-in-erat-molestie/ 1 -
+/festivaldoscanais/tag/must-do/&amp 2 -
+/components/com_hdflvplayer/hdflvplayer/download.php 1 -
+/aveiroexpo/site/portfolio/project-number-1/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/index.php4 4 -
+/festivaldoscanais/2015/06/30/ 10 -
+/html/gallery/fotografia-moda-biju 5 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 3 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-conferencia/ 2 -
+/cfg-contactform-4/inc/upload.php 1 -
+/tad_book3/fckeditor/editor/ 3 -
+/html/archives/gallery-category/3d 1 -
+/festivaldoscanais/wp-content/plugins/contact-form-7/includes/js/scripts.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/festivaldoscanais/category/general/ 8 -
+/configbak.php 10 -
+/wp-content/themes/deep-blue/megaframe/js/cufon.js 1 http://invisual.pt/wp-content/themes/deep-blue/megaframe/js/cufon.js
+/wp-admin/options-smedia.php 4 -
+/portfolio_page/lar-darte/ 7 -
+/wp-content/plugins/custom-background/js/custom_background.js 2 -
+/ekenabay/shop-online/product-category/trendy/bk13008/http%3A 2 -
+/aveiroexpo/site/2012/11/18/ 1 -
+/krd%2Etxt 2 -
+/wp-content/plugins/wpstorecart/lgpl.txt 2 -
+/wp-admin/user/system.php 1 http://invisual.pt/wp-admin/user/system.php
+/colegioportugues/ 2 -
+/metalegi01/wp-content/uploads/2013/04/apresentacao_ilust03.png 3 -
+/aveiroexpo/dossier_imprensa_farav09.pdf 1 -
+/aveiroexpo/js/jquery-1.4.min.js 12 http://farmaciacapaofilipe.com/apresentacao.html
+/fckedit/editor/ 3 -
+/cgi-bin-sdb/printenv 1 -
+/phpgwapi/js/fckeditor/editor/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-alpha_0001_ambiente-alpha_0000_Layer-19.jpg 4 http://alital.pt/wp-admin/admin.php
+/gemb.php 7 -
+/testevgg/tag/video/ 1 -
+/blog/wp-admin/setup-config.php 2 -
+/aveiroexpo/site/wp-content/uploads/2013/01/ 1 -
+/aveiroexpo/site/9a-expo-aveiro/ 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-307.css 2 http://invisual.pt/festivaldoscanais/2015/06/03/faith-is-like-a-loving-parent-when-you-need-it-most/
+/aveicabo1/portfolios/biomassa/ 1 -
+/wp-includes/pomo/function-cloud.php 9 -
+/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php 1 http://invisual.pt/wp-content/themes/qualifire/scripts/admin/uploadify/uploadify.php
+/testeali/portfolio/&amp 2 -
+/manager/fckeditor/editor/ 2 -
+/components/com_creativecontactform/fileupload/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/blog7-500x383.jpg 1 -
+/smart_aqua/wp-admin/includes/class-wp-upgrader-list.php 3 -
+/festivaldoscanais/wp-content/uploads/2016/07/festivaldoscanais_logo_1x.png 2 -
+/aveiroexpo/site/workshop-lean-energy/ 1 -
+/testeali/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/portfolio_page/biorumo/ 4 -
+/festivaldoscanais 1 -
+/festivaldoscanais/portfolio-items/neque-porro-quisquam/feed/ 1 -
+/festivaldoscanais/2016/07/04/hello-world/wp-readme.php 1 -
+/wp-content/themes/purevision/style.css 2 http://eventosportugal.pt/wp-content/themes/purevision/style.css
+/wp-readme.php 1 -
+/festivaldoscanais/tag/restaurants/feed/ 1 -
+/festivaldoscanais/wp-content/uploads/2016/07/festivaldoscanais_logo_2x.png 2 -
+/tmp.php 8 -
+/root2.php 1 http://eurathlon.info/update/123wso123.php
+/promocoes/descobrir_ilhavo.pdf 4 -
+/aveiroexpo/site/visitantes/ 1 -
+/aveiroexpo/site/portfolio/project-number-3/ 1 -
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 2 http://invisual.pt/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php
+/aveiroexpo/site/wp-content/uploads/2012/10/image001-284x186.jpg 77 -
+/sys-cgi 1 -
+/aveiroexpo/js/jquery.cluetip.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/gallery/fotografia-arquitectura-mirador-business-center 2 -
+/sites/README.txt 1 -
+/festivaldoscanais/2016/07/04/hello-world/feed/ 1 -
+/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php 2 http://eventosportugal.pt/wp-content/themes/village/blueprint/gallery/ajaxupload/server/php.php
+/festivaldoscanais/category/spa/string.php 1 -
+/wp-admin/install.php 2 -
+/testeali/wp-content/themes/bridge/js/TweenLite.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/category/winter/feed/ 1 -
+/wp-content/uploads/wp-cache.php 10 http://www.googlebot.com/bot.html
+/ekenabay/shop-online/product-category/curvy/bk13105 2 -
+/wp-content/themes/twentyfifteen/404.php 1 invisual.pt/wp-content/themes/twentyfifteen/404.php
+/smart_aqua_eng/wp-admin/options-link.php 7 -
+/wp-content/plugins/wp-editor/readme.txt 1 -
+/optica/vista/vista-persol/ 2 -
+/ekenabay/shop-online/product-category/trendy/bk13001 2 -
+/festivaldoscanais/2015/06/01/church-raises-money-by-harnessing-social-media/ 1 -
+/wp-content/plugins/user-meta/readme.txt 3 -
+/aveiroexpo/site/aveiro-expo-apresentacao/ 1 -
+/scripts/fckeditor/editor/ 1 -
+/wp-content/plugins/Login-wall-etgFB/login_wall.php 1 invisual.pt
+/editor/fck/editor/ 2 -
+/wp-content/themes/deep-blue/css/blog.css 1 http://invisual.pt/wp-content/themes/deep-blue/css/blog.css
+/mysqladmin/scripts/setup.php 1 -
+/dmin/editor/editor/ 3 -
+/admineditor/editor/ 3 -
+/wp-content/plugins/invisual.pt/temp/update_extract/revslider/me.php 1 -
+/news.php 4 -
+/_admin/fckeditor/editor/ 3 -
+/edic_06.swf 2 -
+/about/ 2 -
+/sysadmin/fckeditor/editor/ 2 -
+/festivaldoscanais/2015/06/01/community-team-reaches-out-and-helps-others/feed/ 1 -
+/wp-content/upgrade/theme-compat/11.php 5 -
+/m/smart_aqua_eng/ 3 -
+/security.php 8 -
+/festivaldoscanais/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/include/editor/ 3 -
+/wp-content/themes/highlight/style.css 1 http://invisual.pt/wp-content/themes/highlight/style.css
+/wp-content/plugins/auto-attachments/a-a.css 1 -
+/wp-content/plugins/mailcwp/js/mailcwp.js 1 http://invisual.pt/wp-content/plugins/mailcwp/js/mailcwp.js
+/fck26/editor/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-thesis_0001_ambiente-thesis_0002_Layer-1-copy.jpg 3 http://alital.pt/wp-admin/post.php
+/wp-checking.php 4 -
+/html/gallery/fotografia-moda-oculos-de-sol-carrera 1 -
+/civilria/boas_festas_civilria.gif 2 -
+/kui.php 4 -
+/festivaldoscanais/our-destination/usa/ 1 -
+/html/gallery/www-sos-clip-com 1 -
+/wp-content/plugins/custom-content-type-manager/index.html 2 -
+/1.php 3 -
+/testeali/wp-includes/js/wp-embed.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/tag/mountains/wp-admin/includes/class-wp-upgrader-list.php 1 -
+/festivaldoscanais/wp-content/uploads/2015/04/destination7.jpg 1 -
+/exit-point.php 4 -
+/html/gallery/design-outros-gesconect 1 -
+/hoteldassalinas/wp-content/uploads/wpcf7_captcha/1145269348.png 3 -
+/error-log.php 4 -
+/festivaldoscanais/2015/05/25/growing-a-family-the-right-way/ 1 -
+/ementas_natal.pdf 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php.gif 3 -
+/editor/fck_vxgm/editor/ 3 -
+/include/fckeditor/editor/ 5 -
+/festivaldoscanais/category/events/feed/ 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/create.php 1 -
+/relax_at_ilhavo_eng.pdf 5 -
+/festivaldoscanais/2015/06/03/8-beautiful-cathedrals-explored/ 1 -
+/wp-content/uploads/wpallimport/uploads/766e6995bba98ac8b6a262a214ce0381/db.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-hidra_0000_Hidra-3.jpg 3 http://alital.pt/wp-admin/post.php
+/administrator/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php 1 -
+/portfolio_page/bmw-aveiro/ 5 -
+/html/gallery/multimedia-dvd-clipping-litoral-fashion 1 -
+/options-link.php 4 -
+/apple-touch-icon.png 15 -
+/abo/fckeditor/editor/ 3 -
+/%C3%83%C6%92%C3%82%C2%A2%C3%83%C2%A2%C3%A2%E2%82%AC%C5%A1%C3%82%C2%AC%C3%83%E2%80%A6%C3%A2%E2%82%AC%C5%93 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/xxx.php 7 -
+/html/gallery/3d-espaco-pizzarte 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-kea.jpg 12 http://alital.pt/wp-admin/admin.php
+/fckeditor/editor/ 5 -
+/html/gallery/www-luxuria-bijuteria-pt 4 -
+/wp-includes/js/system.php 1 http://invisual.pt/wp-includes/js/system.php
+/typo3/ 2 -
+/admin_aspcms/editor/editor/ 3 -
+/images/stories/mil.gif 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-vinil_0001_Vinil-2.jpg 3 http://alital.pt/wp-admin/post.php
+/festival/wp-admin/ 2 -
+/testeali/wp-includes/js/comment-reply.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/aveiroexpo/site/congressos-e-convencoes/auditorio/ 1 -
+/fckeditor/ 2 -
+/esp/home.swf 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/me.php 2 -
+/e/data/ecmseditor/infoeditor/editor/ 3 -
+/modx.php 4 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/dor.libs.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 5 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-3.jpg 1 -
+/html/archives/gallery-category/eventos 7 -
+/html/archives/gallery-category/multimedia 1 -
+/progbelezabemestar.pdf 1 -
+/ekenabay/shop-online/product-category/curvy/bk13104 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/html/gallery/fotografia-veiculos-bmw-x6 2 -
+/wp-content/themes/profoblog20/functions/colorpicker/thumbs.php 1 http://invisual.pt/wp-content/themes/profoblog20/functions/colorpicker/thumbs.php
+/festivaldoscanais/2016/07/04/hello-world/readme.php 1 -
+/yousiteadmin/fckeditor/editor/ 3 -
+/hoteldassalinas/wp-content/uploads/wpcf7_captcha/2066870590.png 4 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz8/ 4 -
+/festivaldoscanais/wp-content/uploads/2015/02/blog31-500x383.jpg 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/beach_1.jpg 2 -
+/buy-generic-dipyridamole/ 2 -
+/festivaldoscanais/2015/06/15/ 9 -
+/smart_aqua/wp-pomo.php 1 -
+/backup.php 4 -
+/bookmark.php 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 1 -
+/festivaldoscanais/2016/07/04/hello-world/includes/routing.php 1 -
+/wp-content/themes/kiddo/app/assets/js/uploadify/uploadify.php 1 http://invisual.pt/wp-content/themes/kiddo/app/assets/js/uploadify/uploadify.php
+/aveiroexpo/dossier_imprensa_fm_09.pdf 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-smile_.jpg 14 http://alital.pt/wp-admin/admin.php
+/parser.php 4 -
+/testeali/portfolio_page/zoe/ 1 -
+/noite_de_nupcias_tn.pdf 1 -
+/aveiroexpo/site/wp-content/uploads/2012/ 1 -
+/programa_fim_ano_romantico_rest_torres_novas.pdf 5 -
+/aveiroexpo/site/aveiro-expo-servicos/ 1 -
+/aveiroexpo/site/iv-cidadania-e-seguranca/ 1 -
+/userscenter/txx/xinyi/fckeditor/editor/ 3 -
+/html/gallery/desdobraveis-edificio-park 2 -
+/festivaldoscanais/our-destination/canada/ 1 -
+/festivaldoscanais/category/general/feed/ 1 -
+/festivaldoscanais/our-destination/southern-italy/ 1 -
+/festivaldoscanais/wp-includes/js/jquery/jquery.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/ewebedit/editor/ 3 -
+/wp-content/uploads/Fbrrchive.php 5 -
+/festivaldoscanais/category/summer/feed/ 1 -
+/testeali/wp-content/themes/bridge/style.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/_phenotype/admin/lib/fckeditor/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-global.css 5 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 http://invisual.pt/sites/all/libraries/elfinder/connectors/php/connector.php
+/wp-content/plugins/showbiz/temp/update_extract/showbiz8/index.phtml 4 -
+/insidepipe3/the-agency/ 1 http://invisual.pt/insidepipe3/index.php/the-agency/
+/testevgg/2013/10/04/oscar-wilde/ 2 -
+/festivaldoscanais/tag/mountains/feed/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-xn_.jpg 3 http://alital.pt/wp-admin/post.php
+/aveiroexpo/site/imprensa/eventos/ 1 -
+/p/contactos.html 1 -
+/wp-content/uploads/2016/04/marca_salpoente.jpg 1 -
+/cgi-bin/php-cgi 1 -
+/aveiroexpo/site/wp-content/uploads/2011/05/ 1 -
+/programa_fim_ano_romantico.pdf 2 -
+/festivaldoscanais/tag/road-trip/feed/ 1 -
+/aveiroexpo/site/expotrakinas-1-a-4-novembro/ 5 -
+/ekenabay/shop-online/product-category/trendy/fb13004 2 -
+/wp-content/security.php 9 -
+/festivaldoscanais/wp-content/uploads/2015/02/blog11-500x383.jpg 1 -
+/template.swf 3 -
+/festivaldoscanais/category/cold-countries/feed/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-elipse_0000_Elipse-1200.jpg 5 http://alital.pt/wp-admin/admin.php
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/wp-content/uploads/2016/04/marca_framboesa-1.jpg 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-89.css 2 http://invisual.pt/festivaldoscanais/2015/01/27/deals-of-the-week/
+/pma/scripts/setup.php 1 -
+/incs/fckeditor/editor/ 2 -
+/aveiroexpo/js/jquery.bgiframe.min.js 14 http://farmaciacapaofilipe.com/apresentacao.html
+/configuration.php 14 -
+/wp-admin/admin-ajax.php 98 -
+/tags/popup-pomo.php 5 -
+/aveiroexpo/js/jquery.cycle.all.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/setup.php 1 http://eurathlon.info/update/123wso123.php
+/wp-content/plugins/font-uploader/fontFunctions/fu_script.js 1 http://invisual.pt/wp-content/plugins/font-uploader/fontFunctions/fu_script.js
+/aveicabo1/portfolios/redes-fixas-nova-geracao-fibra-optica/ 1 -
+/phpmyadmin/scripts/setup.php 1 -
+/aveiroexpo/site/aviso-legal/ 1 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes/ 1 -
+/video_gallery.xml 1 -
+/festivaldoscanais/wp-content/uploads/2016/07/festivaldoscanais_logo_rodape.png 2 -
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 13 http://farmaciacapaofilipe.com/apresentacao.html
+/aveicabo1/portfolios/solar-fotovoltaico/ 2 -
+/smart_aqua/ 16 -
+/wp-content/themes/TheGoodNewsWP105/style.css 1 http://invisual.pt/wp-content/themes/TheGoodNewsWP105/style.css
+/ekenabay/shop-online/product-category/curvy/bk13107 1 -
+/festivaldoscanais/portfolio-items/south-pacific/ 8 -
+/html/archives/446 3 -
+/festivaldoscanais/2015/06/03/is-the-space-travel-a-religious-matter/ 1 -
+/core/vendor/README.txt 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-810.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/excepteur-sint-occaecat/
+/testeali/wp-content/themes/bridge/js/custom_js.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/teste2/investor-relations/ 2 -
+/swf/promotores.swf 1 -
+/festivaldoscanais/our-mission/ 1 -
+/optica/vista/ 1 -
+/html/gallery/logotipos 5 -
+/aveiroexpo/site/aveiro-expo-videos/ 1 -
+/festivaldoscanais/author/festivaldoscanais/page/4/ 1 -
+/webmail.com 3 -
+/apple-touch-icon-precomposed.png 13 -
+/festivaldoscanais/wp-content/plugins/easy-coming-soon/template/css/cs-bootstrap-responsive.css 2 http://invisual.pt/festivaldoscanais/about-us/
+/smart_aqua/parser.php 3 -
+/fckeditor/fckeditor/editor/ 3 -
+/admin.php 11 -
+/html/gallery/fotografia-espacos-comerciais-just-fashion 1 -
+/buy-vardenafil/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/restaurants_2-500x383.jpg 1 -
+/festivaldoscanais/2015/09/02/music-brings-us-together-in-celebration/ 8 -
+/testevgg/tag/science/ 1 -
+/wp-content/plugins/topquark/lib/js/fancyupload/showcase/batch/script.php 1 http://invisual.pt/wp-content/plugins/topquark/lib/js/fancyupload/showcase/batch/script.php
+/wp-content/plugins/wpfoot.php 13 -
+/wp-content/plugins/wp-filemanager/fm.php 2 -
+/html/archives/3440 5 -
+/common/fckeditor/editor/ 5 -
+/festivaldoscanais/the-events-calendar/ 1 -
+/controls/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/uploads/2015/04/destination5.jpg 1 -
+/smart_aqua/wp-content.php 1 -
+/wp-content.php 5 -
+/festivaldoscanais/2016/07/04/hello-world/wp-admin/includes/themes.php 2 -
+/wp-content/themes/twentyfourteen/genericons/font/thumbs.php 1 http://invisual.pt/wp-content/themes/twentyfourteen/genericons/font/thumbs.php
+/sql/scripts/setup.php 1 -
+/swf/noticia2010.swf 1 -
+/edic_08.swf 3 -
+/wp-content/themes/invisual.pt/temp/update_extract/revslider/me.php 1 -
+/html/gallery/fotografia-espacos-comerciais-fonte-nova 2 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-713.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/suspendisse-lectus-lectus/
+/testeali/wp-content/themes/bridge/js/default_dynamic.js 1 -
+/wp-includes/js/tinymce/themes/advanced/thumbs.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/thumbs.php
+/httpinvisual-pthtmlgallerypaginacao-catalogo-neoplast/ 2 -
+/aveiroexpo/site/aveiro-noivos-2011-8o-salao-de-produtos-e-servicos-para-cerimonia/ 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-630.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/sed-consequat-efficitur/
+/wp-content/plugins/candidate-application-form/downloadpdffile.php 1 -
+/wp-content/plugins/content-flow3d/shortcode/upload.php 1 http://invisual.pt/wp-content/plugins/content-flow3d/shortcode/upload.php
+/wp-content/plugins/recent-backups/download-file.php 1 -
+/festivaldoscanais/portfolio-items/suspendisse-lectus-lectus/ 12 -
+/wp-content/uploads/thumbnail.php 5 -
+/festivaldoscanais/tag/special/feed/ 1 -
+/revslider.php 4 -
+/wp-content/plugins/wp-mobile-detector/cache/css.php 1 eventosportugal.pt/wp-content/plugins/wp-mobile-detector/cache/css.php
+/testeali/wp-content/uploads/2016/06/ambiente-pulchra_0001_ambiente-pulchra_0002_Layer-8.jpg 4 http://alital.pt/wp-admin/admin.php
+/extracts.php 7 -
+/readme.html 4 -
+/smart_aqua/wp-content/unix.php 1 -
+/testeali/2016/04/06/hello-world/ 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 1 -
+/html/gallery/3d-gesconect-2 1 -
+/html/archives/gallery-category/web_design 5 -
+/festivaldoscanais/wp-content/plugins/bbpress/templates/default/css/bbpress.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/aveiroexpo/calendario2010.html 1 -
+/wp-includes/js/tinymce/themes/advanced/skins/default/ini.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/default/ini.php
+/testevgg/about/ 1 -
+/wp-content/themes/theagency/includes/uploadify/uploadify.php 1 http://invisual.pt/wp-content/themes/theagency/includes/uploadify/uploadify.php
+/testeali/wp-content/uploads/2016/06/ambiente-emotion_0000_Emotion-5.jpg 3 http://alital.pt/wp-admin/post.php
+/festivaldoscanais/portfolio-items/australia/feed/ 1 -
+/smart_aqua/bypass.php 3 -
+/wp-content/plugins/revslider/rs-plugin/videojs/update_extract/revslider/joss.php 3 -
+/colegioportugues/bem-vindo/regulamento-interno/ 9 http://colegioportugues.pt/inscricoes/
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/xxx.php 8 -
+/cdsaveiro/txt-02/ 1 -
+/festivaldoscanais/2015/06/15/praesent-ut-sem-dignissim/ 1 -
+/aveiroexpo/js/jquery.overlabel.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/stats.php 8 -
+/aveiroexpo/site/wp-content/uploads/2012/03/farav_2012_cartaz.jpg 1 -
+/ppsns/editor/editor/ 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider8/index.phtml 6 -
+/portfolio_page/heliflex/ 3 -
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo/ 2 -
+/optica/novo-espaco-optica-nascimento-9/ 1 -
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/me.php 2 -
+/wp-includes/js/tinymce/themes/advanced/skins/o2k7/ini.php 1 http://invisual.pt/wp-includes/js/tinymce/themes/advanced/skins/o2k7/ini.php
+/festivaldoscanais/wp-includes/js/jquery/jquery-migrate.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/wp-content/themes/konzept/includes/uploadify/upload.php 3 http://invisual.pt/wp-content/themes/konzept/includes/uploadify/upload.php
+/festivaldoscanais/portfolio-items/neque-porro-quisquam/ 7 -
+/aveicabo1/portfolios/solar-termico/ 1 -
+/festivaldoscanais/portfolio-items/japan/ 6 -
+/xmlrppc.php 8 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ 1 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 http://invisual.pt/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php
+/.unix.php 1 -
+/html/gallery/fotografia-veiculos-mercedes-cls 1 -
+/swf/moda.swf 1 -
+/festivaldoscanais/2015/02/02/places-to-visit-in-iceland/ 1 -
+/f_sem_romantico_ilhavo.pdf 5 -
+/html/gallery/paginacao-gesconect-magazine-2 1 -
+/Fckeditor/editor/ 2 -
+/festivaldoscanais/wp-content/uploads/2015/02/blog4-500x383.jpg 1 -
+/aveiroexpo/site/portfolio/project-number-2/ 1 -
+/wp-content/themes/qualifire/style.css 3 http://invisual.pt/wp-content/themes/qualifire/style.css
+/.htaccess 2 -
+/wordpress/wordpress/wp-admin/setup-config.php 2 -
+/testeali/wp-includes/js/jquery/jquery.js 1 -
+/festivaldoscanais/category/uncategorized/ 10 -
+/html/archives/5338/logotipo-adriano-carreira 1 -
+/festivaldoscanais/2015/06/03/10-examples-where-charity-changed-everything/ 1 -
+/wp-content/plugins/mac-dock-gallery/css/style.css 1 http://invisual.pt/wp-content/plugins/mac-dock-gallery/css/style.css
+/hoteldeilhavo.ico 9 -
+/ecme/fckeditor/editor/ 3 -
+/aveiroexpo/site/expocanica-9-set-2012/ 1 -
+/wp-content/plugins/meteor-extras/includes/bundles/revslider/temp/update_extract/revslider/me.php 2 -
+/editor/ 3 -
+/aveiroexpo/js/superfish.min.js 13 http://farmaciacapaofilipe.com/apresentacao.html
+/festivaldoscanais/2015/06/01/community-team-reaches-out-and-helps-others/ 6 -
+/Whm 1 -
+/bbs/dv_plus/indivgroup/edit_plus/fckeditor/editor/ 3 -
+/html/gallery/fotografia-veiculos-mercedes-classe-e-coupe 1 -
+/PMA/scripts/setup.php 1 -
+/html/archives/5628 2 -
+/website/pages/fckeditor/editor/ 3 -
+/wp-includes/routing.php 21 -
+/html/gallery/www-vonhaff-com-pt 1 -
+/festivaldoscanais/our-destination/australia/ 1 -
+/html/gallery/fotografia-moda-marc-jacobs 3 -
+/tmp/setup.php 1 http://eurathlon.info/update/123wso123.php
+/testeali/wp-includes/js/jquery/jquery-migrate.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festival/editar 1 -
+/testevgg/news/ 2 -
+/core/CHANGELOG.txt 1 -
+/festivaldoscanais/category/news/xmlrpc.php 1 -
+/litoralfashion08.swf 1 -
+/festivaldoscanais/portfolio-items/usa/ 10 -
+/wp-content/themes/saico/js/custom.js 1 http://invisual.pt/wp-content/themes/saico/js/custom.js
+/testeali/wp-content/uploads/2016/06/ambiente-open_0000_Layer-6.jpg 4 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/wp-content/themes/Avada/assets/js/main.min.js 2 http://invisual.pt/festivaldoscanais/portfolio-items/excepteur-sint-occaecat/
+/aveiroexpo/site/gnr/ 1 -
+/testeali/wp-content/themes/bridge/css/elegant-icons/style.min.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/aveiroexpo/programa_festa_freguesias.pdf 1 -
+/testeali/wp-content/plugins/contact-form-7/includes/css/styles.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/aveiroexpo/site/wp-content/uploads/2012/04/ 1 -
+/html/gallery/eventos-diario-de-aveiro-25-anos 2 -
+/wp-sidebarchange.php 4 -
+/festivaldoscanais/tag/general/feed/ 1 -
+/testeali/category/sport/ 1 -
+/festivaldoscanais/category/spa/feed/ 1 -
+/abc.php 3 -
+/festivaldoscanais/portfolio-items/argentina/ 8 -
+/testeali/wp-content/plugins/LayerSlider/static/css/layerslider.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/portfolio-items/australia/ 8 -
+/festivaldoscanais/tag/mountains/wp-content/plugins/showbiz/temp/update_extract/showbiz/create.php 1 -
+/html/gallery/produtos-calcado 2 -
+/html/archives/5634 2 -
+/unix.php 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/post_img_2-500x383.jpg 1 -
+/aveiroexpo/js/jquery.localscroll-min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/themes/twentyten/404.php 2 eventosportugal.pt/wp-content/themes/twentyten/404.php
+/html/gallery/fotografia-espacos-comerciais-pizzarte 1 -
+/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/css/uploadify.css 1 http://invisual.pt/wp-content/plugins/lb-mixed-slideshow/libs/uploadify/css/uploadify.css
+/rapidsol/3D_Systems_Projet_7000_HD.pdf 2 -
+/testeali/wp-content/themes/bridge/js/lemmon-slider.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/sys/Sym.php 1 http://eurathlon.info/update/123wso123.php
+/html/gallery/fotografia-espacos-comerciais-visual 1 -
+/aveiroexpo/site/aveiro-expo-missao-estatuto/ 1 -
+/festivaldoscanais/category/events/ 10 -
+/symlink_3.php 1 http://eurathlon.info/update/123wso123.php
+/admin123/editor/editor/ 3 -
+/phpMyAdmin/scripts/setup.php 1 -
+/wp-content/plugins/./simple-image-manipulator/controller/download.php 1 -
+/portfolio_page/litoral-magazine-webdesign/wp-admin/options-link.php 2 -
+/smart_aqua/admin/categories.php/login.php 1 -
+/testeali/wp-content/themes/bridge/css/style_dynamic_responsive.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/portfolio_page/pizzarte/function.gethostbyaddr 1 -
+/festivaldoscanais/wp-content/uploads/2015/06/blog_5-compressor.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2013/03/banner1.jpg 7 -
+/optica/sample-page/ 1 -
+/testeali/wp-content/plugins/LayerSlider/static/js/greensock.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/ 4 -
+/ekenabay/shop-online/product-category/trendy/bk13002 2 -
+/testeali/wp-content/themes/bridge/css/stylesheet.min.css 1 -
+/inc/editor/fckeditor/editor/ 2 -
+/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php
+/wp-admin/options-link.php 70 -
+/festivaldoscanais/category/spa/bypass.php 1 -
+/wp-content/languages/themes/sys.php 1 http://invisual.pt/wp-content/languages/themes/sys.php
+/hoteldassalinas/wp-content/uploads/wpcf7_captcha/1997124282.png 4 -
+/html/gallery/fotografia-arquitectura-centro-cultural-de-angeja 1 -
+/wp-content/b374k-2.8.php 7 invisual.pt/wp-content/b374k-2.8.php
+/not_found 82 -
+/html/gallery/3d-gesconect 2 -
+/aveicabo1/portfolios/instalacao-manutencao/ 1 -
+/.libs.php 1 -
+/festivaldoscanais.com 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/.libs.php 1 -
+/portfolio_page/litoral-magazine-webdesign/wp-admin/admin-ajax.php 3 -
+/wp-content/uploads/wpfoot.php 5 -
+/hotelaveirocenter/ 1 -
+/admin.yanhui/system/editor/fckeditor/editor/ 3 -
+/aveiroexpo/js/jquery.scrollTo-min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-includes/include.php 1 -
+/source/fckeditor/editor/ 3 -
+/license.php 3 http://invisual.pt/license.php
+/yuzhiguoeditor/editor/ 3 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/aspx/providers/blogentryeditor/fckeditor/editor/ 3 -
+/rssd.php 8 -
+/html/gallery/fotografia-espacos-comerciais-hotel-de-ilhavo 7 -
+/wp-content/plugins/picturesurf-gallery/upload.php 1 http://invisual.pt/wp-content/plugins/picturesurf-gallery/upload.php
+/html/gallery/design-outros-suportes-frota-insidepipe 1 -
+/cgi-bin/php5 1 -
+/wp-json/oembed/1.0/embed 4 -
+/modelin_web/2013/10/04/josh-woodward-already-there-remix/ 1 -
+/html/gallery/desdobraveis-feira-de-marco-2012 1 -
+/modules/modules/modules.php 13 -
+/festivaldoscanais/tag/mountains/wp-admin/admin-ajax.php 8 -
+/festivaldoscanais/wp-content/uploads/2015/02/beach_4-500x383.jpg 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 1 http://eventosportugal.pt/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php
+/wp-content/plugins/user-photo/admin.css 2 -
+/wp-content/themes/highlight/lib/utils/upload-handler.php 1 http://invisual.pt/wp-content/themes/highlight/lib/utils/upload-handler.php
+/aveiroexpo/site/wp-content/uploads/2013/02/ 1 -
+/config.php 4 -
+/ekenabay/shop-online/product-category/trendy/fb13001 2 -
+/wp-installation.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/dor.libs.php 1 -
+/js/editor/ 3 -
+/ekenabay/shop/afugentar-a-celulite/ 3 -
+/wp-content/plugins/omni-secure-files/plupload/examples/upload.php 1 http://invisual.pt/wp-content/plugins/omni-secure-files/plupload/examples/upload.php
+/css.php 3 -
+/festivaldoscanais/wp-content/uploads/2015/02/restaurants_1.jpg 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/parser.php 1 -
+/admin/editor/editor/ 3 -
+/descubra_torres_novas.pdf 1 -
+/MAINTAINERS 1 -
+/11.php 4 -
+/hoteldassalinas/xmlrpc.php 2 -
+/httpinvisual-pthtmlgalleryinsercoes-3/ 2 -
+/testeali/wp-content/themes/bridge/js/smoothPageScroll.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-590.css 2 http://invisual.pt/festivaldoscanais/2015/06/15/nullam-suscipit-massa-nec/
+/wp-content/plugins/wp-symposium/server/php/LIIWWalzcpddvm.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/07/ 1 -
+/testeali/wp-content/themes/bridge/js/ajax.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/tag/popular/ 4 -
+/wp-content/plugins/flipbook/php.php 1 http://invisual.pt/wp-content/plugins/flipbook/php.php
+/html/gallery/design-outros-diario-de-aveiro 3 -
+/cgi-bin/status/status.cgi 1 -
+/modelin_web/2013/10/04/oscar-wilde/ 1 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/petx.php 1 -
+/wp-cache.php 4 http://www.googlebot.com/bot.html
+/admin/categories.php/login.php 2 -
+/testeali/wp-content/themes/bridge/js/jquery.touchSwipe.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/p/sobre.html 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-karma_0001_ambiente-karma_0001_Layer-12.jpg 3 http://alital.pt/wp-admin/admin.php
+/james_060/htmledit/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/plugins/revslider/public/assets/css/settings.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/admin8/system/editor/fckeditor/editor/ 3 -
+/htdocs/js/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/uploads/2015/04/beach_5-500x383.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 8 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/p/contato.html 1 -
+/festivaldoscanais/news/ 1 -
+/festivaldoscanais/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/krd.txt 1 -
+/includes/xml.php 1 http://hoteltorresnovas.com/includes/xml.php
+/html/archives/466 2 -
+/wp-content/plugins/front-file-manager/lib/plupload/js/plupload.js 1 http://invisual.pt/wp-content/plugins/front-file-manager/lib/plupload/js/plupload.js
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 3 -
+/smart_aqua/wp-includes/default-string.php 3 -
+/portfolio_page/royal-school-of-languages/ 7 -
+/html/gallery/fotografia-arquitectura-centro-civico-abarca 1 -
+/aveiroexpo/site/wp-content/uploads/2011/02/ 1 -
+/html/license.txt 2 -
+/smart_aqua/%3Fpage_id%3D17&amp 2 -
+/smart_aqua/wp-content/uploads/wpsc/ 1 -
+/festivaldoscanais/2015/06/03/annual-summer-camp-gets-underway/ 1 -
+/modules/fckeditor/fckeditor/editor/ 2 -
+/wp-content/plugins/simple-dropbox-upload-form/ 2 -
+/public_html/lists/admin/plugins/fckphplist/fckeditor/editor/ 3 -
+/festivaldoscanais/portfolio-items/suspendisse-lectus-lectus/feed/ 1 -
+/p/anuncie.html 2 -
+/testeali/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/aveicabo1/portfolio/redes-4/ 1 -
+/festivaldoscanais/tag/accommodations/feed/ 1 -
+/lib/editor/ 1 -
+/e/incs/fckeditor/editor/ 3 -
+/browserconfig.xml 1 -
+/js/fckeditor/editor/ 6 -
+/html/gallery/desdobraveis-shop-guide-biju 1 -
+/smart_aqua/%3Fp%3D69&amp 2 -
+/wp-content/uploads/wysija/themes/gassrini/herewgo.php 1 -
+/wp-admin/includes/class-wp-upgrader-list.php 5 -
+/wp-content/plugins/magic-fields/MF_Constant.php 3 -
+/festivaldoscanais/category/traveling/ 10 -
+/templets/default/style/dedecms.css 1 http://hoteldeilhavo.com
+/festivaldoscanais/tag/mountains/bypass.php 1 -
+/_editor_by_goldsoil__zrt/goldsoil_editor_by_fck/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 2 -
+/wp-content/plugins/sexy-contact-form/includes/js/eye.js 1 http://invisual.pt/wp-content/plugins/sexy-contact-form/includes/js/eye.js
+/portfolio_page/royal-school-of-languages/function.gethostbyaddr 2 -
+/wp-content/plugins/rbxgallery/js/script.js 1 http://invisual.pt/wp-content/plugins/rbxgallery/js/script.js
+/portfolio_page/susana-lopes/ 4 -
+/wp-content/plugins/wp-pagenavi/functions/timthumb.php 1 -
+/app_data/content/fckeditor/editor/ 3 -
+/_lib/fckeditor/editor/ 3 -
+/wp-content/plugins/front-end-upload/lib/plupload/js/plupload.js 1 http://invisual.pt/wp-content/plugins/front-end-upload/lib/plupload/js/plupload.js
+/ekenabay/shop-online/product-category/trendy/tk13002 2 -
+/domainsigma_removal_61a9deefb39a50bf88550fc0d48f29fd47a5ccd3.html 1 -
+/testeali/tag/analysis/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/ 1 -
+/festivaldoscanais/portfolio-items/duis-malesuada-viverra-risus/ 2 -
+/festivaldoscanais/category/uncategorized/page/2/ 1 -
+/festivaldoscanais/acommodations/residential-room/xmlrpc.php 1 -
+/festivaldoscanais/wp-includes/js/wp-emoji-release.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/festivaldoscanais/2015/06/03/record-numbers-of-food-banks-open-each-month/ 1 -
+/festivaldoscanais/author/festivaldoscanais/feed/ 1 -
+/noite_nupcias_ilhavo.pdf 8 -
+/wp-content/themes/u-design/style.css 2 http://eventosportugal.pt/wp-content/themes/u-design/style.css
+/wp-content/uploads/wysija/themes/mp/auto.php 1 -
+/wp-cron.php 52 -
+/smart_aqua_eng/admin 3 -
+/festivaldoscanais/portfolio-items/southern-italy/feed/ 1 -
+/festivaldoscanais/2016/07/04/hello-world/wp-admin/options-link.php 2 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js 1 -
+/festivaldoscanais/2016/07/04/hello-world/wp-admin/admin-ajax.php 4 -
+/mail/fckeditor/editor/ 3 -
+/wp-content/themes/profoblog20/functions/jquery-ui/css/ui-lightness/thumbs.php 1 http://invisual.pt/wp-content/themes/profoblog20/functions/jquery-ui/css/ui-lightness/thumbs.php
+/testeali/wp-content/uploads/2016/06/ambiente-orpheus_0001_Orpheus-6.jpg 5 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/tag/mountains/string.php 1 -
+/cfg-contactform-2/inc/upload.php 1 -
+/festivaldoscanais/2016/07/04/hello-world/wp-includes/include.php 1 -
+/aveiroexpo/regulamento_feira_marco2012.pdf 2 -
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 2 -
+/festivaldoscanais/acommodations/deluxe-room/ 10 -
+/wp-apps.php 1 -
+/wp-content/uploads/wooh.php 5 -
+/baptizados_e_comunhoes.pdf 1 -
+/wp-admin/security.php 9 -
+/testeali/wp-content/uploads/2016/06/ambiente-storm_0001_Storm-21-1200-1.jpg 3 http://alital.pt/wp-admin/post.php
+/html/archives/5360 2 -
+/cgi-bin/index 1 -
+/html/archives/gallery-category/outros 4 -
+/t1e2s3t4p5a6g7e8 1 https://google.com
+/testeali/wp-content/uploads/2016/06/ambiente-zoe_0003_ambiente-zoe_0004_Layer-21.jpg 3 http://alital.pt/wp-admin/post.php
+/aveiroexpo/site/wp-content/uploads/2013/03/ 1 -
+/portfolio_page/montages-metalegi/ 3 -
+/buying-clomifene/ 3 -
+/buffet_ilhavo.pdf 7 -
+/p/contatos.html 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-fortis_0006_Fortis-4.jpg 1 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/portfolio-items/sed-ut-perspiciatis/ 7 -
+/wp-content/plugins/wp-image-news-slider/functions.php 3 -
+/colegioportugues/wp-includes/css/admin-bar.css 2 -
+/festivaldoscanais/tag/mountains/parser.php 1 -
+/app_dat/content/fckeditor/editor/ 3 -
+/wp-content/uploads/default.php 5 -
+/wp-includes/wp-media.php 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 3 -
+/festivaldoscanais/tag/mountains/wp-content/plugins/revslider/temp/update_extract/revslider/create.php 1 -
+/sobre/ 2 -
+/string.php 4 -
+/editorold/editor/ 2 -
+/testeali/wp-content/plugins/js_composer/assets/css/js_composer.min.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/testeali/ 5 -
+/aveiroexpo/site/6o-salao-automovel-e-motociclo-antigo-classico-e-sport-de-aveiro/ 1 -
+/aveiroexpo/site/portfolio/project-number-4/ 1 -
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 3 -
+/layouts.php 4 -
+/eg.php 1 -
+/fckeditor1_2/editor/ 2 -
+/aveiroexpo/programa_seminario_PFMC.pdf 1 -
+/aveiroexpo/site/seminario-major-technological-and-natural-hazards-in-europe-and-the-civil-protection-systems-response/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-vertice_.jpg 12 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-1597.css 4 http://invisual.pt/festivaldoscanais/
+/wp-includes/css/modules.php 9 -
+/testeali/wp-content/themes/bridge/js/default.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/aveicabo/news/workshop.htm 1 -
+/menu_reveillon_2014.pdf 3 -
+/index2.php 3 -
+/aveiroexpo/site/ 87 -
+/aveiroexpo/site/congressos-e-convencoes/salao-nobre/ 1 -
+/html/gallery/fotografia-espacos-comerciais-vonhaff 1 -
+/smart_aqua/wp-admin/includes/unix.php 1 -
+/festivaldoscanais/2015/ 8 -
+/festivaldoscanais/prayers/ 1 -
+/festivaldoscanais/acommodations/deluxe-room/&amp 7 -
+/smart_aqua_eng/%3Fpage_id%3D67&amp 16 -
+/festivaldoscanais/wp-content/uploads/2015/02/beach_3-500x383.jpg 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://invisual.pt/sites/all/libraries/elfinder/php/connector.minimal.php
+/festivaldoscanais/acommodations/deluxe-room/xmlrpc.php 3 -
+/buy-lean-tea/ 2 -
+/portfolio_page/mercentro/ 5 -
+/html/gallery/fotogarfia-arquitectura-parque-do-prego 1 -
+/testeali/portfolio_page/fortis/ 1 -
+/sites/all/libraries/elfinder/files/wp-cache.php 1 http://www.googlebot.com/bot.html
+/head.php 4 -
+/wp-pomo.php 1 -
+/wp-content/plugins/wp-homepage-slideshow/functions.php 2 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-636.css 3 http://invisual.pt/festivaldoscanais/portfolio-items/donec-pulvinar-molestie/
+/festivaldoscanais/wp-content/uploads/2015/02/restaurants_1-500x383.jpg 1 -
+/festivaldoscanais/2015/02/02/ 9 -
+/s/tool/fck/editor/ 2 -
+/testevgg/2016/02/04/hello-world/ 1 -
+/festivaldoscanais/acommodations/premium-room/ 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz8/index.php4 4 -
+/html/ 7 -
+/testevgg/category/art/ 1 -
+/festivaldoscanais/portfolio-items/vestibulum-et-dolor-congue/ 5 -
+/festivaldoscanais/festivaldoscanais.pt 1 -
+/festivaldoscanais/portfolio-items/ut-consequat-augue-odio/ 1 -
+/festivaldoscanais/portfolio-items/vestibulum-et-dolor-congue/feed/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/06/blog_19-compressor-500x383.jpg 1 -
+/festivaldoscanais/wp-content/uploads/2015/06/blog_1-compressor1-500x383.jpg 1 -
+/testeali/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/wp-content/themes/felici/sprites/js/cufon-yui.js 2 -
+/wp-content/themes/thecotton_v114/style.css 1 http://invisual.pt/wp-content/themes/thecotton_v114/style.css
+/smart_aqua/xmlrpc.php 4 -
+/update/123wso123.php 1 http://eurathlon.info/update/123wso123.php
+/festivaldoscanais/portfolio-items/nullam-non-augue-eget/ 1 -
+/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-417.css 2 http://invisual.pt/festivaldoscanais/2015/02/02/europe-travel-guide-2015/
+/aveiroexpo/site 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/ 1 -
+/cds-pp/donations/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/10/ 2 -
+/Fckeditorold/editor/ 1 -
+/aveiroexpo/site/mapa-do-site/ 1 -
+/festivaldoscanais/portfolio-items/sed-ut-perspiciatis/feed/ 1 -
+/wp-admin/image-true.php 5 -
+/icon_lf.ico 5 -
+/html/gallery/design-outros-gesconect-2 2 -
+/sites/all/themes/README.txt 1 -
+/html/archives/gallery-category/arquitectura 1 -
+/wp-includes/class.wp-date.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/db.php 3 -
+/blog/wordpress/wp-admin/setup-config.php 2 -
+/festivaldoscanais/portfolio-items/donec-pulvinar-molestie/feed/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-safira_.jpg 12 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/area53-v1.0.2/framework/_scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/area53-v1.0.2/framework/_scripts/valums_uploader/php.php
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php 3 -
+/inc/fckeditor/editor/ 6 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.php 3 -
+/public_html/fckeditor/editor/ 2 -
+/wp-content/themes/drochilli-child/uploadify/uploadify.php 1 http://invisual.pt/wp-content/themes/drochilli-child/uploadify/uploadify.php
+/teste2/2014/10/08/excepteur-sint-obcaecat-cupiditat-non-proident-culpa/ 1 -
+/wp-content/plugins/mailpress/readme.txt 2 -
+/html/archives/5642 2 -
+/html/gallery/fotografia-arquitectura-moradia-a 1 -
+/.gitattributes 1 -
+/dzbwcms/inc/editor/fckeditor/editor/ 3 -
+/html/gallery/www-goldenclub-com-pt 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-donna_0002_Donna-2.jpg 9 http://alital.pt/wp-admin/admin.php
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-632.css 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/wp-content/plugins/revslider/temp/update_extract/revslider/ 4 -
+/festivaldoscanais/2015/01/27/aenean-odio-mauris-mauris/ 10 -
+/wp-content/themes/profoblog20/js/helpers/thumbs.php 1 http://invisual.pt/wp-content/themes/profoblog20/js/helpers/thumbs.php
+/html/gallery/paginacao-construtora-da-bairrada 1 -
+/smart_aqua/wp-admin/includes/themes.php 9 -
+/phpadmin%201.1fckeditor/editor/ 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/panel.png 2 -
+/generic-nizoral/ 1 -
+/edit/editor/ 2 -
+/testeali/wp-content/themes/bridge/js/qode-like.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/modelin_web/2013/10/04/jeffrey-veen-quote/ 1 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 3 http://invisual.pt/wp-content/plugins/complete-gallery-manager/frames/upload-images.php
+/system/editor/editor/ 1 -
+/festivaldoscanais/tag/popular/feed/ 3 -
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php 1 http://invisual.pt/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php
+/testosteron.php 4 -
+/rapidsol/3D_Systems_Prox300.pdf 2 -
+/profiles/README.txt 1 -
+/newsproject/fckeditor/editor/ 2 -
+/wp-content/themes/konzept/style.css 1 http://invisual.pt/wp-content/themes/konzept/style.css
+/wp-content/uploads/500.php 5 -
+/festivaldoscanais/about-us/ 9 -
+/smart_aqua_eng/%3Fpage_id%3D36&amp 4 -
+/festivaldoscanais/author/festivaldoscanais/ 8 -
+/html/archives/455 5 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-966.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/sed-ut-perspiciatis/
+/wp-content/plugins/wp-pagenavi/functions/cache/c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/wp-content/plugins/fcchat/default.png 1 -
+/testeali/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/colegioportugues/license.txt 2 -
+/festivaldoscanais/portfolio-items/south-africa/ 5 -
+/wp-includes/pomo/wp-setting.php 5 -
+/festivaldoscanais/tag/mountains/&amp 6 -
+/s_martinho_ementa.pdf 1 -
+/festivaldoscanais/wp-content/themes/Avada/style.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 3 -
+/festivaldoscanais/category/the-club/ 9 -
+/upoad/plugin/editor/editor/ 2 -
+/festivaldoscanais/category/warm-countries/feed/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-jacobsen_0000_Jacobsen-5.jpg 3 http://alital.pt/wp-admin/post.php
+/admin/scripts/setup.php 1 -
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta4.pdf 1 -
+/festival/ 2 -
+/festivaldoscanais/wp-content/uploads/2015/06/blog_21-compressor.jpg 1 -
+/CHANGELOG.txt 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/festivaldoscanais/community/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/06/ 1 -
+/festivaldoscanais/acommodations/ 1 -
+/zpxteditor/editor/ 3 -
+/aveiroexpo/equipamentos.html 1 -
+/optica/vista/vista-gucci/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-step_0000_Step-12.jpg 3 http://alital.pt/wp-admin/post.php
+/html/archives/gallery-category/produtos 3 -
+/guestbook/fckeditor/editor/ 2 -
+/edic04_reigota.swf 2 -
+/smart_aqua_eng/%3Fpage_id%3D4&amp 20 -
+/festivaldoscanais/2015/06/15/nullam-suscipit-massa-nec/feed/ 1 -
+/user/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 1 -
+/fck/editor/ 4 -
+/testeali/wp-content/themes/bridge/css/linea-icons/style.css 1 -
+/festivaldoscanais/portfolio-items/donec-pulvinar-molestie/ 8 -
+// 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/restaurants_2.jpg 1 -
+/.editorconfig 1 -
+/festivaldoscanais/tag/feature/feed/ 1 -
+/festivaldoscanais/wp-content/plugins/easy-coming-soon/template/css/style.css 2 http://invisual.pt/festivaldoscanais/about-us/
+/myadmin/scripts/setup.php 1 -
+/programa_fim_de_ano_2012.pdf 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/votre.php 2 -
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 3 http://eventosportugal.pt/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php
+/wp-includes/js/jcrop/sys.php 1 http://invisual.pt/wp-includes/js/jcrop/sys.php
+/system/fckeditor/editor/ 4 -
+/html/gallery/frota-aveicabo-energias-renovaveis 1 -
+/admin/FCKeditor/editor/ 3 -
+/portfolio_page/the-way-of-the-david/ 2 -
+/festivaldoscanais/wp-content/uploads/2015/02/post_img_9-500x383.jpg 1 -
+/festivaldoscanais/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/newsproject/newsproject/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/uploads/2015/01/membership.jpg 2 -
+/html/gallery/fotografia-espacos-comerciais-latina-adega 2 -
+/festivaldoscanais/tag/accommodations/ 8 -
+/festivaldoscanais/tag/bucket-list/feed/ 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 http://invisual.pt/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php
+/testeali/category/business/ 1 -
+/wp-content/plugins/500.php 9 -
+/festivaldoscanais/dining/ 1 -
+/festivaldoscanais/category/news/ 8 -
+/html 2 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 1 -
+/ekenabay/shop-online/product-category/trendy/fb13002 2 -
+/wp-content/plugins/zingiri-web-shop/admin.css 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/petx.php 1 -
+/includes/fckeditor/editor/ 5 -
+/wp-includes/default-string.php 5 -
+/festivaldoscanais/2015/06/15/maecenas-imperdiet-neque/ 1 -
+/festivaldoscanais/ 19 https://www.google.pt/
+/festivaldoscanais/our-destination/japan/ 1 -
+/ekenabay/shop/shop-2/sunny/sunny-modelo-c/ 3 -
+/testeali/wp-content/themes/bridge/js/jquery.mousewheel.min.js 1 http://invisual.pt/testeali/portfolio/page/2/
+/smart_aqua/wp-content/uploads/2011/ 1 -
+/teste2/career/business-development/ 6 -
+/festivaldoscanais/wp-content/plugins/LayerSlider/static/css/layerslider.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/systemcache.php 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-flat_0000_Flat.jpg 3 http://alital.pt/wp-admin/post.php
+/news/wp-admin/setup-config.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/wp-cache.php 1 http://www.googlebot.com/bot.html
+/festivaldoscanais/wp-content/uploads/2015/02/post_img_10-500x383.jpg 1 -
+/civilria/facebook.png 2 -
+/insidepipe2/portfolio_page/abstract-style-of-handler/ 3 -
+/festivaldoscanais/category/the-club/feed/ 1 -
+/images/stories/pbot.php 1 -
+/portfolio_page/bmw-aveiro 2 -
+/file/fckeditor/editor/ 3 -
+/html/gallery/outros-frota-ilhamar 1 -
+/smart_aqua/%3Fpage_id%3D40&amp 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/info.php 1 -
+/wp-content/plugins/nextgen-gallery/changelog.txt 3 -
+/aveiroexpo/site/8a-expoaveiro-2011/ 1 -
+/stats/setup.php 1 http://eurathlon.info/update/123wso123.php
+/aveiroexpo/site/wp-content/uploads/2013/01/regulamento_da_feira_de_marco_20131.pdf 1 -
+/.config.php 3 -
+/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/wp-content/plugins/wp-e-commerce/license.txt 2 -
+/wp-includes/security.php 4 -
+/p/contacto.html 1 -
+/aveiroexpo/programa_ti_s_.pdf 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/post_img_6-500x383.jpg 1 -
+/wp-content/uploads/2016/04/marca_ek-1.jpg 1 -
+/html/gallery/fotografia-moda-tom-ford 1 -
+/wp-content/plugins/wp-symposium/server/php/index.php 2 -
+/wp-includes/upgrade/theme-compat/11.php 9 -
+/wp-content/themes/ut-strange/addpress/css/style.css 2 http://eventosportugal.pt/wp-content/themes/ut-strange/addpress/css/style.css
+/themes/README.txt 3 -
+/wp-content/plugins/wp-pagenavi/functions/cache/external_c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/manage/fckeditor/editor/ 5 -
+/p/fale-conosco.html 2 -
+/civilria2/ 17 -
+/wp-content/plugins/resume-submissions-job-postings/installer.php 2 -
+/buying-vitamin-b12/ 1 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto 2 -
+/modelin/ewp-admin 1 -
+/edic_05.swf 2 -
+/admin/js/fckeditor/editor/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 27 -
+/wp-content/plugins/page-flip-image-gallery/upload.php 2 http://invisual.pt/wp-content/plugins/page-flip-image-gallery/upload.php
+/festivaldoscanais/wp-content/plugins/LayerSlider/static/js/greensock.js 2 http://invisual.pt/festivaldoscanais/2015/06/30/
+/festivaldoscanais/wp-content/uploads/2015/02/blog5-500x383.jpg 1 -
+/control/fckeditor/editor/ 3 -
+/festivaldoscanais/category/spa/wp-admin/admin-ajax.php 1 -
+/html/archives/category/noticias 1 -
+/festivaldoscanais/portfolio-items/maecenas-nisl-urna/ 5 -
+/aveicabo1/ 1 -
+/cgi-bin/php 1 -
+/testeali/category/music/ 1 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-634.css 2 http://invisual.pt/festivaldoscanais/portfolio-items/vestibulum-et-dolor-congue/
+/bbs/d_plus/indigroup/edit_plus/fckeditor/editor/ 3 -
+/festivaldoscanais/wp-content/plugins/easy-coming-soon/template/css/cs-bootstrap.css 2 http://invisual.pt/festivaldoscanais/about-us/
+/portfolio_page/mirador-business-center/ 1 -
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/parser.php 1 -
+/cfg-contactform-5/inc/upload.php 1 -
+/festivaldoscanais/2016/07/04/hello-world/.libs.php 1 -
+/smart_aqua/%3Fpage_id%3D19&amp 4 -
+/ekenabay/shop-online/product-category/trendy/tk13001 2 -
+/festivaldoscanais/wp-content/uploads/avada-styles/avada-45.css 2 http://invisual.pt/festivaldoscanais/2015/06/01/community-team-reaches-out-and-helps-others/
+/festivaldoscanais/2015/06/15/nullam-suscipit-massa-nec/ 8 -
+/themes/garland/images/task-list.png 1 -
+/wp/wp-admin/setup-config.php 2 -
+/aveiroexpo/site/wp-content/uploads/2012/12/ 1 -
+/yxshop.web/controls/fckeditor/editor/ 3 -
+/edic09_eliana.swf 2 -
+/html/archives/5333 2 -
+/festivaldoscanais/tag/restaurants/ 6 -
+/cgi-bin/ 1 -
+/edic09_gil.swf 1 -
+/wp-content/unix.php 1 -
+/aspku_admin/editor/editor/ 3 -
+/festivaldoscanais/author/festivaldoscanais/page/3/ 7 -
+/html/gallery/outros-frota-smart-aqua 1 -
+/contatos/ 1 -
+/festivaldoscanais/wp-content/themes/Avada/assets/fonts/fontawesome/font-awesome.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/html/archives/gallery-category/paginacao 3 -
+/festivaldoscanais/portfolio-items/southern-italy/ 7 -
+/wp-content/themes/central/author.php 5 -
+/aveiroexpo/site/wp-content/uploads/2012/05/aveiro.jpg 2 -
+/festivaldoscanais/author/festivaldoscanais/page/2/ 9 -
+/testevgg/2013/10/04/inteligent-transitions-in-ux-design/ 5 -
+/festivaldoscanais/our-beliefs/ 1 -
+/wp-content/plugins/php-event-calendar/server/file-uploader/ 2 http://eventosportugal.pt/wp-content/plugins/php-event-calendar/server/file-uploader/
+/wp-content/plugins/wp-symposium/server/php/cBqddZjSJsIEPt.php 1 -
+/festivaldoscanais/wp-content/uploads/2015/02/spa_2.jpg 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/index.php4 4 -
+/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.php 1 http://invisual.pt/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.php
+/libs/editor/editor/ 2 -
+/festivaldoscanais/2015/01/27/deals-of-the-week/feed/ 1 -
+/festivaldoscanais/our-destination/south-africa/ 1 -
+/boke/edit_plus/fckeditor/editor/ 3 -
+/common/editor/fckeditor/editor/ 2 -
+/wp-content/plugins/wp-property/action_hooks.php 3 -
+/_libs/fckeditor/editor/ 3 -
+/webcontrols/fckeditor/editor/ 3 -
+/aveiroexpo/js/hoverIntent.min.js 13 http://farmaciacapaofilipe.com/apresentacao.html
+/ytvip_admin/editor/editor/ 3 -
+/goldsoil_editor_by_fck/ 3 -
+/lib/fckeditor/editor/ 3 -
+/wp-xmlrpc.php 5 -
+/portfolio_page/litoral-magazine-webdesign/wp-admin/includes/themes.php 1 -
+/testeali/wp-content/themes/bridge/css/custom_css.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/festivaldoscanais/2015/06/29/duis-tempor-turpis-neque/ 1 -
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/aveiroexpo/site/imprensa/ 1 -
+/aveiroexpo/site/xx-automobilia/ 1 -
+/file/fckeditor_old/editor/ 2 -
+/aveiroexpo/images/mapas/mapaaveiro.html 1 -
+/televisao/ 10 http://invisual.pt/televisao/
+/wp-content/plugins/jquery-html5-file-upload/readme.txt 1 http://invisual.pt/wp-content/plugins/jquery-html5-file-upload/readme.txt
+/festivaldoscanais/tag/must-do/feed/ 2 -
+/modules/README.txt 1 -
+/testevgg/portfolio_page/amsterdam-jazz-festival/ 4 -
+/smart_aqua_eng/xmlrpc.php 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-mantis_.jpg 14 http://alital.pt/wp-admin/admin.php
+/testeali/portfolio_page/open/ 1 -
+/eng/ 1 -
+/module/fckeditor/editor/ 3 -
+/wp-content/themes/central/content-wp-authority.php 5 -
+/testeali/wp-content/themes/bridge/css/responsive.min.css 1 http://invisual.pt/testeali/portfolio/page/2/
+/hotelaveirocenter/os-nossos-quartos/ 1 -
+/aveiroexpo/site/contact/ 1 -
+/festivaldoscanais/wp-content/uploads/2015/01/dining_feature_img.jpg 2 -
+/weblogin/editor/editor/ 2 -
+/fcksddc/editor/ 3 -
+/aveiroexpo/js/LiberationSans.font.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro/ 1 -
+/festivaldoscanais/who-we-are/ 1 -
+/html/gallery/paginacao-biju-2 1 -
+/festivaldoscanais/wp-content/uploads/2015/09/blog_2c-compressor-2.jpg 1 -
+/mysql/scripts/setup.php 1 -
+/aveiroexpo/site/imprensa/convencoes/ 1 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/create.php 1 -
+/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/js/main.js 1 http://invisual.pt/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/js/main.js
+/html/archives/gallery-category/moda 3 -
+/pages/fckeditor/editor/ 2 -
+/dbadmin/scripts/setup.php 1 -
+/festivaldoscanais/wp-content/themes/Avada/animations.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/ 33 -
+/ekenabay/shop-online/product-category/trendy/bk13008 2 -
+/testeali/wp-content/themes/bridge/css/print.css 1 -
+/wp-content/themes/profoblog20/functions/jquery-ui/thumbs.php 1 http://invisual.pt/wp-content/themes/profoblog20/functions/jquery-ui/thumbs.php
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/joss.php 3 -
+/html/gallery/fotografia-arquitectura-edificio-lake-2 1 -
+/festivaldoscanais/tag/road-trip/ 7 -
+/generic-macrodantin/ 1 -
+/wp-content/plugins/foxypress/uploadify/uploadify.php 1 http://eventosportugal.pt/wp-content/plugins/foxypress/uploadify/uploadify.php
+/wp-content/plugins/wp-mobile-detector/cache/db.php 1 -
+/fck2/editor/ 2 -
+/aveicabo1/portfolios/politica-de-qualidade/ 1 -
+/festivaldoscanais/wp-includes/js/wp-embed.min.js 3 http://invisual.pt/festivaldoscanais/portfolio-items/maecenas-nisl-urna/
+/testeali/wp-content/uploads/2016/06/ambiente-prisma_0003_Prisma-9.jpg 7 http://alital.pt/wp-admin/admin.php
+/cms_adm/fckeditor/editor/ 2 -
+/wp-content/themes/twentytwelve/404.php 1 invisual.pt/wp-content/themes/twentytwelve/404.php
+/BirdsRio.php 4 -
+/hoteldassalinas/wp-content/uploads/wpcf7_captcha/2329555110.png 5 -
+/codefckeditor/editor/ 2 -
+/smart_aqua/wp-sidebarchange.php 3 -
+/testeali/wp-includes/js/wp-emoji-release.min.js 1 -
+/system/editor/fckeditor/editor/ 2 -
+/smart_aqua/unix.php 1 -
+/festivaldoscanais/wp-content/themes/Avada/ilightbox.css 2 http://invisual.pt/festivaldoscanais/category/cold-countries/
+/jantar_reveillon_12.pdf 2 -
+/portfolio_page/bmw/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-marshall_0000_Marshall-10.jpg 12 http://alital.pt/wp-admin/admin.php
+/zhiyoudao_v4.5.1/upload/jiudian/module/fckeditor/editor/ 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2
+94.46.176.249 43433 105339 3203668219 20160731235614
+208.100.26.229 1 1 0 20160720120319
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20160701 1210 3494 117179302 1
+20160702 790 1845 41147507 1
+20160703 837 1754 48811110 1
+20160704 1504 4581 163578147 1
+20160705 1954 4671 152169695 1
+20160706 1154 3223 100552559 1
+20160707 1417 5074 183941662 1
+20160708 1170 4281 138875935 1
+20160709 851 1853 31236061 1
+20160710 822 1723 30394421 1
+20160711 1103 3213 101781954 1
+20160712 4497 6891 130580070 1
+20160713 1075 3311 91804550 1
+20160714 874 2215 63413684 1
+20160715 904 2568 90754337 1
+20160716 809 1719 42570037 1
+20160717 908 2001 55522069 1
+20160718 1003 2925 85700977 1
+20160719 1092 3309 141508768 1
+20160720 1081 3134 97352616 2
+20160721 930 2482 86201377 1
+20160722 931 3063 102393608 1
+20160723 972 1862 37454760 1
+20160724 891 2192 81054036 1
+20160725 977 3051 109369326 1
+20160726 2873 7900 258527742 1
+20160727 3547 6957 212051604 1
+20160728 2401 4699 139150455 1
+20160729 3239 5666 137859254 1
+20160730 831 1913 67425330 1
+20160731 787 1768 66544696 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 1
+1h+ 31
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 349
+/wp-cron.php 10376 28700 0 24
+/alboi/wp-cron.php 8959 1000 30 0
+/modelin/wp-admin/admin-ajax.php 5557 4526374 0 0
+/smart_aqua_eng/wp-login.php 3420 19301686 0 0
+/ 1233 19492872 1 1
+/smart_aqua/ 1120 18655368 0 0
+/smart_aqua/wp-cron.php 932 18640 0 2
+/wp-content/themes/central/css/style_dynamic.php 871 166909 0 0
+/festivaldoscanais/wp-admin/admin-ajax.php 869 4667964 0 0
+/wp-content/themes/central/css/style_dynamic_responsive.php 866 111259 0 0
+/wp-content/themes/central/css/custom_css.php 861 108938 0 1
+/wp-content/themes/central/js/custom_js.php 837 18134 0 1
+/wp-content/themes/central/js/default_dynamic.php 834 1462381 0 0
+/modelin/wp-admin/post.php 437 111303345 0 0
+/modelin_web/wp-admin/admin-ajax.php 403 404834 0 0
+/wp-admin/admin-ajax.php 396 63246 0 0
+/whm 340 3010748 0 1
+/smart_aqua/index.php 315 145974 0 1
+/smart_aqua_eng/ 256 7404151 0 0
+/smart_aqua_eng/wp-cron.php 233 4660 1 1
+/contactos/ 188 2010688 0 0
+/hoteldassalinas/wp-cron.php 172 5827 0 0
+/invisual/ 137 1402894 0 0
+/festivaldoscanais/ 126 3782756 0 0
+/hotelaveirocenter/wp-cron.php 124 3499 0 0
+/portfolio_page/adriano-carreira-webdesign/ 5 59053 0 0
+/festivaldoscanais/check_charset.php 2 64 0 0
+/modelin/medicina-biologica/ 12 90957 0 0
+/portfolio_page/litoral-magazine-paginacao/ 9 79196 0 0
+/modelin/wp-content/plugins/loco-translate/pub/font/loco.woff 2 18870 0 0
+/modelin_web/wp-admin/plugin-install.php 1 18203 0 0
+/portfolio_page/ekena-bay-paginacao/ 11 89926 0 0
+/festivaldoscanais/wp-content/themes/Avada/assets/admin/fonts/icomoon/icomoon.woff 2 20418 0 0
+/portfolio_page/ekenabay-identidade/ 9 79803 0 0
+/festivaldoscanais/wp-admin/update.php 3 23162 0 0
+/modelin/wp-content/themes/model_in_web/css/font-awesome/fonts/fontawesome-webfont.woff 52 4344652 0 0
+/modelin/portfolio_page/berlin-design-week-poster/ 1 7278 0 0
+/modelin_web/wp-admin/load-scripts.php 28 3208982 0 0
+/modelin/medicina-integrativa-infantil/ 11 82558 0 0
+/festival/wp-login.php 1 1130 0 0
+/modelin_web/wp-admin/update.php 1 17445 0 0
+/modelin/wp-content/plugins/envato-wordpress-toolkit/assets/fonts/envato.woff 4 1284 0 0
+/modelin/wp-login.php 29 35322 0 0
+/portfolio_page/daifer/ 4 50813 0 0
+/modelin/massagens-terapeuticas/ 22 212075 0 0
+/portfolio_page/salpoente-video/ 6 63411 0 0
+/modelin_web/wp-admin/admin.php 25 1505016 0 0
+/wp-content/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 9 21638 0 0
+/modelin/wp-admin/upload.php 4 82705 0 0
+/wp-json/ 8 8144 0 0
+/modelin_web/apresentacao/ 2 25279 0 0
+/modelin_web/medicina-biologica/ 1 8475 0 0
+/festivaldoscanais/feed/ 3 10450 0 0
+/festivaldoscanais/wp-content/themes/Avada/includes/avadaredux/avadaredux-framework/AvadaReduxCore/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.woff 3 146220 0 0
+/feed/ 19 42555 0 0
+/festivaldoscanais/wp-admin/ 8 126119 0 0
+/modelin/wp-content/uploads/2014/03/Bridge-Slide-Video.webm 2 3233414 0 0
+/modelin/wp-admin/nav-menus.php 30 1309871 0 0
+/marcas/ 85 1043223 0 0
+/modelin/wp-admin/customize.php 6 324514 0 0
+/smart_aqua/wp-admin/admin-ajax.php 22 44 0 0
+/modelin/wp-admin/export.php 2 112582 0 0
+/modelin/wp-content/themes/model_in_web/css/style_dynamic_responsive.php 8 1760 0 0
+/portfolio_page/w-uniforms-identidade/ 5 57093 0 0
+/festivaldoscanais/the-events-calendar/ 1 12723 0 0
+/portfolio_page/maldita-identidade/ 9 78194 0 0
+/modelin_web/wp-login.php 3 3650 0 0
+/wp-admin/edit.php 15 224845 0 0
+/modelin/faq/ 10 77842 0 0
+/festivaldoscanais/wp-admin/edit.php 36 552373 0 0
+/modelin_web/wp-admin/theme-install.php 2 19346 0 0
+/festivaldoscanais/wp-admin/widgets.php 2 52046 0 0
+/modelin/wp-admin/load-styles.php 21 1077996 0 0
+/festivaldoscanais/wp-content/plugins/fusion-core/tinymce/font/fontawesome-webfont.woff 1 90313 0 0
+/modelin_web/wp-admin/edit.php 56 1548345 0 0
+/portfolio_page/confeitaria-framboesa-webdesign/ 9 81739 0 0
+/portfolio_page/agner/ 27 228586 0 0
+/festival/wp-admin/load-scripts.php 9 536515 0 0
+/modelin/wp-admin/ 8 188111 0 0
+/portfolio_page/ekena-bay-fotografia/ 38 295885 0 0
+/modelin/wp-admin/widgets.php 8 273926 0 0
+/festivaldoscanais/wp-content/themes/Avada/assets/fonts/fontawesome/fontawesome-webfont.woff 8 722504 0 0
+/festivaldoscanais/wp-admin/customize.php 11 677047 0 0
+/modelin/tratamento-de-acne/ 11 98641 0 0
+/modelin/wp-admin/edit.php 40 1074432 0 0
+/wp-admin/update.php 2 13080 0 0
+/festivaldoscanais/wp-admin/index.php 1 9284 0 0
+/modelin_web/wp-cron.php 4 80 0 0
+/wp-admin/upload.php 3 45273 0 0
+/festival/check_charset.php 1 32 0 0
+/modelin/wp-content/themes/model_in/css/font-awesome/fonts/fontawesome-webfont.woff 9 487428 0 0
+/wp-includes/wlwmanifest.xml 1 460 0 0
+/hotelaveirocenter/wp-admin/upgrade.php 2 2758 0 0
+/modelin/wp-admin/profile.php 2 46204 0 0
+/televisao/ 92 1144143 0 0
+/portfolio_page/leonor-reis-sic-mulher/ 6 75528 0 0
+/smart_aqua_eng/index.php 4 1626 0 0
+/wp-admin/index.php 1 13246 0 0
+/portfolio_page/ribsol-identidade/ 6 62034 0 0
+/modelin/estrias/ 11 109100 0 0
+/portfolio_page/rapidsol-identidade/ 4 51123 0 0
+/festivaldoscanais/wp-admin/load-styles.php 21 1563004 0 0
+/portfolio_page/civilria-webdesign/ 31 406421 0 0
+/modelin/cosmetica-biologica/ 29 261852 0 0
+/modelin/wp-admin/edit-tags.php 3 69081 0 0
+/portfolio_page/mercedes-sls-mercentro/ 8 94815 0 0
+/cgi-sys/entropysearch.cgi 1 18 0 0
+/festivaldoscanais/wp-admin/plugin-install.php 5 98500 0 0
+/modelin/noticias/ 1 8834 0 0
+/modelin/wp-admin/plugins.php 14 319777 0 0
+/html/feed/atom/ 2 942 0 0
+/festival/softtest_9jwxirlc/soft 1 20 0 0
+/modelin/wp-content/themes/model_in/css/font-awesome/fonts/fontawesome-webfont.woff2 3 193398 0 0
+/festival/wp-admin/themes.php 9 71461 0 0
+/festivaldoscanais/slide/about/ 1 9953 0 0
+/festivaldoscanais/softtest_p6kftkcb/soft 1 20 0 0
+/festivaldoscanais/wp-admin/import.php 2 19396 0 0
+/modelin/wp-admin/options-general.php 6 177103 0 0
+/webdesign/ 62 973083 0 0
+/modelin/medicina-energetica/ 8 60609 0 0
+/modelin_web/wp-admin/plugins.php 1 24703 0 0
+/festivaldoscanais/wp-login.php 13 15308 0 0
+/modelin/wp-admin/post-new.php 13 3419784 0 0
+/modelin/depilacao-definitiva/ 38 336517 0 0
+/wp-content/plugins/revslider/rs-plugin/font/revicons.woff 2 14982 0 0
+/hosteldoalboi/wp-admin/upgrade.php 2 2726 0 0
+/modelin_web/medicina-complementar/ 1 8480 0 0
+/portfolio_page/pizzarte-25oaniversario/ 8 73644 0 0
+/wp-admin/plugins.php 6 82743 0 0
+/festival/wp-admin/update.php 1 5546 0 0
+/modelin_web/wp-content/themes/bridge/js/default_dynamic.php 1 1558 0 0
+/modelin_web/wp-admin/options-reading.php 4 85600 0 0
+/portfolio_page/optica-nascimento-video/ 6 63015 0 0
+/portfolio_page/socertima-jornal-de-negocios/ 3 45652 0 0
+/eventos-invisual/ 60 674044 0 0
+/festivaldoscanais/2015/06/30/suspendisse-sed-sagittis/ 1 13619 0 0
+/alboi/wp-content/plugins/socials-ignited/fonts/fontawesome-webfont.woff 1 71505 0 0
+/festivaldoscanais/wp-cron.php 17 340 0 0
+/modelin/wp-content/themes/model_in/framework/admin/assets/css/font-awesome/fonts/fontawesome-webfont.woff 1 83756 0 0
+/modelin/wp-admin/async-upload.php 52 63684 0 0
+/festivaldoscanais/wp-admin/options-reading.php 4 35573 0 0
+/modelin/contactos/ 3 26248 0 0
+/portfolio_page/meivcore/ 8 73979 0 0
+/festivaldoscanais/wp-content/plugins/revslider/admin/assets/css/font/egfont.woff 2 65438 0 0
+/cgi-sys/defaultwebpage.cgi 1 6750 0 0
+/portfolio_page/unimadeiras-identidade/ 11 90996 0 0
+/modelin/espaco/ 13 121034 0 0
+/portfolio_page/o-dia-mercentro-video/ 4 51040 0 0
+/modelin_web/check_charset.php 1 32 0 0
+/wp-admin/themes.php 1 11211 0 0
+/portfolio_page/aveiro-expo-identidade/ 7 67894 0 0
+/festivaldoscanais/event/guided-tours/event_13-compressor/ 1 11037 0 0
+/wp-json/oembed/1.0/embed 12 21390 0 0
+/portfolio_page/portucel-soporcel-video/ 7 69906 0 0
+/modelin/wp-admin/load-scripts.php 70 8441462 0 0
+/wp-admin/update-core.php 2 19324 0 0
+/portfolio_page/tv-ria/ 3 44970 0 0
+/modelin_web/wp-admin/options-general.php 2 58093 0 0
+/ativacao-de-marca/ 51 688859 0 0
+/modelin/wp-admin/update.php 2 38542 0 0
+/hoteldassalinas/en/ 1 6885 0 0
+/festivaldoscanais/wp-admin/themes.php 31 1099764 0 0
+/portfolio_page/salpoente-revista-sabado/ 5 71185 0 0
+/wp-admin/plugin-install.php 5 128633 0 0
+/modelin_web/wp-content/themes/bridge/css/custom_css.php 1 74 0 0
+/portfolio_page/atz-webdesign/ 5 58728 0 0
+/festival/wp-admin/theme-install.php 1 9641 0 0
+/wp-admin/post.php 24 807337 0 0
+/portfolio_page/civilria-andar-modelo/ 13 107148 0 0
+/portfolio_page/colegio-portugues-video/ 6 63037 0 0
+/modelin_web/feed/ 1 2488 0 0
+/festivaldoscanais/wp-admin/upload.php 1 18784 0 0
+/festival/wp-admin/ 1 13000 0 0
+/festivaldoscanais/wp-admin/post.php 36 1350968 0 0
+/portfolio_page/litoral-awards/ 8 75360 0 0
+/festivaldoscanais/home-3/ 1 16972 0 0
+/modelin/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 8858 0 0
+/modelin_web/wp-content/themes/bridge/framework/admin/assets/css/font-awesome/fonts/fontawesome-webfont.woff 1 83756 0 0
+/modelin_web/wp-admin/import.php 3 56507 0 0
+/modelin/wp-admin/themes.php 19 382769 0 0
+/portfolio_page/agner-service-identidade/ 4 51050 0 0
+/portfolio_page/litoral-fashion-2005-sic-noticias/ 8 87935 0 0
+/modelin/flacidez-corporal/ 39 391929 0 0
+/portfolio_page/icon-video/ 10 85947 0 0
+/festivaldoscanais/programa/ 1 9465 0 0
+/modelin/wp-admin/theme-install.php 2 44756 0 0
+/portfolio_page/branding-pessoal-leonor-reis-video/ 7 68960 0 0
+/modelin/wp-admin/admin.php 62 2910599 0 0
+/hosteldoalboi/en/ 1 6778 0 0
+/modelin_web/depilacao-definitiva-2/ 1 9492 0 0
+/modelin_web/wp-admin/edit-comments.php 2 55004 0 0
+/portfolio_page/feira-de-marco-video/ 5 58179 0 0
+/portfolio_page/cerveja-maldita-rotulo/ 9 81586 0 0
+/festivaldoscanais/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 2 17716 0 0
+/festivaldoscanais/wp-admin/nav-menus.php 27 998862 0 0
+/festivaldoscanais/wp-content/plugins/fusion-core/admin/page-builder/assets/fonts/fonts/icomoon.ttf 2 18262 0 0
+/portfolio_page/colegio-portugues-identidade/ 6 63390 0 0
+/modelin/wp-admin/media-new.php 2 43556 0 0
+/portfolio_page/salpoente-revista_must/ 3 45586 0 0
+/festivaldoscanais/wp-admin/plugins.php 1 13841 0 0
+/wp-admin/load-scripts.php 64 4355043 0 0
+/modelin_web/wp-admin/themes.php 12 218349 0 0
+/modelin/wp-content/themes/model_in_web/js/custom_js.php 8 816 0 0
+/portfolio_page/dia-mundial-da-crianca-2016/ 7 68559 0 0
+/portfolio_page/framboesa-identidade/ 9 79828 0 0
+/hotelaveirocenter/ 4 77772 0 0
+/festival/wp-admin/load-styles.php 4 284508 0 0
+/modelin/wp-content/plugins/js_composer/assets/css/lib/monosocialiconsfont/fonts/MonoSocialIconsFont.ttf 1 68266 0 0
+/modelin_web/wp-content/themes/bridge/css/style_dynamic.php 1 361 0 0
+/festivaldoscanais/event/guided-tours/ 1 14809 0 0
+/festivaldoscanais/softtest_zucmnsgi/soft 1 20 0 0
+/modelin/tratamento-de-rugas/ 5 51410 0 0
+/portfolio_page/salpoente-identidade/ 6 63406 0 0
+/modelin/ 85 1177900 0 0
+/modelin/estetica-avancada/ 1 8120 0 0
+/modelin_web/softtest_etwm7uds/soft 1 20 0 0
+/wp-content/themes/inbranding/js/custom_js.php 1 22 0 0
+/portfolio_page/ipmd-identidade/ 3 45464 0 0
+/outdoor/ 43 535498 0 0
+/festivaldoscanais/wp-admin/theme-install.php 3 28992 0 0
+/modelin/wp-cron.php 100 2000 0 0
+/hoteldassalinas/ 1 6940 0 0
+/portfolio_page/stand-entreposto-a-fontes/ 25 324575 0 0
+/portfolio_page/exporlux-no-museu-nacional-do-azulejo/ 6 62360 0 0
+/webmail 9 79875 0 0
+/wp-admin/widgets.php 2 29982 0 0
+/modelin_web/massagens-terapeuticas/ 4 43668 0 0
+/portfolio_page/meivcore-video/ 6 61975 0 0
+/portfolio_page/ferro-reclamo/ 6 62574 0 0
+/modelin_web/nutricao_funcional/ 3 29955 0 0
+/modelin/wp-admin/plugin-install.php 5 140658 0 0
+/festivaldoscanais/wp-admin/async-upload.php 8 4564 0 0
+/modelin/wp-content/plugins/js_composer/assets/css/lib/vc-open-iconic/fonts/vc_openiconic.woff 1 13802 0 0
+/portfolio_page/bosch-paginacao/ 5 58110 0 0
+/hosteldoalboi/ 2 37591 0 0
+/portfolio_page/video-oficial-ekena-bay-2016/ 11 91184 0 0
+/festival/wp-admin/options-reading.php 2 16546 0 0
+/comments/feed/ 9 8310 0 0
+/identidade/ 53 1111629 0 0
+/modelin_web/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 8858 0 0
+/modelin/resultados/ 4 40372 0 0
+/wp-admin/admin.php 17 1042518 0 0
+/festivaldoscanais/wp-admin/post-new.php 10 315227 0 0
+/portfolio_page/litoral-magazine-webdesign/ 27 353756 0 0
+/portfolio_page/bosch-video/ 7 67531 0 0
+/portfolio_page/meia-maratona-identidade/ 3 45516 0 0
+/wp-admin/options-general.php 3 32524 0 0
+/modelin/wp-content/plugins/js_composer/assets/css/lib/typicons/src/font/typicons.woff 1 59506 0 0
+/modelin/wp-content/plugins/js_composer/assets/css/lib/vc-entypo/fonts/vc_entypo.woff 2 90298 0 0
+/portfolio_page/grupo-alboi-identidade/ 3 46119 0 0
+/portfolio_page/fashion-tv-optica-nascimento/ 7 70805 0 0
+/modelin_web/ 16 340369 0 0
+/modelin_web/wp-content/themes/bridge/css/font-awesome/fonts/fontawesome-webfont.woff 1 83551 0 0
+/hosteldoalboi/wp-cron.php 4 223 0 0
+/wp-admin/load-styles.php 27 1841752 0 0
+/portfolio_page/gesconect-identidade/ 3 46090 0 0
+/smart_aqua_eng/wp-admin/admin-ajax.php 26 52 0 0
+/portfolio_page/eurogres-embalagem/ 7 68762 0 0
+/portfolio_page/fonte-nova-identidade/ 3 45674 0 0
+/smart_aqua/wp-login.php 5 24085 0 0
+/modelin/nutraceuticos/ 22 195065 0 0
+/portfolio_page/litoral-awards-14-porto-canal/ 7 82617 0 0
+/editar 22 36651 0 0
+/festivaldoscanais/events/ 1 22226 0 0
+/hoteldassalinas/wp-content/plugins/socials-ignited/fonts/fontawesome-webfont.woff 2 143010 0 0
+/festivaldoscanais/event/big-band-dia-13/ 1 13598 0 0
+/modelin_web/wp-admin/ 5 114511 0 0
+/imprensa-escrita/ 40 553713 0 0
+/modelin_web/wp-admin/load-styles.php 11 717920 0 0
+/modelin_web/wp-admin/customize.php 2 157927 0 0
+/wp-admin/customize.php 5 179266 0 0
+/paginacao-invisual/ 46 667376 0 0
+/festival/ 23 640276 0 0
+/modelin_web/wp-admin/async-upload.php 1 1156 0 0
+/wp-content/plugins/revslider/rs-plugin/font/revicons.eot 5 46679 0 0
+/html/feed/ 3 1979 0 0
+/wp-content/plugins/wysija-newsletters/index.php 6 186 0 0
+/alboi/ 15 306126 0 0
+/modelin/wp-content/themes/model_in_web/framework/admin/assets/css/font-awesome/fonts/fontawesome-webfont.woff 1 83756 0 0
+/rebranding-da-empresa-socertima/ 1 5501 0 0
+/modelin/medicina-avancada/ 11 83152 0 0
+/modelin_web/wp-content/plugins/envato-wordpress-toolkit/assets/fonts/envato.woff 1 642 0 0
+/hotelaveirocenter/wp-admin/admin-ajax.php 1 1 0 0
+/modelin/wp-admin/index.php 1 23525 0 0
+/wp-admin/ 9 120223 0 0
+/portfolio_page/entreposto-a-fontes-video/ 6 63904 0 0
+/festivaldoscanais/wp-content/themes/rttheme19/css/fontello/font/fontello.woff 1 68461 0 0
+/modelin/medicina-complementar/ 9 67917 0 0
+/embalagem/ 42 601205 0 0
+/portfolio_page/aveicabo/ 4 50506 0 0
+/modelin_web/wp-content/themes/bridge/css/style_dynamic_responsive.php 1 187 0 0
+/hotelaveirocenter/en/ 1 6996 0 0
+/festivaldoscanais/about-us/ 2 28437 0 0
+/portfolio_page/smart-aqua/ 3 44982 0 0
+/modelin/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff 2 167102 0 0
+/festivaldoscanais/wp-admin/load-scripts.php 75 6641595 0 0
+/modelin/wp-content/themes/model_in_web/css/font-awesome/fonts/fontawesome-webfont.woff2 1 66625 0 0
+/modelin/wp-content/themes/model_in_web/css/custom_css.php 9 5445 0 0
+/festivaldoscanais/wp-admin/admin.php 31 546928 0 0
+/portfolio_page/boca-torta/ 3 44614 0 0
+/modelin_web/wp-admin/nav-menus.php 9 453334 0 0
+/modelin/corpo-clinico/ 18 147055 0 0
+/portfolio_page/meivcore-webdesign/ 6 64652 0 0
+/video/ 54 906526 0 0
+/wp-content/plugins/revslider/css/font/egfont.woff 2 68250 0 0
+/portfolio_page/apresentacao-do-novo-smart/ 9 81622 0 0
+/portfolio_page/spcv-webdesign/ 23 332712 0 0
+/portfolio_page/pizzarte-webdesign/ 8 76053 0 0
+/modelin/wp-admin/options-permalink.php 2 43138 0 0
+/festival/wp-cron.php 1 20 0 0
+/portfolio_page/metalegi-iberica-identidade/ 3 46463 0 0
+/modelin_web/estetica-avancada/ 1 9063 0 0
+/modelin/wp-admin/upgrade.php 2 2847 0 0
+//wp-admin/admin-ajax.php 48 1266 0 0
+/modelin_web/wp-admin/options-permalink.php 2 43359 0 0
+/festival/wp-admin/customize.php 1 97390 0 0
+/festivaldoscanais/wp-content/themes/Avada/assets/fonts/icomoon/icomoon.woff 11 82247 0 0
+/portfolio_page/meivcore-stand/ 6 61673 0 0
+/modelin_web/wp-admin/post.php 16 3990243 0 0
+/modelin/wp-admin/term.php 6 125008 0 0
+/modelin/nutricao_funcional/ 59 623663 0 0
+/modelin/wp-content/themes/model_in_web/css/style_dynamic.php 13 66470 0 0
+/festival/wp-admin/admin-ajax.php 25 7048 0 0
+/portfolio_page/cerveja-maldita-embalagem/ 7 68148 0 0
+/modelin_web/wp-admin/widgets.php 1 33118 0 0
+/modelin/wp-content/plugins/js_composer/assets/css/lib/vc-linecons/fonts/vc_linecons.woff 1 27232 0 0
+/festivaldoscanais/events/list/ 2 29084 0 0
+/portfolio_page/dia-da-crianca-2015/ 3 46026 0 0
+/modelin/tratamento-das-manchas/ 9 89732 0 0
+/festivaldoscanais/wp-admin/media-upload.php 2 13043 0 0
+/portfolio_page/adriano-carreira-identidade/ 6 63304 0 0
+/fotografia-invisual/ 58 779549 0 0
+//index.inc.php 6 0 0 0
+/portfolio_page/pizzarte-gins/ 9 81626 0 0
+/index.php 2 75998 0 0
+/modelin/wp-admin/options-reading.php 2 43580 0 0
+/modelin_web/wp-content/themes/bridge/js/custom_js.php 1 102 0 0
+/festivaldoscanais/wp-admin/options-media.php 1 9478 0 0
+/hotelaveirocenter/wp-content/plugins/socials-ignited/fonts/fontawesome-webfont.woff 2 143010 0 0
+/portfolio_page/feira-de-marco-identidade/ 7 68605 0 0
+/modelin_web/medicina-avancada/ 1 8479 0 0
+/wp-admin/async-upload.php 9 4943 0 0
+/festivaldoscanais/wp-admin/edit-tags.php 2 26324 0 0
+/modelin/wp-content/uploads/2014/02/walking.webm 1 7776197 0 0
+/modelin/wp-content/themes/model_in_web/js/default_dynamic.php 13 20696 0 0
+/portfolio_page/colegio-portugues-webdesign/ 5 58863 0 0
+/modelin/projeto-corpo-feliz-emagrecimento/ 5 45308 0 0
+/festival/wp-content/themes/rttheme19/css/fontello/font/fontello.woff 1 68461 0 0
+/modelin/apresentacao/ 31 260145 0 0
+END_SIDER

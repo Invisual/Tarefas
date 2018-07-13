@@ -1,0 +1,147 @@
+# Webalizer V2.01-10 Incremental Data - 09/27/2011 23:09:42
+2011 9 27 23 9 42
+31 13 5 2 1 3 4798288 12 11 0
+2 2 4 2 27
+0 0 0 0 0 0
+4 2 167816 2 2 1
+1 1 83908 1 1 1
+0 0 0 0 0 0
+2 0 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 1010779 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 0 0 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 2 1094687 2 1 1
+0 0 0 0 0 0
+2 1 83908 1 1 1
+1 0 0 1 0 0
+1 1 83908 1 1 1
+0 0 0 0 0 0
+2 1 1010779 1 0 0
+2 1 83908 1 1 1
+0 0 0 0 0 0
+1 0 0 1 0 0
+1 1 83908 1 1 1
+2 0 0 1 1 1
+0 0 0 0 0 0
+4 2 1094687 2 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 1 83908 2
+0 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 0
+1 0 0 0
+1 1 83908 1
+0 0 0 0
+6 3 251724 4
+1 1 83908 1
+0 0 0 0
+2 0 0 1
+4 3 251724 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 1 1010779 0
+0 0 0 0
+1 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 0
+2 1 1010779 0
+5 2 2021558 0
+0
+0
+0
+13
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 11 344185712 755172 10 6
+/home.swf
+0 4 0 4043116 0 0
+# End Of Table - urls
+# -sites- (monthly)
+sticker01.yandex.ru
+0 3 2 167816 1 1314965229
+/
+crawl-66-249-66-14.googlebot.com
+0 2 1 1010779 0 0
+-
+spider83.yandex.ru
+0 12 6 503448 6 1317113171
+/
+crawl-66-249-72-183.googlebot.com
+0 6 2 2021558 1 1316938214
+/
+crawl-66-249-72-180.googlebot.com
+0 8 2 1094687 3 1316131249
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+spider83.yandex.ru
+0 2 1 83908 1 1317113171
+/
+crawl-66-249-72-183.googlebot.com
+0 2 1 1010779 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 31
+# End Of Table - referrers
+# -agents- 
+Googlebot-Image/1.0
+0 1
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bo
+0 15
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.co
+0 15
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

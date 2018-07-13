@@ -1,0 +1,3019 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201612 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2695                
+POS_VISITOR 120026              
+POS_DAY 120229              
+POS_DOMAIN 3797                
+POS_LOGIN 4060                
+POS_ROBOT 4215                
+POS_WORMS 5015                
+POS_EMAILSENDER 5146                
+POS_EMAILRECEIVER 5289                
+POS_SESSION 121212              
+POS_SIDER 121375              
+POS_FILETYPES 5424                
+POS_DOWNLOADS 5919                
+POS_OS 7278                
+POS_BROWSER 7825                
+POS_SCREENSIZE 13365               
+POS_UNKNOWNREFERER 13439               
+POS_UNKNOWNREFERERBROWSER 15857               
+POS_ORIGIN 17607               
+POS_SEREFERRALS 17765               
+POS_PAGEREFS 17983               
+POS_SEARCHWORDS 27497               
+POS_KEYWORDS 27692               
+POS_MISC 2357                
+POS_ERRORS 27794               
+POS_CLUSTER 3916                
+POS_SIDER_404 28022               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170101000017 1843 403380 10648144305230
+FirstTime 20161201000018
+LastTime 20161231235545
+LastUpdate 20170101122639 1843 0 1842 0 0
+TotalVisits 33                  
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 163 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1235 2327 50365355 922 1542 25217108
+1 1318 2117 48474515 1031 1631 26501585
+2 1613 2113 44407385 801 1279 21455288
+3 1134 1516 18366965 1435 1792 18217426
+4 1110 1571 16248863 827 1355 26998682
+5 1162 1442 13234636 878 1417 25740537
+6 1131 1308 10962670 932 1291 22059641
+7 1144 1730 22056995 901 1625 36513509
+8 1240 1829 14266288 765 1360 25717500
+9 4707 6480 82390018 884 1333 32676431
+10 1772 6911 445336168 1051 1597 27937934
+11 5682 9705 299283332 1032 1538 21670162
+12 2867 7911 225036602 1235 1792 27860518
+13 1565 3342 74220988 1241 1839 24380961
+14 2195 6412 187458468 1404 1960 22879521
+15 2412 7593 237806186 1200 1885 34808562
+16 2458 6389 221922657 1089 1762 50201906
+17 5302 10354 292090244 1146 1723 28169485
+18 1752 5125 148722044 1344 1940 31541876
+19 1351 2971 78122077 1079 1536 21723189
+20 1272 2591 58658400 1301 1731 21580945
+21 1348 3540 101615208 1352 1970 47778458
+22 1264 2871 70680044 1137 1735 28282768
+23 1167 2397 48582031 835 1428 33274339
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+pt 48186 100530 2809698940
+fr 14 14 609199
+us 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+googlebot 6993 129754880 20161231225846 429
+bot[\s_+:,\.\;\/\\-] 4912 127662624 20161231215009 436
+bingpreview 1161 21656041 20161231202237 0
+googlebot\-image 1110 145468957 20161231181020 0
+[\s_+:,\.\;\/\\-]bot 529 38045169 20161229152321 7
+slurp 398 2453740 20161231221545 50
+spider 375 5170307 20161231223448 25
+robot 373 10250973 20161231224244 80
+unknown 287 35266 20161231181557 287
+google[_+\s]web[_+\s]preview 138 1907014 20161227193743 0
+scanner 81 2820218 20161231230043 56
+php 72 23970214 20161231185227 0
+crawl 54 610711 20161229020947 13
+msnbot\-media 20 121584 20161227191732 0
+no_user_agent 20 230143 20161231094257 6
+netcraft 3 38754 20161210092221 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+txt 6 2832 0 0
+woff2 133 16031070 0 0
+ico 171 31153 0 0
+css 8452 110905793 0 0
+pdf 10 16445576 0 0
+woff 66 7090298 0 0
+eot 12 1011352 0 0
+php 40070 130984998 0 0
+jpeg 510 28489415 0 0
+Unknown 318 2231307 0 0
+gif 4006 8912397 0 0
+mp4 2 20981322 0 0
+js 12242 287803713 0 0
+jpg 17152 1610834256 0 0
+mp3 1 1808889 0 0
+bmp 1 15341 0 0
+png 9756 382225202 0 0
+zip 7 11485586 0 0
+xml 20 20900 0 0
+html 7582 172980006 0 0
+svg 28 16733 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 17
+/arcadamagazine/arcadamagazine_n17.pdf 17 0 54058026
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 8 0 7251489
+/wp-content/plugins/contact-form-7/license.txt 6 0 2832
+/arcadamagazine/arcadamagazine_n15.pdf 6 0 23281494
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 4 0 6997634
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 3 0 3767976
+/smart_aqua/wp-content/uploads/2012/04/aicep_30_mar_2012.pdf 3 0 1312635
+/novo2/in-conteudo/uploads/2015/10/iceberg.mp4 1 0 14019153
+/conteudo/themes/uncode/core/plugins_activation/plugins/layersliderwp-5.6.10.installable.zip 1 0 6224657
+/novo2/in-conteudo/uploads/2015/03/Rivel-RobotRecreation.mp3 1 0 1808889
+/novo2/in-conteudo/uploads/2015/02/ElectricBulb.mp4 1 0 6962169
+/conteudo/themes/uncode/core/plugins_activation/plugins/uncode-core.zip 1 0 209753
+/conteudo/themes/uncode/core/plugins_activation/plugins/uncode-daves-wordpress-live-search.zip 1 0 514583
+/conteudo/themes/uncode/core/plugins_activation/plugins/vc_clipboard.zip 1 0 15828
+/conteudo/themes/uncode/core/plugins_activation/plugins/uncode-js_composer.zip 1 0 4325798
+/conteudo/themes/uncode/core/plugins_activation/plugins/uncode-related-posts-for-wp.zip 1 0 177792
+/conteudo/themes/uncode/core/plugins_activation/plugins/vcparticlesbackground.zip 1 0 17175
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 32
+macosx7 11 1
+linuxgentoo 1 1
+macosx4 56 3
+macosx9 436 106
+winme 15 15
+blackberry 1 1
+wince 6 6
+win8.1 2376 221
+Unknown 22576 20902
+win16 3 3
+winunknown 23 20
+win98 18 18
+win95 16 16
+win2000 153 153
+linuxandroid 4488 382
+ios_iphone 2774 216
+linuxubuntu 51 50
+win2003 55 53
+java 604 533
+unix 2 0
+winphone 217 10
+macosx6 12 5
+winxp 3644 2687
+winnt 13075 1370
+macosx 22647 6047
+ios_ipad 808 51
+win7 23897 14727
+linux 1217 236
+linuxfedora 2 2
+macosx8 70 11
+win8 607 131
+winlong 684 224
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 269
+chrome38.0.1025.166 2 0
+chrome44.0.2403.119 1 0
+firefox21.0 45 23
+safari9.0 1254 111
+opera9.0 19 19
+firefox3.6 67 67
+mozilla 748 109
+chrome34.0.1847.114 2 0
+chrome19.0.1062.0 1 1
+firefox3.6.9 1 1
+chrome47.0.2526.100 2 0
+chrome49.0.2623.105 37 0
+chrome28.0.1467.0 1 1
+firefox3.6.15 82 82
+chrome50.0.2661.102 2 0
+chrome46.0.2490.85 67 3
+safari7.0 84 9
+chrome47.0.2526.80 1 0
+firefox26.0 5 5
+firefox44.0 3 3
+chrome54.0.2840.99 10039 982
+firefox11.0 55 1
+svn040 1 0
+chrome11.0.652.0 1 1
+chrome12.0.742.112 42 42
+safari10.0.2 234 15
+chrome40.0.2214.115 17 7
+chrome46.0.2490.80 4 4
+chrome50.0.2661.75 10 10
+chrome11.0.696.14 1 1
+chrome50.0.2661.94 60 8
+firefox5.0 4 4
+msie6.0 2389 2389
+chrome41.0.2228.0 8 8
+chrome51.0.2704.79 862 54
+chrome42.0.2311.111 3 0
+firefox23.0 3 3
+chrome14.0.813.0 1 0
+chrome54.0.2840.71 76 10
+firefox3.6.28 37 2
+chrome56.0.2924.28 284 24
+chrome4.1.249.1036 3 3
+opera8.50 21 21
+netscape4.76 8 8
+opera6.0 5 5
+chrome53.0.2785.92 2 0
+msie10.6 1 1
+safari9.1.2 63 5
+opera6.01 4 4
+firefox37.0 96 0
+chrome36.0.1985.125 113 95
+chrome37.0.0.0 6 0
+firefox19.0 1 1
+firefox3.5.2 4 4
+chrome30.0.0.0 86 5
+opera9.01 8 8
+chrome44.0.2403.133 402 27
+android 273 25
+firefox28.0 37 37
+opera36.0.2130.32 21 21
+chrome51.0.2704.81 129 12
+lg\- 5 0
+firefox40.1 1217 1215
+firefox25.0 5 1
+chrome34.0.1847.116 3 3
+chrome48.0.2564.97 4 0
+chrome54.0.2840.100 5 0
+safari10.0.1 1515 214
+firefox3.6.3 28 23
+chrome45.0.2454.101 223 15
+chrome43.0.2357.93 8 0
+chrome16.0.912.63 1 1
+chrome33.0.0.0 14 0
+firefox3.5.8 4 4
+firefox40.0 1 1
+chrome52.0.2743.100 2 0
+chrome53.0.2785.97 10 0
+opera9.00 9 9
+chrome10.0.612.3 3 3
+alcatel 2 0
+chrome30.0.1599.103 3 0
+chrome32.0.1700.2 2 0
+chrome55.0.2883.87 7024 570
+svn090 2 0
+firefox17.0 4 4
+chrome38.0.2125.101 119 33
+vodafone 4 0
+safari6.0 40 6
+chrome23.0.1271.64 2 0
+firefox3.5.5 1 1
+chrome10.0.648.204 7 7
+chrome34.0.1847.118 8 0
+firefox4.0.1 5 5
+msie5.0 9 9
+netscape0.91 15 15
+samsung 49 6
+chrome39.0.2171.93 1 0
+Unknown 5175 3463
+opera42.0.2393.94 55 4
+chrome10.0.648.134 4 4
+chrome32.0.1664.3 1 1
+chrome30.0.1599.66 3 3
+safari6.2.8 1 0
+chrome49.0.2623.87 72 6
+chrome55.0.2883.91 993 56
+chrome10.0.648.11 1 1
+chrome55.0.2883.77 67 17
+safari4.0.4 2 0
+chrome47.0.2526.83 77 5
+chrome52.0.2743.98 280 29
+opera7.0 6 6
+chrome35.0.1916.114 31 20
+chrome32.0.1667.0 4 4
+firefox31.0 19 6
+chrome48.0.2564.116 49 6
+safari9.1 19 0
+chrome51.0.2704.103 48 6
+msie3.02 6 6
+chrome41.0.2224.3 1 1
+firefox45.0 124 18
+safari10.0 1339 96
+chrome55.0.2883.75 403 39
+chrome43.0.2357.134 1 1
+ibrowse 2 0
+safari8.0.8 1944 245
+opera8.01 33 33
+chrome48.0.2564.109 1 1
+chrome19.0.1084.9 1 1
+chrome34.0.0.0 2 0
+chrome42.0.2311.135 7 0
+chrome45.0.2454.93 11 6
+chrome54.0.2840.87 1 0
+chrome49.0.2623.112 641 53
+chrome43.0.2357.124 1 0
+chrome44.0.2403.125 3 3
+safari5.1.9 1 1
+msie11.0 2648 250
+netscape 2 2
+chrome55.0.2883.95 1154 132
+chrome38.0.2125.78 1 1
+safari5.0.2 2 2
+chrome53.0.2785.124 36 0
+firefox48.0 63 16
+msie5.5 52 52
+chrome54.0.2840.85 1262 107
+chrome46.0.2490.76 7 0
+webcapture 3 3
+chrome28.0.1500.94 194 30
+opera8.00 36 36
+chrome26.0.1410.64 2 2
+firefox29.0 63 52
+chrome37.0.2062.120 6 6
+safari8.0.6 326 36
+chrome35.0.1954.3 1 1
+safari9.1.1 48 6
+netscape0.6 2 2
+chrome38.0.0.0 2 0
+safari9.0.3 4 0
+safari6.1.6 8 0
+firefox33.0 6 6
+chrome19.0.1055.1 1 0
+chrome35.0.1916.153 1 1
+iceweasel 1 1
+chrome38.0.2125.111 70 5
+chrome54.0.2840.68 22 0
+chrome27.0.1453.93 1 1
+chrome34.0.1847.131 82 50
+firefox4.0 4 4
+chrome54.0.2840.98 1515 150
+safari6.0.2 1 1
+chrome55.0.2883.45 10 0
+firefox24.0 5 5
+chrome17.0.963.79 1 0
+chrome10.0.611.0 1 0
+chrome37.0.2049.0 3 3
+chrome27.0.1453.90 1 1
+firefox27.0 1 1
+chrome54.0.2840.59 100 14
+chrome50.0.2661.86 3 0
+chrome36.0.1985.143 215 22
+chrome47.0.2526.111 2 2
+safari7.0.3 16 16
+chrome34.0.1847.137 30 30
+chrome46.0.2486.0 9 0
+chrome26.0.1410.63 19 19
+chrome39.0.2171.99 4 0
+chrome26.0.1410.65 4 4
+msie8.0 335 175
+firefox50.0 17942 5477
+chrome10.0.648.127 1 0
+chrome53.0.2785.116 52 6
+chrome17.0.1025.133 3 3
+chrome38.0.2125.102 199 16
+chrome19.0.1036.7 1 1
+chrome31.0.1650.57 7 1
+msie9.0 10885 10444
+chrome53.0.2785.89 1853 1853
+chrome53.0.2785.134 2 0
+konqueror4.3 1 1
+chrome16.0.912.75 1 0
+chrome36.0.1985.97 1 1
+firefox12.0 1 1
+firefox3.0.1 73 73
+firefox3.5.0 11 11
+firefox49.0 115 8
+opera7.02 13 13
+chrome36.0.1986.73 1 1
+chrome44.0.2403.130 67 3
+svn070 1 0
+chrome49.0.2623.75 31 17
+safari9.1.3 61 6
+iphone 406 6
+chrome55.5.2883.75 2 0
+opera7.60 8 8
+safari4.1.3 5 1
+chrome53.16.2785.143 4 0
+chrome54.19.2840.71 2 0
+netscape5.0 17898 17897
+chrome27.0.1453 20 0
+firefox2.0.0.4 5 5
+chrome39.0.2171.95 3 1
+chrome55.3.2883.75 2 0
+safari7.0.6 4 0
+msie5.01 35 35
+msie10.0 220 44
+netscape4.79 5 5
+firefox38.0 15 0
+chrome28.0.1500.95 69 6
+chrome53.0.2785.143 2 0
+firefox14.0.1 9 9
+chrome54.0.2840.90 337 58
+chrome55.0.2883.103 2 0
+chrome39.0.0.0 2 0
+chrome50.0.2661.89 82 5
+chrome22.0.1229.94 30 7
+chrome55.0.2883.84 15 0
+chrome11.0.654.0 1 1
+firefox3.5.6 1 1
+netscape3.0 18 18
+lynx 3 3
+firefox18.0 2 1
+chrome13.0.782.41 1 0
+chrome35.0.1916.141 2 0
+opera7.54 8 8
+safari 553 44
+opera7.11 11 11
+safari8.0 47 16
+firefox3.8 1 1
+chrome52.0.2743.116 71 61
+chrome36.0.1985.67 7 7
+chrome14.0.803.0 1 1
+opera11.2.3.102637 120 36
+msie2.0 13 13
+firefox36.0 1 1
+msie7.0 646 22
+firefox34.0 61 60
+chrome18.0.1025.166 35 7
+chrome11.0.669.0 1 1
+chrome28.0.1500.71 2 2
+blackberry 1 1
+chrome31.0.1650.63 6 0
+chrome56.0.2924.13 4 0
+msie4.01 5 5
+chrome14.0.811.0 1 1
+chrome48.0.2564.82 2 0
+opera41.0.2353.69 51 6
+chrome34.0.1847.76 2 0
+opera12.16 129 9
+firefox47.0 228 27
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 42
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20161231214210
+WordPress/4.5.4;_http://invisual.pt/hosteldoalboi 20161231112330
+python-requests/2.9.1 20161228164614
+Magic_Browser 20161221023118
+M 20161228100204
+Google-AMPHTML 20161219153052
+WordPress/4.7;_https://invisual.pt 20161217182910
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20161201211448
+ltx71_-_(http://ltx71.com/) 20161223214953
+Dispatch/0.11.3 20161207073018
+WordPress/4.7;_http://invisual.pt/old54321 20161220230629
+Mozilla/5.0 20161231235516
+Airmail%203/397_CFNetwork/760.6.3_Darwin/15.6.0_(x86_64) 20161205160238
+HTTPClient/1.0_(2.6.0.1,_ruby_2.2.4_(2015-12-16)) 20161213105331
+WordPress/4.5.4;_http://invisual.pt/hoteldassalinas 20161231094229
+WordPress/4.5.4;_http://invisual.pt 20161213144316
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20161230014439
+PSTextView 20161201091720
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/37.9154;_U;_pt)_Presto/2.12.423_Version/12.16 20161206170614
+xmlrpclib.py/1.0.1_(by_www.pythonware.com) 20161230171359
+WordPress/4.6.1;_http://invisual.pt/novo2 20161208233202
+Softaculous 20161219104525
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20161231181628
+Mozilla/5.0_(Android_6.0.1;_Tablet;_rv:50.0)_Gecko/50.0_Firefox/50.0 20161208093327
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20161231231518
+Apple-PubSub/65.28 20161220152857
+WordPress/4.7;_http://invisual.pt 20161231105907
+Mozilla/5.0_(Android_4.4.2;_Mobile;_rv:50.0)_Gecko/50.0_Firefox/50.0 20161221010248
+WordPress/4.5.4;_http://invisual.pt/alboi 20161231072709
+Mozilla/4.0_(compatible;) 20161218121811
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20161230123429
+Mozilla/5.0_(Android_6.0.1;_Mobile;_rv:49.0)_Gecko/49.0_Firefox/49.0 20161203012940
+WordPress/4.5.4;_http://invisual.pt/hotelaveirocenter 20161230171357
+WebFuck_V2.1_T0PHackTeam_www.t0p.xyz 20161229014442
+Mozilla 20161219235009
+WordPress/4.5.4;_https://invisual.pt 20161211014334
+Lynx/2.8.9dev.8_libwww-FM/2.14_SSL-MM/1.4.1_GNUTLS/3.4.9 20161202064013
+vebidoobot 20161221022303
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20161231202818
+WordPress/4.7;_http://invisual.pt/novo2 20161231185628
+Pinterest/0.2_(_http://www.pinterest.com/) 20161230131436
+<a_href=\ 20161227171028
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 36
+Dispatch/0.11.3 20161207073018
+Java/1.8.0_91 20161222015909
+WordPress/4.7;_https://invisual.pt 20161217182910
+ltx71_-_(http://ltx71.com/) 20161223214953
+M 20161228100204
+Google-AMPHTML 20161219153052
+WordPress/4.5.4;_http://invisual.pt/hosteldoalboi 20161231112330
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20161231214210
+Java/1.7.0_67 20161231131059
+python-requests/2.9.1 20161228164614
+Magic_Browser 20161221023118
+Apache-HttpClient/4.5.2_(Java/1.8.0_102) 20161227144121
+xmlrpclib.py/1.0.1_(by_www.pythonware.com) 20161230171359
+Java/1.7.0_45 20161231225750
+PSTextView 20161201091720
+HTTPClient/1.0_(2.6.0.1,_ruby_2.2.4_(2015-12-16)) 20161213105331
+Airmail%203/397_CFNetwork/760.6.3_Darwin/15.6.0_(x86_64) 20161205160238
+Java/1.8.0_101 20161231173557
+WordPress/4.5.4;_http://invisual.pt 20161213144316
+WordPress/4.5.4;_http://invisual.pt/hoteldassalinas 20161231094229
+WordPress/4.7;_http://invisual.pt/old54321 20161220230629
+WordPress/4.7;_http://invisual.pt 20161231105907
+Apple-PubSub/65.28 20161220152857
+WordPress/4.5.4;_http://invisual.pt/alboi 20161231072709
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20161231231518
+WordPress/4.6.1;_http://invisual.pt/novo2 20161208233202
+Softaculous 20161219104525
+<a_href=\ 20161227171028
+Pinterest/0.2_(_http://www.pinterest.com/) 20161230131436
+WordPress/4.7;_http://invisual.pt/novo2 20161231185628
+vebidoobot 20161221022303
+Microsoft_Office/16.0_(Microsoft_Outlook_Mail_16.0.7705;_Pro) 20161214112611
+WordPress/4.5.4;_https://invisual.pt 20161211014334
+Java/1.6.0_04 20161231031138
+WordPress/4.5.4;_http://invisual.pt/hotelaveirocenter 20161230171357
+WebFuck_V2.1_T0PHackTeam_www.t0p.xyz 20161229014442
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25849 27554
+From1 20 20
+From2 229 460
+From3 1121 5095
+From4 20982 67416
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+bing 3 21
+yandex 7 7
+google_image 2 4
+search 2 2
+live 0 12
+google 215 414
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 224
+http://www.smartaqua.pt 312 312
+http://landreferat.ru 30 30
+http://parlament.biz 14 14
+https://www.lflash.ru 13 13
+http://oxford-book.com.ua 13 13
+http://www.istmira.ru 13 13
+http://tri-slona.org/category/christmas 12 12
+http://xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai 12 12
+http://fototravel.eu 12 12
+http://liky.co.ua 11 11
+http://daydream-studio.ru 11 11
+http://lider-zhaluzi.kiev.ua 11 11
+http://whiteproduct.com 11 11
+http://womama.ru 11 11
+http://homeandhealth.ru 10 10
+http://ukrup.com 10 10
+http://alfa-politeh.ru 10 10
+http://handicapvansarea.com 10 10
+https://konteiner24.com 10 10
+http://elmacho.xyz 10 10
+http://apxeo.info 9 9
+http://j-times.ru 9 9
+http://mmoguider.ru 9 9
+http://manuscript.su 9 9
+http://viberdownload10.com/viber-for-android/ 9 9
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114773513/1111047989 0 47
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2115434599/1111408811 0 3
+http://uhod-za-sobakoj.ru 3 3
+http://trincaxa.pt/produtos/bubble-milk-tea/ 1 1
+http://farmingworm.com 5 5
+http://vipsiterip.org 8 8
+http://intus.in 1 1
+http://hotelaveirocenter.com/attraction/universidade-de-aveiro-950-m/ 0 2
+http://meivcore.pt/servicos/ 2 2
+http://tmm-kurs.ru 8 8
+http://www.amt-k.ru 6 6
+http://healbio.ru 4 4
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2125133939/1116840819 0 3
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114779987/1111047999 0 3
+http://wechatdownload10.com/wechat-on-pc.html 3 3
+http://hotelaveirocenter.com/es/ 0 10
+http://www.puzzleweb.ru 5 5
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124395646/1116408942 0 4
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2109480977/1108081920 0 12
+http://innapartments.com 1 1
+http://ideiasagranel.com/leiloes/leiloes-bens-imoveis/leiloes-por-apresentacao-de-proposta-moveis/ 1 1
+http://grupoalboi.com 0 18
+http://civilria.pt 5 5
+http://isoveti.ru 5 5
+http://everflora.ru 7 7
+http://trincaxa.pt 1 1
+http://frivgame250.com 3 3
+http://hoteldassalinas.com/a-cidade/ 0 6
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800421 0 3
+http://hoteldassalinas.com/es/ 0 57
+http://orsonet.ru 8 8
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800387 0 7
+http://air-edem.ru 3 3
+http://prom23.ru 3 3
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2109801530/1108247255 0 13
+http://hoteldassalinas.com/en/room/double-standard-room/ 0 4
+http://helvetia.com.ua 4 4
+http://balkanfarma.ru 3 3
+http://turizm.bz 8 8
+http://kodeks-nalog.ru 6 6
+http://drillsaw.ru 4 4
+http://bestcurs.org 6 6
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114775666/1111047994 0 8
+http://innapartments.com/apartments/sao-goncalinho-aveiro/ 1 1
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124387774/1116408923 0 4
+http://hundejo.com 1 1
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2125133471/1116840814 0 16
+http://newstraveller.ru 5 5
+http://nagdak.ru 6 6
+http://hoteldassalinas.com/en/slider/enjoy-an-exciting-studio/ 0 2
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124388158/1116408928 0 47
+http://xn--d1abj0abs9d.in.ua 2 2
+http://monarhs.info 6 6
+http://xn--80aaomkdl5amcy.xn--p1ai 6 6
+http://hoteldassalinas.com 0 1776
+http://meivcore.pt/contactos/ 1 1
+http://soft1.ru 7 7
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2115419918/1111408792 0 13
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124393786/1116408938 0 4
+http://hoteldassalinas.com/en/contacts/ 0 2
+http://alojamentodoalboi.com/attraction/forum-aveiro-450-m/ 0 1
+http://hoteldassalinas.com/es/room/estudio/ 0 2
+http://www.timer4web.com/domain/invisual.pt 1 1
+http://life.biz.ua 3 3
+http://meivcore.pt/services/eletricidade-automacao-instrumentacao-e-valvulas/ 1 1
+http://grupoalboi.com/testimonials/peter-daniel-travel-magazine/ 0 3
+http://brewdom.ru 6 6
+http://hotelaveirocenter.com/contactos/ 0 4
+http://hoteldassalinas.com/contactos/ 0 12
+http://www.musezone.su 5 5
+http://farmingworm.com 3 3
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2109519887/1108099725 0 3
+http://www.smartaqua.pt 4 4
+http://torrents.cd 3 3
+http://hoteldassalinas.com/promocoes/ 0 2
+http://alojamentodoalboi.com 0 6
+http://bestcurs.org 2 2
+http://pizza-tycoon.com 2 2
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124096798/1116258418 0 12
+http://www.smartaqua.pt/wp-admin/ 1 1
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114771847/1111047986 0 9
+http://recinziireale.com 2 2
+http://sluganarodu.ru 8 8
+http://housediz.com 2 2
+http://www.civilria.pt 1 1
+https://goo.gl/lAs0aJ 5 5
+http://www.kinotorka.ru 7 7
+http://zebramart.ru 7 7
+http://hoteldassalinas.com/reservas/ 0 2
+http://lsmedicall.pt/contactos/ 1 1
+http://saletool.ru 5 5
+http://restolho.processar.com/main/frmReadMail_body.aspx 0 1
+http://tradedeals.biz 7 7
+https://www.facebook.com 6 6
+http://goo.gl/Y2eLeC 3 3
+http://uytmaster.ru/top/santech 6 6
+http://azbukafree.com 5 5
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800405 0 3
+http://meivcore.pt 4 4
+http://cervejamaldita.pt 1 1
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800403 0 6
+http://handicapbathtubarea.com 6 6
+http://hoteldassalinas.com/nossos-quartos/ 0 6
+http://englate.com 6 6
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800422 0 3
+http://burger-imperia.com 3 3
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114755073/1111047982 0 19
+http://buy-loft.ru 4 4
+http://lsmedicall.pt/categoria-produto/promocoes/ 1 1
+https://wispapp.com/blog/ 7 7
+http://hotelaveirocenter.com 0 4
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800385 0 7
+http://ribsol.pt 1 1
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2109522009/1108099731 0 3
+http://xn--80aagddcgkbcqbad7amllnejg6dya.xn--p1ai 6 6
+http://www.arenda-yeisk.ru 3 3
+http://torrents.cd 6 6
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114779382/1111047997 0 4
+http://autorn.ru 1 1
+http://modabutik.ru 3 3
+http://pim.amen.pt/appsuite/ 0 7
+http://1-free-share-buttons.com 3 3
+http://hotenergy.ru 5 5
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114776603/1111047996 0 13
+http://bagcionderlab.com 5 5
+http://alital.pt 3 3
+http://meduza-consult.ru 9 9
+http://kursy-ege.ru 8 8
+http://petrovka-online.com 7 7
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114774159/1111047991 0 4
+http://hotelaveirocenter.com 0 784
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2115432189/1111408803 0 3
+http://cpabegins.ru 5 5
+http://w-journal.ru 2 2
+http://hoteldassalinas.com/es/ofertas/ 0 2
+http://idc.com.ua 7 7
+http://ruscopybook.com 1 1
+http://alital.pt/portfolio_page/flex/ 1 1
+http://productarium.com 6 6
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800386 0 7
+http://www.eloxal.ru 2 2
+http://alital.pt/portfolio_page/fortis/ 1 1
+http://www.normalegal.ru 2 2
+http://downloadkakaotalk.com 9 9
+http://restorator-msk.ru 7 7
+http://hoteldassalinas.com/o-hotel/ 0 2
+http://zajm-pod-zalog-nedvizhimosti.ru 2 2
+http://smartaqua.pt 8 8
+http://videochat.tv.br 6 6
+http://alojamentodoalboi.com 0 92
+http://delayreferat.ru 2 2
+http://grupoalboi.com/testimonials/carla-santos-e-jose-pires-dos-santos/ 0 6
+http://whatsappdownload10.com/whatsapp-on-ipad/ 6 6
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2110383519/1108575244 0 19
+http://yaderenergy.ru 3 3
+http://www.domain2008.com/domains/www.invisual.pt 6 6
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2114774818/1111047993 0 8
+http://www.xn----7sbaaabaei0cc8aj5bj0bncejx.xn--p1ai 3 3
+http://alojamentodoalboi.com/es/ 0 3
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800423 0 3
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124385706/1116408915 0 4
+http://xwatt.ru 6 6
+http://insights.hotjar.com/api/v1/sites/371611/page-content/2124391894/1116408932 0 3
+http://trincaxa.pt/sobre/ 1 1
+http://svarkagid.com 5 5
+https://www.gotorussia.com 6 6
+http://gribkovye-zabolevaniya.com 6 6
+http://5elementov.ru 3 3
+http://freetangodownload.com/tango-for-pc/ 3 3
+http://hoteldassalinas.com/en/ 0 35
+http://guitar-master.org 8 8
+http://l.facebook.com/l.php 1 1
+http://hotelaveirocenter.com/en/ 0 19
+http://phototravel.pl 2 2
+http://www.trincaxa.pt:2095/cpsess9451029643/horde/imp/view.php 0 1
+http://www.newtechspb.ru 5 5
+http://komputers-best.ru 3 3
+http://alital.pt/portfolio_page/signo/ 1 1
+http://mantramusic.ru 8 8
+http://exonline.info 8 8
+http://alital.pt/portfolio/ 1 1
+http://www.meddesk.ru/cosmetology/krasota-i-molodost/kakie-vitaminyi-nuzhnyi-dlya-rosta-volos.html 6 6
+http://droidlook.net 3 3
+http://electricwheelchairsarea.com 6 6
+http://grupoalboi.com 0 733
+http://sexobzor.info 5 5
+http://life-instyle.com 5 5
+http://telegramdownload10.com 6 6
+http://local.hotjar.com/api/v1/sites/371611/deferred-page-content/2800404 0 6
+http://leonorreis.com 1 1
+http://ticketware.reditus.pt/TicketWARE/TicketManagement_List.aspx 0 1
+http://pornolook.net 3 3
+http://hotelaveirocenter.com/en/service/hotel-reception-provided-services/ 0 4
+http://192.168.2.236/TicketWARE/Ticket_List.aspx 0 1
+http://hoteldassalinas.com 0 38
+http://pizda.lol 8 8
+http://luisbalboa.com/clientes/ 1 1
+http://stairliftsarea.com 2 2
+http://www.smartaqua.pt/eng/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+%5ebsb%5exdm362%5es18482%5ept 2
+lardarte 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%5ebsb%5exdm362%5es18482%5ept 2
+lardarte 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 12
+206 9 71320
+503 1 247
+508 5 1290
+302 6413 76042
+500 658 928
+400 5 595
+301 4236 134088
+414 8 160
+307 1 20
+403 422 46180
+404 10572 172627359
+405 42 1962
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1705
+/login.php 4 http://invisual.pt/login.php
+/wp-content/uploads/2016/08/novo_classe_E_007.jpg 5 https://www.google.ch/
+/cli/40dd1d.php 2 invisual.pt
+/wp-content/uploads/2016/08/identidade_festival-dos-canais.jpg 3 -
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento007.jpg 1 -
+/smart_aqua_eng/wp-admin/wp-optionslink.phpz9 1 -
+/portfolio_page/literal-awards-porto-canal/ 1 http://invisual.pt/televisao/
+/wp-content/uploads/2013/09/logo_diario_aveiro_1.jpg 1 -
+/portfolio_page/salpoente-web/ 1 -
+/wp-content/themes/ultimatum/js/cufon-yui.js 2 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia005.jpg 1 -
+/public/js/manager/fckeditor 7 http://invisual.pt/public/js/manager/fckeditor
+/portfolio_page/ekenabay/ 3 -
+/wp-content/plugins/nextgen-gallery/changelog.txt 3 -
+/portfolio_page/atz 1 -
+/portfolio_page/ferro-reclamo/ 4 http://invisual.pt/outdoor/
+/testeali/wp-content/uploads/2016/06/ambiente-marshall_0000_Marshall-10.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-includes/wp-conns.php 3 invisual.pt
+/wp-admin/css/colors/cache.php 2 http://www.google.com/
+/smart_aqua_eng/app/etc/local.xml 1 -
+/alboi/ 4 -
+/wp-content/themes/wumblr/themify/js/utils.js 1 http://invisual.pt/wp-content/themes/wumblr/themify/js/utils.js
+/testeali/wp-content/plugins/contact-form-7/includes/css/styles.css 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/wp-content/plugins/revslider/temp/update_extract/revslider/love.php 1 -
+/include/fckeditor 7 http://invisual.pt/include/fckeditor
+/wp-content/uploads/2016/04/insignia_.png 2 -
+/smart_aqua_eng/xmlrpc.php 2 -
+/wp-content/uploads/2016/04/maldita_rotulo003.jpg 2 -
+/apresentacao/ 2 -
+/smart_aqua_eng/wp-content/themes/invisual/thumb.php 2 -
+/smart_aqua_eng/wp-content/themes/markant/download.php 1 -
+/go.php 1 -
+/colegioportugues/bem-vindo/inscricoes/ 1 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto015.jpg 1 -
+/joomla/robots.txt 1 -
+/ 115 -
+/html/archives/5344 1 -
+/wp-content/uploads/2014/10/rapidsol_3d_print_solutions.jpg 1 -
+/logo_invisual-2/ 3 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento003.jpg 2 https://www.google.pt/
+/jconfig.php 2 invisual.pt
+/smart_aqua_eng/wp-admin/includes/themes.php 1 -
+/wp-content/plugins/chikuncount/swfobject.js 2 -
+/modules/adodb.class.php 2 eventosportugal.pt
+/wp-content/uploads/2016/08/miss_mar_fotografia005.jpg 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/portfolio_page/sikawa-identidade/ 1 http://invisual.pt/identidade/
+/aveiroexpo/frilac_inscricao.pdf 2 -
+/wp-content/plugins/wp-conns.php 3 invisual.pt
+/wp-content/uploads/2013/10/header_in.jpg 2 -
+/wp-content/uploads/2016/08/Flash-14-julho-ekena-bay-1024x666.jpg 4 -
+/portfolio_page/colegio-portugues-video/ 7 http://invisual.pt/video/
+/wp-content/themes/central/img/prettyPhoto/light_rounded/btnNext.png 2 http://invisual.pt/wp-content/themes/central/css/stylesheet.css
+/novo2/portfolio/vr2p-identidade-2/ 2 -
+/portfolio_page/apresentacao-do-novo-smart/ 6 -
+/aveiroexpo/js/jquery.easing.1.3.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/libraries/adodb.class.php 2 eventosportugal.pt
+/aveicabo1/wp-content/uploads/2012/10/aresent05.jpg 1 -
+/css.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/_tbs.php 2 -
+/wp-json/oembed/1.0/embed 1 -
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento001.jpg 1 -
+/portfolio_page/ekenabay-saco-embalagem/ 2 http://invisual.pt/embalagem/
+/edic_03.swf 1 -
+/js/fr.php 52 -
+/testeali/wp-content/themes/bridge/bridge/css/elegant-icons/style.min.css 2 http://invisual.pt/testeali/about/
+/wp-content/uploads/2013/07/feira002.jpg 1 -
+/wp-content/uploads/2013/10/salpoente.jpg 1 -
+/wp-content/uploads/2016/08/tv_mais_lf_0001.jpg 3 https://www.google.pt/
+/wp-admin/css/export.php 2 http://invisuais.pt/wp-admin/css/export.php
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento004.jpg 1 -
+/show.php 2 invisual.pt
+/site/tmp/cTivrC.php 2 invisual.pt
+/error-log.php 2 invisual.pt
+/wp-content/themes/blogfolio/themify/js/utils.js 1 http://www.google.com/
+/wp-content/uploads/2016/04/marca_metalegi-1.jpg 3 -
+/wp-content/plugins/hello-dolly/mssqli.php 3 eventosportugal.pt
+/google6e54f45643c0c273.html 1 -
+/smart_aqua_eng/wp-content/themes/twentyfifteen/404.php 2 -
+/html/xmlrpc.php 1 http://invisual.pt/html/xmlrpc.php
+/wp-content/uploads/wysija/themes/Gassrini/herewgo.php 6 -
+/wp-content/uploads/2013/07/RODAPE_rapidsol_1-600x530.jpg 1 -
+/wp-content/uploads/2016/04/video_leonor_reis.jpg 3 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento007.jpg 1 -
+/wp-content/plugins/mailcwp/js/mailcwp-admin.js 2 -
+/udd.php 5 -
+/smart_aqua/wp-content/themes/epic/includes/download.php 1 -
+// 1 -
+/smart_aqua_eng/wp-content/cilik.php 1 -
+/wp-content/uploads/2013/10/1111.jpg 1 http://invisual.pt/old54321/apresentacao/
+/wp-content/plugins/another-wordpress-classifieds-plugin/AWPCP.po 3 -
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 2 -
+/wp-content/uploads/2016/08/miss_mar_fotografia003.jpg 1 -
+/wp-content/plugins/front-end-upload/destination.php 6 -
+/wp-content/uploads/2016/04/maldita_rotulo001.jpg 2 -
+/wp-content/uploads/2016/04/video_OPTICA_NASCIMENTO.jpg 2 -
+/portfolio_page/litoral-fashion-lux/ 7 http://invisual.pt/imprensa-escrita/
+/wp-content/themes/DailyDeal/style.css 1 http://invisual.pt/wp-content/themes/DailyDeal/style.css
+/smart_aqua_eng/index.inc.php 1 -
+/wp-content/uploads/2016/04/novo_smart_005.jpg 1 -
+/testeali/wp-includes/js/comment-reply.min.js 2 http://invisual.pt/testeali/about/
+/wp-content/themes/felis/download.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/php/timthumb.php 2 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia003.jpg 2 -
+/video_gallery.xml 1 -
+/unimadeiras/wp-includes/css/dashicons.min.css 1 -
+/magmi/web/plugin_upload.php 5 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_010.jpg 1 -
+/aveiroexpo/site/calendario-pea-2012/ 2 -
+/wp-content/uploads/2013/07/iso27001.jpg 1 -
+/portfolio_page/montages-metalegi 4 -
+/wp-content/plugins/wp-symposium/server/php/cMzummlLBQGgsS.php 1 -
+/wp-content/plugins/evarisk/include/js/uploadify/jquery.uploadify.js 2 -
+/wp-configuration.php 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 4 -
+/portfolio_page/ekena-bay-revista-flash/ 2 -
+/portfolio_page/salpoente-revista_must/ 3 http://invisual.pt/imprensa-escrita/
+/aveiroexpo/js/jquery.overlabel.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2013/07/footer_preto.png 1 -
+/metalegi01/metalegi/ 1 -
+/portfolio_page/litoral-fashion/ 2 -
+/portfolio_page/agner-service 1 -
+/wp-content/plugins/font-uploader/fontFunctions/fu_script.js 2 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/glass/ 1 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-conferencia/ 1 -
+/apple-touch-icon.png 12 -
+/unimadeiras/wp-includes/js/jquery/ui/widget.min.js 1 -
+/wp-content/plugins/stats-counter/template/css/counter_style.css 1 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_01.jpg 1 -
+/televisao/ 17 -
+/aveiroexpo/site/aveiro-expo-servicos/ 1 -
+/ekenabay/shop/shop-2/trendy/trendy-modelo-f/ 1 -
+/portfolio_page/crisalida-fotografia/ 4 -
+/aveiroexpo/js/superfish.min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/embalagem/ 11 -
+/wp-content/uploads/2016/08/alital_webdesign002.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/img_x.php 2 -
+/wp-content/plugins/font-uploader/font-uploader-free.php 2 -
+/wp-content/uploads/2016/04/video_EKENABAY.jpg 1 -
+/wp-content/themes/central/js/custom_js.php 3 http://invisual.pt/aveiroexpo/
+/cp.php 2 -
+/portfolio_page/colegio-portugues-catalogo/ 7 http://invisual.pt/paginacao-invisual/
+/wp-content/plugins/sfn.php 2 -
+/sql_dump.php 3 -
+/RoseLeif.php 2 invisual.pt
+/aveiroexpo/site/imprensa/imprensa-feiras/ 1 -
+/wp-content/themes/404.php 1 -
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/jahat.php 1 -
+/wp-content/uploads/2013/10/logo_royal_school.jpg 6 -
+/cache/cache_aqbmkwwx.php 2 invisual.pt
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento003.jpg 1 -
+/includes/u2p.php 2 invisual.pt
+/smart_aqua_eng/wp-content/themes/twentysixteen/404.php 2 -
+/wp-content/plugins/brandfolder/callback.php 2 -
+/smart_aqua/wp-content/themes/smartaqua/tools/timthumb.php 6 -
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento006.jpg 1 -
+/wp-content/plugins/wp-symposium/server/php/ 1 -
+/portfolio_page/miss-mar-ekena-bay-fotografia/ 6 http://invisual.pt/fotografia-invisual/
+/wp-content/uploads/2016/08/colegio_portugues_0006.jpg 1 -
+/aveiroexpo/programa_ti_s_.pdf 2 -
+/smart_aqua_eng/wp-admin/includes/wp-themes.phpz9 1 -
+/imprensa-escrita/ 6 -
+/unimadeiras/wp-content/themes/theme_pizzarte/lib/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 1 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento006.jpg 1 -
+/smart_aqua/%3Fpage_id%3D21&amp 1 -
+/conteudo/plugins/wordpress-seo/css/inside-editor-331.min.css/fonts.googleapis.com/css 67 http://invisual.pt/wp-admin/post.php
+//modules/mod_simplefileuploadv1.3/elements/udd.php 3 http://invisual.pt//modules/mod_simplefileuploadv1.3/elements/udd.php
+/wp-content/plugins/wysija-newsletters/readme.txt 1 -
+/sitemap_index.xml 8 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_feira_de_marco2013.jpg 4 -
+/up.php 10 -
+/wp-main.php 2 invisual.pt
+/html/wp-content/uploads/2011/08/big_top_image6.jpg 1 -
+/wp-content/uploads/2016/04/identidade_unimadeiras.jpg 3 -
+/portfolio_page/bmw-aveiro 3 -
+/testeali/wp-includes/js/wp-embed.min.js 2 http://invisual.pt/testeali/about/
+//wp-content/plugins/woocommerce-product-options/includes/image-upload.php 3 http://invisual.pt//wp-content/plugins/woocommerce-product-options/includes/image-upload.php
+/wp-content/plugins/wpstorecart/lgpl.txt 3 -
+/smart_aqua_eng/wp-content/themes/twentyeleven/404.php 2 -
+/aveiroexpo/site/mapa-do-site/ 1 -
+/wp-content/themes/twentyeleven/download.php 4 -
+/portfolio_page/framboesa-identidade/ 3 http://invisual.pt/identidade/
+/wp-content/uploads/2016/04/pizzarte0009.jpg 1 -
+/wp-content/uploads/2016/04/novo_smart_007.jpg 1 -
+/wp-admin/edit-error-tags.php 1 http://eventosport.com/wp-admin/edit-error-tags.php
+/wp-content/plugins/bookshelf/includes/js/jquery-asyncUpload-0.1/swfupload.js 2 -
+/portfolio_page/tv-ria/ 2 http://invisual.pt/identidade/
+/testeali/wp-content/uploads/2016/06/ambiente-domino_0000_Domino.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/wp-conns.php 3 invisual.pt
+/aveiroexpo/sector_comercial.pdf 2 -
+/aveiroexpo/pavilhao_a.html 1 -
+/evento_serie_7-3/ 2 -
+/.well-known/assetlinks.json 20 -
+/media/404.php 2 invisual.pt
+/wp-content/plugins/justified-image-grid/download.php 1 -
+/monte.php 3 eventosportugal.pt
+/wp-content/plugins/wp-handy-lightbox/jquery.touchwipe.min.js 2 -
+/.well-known/apple-app-site-association 19 -
+/smart_aqua/%3Fpage_id%3D33&amp 4 -
+/wp-content/uploads/2016/08/colegio_portugues_outdoor_002.jpg 1 -
+/wp-admin/css/themes.php 2 http://www.google.com/
+/portfolio_page/litoral-fashion-tv-guia/ 2 -
+/wp-admin/css/layour/function.php 1 http://www.google.com/
+/wp-content/uploads/2016/04/bosch_paginacao002.jpg 1 -
+/wp-content/plugins/fcchat/default.png 3 -
+/wp-content/uploads/2016/04/catalogo_meivcore_001.jpg 2 -
+/wp-content/uploads/2013/10/salpoente_reportagem_lm_21.jpg 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-manhattan_.jpg 6 http://alital.pt/wp-admin/admin.php
+/images/google-assist.php 2 invisual.pt
+/weight-loss-plans/cache/gif/mssqli.php 2 http://www.google.com/
+/smart_aqua_eng/wp-content/themes/twentyten/404.php 2 -
+/wp-content/themes/echelon/lib/scripts/dl-skin.php 9 -
+/ekenabay/shop/2012/06/26/ 1 -
+/wp-content/uploads/sfn.php 2 -
+/wp-content/plugins/google-analytics-analyze/google-analytics.js 2 -
+/manager/FCKeditor 7 http://invisual.pt/manager/FCKeditor
+/portfolio_page/ekenabay-identidade/ 5 -
+/portfolio_page/future-cityscapes/ 3 -
+/images/robots.txt.php 2 invisual.pt
+/backup/wp-admin/setup-config.php 1 -
+/wp-content/uploads/2016/04/novo_smart_009.jpg 1 -
+/portfolio_page/pizzarte-25oaniversario/ 3 http://invisual.pt/eventos-invisual/
+/m.php 1 -
+/wp-content/themes/photocrati-theme%202/style.css 1 http://www.google.com/
+/wp-content/plugins/spotlightyour/js/timer.js 2 -
+/smart_aqua_eng/.libs.php 1 -
+/wp-content/plugins/front-end-upload/lib/plupload/examples/upload.php 9 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/flags/en@2x.png 1 -
+/xGSx.php 3 -
+/images/404.php 2 invisual.pt
+/unimadeiras/wp-includes/js/thickbox/thickbox.css 1 -
+/testeali/wp-content/themes/bridge/bridge/css/linea-icons/style.css 2 http://invisual.pt/testeali/about/
+/Jijle3.php 1 -
+/administrator/dbconfig.php 3 -
+/portfolio_page/civilria-outdoor/ 1 http://invisual.pt/outdoor/
+/wp-content/plugins/wpfoot.php 3 -
+/html/archives/3453 2 -
+/ekenabay/shop-online/product-category/trendy/tk13001 2 -
+/unimadeiras/wp-content/themes/theme_pizzarte/css/media.queries.css 1 -
+/fotografia-invisual/ 14 -
+/blog/ 2 -
+/administrator/wp-conns.php 3 invisual.pt
+/portfolio_page/neoplast-catalogo/ 1 http://invisual.pt/paginacao-invisual/
+/modules/mod_simplefileuploadv1.3/elements/S4wdDb.php 1 -
+/testeali/wp-content/themes/bridge/css/linea-icons/style.css 1 http://invisual.pt/testeali/author/linairia/
+/wp-content/uploads/2016/08/cat_lardarte_0004.jpg 1 -
+/wp-content/uploads/2016/04/atz_webdesign004.jpg 1 -
+/admin/manager/Fckeditor 7 http://invisual.pt/admin/manager/Fckeditor
+/wp-content/uploads/2016/08/alital_webdesign007.jpg 1 -
+/portfolio_page/aveicabo/ 10 -
+/wp-content/uploads/2013/10/alital-web-portfolio.jpg 6 -
+/lib/uploadify/uploadify.swf 3 http://litoralfashion.pt/lib/uploadify/uploadify.swf
+/wp-content/uploads/2016/04/tv_ria.jpg 2 -
+/wp-content/uploads/2016/04/video_MEIVCORE.jpg 3 -
+/wp-content/uploads/2016/08/ilhamar_embalagem001.jpg 1 -
+/wp-cache.php.suspected_ 3 http://www.googlebot.com/bot.html
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto 2 -
+/wp-includes/css/modules.php 4 http://invisual.pt/wp-includes/css/modules.php
+/wp-config.php~ 5 -
+/testeali/wp-content/uploads/2016/06/ambiente-vertice_.jpg 6 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/08/Leonor_Reis.jpg 2 -
+/portfolio_page/adriano-carreira-webdesign/ 6 http://invisual.pt/webdesign/
+/portfolio_page/branding-pessoal-leonor-reis-video/ 5 -
+/html/archives/5360 3 -
+/wp-content/plugins/wp-editor/readme.txt 3 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0018.jpg 1 -
+/testeali/wp-content/themes/bridge/bridge/js/default.min.js 2 http://invisual.pt/testeali/about/
+/smart_aqua_eng/wp-content/plugins/akismet/akismet.php 2 -
+/wp-content/plugins/social-networking-e-commerce-1/js/effects.js 2 -
+/wp-content/uploads/2016/04/invisual_branding_solutions_-1.png 1 -
+/aveiroexpo/site/category/calendario-2011/ 1 -
+/home-in/ 8 -
+/includes.php 3 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento002.jpg 1 -
+/wp-content/plugins/reflex-gallery/scripts/prettyphoto/ReflexGalleryLoader.js 2 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 13 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/wp-content/uploads/2016/04/marca_rapidsol.jpg 2 -
+/wp-content/uploads/2016/08/cat_heliflex_0006.jpg 1 -
+/wp-content/plugins/arforms/js/colpick.js 2 -
+/wp-content/uploads/2016/04/ekenabay_2016_005.jpg 1 -
+/robot.php 2 invisual.pt
+/video/ 5 -
+/wp-content/uploads/2016/04/video_SALPOENTE.jpg 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/version.php 1 -
+/wp-content/uploads/2013/10/maldita.jpg 2 -
+/portfolio_page/atz/ 1 -
+/wp-content/plugins/contus-hd-flv-player/selectuser.js 2 -
+/aveiroexpo/site/imprensa/imprensa-institucional/ 1 -
+/testeali/wp-content/uploads/2016/04/Pulchra-1.jpg 1 -
+/web_manage/fckeditor 7 http://invisual.pt/web_manage/fckeditor
+/testeali/wp-content/uploads/2016/06/ambiente-safira_.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/atz_webdesign005.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 7 -
+/wp-cron.php 1 -
+/portfolio_page/litoral-magazine-webdesign/ 6 -
+/wp-content/uploads/2016/04/framboesa_webdesign001.jpg 2 https://www.google.com.br/
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento002.jpg 1 -
+/E.php 1 -
+/wp-content/uploads/2016/08/cat_lardarte_0001.jpg 1 -
+/cache/support.php 2 invisual.pt
+/wp-content/uploads/2016/04/marca_aveicabo.jpg 1 -
+/blog/xmlrpc.php 2 -
+/gelo.php 1 -
+/tmp.php 8 -
+/wp-content/plugins/wp-property/action_hooks.php 3 -
+/portfolio_page/litoral-fashion 1 -
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento005.jpg 1 -
+/wp-content/uploads/2013/07/iso9001.jpg 1 -
+/hoteldassalinas/wp-content/uploads/2015/04/museu-ilhavo-700x865@2x.jpg 1 -
+/portfolio_page/colegio-portugues-identidade/ 3 http://invisual.pt/identidade/
+/portfolio_page/smart-aqua/ 4 -
+/wp-content/uploads/2016/08/novo_classe_E_004.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/img_x.php 6 -
+/smart_aqua_eng/budak.php 1 -
+/feed/ 59 -
+/wp-content/themes/churchope/lib/downloadlink.php 22 -
+/smart_aqua/wp-content/themes/twentyfifteen/404.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/timthumb.php 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-7.jpg 1 -
+/wp-content/uploads/2016/08/ekenabay_embalagem001.jpg 1 -
+/portfolio_page/litoral-fashion-inpeople 1 -
+/novo2/portfolio/ekena-bay-video-oficial-2016-2/ 2 -
+/aveiroexpo/farav2010_regulamento.pdf 1 -
+/portfolio_page/optica-nascimento/ 4 -
+/hosteldoalboi/en/santorini-five-reasons-to-visit-the-beautiful-greek-island-2/ 1 -
+/config.bak 1 -
+/civilria2/ 1 -
+/smart_aqua/wp-content/themes/trinity/lib/scripts/download.php 1 -
+/wp-content/uploads/2016/06/video_exporlux.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-4.jpg 1 -
+/wp-content/uploads/2016/04/framboesa_webdesign004.jpg 1 -
+/wp-content/uploads/2016/08/adriano_carreira_embalagem001.jpg 1 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto012.jpg 1 -
+/aveiroexpo/programa_frilac2011.pdf 2 -
+/testeali/wp-content/uploads/2016/05/ambiente-kea.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/08/marca_festival_dos_canais.jpg 1 -
+/wp-smtp.php 4 http://invisual.pt/wp-smtp.php
+/images/stories/gass.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/libs/timthumb.php 2 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/index.php 12 -
+/edic_05.swf 1 -
+/portfolio_page/feira-de-marco-identidade/ 9 http://invisual.pt/identidade/
+/wp-content/uploads/2016/04/slide_FM2016-1.jpg 1 -
+/libraries/respectMuslims.php 1 -
+/portfolio_page/colegio-portugues-webdesign/ 5 http://invisual.pt/webdesign/
+/novo2/portfolio/optica-nascimento-lindeberg/ 1 http://invisual.pt/novo2/wp-admin/post.php
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-5.jpg 1 -
+/portfolio_page/mercentro/ 5 -
+/images/sym.php 1 -
+/app/Mage.php 2 -
+/aveiroexpo/sector_diversao.pdf 1 -
+/wp-content/uploads/2016/04/socertima_insercao-1.jpg 4 https://www.google.pt/
+/hotelaveirocenter//wp-content/plugins/delete-all-comments/delete-all-comments.php 2 http://investissement-locatif-intelligent.fr//wp-content/plugins/delete-all-comments/delete-all-comments.php
+/portfolio_page/lake-evento/ 3 http://invisual.pt/eventos-invisual/
+/wp-content/themes/nuance/js/admin.js 2 -
+/ekenabay/shop-online/product-category/curvy/fb13102 1 -
+/wp-content/uploads/2016/08/cat_lardarte_0006.jpg 1 -
+/wp-import.php 3 http://litoralfashion.pt/wp-import.php
+/wp-content/uploads/2016/08/cat_lardarte_0007.jpg 1 -
+/ekenabay/shop/2012/09/ 1 -
+/html/ 3 -
+/images/stories/xsamxadoo.php 1 -
+/logs.asp 2 invisual.pt
+/wordpress/wp-admin/setup-config.php 1 -
+/images/stories/gh.php 1 -
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 2 -
+/html/gallery/fotografia-moda-crisalida-02 1 -
+/images/upa.php 1 -
+/portfolio_page/alital-producao-fotografica/ 1 -
+/marketing-digital/ 3 -
+/fonts.googleapis.com 1 -
+/wp-content/plugins/contus-video-gallery/hdflvplayer/download.php 1 -
+/portfolio_page/litoral-fashion-tv-guia-2 1 -
+/wp-content/plugins/php-analytics/tinymce/phpanalytics.js 2 -
+/portfolio_page/ipmd-identidade/ 6 http://invisual.pt/identidade/
+/portfolio_page/salpoente-video/ 3 -
+/wp-content/uploads/2016/04/meivcore_webdesign002-1.jpg 1 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 1 -
+/wp-content/plugins/post-meta/assets/js/ui/jquery.ui.mouse.js 2 -
+/wp-content/uploads/2016/06/video_Dia_da_Crianca_2015.jpg 3 -
+/smart_aqua_eng/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/metalegi01/ 2 -
+/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css 6 http://invisual.pt/aveiroexpo/
+/images/edic03/thumbs/joel03.jpg 1 -
+/wp-content/plugins/weever-apps-20-mobile-web-apps/static/js/config/wx.tabtypes.js 2 -
+/wp-content/uploads/2016/04/novo_smart_008.jpg 1 -
+/smart_aqua_eng/wp-content/themes/twentythirteen/404.php 2 -
+/wp-content/uploads/2016/04/identidade_salpoente.jpg 1 -
+/wp-content/themes/central/css/stylesheet.css 9 -
+/wp-content/plugins/ultimate-member/assets/js/um-account.js 2 -
+/smart_aqua/wp-content/themes/smartaqua/js/timthumb.php 6 -
+/wp-admin/images/mssqli.php 1 http://invisuais.pt/wp-admin/images/mssqli.php
+/smart_aqua/admin/file_manager.php/login.php 4 -
+/wp-content/uploads/2013/10/estrategia.jpg 1 -
+/portfolio_page/ekena-bay-revista-vip-08-de-maio-2016/ 3 http://invisual.pt/imprensa-escrita/
+/unimadeiras/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/wp-content/uploads/2016/08/colegio_portugues_outdoor_004.jpg 1 -
+/portfolio_page/ekena-bay-paginacao/ 2 -
+/smart_aqua/%3Fpage_id%3D40&amp 4 -
+/components/adodb.class.php 2 eventosportugal.pt
+/civilria/boas_festas_civilria.gif 2 -
+/aveiroexpo/js/cufon-yui.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/server/php/ 1 -
+/wp-content/plugins/paypal-currency-converter-basic-for-woocommerce/proxy.php 2 -
+/u.php 1 -
+/wp-content/uploads/2016/04/marca_feira_de_marco.jpg 2 -
+/portfolio_page/metalegi-iberica-identidade/ 9 -
+/testeali/wp-includes/js/jquery/jquery-migrate.min.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/testeali/wp-content/themes/bridge/bridge/js/custom_js.js 1 http://invisual.pt/testeali/about/
+/wp-content/plugins/revslider/sfn.php 2 -
+/'\"` 2 http://www.google.com/'\"`
+/edic06_joel.swf 1 -
+/wp-content/plugins/mdc-youtube-downloader/includes/download.php 2 -
+/ekenabay/shop-online/product-category/trendy/bk13005 2 -
+/aveiroexpo/site/frilac/ 1 -
+/portfolio_page/asas-identidade/ 2 http://invisual.pt/identidade/
+/portfolio_page/exporlux-no-museu-nacional-do-azulejo/ 3 http://invisual.pt/video/
+/testeali/wp-content/plugins/LayerSlider/static/skins/lightskin/ 3 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0011.jpg 1 -
+/wp-content/uploads/2015/07/adriano_carreira.jpg 1 -
+/author/ricardo/ 2 -
+/portfolio_page/litoral-magazine-paginacao/ 6 -
+/wp-content/themes/infocus/lib/scripts/dl-skin.php 19 -
+/portfolio_page/cerveja-maldita-embalagem/ 8 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/index.php 12 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/db.php 4 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento006.jpg 1 -
+/wp-content/uploads/2016/04/marca_grupo_alboi.jpg 3 http://invisual.pt/old54321/portfolio_page/grupo-alboi-identidade/
+/aveiroexpo/dossier_imprensa_farav09.pdf 1 -
+/wp-content/uploads/2016/08/lf_2018_rtp.jpg 1 -
+/wp-content/uploads/2013/07/newsletter_32aniversario-600x2274.jpg 1 -
+/aveiroexpo/site/portfolio/2-pavilhoes/ 1 -
+/portfolio_page/litoral-awards/ 5 http://invisual.pt/eventos-invisual/
+/portfolio_page/litoral-awards-2/ 4 http://invisual.pt/identidade/
+/aveiroexpo/programa_festa_freguesias.pdf 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 8 -
+/wp-content/plugins/sharexy/js/buzz.js 2 -
+/wp-content/uploads/wp-conns.php 3 invisual.pt
+/portfolio_page/rapidsol/ 1 -
+/portfolio_page/lindeberg-optica-nascimento-fotografia/ 2 -
+/wp-content/themes/central/img/prettyPhoto/facebook/default_thumbnail.gif 1 http://invisual.pt/wp-content/themes/central/css/stylesheet.css
+/smart_aqua/admin/banner_manager.php/login.php 7 -
+/aveiroexpo/images/mapas/mapa_gr.html 1 -
+/testeali/wp-content/themes/bridge/css/print.css 1 http://invisual.pt/testeali/author/linairia/
+/wp-content/uploads/2016/08/litoral_magazine.jpg 1 -
+/hoteldassalinas/wp-content/uploads/2015/06/destaque-vagos-sensation-700x865@2x.jpg 1 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_008.jpg 2 -
+/aveicabo1/noticias/ 1 -
+/aveiroexpo/agrovouga2010_fic_inscr.pdf 1 -
+/wp-content/uploads/2016/08/litoral_awards_porto_canal_reportagem.jpg 2 -
+/wp-content/plugins/g-translate/googletranslate-style16.css 2 -
+/email.php 2 invisual.pt
+/wp-content/uploads/2016/04/pizzarte0011.jpg 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0010.jpg 1 -
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 4 -
+/blog/robots.txt 5 -
+/wp-content/plugins/levelfourstorefront/scripts/administration/dbuploaderscript.php 9 -
+/portfolio_page/pizzarte-webdesign/ 4 http://invisual.pt/webdesign/
+/wp-content/uploads/2016/04/civilria_andar_modelo_004.jpg 1 -
+/wp-content/uploads/2015/07/colegio_portugues2.jpg 1 -
+/wp-content/plugins/func.php 2 -
+/wp-content/fmp-jw-files/configs/mssqli.php 3 eventosportugal.pt
+/wp-content/themes/satoshi/js/contact-form-process.js 2 -
+/html/archives/5387 1 -
+/wp-content/uploads/2016/04/in_claudia_costela_.jpg 1 -
+/portfolio_page/metalegi 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia011.jpg 1 -
+/wp-content/uploads/2016/08/colegio_portugues_0000.jpg 1 -
+/smart_aqua_eng/wp-content/plugins/ibs-mappro/lib/download.php 1 -
+/wp-content/uploads/2015/01/biorumo.jpg 1 -
+/wp-admin/admin.php 14 -
+/optica/giorgio-armani-2008/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 2 -
+/wp-config.phpa 1 -
+/wp-content/themes/semplice/js/admin.js 2 -
+/wp-content/plugins/gallery-slider/assets/js/jquery.gallery.js 2 -
+/wp-content/uploads/2016/04/marca_aveiro_expo-1.jpg 1 -
+/wp-content/plugins/smart-videos/js/video.js 2 -
+/smart_aqua_eng/wp-content/themes/twentytwelve/404.php 2 -
+/testeali/wp-includes/js/wp-emoji-release.min.js 3 http://invisual.pt/testeali/author/linairia/
+/wp-content/uploads/2016/08/salpoente_foto_produto0003.jpg 1 -
+/lyb.php 1 -
+/smart_aqua/wp-content/themes/MichaelCanthony/download.php 1 -
+/bookmark.php 4 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto010.jpg 1 -
+/unimadeiras/wp-includes/js/underscore.min.js 1 -
+/insidepipe2/portfolio/with-text/page/2/ 3 -
+/testeali/wp-content/themes/bridge/bridge/css/style_dynamic.css 1 http://invisual.pt/testeali/about/
+/wp-admin/adodb.class.php 2 eventosportugal.pt
+/smart_aqua/wp-content/themes/twentythirteen/404.php 1 -
+/wp-content/uploads/2016/08/imprensa_caras_exporlux0000-1.jpg 1 https://www.google.pt/
+/ekenabay/shop-online/product-category/trendy/bk13011 1 -
+/html/gallery/fotografia-arquitectura-mariana-urbanizacao 2 -
+/wp-content/plugins/revslider/temp/update_extract/wp-cache.php 3 http://www.googlebot.com/bot.html
+/aveiroexpo/sector_exposicao.pdf 1 -
+/wp-content/themes/awake/lib/scripts/dl-skin.php 13 -
+/wp-content/uploads/2013/07/mssqli.php 3 eventosportugal.pt
+/historial.swf 1 -
+/wp-content/uploads/2016/04/renault-entreposto-a-fontes-2.jpg 4 -
+/wp-content/uploads/2016/08/identidade_vr2p.jpg 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico011.jpg 1 -
+/aveiroexpo/site/category/calendario-2012-2/ 1 -
+/wp-content/uploads/2016/04/framboesa_webdesign003.jpg 1 -
+/smart_aqua/wp-admin/admin-ajax.php 7 -
+/support.php 2 http://invisuais.pt/support.php
+/smart_aqua_eng/wp-content/themes/invisual/img.php 2 -
+/wp-content/themes/lote27/download.php 6 -
+/portfolio_page/ekena-bay-revista-nova-gente/ 1 http://invisual.pt/imprensa-escrita/
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/myluph.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php 1 -
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/ctrl.php 1 -
+/ekenabay/shop-online/product-category/trendy/fb13003 1 -
+/wp-content/uploads/2016/08/lux_18_fev_0001.jpg 1 -
+/headers/ 11 http://invisual.pt/headers/
+/wp-content/uploads/2016/08/adrianocarreira_fotografia002.jpg 1 -
+/error-logs.php 2 -
+/rebranding-da-empresa-socertima/ 7 -
+/unimadeiras/wp-content/themes/theme_pizzarte/style.css 1 -
+/category/design/ 2 -
+/wp-content/uploads/2013/09/logo_mercentro1.jpg 1 -
+/portfolio_page/marc-jacobs-optica-nascimento/ 4 http://invisual.pt/fotografia-invisual/
+/wp-content/plugins/wp-easybooking/js/jquery.tinyscrollbar.min.js 2 -
+/mssqli.php 3 eventosportugal.pt
+/libraries/wp-conns.php 3 invisual.pt
+/portfolio_page/litoral-awards-porto-canal-reportagem/ 3 -
+/images/defau1t.php 2 invisual.pt
+/wp-content/uploads/2016/08/civilria_outdoor_000_C.jpg 1 -
+/wp-content/uploads/2016/04/cat_bosch_0000.jpg 1 -
+/wp-content/themes/elegance/lib/scripts/dl-skin.php 18 -
+/portfolio_page/ekenabay 1 -
+/testeali/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/administrator/webconfig.txt.php 2 invisual.pt
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-6.jpg 1 -
+/wp-config%20fix.txt 1 -
+/inc/uploadify/uploadify.swf 2 http://invisual.pt/inc/uploadify/uploadify.swf
+/wp-content/uploads/2016/08/salpoente_foto_produto0008.jpg 1 -
+/wp-content/themes/linenity/functions/download.php 5 -
+/edic08_eliana.xml 1 -
+/apple-touch-icon-120x120.png 2 -
+/wp-config.php.save 4 -
+/wp-info.php 1 -
+/wp-content/plugins/downloads-manager/page-download-template.tpl 1 -
+/wp-content/uploads/2016/04/socertima_insignia.jpg 2 -
+/bogel.php 7 -
+/wp-content/plugins/gwolle-gb/frontend/captcha/ajaxresponse.php 2 -
+/portfolio_page/aveiro-expo/ 1 -
+/nktt.php 1 -
+/portfolio_page/leonor-reis-identidade/ 2 http://invisual.pt/identidade/
+/portfolio_page/exporlux-imprensa-escrita-visao/ 3 http://invisual.pt/imprensa-escrita/
+/smart_aqua_eng/wp-content/themes/invisual/framework/scripts/timthumb.php 2 -
+/aveiroexpo/ 8 -
+/webconfig.txt.php.suspected 2 invisual.pt
+/aveiroexpo/js/LiberationSans.font.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/portfolio_page/optica-nascimento-video/ 6 http://invisual.pt/video/
+/portfolio_page/matsuri-fotografia/ 2 -
+/ekenabay/shop-online/product-category/trendy/bk13002 2 -
+/smart_aqua_eng/wp-includes/wp-xmlrpc.php 1 -
+/wp-content/uploads/2016/08/cat_lardarte_0005.jpg 2 -
+/libraries/joomla/zipy.php 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0014.jpg 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/css/skin.css 1 -
+/html 2 -
+/aveiroexpo/js/jquery.cluetip.min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/sys/Sym.php 2 http://www.google.com/
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 2 -
+/testeali/wp-content/uploads/2016/04/Pulchra-3-1.jpg 1 -
+/aveiroexpo/site/xix-automobilia/ 2 -
+/wp-content/uploads/2016/08/eurogres_fotografia015.jpg 1 -
+/editar 2 -
+/wp-content/plugins/the-viddler-wordpress-plugin/js/plupload/examples/upload.php 5 -
+/wp-content/uploads/2016/08/catal_neoplast_0005.jpg 1 -
+/wp-content/uploads/2016/08/nuno_carvalho_INvisual.jpg 2 -
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 24 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes/ 3 -
+/smart_aqua/wp-content/themes/twentysixteen/404.php 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/swipe.js 1 -
+/portfolio_page/spcv-webdesign/ 4 -
+/images/w0rm.php 1 -
+/wp-content/uploads/2016/08/cmvidas_0001.jpg 1 -
+/portfolio_page/grupo-alboi-identidade 1 -
+/wp-includes/theme-compat/productid/mssqli.php 3 eventosportugal.pt
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 9 -
+/admin_manage/fckeditor 7 http://invisual.pt/admin_manage/fckeditor
+/wp-content/uploads/2016/04/maldita_embalagem001.jpg 1 -
+/testeali/wp-content/themes/bridge/bridge/js/jquery.touchSwipe.min.js 1 http://invisual.pt/testeali/about/
+/wp/ 2 -
+/tiny_mce/plugins/tinybrowser/upload_file.php 5 -
+/wp-content/uploads/2016/04/marca_ipmd.jpg 2 -
+/optica/oculos-de-sol-2/oculos-de-sol-chanel-2/ 1 -
+/wp-content/uploads/2016/04/meivcore_webdesign006-1.jpg 1 -
+/wp-content/plugins/use-your-drive/includes/jquery-file-upload/server/php/ 1 -
+/shootme.php 2 invisual.pt
+/hotelaveirocenter/wp-content/plugins/delete-all-comments/readme.txt 1 http://invextgroup.com//wp-content/plugins/delete-all-comments/readme.txt
+/wp-content/themes/construct/lib/scripts/dl-skin.php 5 -
+/vmskdl44rededd 4 -
+/wsdl.php 2 invisual.pt
+/wp-content/plugins/really-simple-guest-post/simple-guest-post-submit.php 6 -
+/wp-content/uploads/sucuri/mssqli.php 3 eventosportugal.pt
+/edic_10_gio.swf 1 -
+/testeali/wp-content/themes/bridge/bridge/js/lemmon-slider.min.js 1 http://invisual.pt/testeali/about/
+/aveiroexpo/site/aveiro-noivos-2012/ 1 -
+/testeali/wp-content/plugins/js_composer/assets/css/js_composer.min.css 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/testeali/wp-content/themes/bridge/bridge/css/font-awesome/css/font-awesome.min.css 2 http://invisual.pt/testeali/about/
+/wp-content/uploads/2016/08/salpoente_webdesign004.jpg 1 -
+/11.php 2 -
+/wp-content/plugins/adodb.class.php 2 eventosportugal.pt
+/testeali/wp-content/themes/bridge/js/plugins.js 1 http://invisual.pt/testeali/author/linairia/
+/wp-content/uploads/2016/04/ekenabay_2016_foto007.jpg 5 -
+/aveiroexpo/site/congressos-e-convencoes/auditorio/ 2 -
+/wp-content/plugins/text-hover/text-hovers.php 2 http://invisual.pt/wp-content/plugins/text-hover/text-hovers.php
+/wp-content/plugins/revslider/temp/update_extract/sfn.php 2 -
+/update/update/js/js.php 1 http://invistobem.com/update/update/js/js.php
+/wp-content/uploads/2016/08/novo_classe_E_003.jpg 2 -
+/wordpress/ 2 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/portfolio_page/restaurante-salpoente/ 2 -
+/wp-includes/insmod.php 1 -
+/wp-content/themes/central/css/responsive.min.css 7 -
+/novo2/not_found 1 -
+/images/head.php 2 invisual.pt
+/portfolio_page/litoral-awards-2015-video/ 2 http://invisual.pt/video/
+/portfolio_page/ekenabay-correio-da-manha/ 5 -
+/portfolio_page/portucel-soporcel-video/ 4 -
+/wp-content/uploads/2016/08/salpoente_webdesign001-1.jpg 1 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_de_exposicao.pdf 1 -
+/wp-content/uploads/2016/04/novo_smart_003.jpg 1 -
+/wp-admin/includes/class-wp-filesystem-ftpext.php 1 http://eventospnl.com/wp-admin/includes/class-wp-filesystem-ftpext.php
+/portfolio_page/video-oficial-ekena-bay-2016/ 2 -
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/version.php 1 -
+/wp-content/uploads/2016/04/framboesa_webdesign002.jpg 1 -
+/portfolio_page/ekenabay-c-m-vidas/ 9 http://invisual.pt/imprensa-escrita/
+/html/archives/5225 1 -
+/sitemap.xml 5 -
+/wp-content/plugins/delete-all-comments/delete-all-comments.php 2 -
+/wp-content/themes/trinity/lib/scripts/download.php 7 -
+/wp-content/uploads/2016/04/marca_meia_maratona.jpg 2 -
+/wp-content/uploads/2016/08/cat_heliflex_0004.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13101 1 -
+/template.swf 7 -
+/wp-data.php 2 invisual.pt
+/smart_aqua/wp-content/themes/twentytwelve/404.php 1 -
+/wp-content/plugins/google-maps-by-daniel-martyn/js/gmbdm.js 2 -
+/testeali/wp-content/themes/bridge/bridge/css/style_dynamic_responsive.css 1 http://invisual.pt/testeali/about/
+/wp-content/plugins/wp-filemanager/incl/libfile.php 5 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_013.jpg 2 -
+/admin/fckeditor 7 http://invisual.pt/admin/fckeditor
+/testeali/wp-content/plugins/LayerSlider/static/css/layerslider.css 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/ensaio-sls/ 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/index.php 12 -
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 3 -
+/aveiroexpo/programa_educacao.pdf 1 -
+/portfolio_page/mercedes-sls-mercentro/ 4 http://invisual.pt/fotografia-invisual/
+/unimadeiras/wp-content/themes/theme_pizzarte/js/modernizr.min.js 1 -
+/wp-content/uploads/2013/10/festival-dos-canais-muppie-w.jpg 3 -
+/portfolio_page/litoral-awards-14-porto-canal/ 3 http://invisual.pt/televisao/
+/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/server/php/index.php 7 -
+/smart_aqua_eng/cache/.libs.php 1 -
+/wp-content/plugins/wp-homepage-slideshow/functions.php 3 -
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 3 -
+/wp-content/plugins/magic-fields/MF_Constant.php 3 -
+/portfolio_page/leonor-reis-sic-mulher/ 3 -
+/aveiroexpo/js/jquery.scrollTo-min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/libraries/joomla/wso.php 1 -
+/wp-snapshots/tmp/mssqli.php 3 eventosportugal.pt
+/wp-content/uploads/2016/08/alital_webdesign004.jpg 1 -
+/images/stories/0day.php 3 -
+/portfolio_page/agner-service/ 2 -
+/hotelaveirocenter/wp-content/uploads/2015/04/grupoAlboi_logotipos@2x.gif 1 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto001.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_de_diversao.pdf 1 -
+/wp-content/uploads/2016/04/framboesa_webdesign005.jpg 1 -
+/aveiroexpo/js/supersubs.min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/portfolio_page/bosch-video/ 4 http://invisual.pt/video/
+/wp-content/plugins/share-buttons-wp/css/style.css 2 -
+/smart_aqua/wp-content/themes/felis/download.php 1 -
+/wp-content/uploads/2015/07/3D_montages_metalegi.jpg 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0001.jpg 1 -
+/wp-content/uploads/2016/08/novo_classe_E_008.jpg 1 -
+/tmp/setup.php 1 http://invisuais.pt/tmp/setup.php
+/wp-content/uploads/2016/08/tv_7_dias_litoral_fashion_20_fev_2008_0001.jpg 1 -
+/wp-content/plugins/wpmarketplace/readme.txt 6 -
+/unimadeiras/wp-includes/js/jquery/ui/mouse.min.js 1 -
+/portfolio_page/o-dia-mercentro-video/ 3 -
+/wp-content/uploads/2016/04/renault_2016_foto005.jpg 1 https://www.google.pt/
+/wp-content/uploads/2016/04/marca_salpoente.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/bk13108 1 -
+/wp-content/uploads/files/guest/wp-cache.php 3 http://www.googlebot.com/bot.html
+/smart_aqua/wp-content/themes/smartaqua/libs/timthumb.php 6 -
+/smart_aqua/wp-content/plugins/contus-video-gallery/hdflvplayer/download.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/carochas-284x186.jpg 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-box_.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento004.jpg 1 -
+/testeali/author/linairia/ 1 -
+/ekenabay/shop-online/product-category/trendy/bk13007 3 -
+/smart_aqua_eng/wp-admin/admin-ajax.php 2 -
+/wp-content/uploads/2016/08/correio_manha_13_04_2016_EK_0000.jpg 1 -
+/wp-content/uploads/2016/04/novo_smart_002.jpg 1 -
+/html/archives/449 2 -
+/icon_lf.ico 9 -
+/js/uploadify/uploadify.swf 3 http://litoralfashion.pt/js/uploadify/uploadify.swf
+/smart_aqua/wp-content/plugins/hello.php 1 -
+/wp-content/uploads/2016/04/catal_ekenabay_0000.jpg 2 -
+/WHM 1 -
+/portfolio_page/bmw/ 1 -
+/wp-content/uploads/2016/04/video_COLEGIO_PORTUGUES.jpg 4 -
+/wp-admin/css/css.php 1 http://invistobem.com/wp-admin/css/css.php
+/kk.php 1 -
+/ekenabay/shop-online/product-category/curvy/bk13105 2 -
+/html/archives/5642 2 -
+/aveiroexpo/site/simposio-nacional-de-artes-e-oficios/ 1 -
+/html/gallery/fotografia-moda-editorial-joias-verdegreen 1 -
+/wp-content/uploads/2015/08/logo_spcv.jpg 1 -
+/testeali/wp-content/themes/bridge/bridge/style.css 2 http://invisual.pt/testeali/about/
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento000.jpg 1 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 5 -
+/portfolio_page/unimadeiras-identidade/ 11 http://invisual.pt/identidade/
+/wp-content/uploads/2016/04/ekenabay_2016_foto013.jpg 2 -
+/wp-content/uploads/2016/04/renault_2016_foto007.jpg 1 -
+/cache/cachee.php 2 invisual.pt
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 6 -
+/portfolio_page/vr2p-web/ 3 -
+/category/noticias/ 2 -
+/testeali/wp-content/plugins/LayerSlider/static/js/ 3 -
+/infos.php 2 invisual.pt
+/ekenabay/shop/shop-2/product-category/curvy/ 1 -
+/portfolio_page/meivcore-webdesign/ 5 http://invisual.pt/webdesign/
+/wp-content/uploads/2016/04/bosch_paginacao005.jpg 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 14 -
+/wp-content/themes/authentic/includes/download.php 7 -
+/admin/categories.php/login.php 1 -
+/xmlrpc.php 603 -
+/apple-touch-icon-152x152.png 1 -
+/mdocs-posts/ 10 -
+/wp-content/uploads/2016/08/alital_webdesign001.jpg 1 -
+/html/archives/5227 2 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia006.jpg 2 -
+/tmp/pz.php 1 -
+/portfolio_page/w-uniforms-identidade/ 5 http://invisual.pt/identidade/
+/wp-content/uploads/2016/08/tvguia_LF_agosto2008_0001.jpg 1 -
+/xup.php 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/xxx.php 1 -
+/force-download.php 1 -
+/wp-content/uploads/2016/04/bosch_paginacao003.jpg 1 -
+/blog//xmlrpc.php 2 -
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/version.php 1 -
+/wp-content/uploads/2016/08/miss_mar_fotografia004.jpg 1 -
+/wp-content/themes/mTheme-Unus/css/css.php 11 -
+/sonatah.php 2 http://www.google.com/
+/wp-content/uploads/2016/08/ekenabay_sicmulher.jpg 1 -
+/wp-content/uploads/2016/04/pizzarte0008.jpg 1 -
+/smart_aqua/%3Fpage_id%3D29&amp 1 -
+/portfolio_page/feira-de-marco-2016-outdoor/ 8 http://invisual.pt/outdoor/
+/wp-admin/includes/themes.phpx1 1 -
+/wp-content/themes/urbancity/lib/scripts/download.php 6 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia001.jpg 2 -
+/apple-touch-icon-152x152-precomposed.png 1 -
+/wp-admin/blog/admin-ajax.php 5 -
+/wp-content/plugins/user-photo/admin.css 2 -
+/wp-content/plugins/seo-keyword-page/js/pager.js 2 -
+/wp-content/uploads/2016/08/Asas.jpg 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/preview/wp-admin/options-link.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/05/aveiro.jpg 1 -
+/skin/adminhtml/ 2 -
+/wp-admin/maint/mssqli.php 3 eventosportugal.pt
+/testevgg/tag/nature/ 1 https://www.google.com.br/
+/wp-content/plugins/s3bubble-amazon-s3-html-5-video-with-adverts/assets/plugins/ultimate/content/downloader.php 3 -
+/active.php 1 -
+/symlink_3.php 1 http://invisuais.pt/symlink_3.php
+/wp-content/themes/method/lib/scripts/dl-skin.php 5 -
+/hoteldassalinas/wp-content/uploads/2015/04/salinas-footer@2x.png 1 -
+/html/archives/5634 2 -
+/wp-content/plugins/document_manager/views/file_download.php 2 -
+/wp-content/plugins/dropbox-backup/template/css/tool-bar.css 1 -
+/portfolio_page/dia-da-crianca-2015/ 3 http://invisual.pt/video/
+/wp-content/plugins/myshe.php 2 invisual.pt
+/wp-content/plugins/user-avatar/readme.txt 1 -
+/wp-config.bak 1 -
+/plugins/wp-conns.php 3 invisual.pt
+/unimadeiras/wp-content/themes/theme_pizzarte/css/main.css 1 -
+/portfolio_page/w-uniforms/ 1 -
+/wp-content/plugins/wp-seo-spy-google/ofc/js/swfobject.js 2 -
+/wp-content/plugins/wpshop/includes/ajax.php 13 -
+/portfolio_page/litoral-fashion-2008-tvi/ 1 http://invisual.pt/televisao/
+/wp-content/uploads/2016/04/renault_2016_foto002.jpg 1 -
+/testeali/wp-includes/js/jquery/jquery.js 3 http://invisual.pt/testeali/author/linairia/
+/wp-content/plugins/ibs-mappro/lib/download.php 2 -
+/.libs.php 7 -
+/wp-content/uploads/2016/09/video_susana_lopes.jpg 1 -
+/wp-content/themes/famous/megaframe/js/cufon.js 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 1 -
+/testeali/wp-content/themes/bridge/bridge/css/print.css 2 http://invisual.pt/testeali/about/
+/wp-content/force-download.php 5 -
+/ekenabay/shop-online/product-category/trendy/bk13004 1 -
+/ekenabay/shop-online/product-category/trendy/fb13002 2 -
+/ekenabay/shop/2012/05/9/ 1 -
+/wp-content/uploads/2016/04/ekena-bay-carolina-loureiro.jpg 7 http://invisual.pt/old54321/
+/html/feed/ 6 -
+/portfolio_page/pizzarte 1 -
+/testeali/wp-content/themes/bridge/bridge/js/plugins.js 2 http://invisual.pt/testeali/about/
+/images/stories/a.php 1 -
+/rebranding-da-marca-alital/ 1 -
+/aveiroexpo/images/mapas/mapa_horario.html 1 -
+/validate.php 2 http://invistobem.com/validate.php
+/grid-gallery/ 3 http://invisual.pt/grid-gallery/
+/hoteldassalinas/wp-content/uploads/wpcf7_captcha/3739729985.png 6 -
+/modelin/ 8 -
+/wp-content/plugins/ninja-forms/ninja_forms.php 3 -
+/wp-content/uploads/2016/08/colegio_portugues_outdoor_000.jpg 2 https://www.google.pt/
+/portfolio_page/ekenabay-sic-mulher/ 1 http://invisual.pt/televisao/
+/portfolio_page/trincaxa-identidade/ 3 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia004.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/inc/thumb.php 2 -
+/testeali/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/wp-content/themes/central/js/plugins.js 4 -
+/not_found 4962 -
+/wp-content/uploads/2016/04/marca_adriano_carreira-2.jpg 1 -
+/wp-content/themes/central/scripts/doajaxfileupload.php 2 -
+/edic09_gil.swf 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/indra.php 1 -
+/magmi/ 2 -
+/wp-config. 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/borderlessdark3d/ 1 -
+/wp-content/plugins/front-end-editor/lib/aloha-editor/plugins/extra/draganddropfiles/demo/wp-classes.php 15 -
+/wp-content/themes/platform/admin/js/type.cufon.js 2 -
+/portfolio_page/stand-entreposto-a-fontes/ 3 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/jquery.jplayer.min.js 1 -
+/media/jss.php 1 -
+/metalegi01/wp-content/uploads/2013/04/apresentacao_ilust03.png 2 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/ 2 -
+/wp-content/uploads/2016/08/novo_classe_E_002.jpg 2 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_007.jpg 2 -
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/.libs.php 1 -
+/wp-content/uploads/2016/04/video_renault_megane.jpg 1 -
+/includes/uploadify/uploadify.swf 3 http://litoralfashion.pt/includes/uploadify/uploadify.swf
+/wp-content/plugins/revslider/temp/update_extract/revslider/ctrl.php 1 -
+/unimadeiras/wp-includes/js/shortcode.min.js 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-3.jpg 1 -
+/wp-content/uploads/2016/04/web_agner_SERVICE-1.jpg 4 -
+/portfolio_page/aveiro-expo-identidade/ 2 -
+/b1.php 1 -
+/default_component.php 1 -
+/wp-content/uploads/2016/08/salpoente_webdesign001.jpg 1 -
+/wp-content/plugins/mailchimp-integration/readme.txt 2 -
+/wp-content/uploads/2013/10/1.jpg 1 http://invisual.pt/old54321/apresentacao/
+/google-assist.php 2 invisual.pt
+/smart_aqua_eng/wp-content/plugins/hello.php 2 -
+/wp-content/uploads/2016/08/miss_mar_fotografia002.jpg 1 -
+/images/stories/3xp.php 1 -
+/smart_aqua/403.php 1 http://invisual.pt/smart_aqua/403.php
+/wp-content/uploads/2016/08/cat_ekenabay_0008.jpg 1 -
+/portfolio_page/daifer/ 3 -
+/smart_aqua/wp-content/plugins/akismet/akismet.php 1 -
+/log.php 2 invisual.pt
+/portfolio_page/susana-lopes-identidade/ 2 -
+/uploadify/uploadify.php 6 -
+/install.php 2 invisual.pt
+/images/stories/0d4y.php 1 -
+/wp-content/themes/folo/themify/js/utils.js 1 http://www.google.com/
+/wp-content/blog/secondaryphase/mdocs-posts/ 3 -
+/wp-content/uploads/2016/08/maldita_rotulo009.jpg 2 -
+/zibi.php 1 -
+/wp-content/themes/persuasion/lib/scripts/dl-skin.php 5 -
+/testeali/wp-content/uploads/2016/06/ambiente-mantis_.jpg 6 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento005.jpg 1 -
+/novo2/portfolio/unimadeiras-relatorio-de-contas-2/ 2 -
+/wp-content/plugins/zingiri-web-shop/admin.css 3 -
+/portfolio_page/feira-de-marco/ 3 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/superfish/superfish.js 1 -
+/smart_aqua/wp-content/themes/smartaqua/lib/scripts/timthumb.php 6 -
+/wp-content/uploads/2016/04/mockup_WEB_0001_invertido_litoral_magazine.jpg 11 -
+/wp-content/plugins/wp-employment/css/wpem.css 2 -
+/tmp/guide.php 1 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento001.jpg 1 -
+/wp-content/themes/central/js/default_dynamic.php 3 -
+/wp-content/plugins/ultimate-product-catalogue/js/get_sub_cats.js 2 -
+/wp-content/uploads/2016/08/alital_webdesign005.jpg 1 -
+/portfolio_page/alit-web/ 4 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 1 http://invisual.pt/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php
+/wp-content/uploads/2016/04/pizzarte0004.jpg 1 -
+/main_.php 3 eventosportugal.pt
+/wp-content/uploads/2016/04/civilria_andar_modelo_009.jpg 1 -
+/wp-content/uploads/2014/07/internet_atz1.jpg 1 -
+/wp-content/uploads/2013/10/ilust_home_p_civilria.jpg 2 -
+/edic09_eliana.swf 4 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_002.jpg 3 -
+/wp-content/uploads/2015/09/in_brand_joana_rato_2.jpg 1 -
+/portfolio_page/salpoente-revista-sabado/ 3 http://invisual.pt/imprensa-escrita/
+/wp-content/plugins/dzs-zoomsounds/style/style.css 2 -
+/wp-content/uploads/2016/08/socertima-Sabado_19.05.2016-1200x839.jpg 2 https://www.google.pt/
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 3 -
+/wp-content/uploads/2016/08/ilhamar_embalagem002.jpg 3 -
+/portfolio_page/adriano-carreira-embalagem/ 8 -
+/unimadeiras/wp-includes/js/thickbox/thickbox.js 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-smile_.jpg 5 http://alital.pt/wp-admin/admin.php
+/zebda.php 1 -
+/wp-content/plugins/db-backup/download.php 9 -
+/wp-config.backup 1 -
+/wp-content/uploads/2016/08/catal_neoplast_0003.jpg 1 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/flags/es@2x.png 1 -
+/wp-content/uploads/2016/12/wp-cache.php 3 http://www.googlebot.com/bot.html
+/wp-content/themes/MichaelCanthony/download.php 1 -
+/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php 5 -
+/wp-content/plugins/cherry-plugin/admin/js/import.js 2 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_011.jpg 2 -
+/smart_aqua/wp-content/themes/smartaqua/functions/timthumb.php 6 -
+/smart_aqua_eng/wp-includes/wp-script.php 1 -
+/portfolio_page/boca-torta/ 2 http://invisual.pt/identidade/
+/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php 2 -
+/ekenabay/shop-online/product-category/trendy/bk13001 3 -
+/wp-content/uploads/Fbrrchive.php 2 invisual.pt
+/aveiroexpo/site/wp-content/uploads/2011/05/ 2 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/prettyphoto/js/jquery.prettyPhoto.js 1 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_016.jpg 2 -
+/portfolio_page/socertima-jornal-de-negocios/ 8 https://www.google.pt/
+/aveicabo1/wp-content/uploads/2012/10/climatizacao021.jpg 1 -
+/portfolio_page/salpoente-identidade/ 1 -
+/images/wp-mail.php 1 -
+/wp-content/plugins/user-meta/readme.txt 3 -
+/wp-content/themes/medianews-theme/scripts/admin/custom.js 2 -
+/wp-content/uploads/2015/02/in_brand_lina_iria3.jpg 2 -
+/wp-content/uploads/2016/08/cat_heliflex_0000.jpg 1 -
+/unimadeiras/wp-includes/js/comment-reply.min.js 1 -
+/wp-content/uploads/2016/04/novo_smart_004.jpg 1 -
+/wp-content/uploads/2016/04/marca_ek-1.jpg 2 -
+/smart_aqua_eng/wp-content/themes/twentyfourteen/404.php 2 -
+/apple-touch-icon-precomposed.png 9 -
+/colaboradores.htm 1 -
+/smart_aqua/%3Fpage_id%3D25&amp 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0015.jpg 1 -
+/thumb.php 2 invisual.pt
+/html/archives/5351 1 -
+/wp-admin/css/c3ll.php 1 http://www.google.com/
+/aveicabo1/wp-content/uploads/2012/10/aresent03.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 12 -
+/wp-content/uploads/2016/04/identidade_confeitaria_framboesa.jpg 3 -
+/colegioportugues/bem-vindo/regulamento-interno/ 3 http://colegioportugues.pt/inscricoes/
+/aveiroexpo/js/jquery.cycle.all.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/paginacao-invisual/ 4 -
+/testeali/wp-content/uploads/2016/04/Pulchra-4.jpg 1 -
+/wp-content.php 7 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 1 -
+/wp-content/uploads/2016/08/outdoor_fest_canais_00000.jpg 2 -
+/wp-content/uploads/2016/04/atz_webdesign003.jpg 1 -
+/novo2/portfolio/lardarte-catalogo-2/ 2 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_003.jpg 1 -
+/wp-content/themes/brainstorm/functions/jwpanel/scripts/uploadify/uploadify.css 1 http://invisual.pt/wp-content/themes/brainstorm/functions/jwpanel/scripts/uploadify/uploadify.css
+/portfolio_page/exporlux-imprensa-escrita-caras-ideias/ 2 http://invisual.pt/imprensa-escrita/
+/oksofas/ 10 -
+/portfolio_page/bosch-paginacao/ 7 http://invisual.pt/paginacao-invisual/
+/wp-conns.php 3 invisual.pt
+/images/stories/u.php 1 -
+/wp-content/uploads/2016/04/renault_2016_foto001.jpg 1 -
+/images/stories/s.php 1 -
+/wp-content/plugins/wp-admin-icons/includes/icons-scripts.js 2 -
+/images/p.php 1 -
+/smart_aqua_eng/wp-link.php 1 -
+/aveiroexpo/ficha_de_inscr2010.pdf 1 -
+/html/archives/466 2 -
+/optica/ 1 -
+/templates/wp-conns.php 3 invisual.pt
+/administrator/includes/readmy.php 2 invisual.pt
+/wp-content/plugins/wpfootes.php 2 invisual.pt
+/ekenabay/shop-online/product-category/trendy/bk13009 1 -
+/images/stories/shell.php 1 -
+/media/tmp.php 3 -
+/wp-content/plugins/custom-content-type-manager/index.html 2 -
+/aveiroexpo/site/feira-de-outlet/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_comercial.pdf 1 -
+/portfolio_page/unimadeiras-rel-contas/ 1 -
+/wp-content/common.php 3 eventosportugal.pt
+/smart_aqua/wp-content/themes/smartaqua/timthumb.php 6 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/preview/ 2 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto006.jpg 2 -
+/wp-content/plugins/designradar/inc/uploadify/uploadify.css 2 -
+/hoteldassalinas/wp-content/uploads/2015/03/destaque-studio-700x865@2x.jpg 1 -
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css 2 http://invisual.pt/portfolio_page/branding-pessoal-leonor-reis-video/
+/wp-content/plugins/wp-footers.php 2 invisual.pt
+/portfolio_page/litoral-fashion-tv-guia-2/ 1 http://invisual.pt/imprensa-escrita/
+/wp-content/uploads/2014/12/boas_festas_INvisual_800px-600x973.jpg 3 -
+/wp-content/plugins/revslider/rs-plugin/css/settings.css 2 http://invisual.pt/portfolio_page/branding-pessoal-leonor-reis-video/
+/wp-content/uploads/2016/04/marca_fonte_nova.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/timthumb.php 2 -
+/portfolio_page/metalegi/ 1 -
+/wp-content/themes/gallery/style.css 1 http://www.google.com/
+/testeali/wp-content/themes/bridge/bridge/js/ScrollToPlugin.min.js 2 http://invisual.pt/testeali/about/
+/statistique_evolution.php 2 -
+/update.php 12 -
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo/ 2 -
+/programs/statistique_evolution.php 2 -
+/wp-content/uploads/2013/07/pdf002-600x144.jpg 1 -
+/ekenabay/shop/portfolioentry/ana-2/ 1 -
+/portfolio_page/eurogres-produto/ 8 -
+/portfolio_page/meivcore-video/ 5 http://invisual.pt/video/
+/smart_aqua/wp-content/themes/smartaqua/img.php 6 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-pt@2x.png 1 -
+/wp-admin/options-link.php 5 -
+/hotelaveirocenter/wp-content/uploads/2015/04/turismo-de-portugal_footer@2x.png 1 -
+/wp-content/monte.php 3 eventosportugal.pt
+/wp-content/uploads/2016/04/ekenabay_2016_foto003.jpg 6 https://www.google.pt/
+/plugins/uploadify/uploadify.swf 2 http://invisual.pt/plugins/uploadify/uploadify.swf
+/wp-content/uploads/2013/09/ekenabay1.jpg 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 3 http://invisual.pt/category/noticias/
+/portfolio_page/litoral-fashion-tv-7-dias/ 2 http://invisual.pt/imprensa-escrita/
+/upload.php 5 -
+/aveiroexpo/js/jquery.localscroll-min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/images/upxx.php 1 -
+/robots.txt.php 2 invisual.pt
+/wp-admin/tools.php 14 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 8 -
+/portfolio_page/exporlux-imprensa-escrita-caras-decoracao 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0002.jpg 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/borderlessdark/ 1 -
+/smart_aqua_eng/wp-content/themes/404.php 1 -
+/testeali/wp-content/plugins/mousewheel-smooth-scroll/js/wpmss.php 1 http://invisual.pt/testeali/about/
+/smart_aqua/wp-content/themes/smartaqua/includes/timthumb.php 6 -
+/wp-content/uploads/2016/08/destaque_vr2p_consultoria.jpg 2 -
+/smart_aqua_eng/wp-admin/includes/themes.phpx1 1 -
+/wp-content/uploads/2013/10/logo_rodape.png 1 -
+/smart_aqua_eng/wp-admin/options-link.php 1 -
+/wp-content/uploads/adodb.class.php 2 eventosportugal.pt
+/images/al277.php 2 invisual.pt
+/media/1ndex.php 2 invisual.pt
+/wp-content/plugins/wp-mobile-detector/resize.php 3 -
+/wp-content/plugins/candidate-application-form/downloadpdffile.php 6 -
+/wp-content/uploads/2016/04/web_spcv-2.jpg 4 -
+/libraries/joomla/css.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/wp-cache.php 3 http://www.googlebot.com/bot.html
+/wp-content/plugins/./simple-image-manipulator/controller/download.php 4 -
+/subscriptions/ 1 -
+/portfolio_page/colegio-portugues/ 3 -
+/base-html/ 3 http://invisual.pt/base-html/
+/wp-content/uploads/2016/08/salpoente_foto_produto0005.jpg 1 -
+/smart_aqua/wp-content/themes/TheLoft/download.php 1 -
+/https:/www.googletagmanager.com/ns.html 16 -
+/aveiroexpo/site/portfolio/ 2 -
+/testeali/wp-content/themes/bridge/bridge/js/qode-like.min.js 2 http://invisual.pt/testeali/about/
+/images/xxx.php 2 invisual.pt
+/portfolio_page/restaurante-salpoente 3 -
+/portfolio_page/litoral-fashion-inpeople/ 2 http://invisual.pt/imprensa-escrita/
+/portfolio_page/litoral-fashion-tv-mais/ 6 -
+/wp-content/uploads/2016/08/catal_neoplast_0002.jpg 1 -
+/wp-content/uploads/2015/04/soraia-duarte.jpg 1 -
+/portfolio_page/grupo-alboi/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 6 -
+/images/xxu.php 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia012.jpg 1 -
+/wp-content/plugins/CCSlider/js/slider-init.js 2 -
+/portfolio_page/agner/ 8 -
+/nov2 1 -
+/sites/all/libraries/elfinder/files/S4wdDb.php 1 -
+/wp-content/plugins/wp-popup/wppopupincludes/js/wppopup.js 2 -
+/wp-content/plugins/ip-logger/js/tabs.css 2 -
+/sfn.php 4 -
+/ekenabay/shop-online/product-category/curvy/bk13106 1 -
+/wp-admin/includes/themes.php 4 -
+/wp-content/uploads/2016/04/cat_meivcore_003.jpg 1 -
+/wp-content/uploads/2016/08/cat_lardarte_0003.jpg 1 -
+/smart_aqua_eng/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/myluph.php 1 -
+/wp-content/uploads/S4wdDb.php 1 -
+/wp-content/uploads/2016/08/adrianocarreira_fotografia009.jpg 2 https://www.google.pt/
+/wp-content/uploads/2016/08/eurogres_fotografia003.jpg 1 -
+/wp-content/uploads/2013/10/natalia.jpg 1 -
+/wp-content/uploads/2016/04/maldita_rotulo004.jpg 3 https://www.google.pt/
+/aveiroexpo/site/wp-content/uploads/2012/05/Agrovouga2012_ficha_inscri%C3%A7%C3%A3o.pdf 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/borderlesslight/ 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js 2 -
+/wp-content/uploads/2016/08/salpoente_webdesign002.jpg 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/sermonmedia.js 1 -
+/portfolio_page/epa-embalagem/ 1 http://invisual.pt/embalagem/
+/html/gallery/fotografia-veiculos-mercedes-classe-e-coupe 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia014.jpg 1 -
+/wp-content/plugins/memphis-documents-library/readme.txt 3 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0017.jpg 1 -
+/wp-content/themes/parallelus-salutation/framework/utilities/download/getfile.php 5 -
+/authenticating.php 2 invisual.pt
+/ekenabay/shop-online/author/ekenabay/ 1 -
+/wp-content/uploads/2016/04/cat_ekenabay_0001-1.jpg 1 -
+/aveiroexpo/site/ 21 -
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 2 -
+/wp-content/uploads/2013/07/pdf003-600x167.jpg 1 -
+/wp-content/themes/wp-avatar/admin/uploadify/uploadify.css 1 http://www.google.com/
+/html/gallery/design-outros-gesconect 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia007.jpg 1 -
+/portfolio_page/salpoente-fotografia/ 1 http://invisual.pt/fotografia-invisual/
+/html/gallery/3d-aveiro-park 1 -
+/wp-content/plugins/use-your-drive/includes/jquery-file-upload/server/php/index.php 13 -
+/popup-pomo.php 4 -
+/portfolio_page/civilria-webdesign/ 6 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/defaultskin/ 4 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto009.jpg 1 -
+/media/css.php 1 -
+/media/jmail.php 1 -
+/wp-includes/theme-compat/mssqli.php 3 eventosportugal.pt
+/aveicabo1/wp-content/uploads/2012/10/aresent01.jpg 1 -
+/wp-content/plugins/wp-e-commerce/license.txt 3 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/preview/wp-admin/admin-ajax.php 5 -
+/aveiroexpo/site/wp-content/uploads/2011/07/ 2 -
+/smart_aqua/wp-content/themes/smartaqua/thumb.php 6 -
+/alboi/wp-content/plugins/cssigniter-shortcodes/themes/default/css/css3.css 1 -
+/wp-content/themes/infocus2/lib/scripts/dl-skin.php 5 -
+/wp-config-backup1.txt 1 -
+/wp-content/themes/NativeChurch/download/download.php 5 -
+/wp-content/uploads/2016/08/vip_8maio-site.jpg 1 -
+/wp-content/uploads/2016/08/civilria_outdoor_005.jpg 1 https://www.google.pt/
+/testeali/wp-content/uploads/2016/04/Pulchra-2.jpg 1 -
+/portfolio_page/entreposto-a-fontes-video/ 7 -
+/uploadify/uploadify.swf 2 http://invisual.pt/uploadify/uploadify.swf
+/portfolio_page/grupo-alboi 1 -
+/wp-content/uploads/2016/04/outdoor_ferro_001.jpg 2 -
+/Abbrevsprl.php 3 -
+/smart_aqua/wp-content/themes/smartaqua/framework/scripts/timthumb.php 6 -
+/html/gallery/3d-abril 1 -
+/wp-content/plugins/robotcpa/f.php 2 -
+/wp-config.txt 1 -
+/hotelaveirocenter/wp-content/uploads/2015/04/grupoAlboi_footer@2x.png 1 -
+/blog/wp-admin/admin-ajax.php 5 -
+/testeali/wp-content/themes/bridge/bridge/css/stylesheet.min.css 2 http://invisual.pt/testeali/about/
+/sqlbak.php 2 invisual.pt
+/wp-content/plugins/Fbrrchive.php 2 invisual.pt
+/portfolio_page/meivcore/ 7 http://invisual.pt/paginacao-invisual/
+/wp-content/uploads/2016/04/alital-1.jpg 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0020.jpg 1 -
+/wp-content/plugins/svg-vector-icon-plugin/admin/js/upgrade-page-script.js 2 -
+/wp-content/uploads/2016/04/video_BOSCH.jpg 3 -
+/portfolio_page/exporlux-imprensa-escrita-caras-decoracao/ 6 http://invisual.pt/imprensa-escrita/
+/blog/wp-admin/setup-config.php 1 -
+/novo2/portfolio/litoral-magazine-revista-trimestral-2/ 2 -
+/wp-content/assets/themes/plugins/uploadify/uploadify.php 5 -
+/aveiroexpo/images/mapas/mapaaveiro.html 1 -
+/testeali/wp-content/uploads/2016/04/Pulchra-5.jpg 1 -
+/wp-content/themes/TheLoft/download.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-icon_0000_ambiente-icon_0001_Icon-2-1.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/pizzarte_webdesign003.jpg 1 -
+/adodb.class.php 2 eventosportugal.pt
+/portfolio_page/pizzarte-gins/ 6 -
+/edic05_joel.swf 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/timthumb.php 6 -
+/wp-content/plugins/image-export/download.php 2 -
+/components/wp-conns.php 3 invisual.pt
+/smart_aqua/wp-content/themes/smartaqua/plugins/timthumb.php 6 -
+/portfolio_page/fashion-tv-optica-nascimento/ 4 http://invisual.pt/fotografia-invisual/
+/wp-content/uploads/2016/08/colegio_portugues_outdoor_001.jpg 1 -
+/unimadeiras/wp-includes/js/jquery/ui/core.min.js 1 -
+/wp-content/plugins/simple-dropbox-upload-form/ 1 -
+/over.php 3 -
+/r3x.php 2 invisual.pt
+/wp-content/uploads/2016/04/ekenabay_2016_foto005.jpg 2 -
+/portfolio_page/ilhamar-embalagem/ 3 -
+/wp-content/uploads/2016/04/pizzarte001.jpg 1 -
+/wp-content/uploads/2016/04/marca_maldita-1.jpg 2 -
+/wp-admin/css/profile.php 1 https://www.hugedomains.com/domain_profile.cfm
+/wp-content/main_.php 2 litoralfashion.pt
+/functions.php 2 invisual.pt
+/testeali/wp-content/plugins/LayerSlider/static/js/greensock.js 2 http://invisual.pt/testeali/about/
+/testeali/wp-content/themes/bridge/bridge/js/jquery.mousewheel.min.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/http:/invisual.pt/wp-admin/admin-ajax.php 11 -
+/wp-content/plugins/wp-checkout/js/autoheight.js 2 -
+/app/etc/local.xml 1 -
+/wp-content/plugins/delete-all-comments/readme.txt 5 http://invgr.com/site//wp-content/plugins/delete-all-comments/readme.txt
+/bitrix/admin/ 1 -
+/webconfig.txt.php 2 invisual.pt
+/wp-content/plugins/dop-slider/libraries/js/jquery.uploadify.min.js 2 -
+/html/archives/446 3 -
+/goog1es.php 2 invisual.pt
+/wp-content/uploads/2016/04/ekenabay_2016_foto008.jpg 1 -
+/wp-content/themes/fusion/lib/scripts/dl-skin.php 5 -
+/wp-content/plugins/woocommerce-product-options/includes/image-upload.php 2 -
+/smart_aqua/wp-content/themes/twentyfourteen/404.php 2 http://invisual.pt/smart_aqua/wp-content/themes/twentyfourteen/404.php
+/wp-content/uploads/2015/07/internet_colegio_portugues.jpg 1 -
+/wp-content/uploads/2016/04/pizzarte_webdesign004.jpg 1 -
+/elements.php 3 -
+/wp-content/uploads/2016/06/Screen-Shot-2016-06-30-at-18.22.03.png 2 -
+/smart_aqua/wp-content/themes/twentyten/404.php 1 -
+/edic02_joel.swf 4 -
+/wp-content/uploads/2016/08/eurogres_fotografia016.jpg 1 -
+/wp-content/plugins/sql_dump.php 2 invisual.pt
+/wp-content/themes/central/css/custom_css.php 13 -
+/wp-content/uploads/2016/08/salpoente_webdesign006.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/11/ 1 -
+/config.php~ 1 -
+/media/mass.php 1 -
+/portfolio_page/adriano-carreira/ 7 -
+/wp-content/uploads/2013/04/logo_feira_de_marco_marca.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/inc/thumb.php 6 -
+/cache/defau1t.php 2 invisual.pt
+/wp-content/uploads/2015/05/in_brand_bruna_ferreira_.jpg 3 -
+/wp-installation.php 1 -
+/S4wdDb.php 1 -
+/portfolio_page/pizzarte/function.gethostbyaddr 2 -
+/wp-includes/wp-xmlrpc.php 8 -
+/wp-content/plugins/dukapress/lib/dp_image.php 5 -
+/eventos-invisual/ 3 -
+/tmp/sfx.php 1 -
+/wp-content/uploads/2014/02/mbc_2014.jpg 1 -
+/aveiroexpo/site 13 -
+/wp-content/uploads/2016/04/marca_ribsol-1.jpg 1 -
+/wp-content/uploads/2016/08/Litoral_Awards.jpg 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/v5/ 1 -
+/wp-content/themes/central/style.css 8 -
+/wp-content/uploads/2013/09/header_in.jpg 1 -
+/modules/wp-conns.php 3 invisual.pt
+/outdoor/js/lib/ccard.js 1 -
+/aveicabo/news/aveicabo.html 2 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao031.jpg 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/lib/revslider/rs-plugin/css/settings.css 1 -
+/html/archives/436 1 -
+/tmp/petx.php 1 -
+/bin/logo_img.php 1 -
+/wp-content/uploads/2016/04/meivcore_webdesign003-1.jpg 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/lib/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js 1 -
+/smartaqua/ 3 -
+/wp/wp-admin/setup-config.php 1 -
+/portfolio_page/fonte-nova-identidade/ 2 http://invisual.pt/identidade/
+/ekenabay/shop-online/product-category/curvy/bk13102 1 -
+//wp-content/plugins/jquery-html5-file-upload/jquery-html5-file-upload.php 3 http://invisual.pt//wp-content/plugins/jquery-html5-file-upload/jquery-html5-file-upload.php
+/wp-content/uploads/2016/08/eurogres_fotografia004.jpg 1 -
+/wp-content/plugins/Login-wall-etgFB/login_wall.php 5 -
+/portfolio_page/novo-classe-e-eventos-mercentro/ 8 -
+/wp-content/uploads/2016/04/boca_torta.jpg 2 -
+/hetlerx.php 1 -
+/meivcore/ 16 -
+/smart_aqua/%3Fpage_id%3D27&amp 1 -
+/buying-vitamin-b12/ 1 -
+/wp-content/plugins/front-end-editor/lib/aloha-editor/plugins/extra/draganddropfiles/demo/upload.php 15 -
+/user/ 1 -
+/N0WaY/N0WaY1bb2/N0WaY123.php 4 -
+/wp-content/uploads/2013/07/CABECALHO-600x372.jpg 1 -
+/wp-content/themes/realeswp/js/main.js 2 -
+/wp-content/plugins/maintenance-mode/languages/mssqli.php 3 eventosportugal.pt
+/wp-content/uploads/2016/08/ilhamar_embalagem003.jpg 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia010.jpg 1 -
+/smart_aqua_eng/js/lib/ccard.js 1 -
+/wp-content/themes/savior/js/audio-player.js 2 -
+/html/archives/5645 2 -
+/wp-content/uploads/2013/07/np4457.jpg 1 -
+/wp-content/uploads/2016/04/rev_litoral_magazine_0000.jpg 1 -
+/wp-content/uploads/2016/04/smart_aqua.jpg 3 -
+/smart_aqua_eng/wp-includes/log.php 1 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento003.jpg 1 -
+/ekenabay/shop-online/product-category/trendy/fb13004 3 -
+/aveiroexpo/programa_seminario_PFMC.pdf 2 -
+/wp-content/uploads/2016/04/renault_2016_foto006.jpg 2 -
+/wp-content/themes/neosense/js/contact.js 2 -
+/portfolio_page/colegio-portugues-outdoor/ 5 http://invisual.pt/outdoor/
+/aveiroexpo/site/2011/11/27/ 1 -
+/x.php 1 -
+/apple-app-site-association 24 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 13 -
+/ekenabay/shop-online/product-category/curvy/bk13107 2 -
+/wp-content/plugins/hb-audio-gallery-lite/gallery/audio-download.php 1 -
+/portfolio_page/confeitaria-framboesa-webdesign/ 7 http://invisual.pt/webdesign/
+/portfolio_page/litoral-awards-14-porto-canal 1 -
+/wp-content/plugins/wp-cache.php 5 http://www.googlebot.com/bot.html
+/aveiroexpo/programa_porto_aveiro.pdf 1 -
+/wp-content/uploads/2013/07/feira001.jpg 1 -
+/wp-content/themes/framework/library/js/checkout_cart_2.js 2 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 6 -
+/images/stories/filemga.php 1 -
+/wp-includes/include.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-heritage_.jpg 6 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/08/epa_embalagem001.jpg 1 -
+/wp-content/plugins/hb-audio-gallery-lite/readme.txt 3 -
+/wp-config.php.bak 4 -
+/portfolio_page/montages-metalegi/ 2 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/prettyphoto/css/prettyPhoto.css 1 -
+/ekenabay/shop-online/product-category/trendy/bk13008/http%3A 2 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento005.jpg 1 -
+/portfolio_page/unimadeiras-rel-contas 1 -
+/portfolio_page/mirador-business-center 2 -
+/wp-content/plugins/wp-image-news-slider/functions.php 3 -
+/wp-content/uploads/2016/08/novo_classe_E_005.jpg 1 -
+/aveiroexpo/js/jquery-1.4.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2013/07/invisual_icon.ico 2 -
+/wp-content/themes/adodb.class.php 2 eventosportugal.pt
+/wp-content/plugins/Materialnlns.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 7 -
+/promotores.swf 1 -
+/edic_06.swf 1 -
+/wp-content/uploads/2016/08/catal_neoplast_0001.jpg 1 -
+/optica/dior-2010-5/ 1 -
+/wp-content/uploads/2016/08/alital_webdesign003.jpg 1 -
+/wp-content/wfcache/phoenixtechsolution.com_portfolio-3/mssqli.php 3 eventosportugal.pt
+/wp-content/themes/photocrati-theme-v4.07/admin/README.txt 1 http://invisual.pt/wp-content/themes/photocrati-theme-v4.07/admin/README.txt
+/news.php 2 invisual.pt
+/portfolio_page/lsmedicall-web/ 7 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/preview/wp-admin/includes/themes.php 3 -
+/wp-content/plugins/ultimate-product-catalogue/product-sheets/wp-classes.php 10 -
+/wp-content/uploads/2016/04/atz_webdesign002.jpg 2 -
+/research.asp 1 http://eskisehirilanlari.net
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/plugins/dzs-videogallery/style/style.css 2 -
+/aveiroexpo/regulamento_fm2011.pdf 2 -
+/ekenabay/shop-online/product-category/trendy/bk13008 2 -
+/wp-content/plugins/site-import/admin/page.php 2 -
+/images/laj.php 2 invisual.pt
+/wp-content/uploads/2016/08/eurogres_fotografia002.jpg 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/arhy.php 1 -
+/unimadeiras/wp-includes/js/jquery/jquery.js 1 -
+/plugins/adodb.class.php 2 eventosportugal.pt
+/aveiroexpo/site/visitantes/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/xxx.php 1 -
+/wp-config.php.txt 1 -
+/wp-admin/class.gd-img.php 2 http://www.google.com/
+/wp-content/uploads/2013/10/stand_bmw.jpg 2 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0004.jpg 1 -
+/wp-content/themes/antioch/lib/scripts/download.php 6 -
+/wp-content/plugins/jquery-html5-file-upload/js/cors/jquery.xdr-transport.js 2 -
+/wp-config.php~~ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/timthumb.php 2 -
+/wp-includes/registration-functions.php 3 -
+/hotelaveirocenter/xmlrpc.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/image001-284x186.jpg 20 -
+/.well-known/dnt-policy.txt 1 -
+/aveiroexpo/site/2012/04/14/ 1 -
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 4 -
+/ekenabay/shop-online/product-category/trendy/bk13003 2 -
+/smart_aqua_eng/magic.php 1 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro/ 1 -
+/wordpress/wp-admin/admin-ajax.php 5 -
+/hh.php 1 -
+/images/1ndex.php 2 invisual.pt
+/wp-content/uploads/2016/04/litoralawards001_b.jpg 2 -
+/admin/ 1 -
+/portfolio_page/w-uniforms 1 -
+/edic_10.swf 1 -
+/portfolio_page/litoral-fashion-2005-sic-noticias/ 2 http://invisual.pt/televisao/
+/cache/news.php 2 invisual.pt
+/wp-config.php_old 1 -
+/portfolio_page/ribsol-identidade/ 6 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_005.jpg 1 -
+/wp-content/uploads/mssqli.php 3 eventosportugal.pt
+/wp-content/plugins/avchat-3-pro/m/js/backfix.min.js 2 -
+/wp-content/plugins/SocketIasrgasfontrol.php 2 invisual.pt
+/wp-admin/options-link.phpx1 1 -
+/wp-includes/adodb.class.php 2 eventosportugal.pt
+/html/archives/455 2 -
+/wp-content/plugins/wp-mobile-detector/readme.txt 3 -
+/portfolio_page/mercentro 2 -
+/wp-content/uploads/2016/08/cat_lardarte_0002.jpg 2 -
+/testeali/tag/art/ 1 -
+/testeali/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/aveicabo1/ 6 -
+/smart_aqua/wp-content/themes/smartaqua/php/timthumb.php 6 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 3 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0016.jpg 1 -
+/wp-admin/wp-conns.php 3 invisual.pt
+/portfolio_page/mercedes-sls-mercentro 1 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto002.jpg 2 -
+/ekenabay/shop-online/product-category/curvy/bk13103 2 -
+/ekenabay/shop-online/product-category/curvy/bk13104 2 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_012.jpg 1 -
+/portfolio_page/litoral-fashion-2008-rtp/ 2 http://invisual.pt/televisao/
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/indra.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/db.php 3 -
+/wp-content/plugins/wp-symposium/server/php/index.php 15 -
+/images/stories/webroot.php 1 -
+/admin2/fckeditor 7 http://invisual.pt/admin2/fckeditor
+/admin.php 6 -
+/wp-content/uploads/2016/08/trinca_xa.jpg 2 -
+/ws0.php 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031.jpg 1 -
+/wp-content/uploads/2016/08/litoral_awards_porto_canal.jpg 1 -
+/wp-content/uploads/2016/08/susana_lopes.jpg 2 -
+/ny.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/wp-content/plugins/levelfourstorefront/products/wp-classes.php 12 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/mailchimp-widget-min.js 1 -
+/wp-content/uploads/2016/08/colegio_portugues_outdoor_003.jpg 1 -
+/webdesign/ 3 -
+/wp-content/plugins/wp-filemanager/fm.php 3 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 13 -
+/smart_aqua_eng/errors.php 1 -
+/smart_aqua/wp-content/themes/twentyeleven/404.php 1 -
+/readme.html 7 http://invisual.pt/readme.html
+/wp-xmlrpc.php 7 -
+/wp-content/plugins/iwp-client/ZeroClipboard.js 1 -
+/help.php 2 -
+/portfolio_page/ekena-bay-fotografia/ 5 -
+/testeali/wp-content/themes/bridge/bridge/js/jquery.fullPage.min.js 2 http://invisual.pt/testeali/about/
+/html/archives/5624 2 -
+/maill.php 2 invisual.pt
+/portfolio_page/meivcore-stand/ 3 -
+/ekenabay/shop-online/product-category/curvy/fb13103 1 -
+/portfolio_page/adriano-carreira-espaco/ 7 http://invisual.pt/fotografia-invisual/
+/testeali/wp-content/plugins/LayerSlider/static/skins/fullwidthdark/ 2 -
+/wp-content/uploads/2016/08/miss_mar_fotografia001.jpg 1 -
+/html/archives/3440 3 -
+/wp-content/uploads/2016/08/novo_classe_E_006.jpg 1 -
+/admin/file_manager.php/login.php 4 -
+/aveiroexpo/js/jquery.bgiframe.min.js 10 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2016/04/identidade_colegio_portugues.jpg 4 https://www.google.pt/
+/wp-content/uploads/2016/04/pizzarte0010.jpg 1 -
+/sic-wp-content/themes/saengerjugend/footer.php 1 http://www.google.com/
+/wp-content/uploads/2016/04/eurogres_embalagem003.jpg 3 -
+/photocrati_ajax 5 -
+/wp-config-backup.txt 1 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/borderlesslight3d/ 1 -
+/wp-content/uploads/2016/04/marca_leonor_reis.jpg 1 -
+/civilria4/ 11 -
+/portfolio_page/feira-de-marco 1 -
+/wp-admin/admin-ajax.php 57 -
+/wp-content/uploads/2016/08/Flash-14-julho-ekena-bay-768x499.jpg 12 -
+/wp-content/plugins/contact-form-7/images/ajax-loader.gif 1 -
+/wp-content/adodb.class.php 2 eventosportugal.pt
+/wp-content/uploads/2016/08/litoralawards15.jpg 1 -
+/smart_aqua_eng/ 12 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 1 -
+/aveiroexpo/js/hoverIntent.min.js 11 http://www.farmaciacapaofilipe.com/apresentacao.html
+/mide.php 3 -
+/portfolio_page/adriano-carreira-identidade/ 3 http://invisual.pt/identidade/
+/wp-content/uploads/2016/04/marca_daifer-1.jpg 1 -
+/ekenabay/shop/portfolioentry/saude-e-bem-estar/ 1 -
+/wp-content/uploads/2016/04/video_FEIRADEMARCO.jpg 2 -
+/leonorreis/ 1 -
+/portfolio_page/agner-service-identidade/ 3 http://invisual.pt/identidade/
+/admin 1 -
+/html/archives/4867 1 -
+/wp-includes/class-comments.php 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-spark_-1.jpg 5 http://alital.pt/wp-admin/admin.php
+/testeali/wp-content/themes/bridge/css/stylesheet.min.css 1 http://invisual.pt/testeali/author/linairia/
+/ekenabay/shop-online/product-category/trendy/bk13006 2 -
+/unimadeiras/wp-admin/js/media-upload.min.js 1 -
+/administrator 1 -
+/wp-content/uploads/2016/04/socertima_insignia-600x340.jpg 1 https://www.google.pt/
+/edic_10_joel.xml 1 -
+/fonts.googleapis.com/css 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-kelly.jpg 5 http://alital.pt/wp-admin/admin.php
+/admin/login.php 1 -
+/wp-content/themes/wp-conns.php 3 invisual.pt
+/ekenabay/shop/portfolioentry/maria-3/ 1 -
+/programa_aveironoivos.pdf 1 -
+/wp-content/plugins/mac-dock-gallery/readme.txt 1 http://www.google.com/
+/ekenabay/shop-online/product-category/trendy/fb13001 2 -
+/wp-content/plugins/wp-front-end-repository/js/admin.js 2 -
+/html/archives/5333 2 -
+/images/stories/ali.php 1 -
+/wp-content/uploads/2016/08/novo_classe_E_000.jpg 2 -
+/smart_aqua_eng/jalang.php 1 -
+/sites/all/libraries/elfinder/files/wp-cache.php 3 http://www.googlebot.com/bot.html
+/wp-content/plugins/revslider/temp/update_extract/S4wdDb.php 1 -
+/wp-content/themes/GTD/inc/p2.js 2 -
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 3 -
+/smart_aqua/xmlrpc.php 2 -
+/m/ 2 -
+/wp-content/uploads/2016/04/feira-de-marco-muppie-2.jpg 3 http://invisual.pt/old54321/
+/404error.php 8 -
+/portfolio_page/atz-webdesign/ 5 -
+/insidepipe4/wp-content/uploads/2011/12/fundo1.jpg 1 -
+/wp-content/uploads/2016/08/lf_2018_tvi.jpg 1 -
+/edic04_reigota.swf 1 -
+/wp-content/plugins/history-collection/download.php 3 -
+/wp-cache.php 11 -
+/wp-content/uploads/2016/04/imprensa_salpoente_must0001.jpg 1 -
+/media/reads.php 2 invisual.pt
+/configbak.php 2 invisual.pt
+/portfolio_page/civilria-andar-modelo/ 8 -
+/html/wp-content/themes/visualmedia/images/sprites/navigation.png 1 -
+/wp-content/themes/epic/includes/download.php 6 -
+/buy-cheap-hydrochlorothiazide/ 1 -
+/testeali/wp-content/themes/bridge/bridge/js/default_dynamic.js 1 http://invisual.pt/testeali/about/
+/portfolio_page/icon-video/ 10 http://invisual.pt/video/
+/wp-content/uploads/2016/04/marca_mercentro-1.jpg 1 -
+/troubletickets-7-6/programs/statistique_evolution.php 2 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 3 -
+/up14.php 1 -
+/s.w.org 5 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 19 -
+/SessionController.php 2 invisual.pt
+/wp-content/uploads/2016/04/agner_insignia.jpg 1 -
+/administrator/administrator.php 2 invisual.pt
+/wp-content/uploads/2016/08/eurogres_fotografia006.jpg 1 -
+/tmp/bogel.php 1 -
+/config 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/arhy.php 1 -
+/wp-content/plugins/optin-tango/js/acc-wizard.min.js 2 -
+/unimadeiras/wp-includes/js/jquery/ui/sortable.min.js 1 -
+/N0Wccvvd333.php 4 -
+/wp-admin/css/upgrade.php 1 http://invisuais.pt/wp-admin/css/upgrade.php
+/wp-content/plugins/contus-hd-flv-player/uploadVideo.php 1 http://www.google.com/
+/m/portfolio_page/optica-nascimento/ 2 -
+/wp-includes/fonts/mssqli.php 3 eventosportugal.pt
+/wp-content/uploads/2016/08/recicla-ecovalor.jpg 2 -
+/js/lib/ccard.js 3 -
+/wp-content/uploads/wp-cache.php 3 http://www.googlebot.com/bot.html
+/testeali/wp-content/themes/bridge/bridge/js/jquery.carouFredSel-6.2.1.min.js 2 http://invisual.pt/testeali/about/
+/wp-content/uploads/2016/04/cat_meivcore_002.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb.php 2 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 10 -
+/testeali/wp-content/themes/bridge/bridge/js/ajax.min.js 2 http://invisual.pt/testeali/about/
+/wp-content/themes/estrutura-basica/scripts/download.php 2 -
+/aveiroexpo/dossier_imprensa_fm_09.pdf 1 -
+/wp-config.old 1 -
+/portfolio_page/litoral-fashion-jornal-de-noticias/ 4 http://invisual.pt/imprensa-escrita/
+/portfolio_page/grupo-alboi-identidade/ 10 http://insights.hotjar.com/p
+/edic_08.swf 1 -
+/dswat.org/wsdl.php 2 invisual.pt
+/contactus.swf 1 -
+/portfolio_page/recicla-ecovalor/ 5 http://invisual.pt/identidade/
+/wp-content/plugins/malapascua-agency/js/plupload/examples/upload.php 13 -
+/wp-content/themes/modular/lib/scripts/dl-skin.php 5 -
+/wp-content/plugins/wp-symposium/server/php/laAUJhKDHhfCPZ.php 1 -
+/portfolio_page/litoral-fashion-eventos/ 3 http://invisual.pt/eventos-invisual/
+/portfolio_page/rapidsol-identidade/ 3 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento001.jpg 1 -
+/wp-content/uploads/2016/04/marca_wuniforms.jpg 2 -
+/wp-content/uploads/2016/04/video_ICON.jpg 3 -
+/wp-content/uploads/2015/04/ricardo-rodrigues.jpg 1 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento002.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/tools/timthumb.php 2 -
+/smart_aqua_eng/%3Fpage_id%3D50&amp 4 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 5 -
+/portfolio_page/eurogres-embalagem/ 4 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0000.jpg 1 https://www.google.es/
+/smart_aqua_eng/wp-live.php 1 -
+/portfolio_page/feira-de-marco-video/ 1 http://invisual.pt/video/
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/love.php 1 -
+/fckeditor 7 http://invisual.pt/fckeditor
+/wp-admin/css/class-wp-upgrader.php 1 http://invistobem.com/wp-admin/css/class-wp-upgrader.php
+/images/stories/black.php 1 -
+/license.php 30 -
+/html/gallery/desdobraveis-edificio-park 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/petx.php 4 -
+/testeali/wp-content/themes/bridge/bridge/js/TweenLite.min.js 2 http://invisual.pt/testeali/about/
+/wordpress/wp-admin/admin.php 5 -
+/load.sumome.com 34 -
+/portfolio_page/maldita-identidade/ 4 http://invisual.pt/identidade/
+/portfolio_page/bmw-aveiro/ 2 -
+/wp-content/uploads/2016/04/video_PORTUCEL_SOPORCEL.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico021.jpg 1 -
+/portfolio_page/heliflex/ 4 -
+/wp-content/plugins/auto-attachments/a-a.css 3 -
+/ekenabay/shop-online/product-category/trendy/tk13002 2 -
+/wp-content/plugins/Analyser.php 2 invisual.pt
+/wp-content/uploads/quarantine/mssqli.php 3 eventosportugal.pt
+/common/fckeditor 7 http://invisual.pt/common/fckeditor
+/optica/gucci-2007-3/ 1 -
+/wp-content/plugins/fckeditor_for_wordpress/fckeditor 7 http://invisual.pt/wp-content/plugins/fckeditor_for_wordpress/fckeditor
+/testeali/wp-content/themes/bridge/bridge/css/responsive.min.css 2 http://invisual.pt/testeali/about/
+/wp-content/uploads/2016/04/cat_meivcore_005.jpg 1 -
+/wp-content/uploads/2016/04/novo_smart_000.jpg 1 -
+/smart_aqua_eng/wp-admin/options-link.phpx1 1 -
+/admin/banner_manager.php/login.php 7 -
+/wp-content/uploads/2015/07/litoral_awards.jpg 1 -
+/wp-content/plugins/SocketIontrol.php 4 -
+/blog/secondaryphase/mdocs-posts/ 5 -
+/portfolio_page/colegio-portugues 1 -
+/libraries/joomla/web.php 1 -
+/wp-content/themes/RealEstate/style.css 1 http://invisual.pt/wp-content/themes/RealEstate/style.css
+/outdoor/ 5 -
+/tmp/upxx.php 1 -
+/cod.php 2 -
+/portfolio_page/gesconect-identidade/ 2 http://invisual.pt/identidade/
+/portfolio_page/meia-maratona-identidade/ 8 http://invisual.pt/identidade/
+/wp-content/uploads/2016/08/eurogres_fotografia017.jpg 1 -
+/al277.php 2 invisual.pt
+/wp-content/themes/myriad/lib/scripts/dl-skin.php 5 -
+/wnhoitxg 1 -
+/portfolio_page/cerveja-maldita-rotulo/ 5 http://invisual.pt/embalagem/
+/wp-content/uploads/2016/08/alital_webdesign006.jpg 1 -
+/wp-content/themes/central/css/style_dynamic_responsive.php 9 -
+/cache/clean.php 1 -
+/wp-content/uploads/2013/10/salpoente-destaque.jpg 2 http://invisual.pt/old54321/
+/wp-config-backup 1 -
+/wp-content/uploads/2013/09/aveicabo.jpg 1 -
+/html/archives/5628 2 -
+/wp-content/uploads/2014/10/meivcore.jpg 1 https://www.google.pt/
+/testeali/wp-content/plugins/LayerSlider/static/skins/darkskin/ 3 -
+/ekenabay/shop-online/product-category/trendy/bk13010 1 -
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 2 -
+/wp-content/plugins/mm-forms-community/js/mmf-tabs.js 2 -
+/edic_09.swf 1 -
+/testeali/wp-content/plugins/LayerSlider/static/css/ 1 -
+/wp-content/uploads/2013/10/114.jpg 2 -
+/html/gallery/www-luxuria-bijuteria-pt 2 -
+/wp-config.data 1 -
+/wp-content/plugins/seo-cheese/readme.txt 2 -
+/portfolio_page/adriano-carreira 1 -
+/wp-content/plugins/page-google-maps/js/vihv-google-maps.js 2 -
+/wp-config 1 -
+/wp-content/plugins/work-the-flow-file-upload/admin/assets/js/admin.js 2 -
+/testeali/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/wp-content/uploads/2016/04/id_EK.jpg 1 -
+/portfolio_page/festival-dos-canais-web/ 2 http://invisual.pt/webdesign/
+/wp-content/plugins/wp-symposium/server/php/ldcCGvqfaaEcro.php 1 -
+/wp-content/uploads/2016/08/Flash-14-julho-ekena-bay-600x390.jpg 10 -
+/ekenabay/shop-online/product-category/trendy/fb13005 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/backend/dummy/images/one_click.png 1 http://unimadeiras.pt/wp-admin/admin.php
+/wp-content/plugins/CCGallery/js/admin.js 2 -
+/wp-content/uploads/2016/08/litoralfashion_.jpg 1 -
+/adriano-carreira/ 1 -
+/wp-content/plugins/supra-scraper/js/global.js 2 -
+/portfolio_page/confeitaria-framboesa/ 3 -
+/identidade/ 9 -
+/optica/2012/06/page/6/ 1 -
+/portfolio_page/tom-ford-optica-nascimento/ 1 http://invisual.pt/fotografia-invisual/
+/unimadeiras/wp-content/themes/theme_pizzarte/js/script.js 1 -
+/wp-content/uploads/2016/04/colg_port_webdesign002.jpg 1 -
+/qxpawhue 1 -
+/wp-content/uploads/2016/04/meivcore_webdesign007-1.jpg 1 -
+/testeali/wp-content/themes/bridge/bridge/css/custom_css.css 1 http://invisual.pt/testeali/about/
+/wp-content/plugins/userpro/scripts/scripts.min.js 2 -
+/hoteldassalinas/wp-content/uploads/2014/03/servi%C3%A7os-homepage-3collumns-700x865@2x.jpg 1 -
+/wp-content/plugins/wp-symposium/server/php/szIvDAEuVvTxPl.php 1 -
+/portfolio_page/verdegreen-crisalida/ 6 http://invisual.pt/fotografia-invisual/
+/wp-content/themes/twentytwelve/inc/mssqli.php 3 eventosportugal.pt
+/images/stories/alfa.php 1 -
+/testeali/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 2 http://invisual.pt/testeali/about/
+/smart_aqua_eng/gelo.php 1 -
+/xmlsrpc.php 2 invisual.pt
+/wp-content/uploads/2016/08/catal_neoplast_0004.jpg 1 -
+/novo-website-da-empresa-agner-service/ 3 -
+/wp-content/plugins/plugin-newsletter/preview.php 5 -
+/wp-content/themes/dejavu/lib/scripts/dl-skin.php 6 -
+/tiny_mce/plugins/tinybrowser/upload.php 3 -
+/wp-content/plugins/ubh/up.php 7 -
+/smart_aqua_eng/bogel.php 1 -
+/html/archives/5338 1 -
+/wp-content/plugins/recent-backups/download-file.php 4 -
+/testeali/wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js 2 http://invisual.pt/testeali/about/
+/stats/setup.php 2 http://www.google.com/
+/configurationbak.php.suspected 2 invisual.pt
+/aveiroexpo/programa_agrovouga_2010.pdf 2 -
+/wp-content/uploads/2016/04/web_spcv-1.jpg 1 -
+/templates/adodb.class.php 2 eventosportugal.pt
+/wp-content/themes/photocrati-theme-v4/style.css 1 http://www.google.com/
+/wp-content/uploads/2016/04/renault_2016_foto004.jpg 1 -
+/js/fckeditor 7 http://invisual.pt/js/fckeditor
+/Configss.php 2 http://invisual.pt/Configss.php
+/wp-content/plugins/jquery-html5-file-upload/jquery-html5-file-upload.php 2 -
+/wp-config.phpOLD 1 -
+/portfolio_page/socertima-revista-sabado/ 5 -
+/administrator/ 10 -
+/wp-content/themes/central/css/style_dynamic.php 7 -
+/html/gallery/desdobraveis 1 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 6 -
+/wp-content/uploads/2014/10/agner_service1.jpg 1 -
+/wp-content/themes/parallelus-mingle/framework/utilities/download/getfile.php 5 -
+/portfolio_page/leonor-reis-personal-branding/ 3 -
+/portfolio_page/ekena-bay-tv-guia/ 2 http://invisual.pt/imprensa-escrita/
+/wp-content/themes/events/js/basic.js 2 -
+/wp-content/themes/central/js/default.js 4 -
+/html/archives/5383 3 -
+/wordpress/wp-content/plugins/site-import/admin/page.php 2 -
+/cache/list.php 2 invisual.pt
+/html/feed/atom/ 3 -
+/testeali/wp-content/plugins/LayerSlider/static/fonts/ 1 -
+/wp_logns.php 1 -
+/images/stories/explore.gif 1 -
+/wp-includes/css/mssqli.php 3 eventosportugal.pt
+/wp-content/plugins/wp-post-frontend/js/plupload-2.1.2/examples/upload.php 5 -
+/wp-content/uploads/2015/07/header_in.jpg 1 -
+/wp-content/uploads/2016/08/feira_de_marco_outdoor_000.jpg 1 -
+/edic04_fp.xml 4 -
+/smart_aqua/admin/categories.php/login.php 1 -
+/portfolio_page/lar-darte/ 2 -
+/// 5 -
+/wp-content/uploads/2016/04/mockup_WEB_0001_civilria_.jpg 3 http://invisual.pt/old54321/
+/wp-content/plugins/seo-rotator-for-images/js/wp-seo-admin-global.js 2 -
+/wp-content/plugins/bol/bolSrch.js 2 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento004.jpg 1 -
+/feed/magpie_debug.php 1 http://eventosportugal.pt/feed/magpie_debug.php
+/wp-content/uploads/2013/10/cartaz_royalschool_aldo_lima.jpg 2 -
+/smart_aqua/ 10 -
+/wp-content/plugins/nmedia-user-file-uploader/js/nm_plugin_option.js 2 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto014.jpg 1 -
+/wp-content/uploads/2016/08/novo_classe_E_001.jpg 1 -
+/wp-content/uploads/2013/07/pdf004-600x155.jpg 1 -
+/aveiroexpo/site/pablo-alboran/ 2 -
+/wp-content/plugins/resume-submissions-job-postings/installer.php 3 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 3 -
+/wp-content/plugins/ads-widget/readme.txt 2 -
+/administrator/adodb.class.php 2 eventosportugal.pt
+/portfolio_page/royal-school-of-languages 2 -
+/wp-content/themes/GeoPlaces/style.css 1 http://invisual.pt/wp-content/themes/GeoPlaces/style.css
+/testeali/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 http://invisual.pt/testeali/portfolio_page/vinil/
+/config.old 1 -
+/wp-content/themes/purevision/scripts/admin/uploadify/uploadify.css 2 -
+/ativacao-de-marca/ 6 -
+/testeali/wp-content/plugins/LayerSlider/static/skins/ 2 -
+/smart_aqua_eng/wp-content/themes/invisual/plugins/timthumb.php 2 -
+/civilria/facebook.png 1 -
+/smart_aqua/wp-content/themes/smartaqua/_tbs.php 6 -
+/cms/uploadify/uploadify.swf 3 http://litoralfashion.pt/cms/uploadify/uploadify.swf
+/smart_aqua_eng/wp-content/themes/invisual/scripts/timthumb.php 2 -
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css 1 http://www.google.com/
+/aveiroexpo/site/aveiro-expo-objectivos/ 1 -
+/wp-content/plugins/gallery-plugin/gallery-plugin.php 3 -
+/files/fckeditor 7 http://invisual.pt/files/fckeditor
+/wp-content/uploads/2016/04/identidade_adriano_carreira.jpg 2 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto004.jpg 3 -
+/common.php 3 eventosportugal.pt
+/update/123wso123.php 2 http://invistobem.com/update/123wso123.php
+/wp-content/plugins/annonces/includes/js/admin.js 2 -
+/wp-content/uploads/2016/08/eurogres_fotografia013.jpg 1 -
+/portfolio_page/pizzarte/ 3 -
+/admin/uploadify/uploadify.swf 2 http://invisual.pt/admin/uploadify/uploadify.swf
+/images/logo_img.php 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/backend/dummy/images/responsive1.png 1 http://unimadeiras.pt/wp-admin/admin.php
+/wh 1 -
+/smart_aqua_eng/wp-content/themes/invisual/js/timthumb.php 2 -
+/testeali/wp-content/themes/bridge/bridge/js/smoothPageScroll.min.js 2 http://invisual.pt/testeali/about/
+/configurationbak.php 2 invisual.pt
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+94.46.176.249 48186 100530 2809698940 20161231235545
+91.121.109.39 14 14 609199 20161231181628
+208.100.26.231 1 1 0 20161220232158
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20161201 801 1808 52410995 1
+20161202 942 2327 56927010 1
+20161203 807 1759 47456616 1
+20161204 834 2003 39949217 1
+20161205 998 3134 104510104 1
+20161206 1057 3200 107973016 1
+20161207 1082 3238 116887392 1
+20161208 918 1962 25929350 1
+20161209 1154 3224 107921188 1
+20161210 888 2123 80592687 1
+20161211 872 1671 35036285 1
+20161212 1063 2943 88686469 1
+20161213 1233 3674 144638057 1
+20161214 1502 3377 82198377 1
+20161215 1009 2870 71350764 1
+20161216 3910 10289 368126820 1
+20161217 771 1398 14489816 1
+20161218 973 1211 8614744 1
+20161219 3212 11547 698083002 1
+20161220 1262 2855 64547755 2
+20161221 1507 3643 81058329 1
+20161222 1311 2306 39693373 1
+20161223 4510 5688 72419534 1
+20161224 4235 4358 25787437 1
+20161225 856 1036 11409651 1
+20161226 857 1769 21498647 1
+20161227 1327 2808 55453090 1
+20161228 1752 2841 43823193 1
+20161229 1130 2220 42796464 1
+20161230 4407 5423 63258036 1
+20161231 1021 1840 36780721 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 1
+1h+ 31
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 378
+/wp-cron.php 9790 16680 0 19
+/alboi/wp-cron.php 8985 920 31 0
+/smart_aqua_eng/wp-login.php 6838 38592098 0 0
+/smart_aqua/wp-login.php 5363 23024879 0 3
+/novo2/wp-admin/admin-ajax.php 2063 3541253 0 0
+/ 1860 53117631 2 4
+/smart_aqua/wp-cron.php 1424 28480 0 0
+/wp-admin/admin-ajax.php 1307 1403003 0 0
+/smart_aqua/ 940 9778504 0 1
+/televisao/ 598 14785793 0 0
+/xmlrpc.php 537 206118 0 1
+/smart_aqua_eng/ 452 13090982 0 0
+/smart_aqua/index.php 442 193989 0 1
+/contactos/ 414 9558756 0 0
+/smart_aqua_eng/wp-cron.php 277 5540 0 1
+/wp-content/themes/central/css/custom_css.php 272 34384 0 0
+/wp-content/themes/central/css/style_dynamic.php 271 46925 0 0
+/wp-content/themes/central/css/style_dynamic_responsive.php 270 34709 0 0
+/wp-content/themes/central/js/custom_js.php 267 5774 0 0
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 265 80060 0 1
+/wp-content/themes/central/js/default_dynamic.php 260 439355 0 0
+/novo2/wp-admin/post.php 223 28240584 0 0
+/invisual/ 215 4780633 0 0
+/whm 213 1886115 0 0
+/marcas/ 198 6956409 0 0
+/novo2/portfolio_cat/web-design/ 11 98766 0 0
+/portfolio_page/aveicabo/ 3 43627 0 0
+/novo2/portfolio/entreposto-a-fontes-apresentacao-do-novo-megane/ 4 40306 0 0
+/novo2/in-conteudo/themes/uncode/core/theme-options/assets/fonts/option-tree-font.woff 1 108108 0 0
+/portfolio_page/susana-lopes/ 2 11013 0 0
+/editarinvisual 7 14620 0 0
+/old54321/ativacao-de-marca/ 1 5056 0 0
+/portfolio_page/neoplast-catalogo/ 2 25490 0 0
+/fotografia-invisual/ 76 2234951 0 0
+/novo2/portfolio/lindeberg/ 4 40308 0 0
+/smart_aqua/wp-admin/admin-ajax.php 1 2 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 112 13608938 0 0
+/wp-content/plugins/wysija-newsletters/index.php 6 186 0 0
+/portfolio_page/heliflex/ 1 20140 0 0
+/portfolio_cat/fotografia/ 72 2027108 0 0
+/portfolio_page/maldita-identidade/ 3 30054 0 0
+/portfolio_page/meivcore/ 7 67072 0 0
+/portfolio_page/bosch-video/ 5 55121 0 0
+/portfolio/ramalhos-video-oficial-2016/ 43 813149 0 0
+/portfolio_page/civilria-outdoor/ 2 25689 0 0
+/portfolio_page/entreposto-a-fontes-video/ 6 62304 0 0
+/novo2/portfolio_cat/identidade/ 6 49715 0 0
+/hoteldassalinas/wp-cron.php 183 5802 0 0
+/old54321/wp-admin/options-permalink.php 4 33158 0 0
+/portfolio_page/leonor-reis-sic-mulher/ 1 19407 0 0
+/portfolio_page/eurogres-embalagem/ 1 19818 0 0
+/portfolio_page/feira-de-marco-video/ 2 40080 0 0
+/portfolio_page/pizzarte-25oaniversario/ 3 44375 0 0
+/old54321/wp-content/themes/central/js/custom_js.php 4 88 0 0
+/wp-json/ 14 223526 0 0
+/novo2/wp-admin/tools.php 12 618091 0 0
+/novo2/portfolio/ekena-bay-video-oficial-2016/ 8 84434 0 0
+/portfolio_page/litoral-awards-14-porto-canal/ 1 19424 0 0
+/portfolio_page/salpoente-fotografia/ 1 21697 0 0
+/contact-modern/ 3 29888 0 0
+/portfolio_page/mercedes-sls-mercentro/ 2 27170 0 0
+/portfolio_page/ekenabay-identidade/ 1 19546 0 0
+/portfolio_page/civilria-webdesign/ 18 303735 0 0
+/portfolio_page/recicla-ecovalor/ 4 49098 0 0
+/portfolio_page/ekena-bay-cmtv/ 4 35770 0 0
+/portfolio/exporlux-video/ 1 31796 0 0
+/wp-admin/options-writing.php 2 34775 0 0
+/invisual-branding-solutions/feed/ 25 19200 0 0
+/portfolio_page/litoral-fashion-eventos/ 2 11011 0 0
+/portfolio_page/rapidsol-identidade/ 1 19302 0 0
+/wp-admin/import.php 8 140209 0 0
+/old54321/wp-admin/admin-ajax.php 35 49376 0 0
+/novo2/portfolio/ramalhos-video-oficial-2016/ 8 77416 0 0
+/portfolio/ekena-bay-catalogo-2016/ 4 68928 0 0
+/portfolio_page/litoral-fashion-jornal-de-noticias/ 1 19463 0 0
+/portfolio_page/grupo-alboi-identidade/ 2 25027 0 0
+/portfolio/ekena-bay-cmtv/ 1 31698 0 0
+/old54321/portfolio_page/cerveja-maldita-rotulo/ 1 5185 0 0
+/old54321/check_charset.php 1 73 0 0
+/identidade/ 83 3308081 0 0
+/portfolio_page/smart-aqua/ 4 48915 0 0
+/portfolio_page/w-uniforms-identidade/ 4 64136 0 0
+/portfolio_page/colegio-portugues-identidade/ 2 25219 0 1
+/old54321/wp-admin/options-reading.php 3 25565 0 0
+/portfolio/apartamento-civilria/ 30 1156697 0 0
+/novo2/portfolio_cat/video/ 15 134036 0 0
+/portfolio_cat/ativacao-de-marca/ 71 1913728 0 0
+/portfolio_page/litoral-magazine-webdesign/ 22 312370 0 0
+/marcas/feed/ 18 14382 0 0
+/novo2/wp-admin/plugins.php 2 50486 0 0
+/hosteldoalboi/wp-cron.php 20 1201 0 0
+/portfolio_page/meivcore-webdesign/ 1 20632 0 0
+/portfolio_page/vr2p-web/ 16 128899 0 0
+/portfolio_page/unimadeiras-identidade/ 2 25088 0 0
+//wp-admin/admin-ajax.php 20 230 0 0
+/portfolio_page/lardarte/ 3 31305 0 0
+/video/ 81 2052118 0 0
+/portfolio_page/festival-dos-canais-logo/ 2 25084 0 0
+/novo2/portfolio_cat/embalagem/ 4 32580 0 0
+/novo2/portfolio/lardarte-catalogo/ 2 18931 0 0
+/old54321/wp-admin/options-general.php 1 16522 0 0
+/wp-admin/upload.php 1 25997 0 0
+/wp-admin/plugin-install.php 6 108318 0 0
+/wp-admin/options-media.php 1 16837 0 0
+/novo2/in-conteudo/themes/uncode/core/inc/uncode-ajax.php 88 25384 0 0
+/portfolio_page/litoral-magazine/ 3 29835 0 0
+/old54321/softtest_l4hz8x24/soft 1 20 0 0
+/novo2/portfolio/alital-web-design/ 9 88453 0 0
+/portfolio_page/cerveja-maldita-rotulo/ 2 26042 0 0
+/portfolio_page/branding-pessoal-leonor-reis-video/ 2 11270 0 0
+/novo2/wp-admin/upgrade.php 2 2464 0 0
+/portfolio_page/ilhamar-embalagem/ 3 30304 0 0
+/portfolio_page/fashion-tv-optica-nascimento/ 1 20804 0 0
+/smart_aqua_eng/wp-admin/admin-ajax.php 5 10 0 0
+/portfolio_page/gesconect-identidade/ 2 25027 0 0
+/old54321/wp-admin/ 4 57825 0 0
+/portfolio_page/adriano-carreira-webdesign/ 3 46741 0 0
+/novo2/portfolio/fornos-ramalhos-video-oficial-2016/ 4 42609 0 0
+/portfolio_page/meia-maratona-identidade/ 2 24629 0 0
+/outdoor/ 70 1454174 0 0
+/novo2/portfolio/vr2p/ 6 56537 0 0
+/portfolio_cat/embalagem/ 74 1949387 0 0
+/portfolio_cat/assessoria/ 72 2016828 0 0
+/portfolio_page/pizzarte-gins/ 2 40182 0 0
+/portfolio/lardarte-catalogo/ 1 41228 0 0
+/portfolio/alital-web-design/ 41 1025547 0 0
+/html/feed/atom/ 1 436 0 0
+/portfolio_page/ekena-bay-tv-guia/ 1 19392 0 0
+/old54321/portfolio_page/grupo-alboi-identidade/ 2 7036 0 0
+/invisual/feed/ 18 14454 0 0
+/novo2/wp-admin/load-scripts.php 49 3858980 0 0
+/portfolio_page/lake-evento/ 1 5485 0 0
+/meivcore/ 1 5295 0 0
+/portfolio_page/novo-classe-e-eventos-mercentro/ 1 5505 0 0
+/wp-admin/options-reading.php 5 93876 0 0
+/novo2/portfolio/exporlux-video/ 6 56300 0 0
+/old54321/wp-content/themes/central/js/default_dynamic.php 4 6648 0 0
+/portfolio_cat/web-design/ 94 2523310 0 0
+/hotelaveirocenter/ 1 5454 0 0
+/novo2/in-conteudo/themes/uncode/library/fonts/uncode-icons.woff 22 3323584 0 0
+/old54321/home-in/ 3 19689 0 0
+/portfolio_page/feira-de-marco-identidade/ 2 25100 0 0
+/portfolio_page/colegio-portugues-webdesign/ 2 40948 0 0
+/portfolio_page/fonte-nova-identidade/ 1 19306 0 0
+/novo2/portfolio/optica-nascimento-lindeberg/ 1 10707 0 0
+/novo2/portfolio/novo-megane/ 4 41968 0 0
+/novo2/wp-admin/async-upload.php 22 35248 0 0
+/portfolio/litoral-magazine/ 4 60880 0 0
+/portfolio_page/feira-de-marco-2016-outdoor/ 2 25182 0 0
+/portfolio_page/verdegreen-crisalida/ 2 25740 0 0
+/works/portfolio-landing-page/ 3 104177 0 0
+/novo2/contactos/ 15 142777 0 0
+/old54321/wp-admin/post-new.php 1 32044 0 0
+/wp-content/ 2 0 0 0
+/novo2/portfolio/ekena-bay-video-oficial-2016-2/ 2 19682 0 0
+/wp-admin/ 28 533539 0 0
+/portfolio_page/vr2p-identidade/ 2 24812 0 0
+/feed/ 12 18272 0 0
+/eventos-invisual/ 68 1350951 0 0
+/conteudo/themes/uncode/core/theme-options/assets/fonts/option-tree-font.woff 1 108108 0 0
+/portfolio_page/litoral-magazine-paginacao/ 2 25536 0 0
+/old54321/wp-content/themes/central/css/style_dynamic.php 4 752 0 0
+/portfolio/litoral-magazine-revista-trimestral/ 11 137675 0 0
+/portfolio/lindeberg/ 2 48843 0 0
+/novo2/portfolio/ekena-bay-catalogo-2016/ 15 153405 0 0
+/televisao/feed/ 1 496 0 0
+/novo2/portfolio/litoral-magazine-revista-trimestral/ 4 40556 0 0
+/novo2/in-conteudo/themes/uncode/library/fonts/uncode-icons.woff2 18 2206444 0 0
+/portfolio_page/asas-identidade/ 2 24361 0 0
+/portfolio_page/aveiro-expo-identidade/ 1 19285 0 0
+/novo2/wp-admin/load-styles.php 27 1304500 0 0
+/old54321/wp-admin/admin.php 10 83390 0 0
+/novo2/wp-admin/admin.php 75 2226760 0 0
+/old54321/wp-login.php 1 1220 0 0
+/portfolio_page/lsmedicall-web/ 1 20353 0 0
+/portfolio_page/metalegi-iberica-identidade/ 1 19619 0 0
+/wp-json/yoast/v1/configurator 10 4193 0 0
+/features/header-elements/ 2 44695 0 0
+/portfolio_page/stand-entreposto-a-fontes/ 17 281461 0 0
+/portfolio_page/ekena-bay-paginacao/ 1 20418 0 0
+/portfolio/unimadeiras-video-institucional-2016/ 32 749478 0 0
+/wp-admin/nav-menus.php 4 176490 0 0
+/novo2/portfolio/civilria-web-design/ 9 88945 0 0
+/google0255f710698bf76f.html 1 70 0 0
+/ativacao-de-marca/ 71 1217367 0 0
+/novo2/portfolio/festival-dos-canais-outdoors/ 10 96000 0 0
+/portfolio_page/ekena-bay-revista-vip-08-de-maio-2016/ 2 24947 0 0
+/portfolio_cat/impressao/ 80 2001092 0 0
+/old54321/wp-admin/edit.php 2 26231 0 0
+/portfolio_page/trincaxa-identidade/ 3 43741 0 0
+/novo2/portfolio_cat/impressao/ 7 61571 0 0
+/portfolio_page/confeitaria-framboesa-webdesign/ 2 41516 0 0
+/novo2/portfolio/dia-mundial-da-crianca-2016/ 7 68559 0 0
+/old54321/paginacao-invisual/ 1 3966 0 0
+/portfolio_page/ipmd-identidade/ 2 24678 0 0
+/novo2/portfolio/salpoente/ 4 37539 0 0
+/portfolio_page/salpoente-video/ 3 45223 0 0
+/novo2/wp-includes/fonts/dashicons.eot 1 22389 0 0
+/portfolio_page/alital-producao-fotografica/ 2 10920 0 0
+/marketing-digital/ 81 1299278 0 0
+/portfolio_page/colegio-portugues-outdoor/ 2 25244 0 0
+/conteudo/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 3 7320 0 0
+/html/feed/ 2 976 0 0
+/novo2/wp-admin/update-core.php 4 78804 0 0
+/check_charset.php 1 73 0 0
+/novo2/portfolio/unimadeiras-video-institucional-2016/ 10 98249 0 0
+/old54321/wp-admin/upload.php 1 18209 0 0
+/wp-admin/theme-install.php 2 21527 0 0
+/novo2/portfolio/unimadeiras-relatorio-de-contas/ 6 57885 0 0
+/portfolio_page/adriano-carreira-embalagem/ 1 19339 0 0
+/old54321/ 8 89132 0 0
+/wp-admin/options-permalink.php 8 148831 0 0
+/portfolio/dia-mundial-da-crianca-2016/ 3 48330 0 0
+/portfolio/civilria-icon-novo-empreendimento/ 1 33930 0 0
+/portfolio/maldita-embalagem-e-rotulo/ 36 908529 0 0
+/index.php 3 100388 0 0
+/wp-admin/admin.php 110 4149840 0 0
+/old54321/wp-admin/theme-install.php 1 10924 0 0
+/smart_aqua_eng/xmlrpc.php 2 84 0 0
+/portfolio_page/salpoente-revista-sabado/ 2 24888 0 0
+/wp-admin/update.php 4 20028 0 0
+/portfolio_page/ribsol-identidade/ 2 38614 0 0
+/old54321/embalagem/ 1 5365 0 0
+/portfolio/vr2p/ 4 62293 0 0
+/portfolio_page/pizzarte-webdesign/ 3 46848 0 0
+/portfolio_page/alit-web/ 14 120956 0 0
+/hotelaveirocenter/wp-cron.php 27 1569 0 0
+/novo2/works/portfolio-landing-page/ 4 41903 0 0
+/wp-admin/export.php 5 664147 0 0
+/old54321/apresentacao/ 1 6183 0 0
+/portfolio/civilria-web-design/ 42 1125297 0 0
+/alboi/ 9 282019 0 0
+/portfolio/ekena-bay-video-oficial-2016/ 5 80249 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 17204 0 0
+/portfolio_page/ferro-reclamo/ 2 24766 0 0
+/old54321/wp-admin/import.php 4 34560 0 0
+/novo2/portfolio_cat/fotografia/ 6 52317 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 23 3474656 0 1
+/portfolio_page/litoral-awards/ 2 25557 0 0
+/portfolio_page/litoral-awards-2/ 1 19173 0 0
+/hotelaveirocenter/xmlrpc.php 4 1832 0 0
+/novo2/portfolio_cat/assessoria/ 5 42392 0 0
+/old54321/wp-admin/update.php 1 5773 0 0
+/portfolio_page/susana-lopes-identidade/ 4 49117 0 0
+/novo2/portfolio/maldita-embalagem-e-rotulo/ 3 29770 0 0
+/portfolio_page/salpoente-web/ 16 159048 0 0
+/novo2/wp-admin/edit.php 45 1179966 0 0
+/portfolio_page/dia-mundial-da-crianca-2016/ 1 5682 0 0
+/portfolio_page/daifer/ 1 19144 0 0
+/portfolio_page/cerveja-maldita-embalagem/ 1 19495 0 0
+/comments/feed/ 47 30901 0 0
+/old54321/identidade/ 1 5377 0 0
+/portfolio/salpoente/ 31 818759 0 0
+/novo2/marcas/ 5 46623 0 0
+/wp-login.php 1 1225 0 0
+/portfolio_cat/paginacao/ 77 2412650 0 0
+/portfolio_page/exporlux-imprensa-escrita-caras-ideias/ 1 5465 0 0
+/portfolio_page/bosch-paginacao/ 1 19878 0 0
+/novo2/wp-admin/options-general.php 2 39624 0 0
+/novo2/in-conteudo/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 9 21960 0 0
+/portfolio_page/adriano-carreira-espaco/ 2 26480 0 0
+/wp-admin/post.php 72 9137765 0 0
+/portfolio/susana-lopes-hair-stylist-ideology/ 3 54069 0 0
+/portfolio-metro/ 1 9761 0 0
+/old54321/wp-admin/options-writing.php 1 8233 0 0
+/paginacao-invisual/ 73 1711570 0 0
+/novo2/invisual/ 10 89779 0 0
+/portfolio_page/marc-jacobs-optica-nascimento/ 1 20692 0 0
+/old54321/wp-cron.php 5 100 0 0
+//index.inc.php 1 0 0 0
+/portfolio_page/ekena-bay-fotografia/ 18 142338 0 0
+/portfolio_page/ekenabay-saco-embalagem/ 2 24974 0 0
+/wp-json/oembed/1.0/embed 18 23326 0 0
+/wp-includes/fonts/dashicons.eot 3 67167 0 0
+/smart_aqua_eng/index.php 8 3252 0 0
+/wp-content/plugins/coming-soon/framework/fonts/fontawesome-webfont.woff2 2 143792 0 0
+/webdesign/ 78 2270880 0 0
+/novo2/wp-admin/upload.php 1 28118 0 0
+/novo2/wp-admin/term.php 1 30049 0 0
+/portfolio_page/apresentacao-do-novo-smart/ 1 5522 0 0
+/smart_aqua/wp-admin/admin-ajax.php 9 18 0 0
+/novo2/portfolio_cat/ativacao-de-marca/ 5 44264 0 0
+/novo2/wp-admin/themes.php 1 22574 0 0
+/novo2/wp-cron.php 13 260 0 0
+/portfolio_page/salpoente-identidade/ 4 36424 0 0
+/novo2/portfolio/apartamento-civilria/ 1 10810 0 0
+/portfolio_cat/video/ 80 2536228 0 0
+/wp-includes/wlwmanifest.xml 20 20900 0 0
+/portfolio_page/colegio-portugues-video/ 5 56018 0 0
+/novo2/portfolio/apartamento-modelo-civilria/ 12 129377 0 0
+/portfolio_page/boca-torta/ 3 43612 0 0
+/portfolio_page/sikawa-identidade/ 4 49072 0 0
+/portfolio_cat/eventos/ 73 1900779 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.eot 6 906858 0 0
+/novo2/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 17204 0 0
+/embalagem/ 73 1599339 0 0
+/novo2/portfolio/bosch-catalogo/ 3 27437 0 0
+/novo2/portfolio/litoral-magazine/ 4 39164 0 0
+/portfolio_page/crisalida-fotografia/ 1 5444 0 0
+/portfolio/vr2p-identidade/ 34 805008 0 0
+/conteudo/plugins/coming-soon/framework/fonts/fontawesome-webfont.woff2 1 71896 0 0
+/novo2/wp-admin/update.php 1 10009 0 0
+/portfolio_page/litoral-fashion-tv-7-dias/ 1 19654 0 0
+/portfolio/unimadeiras-relatorio-de-contas/ 1 38270 0 0
+/smart_aqua_eng/wp-content/plugins/index.php 1 0 0 0
+/novo2/portfolio/ekena-bay-cmtv/ 6 57600 0 0
+/wp-admin/edit.php 27 677576 0 0
+/novo2/portfolio/ekena-bay-sic-mulher/ 4 39201 0 0
+/portfolio_page/meivcore-video/ 2 38684 0 0
+/softtest_jssc7tjr/soft 1 20 0 0
+/portfolio_page/spcv-webdesign/ 17 300152 0 0
+/portfolio_page/eurogres-produto/ 4 38204 0 0
+/feed/rdf/ 2 1684 0 0
+/portfolio_page/ekena-bay-revista-flash/ 2 25010 0 0
+/portfolio_page/salpoente-revista_must/ 2 24832 0 0
+/wp-admin/update-core.php 10 101624 0 0
+/portfolio_page/agner-service-identidade/ 3 44093 0 0
+/editar 21 32317 0 0
+/webmail 25 221875 0 0
+/portfolio_page/adriano-carreira-identidade/ 3 30807 0 0
+/portfolio/novo-megane/ 24 972372 0 0
+/novo2/editar 22 48821 0 0
+/portfolio/ekena-bay-sic-mulher/ 1 31903 0 0
+/old54321/portfolio_page/civilria-webdesign/ 1 3531 0 0
+/portfolio_page/litoral-fashion-lux/ 1 19347 0 0
+/wp-admin/theme-editor.php 4 88352 0 0
+/portfolio_page/optica-nascimento-video/ 4 64399 0 0
+/portfolio_page/matsuri-fotografia/ 1 20902 0 0
+/portfolio_page/unimadeiras-rel-contas/ 1 19731 0 0
+/novo2/portfolio/vr2p-identidade/ 8 74253 0 0
+/old54321/wp-content/themes/central/css/custom_css.php 4 96 0 0
+/portfolio_page/leonor-reis-identidade/ 3 43711 0 0
+/old54321/wp-admin/load-styles.php 4 283982 0 0
+/novo2/portfolio/litoral-magazine-2/ 2 20597 0 0
+/wp-admin/options-discussion.php 3 55964 0 0
+/old54321/wp-admin/load-scripts.php 13 903277 0 0
+/portfolio_page/video-oficial-ekena-bay-2016/ 1 5626 0 0
+/contact-simple/ 1 9136 0 0
+/portfolio_page/epa-embalagem/ 1 19254 0 0
+/wp-admin/async-upload.php 18 35258 0 0
+/wp-content/plugins/revslider/rs-plugin/font/revicons.eot 2 14938 0 0
+/portfolio_page/tv-ria/ 3 43523 0 0
+/old54321/wp-content/themes/central/css/style_dynamic_responsive.php 4 508 0 0
+/novo2/portfolio_cat/eventos/ 5 44146 0 0
+/wp-admin/load-scripts.php 91 5370306 0 0
+/portfolio_page/framboesa-identidade/ 2 25103 0 0
+/novo2/portfolio_cat/paginacao/ 9 81007 0 0
+/portfolio_page/portucel-soporcel-video/ 2 40300 0 0
+/wp-content/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 5 12154 0 0
+/wp-admin/themes.php 5 66956 0 0
+/portfolio_page/litoral-awards-2015-video/ 1 5443 0 0
+/novo2/portfolio/civilria-icon-novo-empreendimento/ 9 85319 0 0
+/portfolio_page/agner/ 8 85412 0 0
+/wp-admin/upgrade.php 1 21 0 0
+/portfolio_page/litoral-fashion-inpeople/ 1 19405 0 0
+/wp-admin/plugins.php 15 255772 0 0
+/novo2/portfolio/susana-lopes-hair-stylist-ideology/ 6 59644 0 0
+/portfolio_page/icon-video/ 4 64472 0 0
+/portfolio_page/litoral-fashion-tv-mais/ 1 19329 0 0
+/portfolio_cat/identidade/ 85 2041843 0 0
+/wp-admin/options-general.php 25 661994 0 0
+/portfolio_page/miss-mar-ekena-bay-fotografia/ 4 36522 0 0
+/portfolio_page/festival-dos-canais-outdoors/ 2 25049 0 0
+/portfolio_page/civilria-andar-modelo/ 4 22442 0 0
+/imprensa-escrita/ 52 1619489 0 0
+/portfolio_page/atz-webdesign/ 1 20347 0 0
+/portfolio/festival-dos-canais-outdoors/ 6 76656 0 0
+/wp-admin/load-styles.php 34 1821634 0 0
+/hotelaveirocenter/author/aveirocenteradmin/ 1 6386 0 0
+/novo2/ 59 673932 0 0
+/smart_aqua/xmlrpc.php 6 252 0 0
+/old54321/wp-admin/themes.php 3 34959 0 0
+/wp-admin/about.php 1 13021 0 0
+/old54321/marketing-digital/ 1 3713 0 0
+/novo2/wp-admin/ 12 270185 0 0
+/contact-wide/ 1 8997 0 0
+/portfolio/bosch-catalogo/ 2 47621 0 0
+/portfolio_page/colegio-portugues-catalogo/ 2 26200 0 0
+END_SIDER

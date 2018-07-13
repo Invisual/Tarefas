@@ -1,0 +1,3917 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201102 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1970                
+POS_TIME 2649                
+POS_VISITOR 21392               
+POS_DAY 103711              
+POS_DOMAIN 3662                
+POS_LOGIN 4340                
+POS_ROBOT 4495                
+POS_WORMS 4975                
+POS_EMAILSENDER 5106                
+POS_EMAILRECEIVER 5249                
+POS_SESSION 104614              
+POS_SIDER 104827              
+POS_FILETYPES 5384                
+POS_OS 5770                
+POS_BROWSER 6001                
+POS_SCREENSIZE 7277                
+POS_UNKNOWNREFERER 7351                
+POS_UNKNOWNREFERERBROWSER 7903                
+POS_ORIGIN 8132                
+POS_SEREFERRALS 8287                
+POS_PAGEREFS 8499                
+POS_SEARCHWORDS 10615               
+POS_KEYWORDS 13605               
+POS_MISC 2311                
+POS_ERRORS 15091               
+POS_CLUSTER 4196                
+POS_SIDER_404 15209               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20110301000342 10841 3286243 20988953003238
+FirstTime 0
+LastTime 20110228223107
+LastUpdate 20110301074213 10841 0 10840 0 0
+TotalVisits 644                 
+TotalUnique 532                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 2788                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 190 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 101 4741 299460591 58 82 9389528
+1 16 2589 120234142 30 43 4403511
+2 4 1216 103344457 25 31 1973779
+3 13 504 102300203 38 53 5564465
+4 4 197 3968171 31 70 1960449
+5 4 49 186568921 24 44 3297884
+6 8 283 280718778 42 65 6685808
+7 15 413 9105482 23 56 4271369
+8 9 1697 140106146 43 69 6796477
+9 93 6134 374194692 102 124 19351079
+10 200 8206 634463452 299 335 20095682
+11 289 12449 1124907859 315 412 153735623
+12 143 11336 545188018 207 291 26241092
+13 62 10937 524424017 84 192 20829039
+14 298 13659 437859192 244 330 47521310
+15 356 12287 978412515 217 366 56804505
+16 229 14020 679067817 307 384 40863799
+17 198 11858 1133297472 246 312 157067031
+18 321 11040 1063946693 298 358 141433933
+19 143 10207 392978998 118 171 18384605
+20 139 11450 525213797 161 207 7591944
+21 51 14459 249990763 65 111 11608125
+22 84 13884 628989171 115 168 15819238
+23 55 8770 207920247 107 138 22636639
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 28
+pt 2723 173543 10613165841
+us 58 572 24422559
+es 8 713 8256956
+ru 7 1002 13389916
+eu 7 229 4686524
+nz 6 8 2475064
+fr 4 2202 19949824
+br 4 1095 12504687
+nl 4 129 1538747
+jp 3 309 8921495
+be 3 61 3224647
+gb 2 1144 11863316
+de 2 276 5342731
+in 1 122 3261982
+dk 1 50 2585395
+hu 1 1 1871
+by 1 1 3289
+cv 0 79 1044043
+ua 0 72 1494399
+mc 0 59 531656
+no 0 52 609748
+ch 0 295 2802272
+si 0 45 537172
+it 0 93 1081349
+ca 0 62 564449
+fi 0 57 557751
+sn 0 45 537172
+ve 0 69 1306739
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+slurp 392 19014463 20110228193311 0
+bot[\s_+:,\.\;\/\\-] 177 59639337 20110228085715 0
+no_user_agent 165 2064890 20110222144224 0
+googlebot 126 20784481 20110228235324 0
+myweb 56 559588 20110223151426 0
+spider 51 1287948 20110227163609 0
+robot 18 3036976 20110224202123 0
+[\s_+:,\.\;\/\\-]bot 5 16445 20110224043003 0
+crawl 1 3289 20110220080234 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+css 21100 106379645 0 0
+ico 3 17058 0 0
+f4v 104 5889318509 0 0
+html 312 1015375 0 0
+jpg 823 116737966 0 0
+xml 267 132110 0 0
+mp3 60 98631445 0 0
+png 90544 146053378 0 0
+pdf 523 646699936 0 0
+htm 48 86066 0 0
+cgi 1 83908 0 0
+swf 1468 407785421 0 0
+flv 10 599250113 0 0
+zip 39 1421509377 0 0
+js 54281 1299624902 0 0
+gif 12802 13336385 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 16
+linuxsuse 149
+linuxandroid 150
+winlong 54630
+winxp 63288
+java 69
+win2000 263
+symbian 486
+win98 112
+linuxubuntu 460
+linux 164
+macosx 3207
+j2me 262
+win2003 410
+Unknown 168
+psp 57
+win2008 58510
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 74
+msie6.0 5054
+safari5.0.3 1325
+opera9.50 163
+firefox3.6 48
+chrome10.0.648.82 57
+chrome10.0.648.6 45
+sonyericsson 97
+safari4.0.5 143
+firefox4.0 604
+chrome10.0.648.45 45
+safari4.0.3 88
+safari5.0.1 104
+safari5.0.2 565
+chrome9.0.597.94 739
+msie8.0 100219
+firefox2.0.0.14 44
+chrome7.0.517.450 104
+chrome7.0.536.2 47
+msie7.0 25085
+chrome9.0.597.84 1742
+chrome6.0.444.0 46
+opera9.64 111
+safari3.1 93
+chrome9.0.597.98 14403
+chrome9.0.597.102 165
+lg\- 46
+chrome5.0.375.125 46
+firefox3.5.15 1
+firefox3.5.2 263
+firefox3.5.10 48
+mozilla 142
+netscape5.0 74
+netscape4.0 4
+firefox3.6.3 334
+firefox3.0.10 44
+safari 2
+chrome0.4.154.29 1
+firefox3.0.15 91
+safari4.1.3 162
+android 48
+firefox3.6.11 44
+firefox3.6.6 123
+firefox3.5.3 291
+opera9.80 1049
+iphone 6
+chrome8.0.552.237 2270
+safari4.1.2 1
+chrome6.0.472.63 59
+chrome10.0.648.11 45
+firefox3.6.10 485
+msie9.0 1445
+Unknown 31
+chrome8.0.552.224 45
+firefox3.6.7 145
+firefox3.5.6 38
+firefox3.5.16 1578
+firefox3.6.2 52
+safari2.0.1 331
+firefox3.0.3 251
+firefox2.0.0.11 1
+nokia 155
+safari4.0 86
+firefox1.5.0.6 23
+firefox1.0 1
+firefox3.0.6 57
+safari4.0.4 94
+firefox3.6.12 319
+firefox2.0.0.16 6
+chrome5.0.375.70 46
+firefox3.5 44
+firefox3.0.19 468
+firefox3.6.8 128
+firefox3.5.7 102
+firefox3.6.13 20124
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Mozilla/5.0 20110208050130
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Version/3.1_Safari/525.13 20110223083442
+Mozilla/4.0(Vodafone/1.0/Vodafone547/VF_PT_PT_P107A4V1.2.1/Obigo_Q03C/MIDP-2.0_Configuration/CLDC-1.1) 20110216143416
+Mozilla/4.0_(compatible;) 20110227152532
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Web_Preview)_Version/3.1_Safari/525.13 20110202005448
+Shockwave_Flash 20110215164052
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Java/1.6.0_23 20110227185541
+Java/1.6.0_22 20110211002830
+Java/1.4.1_04 20110222022553
+Java/1.6.0_16 20110224145734
+Shockwave_Flash 20110215164052
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 599 18753
+From1 0 17
+From2 327 397
+From3 259 147324
+From4 1650 15894
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 236 298
+search 3 3
+bing 2 2
+live 31 39
+yandex 3 3
+sapo 52 52
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 41
+http://www.aveiroexpo.pt 199 114441
+http://www.aveiroexpo.pt/index.html 27 2191
+http://www.aveiroexpo.pt 5 6810
+http://webmail.iol.pt/horde/dimp/message.php 3 3
+http://www.hoteldeilhavo.com/main.swf 3 3
+http://www.gavinhoassociados.com/pt/menu.swf 3 3
+http://webmail.cabovisao.pt/reademail.php 2 2
+http://www.aveiroexpo.pt/calendario2010.html 2 5037
+http://int.search-results.com/web 2 2
+http://www.litoralmagazine.com/fev_10/Magazine%20Flip%20Book.swf 2 2
+http://www.pizzarte.com/teste/ 1 1
+http://www.aveiroexpo.pt/aveiroexpo.html 1 2152
+http://agrovouga.aveiroexpo.pt 1 1
+http://www.litoralmagazine.com/Magazine%20Flip%20Book.swf 1 1
+http://litoralmagazine.com/Magazine%20Flip%20Book.swf 1 1
+http://www.sobaku.net 1 1
+http://webcache.googleusercontent.com/search 1 119
+http://www.aveiroexpo.pt/calendario2011.html 1 6453
+http://correio.portugalmail.pt/horde/imp/view.php 1 1
+http://agrovouga.aveiroexpo.pt/home.swf 1 1
+http://us.mg1.mail.yahoo.com/dc/launch 1 1
+http://www.aveiroexpo.pt/calendario2009.html 0 1705
+http://www.aveiroexpo.pt/pavilhao_a.html 0 307
+http://www.aveiroexpo.pt/sala_conferencia_2.html 0 96
+http://www.aveiroexpo.pt/salao_nobre.html 0 195
+http://www.aveiroexpo.pt/galeria.html 0 194
+http://www.aveiroexpo.pt/foyer.html 0 281
+http://www.aveiroexpo.pt/pavilhao_b.html 0 197
+http://www.aveiroexpo.pt/servicos.html 0 699
+http://www.aveiroexpo.pt/equipamentos.html 0 188
+http://www.aveiroexpo.pt/sala_conferencia_1.html 0 103
+http://www.aveiroexpo.pt/calendario2008.html 0 339
+http://webmail.barrosgrafica.com/Main/frmPreview.aspx 0 2
+http://www.aveiroexpo.pt/contactos.html 0 3099
+http://www.aveiroexpo.pt/links_uteis.html 0 440
+http://www.aveiroexpo.pt/contactos.html/___possible__unsafe__site__ 0 39
+http://www.aveiroexpo.pt/auditorio.html 0 184
+http://www.aveiroexpo.pt/eventos.html 0 690
+http://www.aveiroexpo.pt/videos.html 0 561
+http://www.aveiroexpo.pt/calendario2011.html#regiao_aveiro 0 151
+http://www.aveiroexpo.pt/espacos.html 0 628
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 81
+feira+de+mar%c3%a7o+2011 62
+invisual 59
+invisual+aveiro 12
+feira+de+mar%c3%a7o+2011+aveiro 12
+invisual.pt 6
+feira+de+mar%c3%a7o+em+aveiro+2011 4
+geral%40aveiroexpo.pt+listagem+de+candidatos+admitidos 3
+%ef%e5%f7%e0%f2%fc+%eb%e8%f1%f2%ee%e2%ee%ea 2
+aveiro+expo+2011+actas 2
+aveiro+-+feira+de+mar%c3%a7o+2011 2
+feira+mar%c3%a7o+2011 2
+cartaz+feira+de+mar%c3%a7o+2011 2
+stands+agrovouga+2010 2
+programa+da+feira+de+mar%c3%a7o+2011 2
+programa+feira+de+mar%c3%a7o+2011 2
+grupo+cenico+cantares+da+ria 2
+aveiro+expo+atribui%c3%a7ao+de+espa%c3%a7os+feira+de+mar%c3%a7o+sector+cachorros 2
+feira+de+marco+2011 2
+cartaz+da+feira+de+mar%c3%a7o+2011+em+aveiro 1
+quiosque+de+bolacha+americana 1
+fanfarra+de+taboeira 1
+invisual.pdf 1
+cristobal+millan+de+la+lastra 1
+assinatura+de+cheque+por+invisual 1
+resumo 1
+festa+das+freguesias 1
+farav+2010 1
+mimos+do+bosque 1
+feira+marco+2011 1
+http+%2f%2fwww.invisual.pt 1
+bolacha+americana+e+tripa 1
+feira+de+mar%c3%a7o+de+2011 1
+obra+do+pintor+candido+teles 1
+regulamento+feira+de+mar%c3%a7o 1
+grupo+coral+de+joane 1
+participar+na+farav 1
+feira+de+mar%c3%a7o+2011+programa 1
+acta+dos+criterios+de+adjudica%c3%87ao+dos+espa%c3%87os+na+feira+de+mar%c3%87o+2011 1
+aveiro+feira+de+mar%c3%a7o+2011 1
+roulotes+seguro+de+rc+auto 1
+feira+de+mar%c3%a7o+aveiro+2011+programa 1
+data+da+feira+de+mar%c3%a7o+2011 1
+regulamento+feira+de+mar%c3%a7o+aveiro 1
+feira+de+mar%c3%a7o+aveiro+2011 1
+programa+da+feira+de+mar%c3%a7o+de+2011 1
+san%c3%a7oes+por+furto+de+luz+el%c3%a9trica+a+edp 1
+musicas+do+grupo+cantares+da+ria 1
+programa+feira+de+mar%c3%a7o+2011.+aveiro 1
+feira+de+mar%c3%a7o+2011-+programa 1
+programa+da+freira+de+mar%c3%a7o+de+2011 1
+geral%40aveiroexpo.pt+lista+de+lugares+atribuidos 1
+%25+de+invisuais+em+portugal 1
+feira+do+mar%c3%a7o+2011 1
+feira+de+mar%c3%a7o+2011+-+programa 1
+pre%c3%a7o+m2+expositor+na+feira+de+mar%c3%a7o+2011+aveiro 1
+feiras+de+mar%c3%a7o+2011 1
+aveiro+feira+de+mar%c3%a7o+2011+programa 1
+programacao+da+feira+de+marco+2011 1
+invisual-ag%c3%8ancia+de+moda+lda 1
+rancho+aradas 1
+in+visual 1
+cantares+da+ria 1
+cartaz+feira+de+mar%c3%a7o+2011+aveiro 1
+pre%c3%a7o+m2+expositor+na+feira+de+mar%c3%a7o+2011+aveiro+ultima+hora 1
+feira+de+mar%c3%a7o+2011+aveiro+programa 1
+legisla%c3%a7%c3%a3o+aplic%c3%a1vel+a+montagens+de+feiras+exposi%c3%a7oes 1
+cartaz+da+feira+de+mar%c3%a7o+2011+-+aveiro 1
+feira+do+mar%c3%a7o+em+aveiro+2011 1
+sancoes+%c2%a0roubo+luz+%c3%a1+rede+publica+edp 1
+aveiro+expo+2011 1
+grupo+recreativo+etnografico+de+aradas 1
+2010-12-25t23+17+28+0000 1
+festas+st.o+ant%c3%b3nio+oliveirinha+aveiro 1
+www.lucy+el-sayed.com 1
+invisual+ag%c3%aancia+de+moda 1
+quando+se+realiza+a+feira+de+artesanato+de+aveiro 1
+feira+de+marco+2011+em+aveiro 1
+feira+de+mar%c3%a7o+2011%c2%a0aveiro 1
+programa+da+feira+de+mar%c3%a7o+2011-+aveiro 1
+grupo+cantares+da+ria 1
+feirademar%c3%a7o+aveiro+2011 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 135
+de 140
+feira 120
+2011 117
+mar%c3%a7o 115
+invisual 73
+aveiro 53
+da 14
+programa 14
+em 8
+grupo 6
+invisual.pt 6
+do 5
+cantares 5
+expo 5
+ria 5
+cartaz 5
+marco 5
+- 4
+geral%40aveiroexpo.pt 4
+na 4
+a 3
+candidatos 3
+2010 3
+listagem 3
+admitidos 3
+montagens 1
+artesanato 1
+rede 1
+resumo 1
+exposi%c3%a7oes 1
+e 1
+etnografico 1
+oliveirinha 1
+portugal 1
+atribuidos 1
+mar%c3%87o 1
+la 1
+obra 1
+lista 1
+rc 1
+farav 2
+por 2
+das 1
+realiza 1
+se 1
+dos 2
+acta 1
+actas 2
+17 1
+m2 2
+http 1
+in 1
+visual 1
+lda 1
+musicas 1
+ag%c3%aancia 1
+millan 1
+data 1
+feiras 2
+publica 1
+tripa 1
+regulamento 2
+aradas 2
+mimos 1
+ant%c3%b3nio 1
+pre%c3%a7o 2
+edp 2
+seguro 1
+teles 1
+feirademar%c3%a7o 1
+lastra 1
+taboeira 1
+recreativo 1
+assinatura 1
+pintor 1
+legisla%c3%a7%c3%a3o 1
+bolacha 2
+rancho 1
+auto 1
+atribui%c3%a7ao 2
+expositor 2
+programacao 1
+festas 1
+participar 1
+invisual.pdf 1
+san%c3%a7oes 1
+quando 1
+2011- 2
+lugares 1
+freguesias 1
+criterios 1
+sector 2
+luz 2
+cristobal 1
+invisual-ag%c3%8ancia 1
+%ef%e5%f7%e0%f2%fc 2
+%eb%e8%f1%f2%ee%e2%ee%ea 2
+stands 2
+el-sayed.com 1
+quiosque 1
+2011%c2%a0aveiro 1
+moda 2
+el%c3%a9trica 1
+aplic%c3%a1vel 1
+ultima 1
+st.o 1
+cachorros 2
+fanfarra 1
+cheque 1
+%25 1
+agrovouga 2
+hora 1
+candido 1
+%2f%2fwww.invisual.pt 1
+www.lucy 1
+28 1
+coral 1
+joane 1
+adjudica%c3%87ao 1
+freira 1
+sancoes 1
+americana 2
+bosque 1
+espa%c3%a7os 2
+0000 1
+2011. 1
+espa%c3%87os 1
+%c2%a0roubo 1
+festa 1
+furto 1
+2010-12-25t23 1
+cenico 2
+%c3%a1 1
+roulotes 1
+invisuais 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 2007 697216536
+301 89 11741
+404 1135 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 115
+/robots.txt 298 -
+/nuno/marianaurbanizacao.gif 9 -
+/castigoedelito/d_namorados1.jpg 1 -
+/swf/swf/eventos/smart.swf 1 -
+/swf/swf/multimedia/lf07_01.swf 1 -
+/versatico/swf/envolvente_legenda007.swf 1 http://www.invisual.pt/versatico/swf/envolvente/007.swf
+/aveiroexpo/js/liberationsans.font.js 1 http://www.invisual.pt/aveiroexpo/js/liberationsans.font.js
+/versatico 12 -
+/vgg02 1 -
+/robot.txt 1 -
+/versatico/swf/envolvente_legenda004.swf 1 http://www.invisual.pt/versatico/swf/envolvente/004.swf
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 6 http://www.aveiroexpo.pt/
+/versatico/swf/envolvente_legenda008.swf 2 http://www.invisual.pt/versatico/swf/envolvente/008.swf
+/eurogres/desdobravel/desdobravel_eurogres_prop_01.pdf 1 -
+/aveiroexpo/canina/regulamento.pdf 9 -
+/nuno/swf/envolvente.swf 2 -
+/versatico/ 2 -
+/download/pizzarte.zip 1 -
+/gavinho/gavinho.ico 1 -
+/aveiroexpo/css/default.css 6 http://www.aveiroexpo.pt/
+/aveiroexpo/js/jquery.easing.1.3.min.js 6 http://www.aveiroexpo.pt/
+/teste 2 -
+/gradinox 1 -
+/aveiroexpo/js/superfish.min.js 6 http://www.aveiroexpo.pt/
+/nuno/swf/plantas/05.swf 3 http://www.invisual.pt/nuno/swf/plantas.swf
+/aveiroexpo/js/supersubs.min.js 6 http://www.aveiroexpo.pt/
+/spot_feira_marc 1 -
+/versatico/swf/3d/002.swf 1 http://www.invisual.pt/versatico/swf/fotos_3d.swf
+/swf/swf/multimedia/filinox.swf 1 -
+/versatico/swf/envolvente_legenda013.swf 1 http://www.invisual.pt/versatico/swf/envolvente/013.swf
+/home.swf 1 http://www.invisual.pt/
+/aveiroexpo/js/jquery.cluetip.min.js 6 http://www.aveiroexpo.pt/
+/swf/swf/eventos/biju.swf 1 -
+/aveiroexpo/js/hoverIntent.min.js 6 http://www.aveiroexpo.pt/
+/nuno/swf/contactos.swf 1 -
+/aveiroexpo/css/tooltip.min.css 6 http://www.aveiroexpo.pt/
+/pt.html 10 -
+/versatico/marianaurbanizacao.ico 26 -
+/pageturn.mp3 261 http://www.invisual.pt/swf/design/catalogos/lake.swf
+/aveiroexpo/js/invisual.js 6 http://www.aveiroexpo.pt/
+/aveiroexpo/js/LiberationSans.font.js 7 http://www.aveiroexpo.pt/
+/aveiroexpo/js/hoverintent.min.js 1 http://www.invisual.pt/aveiroexpo/js/hoverintent.min.js
+/gavinho.zip 1 -
+/versatico/swf/envolvente_legenda014.swf 2 http://www.invisual.pt/versatico/swf/envolvente/014.swf
+/versatipo 2 -
+/aveiroexpo/js/jquery-1.4.min.js 6 http://www.aveiroexpo.pt/
+/aveiroexpo/js/jquery.localscroll-min.js 6 http://www.aveiroexpo.pt/
+/nuno/swf/plantas/03.swf 4 http://www.invisual.pt/nuno/swf/plantas.swf
+/aveiroexpo/js/onload.min.js 1 http://www.invisual.pt/aveiroexpo/js/onload.min.js
+/wp-login.php 1 -
+/aveiroexpo/spot_feira_marc/susanalopes.ico 17 -
+/asl 1 -
+/gavinho/pt/gavinho.ico 1 -
+/versatico/swf/3d/001.swf 3 http://www.invisual.pt/versatico/swf/fotos_3d.swf
+/swf/swf/eventos/litoraldesign.swf 1 -
+/aveiroexpo/site_feira_de_marc/ 1 -
+/aveiroexpo/css/menu.min.css 6 http://www.aveiroexpo.pt/
+/swf/swf/eventos/mercedes.swf 1 -
+/vgg 1 -
+/vgg/images/links.jpg 4 http://www.invisual.pt/vgg/images/dc.jpg
+/nuno 2 -
+/nuno/swf/plantas.swf 6 -
+/aveiroexpo/site_feira_de_marc/fm2010.ico 6 -
+/aveiroexpo/site_feira_de_marc/fm2010.gif 3 -
+/nuno/swf/acabamentos.swf 1 -
+/aveiroexpo/spot_feira_marc/spot02.f4v 1 -
+/nuno/swf/3d/005.swf 1 -
+/nuno/swf/plantas/01.swf 9 http://www.invisual.pt/nuno/swf/plantas.swf
+/swf/swf/fotografia/automovel.swf 1 -
+/swf/design/desdobravel/visual.swf 10 http://www.invisual.pt/swf/design.swf
+/aveiroexpo/spot_feira_marc/ClearOverPlaySeekMute.swf 1 http://www.invisual.pt/aveiroexpo/spot_feira_marc/intro.swf
+/swf/swf/multimedia/lf08_01.swf 1 -
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 6 http://www.aveiroexpo.pt/
+/swf/swf/eventos/mini.swf 1 -
+/aveicabo/tela_aveicabo_2x2.zip 1 -
+/aveiroexpo/spot_feira_marc/v02/susanalopes.ico 11 -
+/versatico/swf/envolvente_legenda003.swf 1 http://www.invisual.pt/versatico/swf/envolvente/003.swf
+/aveiroexpo/js/jquery.scrollto-min.js 1 http://www.invisual.pt/aveiroexpo/js/jquery.scrollto-min.js
+/aveiroexpo/js/pngfix.min.js 1 http://www.invisual.pt/aveiroexpo/js/pngfix.min.js
+/swf/swf/fotografia/gastronomia.swf 1 -
+/aveiroexpo/css/fancybox.css 6 http://www.aveiroexpo.pt/
+/aveiroexpo/css/demo.css 6 http://www.aveiroexpo.pt/
+/versatico/img/envolvente001.jpg 2 http://www.invisual.pt/versatico/swf/envolvente/001.swf
+/aveiroexpo/sector_exposicao.pdf 2 -
+/versatico/swf/envolvente_legenda002.swf 1 http://www.invisual.pt/versatico/swf/envolvente/002.swf
+/nuno/ 3 -
+/aveiroexpo/css/reset.min.css 6 http://www.aveiroexpo.pt/
+/swf/swf/design/linhasgraficas.swf 1 -
+/nuno/swf/plantas/02.swf 5 http://www.invisual.pt/nuno/swf/plantas.swf
+/swf/swf/fotografia/espacos.swf 1 -
+/swf/swf/multimedia/serie7.swf 1 -
+/swf/swf/multimedia/fm07.swf 2 -
+/swf/swf/eventos/bmw7.swf 1 -
+/nuno/swf/localizacao.swf 1 -
+/aveiroexpo/js/demo.js 6 http://www.aveiroexpo.pt/
+/aveiroexpo/js/jquery.overlabel.min.js 6 http://www.aveiroexpo.pt/
+/castigoedelito/d_namorados.jpg 168 http://www.invisual.pt/castigoedelito/dia_dos_namorados.htm
+/aveiroexpo/js/onLoad.min.js 6 http://www.aveiroexpo.pt/
+/swf/swf/multimedia/fm09.swf 1 -
+/spot_feira_marc/spot.f4v 1 http://www.invisual.pt/aveiroexpo/spot_feira_marc/intro.swf
+/aveiroexpo/css/ie-only-all-versions.css 6 http://www.aveiroexpo.pt/
+/WHM 2 -
+/aveiroexpo/spot_feira_marc/susanalopes.gif 3 -
+/nuno/swf/plantas/04.swf 4 http://www.invisual.pt/nuno/swf/plantas.swf
+/aveiroexpo/js/jquery.bgiframe.min.js 6 http://www.aveiroexpo.pt/
+/aveicabo/tela_aveicabo_2x3_seta_esquerda.zip 1 -
+/aveiroexpo/spot_feira_marc/v02/susanalopes.gif 3 -
+/nuno/marianaurbanizacao.ico 20 -
+/aveiroexpo/js/jquery.cycle.all.min.js 6 http://www.aveiroexpo.pt/
+/url(data:image/png 1 http://www.invisual.pt/
+/versatico/swf/envolvente_legenda001.swf 3 http://www.invisual.pt/versatico/swf/envolvente/001.swf
+/gavinho/animated_favicon1.gif 1 -
+/vgg/audio/01.mp3 3 http://www.invisual.pt/vgg/main.swf
+/aveiroexpo/js/jquery.scrollTo-min.js 6 http://www.aveiroexpo.pt/
+/versatico/img/001.jpg 3 http://www.invisual.pt/versatico/swf/3d/001.swf
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 2788
+84.91.21.111 1192 3683 1698331571 20110224180544
+217.129.130.150 75 105 31260433 20110228223107
+188.80.146.1 67 166 10881674 20110216200403
+213.58.224.193 48 74 11721932 20110219115210
+84.91.33.30 42 48 108393036 20110222210113
+93.108.178.145 35 100 101650463 20110225182556
+82.154.251.140 32 34 170578122 20110222153144
+94.132.184.183 29 31 27978477 20110226004003
+89.155.51.211 28 75 12946249 20110224201956
+195.23.86.54 25 238 12103872 20110227152532
+2.81.128.9 24 107 14775385 20110211175150
+84.91.22.170 24 38 2764913 20110224180605
+217.129.241.95 23 29 6037970 20110204220203
+94.132.184.3 23 25 7505347 20110220201658
+2.81.151.66 22 24 9560013 20110220002754
+2.81.151.89 22 24 110886151 20110206165311
+2.81.134.2 21 89 24625627 20110222160224
+193.137.168.204 21 80 98306028 20110224101201
+2.81.148.93 19 37 4729108 20110217110741
+2.81.138.158 19 30 35884638 20110209180011
+213.228.181.5 17 23 7235154 20110215112746
+188.80.150.234 16 18 19476841 20110211191535
+2.81.159.136 15 17 19195183 20110219004345
+2.81.133.126 14 16 6583033 20110221120358
+84.91.7.93 13 15 55825762 20110223073650
+213.22.82.228 0 58 558157 
+93.102.151.88 0 40 523427 
+92.250.127.207 0 239 572324 
+84.91.40.135 2 52 2692777 20110216095323
+188.81.215.166 0 61 564017 
+217.129.246.99 2 2 1871 20110209220600
+85.2.94.171 0 63 564310 
+188.80.228.97 0 54 542524 
+189.107.205.132 0 64 564695 
+94.132.184.113 0 61 564017 
+213.22.66.175 0 122 564017 
+207.46.12.63 0 16 163826 
+84.90.21.10 0 63 564570 
+2.81.135.193 0 61 564017 
+77.54.206.183 0 57 558097 
+77.54.161.213 0 1 1009 
+2.81.146.157 0 67 565641 
+217.129.138.10 0 67 572471 
+2.81.128.188 0 61 564017 
+2.81.171.73 0 61 564017 
+213.22.82.106 1 1 1871 20110210005335
+84.90.2.30 2 4 13044 20110226013124
+79.168.171.86 0 61 564017 
+93.102.133.134 0 59 899588 
+2.81.47.200 0 65 571892 
+87.103.59.208 0 44 536953 
+93.108.145.162 0 128 569460 
+89.214.190.15 0 61 564017 
+89.214.173.237 0 61 564017 
+77.54.22.226 0 45 537172 
+194.65.228.55 0 58 557895 
+84.91.67.3 0 61 564017 
+217.129.130.173 0 61 564017 
+82.154.196.2 0 126 1129098 
+62.48.154.124 0 15 143702 
+84.91.20.148 0 61 564017 
+84.91.49.209 0 61 564017 
+217.129.135.104 0 61 564017 
+2.80.1.126 3 66 3103126 20110217122923
+62.22.84.74 0 64 572815 
+188.80.99.14 0 61 564017 
+84.91.197.16 0 111 564017 
+85.243.158.192 1 1 92369335 20110220164145
+188.80.103.162 0 72 563365 
+83.240.187.54 0 81 1051008 
+46.189.216.21 0 47 542822 
+2.80.21.68 0 44 536953 
+195.23.160.231 8 10 1633410 20110222121621
+89.155.48.26 1 1 1871 20110210083854
+41.215.217.69 0 34 506871 
+93.102.141.67 0 60 563167 
+188.80.151.208 4 48 3448820 20110213122741
+217.129.242.173 0 61 565972 
+89.181.124.77 1 1 22703437 20110211175009
+89.155.50.84 0 45 537172 
+2.81.144.112 1 62 937061 20110207142600
+2.80.236.8 0 127 1125631 
+88.214.162.6 0 61 564017 
+84.90.83.170 0 61 564017 
+84.91.5.39 0 44 536953 
+207.46.199.11 0 10 142485 
+87.103.115.47 0 94 1082267 
+2.81.149.75 0 57 558097 
+93.102.148.122 0 61 564017 
+82.155.33.121 2 253 919951 20110221181540
+74.125.44.89 0 1 640 
+77.54.153.112 2 2 3357020 20110216233922
+89.155.49.168 0 52 547067 
+188.80.96.116 0 61 564017 
+2.81.223.209 0 63 564549 
+2.82.189.37 1 67 623000 20110213142730
+84.91.149.83 0 65 571892 
+213.58.212.158 0 50 643005 
+217.129.222.39 0 57 558097 
+188.80.149.65 0 56 559588 
+188.81.69.65 0 23 497937 
+82.66.72.81 0 61 564017 
+80.172.70.112 0 56 559588 
+2.81.110.4 0 45 537172 
+188.140.59.65 0 61 564017 
+93.102.157.246 0 44 536953 
+84.91.20.185 0 61 564017 
+87.196.42.91 0 57 557751 
+2.81.35.239 0 57 558097 
+62.28.63.138 0 360 1698364 
+93.102.93.72 0 61 564017 
+89.152.145.194 0 61 564017 
+77.54.55.206 0 61 564017 
+188.80.98.250 0 162 1100970 
+157.55.112.222 1 1 103701 20110224000418
+194.65.226.43 1 125 1530128 20110214100651
+2.80.153.84 0 128 1129656 
+217.129.130.138 0 61 564017 
+94.132.170.136 0 61 564017 
+2.81.153.189 1 1 1871 20110210115818
+89.155.123.149 1 58 1844271 20110219185142
+188.81.52.250 0 61 564017 
+2.81.11.185 0 61 565972 
+2.81.155.153 0 57 558097 
+178.166.26.75 0 45 537172 
+2.83.201.137 0 122 564017 
+82.154.204.225 0 50 545105 
+94.132.186.52 0 61 564017 
+84.90.84.5 0 58 558155 
+83.240.194.238 0 65 571892 
+94.132.8.123 0 118 1122114 
+2.81.132.172 0 57 558097 
+2.82.243.170 0 61 564017 
+188.80.103.242 10 12 5340570 20110212213257
+2.81.123.90 4 49 3449039 20110205232745
+2.81.133.247 1 46 910216 20110212212527
+188.83.152.178 0 122 1128034 
+81.90.48.192 0 39 521456 
+94.132.159.229 0 45 537172 
+93.102.101.135 0 47 541620 
+2.82.87.73 0 110 1109064 
+195.23.27.215 0 61 564017 
+2.81.163.171 0 61 564017 
+2.81.145.189 0 57 558097 
+84.90.24.146 0 46 537230 
+217.129.245.78 0 61 565972 
+64.124.203.75 1 1 1678510 20110228171731
+2.81.125.186 0 57 558097 
+2.81.123.162 0 47 538239 
+188.80.100.114 0 45 537172 
+2.81.222.15 0 61 564017 
+2.81.151.62 2 4 1022063 20110202204001
+217.129.137.127 0 61 564017 
+2.82.116.15 0 61 564017 
+84.90.161.81 0 58 561309 
+188.80.106.107 0 44 536953 
+84.90.1.84 0 61 564017 
+188.80.145.26 0 124 1095050 
+84.90.137.152 1 97 931573 20110214155601
+83.240.231.220 0 122 1128034 
+193.137.168.213 0 45 537172 
+83.240.183.96 0 66 572036 
+193.136.173.41 0 61 564017 
+79.168.227.33 0 38 521237 
+2.81.148.234 0 57 558097 
+77.54.140.108 0 49 545047 
+89.152.35.80 0 61 564017 
+93.102.216.193 0 61 564017 
+77.54.6.226 0 63 564855 
+217.129.143.202 0 52 547067 
+193.137.75.146 0 61 564017 
+188.80.132.62 0 46 538490 
+84.91.7.33 0 70 594059 
+2.81.221.152 4 6 1053150 20110208163823
+84.90.51.131 0 61 564017 
+213.228.181.54 1 66 576441 20110208153601
+77.54.243.54 0 64 564896 
+84.91.35.129 0 45 537172 
+195.23.237.27 0 40 544525 
+2.81.114.56 0 64 564999 
+93.108.178.106 0 1 0 
+85.247.208.65 0 65 571892 
+2.81.147.62 1 1 1871 20110211125827
+62.28.18.241 0 209 599889 
+217.129.242.106 0 61 564017 
+93.102.134.99 0 45 537172 
+188.81.85.209 0 122 1129989 
+93.102.93.67 0 57 558097 
+46.189.178.130 0 64 564681 
+84.18.225.46 0 62 0 
+2.81.141.48 0 61 564017 
+87.196.200.68 4 73 5985717 20110219191300
+2.81.73.66 0 44 536953 
+188.81.160.143 0 62 564163 
+217.129.143.103 0 41 534245 
+212.57.64.7 0 65 571892 
+194.65.24.228 0 62 564766 
+95.69.0.83 0 39 521456 
+2.81.120.143 1 125 2242527 20110228100707
+89.152.70.66 0 1 188502 
+188.80.99.197 0 61 564017 
+216.104.15.134 1 11 147189 20110206174017
+188.80.146.196 0 57 558097 
+93.102.134.218 0 63 564549 
+194.65.151.106 0 125 568129 
+84.90.80.224 2 46 2588507 20110208004130
+2.80.252.85 0 65 565088 
+89.155.216.182 0 268 1696923 
+2.81.182.216 0 61 564017 
+188.80.110.95 1 1 469166 20110228181445
+84.90.160.121 0 57 545232 
+2.81.160.222 0 67 565641 
+89.152.157.138 0 61 564017 
+186.88.5.18 0 24 498133 
+85.241.18.220 1 64 955704 20110224125256
+188.81.85.103 0 68 576750 
+92.250.118.37 0 15 183860 
+212.113.163.92 0 63 577749 
+2.81.135.115 0 39 15716 
+86.175.51.33 1 46 910216 20110213165257
+217.129.132.123 0 63 564556 
+2.83.50.195 0 117 1123605 
+82.145.210.134 0 52 609748 
+84.91.6.229 0 62 563365 
+2.83.219.254 0 46 534872 
+89.214.176.133 1 1 373044 20110217133112
+2.81.140.30 0 44 536953 
+2.81.155.253 0 62 566026 
+188.80.102.223 1 62 937061 20110205112746
+83.240.187.157 0 73 711187 
+2.81.137.131 0 62 564071 
+87.196.127.30 0 61 564017 
+217.129.139.27 0 38 521237 
+188.81.35.117 0 61 564017 
+188.83.73.95 0 61 564017 
+84.91.22.250 0 61 564017 
+88.210.90.153 0 23 496435 
+84.90.87.235 0 44 536953 
+188.81.212.54 0 62 559213 
+94.132.42.183 0 65 571892 
+93.102.110.109 0 45 538117 
+84.90.166.208 0 67 572431 
+89.155.51.174 0 61 564017 
+84.90.24.12 0 61 564017 
+2.83.17.3 0 57 558097 
+2.82.135.237 0 44 536953 
+188.80.107.183 1 49 917872 20110213102229
+201.51.215.174 0 3 490055 
+199.19.249.196 6 6 2971911 20110221100216
+87.210.224.224 2 4 13044 20110225204837
+88.167.18.94 0 45 537385 
+95.136.110.115 0 46 537172 
+89.155.50.185 0 52 547067 
+188.80.148.112 0 45 537172 
+93.108.94.55 0 65 571892 
+2.82.85.234 0 45 537011 
+93.102.1.40 0 20 489836 
+188.80.109.163 0 183 564017 
+95.69.25.207 0 61 564017 
+195.23.235.66 0 62 568389 
+188.80.111.199 0 63 559375 
+83.240.187.32 0 65 571892 
+84.90.24.180 12 143 4539998 20110206102057
+93.102.88.254 1 1 373044 20110221191935
+217.129.132.35 0 163 1658865 
+83.240.187.118 0 61 564017 
+46.189.182.100 0 45 538117 
+89.153.163.132 0 67 565641 
+2.81.171.24 0 66 565230 
+213.30.118.100 0 7 17684 
+89.153.142.135 0 2 4598 
+89.155.50.35 0 1 2299 
+84.91.193.120 0 38 521237 
+89.155.54.14 0 44 536953 
+93.102.89.166 0 61 564017 
+83.240.161.146 0 62 568389 
+87.103.41.185 0 57 558097 
+217.129.128.242 1 1 1871 20110210122259
+208.50.101.153 1 1 469166 20110228172053
+89.225.152.139 1 127 2250402 20110213144533
+208.80.194.31 2 2 6578 20110225031802
+217.129.129.164 0 60 562319 
+188.81.87.82 0 44 536953 
+2.81.159.129 0 38 521237 
+2.81.123.177 0 45 537172 
+41.215.213.56 0 45 537172 
+94.132.100.138 0 46 541401 
+2.81.109.199 0 61 564017 
+188.81.84.33 1 1 1871 20110217203252
+189.99.43.215 1 1 103701 20110216130255
+84.91.185.16 2 59 2705773 20110220191902
+95.136.122.116 1 106 1570136 20110219163505
+188.140.82.244 0 61 564017 
+83.240.187.25 0 61 564017 
+84.91.6.28 0 57 558097 
+188.80.148.199 0 61 564017 
+93.108.0.224 0 38 521237 
+74.52.245.146 1 1 3289 20110219143958
+84.91.4.252 0 57 558097 
+195.23.65.253 0 64 564681 
+89.180.71.7 0 63 566112 
+93.102.167.87 0 24 498133 
+93.102.4.158 0 61 564017 
+84.91.4.57 0 46 537230 
+77.54.251.50 0 61 564017 
+83.240.247.29 0 62 0 
+87.196.203.252 0 45 537172 
+188.81.213.144 0 125 564533 
+77.54.14.241 3 64 3024821 20110202224923
+89.153.147.6 0 57 558097 
+194.79.71.246 0 48 544828 
+217.129.143.86 0 56 562555 
+217.129.247.104 0 45 537172 
+84.90.162.142 0 52 549549 
+2.81.163.142 0 105 1100970 
+188.80.147.193 0 62 568389 
+2.80.209.251 0 61 564017 
+2.81.192.236 0 57 558097 
+93.102.129.101 0 61 564017 
+94.132.229.94 0 113 1103782 
+62.28.103.6 0 52 547067 
+93.102.78.87 0 61 564017 
+2.80.156.54 0 44 536953 
+2.81.221.139 4 6 1053150 20110214185314
+2.81.134.106 0 65 569315 
+95.69.86.211 0 628 572324 
+89.214.125.71 0 57 557751 
+85.240.254.195 0 46 541401 
+46.189.186.206 0 59 899242 
+83.240.187.92 0 133 572324 
+2.83.241.115 7 9 15522739 20110220160101
+2.81.222.88 0 61 0 
+84.91.34.18 0 101 1095050 
+2.82.64.201 0 63 564570 
+93.102.99.42 0 57 558097 
+188.80.146.241 0 66 565232 
+188.80.105.253 1 1 1871 20110209173427
+2.81.142.106 0 182 568389 
+2.81.76.252 1 62 937061 20110213204434
+62.48.202.67 0 40 0 
+93.102.102.248 0 57 546849 
+2.81.11.242 3 5 1046100 20110211205147
+82.155.61.56 0 63 564811 
+2.81.53.9 0 56 559588 
+84.91.109.253 0 62 564391 
+187.3.66.222 0 20 489976 
+213.17.21.116 1 62 955164 20110205074043
+188.80.224.133 0 45 537172 
+94.132.5.208 0 44 536953 
+94.132.184.105 0 118 564017 
+92.250.29.255 0 61 564017 
+62.28.63.186 3 191 5609669 20110223104056
+62.28.35.27 0 61 564017 
+217.129.247.166 1 50 918091 20110227150200
+82.155.14.20 0 62 568389 
+217.129.137.87 0 61 564017 
+89.180.122.102 0 126 1130961 
+89.155.48.60 0 61 564017 
+217.129.245.229 0 57 558097 
+195.245.179.94 0 312 3284581 
+89.152.74.241 0 45 537172 
+81.193.251.157 0 61 564017 
+80.172.140.142 0 44 536953 
+193.137.168.74 0 69 576959 
+87.103.60.220 0 61 564017 
+84.91.6.178 0 123 1129787 
+213.63.57.169 2 131 2716065 20110216105348
+77.54.177.67 0 61 564017 
+62.28.0.40 0 550 1701217 
+217.129.128.208 4 73 3297997 20110216170306
+84.91.33.144 0 44 536953 
+46.50.38.52 0 23 497937 
+195.23.82.171 0 49 545047 
+2.81.51.111 0 132 584426 
+84.91.4.44 0 118 564017 
+95.16.116.142 1 2 6522 20110220135759
+95.92.117.215 0 44 536953 
+2.81.81.9 0 122 1128034 
+46.189.249.15 0 45 537172 
+87.196.95.47 1 1 92369335 20110210021324
+2.81.120.81 0 44 536953 
+2.81.121.129 0 61 564017 
+188.81.161.142 0 61 564017 
+2.83.144.69 0 56 559588 
+188.83.43.157 0 65 564823 
+62.28.18.32 0 61 564017 
+84.91.226.8 0 46 537230 
+85.246.236.91 0 67 565641 
+77.54.71.227 1 1 27248259 20110214084217
+2.83.242.16 0 62 568389 
+194.65.227.238 0 44 536953 
+83.240.187.184 1 359 1685797 20110218160136
+89.155.55.138 0 105 1100970 
+194.79.73.160 1 1 92369335 20110209112458
+2.81.134.236 0 2 4598 
+201.94.241.214 0 61 564017 
+77.56.155.7 0 57 558097 
+207.46.204.218 1 1 212906 20110224025104
+193.126.179.171 0 22 259655 
+188.80.102.77 0 73 603357 
+2.81.38.51 0 61 564017 
+193.137.239.66 0 57 558097 
+2.81.117.246 0 45 537172 
+2.83.175.51 0 67 567250 
+83.240.133.31 2 47 1301363 20110211170143
+189.33.203.233 0 62 563365 
+93.102.95.35 0 61 564017 
+188.81.215.122 0 55 529934 
+93.102.91.120 0 61 564017 
+89.155.55.179 0 61 564017 
+93.102.58.226 0 61 565626 
+213.13.115.230 0 64 564939 
+88.210.127.43 0 127 584246 
+92.250.78.48 3 73 6071797 20110218175625
+77.54.234.230 1 1 1871 20110209234058
+217.129.138.38 0 107 1100706 
+95.69.44.44 0 57 558097 
+95.92.6.151 0 44 536953 
+87.210.96.131 1 2 6522 20110222022552
+77.54.75.193 0 88 1073906 
+188.81.212.124 4 4 7484 20110209191201
+188.82.243.146 0 65 571892 
+217.129.138.103 0 56 559588 
+188.82.242.40 0 64 564955 
+217.129.132.209 0 44 536953 
+77.54.152.8 0 61 564017 
+188.80.108.87 0 61 564017 
+89.155.52.137 1 1 92369335 20110210205305
+62.28.0.91 1 124 2810916 20110214163312
+84.91.184.214 0 42 583017 
+77.54.233.6 1 1 27248259 20110211175741
+79.169.34.193 0 59 562555 
+94.132.109.104 0 52 539419 
+89.155.216.17 1 1 92369335 20110209134348
+217.129.196.153 0 62 564423 
+193.136.72.2 0 49 544882 
+78.130.112.203 0 61 564017 
+2.81.121.50 1 1 92369335 20110212233039
+93.102.243.114 0 63 567971 
+84.91.184.42 0 61 564017 
+81.193.250.147 0 57 558097 
+83.240.244.134 2 2 3742 20110210090550
+207.46.12.75 1 1 423326 20110202195922
+84.91.225.131 0 44 536953 
+93.102.148.27 0 179 564017 
+89.214.166.183 0 61 564017 
+85.62.13.136 0 61 564017 
+87.196.84.208 0 44 536953 
+188.81.160.167 0 52 547067 
+95.69.110.82 0 61 564017 
+79.169.47.247 0 16 167519 
+2.81.148.241 0 61 564017 
+62.28.102.129 4 887 11270818 20110222174116
+217.129.143.250 0 90 1074344 
+81.193.35.248 0 61 564017 
+84.91.238.131 0 48 544828 
+2.81.124.91 0 57 558097 
+46.189.169.34 0 113 564449 
+184.73.74.81 0 16 390187 
+188.80.98.140 0 61 564017 
+89.155.122.98 0 61 564017 
+2.82.82.22 0 95 849916 
+121.75.20.122 6 8 2475064 20110222031712
+89.214.57.54 0 65 571892 
+81.193.250.244 1 1 1871 20110211103424
+89.155.35.117 1 1 3289 20110210213627
+2.81.128.94 0 61 564017 
+85.139.183.84 1 47 2215682 20110227225951
+77.54.35.106 2 64 3920385 20110223151811
+89.214.112.224 0 45 537172 
+174.129.80.219 0 16 390187 
+84.90.84.134 1 62 937061 20110211122804
+89.214.8.19 0 45 537172 
+217.129.199.85 0 95 1079334 
+188.80.148.202 0 57 558097 
+2.81.13.205 3 126 4394575 20110203152146
+84.90.29.33 2 6 2074591 20110215142415
+2.81.147.26 0 45 537172 
+2.81.6.50 1 45 0 20110214092456
+81.193.116.85 0 45 537172 
+87.103.24.91 0 66 571240 
+2.81.141.221 0 61 564017 
+46.189.196.226 0 51 541544 
+194.38.138.5 1 1 1678510 20110208144335
+208.80.194.36 1 1 3289 20110228035957
+188.81.122.211 0 62 568389 
+75.101.238.174 0 16 390187 
+75.101.173.212 0 16 390187 
+93.102.40.237 0 122 564017 
+188.81.47.24 0 62 564161 
+217.129.134.2 0 63 564797 
+188.80.149.88 0 57 558097 
+93.108.216.189 0 47 541620 
+2.82.231.48 0 122 564017 
+193.136.92.214 0 66 572324 
+93.102.133.198 0 2 3954 
+2.81.124.189 0 61 564017 
+84.91.227.55 0 66 565230 
+217.129.246.75 0 62 564449 
+2.81.172.149 0 61 564017 
+84.90.49.159 0 62 563365 
+2.81.145.66 1 1 92369335 20110213200212
+84.90.167.153 0 61 564017 
+213.30.118.69 1 20 338886 20110216143135
+193.164.0.63 1 306 3178851 20110222145617
+46.189.246.235 0 47 540696 
+213.63.136.179 0 77 564017 
+89.152.108.24 1 46 2215682 20110201173821
+93.108.4.230 0 57 558097 
+2.81.146.32 0 24 498133 
+2.81.68.254 0 49 545047 
+2.81.83.64 0 61 564017 
+93.108.191.128 1 1 21571 20110222111657
+95.92.134.1 0 125 564449 
+2.83.243.140 0 68 569977 
+62.28.70.133 0 61 564017 
+188.80.108.19 0 65 646163 
+84.91.4.241 0 85 1062150 
+46.189.136.110 0 63 567971 
+2.81.182.85 0 44 536953 
+2.81.73.140 0 44 536953 
+217.129.143.209 0 45 537172 
+93.102.173.158 0 49 608985 
+188.83.152.228 0 57 557751 
+2.81.212.101 0 44 536953 
+2.81.149.230 0 65 569311 
+2.81.146.186 0 59 558583 
+194.65.227.44 0 57 558097 
+89.214.100.88 0 65 571892 
+89.154.196.1 0 129 564449 
+188.82.242.209 0 44 536953 
+195.23.253.125 0 127 1606865 
+194.65.92.57 0 61 564017 
+94.132.186.206 1 1 1871 20110209225532
+93.102.78.70 0 61 564017 
+188.80.149.70 0 61 564017 
+178.166.90.209 0 62 568389 
+84.91.22.230 0 65 565088 
+188.140.14.38 1 1 373044 20110204095816
+188.80.150.241 0 61 564017 
+89.181.112.10 0 68 570013 
+83.240.187.120 0 61 564017 
+178.166.90.60 0 61 564017 
+178.166.24.190 0 45 537385 
+84.91.148.187 1 1 189724 20110208204502
+95.69.2.23 0 62 835670 
+92.250.52.190 0 45 0 
+84.90.41.154 0 61 564017 
+188.140.21.153 0 57 558097 
+93.102.141.51 1 64 937595 20110210130840
+217.129.216.193 0 45 537172 
+93.108.71.205 4 66 7282743 20110211152211
+188.140.44.237 0 61 564017 
+94.132.218.129 0 57 558097 
+83.132.202.169 0 45 537172 
+85.247.15.178 0 61 564017 
+188.82.241.19 0 61 564017 
+2.81.223.182 0 66 572324 
+201.74.88.213 0 16 163826 
+84.90.81.42 0 45 537172 
+2.81.134.100 0 63 566458 
+92.250.99.190 0 45 537172 
+84.90.65.36 0 63 581191 
+87.196.197.16 0 44 536953 
+84.91.231.213 0 61 564017 
+95.136.101.50 1 1 103701 20110226183846
+46.189.235.176 0 44 536953 
+2.81.42.227 0 67 565609 
+89.135.0.242 1 1 1871 20110209190544
+195.23.82.184 0 24 498133 
+2.81.127.144 0 44 536953 
+2.81.154.229 0 65 571892 
+2.81.125.119 0 102 1095269 
+2.81.221.5 0 45 537172 
+217.129.130.103 0 61 564017 
+89.181.221.60 0 68 565769 
+217.129.134.121 0 52 547067 
+77.54.92.19 0 69 572963 
+93.102.156.1 0 45 538117 
+93.102.133.117 0 47 606291 
+93.108.97.21 0 45 537172 
+89.155.217.10 2 6 26055 20110201101906
+62.28.102.18 0 259 1140281 
+93.108.9.104 0 45 537172 
+78.113.133.164 0 61 564017 
+84.90.161.21 0 45 537007 
+87.103.59.196 0 124 564017 
+46.50.12.154 0 61 564017 
+79.168.228.202 0 47 541620 
+188.80.103.207 3 66 93955415 20110211134354
+188.83.103.110 0 120 564017 
+84.90.163.40 1 306 3193129 20110213162056
+84.90.87.157 0 67 565641 
+83.240.254.155 0 61 565626 
+2.81.221.25 4 6 1053150 20110217093714
+84.91.123.143 0 62 564161 
+2.82.73.165 0 57 558097 
+2.81.107.116 0 67 565641 
+2.82.75.34 0 59 657883 
+89.155.50.121 0 45 537172 
+2.81.167.148 0 64 564698 
+2.81.72.135 0 38 0 
+157.88.201.237 0 44 536953 
+92.250.27.199 0 24 521698 
+89.214.121.239 0 45 537172 
+95.92.31.102 0 57 558097 
+89.214.120.228 0 62 564449 
+194.65.237.158 0 57 557751 
+85.247.248.18 0 143 1146087 
+89.180.252.25 0 45 538117 
+84.90.138.133 0 127 1137427 
+94.132.43.187 1 118 959536 20110215202601
+217.129.242.105 0 57 557751 
+84.91.34.114 0 62 564449 
+87.196.254.13 0 84 1153389 
+46.189.186.202 0 61 564017 
+87.196.185.137 0 57 557751 
+89.214.50.144 0 45 537172 
+217.129.142.30 0 126 564017 
+84.91.34.246 0 61 564017 
+85.245.176.133 0 60 563821 
+89.214.223.171 0 58 287569 
+188.83.47.228 0 65 571892 
+217.129.161.119 0 61 564017 
+217.129.138.225 0 105 1100970 
+188.81.84.82 0 44 536953 
+87.103.87.147 0 61 564017 
+84.90.82.86 0 65 565101 
+84.90.55.5 0 61 564017 
+188.81.87.88 0 61 564017 
+84.90.167.67 1 46 910216 20110212140321
+178.166.77.107 0 61 564017 
+217.129.25.90 3 209 3116375 20110222192758
+62.48.229.155 0 58 562123 
+82.154.148.82 0 63 564307 
+212.57.64.188 0 61 564017 
+50.16.169.210 0 16 390187 
+2.81.176.199 0 61 564017 
+2.81.163.205 0 45 537172 
+2.81.172.118 0 45 537172 
+77.54.186.214 0 67 572424 
+2.81.221.112 1 1 1930799 20110210094735
+91.216.117.130 0 62 563365 
+2.81.140.56 0 57 558097 
+95.136.52.87 0 61 564017 
+188.83.126.239 0 61 564017 
+88.214.165.63 0 126 582711 
+84.91.20.53 1 46 911161 20110216184107
+2.81.2.227 0 118 564017 
+80.10.46.77 0 61 565626 
+2.81.185.115 0 236 564017 
+93.102.164.109 0 65 571892 
+188.80.234.32 1 1 1286174 20110204170845
+2.81.172.92 0 44 536953 
+194.65.227.190 0 67 565641 
+87.196.211.179 0 44 536953 
+88.214.162.182 0 5 36214 
+87.103.21.153 0 61 564017 
+87.103.92.206 0 61 564017 
+77.54.87.90 0 57 558097 
+83.200.78.96 1 125 1037699 20110225001818
+2.80.246.115 0 44 536953 
+213.22.82.41 3 67 1508103 20110207113228
+87.196.2.45 2 130 2067990 20110228163433
+89.155.217.175 1 1 373044 20110208150003
+2.81.68.241 0 57 558097 
+84.90.37.70 0 238 1048889 
+178.166.24.75 0 53 551831 
+2.81.223.92 0 61 564017 
+93.102.137.17 0 44 536953 
+195.23.82.167 0 189 1700790 
+2.83.242.61 0 74 1018122 
+81.193.251.149 2 4 1022063 20110224163915
+2.81.155.230 0 64 564695 
+94.132.42.37 0 58 558529 
+213.30.118.99 1 6 390104 20110216140834
+188.81.213.159 0 63 564549 
+85.241.66.65 0 44 536953 
+188.80.102.176 0 61 564017 
+2.81.157.79 0 57 558097 
+77.54.242.56 1 62 937061 20110216230505
+157.55.112.238 1 1 21571 20110224141704
+89.155.50.60 0 131 1130585 
+2.81.134.86 0 46 537230 
+84.90.165.167 0 62 576429 
+95.69.104.118 0 61 564017 
+2.81.125.165 0 68 570283 
+188.81.162.138 0 52 547067 
+2.81.220.165 0 57 558097 
+188.82.160.73 0 62 564071 
+89.214.97.141 0 61 564017 
+208.80.194.29 2 2 6578 20110226154130
+62.28.70.214 0 67 576696 
+46.50.61.46 0 48 544828 
+217.129.129.225 1 103 1469922 20110214151614
+62.28.143.238 0 62 566026 
+89.214.148.41 0 57 558097 
+77.54.137.160 0 57 558097 
+83.240.187.21 0 125 1136922 
+2.81.222.249 0 61 564017 
+2.81.64.206 0 127 564017 
+188.80.100.140 0 61 564017 
+195.23.235.41 1 62 937061 20110207161352
+2.81.141.153 0 61 564017 
+93.102.92.201 0 122 564017 
+87.196.15.88 0 61 564017 
+2.81.153.50 0 66 565235 
+2.82.35.166 0 65 559891 
+213.205.84.235 0 57 558936 
+2.81.64.15 0 62 566404 
+85.246.40.164 0 67 572378 
+213.205.67.227 0 2 2299 
+217.129.131.127 0 61 564017 
+87.103.99.180 0 54 551515 
+2.81.223.218 0 118 1022776 
+188.80.102.104 1 62 1033183 20110211181832
+2.81.71.5 0 45 537172 
+95.92.146.134 0 123 564449 
+217.129.140.167 0 45 537172 
+195.245.179.93 0 65 576142 
+212.117.100.10 0 57 557751 
+83.240.209.155 0 52 547067 
+188.81.160.43 0 2 4598 
+213.30.118.65 0 27 114231 
+2.81.125.213 0 44 536953 
+195.23.37.9 0 189 1701424 
+178.166.71.55 0 62 4372 
+2.81.222.112 0 44 536953 
+2.81.158.188 0 44 536953 
+84.90.161.236 0 61 564017 
+93.102.160.133 0 61 564017 
+2.81.135.181 0 124 1128814 
+93.108.179.219 0 61 564017 
+2.83.241.227 0 38 521237 
+87.196.224.34 0 62 559228 
+84.90.37.52 1 45 909997 20110208191720
+193.137.201.81 0 129 564565 
+188.80.146.163 0 61 564017 
+46.189.153.202 2 58 3916608 20110221084517
+2.81.176.171 0 62 564449 
+2.81.124.55 0 57 558097 
+81.84.254.27 0 57 557751 
+93.108.61.222 0 46 537226 
+84.90.45.175 0 123 564017 
+84.90.85.250 1 124 1501224 20110210201035
+193.47.185.124 0 362 2835565 
+87.196.244.107 0 38 523150 
+89.155.52.160 0 58 558155 
+85.246.207.144 0 61 564017 
+89.153.143.137 1 1 1871 20110210073324
+193.137.168.76 0 133 1137680 
+85.246.192.231 0 61 564017 
+95.92.153.85 0 61 564017 
+217.129.25.94 0 57 558097 
+95.136.109.141 0 61 564017 
+217.129.245.37 0 45 537172 
+188.80.96.168 0 61 564017 
+85.4.151.73 0 57 558097 
+46.189.142.168 0 61 564017 
+84.91.238.37 1 66 944936 20110203231413
+84.6.18.85 0 191 1128034 
+87.103.95.49 0 9 161182 
+85.139.189.110 0 57 557751 
+84.91.236.15 0 59 558285 
+93.108.96.80 0 1 188502 
+83.240.187.214 0 198 565641 
+217.129.143.47 0 63 564549 
+2.81.222.31 0 57 558097 
+195.23.235.22 0 62 564423 
+93.108.214.219 0 62 559228 
+2.81.123.45 0 61 564017 
+84.90.81.151 0 58 558529 
+89.214.68.251 0 60 558155 
+64.235.157.234 1 1 3289 20110223194430
+84.91.36.225 0 61 564017 
+2.83.240.117 0 62 487518 
+213.22.67.52 0 65 565065 
+217.129.27.115 0 432 2827960 
+2.81.130.204 0 44 536953 
+84.91.226.202 0 44 536953 
+2.80.83.242 0 57 557751 
+2.81.65.103 0 126 564827 
+88.210.88.189 0 61 564017 
+84.90.50.25 0 46 607010 
+95.69.54.30 0 61 564017 
+89.214.235.22 2 2 184738670 20110209180818
+89.155.120.109 0 66 576264 
+188.83.97.28 0 61 564017 
+84.90.26.177 0 125 1128975 
+188.80.150.137 0 57 558097 
+188.83.178.173 0 66 565460 
+213.31.207.194 0 1 2299 
+2.81.122.231 0 45 537172 
+2.83.52.187 0 60 563756 
+213.228.166.22 0 62 563365 
+2.82.122.28 0 57 558097 
+2.81.45.213 0 44 536953 
+217.129.247.131 0 61 564017 
+194.65.226.42 0 61 564017 
+87.103.7.209 0 44 536953 
+74.125.46.85 0 1 54 
+2.81.157.223 1 62 1033183 20110217121051
+194.117.2.134 0 57 558097 
+95.69.102.47 1 46 910216 20110205233647
+188.81.162.41 7 9 3129601 20110208122030
+188.80.148.37 0 57 558097 
+188.83.97.59 0 122 1128034 
+188.81.87.38 0 61 564017 
+93.102.50.211 0 61 0 
+62.169.114.95 0 61 564017 
+2.81.157.24 0 40 521514 
+217.129.133.170 0 48 544828 
+83.240.173.215 0 61 564017 
+189.104.117.121 0 37 518756 
+89.155.216.33 0 45 537172 
+2.83.240.64 1 246 1041490 20110209153759
+188.80.11.49 0 61 565972 
+84.18.225.2 0 44 536953 
+89.155.121.97 0 57 558097 
+188.140.21.93 0 52 547067 
+188.83.45.16 0 61 564017 
+62.48.209.62 0 67 565641 
+213.13.127.40 1 66 2613744 20110207172749
+84.91.33.242 1 125 2815288 20110204095459
+94.132.210.170 0 57 558097 
+93.102.155.124 0 62 564449 
+62.28.128.231 0 73 713861 
+84.91.56.54 0 61 564017 
+95.69.102.120 0 61 564017 
+84.90.166.39 0 23 497937 
+78.130.114.220 0 61 0 
+85.245.41.105 0 48 542052 
+2.81.153.239 0 60 558689 
+195.234.134.115 2 65 185306721 20110209111705
+92.250.34.110 1 63 957551 20110225195506
+188.82.243.161 0 1 2299 
+188.140.68.97 0 56 557637 
+84.91.120.57 0 45 537172 
+2.81.99.84 0 61 564017 
+89.155.48.136 0 88 1073906 
+93.102.111.89 0 61 564017 
+188.81.194.235 0 125 1134869 
+83.240.209.113 1 94 1455257 20110214230923
+188.80.63.178 0 61 565972 
+217.129.143.158 0 191 564017 
+93.102.88.103 0 57 558097 
+2.81.141.163 0 61 564017 
+46.50.61.65 0 99 568781 
+194.65.227.4 0 44 536953 
+194.65.227.18 0 184 1687016 
+178.166.92.182 1 62 955164 20110227140627
+93.102.95.59 0 32 504948 
+84.91.226.88 0 61 564017 
+195.23.253.216 0 66 565235 
+84.90.162.87 0 61 564017 
+83.57.79.5 0 52 547067 
+62.28.4.74 0 61 564017 
+93.102.94.44 0 130 596525 
+2.81.155.249 0 61 564017 
+194.65.238.174 0 63 559375 
+89.155.51.227 0 45 537172 
+217.129.195.7 0 101 1095050 
+2.80.252.154 0 1 2299 
+207.46.12.117 0 24 498133 
+188.80.102.161 0 46 537230 
+188.80.96.144 0 129 566073 
+188.82.213.100 0 46 537230 
+89.152.34.65 0 67 565641 
+84.91.184.116 0 65 571892 
+188.81.85.57 0 61 564017 
+2.81.221.68 0 239 0 
+188.83.81.182 0 57 557751 
+2.82.89.26 0 57 558097 
+217.129.26.4 1 1 373044 20110215005850
+87.196.47.180 0 45 537172 
+2.81.75.210 0 61 564017 
+2.81.144.97 0 44 536953 
+74.125.16.2 0 54 149666 
+94.132.43.135 0 61 564017 
+84.91.184.160 0 61 564017 
+94.132.42.155 0 1 2299 
+82.154.193.68 0 61 564017 
+84.91.42.254 0 44 536953 
+82.154.85.238 0 57 557751 
+2.81.154.153 0 45 537172 
+2.80.32.167 0 57 557751 
+2.81.128.83 1 66 944936 20110214205814
+217.129.212.46 0 61 564017 
+188.83.91.208 0 185 1122114 
+188.80.144.233 0 45 537172 
+2.81.155.53 0 1 2299 
+217.129.128.34 0 49 545047 
+89.154.84.108 0 1 1009 
+87.196.52.197 0 65 565088 
+217.129.130.177 0 66 576264 
+83.240.187.79 0 20 486991 
+84.91.49.233 0 49 545047 
+46.50.57.230 1 1 1871 20110210190011
+2.81.155.234 0 63 564307 
+2.81.93.253 0 57 558097 
+217.129.138.98 0 61 564017 
+84.90.167.251 0 125 1128977 
+84.91.117.95 1 62 937061 20110226214859
+89.214.232.25 0 45 537172 
+87.196.127.246 0 71 573458 
+2.81.123.233 0 61 564017 
+95.69.102.176 2 2 184738670 20110210181316
+188.80.107.150 0 61 564017 
+83.240.225.114 0 61 564017 
+188.80.97.211 0 61 564017 
+92.250.106.120 6 57 6814420 20110202235214
+95.136.111.100 0 52 547067 
+2.80.139.49 0 44 536953 
+188.81.215.191 0 1 2299 
+92.250.39.236 0 62 568389 
+89.181.113.73 0 61 564017 
+208.80.194.30 1 1 3289 20110204065200
+213.13.107.211 0 61 564017 
+188.80.69.212 13 15 93833286 20110204103854
+207.138.86.110 1 1 3289 20110224155457
+188.81.160.153 0 68 572614 
+188.82.202.9 0 44 536953 
+62.48.186.249 0 61 564017 
+87.196.248.216 0 47 610021 
+84.91.239.16 1 45 909997 20110217122133
+89.152.138.244 0 39 521456 
+188.81.84.165 0 61 564017 
+89.154.98.164 0 46 541401 
+213.63.2.4 1 58 1843925 20110221141017
+2.82.92.173 0 57 558097 
+89.155.50.164 0 57 558097 
+94.132.141.152 1 1 373044 20110208110735
+93.108.97.124 0 62 0 
+188.140.98.166 0 61 564017 
+77.54.86.231 0 191 1139439 
+89.178.52.231 2 3 1021282 20110206185113
+195.245.197.231 4 4 369477340 20110210114032
+95.92.33.251 0 61 564017 
+83.240.204.44 1 135 2243276 20110214160852
+188.80.144.5 0 72 565088 
+89.155.48.204 0 57 558097 
+84.91.226.201 0 23 497937 
+188.80.151.58 1 1 373044 20110219174416
+188.83.172.6 2 124 2711693 20110207180735
+217.129.193.226 0 61 564017 
+84.90.83.6 0 61 564017 
+84.91.5.66 0 88 1073906 
+93.102.100.100 0 61 564017 
+87.196.119.133 0 61 564017 
+62.28.100.97 0 128 573564 
+87.103.85.236 0 61 0 
+84.91.5.190 0 57 558097 
+84.90.86.253 1 103 2236607 20110201233334
+84.90.163.163 0 45 537172 
+109.154.18.44 0 45 537172 
+93.102.92.133 0 61 564017 
+2.81.158.148 0 61 564017 
+95.92.100.59 0 45 537172 
+188.81.214.54 0 65 571892 
+93.102.89.2 0 61 564017 
+2.81.130.36 0 7 9196 
+62.169.117.45 0 86 574736 
+2.82.4.125 0 57 557751 
+2.81.155.167 2 2 1871 20110209173401
+93.102.164.17 1 62 955164 20110202142713
+89.153.170.183 0 36 524088 
+84.91.23.100 0 101 1095050 
+217.129.241.122 1 66 2243347 20110217220316
+85.240.252.138 4 6 1053948 20110222175736
+150.70.172.108 0 34 920050 
+95.92.129.229 0 40 521514 
+89.153.154.25 0 61 564017 
+194.65.227.166 1 550 4410695 20110203223538
+217.129.26.77 0 39 521456 
+77.54.172.122 0 61 564017 
+188.80.147.35 0 11 4598 
+46.189.242.100 0 61 564017 
+193.136.173.43 0 61 564017 
+212.55.168.231 0 61 564017 
+2.81.159.81 0 61 564017 
+188.80.146.154 0 57 558097 
+2.81.78.92 0 61 564017 
+94.132.126.25 6 69 4360741 20110206144858
+188.82.240.201 0 62 564161 
+195.23.184.61 2 4 1022063 20110214151022
+78.130.114.107 0 9 141167 
+95.136.97.249 1 127 1519863 20110204220355
+84.91.117.17 1 1 373044 20110212232751
+84.91.227.71 0 65 571892 
+77.54.93.75 0 45 537172 
+87.196.62.252 0 61 564017 
+84.90.24.178 0 62 564161 
+194.65.143.156 0 65 571892 
+2.81.91.84 0 61 564017 
+207.46.195.213 0 10 142485 
+89.155.48.154 0 62 564164 
+2.81.220.136 0 61 564017 
+87.196.138.101 0 57 558097 
+87.103.114.65 0 24 498133 
+84.91.6.160 1 257 2677560 20110215230822
+193.137.168.120 0 1036 10552374 
+194.65.234.82 0 207 1648247 
+2.81.138.154 0 61 564017 
+85.91.71.252 0 67 569625 
+89.152.144.99 0 61 564017 
+77.231.165.217 0 61 564017 
+84.91.224.26 0 38 521237 
+195.23.81.180 1 1 35616 20110216122604
+2.81.78.153 0 57 558097 
+2.81.15.97 0 61 564017 
+188.80.101.29 0 64 566516 
+194.65.151.103 0 61 564017 
+87.196.253.15 2 253 1599398 20110211170051
+89.155.50.72 1 67 2244002 20110226202827
+89.214.73.166 0 61 564017 
+94.132.109.233 1 1 1871 20110209224544
+80.84.1.18 2 163 4231647 20110216143128
+195.23.184.189 1 62 937061 20110210213511
+188.80.137.140 0 44 536953 
+87.196.150.5 0 57 558097 
+84.90.166.92 1 62 937061 20110219185829
+79.168.213.204 0 61 564017 
+93.108.98.219 0 57 560459 
+89.152.70.167 0 57 558097 
+95.69.9.2 1 1 92369335 20110212183448
+62.28.174.82 0 105 1100970 
+207.241.228.161 1 1 3289 20110203073337
+84.91.34.87 0 57 558097 
+77.54.178.145 0 61 564017 
+194.79.89.96 0 62 563365 
+85.242.121.223 0 47 541620 
+62.28.74.94 0 57 558097 
+2.81.39.52 0 44 536953 
+188.80.111.52 0 57 558097 
+93.102.75.156 1 1 373044 20110201210001
+2.82.225.130 0 61 564017 
+62.28.131.12 0 61 564017 
+92.250.121.198 2 63 1310105 20110204235340
+188.82.171.35 0 57 558097 
+92.250.32.60 2 4 1022063 20110204125659
+187.52.161.162 0 61 564017 
+91.198.90.55 0 61 564017 
+46.50.52.152 0 50 624125 
+188.80.97.244 0 65 565065 
+2.81.31.38 1 62 2242527 20110216154510
+95.136.86.130 0 71 573516 
+2.81.77.163 0 44 536953 
+77.54.29.23 0 62 568389 
+195.245.197.232 4 186 371171071 20110209103430
+188.80.147.67 0 62 564405 
+2.81.129.205 1 1 373044 20110205164120
+188.80.103.166 12 16 6349574 20110224160514
+2.81.136.244 0 5 0 
+89.155.123.161 0 57 558097 
+79.169.15.34 0 67 565639 
+83.230.230.199 2 2 1915835 20110211180118
+93.108.31.207 0 83 702861 
+84.90.84.29 0 57 558097 
+188.80.99.142 0 50 545479 
+81.84.68.249 3 200 3019695 20110224205815
+2.81.222.28 1 123 1501078 20110221131228
+207.138.86.109 1 1 3289 20110224155350
+84.90.83.248 0 61 564017 
+77.54.20.102 0 61 564017 
+193.137.81.60 0 67 565641 
+194.65.224.235 0 127 1129249 
+213.58.172.146 2 63 1424330 20110217153225
+87.196.247.54 0 63 564549 
+77.54.84.91 1 1 373044 20110209160342
+213.30.118.101 0 5 25967 
+2.81.131.51 0 8 139469 
+89.153.64.165 0 60 563821 
+84.90.27.85 0 45 537172 
+2.81.152.205 1 1 1286174 20110203235208
+72.44.58.132 0 16 390187 
+2.81.157.162 3 47 3075776 20110223225743
+84.91.195.226 0 68 565663 
+2.81.108.51 0 49 545047 
+2.81.149.154 1 1 21571 20110225094727
+213.205.86.11 0 24 498133 
+87.103.34.89 0 120 841651 
+50.17.7.135 0 16 390187 
+207.138.86.108 1 1 1871 20110210201648
+188.80.105.32 0 63 564549 
+93.102.89.230 0 44 536953 
+2.81.147.245 1 62 1033183 20110202170112
+62.28.115.193 4 6 2263107 20110217151011
+92.250.79.115 0 53 551831 
+2.81.149.65 0 61 564017 
+2.83.241.39 5 5 9294265 20110209154938
+78.130.39.107 0 58 559261 
+213.13.113.154 0 19 207631 
+87.196.88.58 0 38 521237 
+84.90.164.48 0 62 564161 
+213.205.67.128 0 1 2299 
+85.245.214.188 0 45 537172 
+2.81.220.125 1 1 1871 20110213164039
+217.129.226.229 0 63 564798 
+2.80.227.172 1 1 103701 20110203194608
+89.152.145.10 0 57 558097 
+83.132.107.54 0 62 564161 
+87.196.118.253 1 133 2254554 20110223105521
+77.54.241.131 0 50 549276 
+217.129.134.125 1 45 909997 20110206150557
+188.82.4.9 0 124 0 
+89.155.48.2 0 57 558097 
+2.81.125.113 0 61 564017 
+188.80.147.144 0 57 558097 
+46.189.255.130 0 56 553335 
+2.81.159.96 1 1 120040844 20110216133916
+188.140.93.200 0 62 564449 
+188.80.104.174 0 57 558097 
+93.102.155.120 0 61 564017 
+2.81.127.141 1 95 2764739 20110208115730
+2.81.158.138 0 24 498133 
+84.91.23.26 0 67 576657 
+84.90.80.53 0 65 564847 
+2.81.95.8 0 44 536953 
+217.129.223.249 0 45 537172 
+2.81.124.101 0 61 564017 
+188.81.161.148 0 62 173834 
+84.90.39.47 0 106 1102979 
+77.54.125.122 0 61 564017 
+84.90.37.198 0 44 536953 
+95.136.50.134 0 23 497937 
+195.23.61.182 0 4 7908 
+2.81.166.253 0 45 537172 
+2.81.197.147 0 61 564017 
+213.63.47.136 0 61 564017 
+89.214.182.235 0 61 564017 
+2.81.74.92 0 62 564405 
+87.103.61.31 0 61 564017 
+89.214.235.198 0 61 564017 
+89.153.211.119 0 44 536953 
+94.132.42.194 0 69 566157 
+188.140.52.52 0 63 564503 
+2.81.229.58 0 38 521237 
+188.80.147.139 0 122 1128034 
+89.155.48.76 11 24 2890675 20110216105131
+213.30.118.66 0 19 110786 
+2.81.125.23 1 62 937061 20110202170639
+77.54.89.61 0 132 1141756 
+217.129.143.1 0 61 564017 
+84.91.48.225 0 61 564017 
+93.108.126.85 0 61 564017 
+89.155.120.77 0 65 571892 
+79.169.55.90 0 57 557751 
+85.246.43.105 4 6 1797379 20110212091643
+83.240.138.23 0 61 564017 
+188.81.163.223 1 124 2805892 20110228111612
+83.240.247.167 0 62 568389 
+194.65.55.162 1 1 1678510 20110221152316
+188.80.98.244 0 57 558097 
+2.81.155.187 0 62 564423 
+83.240.160.122 0 18 197077 
+188.80.208.166 0 58 559261 
+93.102.156.158 0 44 536953 
+188.140.58.100 0 38 521237 
+2.81.127.93 0 44 536953 
+89.214.250.106 0 66 576264 
+188.80.108.106 1 62 937061 20110202180804
+84.91.40.62 0 65 569327 
+95.69.109.182 0 63 581191 
+2.81.127.49 0 61 564017 
+84.91.32.131 0 57 558097 
+188.81.162.253 1 1 373044 20110206043555
+87.196.155.27 0 44 536953 
+2.81.128.35 0 61 564017 
+195.23.160.239 7 9 2482912 20110223101611
+84.90.54.192 0 57 558097 
+83.240.233.254 0 45 537172 
+80.30.113.126 2 4 13044 20110227185541
+2.81.98.199 1 46 910216 20110207122403
+88.209.102.121 0 59 531656 
+188.82.240.43 0 44 536953 
+89.152.146.92 0 49 545260 
+2.81.124.89 0 62 568389 
+2.81.133.214 1 1 1871 20110209225013
+2.81.20.210 1 62 937061 20110210101227
+2.81.174.149 0 62 563365 
+195.23.82.132 1 62 937061 20110211114818
+85.240.108.103 0 47 541620 
+2.80.108.175 0 57 558097 
+46.189.148.35 0 61 564017 
+193.194.132.76 0 44 536953 
+2.81.120.125 0 61 564017 
+79.169.87.97 0 57 557751 
+84.91.41.175 0 44 536953 
+77.84.38.111 0 61 564017 
+188.81.84.12 0 61 564017 
+217.129.136.114 0 128 1150514 
+188.82.242.33 0 57 558097 
+89.181.118.172 0 22 493288 
+217.129.219.66 0 52 547067 
+2.81.183.150 0 62 564161 
+213.205.67.110 1 138 2817497 20110225085613
+84.90.138.190 0 128 576696 
+188.83.53.12 0 174 568389 
+2.81.129.134 0 61 564017 
+89.155.53.13 2 48 1283318 20110208102345
+213.228.163.13 0 61 564017 
+188.81.161.19 0 43 529331 
+93.156.244.167 0 176 1201520 
+188.83.240.91 0 46 536657 
+46.189.224.96 0 61 564017 
+216.104.15.142 0 12 407269 
+188.80.111.81 0 61 564017 
+194.44.92.208 0 72 1494399 
+217.129.142.103 0 61 564017 
+77.54.14.201 0 61 564017 
+84.91.40.16 1 45 909997 20110215141257
+188.83.135.224 1 123 937061 20110217183312
+89.155.214.130 1 3 7303 20110201204243
+2.81.123.163 0 61 564017 
+89.155.123.136 0 45 537172 
+2.81.127.184 0 61 564017 
+85.244.139.189 0 67 572408 
+46.189.146.81 0 61 564017 
+217.129.139.29 0 63 564549 
+193.136.173.42 0 122 1127745 
+213.22.82.209 1 2 190373 20110209215152
+84.91.226.227 3 3 277108005 20110213160109
+188.83.27.254 0 62 568389 
+95.92.85.139 0 45 537172 
+87.196.99.240 1 1 92369335 20110212004907
+2.81.156.32 0 45 537172 
+84.91.115.151 0 131 1130313 
+212.64.228.99 0 52 547067 
+217.129.135.96 0 102 1095269 
+89.155.130.129 0 45 537172 
+217.129.141.67 0 61 564017 
+93.108.43.15 0 61 564017 
+84.90.86.87 0 61 564017 
+188.81.215.241 0 61 564017 
+93.102.52.163 0 61 564017 
+213.58.198.17 0 61 564017 
+89.152.151.192 0 62 564161 
+217.129.129.158 0 49 545047 
+2.81.129.50 1 310 955574 20110208182318
+93.102.90.235 0 62 563365 
+217.129.24.126 0 61 564017 
+84.195.62.79 2 60 1496487 20110221173840
+87.196.145.155 1 1 92369335 20110218050107
+174.129.81.163 0 16 390187 
+93.102.163.93 0 44 536953 
+89.155.121.165 1 1 92369335 20110209124152
+84.90.82.153 0 61 564017 
+2.81.185.140 0 61 564017 
+2.81.140.182 0 44 536953 
+194.65.227.19 0 106 564017 
+84.90.24.16 0 126 564163 
+77.54.129.209 0 61 564017 
+92.250.125.216 0 6 106052 
+92.250.24.178 0 44 536953 
+93.108.15.119 0 159 557903 
+2.81.18.108 0 62 563365 
+93.102.140.224 0 46 537230 
+195.23.49.65 0 61 564017 
+217.129.247.206 0 61 564017 
+93.102.100.145 0 45 537172 
+92.250.69.36 1 62 2242527 20110208220940
+217.129.161.49 0 123 568389 
+217.129.134.52 0 57 558097 
+193.137.168.194 0 63 564556 
+188.80.145.101 0 64 563747 
+62.169.123.41 1 62 2242527 20110209092957
+84.91.59.65 0 63 564549 
+87.103.111.99 0 45 537172 
+2.81.193.152 0 65 571892 
+84.91.22.225 0 61 564017 
+93.102.137.1 0 61 564017 
+2.81.156.70 2 2 469166 20110228165204
+188.82.251.166 0 40 521514 
+217.129.245.156 0 61 564017 
+2.81.95.103 0 44 536953 
+194.65.239.170 0 61 564017 
+2.81.155.251 0 61 564017 
+2.81.156.81 2 46 2684629 20110216183408
+217.129.26.63 0 59 546843 
+62.48.229.156 0 66 572324 
+2.81.163.219 1 46 2215682 20110212141351
+213.228.163.47 0 61 564017 
+2.82.82.83 0 61 564017 
+2.80.84.12 0 69 566157 
+93.108.99.116 0 57 558097 
+95.120.110.220 1 1 82316 20110217091918
+2.81.92.223 1 69 945858 20110205195035
+62.169.66.5 0 43 805956 
+92.250.12.154 0 44 536953 
+2.81.104.197 0 63 564557 
+2.81.121.100 0 70 573372 
+188.81.86.95 1 1 92369335 20110209132151
+213.228.163.23 0 61 564017 
+84.90.215.182 2 4 13044 20110222012319
+2.81.162.224 0 71 573452 
+188.82.243.236 0 61 564017 
+88.214.166.175 0 57 557751 
+217.129.166.44 1 1 1871 20110210180052
+92.250.93.193 0 61 564017 
+46.189.136.222 0 1 188502 
+84.90.163.250 0 57 558097 
+2.81.144.253 0 61 564017 
+194.65.228.3 0 61 564017 
+217.129.207.143 0 61 564017 
+84.90.165.230 0 61 564017 
+93.108.74.224 0 57 558097 
+77.54.40.211 0 61 564017 
+188.82.242.145 0 61 565972 
+2.81.170.146 0 64 568921 
+217.129.25.169 2 2 3357020 20110213164200
+90.84.144.116 0 61 565972 
+84.90.167.46 0 62 566404 
+94.132.42.82 1 1 1678510 20110203193857
+2.83.242.14 0 57 558097 
+2.83.242.150 0 63 564557 
+81.57.185.57 0 57 558097 
+89.155.52.147 0 44 536953 
+62.35.111.87 0 61 564017 
+46.189.186.191 0 45 537172 
+217.129.229.210 0 44 536953 
+188.81.163.212 0 61 564017 
+178.166.23.25 0 46 537230 
+188.82.195.29 0 62 568389 
+157.55.112.210 1 1 83908 20110224211031
+188.80.23.85 0 61 564017 
+87.103.71.16 0 57 558097 
+93.102.94.7 0 65 571892 
+188.82.211.70 0 48 544828 
+144.32.57.100 0 57 558097 
+188.81.196.142 0 62 568389 
+84.90.17.226 0 44 536953 
+188.80.217.38 0 128 564017 
+84.90.26.124 0 57 558097 
+93.102.73.59 0 141 356554 
+94.132.185.51 4 6 1251368 20110205015051
+2.81.156.108 0 61 564017 
+213.58.59.78 0 45 537172 
+188.80.144.98 0 44 536953 
+87.196.248.221 0 66 565722 
+195.23.249.54 0 105 1373977 
+2.81.93.133 4 51 2800279 20110219233943
+85.243.137.50 0 47 541620 
+188.81.32.60 0 66 576264 
+46.189.210.182 0 61 564017 
+89.152.3.54 0 44 536953 
+188.80.102.236 0 57 551997 
+79.168.129.197 0 45 537172 
+188.83.212.199 1 46 910216 20110221000614
+93.102.91.15 0 57 557751 
+188.81.161.72 0 63 564307 
+217.129.131.13 2 92 3125898 20110223150415
+217.129.210.67 1 45 1006119 20110217190603
+122.173.203.59 1 46 2215682 20110201091619
+84.90.163.173 0 57 558097 
+213.205.71.119 0 62 564161 
+2.81.136.37 0 61 564017 
+87.196.246.134 1 121 2247331 20110223130121
+92.250.70.145 0 57 557751 
+81.193.116.61 0 8 204054 
+188.80.99.53 0 39 521456 
+188.81.85.169 2 63 1328208 20110212184209
+92.250.10.7 0 61 564017 
+2.81.220.50 0 58 562123 
+89.214.16.117 0 61 564017 
+85.243.79.143 0 38 523150 
+2.83.243.98 0 66 565248 
+2.82.70.35 0 58 558155 
+188.80.96.47 1 62 937061 20110207113905
+2.81.45.129 0 61 564017 
+83.240.187.199 0 234 1687565 
+95.136.105.41 0 45 537172 
+84.91.225.139 0 141 573804 
+93.102.107.117 0 57 557751 
+2.81.74.105 0 48 544828 
+2.81.72.219 0 58 558151 
+213.205.79.199 0 59 558283 
+94.132.9.37 0 51 643224 
+85.138.89.183 0 125 1128713 
+2.83.240.122 0 44 536953 
+188.82.127.19 0 44 536953 
+89.155.215.232 0 67 565641 
+85.245.21.183 0 61 564017 
+188.80.145.96 1 1 21571 20110204111103
+217.129.241.221 0 173 1128034 
+2.81.159.135 0 61 564017 
+84.90.85.66 0 118 1121768 
+188.81.157.241 3 7 1022063 20110209224052
+188.82.241.100 0 61 565972 
+213.31.11.80 6 8 2464118 20110215204520
+188.80.151.97 0 61 564017 
+217.129.143.69 0 61 564017 
+84.90.21.100 0 45 537172 
+84.91.225.202 1 139 1519028 20110204215515
+85.139.140.154 0 45 537172 
+95.92.170.92 0 134 1131282 
+2.81.222.167 0 49 545047 
+194.65.231.174 0 66 572324 
+84.90.85.159 0 61 564017 
+188.140.29.122 0 61 564017 
+84.91.224.139 0 61 564017 
+89.153.164.199 0 111 564017 
+93.102.111.171 0 61 564017 
+84.90.137.198 0 63 563797 
+84.90.45.40 0 61 564017 
+217.129.242.89 0 61 564017 
+84.91.33.67 0 61 564017 
+84.90.0.9 1 2 6522 20110217190818
+2.81.110.124 0 61 564017 
+150.70.75.31 1 111 3004996 20110208224648
+208.80.194.35 1 1 3289 20110222042248
+62.28.134.249 1 123 1597200 20110222132806
+84.90.81.140 2 127 1911250 20110220143550
+2.81.176.161 0 57 558097 
+89.153.165.43 5 7 1510347 20110212195404
+84.90.80.196 0 62 564423 
+89.141.84.247 2 4 13044 20110224145734
+84.90.24.103 0 44 536953 
+2.81.94.142 1 62 937061 20110207112940
+84.91.115.208 0 63 564549 
+2.81.101.34 1 62 939016 20110205182528
+82.145.208.98 0 47 541873 
+195.23.242.178 0 70 584883 
+2.82.74.30 0 45 537172 
+89.155.51.191 0 44 536953 
+95.136.112.56 7 15 2187976 20110217134519
+2.81.130.237 0 62 997197 
+194.120.16.101 0 61 564017 
+85.247.148.88 0 62 568389 
+81.193.252.1 0 61 564017 
+85.246.126.113 0 44 536953 
+212.55.162.74 0 61 558823 
+93.102.95.17 0 45 537172 
+84.90.165.125 0 61 564017 
+188.80.101.34 0 61 564017 
+80.251.170.243 1 1 2215956 20110221100217
+2.83.240.213 4 63 2821204 20110223152201
+2.81.154.37 0 61 564017 
+84.90.165.249 0 114 1116194 
+217.129.206.17 0 45 537385 
+188.80.113.155 0 61 564017 
+195.23.214.5 0 67 565641 
+192.89.97.1 0 57 557751 
+109.50.146.194 0 57 558097 
+2.81.148.4 0 57 558097 
+2.81.186.127 0 56 554942 
+46.189.184.185 0 45 537172 
+213.22.82.227 0 123 1128178 
+213.205.84.233 1 51 2227786 20110216110428
+92.250.30.147 0 61 564017 
+67.19.190.146 1 1 134721 20110216165443
+188.82.59.31 0 53 549782 
+87.196.169.220 0 57 558097 
+87.103.33.58 0 39 523369 
+2.81.175.39 0 79 587746 
+94.132.101.93 0 61 558558 
+122.163.117.139 0 38 523150 
+89.152.230.225 0 60 562977 
+83.240.187.52 0 68 576362 
+217.129.136.34 0 61 564017 
+195.23.182.229 0 29 635618 
+89.155.231.191 0 53 551831 
+77.54.8.20 2 2 184738670 20110209171436
+83.132.29.213 0 46 537226 
+188.81.87.190 0 63 564503 
+89.214.135.58 0 57 558097 
+195.23.32.82 0 62 563089 
+188.81.85.13 0 63 564549 
+93.102.152.96 0 48 538951 
+93.102.132.30 0 61 564017 
+84.90.24.66 0 61 564017 
+2.81.127.245 0 59 546843 
+84.91.4.248 0 61 564017 
+193.137.168.121 0 128 1129658 
+90.2.196.92 0 61 564017 
+178.166.121.116 0 45 538117 
+188.81.39.197 1 1 373044 20110207145805
+2.81.158.234 0 62 563365 
+2.81.129.225 0 61 564017 
+188.81.87.141 0 63 564549 
+2.81.141.210 0 85 1062150 
+62.28.89.138 0 62 563365 
+2.81.144.216 1 66 944936 20110218093430
+194.65.151.100 0 61 564017 
+85.246.32.201 0 55 713220 
+188.83.200.179 0 67 576696 
+84.90.55.50 0 61 564017 
+217.129.245.61 0 61 564017 
+188.81.80.103 0 119 568389 
+62.169.126.46 0 16 163826 
+217.129.204.154 0 63 564798 
+89.214.84.243 0 61 564017 
+2.81.156.89 0 250 571892 
+188.80.151.148 0 62 564449 
+195.23.123.209 0 61 564017 
+92.7.98.100 0 50 924833 
+84.91.225.191 0 61 564017 
+188.81.213.5 2 63 2711693 20110207121254
+217.129.137.65 0 38 521237 
+87.196.192.162 0 58 558155 
+195.23.82.154 1 1 1871 20110210120134
+217.129.130.109 0 67 565623 
+94.132.85.21 1 1 92369335 20110209122016
+217.129.129.181 0 62 564405 
+79.168.24.145 0 2 4598 
+2.81.102.253 0 61 564017 
+93.102.158.128 0 45 537172 
+216.104.15.138 1 18 221904 20110212140655
+217.129.242.217 1 62 937061 20110214222914
+2.81.146.74 0 52 547067 
+94.132.147.36 1 1 92369335 20110209080215
+2.81.104.190 0 61 564017 
+89.154.196.81 0 125 568821 
+93.102.42.24 0 61 564017 
+195.23.82.198 0 62 564449 
+2.81.222.155 0 53 548231 
+217.129.197.76 0 149 558615 
+87.196.154.99 0 61 564017 
+213.205.67.8 0 1 0 
+217.129.241.111 0 57 558097 
+2.80.11.58 0 44 536953 
+46.189.130.76 0 41 539055 
+188.81.84.51 0 62 568389 
+89.152.0.20 0 48 544828 
+84.90.82.39 0 61 564017 
+41.214.67.111 0 45 537172 
+188.83.55.24 0 61 564017 
+2.81.75.253 0 61 558803 
+195.23.22.82 0 52 540861 
+188.80.96.187 6 67 5623560 20110203161442
+84.90.167.163 0 45 537172 
+89.155.55.110 0 61 564017 
+79.168.13.203 2 4 1022063 20110221124723
+188.83.72.50 0 105 1098855 
+217.129.24.207 0 44 536953 
+188.80.111.234 0 44 536953 
+89.180.115.43 0 60 558692 
+89.152.9.237 0 46 537230 
+82.154.29.123 0 61 564017 
+93.108.23.243 1 46 910216 20110207214309
+188.80.108.133 0 61 564017 
+2.82.95.177 0 57 558097 
+188.83.93.186 0 62 564405 
+88.210.97.165 0 5 14906 
+217.129.215.144 0 65 571892 
+2.81.127.192 1 62 937061 20110206200635
+89.155.54.1 0 113 1109724 
+83.240.186.31 0 57 557751 
+2.81.150.44 0 61 564017 
+84.91.239.169 0 62 564405 
+188.80.97.12 0 44 536953 
+84.90.37.196 0 160 1642412 
+84.90.163.72 0 118 1121768 
+195.23.184.87 0 124 1136778 
+89.155.48.140 0 61 564017 
+89.155.52.152 4 65 46061673 20110222140419
+217.129.225.210 0 49 545047 
+89.155.49.210 0 157 1642751 
+89.154.176.221 0 62 546450 
+95.69.98.137 1 1 21571 20110227120058
+93.108.10.44 0 61 564017 
+2.81.52.161 0 65 565390 
+84.90.40.211 0 92 617904 
+217.129.137.36 0 46 537230 
+89.155.215.107 0 45 537172 
+89.155.121.145 0 45 537172 
+84.91.145.201 0 49 545260 
+2.81.123.59 0 62 561212 
+84.90.164.18 0 64 564681 
+2.81.81.6 0 57 558097 
+84.90.163.182 0 61 564017 
+89.155.216.159 0 61 564017 
+194.169.215.101 0 67 553357 
+84.90.86.186 0 46 541401 
+94.132.42.210 0 45 537172 
+81.84.2.189 0 63 564549 
+212.57.74.21 3 64 4312184 20110226170441
+213.228.181.26 0 285 2779972 
+217.129.25.102 0 40 521514 
+84.91.116.252 0 61 564017 
+195.23.235.4 0 65 571892 
+188.80.108.49 0 61 564017 
+62.28.152.105 0 61 632089 
+178.166.70.33 0 20 482206 
+62.28.113.177 0 57 557751 
+93.102.154.21 0 58 558139 
+84.90.28.219 0 49 545260 
+2.81.223.67 0 64 564714 
+2.83.241.119 0 50 545314 
+213.30.234.26 0 61 564017 
+85.245.150.234 2 2 184738670 20110209141504
+217.129.139.163 0 62 564449 
+194.65.227.236 2 65 2619974 20110208092734
+187.3.52.143 0 57 2927 
+207.46.12.107 1 1 212906 20110224144116
+2.81.149.254 0 57 558097 
+2.81.166.155 0 57 558097 
+92.250.36.127 0 61 564017 
+194.65.236.3 0 57 557751 
+84.91.5.99 1 91 1447388 20110208152235
+2.81.156.84 0 122 1128034 
+2.81.98.82 0 114 571892 
+2.81.180.127 0 63 559375 
+2.81.158.157 0 45 537172 
+188.81.33.158 0 38 521237 
+2.81.137.83 0 45 537172 
+194.65.237.253 0 24 498133 
+188.80.155.71 1 62 2242527 20110218141102
+213.58.158.68 1 1 1871 20110209190416
+188.80.198.51 0 67 565641 
+188.82.151.112 1 1601 2255404 20110223130021
+188.83.250.200 0 62 568389 
+77.54.224.216 0 67 565639 
+2.81.130.185 0 46 541401 
+84.90.84.125 0 183 1692051 
+84.91.197.24 0 61 565626 
+93.102.131.170 0 46 536453 
+83.240.187.106 0 64 4804 
+188.83.182.62 1 176 1033183 20110224210853
+2.81.91.21 0 45 537172 
+84.90.27.132 0 61 564017 
+195.23.96.164 0 63 564549 
+93.102.109.30 0 61 564017 
+2.81.20.242 0 85 1062150 
+77.54.6.185 0 61 564017 
+212.57.64.95 0 61 564017 
+87.196.134.183 2 2 184738670 20110211052152
+89.153.24.45 3 131 3110715 20110223222127
+188.81.135.134 0 64 564695 
+2.81.154.194 1 1 373044 20110221134429
+178.166.97.220 0 61 564017 
+87.196.119.25 0 66 1005072 
+79.168.207.24 0 67 565622 
+194.65.227.11 1 1 21571 20110210162602
+84.91.144.81 1 45 2215463 20110217183322
+89.155.217.162 0 44 536953 
+95.69.46.118 0 38 521237 
+2.80.40.160 0 50 528703 
+188.81.214.220 0 90 1074344 
+87.196.137.143 0 38 521237 
+2.81.156.210 4 6 2263107 20110220184725
+2.83.67.97 0 65 571892 
+217.129.140.184 0 44 536953 
+84.91.224.181 0 132 569355 
+85.245.5.9 1 64 937595 20110203231141
+83.132.102.89 0 67 565525 
+188.82.146.96 0 61 564017 
+89.153.240.160 0 63 564565 
+195.23.99.140 0 61 564017 
+69.28.58.25 1 1 3289 20110214092121
+188.140.70.57 0 18 197077 
+195.23.218.141 0 61 564017 
+2.81.113.230 0 61 564017 
+208.80.194.27 3 3 9867 20110220170935
+89.214.10.35 0 61 564017 
+93.102.41.80 0 62 568389 
+217.129.245.228 4 6 1613813 20110208160403
+188.80.115.129 0 61 564017 
+84.90.162.85 0 41 713049 
+195.23.249.150 0 71 573252 
+200.149.32.22 0 2 0 
+84.90.40.218 0 61 564017 
+87.196.240.173 0 132 569219 
+79.168.66.95 0 68 602125 
+84.90.80.116 0 57 558097 
+2.83.190.130 0 117 564071 
+188.80.225.201 11 13 5900815 20110207172847
+2.81.13.99 3 72 1525801 20110210092431
+2.81.90.107 0 61 564017 
+2.81.131.149 0 44 536953 
+83.240.200.110 0 88 1073906 
+188.81.214.46 2 47 2588726 20110213150627
+84.90.52.72 1 184 2065095 20110213015607
+87.196.248.193 0 67 565639 
+195.23.84.64 0 53 551831 
+213.22.82.176 0 62 563365 
+200.187.11.1 0 57 557751 
+178.166.0.53 0 61 564017 
+188.140.78.105 0 61 565626 
+2.81.157.250 0 66 565471 
+188.80.211.205 0 61 564017 
+84.91.117.111 0 57 558097 
+87.196.246.102 0 123 576264 
+194.65.228.46 0 341 2266785 
+188.81.78.240 0 61 564017 
+46.189.250.34 1 64 937547 20110211193917
+89.153.206.201 0 67 565390 
+46.189.159.51 0 44 536953 
+87.103.91.18 0 57 558097 
+188.80.148.247 0 44 536953 
+204.68.97.133 1 1 3289 20110210151015
+89.155.215.226 4 6 1283631 20110221225819
+84.90.161.27 4 6 1053150 20110203142335
+89.152.144.188 0 44 536953 
+2.82.87.27 0 49 545047 
+89.152.71.63 0 44 536953 
+87.103.44.184 0 61 564017 
+81.243.241.12 1 1 1728160 20110207092526
+188.80.55.94 4 224 4035312 20110223175647
+188.80.87.158 0 44 536953 
+195.23.82.223 0 185 1128566 
+188.80.144.16 0 69 566157 
+89.214.17.42 0 118 564017 
+187.43.71.122 0 61 564017 
+84.90.82.112 0 57 558097 
+2.81.164.78 0 61 564017 
+62.28.122.70 0 62 835670 
+217.129.26.67 1 58 931141 20110221155953
+93.102.172.160 0 78 537172 
+93.102.151.78 0 55 828083 
+188.80.104.23 0 4 9196 
+94.132.186.232 0 61 564017 
+85.247.196.164 0 45 537172 
+89.155.52.171 0 46 537230 
+2.81.89.158 0 59 557528 
+188.83.11.157 1 186 944936 20110219204720
+50.17.12.123 0 16 390187 
+2.81.146.71 0 52 539419 
+217.129.243.60 0 61 564017 
+188.140.32.174 0 61 564017 
+93.102.157.0 0 65 571892 
+2.81.222.10 0 59 558283 
+217.129.218.172 0 67 569781 
+217.129.143.164 0 44 536953 
+188.80.151.26 0 61 564017 
+77.242.201.53 0 38 521237 
+213.22.232.195 0 45 537172 
+84.90.162.188 0 57 558097 
+122.163.116.92 0 38 523150 
+89.154.127.55 0 40 523427 
+2.81.213.133 1 62 2244482 20110223115542
+89.155.214.137 0 52 547067 
+93.108.34.168 0 61 0 
+201.28.40.249 0 19 215338 
+217.129.135.93 0 122 1128034 
+2.81.116.133 0 63 566458 
+62.48.147.5 2 124 1874122 20110224142756
+93.108.130.166 1 123 2242527 20110207160452
+89.152.150.138 1 45 2215463 20110216215736
+94.132.42.227 0 61 564017 
+188.80.98.35 1 1 1871 20110210102502
+84.91.33.25 0 44 536953 
+2.82.77.188 0 61 564017 
+84.90.41.109 0 45 537172 
+89.155.123.135 0 1 134278 
+95.69.95.184 1 62 937061 20110210001210
+89.155.224.109 0 57 560020 
+87.196.134.78 0 33 0 
+89.155.122.207 0 88 1073906 
+188.83.200.193 0 124 1132550 
+93.102.154.239 0 63 576648 
+62.169.97.248 1 47 910274 20110209224307
+83.240.187.250 0 70 537230 
+81.84.4.172 0 62 564391 
+93.102.92.71 0 62 835670 
+217.129.138.238 0 66 576264 
+79.168.54.37 1 1 24037 20110214154042
+194.79.72.30 0 2 2299 
+62.28.110.82 0 45 537172 
+84.90.163.112 0 61 564017 
+188.82.110.28 0 59 558583 
+87.196.240.176 0 61 564017 
+217.129.128.231 0 61 564017 
+188.80.100.35 0 2 0 
+188.80.144.183 0 44 536953 
+188.80.101.42 0 61 564017 
+2.80.161.253 0 401 567346 
+84.91.227.78 0 57 558097 
+83.52.101.158 0 61 564017 
+93.102.78.53 0 49 535057 
+89.155.215.151 0 22 493288 
+2.80.27.168 0 174 568389 
+2.81.94.3 0 61 564017 
+89.155.51.213 0 63 564567 
+81.193.251.92 1 123 1501078 20110218164624
+208.46.60.129 0 64 568486 
+93.102.95.108 0 61 0 
+188.140.59.60 0 61 564017 
+77.54.71.97 0 57 558097 
+188.80.148.127 0 67 1034890 
+178.166.66.33 0 57 558097 
+213.205.67.134 1 4 15949194 20110216141729
+85.247.237.153 0 61 564017 
+2.81.135.139 0 139 576850 
+62.28.132.146 0 24 498133 
+188.81.215.169 0 125 1593183 
+95.92.146.127 0 61 564017 
+195.23.33.117 0 66 565235 
+2.81.142.116 0 63 563499 
+82.155.1.222 1 63 937449 20110224220414
+217.129.128.101 0 50 1095836 
+87.196.243.67 8 8 738954680 20110209181620
+217.129.137.244 0 44 536953 
+188.80.101.103 0 61 564017 
+213.30.118.97 0 6 276280 
+87.196.112.150 0 46 541401 
+2.80.236.101 0 61 564017 
+87.196.88.108 0 62 564163 
+2.81.39.68 0 62 559228 
+188.80.103.75 0 61 564017 
+84.91.116.9 0 90 1074344 
+2.81.166.43 0 67 565625 
+207.46.204.205 1 1 1728160 20110218203450
+213.13.106.1 5 7 2264978 20110210120215
+188.81.110.207 0 61 564017 
+79.169.79.17 1 96 1468597 20110219121038
+193.136.175.132 1 45 909997 20110219135730
+188.81.160.86 0 57 558097 
+2.81.96.12 0 62 564405 
+188.80.101.239 0 49 545047 
+217.129.140.19 0 57 558097 
+188.80.107.60 0 65 571892 
+93.108.167.5 0 63 564114 
+194.65.126.71 0 49 611516 
+188.80.97.26 0 57 558097 
+188.80.99.66 0 45 537172 
+213.228.163.25 0 61 564017 
+217.129.205.179 0 68 570013 
+178.166.83.144 0 15 25592 
+92.250.14.64 6 8 1629327 20110210121215
+188.81.73.149 0 44 536953 
+2.81.122.84 2 195 2711693 20110228171515
+217.129.132.91 0 61 564017 
+89.155.51.196 0 66 571240 
+80.251.163.226 0 61 564017 
+217.129.130.73 0 61 564017 
+2.81.151.58 0 44 536953 
+2.80.67.113 0 44 536953 
+213.22.82.218 0 67 565922 
+188.140.113.75 0 61 564017 
+81.193.115.178 0 194 1132866 
+2.81.154.223 0 91 565376 
+87.103.24.105 1 62 2242527 20110208192834
+93.102.158.101 0 44 536953 
+195.23.235.21 0 1 2299 
+84.90.83.210 0 61 564017 
+93.102.75.171 0 85 564017 
+2.81.2.39 0 61 564017 
+188.80.145.208 0 1 2299 
+217.129.141.113 0 1 199614 
+93.102.91.182 0 57 545232 
+188.81.84.155 0 61 564017 
+194.65.227.0 2 351 1898312 20110207110754
+89.153.152.122 0 1 130992 
+87.103.105.174 0 61 564017 
+89.214.15.191 0 61 564017 
+92.250.78.181 0 56 559588 
+2.81.172.170 0 38 521237 
+188.82.243.178 0 45 537172 
+93.108.101.148 1 45 909380 20110210205751
+81.193.149.211 0 45 537172 
+217.129.143.181 0 130 1143784 
+77.54.41.103 0 44 536953 
+178.166.17.89 2 47 2588726 20110212142804
+212.57.85.77 1 62 937061 20110208213612
+93.102.135.72 0 46 878444 
+217.129.198.113 0 61 564017 
+217.129.132.169 0 66 565490 
+217.129.243.85 1 47 2215682 20110220224153
+213.58.104.242 0 128 568389 
+93.102.231.28 0 76 606497 
+87.196.245.118 0 61 564017 
+201.209.91.149 0 45 808606 
+89.214.116.161 0 45 537172 
+85.247.239.197 0 47 541620 
+89.155.176.73 0 71 573516 
+188.80.97.141 0 61 564017 
+2.81.113.163 2 69 1311956 20110216204319
+78.130.112.171 0 64 564603 
+188.80.127.30 0 62 561212 
+2.81.223.99 0 62 568389 
+2.81.71.170 0 61 564017 
+2.81.112.90 0 61 564017 
+2.81.125.93 0 37 65884 
+2.81.35.16 0 61 564017 
+89.152.146.157 1 50 918091 20110209205704
+89.214.22.42 0 61 564017 
+189.17.228.24 0 37 519134 
+87.196.139.92 0 61 564017 
+95.69.89.225 0 57 557751 
+2.81.58.248 0 24 498133 
+89.214.223.135 0 112 564017 
+188.80.174.229 0 39 590027 
+195.23.77.173 1 48 2220130 20110218155711
+84.90.85.32 0 57 558097 
+188.82.57.217 0 63 564549 
+194.65.227.106 1 62 937061 20110214130155
+89.155.120.1 0 122 564017 
+87.196.206.17 1 1 92369335 20110213064020
+2.81.131.99 1 62 1033183 20110210220727
+188.83.149.179 1 1 21571 20110212210452
+89.214.183.203 1 46 2215682 20110210152028
+2.81.156.226 0 44 536953 
+93.102.101.246 0 61 564017 
+2.82.242.203 0 48 544828 
+95.92.73.254 0 63 564533 
+85.139.169.125 0 63 566458 
+217.129.246.139 2 2 70337346 20110216194946
+87.196.115.252 2 125 2720000 20110208093434
+217.129.140.103 0 61 564017 
+217.129.138.4 0 61 564017 
+89.152.70.63 0 44 536953 
+84.90.84.128 0 63 564551 
+2.81.158.219 0 45 537172 
+87.103.84.102 0 50 540135 
+188.80.97.43 1 1 1871 20110211170443
+92.250.51.207 0 44 536953 
+93.102.89.26 0 20 486991 
+188.82.241.238 0 61 564017 
+89.214.228.251 0 54 579995 
+84.90.162.111 0 45 537172 
+188.83.234.115 0 62 568389 
+188.80.101.2 0 45 537172 
+2.81.166.9 3 71 3115573 20110215223915
+95.92.62.90 0 62 564449 
+188.83.71.236 2 2 184738670 20110209225246
+89.154.103.203 0 60 546082 
+89.155.216.100 0 67 565641 
+188.80.99.7 3 5 1046100 20110201163241
+188.80.96.218 0 48 544828 
+89.214.18.166 0 61 564017 
+93.102.3.139 0 61 564017 
+213.228.181.74 0 66 572038 
+2.80.242.141 0 63 564549 
+2.81.94.125 0 67 565637 
+186.204.208.203 0 39 521456 
+178.166.120.211 0 61 564017 
+217.129.221.86 0 61 564017 
+2.81.133.178 0 57 560658 
+2.81.222.74 0 45 537172 
+93.102.103.136 1 46 928319 20110203182819
+2.81.32.113 0 61 564017 
+87.103.24.221 1 46 908705 20110213125635
+2.81.127.204 0 62 563365 
+93.102.89.93 0 61 564017 
+88.163.237.173 2 1135 9306347 20110219093151
+95.69.51.93 0 44 536953 
+200.217.149.202 2 2 0 20110227120813
+2.81.142.150 0 61 564017 
+84.90.84.42 0 60 627435 
+194.65.231.86 0 61 564017 
+188.140.101.51 1 45 909997 20110201222023
+188.82.56.26 0 61 564017 
+89.155.50.249 2 64 1310251 20110212034103
+2.81.107.231 1 46 910216 20110213163830
+95.92.22.133 0 45 537172 
+213.63.47.62 0 61 564017 
+83.240.209.62 0 57 558097 
+213.205.84.226 3 5 1023934 20110217103735
+213.5.117.11 0 45 537172 
+2.82.78.161 0 44 536953 
+213.205.67.156 4 52 1590380 20110222160650
+2.81.221.225 0 61 564017 
+84.90.163.156 0 38 521237 
+92.250.58.148 0 61 564017 
+87.196.32.173 0 57 558097 
+84.18.224.244 0 105 564017 
+85.247.148.6 0 47 541620 
+83.240.137.36 1 63 937280 20110217095810
+83.240.165.4 0 45 537172 
+188.140.0.94 0 61 564017 
+87.103.3.245 0 62 608674 
+95.220.247.110 2 5 1025296 20110216033423
+89.47.238.77 1 1 3289 20110218151149
+62.48.189.74 0 61 564017 
+77.54.79.98 3 5 1046100 20110222112121
+84.90.161.186 0 124 1126038 
+2.81.117.48 0 57 557751 
+2.81.9.185 0 62 564423 
+84.90.160.14 0 61 564017 
+93.30.218.215 0 45 537172 
+2.81.103.247 0 63 564556 
+2.81.223.31 0 118 564017 
+93.102.154.232 2 4 1022063 20110216003740
+89.155.51.168 0 61 564017 
+2.81.173.71 0 44 536953 
+62.48.196.240 0 134 1177171 
+2.80.174.152 0 44 536953 
+217.129.131.182 0 193 2174876 
+64.233.172.6 0 32 497395 
+95.69.1.171 0 57 557751 
+87.196.113.110 0 122 1128034 
+84.91.21.87 1 45 2215463 20110204192245
+93.108.93.69 0 44 536953 
+208.80.194.34 1 1 3289 20110213084141
+85.245.177.176 1 62 1033183 20110222123646
+217.129.128.185 0 44 536953 
+2.81.136.194 0 114 566157 
+2.81.223.131 0 2 2299 
+2.83.62.209 0 44 536953 
+85.138.178.21 0 63 559375 
+89.155.54.228 1 123 2242527 20110217200057
+217.129.242.187 0 44 536953 
+207.111.235.33 0 17 460025 
+89.214.230.3 0 61 564017 
+193.126.155.56 0 62 564071 
+2.81.107.135 0 63 564114 
+89.152.115.216 0 61 564017 
+2.83.242.208 5 9 1053150 20110202161811
+2.82.219.225 0 44 536953 
+88.210.94.130 0 62 563365 
+188.80.105.166 0 61 564017 
+2.81.167.91 0 45 537172 
+2.80.128.158 0 62 568389 
+2.83.242.199 8 12 1053150 20110202102302
+89.214.80.34 0 57 557751 
+2.80.141.73 0 228 560272 
+88.214.172.205 0 61 564017 
+188.80.100.134 0 65 571892 
+89.181.72.204 1 62 2242527 20110216230510
+2.81.122.167 0 45 537172 
+82.102.2.66 0 109 1110009 
+2.83.67.187 0 64 564955 
+89.181.143.149 0 63 564549 
+84.91.145.77 0 17 173348 
+188.80.104.7 0 61 564017 
+93.102.133.159 0 83 1327941 
+95.28.110.15 2 3 1021282 20110207044352
+89.152.149.228 0 133 1130853 
+217.129.25.58 0 123 1132406 
+84.91.224.94 0 129 564310 
+217.129.244.172 0 45 537172 
+188.140.53.88 1 1 1728160 20110211222051
+93.102.144.189 0 66 576264 
+189.115.115.226 0 61 564017 
+2.83.249.81 0 44 536953 
+2.83.242.192 0 63 564533 
+2.83.190.54 0 133 565641 
+195.23.68.116 2 63 2711693 20110211154955
+2.83.248.98 0 57 558097 
+178.166.28.92 1 1 1871 20110209174324
+2.83.192.24 0 44 536953 
+217.129.143.12 0 65 571892 
+2.81.159.11 0 45 537172 
+188.81.83.8 0 39 521456 
+188.81.215.31 0 63 559375 
+2.81.127.233 0 48 607989 
+213.228.181.46 0 406 3921035 
+217.129.140.54 0 61 564017 
+195.23.235.17 0 57 831241 
+2.81.188.173 0 41 525904 
+46.189.194.13 0 61 564017 
+95.69.45.90 0 57 558097 
+89.214.99.171 0 57 558097 
+84.91.32.104 0 114 1116194 
+88.210.93.152 0 61 564017 
+50.17.17.39 0 16 390187 
+188.80.109.236 0 61 564017 
+2.81.143.191 0 1 2299 
+77.54.237.118 2 2 45406874 20110211161030
+81.193.115.47 0 98 1085749 
+84.91.227.81 0 61 564017 
+217.129.247.236 0 66 565235 
+93.102.130.95 0 44 536953 
+150.70.172.105 2 57 2268643 20110221202437
+212.55.150.40 0 50 528703 
+217.129.134.159 0 57 558097 
+200.138.147.183 0 6 106052 
+93.108.179.202 0 62 564423 
+188.80.146.58 0 62 564405 
+84.90.80.184 0 44 536953 
+2.81.222.95 0 61 564017 
+212.55.160.62 0 165 1640206 
+2.81.133.246 0 57 558097 
+193.137.173.253 0 48 544828 
+84.91.43.31 0 61 564017 
+89.214.139.25 0 61 564017 
+217.129.241.104 0 109 1110800 
+93.108.68.174 1 62 2242527 20110218095217
+84.91.32.78 0 64 564695 
+82.154.247.148 0 45 537172 
+2.83.249.136 0 66 572266 
+77.54.234.24 0 85 1064341 
+2.81.74.32 0 54 617868 
+217.129.24.26 0 123 572324 
+84.90.17.156 0 61 564017 
+84.90.52.109 0 62 564405 
+81.193.121.65 1 62 937061 20110214141247
+188.81.85.92 0 61 564017 
+89.155.52.178 0 123 1092999 
+79.169.137.141 0 61 564017 
+94.132.42.201 0 122 1128034 
+188.81.85.64 1 1 92369335 20110210203152
+2.81.144.135 0 4 4598 
+94.132.65.59 0 191 1133326 
+90.206.112.7 0 46 537604 
+2.82.252.249 0 61 564017 
+2.81.148.99 0 61 564017 
+2.81.153.214 0 184 1128034 
+83.132.249.143 0 44 536953 
+94.132.43.148 0 63 566166 
+81.84.235.119 0 62 564405 
+84.91.32.64 0 66 565235 
+89.155.50.115 0 44 536953 
+89.153.183.158 0 59 581626 
+188.81.213.102 0 118 564017 
+84.90.164.1 7 53 2654815 20110207183203
+93.102.92.92 0 65 571892 
+87.196.179.205 0 61 564017 
+84.91.227.160 1 1 21571 20110227224817
+87.103.47.253 0 61 564017 
+89.214.239.115 0 61 564017 
+83.228.211.248 0 61 564017 
+217.129.136.187 0 61 564017 
+89.155.123.90 2 4 1022063 20110204184743
+84.91.7.58 0 126 1129105 
+81.193.229.115 0 69 572961 
+188.81.85.253 0 123 568389 
+187.40.215.81 0 27 862338 
+189.71.21.206 0 44 536953 
+89.155.49.53 0 58 558155 
+187.52.116.213 0 46 537230 
+93.102.110.99 0 136 571892 
+89.214.245.41 0 61 564017 
+89.214.146.173 0 61 564017 
+217.129.207.231 0 61 564017 
+194.65.231.58 0 61 564017 
+85.241.202.39 0 38 523150 
+85.139.209.214 0 45 537007 
+155.91.64.11 0 7 4036 
+188.81.161.57 0 62 564161 
+79.168.236.247 0 48 541678 
+188.80.109.7 0 114 1116194 
+194.65.194.141 0 61 564017 
+89.155.214.218 0 62 564071 
+188.140.5.171 1 1 1871 20110209190644
+195.23.63.173 1 123 1033183 20110218144241
+2.81.108.84 0 181 568389 
+150.70.64.195 0 107 2727806 
+89.178.245.29 0 64 564925 
+77.54.189.208 0 61 564017 
+94.132.237.109 0 61 564017 
+84.90.25.240 0 65 565126 
+81.193.230.208 0 67 565641 
+89.214.93.197 0 57 557751 
+2.81.119.244 0 24 498133 
+95.136.78.123 2 47 2606829 20110207211644
+95.92.123.127 0 129 565479 
+84.90.86.114 0 61 564017 
+217.129.130.24 0 45 537172 
+93.102.90.47 0 61 564017 
+2.83.242.146 1 62 937061 20110219180417
+194.65.228.6 1 62 937061 20110215121706
+193.136.206.112 0 38 521237 
+89.180.108.61 0 57 558097 
+188.80.146.139 0 61 564017 
+188.80.81.162 0 61 564017 
+188.83.175.43 0 63 564549 
+188.81.84.180 0 62 564391 
+46.189.178.116 0 61 564017 
+2.81.160.190 0 96 1079553 
+213.205.67.206 0 67 576696 
+195.23.235.8 0 61 564017 
+178.166.7.236 0 57 558097 
+213.22.66.237 0 67 565641 
+194.65.227.194 0 55 545733 
+2.82.231.21 0 61 564017 
+188.83.38.103 0 62 568389 
+201.86.139.233 0 44 536953 
+217.129.246.41 1 62 955164 20110227235429
+2.83.137.38 0 57 558097 
+178.166.109.104 0 61 564017 
+87.196.117.210 1 1 18909278 20110204110232
+93.102.96.109 0 61 564017 
+217.129.245.16 0 67 1034890 
+93.102.167.1 1 62 955164 20110219144226
+93.102.88.19 0 61 564017 
+80.162.45.109 1 50 2585395 20110206230924
+89.180.117.157 0 132 578128 
+2.81.139.61 0 60 562256 
+81.193.123.89 0 39 527035 
+208.115.138.254 2 2 207402 20110227120812
+2.81.162.183 1 62 937061 20110208211249
+188.80.97.83 0 64 564703 
+188.83.236.136 0 61 564017 
+81.84.243.181 2 52 2692990 20110217115426
+193.136.82.79 0 52 547067 
+217.129.131.227 0 122 564017 
+85.243.177.166 0 76 1046300 
+217.129.129.222 0 66 572280 
+213.205.84.232 1 1 1871 20110210163327
+188.81.212.63 1 123 1041058 20110208130918
+95.136.108.125 0 122 1128034 
+46.189.193.146 0 45 537172 
+78.130.114.78 0 61 564017 
+85.243.158.22 0 62 564423 
+2.81.61.227 0 61 564017 
+2.81.134.180 2 2 746088 20110215132727
+2.80.164.66 0 44 536953 
+93.108.78.10 0 61 564017 
+93.102.172.6 0 61 564017 
+50.16.144.56 0 16 390187 
+217.129.143.132 9 58 7267091 20110207174028
+217.129.137.53 0 61 564017 
+188.81.62.18 0 44 536953 
+89.214.111.126 1 45 909997 20110205201832
+93.102.38.72 0 61 564017 
+217.129.247.58 0 57 558097 
+93.102.111.119 0 61 564017 
+188.82.242.42 0 62 563365 
+93.108.38.11 0 61 564017 
+195.23.235.3 0 63 564551 
+188.80.103.168 0 44 536953 
+85.138.192.238 0 62 564161 
+93.102.33.57 4 126 3006718 20110208113525
+84.90.15.237 0 50 934555 
+217.129.26.55 0 45 537172 
+2.81.106.23 0 44 536953 
+84.90.86.237 1 63 2242671 20110227191400
+65.52.51.246 1 1 1286174 20110215051931
+2.81.157.43 0 61 564017 
+82.155.3.200 0 62 563365 
+85.243.159.153 0 189 568535 
+46.50.36.168 0 61 564017 
+84.91.22.5 0 61 564017 
+93.102.155.136 4 65 4763247 20110224190607
+89.155.217.41 0 67 0 
+71.112.82.60 1 1 1678510 20110228172152
+188.81.206.46 1 63 937493 20110208004128
+217.129.247.91 0 61 564017 
+87.196.130.112 0 45 537172 
+2.80.219.158 0 45 537172 
+93.102.138.190 0 61 564017 
+84.91.116.224 0 61 564017 
+188.82.247.129 0 63 566458 
+79.169.151.118 0 44 536953 
+213.30.118.98 1 4 2797 20110216143416
+81.252.156.29 0 6 106052 
+46.189.244.224 0 61 564017 
+62.28.170.122 0 48 544828 
+84.39.35.196 0 44 536953 
+62.48.228.35 0 61 564017 
+84.91.120.64 0 57 558097 
+84.90.136.110 0 61 564017 
+89.214.155.252 0 44 536953 
+99.235.44.20 0 62 564449 
+69.28.58.24 1 1 3289 20110207214542
+93.102.88.75 0 61 564017 
+89.152.138.160 0 67 565641 
+187.3.65.85 0 54 380842 
+92.250.118.48 0 61 564017 
+2.81.183.33 0 45 537172 
+2.81.171.159 0 71 577428 
+188.83.120.124 0 61 564017 
+84.91.80.79 0 44 536953 
+89.155.55.111 0 142 564017 
+217.129.26.75 0 42 534303 
+87.196.121.35 4 505 5609711 20110217181208
+2.81.128.118 0 66 569460 
+2.81.149.44 0 69 606497 
+94.132.184.139 0 123 1123332 
+2.81.97.213 0 67 565641 
+84.90.162.221 0 45 537172 
+85.138.222.106 0 62 564161 
+89.155.215.6 0 45 537172 
+93.102.90.195 0 61 564017 
+93.108.32.242 0 57 558097 
+93.102.89.69 0 61 564017 
+93.102.77.115 0 49 539947 
+93.102.99.247 0 61 564017 
+84.39.33.1 0 118 564017 
+184.73.131.227 0 16 390187 
+2.81.126.248 0 57 558097 
+84.91.117.114 0 63 564565 
+84.90.80.186 0 46 537230 
+46.189.236.251 0 56 545685 
+94.132.184.11 0 64 564682 
+2.81.131.177 0 61 564017 
+84.91.34.234 1 46 910216 20110214210841
+93.102.50.78 0 65 571892 
+217.129.129.199 0 66 564989 
+208.80.194.37 3 3 9867 20110219060852
+93.108.124.54 0 123 1132406 
+213.22.232.183 0 45 537172 
+188.80.106.139 0 61 564017 
+188.80.145.254 0 48 544828 
+82.155.16.232 0 44 536953 
+2.81.222.115 0 57 558097 
+2.81.152.121 0 44 536953 
+194.65.226.44 2 413 5443035 20110215163631
+84.91.123.58 0 126 1129117 
+194.79.72.150 0 64 570484 
+81.193.250.143 0 62 564161 
+2.81.223.68 0 61 564017 
+2.81.156.242 0 44 536953 
+82.155.12.127 0 61 564017 
+94.132.175.181 1 67 945342 20110213224520
+188.80.147.194 0 57 558097 
+62.48.219.109 0 61 564017 
+86.175.48.205 0 62 564449 
+2.81.121.33 0 62 564449 
+213.228.181.27 4 50 2800060 20110202120339
+93.108.99.218 0 61 564017 
+82.102.20.229 0 63 931807 
+92.250.87.121 0 61 564017 
+217.129.134.156 1 59 931573 20110222225758
+188.140.88.64 0 45 537172 
+84.91.229.227 0 61 564017 
+84.91.185.191 0 57 557751 
+85.241.106.170 0 62 564449 
+94.132.162.167 0 67 565641 
+2.81.144.87 0 61 564017 
+188.80.97.135 0 45 537172 
+207.46.12.158 1 1 127933 20110225005138
+84.91.237.91 0 61 564017 
+188.82.241.66 0 45 537172 
+93.102.139.119 0 39 523369 
+194.65.236.38 2 4 1022063 20110222111324
+194.65.227.171 0 46 537230 
+93.102.134.115 0 44 536953 
+93.102.95.27 1 66 955846 20110205225819
+2.81.129.163 0 61 564017 
+93.102.217.54 0 24 498133 
+89.155.53.184 1 1 1871 20110209213918
+81.84.241.140 0 192 1136847 
+213.205.82.46 0 62 563365 
+217.129.137.27 0 48 607830 
+89.155.122.90 0 57 558097 
+87.103.35.147 0 52 547067 
+84.91.6.49 0 61 564017 
+188.81.161.181 0 57 558097 
+188.80.104.41 0 57 558097 
+84.90.86.132 0 61 564017 
+93.102.32.112 0 61 564017 
+46.189.154.35 0 61 564017 
+188.140.112.132 0 1 188502 
+95.92.115.247 0 57 558097 
+188.83.10.68 0 61 564017 
+84.91.197.178 0 61 564017 
+188.83.217.98 0 94 1082219 
+88.210.91.213 0 65 571892 
+178.166.97.61 0 48 818405 
+93.102.93.80 0 108 569042 
+2.81.45.187 0 61 564017 
+188.81.160.129 0 67 576696 
+85.247.71.250 0 61 564017 
+84.91.149.53 0 61 564017 
+188.83.108.227 0 44 536953 
+195.23.33.118 0 61 564017 
+93.102.74.253 0 61 564017 
+2.81.140.150 0 45 537172 
+93.102.96.110 0 61 564017 
+2.81.155.131 0 61 564017 
+85.139.247.19 0 61 564017 
+94.132.185.250 0 62 564161 
+188.83.105.1 0 64 564986 
+62.28.103.34 0 124 564017 
+2.82.98.212 0 48 544828 
+195.23.238.230 0 66 563359 
+87.103.37.23 0 57 557751 
+92.250.77.139 0 61 564017 
+188.83.229.214 0 46 541401 
+89.7.23.79 0 39 521456 
+2.81.187.60 0 120 568389 
+62.28.63.44 0 61 564017 
+89.153.2.75 0 63 564503 
+178.166.1.23 0 45 537172 
+79.168.204.114 1 131 1509774 20110212231625
+213.205.65.232 1 1 21571 20110222171924
+87.103.57.211 0 61 564017 
+89.152.156.76 0 57 557751 
+89.214.190.216 0 63 657947 
+188.80.105.51 0 57 558097 
+84.91.6.162 0 61 564017 
+188.80.106.250 0 62 294306 
+84.90.16.61 0 45 537172 
+217.129.196.197 0 66 572285 
+93.102.79.135 0 61 564017 
+188.81.163.166 0 61 564017 
+84.90.87.24 0 120 564161 
+178.166.81.23 1 124 963093 20110208224007
+2.81.149.76 0 57 558097 
+212.166.249.231 0 58 557644 
+2.80.235.50 0 38 521237 
+2.81.137.248 0 44 536953 
+188.80.110.182 0 61 564017 
+89.154.197.106 1 127 944936 20110201231706
+84.91.224.166 0 105 536953 
+192.104.37.203 0 57 557751 
+188.83.111.113 3 70 4313808 20110203114213
+87.196.243.18 0 64 564694 
+89.155.121.42 1 1 92369335 20110227155524
+217.129.140.160 1 58 931141 20110225185140
+208.80.194.28 2 2 6578 20110223153304
+83.240.137.62 0 57 557751 
+84.90.80.178 0 44 536953 
+89.152.149.95 0 88 1073906 
+217.129.139.89 1 62 937061 20110219230219
+194.65.229.223 3 5 1046100 20110207161538
+87.196.121.238 0 61 564017 
+84.90.163.204 0 151 1645347 
+82.155.32.182 0 39 521456 
+84.90.24.112 0 44 536953 
+87.196.115.16 0 128 564017 
+2.82.88.153 0 61 564017 
+2.81.92.132 0 49 545260 
+217.129.242.144 0 44 536953 
+2.81.82.254 0 887 576750 
+84.90.160.137 1 62 937061 20110213093512
+46.189.181.98 0 61 564017 
+2.82.102.151 0 34 522568 
+217.129.139.183 0 92 1081781 
+94.132.157.210 2 2 184738670 20110210013923
+89.214.255.85 0 61 563416 
+2.81.176.166 0 63 559375 
+84.91.117.21 0 57 558097 
+2.81.139.5 0 44 536953 
+217.129.27.155 0 44 536953 
+217.129.130.140 0 62 563365 
+2.81.129.199 0 67 565868 
+188.80.101.51 0 106 1101189 
+83.240.183.3 0 61 564017 
+77.54.81.65 0 58 560104 
+83.132.12.141 0 45 537172 
+84.90.167.200 0 57 558097 
+77.54.166.144 0 67 576643 
+212.183.140.16 0 57 558097 
+93.108.185.196 1 1 1871 20110210201648
+89.152.70.134 0 124 564449 
+46.189.180.42 0 61 564017 
+2.81.144.6 0 57 558097 
+188.81.214.27 3 3 144263134 20110222154203
+2.81.98.204 0 63 565537 
+213.30.118.67 0 8 183806 
+83.240.135.25 0 62 564405 
+2.81.142.129 0 61 565972 
+213.13.127.2 8 12 1804429 20110210153331
+84.91.4.122 0 44 536953 
+213.22.93.87 0 52 547067 
+188.83.48.154 0 49 545047 
+93.102.95.204 0 61 564017 
+2.81.159.52 0 45 537172 
+80.94.164.141 1 1 3289 20110217232918
+131.107.0.106 1 1 1871 20110228055648
+92.250.41.127 0 61 564017 
+2.81.222.227 0 59 560266 
+2.81.73.211 0 61 564017 
+188.81.214.231 0 127 1137572 
+81.193.250.148 0 61 564017 
+193.126.213.55 0 68 572856 
+188.82.130.104 0 57 559732 
+2.81.175.11 0 122 1128034 
+84.90.165.222 0 44 536953 
+93.102.75.23 0 57 558097 
+2.81.150.67 0 62 564163 
+217.129.207.108 0 38 523150 
+188.140.111.131 0 61 564017 
+188.80.110.131 0 132 576264 
+217.129.17.89 0 61 565626 
+84.91.238.48 0 61 564017 
+2.81.151.154 0 61 564017 
+2.81.120.200 11 13 3224259 20110214140916
+193.137.168.196 0 67 565641 
+87.103.48.240 0 24 498133 
+84.91.145.63 1 45 909997 20110212122305
+217.129.141.110 0 61 564017 
+195.245.197.233 0 150 1085473 
+217.129.245.232 0 59 558283 
+87.196.55.68 0 39 521456 
+188.83.120.91 2 243 3841351 20110223200513
+89.155.53.231 0 61 564017 
+187.6.124.164 1 1 373044 20110211183930
+2.81.35.17 0 57 558097 
+2.81.122.137 0 63 564798 
+83.240.187.47 0 105 1100970 
+2.81.65.135 0 45 536953 
+194.38.128.72 0 62 563365 
+93.102.143.178 0 65 571892 
+2.82.228.44 0 57 557751 
+2.83.241.250 0 66 565481 
+85.241.32.115 0 50 549276 
+217.129.138.180 0 61 564017 
+2.81.59.236 0 44 536953 
+46.189.147.1 0 44 536953 
+85.88.140.58 0 246 576264 
+84.90.26.9 0 61 564017 
+188.81.170.6 0 44 536953 
+87.196.185.3 0 45 542247 
+93.108.169.251 0 48 544828 
+2.82.75.188 0 61 564017 
+2.81.54.172 0 44 536953 
+2.81.28.101 0 138 0 
+85.247.250.60 0 61 564017 
+89.214.224.105 1 1 373044 20110213175610
+77.54.38.225 0 65 571892 
+2.81.109.101 1 129 2243887 20110210222856
+77.54.44.15 0 57 545232 
+89.181.250.101 0 61 564017 
+84.90.82.198 0 94 1581293 
+83.240.187.29 0 61 564017 
+188.81.85.67 0 61 564017 
+2.81.120.38 1 1 1871 20110209190024
+89.153.114.72 0 56 559588 
+188.80.126.98 0 45 537172 
+2.81.184.98 0 62 568389 
+62.28.30.139 0 64 564695 
+2.83.135.135 0 44 536953 
+213.228.187.21 0 1 2299 
+2.81.46.133 0 44 536953 
+77.54.220.87 0 47 541620 
+188.82.131.165 0 66 571946 
+84.90.162.197 2 63 2711693 20110220172125
+217.129.200.154 0 57 558097 
+84.91.224.212 1 149 1976178 20110221202157
+95.136.122.232 0 44 536953 
+212.18.174.42 1 441 2824889 20110214163924
+89.152.70.64 0 135 1131463 
+2.81.222.87 1 132 949308 20110211123720
+217.129.211.107 0 57 558097 
+89.152.0.189 1 62 937061 20110218155646
+2.82.0.203 0 63 568443 
+93.102.131.12 0 48 541678 
+89.152.70.156 1 127 1508953 20110214214010
+93.108.189.195 0 195 1695053 
+89.155.49.17 0 128 1136773 
+89.153.145.189 0 61 564017 
+2.81.133.125 1 62 937061 20110212135044
+207.46.193.48 1 1 1286174 20110214165215
+213.228.163.11 0 117 568389 
+217.148.122.54 0 46 539476 
+89.155.52.145 0 44 536953 
+89.152.144.79 1 64 937593 20110206175509
+89.155.123.145 0 40 614144 
+157.55.112.226 1 1 48112 20110224132205
+77.54.184.196 0 61 564017 
+89.180.110.41 0 66 0 
+2.81.124.29 0 61 564017 
+62.28.131.93 0 122 1128034 
+46.189.174.251 0 45 537172 
+93.102.148.45 1 1 1871 20110209175805
+194.140.232.218 0 63 564549 
+95.136.124.170 0 45 537172 
+2.81.148.121 0 44 536953 
+93.102.152.179 0 61 564017 
+94.132.202.169 0 48 544828 
+89.152.147.57 0 61 564017 
+213.205.67.197 0 65 571892 
+95.93.130.234 4 6 1053150 20110219091447
+84.90.167.30 0 61 564017 
+89.152.3.230 0 52 549728 
+94.132.222.145 0 252 1140859 
+89.180.101.242 0 63 566158 
+84.91.117.85 0 122 1129989 
+217.129.138.139 0 45 537172 
+93.108.65.124 0 96 564017 
+93.108.46.221 0 41 539055 
+194.210.48.25 3 5 1046100 20110223103405
+84.91.32.65 0 125 564163 
+188.82.173.213 0 61 564017 
+62.48.198.125 0 4 9196 
+188.80.221.165 0 133 576894 
+95.69.31.236 0 61 564017 
+188.83.64.53 0 44 536953 
+212.55.162.146 0 64 566309 
+89.155.49.84 0 57 558097 
+194.65.227.191 0 122 1128034 
+193.203.106.18 0 119 557751 
+2.81.145.85 0 57 558097 
+2.81.51.151 1 1 1871 20110209174506
+89.153.154.213 0 184 565109 
+193.137.168.216 0 67 565625 
+188.80.99.78 0 61 564017 
+62.28.34.207 1 1 1286174 20110217132452
+2.81.169.201 0 63 564549 
+2.81.129.193 0 67 572408 
+84.90.160.200 0 45 537172 
+178.166.90.30 0 122 564017 
+2.81.92.149 0 61 564017 
+84.90.137.13 0 61 564017 
+2.81.154.1 1 62 2242527 20110215141101
+87.103.73.35 0 67 584130 
+81.84.13.241 0 45 537172 
+84.91.225.120 0 193 1694247 
+194.65.227.66 0 61 564017 
+74.86.57.229 2 4 1022063 20110207094719
+84.90.40.103 1 62 937061 20110205165828
+2.81.158.43 0 44 536953 
+2.81.242.214 0 52 547067 
+93.108.5.233 0 61 564017 
+2.81.127.199 0 63 567737 
+81.193.123.14 0 61 564017 
+2.81.171.50 0 61 564017 
+85.139.187.10 0 74 558097 
+188.81.212.220 4 4 279388196 20110208225751
+2.81.136.68 0 61 564017 
+188.80.41.133 0 45 537172 
+187.4.27.250 0 44 536953 
+188.82.77.212 0 120 564017 
+188.81.86.47 0 44 536953 
+213.22.112.10 0 46 537230 
+2.81.163.225 0 67 572182 
+84.91.4.171 0 65 571892 
+2.81.149.79 0 61 564017 
+2.81.96.27 0 88 1073906 
+213.13.115.243 0 61 564017 
+94.132.76.235 0 56 559588 
+2.81.171.239 0 66 565251 
+188.80.150.142 9 9 17275281 20110209135650
+207.46.12.164 1 1 82316 20110224133558
+2.81.50.119 0 58 558155 
+84.90.24.152 0 57 558097 
+201.9.58.111 0 57 557751 
+2.81.56.96 0 15 162266 
+217.129.138.226 0 143 1617098 
+87.196.249.221 3 64 3102840 20110203154554
+62.28.5.168 0 107 572963 
+188.81.57.33 0 61 564017 
+83.240.144.12 0 25 769786 
+84.91.226.247 1 47 928377 20110213011910
+79.168.203.101 0 46 537230 
+188.80.37.119 3 5 1046100 20110228123056
+2.82.68.114 0 62 564410 
+188.80.151.93 0 61 564017 
+194.65.209.148 0 61 564017 
+188.81.162.169 1 62 937061 20110208182514
+83.240.247.209 0 65 7875 
+213.205.83.91 0 198 1799660 
+84.91.116.206 0 114 1116194 
+62.48.228.17 1 62 565888 20110209201358
+2.81.221.93 0 61 564017 
+188.80.105.99 9 11 14670729 20110209150428
+92.250.123.138 0 61 564017 
+84.90.160.61 3 10 1055296 20110226135346
+93.102.89.20 0 61 564017 
+2.81.94.131 1 1 1871 20110210105032
+89.214.145.71 1 64 937510 20110206221208
+87.196.238.221 0 59 558283 
+83.132.147.37 0 57 558097 
+2.81.114.125 0 61 564017 
+188.80.105.57 0 72 573888 
+84.90.48.245 0 44 536953 
+188.80.103.78 0 61 564017 
+46.50.24.105 0 65 571892 
+188.81.160.226 0 44 536953 
+2.81.143.36 0 44 536953 
+87.103.91.76 1 1 21571 20110223225754
+2.81.134.42 0 61 564017 
+2.81.127.81 1 62 937061 20110228131246
+2.81.125.92 0 44 536953 
+82.154.251.11 0 61 565626 
+188.82.205.17 1 1 1678510 20110202160703
+84.90.160.82 4 6 1053150 20110208231646
+213.30.118.68 1 18 696161 20110216140849
+184.72.199.234 0 16 390187 
+194.65.208.168 0 57 558097 
+188.80.103.58 0 45 537172 
+212.55.161.154 0 38 523678 
+84.91.7.39 0 66 565214 
+217.129.129.3 0 130 571892 
+2.83.240.179 0 44 536953 
+85.246.183.126 0 50 971667 
+217.129.24.213 0 45 537172 
+84.90.166.254 0 45 537172 
+82.154.182.232 1 122 955164 20110216154050
+2.81.103.139 1 123 1501078 20110208010645
+87.196.106.54 0 44 536953 
+188.81.240.228 0 63 564551 
+95.69.58.250 1 46 910216 20110209231651
+93.102.1.209 0 63 559375 
+85.139.228.27 0 128 568878 
+188.81.160.193 0 53 551831 
+87.196.117.110 1 1 82340801 20110210112901
+77.54.242.85 0 67 565390 
+2.83.213.244 0 61 564017 
+84.91.34.75 0 61 564017 
+188.81.161.18 0 127 0 
+84.90.41.119 0 61 564017 
+62.48.212.228 0 195 610432 
+83.240.187.20 1 692 6208977 20110210112254
+2.82.156.27 0 21 499297 
+188.82.213.115 0 57 558097 
+84.91.35.235 0 11 145472 
+2.83.242.155 0 57 558097 
+74.125.75.1 0 5 21322 
+195.22.21.218 0 61 564017 
+188.83.197.19 1 64 2243080 20110214143113
+46.50.40.106 0 44 536953 
+87.196.101.254 2 2 184738670 20110216064820
+87.196.8.121 0 174 564017 
+94.132.67.222 0 44 536953 
+2.83.129.162 0 57 559706 
+217.129.244.242 0 50 545479 
+87.196.119.59 0 62 564164 
+212.113.163.75 0 3 9248 
+87.196.113.28 1 45 909997 20110211170637
+2.83.240.54 0 183 1566674 
+2.81.184.101 0 61 564017 
+93.102.104.150 0 61 564017 
+84.90.167.148 0 57 557751 
+188.83.168.152 0 298 1690594 
+188.81.215.181 0 61 564017 
+188.80.109.200 0 61 564017 
+2.81.220.148 0 118 1121768 
+84.90.27.213 1 1 1871 20110210075141
+217.129.137.11 0 61 564017 
+188.140.109.156 0 25 183561 
+195.23.209.128 0 66 571950 
+2.81.221.51 0 57 558097 
+2.81.220.196 0 67 565641 
+87.196.144.114 0 62 564161 
+213.228.178.164 0 45 537140 
+217.129.139.206 0 62 564405 
+85.240.176.58 0 64 564450 
+217.129.28.69 0 67 565641 
+2.83.156.41 2 63 2633674 20110201185753
+89.155.247.164 0 122 564017 
+83.132.147.218 0 61 565972 
+217.129.246.152 0 56 530081 
+84.91.239.205 0 44 536953 
+77.54.6.235 0 6 13794 
+2.81.120.80 0 61 564017 
+93.102.143.151 0 48 608565 
+207.46.199.24 1 1 1286174 20110223233918
+212.55.146.155 1 1 1871 20110210115345
+84.91.81.133 3 65 3102188 20110222094505
+89.152.70.209 0 50 545105 
+188.83.93.67 0 67 572178 
+87.196.212.1 0 63 564549 
+50.16.112.166 0 16 390187 
+2.81.141.189 0 45 537172 
+217.129.202.81 0 92 617904 
+62.48.238.149 0 315 1714775 
+84.90.20.59 0 122 1128034 
+2.81.179.132 0 49 548040 
+212.0.161.140 0 67 577013 
+2.81.159.197 0 53 551831 
+84.91.32.37 1 117 1489724 20110213004448
+94.132.184.122 0 61 564017 
+84.90.161.76 2 4 1022063 20110211225320
+82.154.148.3 1 52 2224043 20110218153339
+94.132.164.107 0 48 544828 
+89.155.50.130 0 61 0 
+89.152.148.226 0 45 537172 
+201.67.222.29 0 68 572570 
+2.82.30.9 0 45 537172 
+89.180.113.194 0 61 564017 
+89.155.217.88 0 48 544828 
+79.169.115.253 0 121 564161 
+2.81.144.236 0 124 564017 
+192.109.140.37 0 61 564017 
+94.132.42.86 1 62 937061 20110207185620
+93.102.93.156 0 58 558529 
+188.81.162.200 0 62 54069 
+188.80.102.158 0 61 564017 
+188.83.208.122 0 45 537172 
+188.81.86.228 0 44 536953 
+188.81.162.229 5 7 1161315 20110222162847
+93.102.104.1 0 57 558097 
+62.48.171.213 0 64 570530 
+208.80.194.26 3 3 9867 20110207072908
+84.90.26.189 0 61 564017 
+216.104.15.130 0 8 376837 
+213.228.181.22 3 516 4251764 20110201113535
+87.196.177.73 0 61 564017 
+212.57.64.175 0 90 564017 
+89.154.71.108 0 44 536953 
+84.91.128.221 0 45 537172 
+2.82.167.235 0 65 571892 
+188.81.213.254 0 63 564549 
+84.91.229.102 0 57 558097 
+83.132.109.62 0 45 537172 
+194.106.15.178 0 61 564017 
+188.140.69.31 0 66 572324 
+77.54.86.184 0 57 558097 
+195.23.36.213 0 61 564017 
+188.82.243.192 0 38 521237 
+84.90.38.143 0 126 568389 
+188.140.14.246 0 44 536953 
+78.130.32.157 0 81 1056230 
+93.108.182.144 5 7 1161315 20110223014345
+84.91.117.245 0 61 564017 
+84.90.94.53 0 44 536953 
+213.228.163.5 3 186 5518237 20110221121107
+188.80.152.165 0 61 564017 
+2.83.70.158 0 125 1134796 
+194.65.106.43 0 85 1088753 
+95.92.146.185 0 45 537172 
+84.90.3.33 1 2 6522 20110211002830
+2.81.133.34 0 45 537172 
+201.8.207.114 0 44 536953 
+89.152.146.105 0 61 564017 
+77.54.25.213 1 45 909997 20110216223330
+62.169.67.134 4 95 4004372 20110227231359
+217.129.214.134 0 61 565972 
+2.81.148.14 0 24 498133 
+62.28.104.248 0 66 564984 
+2.81.127.237 0 64 564681 
+93.102.154.54 0 62 564449 
+46.189.169.93 0 65 571892 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20110201 79 3910 134669531 17
+20110202 44 4341 63175778 16
+20110203 28 4485 69091474 15
+20110204 55 3012 155898281 17
+20110205 18 3213 40489293 12
+20110206 49 2838 149950702 11
+20110207 71 4943 94191741 28
+20110208 56 4746 349519453 31
+20110209 129 4183 3273586538 50
+20110210 77 4555 1101889260 51
+20110211 87 4811 674761095 32
+20110212 46 2666 323722551 19
+20110213 32 4424 425915400 23
+20110214 51 4737 87872265 26
+20110215 265 5692 265713606 22
+20110216 352 6582 955783367 39
+20110217 193 8593 152669432 33
+20110218 122 7338 275916797 19
+20110219 69 5935 97654816 19
+20110220 66 5627 188862364 11
+20110221 77 9684 151032798 21
+20110222 191 13439 671453344 32
+20110223 162 15137 209035748 26
+20110224 417 10620 356379088 27
+20110225 20 8515 80891470 10
+20110226 41 7687 107631914 9
+20110227 15 9616 180175453 14
+20110228 23 11056 108728035 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 12
+5mn-15mn 31
+0s-30s 462
+15mn-30mn 21
+30s-2mn 66
+2mn-5mn 37
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 347
+/ 194 605176 167 51
+/aveiroexpo/sector_diversao.pdf 162 59313996 142 145
+/home.swf 138 134963080 0 23
+/aveiroexpo/regulamento_fm2011.pdf 129 213170770 87 90
+/swf/borbuletas.swf 106 2451774 1 9
+/bebe.f4v 62 5726898770 38 40
+/aveiroexpo/sector_exposicao.pdf 56 25334964 32 33
+/castigoedelito/dia_dos_namorados.htm 48 86066 42 42
+/aveiroexpo/sector_comercial.pdf 46 17992762 28 21
+/versatico/music/Track01.mp3 41 66352063 0 0
+/swf/design.swf 37 7579612 1 5
+/swf/eventos.swf 35 26294765 0 3
+/swf/contactos.swf 33 211500 1 19
+/versatico/ 32 64009 5 0
+/swf/empresa.swf 27 2812290 0 6
+/swf/fotografia.swf 26 14192825 0 1
+/swf/internet.swf 26 31642182 0 13
+/aveiroexpo/feiramarco_2011_net.pdf 26 198066404 6 9
+/versatico/backgrounds.swf 25 885324 0 0
+/versatico/preview.swf 25 68156 0 0
+/versatico/vars_bgs.xml 24 10732 0 1
+/versatico/menu.swf 24 267769 0 0
+/SteelExternalAll.swf 23 118800 0 2
+/nuno/ 22 50094 7 0
+/swf/multimedia.swf 21 4988151 0 2
+/swf/fotografia/gastronomia.swf 11 6843573 0 0
+/nuno/plantas05.xml 1 262 0 0
+/nuno/envolvente015.xml 1 265 0 0
+/versatico/swf/envolvente_legenda009.swf 4 21656 0 0
+/ecovalor/carrinha_grande.zip 2 16394722 1 1
+/swf/design/desdobravel/marianaurb.swf 5 517120 0 0
+/versatico/swf/3d/003.swf 7 283609 0 0
+/aveicabo/tela_aveicabo_2X3_seta_esquerda.zip 1 54563871 0 0
+/videos/sidecnovo_2.f4v 10 9647170 0 3
+/versatico/swf/envolvente/011.swf 4 161408 0 0
+/vgg/text/empresa.xml 3 20970 0 0
+/swf/design/linhasgraficas.swf 13 11268998 0 1
+/aveiroexpo/banner_feira_marc/ 18 121848 1 0
+/aveiroexpo/spot_feira_marc/intro.swf 17 557661 0 0
+/versatico/swf/envolvente/010.swf 1 40352 0 0
+/videos/mercentro.flv 2 97894182 0 0
+/feiramarco_2011.zip 1 18909278 1 1
+/vgg/text/onde_estamos.xml 2 13990 0 0
+/nuno/swf/envolvente_legenda004.swf 1 4053 0 0
+/vgg/vgg_icon.ico 3 17058 0 0
+/nuno/swf/3d/013.swf 3 120912 0 0
+/versatico/swf/envolvente/016.swf 2 80704 0 0
+/versatico/envolvente010.xml 1 265 0 0
+/download/pizzarteDA.zip 2 39852879 2 1
+/nuno/swf/3d/006.swf 1 40304 0 0
+/gavinho/pt/preview.swf 1 40246 0 0
+/nuno/004.xml 2 510 0 0
+/swf/fotografia/espacos.swf 12 10054272 0 1
+/videos/lf07_01.flv 1 33980938 0 0
+/nuno/swf/envolvente_legenda003.swf 5 26295 0 0
+/versatico/008.xml 1 255 0 0
+/versatico/swf/envolvente/015.swf 2 80704 0 0
+/videos/clip_litoral08.flv 5 448045510 0 1
+/nuno/swf/contactos.swf 8 278934 0 1
+/swf/design/desdobravel/enquadra.swf 7 816242 0 0
+/vgg/text/dl.xml 2 952 0 0
+/vgg/main.swf 3 738762 0 0
+/eurogres/desdobravel/desdobravel_eurogres_prop02.pdf 6 19629306 0 0
+/swf/design/catalogos/lake.swf 9 3284397 0 1
+/aveiroexpo/spot_feira_marc/videoPlayer.xml 2 236 0 0
+/neoplast/ 1 10592 1 0
+/versatico/002.xml 8 2052 0 1
+/nuno/011.xml 4 765 0 0
+/versatico/swf/envolvente_legenda015.swf 2 8784 0 0
+/versatico/envolvente012.xml 2 530 0 0
+/versatico/swf/envolvente/007.swf 4 161408 0 0
+/aveiroexpo/site_feira_de_marc/home.swf 5 2832751 0 0
+/versatico/swf/envolvente/009.swf 4 161408 0 0
+/nuno/swf/plantas/planta01.swf 2 9578 0 0
+/gavinho/intro2.swf 2 7212 0 1
+/versatico/swf/contactos.swf 10 299511 0 0
+/nuno/swf/envolvente_legenda015.swf 1 4392 0 0
+/aveiroexpo/programa_ti_s_.pdf 1 127933 1 1
+/nuno/envolvente006.xml 2 530 0 0
+/download/monofolhaveigas.zip 4 480163376 2 1
+/aveiroexpo/ficha_inscr_agrovouga09.pdf 1 423326 1 1
+/nuno/envolvente016.xml 1 265 0 0
+/aveiroexpo/spot_feira_marc/spot.f4v 15 31801583 1 0
+/swf/multimedia/lf08_01.swf 5 181220 0 0
+/swf/design/desdobravel/aveicabo.swf 6 806784 0 0
+/vgg/text/di.xml 2 952 0 0
+/swf/design/catalogos/neoplast.swf 6 3058088 0 1
+/versatico/swf/envolvente/013.swf 2 80704 0 0
+/nuno/swf/envolvente/015.swf 1 40352 0 0
+/swf/design/embalagens.swf 5 3063730 0 1
+/vgg/navigation.xml 3 2262 0 0
+/eurogres/desdobravel/desdobravel_eurogres_prop03.pdf 3 3407769 0 0
+/versatico/swf/envolvente_legenda010.swf 1 5514 0 0
+/download/LMfev.zip 3 29829134 0 1
+/videos/feirademarco.flv 1 1525781 0 0
+/nuno/vars_bgs.xml 19 9468 0 0
+/aveiroexpo/banner_feira_marc/v02/ 2 20380 0 0
+/labstestevao/01/ 2 15090 2 1
+/swf/multimedia/serie7.swf 1 321069 0 0
+/aveiroexpo/spot_feira_marc/videos.xml 4 469 0 0
+/nuno/swf/apresentacao.swf 11 78725 0 0
+/labstestevao/01/servicos.html 1 15262 0 1
+/nuno/swf/3d/004.swf 2 80608 0 0
+/nuno/swf/envolvente_legenda009.swf 4 21656 0 0
+/programa_aveironoivos.pdf 8 10289392 8 8
+/vgg/preview.swf 3 120714 0 0
+/versatico/swf/envolvente_legenda012.swf 2 8796 0 0
+/versatico/swf/envolvente/003.swf 7 282464 0 0
+/swf/fotografia/automovel.swf 10 8432550 0 1
+/nuno/menu.swf 19 229158 0 0
+/swf/multimedia/lf.swf 5 1767915 0 0
+/versatico/swf/3d/014.swf 4 161216 0 0
+/swf/design/desdobravel/climastar.swf 4 305516 0 0
+/nuno/swf/envolvente_legenda016.swf 1 4795 0 0
+/eurogres/desdobravel/desdobravel_eurogres_prop01.pdf 10 17867710 4 2
+/nuno/swf/envolvente_legenda014.swf 3 15969 0 0
+/versatico/swf/fotos_3d.swf 16 791299 0 0
+/swf/design/desdobravel/constrave.swf 8 771624 0 0
+/aveiroexpo/programa_agrovouga_2010.pdf 3 5184480 3 3
+/ClearExternalAll.swf 6 32622 0 0
+/aveiroexpo/programa_porto_aveiro.pdf 2 164632 2 2
+/versatico/swf/envolvente/002.swf 5 201719 0 0
+/versatico/swf/3d/006.swf 3 90160 0 0
+/nuno/swf/envolvente/013.swf 2 80704 0 0
+/versatico/envolvente016.xml 2 530 0 0
+/versatico/swf/envolvente_legenda013.swf 1 4922 0 0
+/swf/eventos/mercedes.swf 4 5100080 0 0
+/versatico/012.xml 3 765 0 1
+/swf/design/desdobravel/farav.swf 7 683011 0 0
+/nuno/swf/envolvente_legenda005.swf 4 14766 0 0
+/gavinho.zip 1 10475675 1 0
+/aveiroexpo/dossier_imprensa_farav09.pdf 9 725907 8 9
+/versatico/swf/3d/010.swf 2 69607 0 0
+/versatico/envolvente006.xml 3 795 0 0
+/nuno/envolvente004.xml 1 265 0 0
+/eurogres/desdobravel/triptico_eurogres.pdf 8 13751629 2 2
+/swf/multimedia/mini.swf 2 672386 0 1
+/aveiroexpo/regulamento2010.pdf 2 4431912 2 2
+/nuno/swf/envolvente/012.swf 1 40352 0 0
+/aveicabo/aveicabo.zip 5 47840685 2 2
+/nuno/envolvente003.xml 5 1325 0 0
+/versatico/007.xml 2 510 0 1
+/nuno/006.xml 1 255 0 0
+/vgg/images/onde_estamos.swf 3 1143363 0 0
+/nuno/swf/envolvente_legenda007.swf 4 20232 0 0
+/versatico/envolvente013.xml 2 530 0 0
+/aveiroexpo/dossier_imprensa_fm_09.pdf 1 189724 1 1
+/swf/multimedia/biju_01.swf 1 36236 0 0
+/versatico/swf/envolvente_legenda002.swf 3 16542 0 0
+/swf/fotografia/arquitectura.swf 9 5756571 0 2
+/nuno/preview.swf 19 55764 0 0
+/nuno/swf/envolvente_legenda002.swf 1 5514 0 0
+/versatico/swf/3d/004.swf 8 322432 0 0
+/vgg/images/vgg.swf 3 5961 0 0
+/versatico/swf/3d/013.swf 1 40304 0 0
+/nuno/swf/envolvente_legenda013.swf 2 9844 0 0
+/nuno/music/Track01.mp3 19 32279382 0 1
+/nuno/envolvente014.xml 3 795 0 0
+/versatico/swf/3d/008.swf 2 66060 0 0
+/versatico/swf/envolvente_legenda001.swf 4 18268 0 0
+/versatico/swf/envolvente/004.swf 5 201760 0 0
+/nuno/002.xml 6 1275 0 2
+/versatico/swf/envolvente_legenda006.swf 3 14595 0 0
+/swf/multimedia/mercentro.swf 2 72472 0 0
+/diarioaveiro/estudo_frota_DA.pdf 1 8610764 1 1
+/versatico/003.xml 5 1287 0 0
+/aveiroexpo/agrovouga2010_reg.pdf 2 269442 2 1
+/versatico/swf/envolvente/014.swf 4 161408 0 0
+/nuno/envolvente012.xml 1 265 0 0
+/labstestevao/01/empresa.html 1 19419 0 0
+/eurogres/desdobravel/desdobravel_eurogres_propostas_01.pdf 7 12299329 1 0
+/versatico/swf/envolvente_legenda008.swf 1 4203 0 0
+/nuno/envolvente013.xml 2 530 0 0
+/swf/design/insercoes.swf 5 8399130 0 1
+/swf/eventos/litoraldesign.swf 5 6111950 0 0
+/triptico_eurogres.zip 2 164681602 1 2
+/nuno/swf/envolvente.swf 11 791831 0 0
+/nuno/envolvente001.xml 2 530 0 0
+/nuno/swf/envolvente_legenda012.swf 1 4398 0 0
+/vgg/text/ca.xml 2 1496 0 0
+/nuno/swf/envolvente_legenda001.swf 2 9134 0 0
+/versatico/envolvente007.xml 4 1060 0 0
+/nuno/swf/3d/014.swf 2 80608 0 0
+/nuno/swf/plantas/05.swf 1 40345 0 0
+/versatico/envolvente014.xml 4 1060 0 0
+/vgg/submenu1.xml 2 792 0 2
+/versatico/swf/3d/002.swf 10 384496 0 0
+/nuno/swf/3d/009.swf 3 120912 0 0
+/versatico/swf/envolvente.swf 18 1275645 0 0
+/versatico/swf/envolvente/006.swf 3 121056 0 0
+/gavinho/ 2 3400 1 0
+/versatico/swf/acabamentos.swf 11 65110 0 0
+/versatico/envolvente008.xml 2 530 0 0
+/ecovalor/carrinha_media.zip 2 124279970 0 1
+/versatico/swf/envolvente_legenda014.swf 3 15969 0 0
+/swf/multimedia/lf07_01.swf 1 36239 0 0
+/swf/eventos/bmw7.swf 19 4957740 0 12
+/versatico/swf/apresentacao.swf 15 88043 0 0
+/nuno/swf/plantas/03.swf 2 80683 0 0
+/versatico/004.xml 5 1287 0 0
+/nuno/010.xml 4 765 0 0
+/nuno/envolvente005.xml 3 795 0 0
+/vgg/vars_bgs.xml 3 1134 0 0
+/swf/eventos/mini.swf 4 1692080 0 1
+/nuno/swf/envolvente/009.swf 4 161408 0 0
+/nuno/plantas03.xml 2 524 0 0
+/nuno/swf/3d/008.swf 1 40304 0 0
+/aveiroexpo/spot_feira_marc/v02/ClearOverPlaySeekMute.swf 10 34970 0 0
+/nuno/envolvente007.xml 4 1060 0 0
+/aveicabo/tela_aveicabo_2X3_seta_direita.zip 1 54565415 0 1
+/videos/backstage.flv 1 17803702 0 0
+/versatico/swf/3d/007.swf 4 130874 1 0
+/versatico/010.xml 1 255 0 0
+/nuno/swf/envolvente/003.swf 5 201760 0 0
+/nuno/swf/plantas.swf 14 398775 0 1
+/nuno/plantas02.xml 2 524 0 0
+/vgg/text/dcsp.xml 2 1068 0 0
+/nuno/swf/envolvente/004.swf 1 40352 0 0
+/vgg/submenu3.xml 2 1762 0 0
+/nuno/swf/acabamentos.swf 9 72406 0 0
+/versatico/014.xml 2 510 0 0
+/versatico/swf/envolvente/001.swf 7 282382 0 0
+/cgi-sys/suspendedpage.cgi 1 83908 1 1
+/nuno/plantas01.xml 2 524 0 1
+/nuno/swf/plantas/planta05.swf 1 4107 0 0
+/versatico/swf/plantas.swf 10 58885 0 0
+/nuno/swf/envolvente/010.swf 1 40352 0 0
+/nuno/swf/plantas/01.swf 2 80683 0 0
+/aveiroexpo/spot_feira_marc/ClearOverPlaySeekMute.swf 10 31473 0 0
+/versatico/swf/envolvente/012.swf 2 80704 0 0
+/versatico/envolvente005.xml 2 530 0 0
+/nuno/envolvente010.xml 1 265 0 0
+/nuno/swf/envolvente_legenda011.swf 3 18177 0 0
+/vgg/text/dsc.xml 1 753 0 0
+/neoplast/catalogo_neoplast.swf 1 1905243 0 1
+/nuno/013.xml 3 765 0 0
+/swf/design/desdobravel/aveiroexpo.swf 6 1165746 0 0
+/vgg/text/dc.xml 2 1170 0 0
+/versatico/006.xml 1 255 0 0
+/vgg/text/equipa.xml 2 13966 0 0
+/nuno/swf/localizacao.swf 9 1883752 0 0
+/eurogres/desdobravel/desdobravel_eurogres_prop05.pdf 7 10552115 1 2
+/nuno/008.xml 1 255 0 0
+/versatico/009.xml 1 255 0 0
+/versatico/swf/envolvente_legenda011.swf 4 24236 0 0
+/nuno/envolvente009.xml 4 1060 0 0
+/nuno/backgrounds.swf 19 724356 0 0
+/versatico/swf/localizacao.swf 12 2134190 0 0
+/versatico/swf/envolvente/005.swf 2 80704 0 0
+/swf/design/desdobravel/veigas.swf 6 488832 0 0
+/nuno/swf/envolvente/014.swf 3 121056 0 0
+/eurogres/desdobravel/capas_desdobravel_eurogres.pdf 3 6765609 0 0
+/aveiroexpo/programa_educacao.pdf 1 48112 1 1
+/videos/fashiontv2010.f4v 7 87088862 0 1
+/vgg/config.xml 3 1932 0 0
+/swf/videos.swf 17 133416 0 2
+/nuno/swf/envolvente/002.swf 1 40352 0 0
+/swf/design/catalogos/biju.swf 9 4737474 0 0
+/nuno/swf/3d/011.swf 4 120912 0 0
+/swf/design/desdobravel/forgestil.swf 11 1164702 0 0
+/swf/design/catalogos/heliflex.swf 9 3915459 0 0
+/swf/3d.swf 17 7341552 0 0
+/versatico/swf/envolvente_legenda007.swf 3 15174 0 0
+/nuno/swf/envolvente_legenda006.swf 2 9730 0 0
+/nuno/swf/envolvente/005.swf 3 121056 0 0
+/nuno/swf/3d/012.swf 4 161216 0 0
+/versatico/envolvente003.xml 7 1590 0 0
+/versatico/swf/envolvente_legenda004.swf 4 16212 0 0
+/aveiroexpo/spot_feira_marc/v02/ 10 25750 0 0
+/swf/design/desdobravel/cb.swf 6 493560 0 0
+/versatico/001.xml 4 1020 0 0
+/gavinho/pt/ 1 3258 0 0
+/nuno/swf/3d/007.swf 5 161216 1 0
+/nuno/001.xml 5 1020 0 1
+/gavinho/pt/menu.swf 1 219074 0 0
+/nuno/swf/envolvente/007.swf 4 161408 0 0
+/versatico/swf/envolvente_legenda005.swf 2 9844 0 0
+/nuno/012.xml 4 1020 0 0
+/nuno/swf/plantas/planta02.swf 2 8804 0 0
+/nuno/swf/fotos_3d.swf 16 829480 0 1
+/vgg/text/links.xml 2 722 0 0
+/nuno/plantas04.xml 2 524 0 0
+/nuno/envolvente002.xml 1 265 0 0
+/versatico/envolvente011.xml 4 1060 0 0
+/aveiroexpo/farav2010_regulamento.pdf 1 82846 0 1
+/nuno/swf/envolvente/006.swf 2 80704 0 0
+/versatico/envolvente015.xml 2 530 0 0
+/swf/eventos/smart.swf 5 6393470 0 0
+/nuno/swf/plantas/planta03.swf 2 9450 0 0
+/vgg/text/df.xml 2 1098 0 0
+/versatico/swf/3d/011.swf 4 150304 0 0
+/swf/eventos/biju.swf 6 7031028 0 1
+/nuno/swf/envolvente/001.swf 2 80704 0 0
+/nuno/swf/envolvente_legenda010.swf 1 5514 0 0
+/swf/design/catalogos/cb.swf 20 8648260 0 1
+/versatico/envolvente001.xml 7 1590 0 0
+/swf/multimedia/fm09.swf 1 36241 0 0
+/nuno/014.xml 2 510 0 0
+/gavinho/pt/projectos/apart_gaia.swf 1 773413 0 0
+/versatico/swf/3d/001.swf 6 223189 0 0
+/aveiroexpo/site_feira_de_marc/ 5 12310 0 0
+/aveiroexpo/programa_seminario_PFMC.pdf 1 35616 1 1
+/nuno/swf/envolvente/016.swf 1 40352 0 0
+/aveiroexpo/banner_feira_marc/v02/120x600_v02.swf 2 73902 0 0
+/versatico/011.xml 3 765 0 0
+/nuno/swf/3d/010.swf 4 120912 0 0
+/nuno/swf/3d/002.swf 6 201520 1 0
+/swf/design/catalogos/pizzarte.swf 8 2340464 0 0
+/eurogres/desdobravel/desdobravel_eurogres_propostas_02.pdf 7 12357282 0 1
+/versatico/swf/envolvente_legenda016.swf 2 9590 0 0
+/nuno/swf/3d/005.swf 2 80608 0 0
+/swf/fotografia/objectos.swf 12 6447696 0 1
+/download/fontenova.zip 5 102528308 3 3
+/versatico/005.xml 1 255 0 0
+/versatico/envolvente004.xml 5 1060 0 1
+/gavinho/pt/home_page.xml 1 269 0 0
+/versatico/swf/envolvente_legenda003.swf 6 31554 0 0
+/aveicabo/tela_aveicabo_2X2.zip 3 105401544 2 1
+/vgg/images/equipa.swf 2 152494 0 0
+/nuno/005.xml 2 510 0 0
+/aveiroexpo/banner_feira_marc/120x600.swf 13 463336 0 2
+/nuno/swf/plantas/planta04.swf 2 8016 0 0
+/eurogres/desdobravel/desdobravel_eurogres_prop04.pdf 5 4708635 0 0
+/nuno/swf/plantas/02.swf 2 80683 0 0
+/vgg/ 4 7547 2 0
+/versatico/swf/3d/009.swf 2 71086 0 0
+/aveiroexpo/spot_feira_marc/ 17 41240 2 0
+/aveiroexpo/spot_feira_marc/v02/intro.swf 10 367740 0 0
+/versatico/swf/envolvente/008.swf 2 80704 0 0
+/download/vouchers.zip 7 172022918 3 3
+/aveiroexpo/agrovouga2010_fic_inscr.pdf 3 638718 2 3
+/versatico/swf/3d/012.swf 5 179228 0 0
+/aveiroexpo/spot_feira_marc/v02/spot02.f4v 10 33882124 0 3
+/nuno/envolvente011.xml 3 795 0 0
+/versatico/swf/3d/005.swf 5 139299 1 0
+/versatico/013.xml 1 255 0 0
+/swf/multimedia/filinox.swf 2 514126 0 0
+/versatico/envolvente002.xml 5 1060 0 0
+/nuno/swf/plantas/04.swf 2 80683 0 0
+/nuno/swf/envolvente/011.swf 3 121056 0 0
+/nuno/007.xml 5 1020 0 0
+/aveiroexpo/programa_festa_freguesias.pdf 12 258852 12 12
+/vgg/contact/contactinfo.xml 3 1608 0 0
+/versatico/envolvente009.xml 4 1060 0 0
+/swf/design/grandesformatos.swf 8 17651344 0 0
+/nuno/009.xml 3 765 0 0
+/nuno/swf/3d/001.swf 5 161216 1 0
+END_SIDER

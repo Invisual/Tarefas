@@ -1,0 +1,148 @@
+# Webalizer V2.23-08 Incremental Data - 02/14/2018 22:19:23
+2018 2 14 22 19 23
+5 4 4 2 2 4 174021 3 3 0
+2 2 3 6 14
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 2 174001 3 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 20 2 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+3 2 174001 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 2 20 1
+0 0 0 0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 2 3417233155821823354 173981 3 0
+/wp-cron.php
+0 2 0 40 0 0
+# End Of Table - urls
+# -sites- (monthly)
+cp68.webserver.pt
+0 2 2 40 0 0
+-
+researchscan19.netintum.umbrellastudy.com
+0 1 1 0 1 1518646759
+/
+138.197.67.27
+0 1 0 0 1 1517900295
+/
+165.227.115.183
+0 1 1 173981 1 1517899767
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+cp68.webserver.pt
+0 1 1 20 0 0
+-
+researchscan19.netintum.umbrellastudy.com
+0 1 1 0 1 1518646759
+/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 3
+https://jade.invisual.pt/wp-cron.php
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 2
+WordPress/4.9.4; https://jade.invisual.pt
+0 1
+WordPress/4.9.2; https://jade.invisual.pt
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,411 @@
+# Webalizer V2.23-08 Incremental Data - 02/15/2018 03:55:39
+2018 2 15 3 55 39
+9146 7461 24 43 32 33 99751461 1724 57 0
+3 3 858 1 15
+1161 920 11663706 2 248 4
+1224 941 11313437 3 224 5
+13 5 22074 6 3 3
+6 4 6923 6 2 2
+2482 2121 26642805 8 499 5
+504 414 5989750 8 106 9
+846 664 10743895 5 140 5
+592 491 5664835 4 110 7
+562 431 5263770 4 95 3
+6 6 5997 5 0 0
+4 4 4372 3 0 0
+457 364 5747357 5 91 4
+11 9 12688 7 2 2
+1275 1084 16666486 12 204 8
+3 3 3366 3 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 4 4024 0
+0 0 0 0
+0 0 0 0
+7 7 7738 0
+3 1 10543 2
+0 0 0 0
+2 1 8900 1
+4 1 15667 3
+0 0 0 0
+929 790 14620460 168
+1542 1179 14974626 309
+803 665 9695301 142
+674 528 6427385 131
+50 40 1088059 7
+784 634 7929363 153
+656 560 8334803 104
+1772 1505 18618269 359
+1335 1085 12919894 233
+554 444 4690486 107
+2 1 1006 1
+8 6 391978 2
+8 6 9670 2
+7 2 1277 0
+2 2 2012 0
+0
+0
+0
+7461
+0
+0
+0
+0
+0
+0
+0
+0
+1520
+0
+0
+0
+0
+0
+0
+0
+0
+165
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/list_clientes.php
+0 8 3417233155821823354 27732 0 0
+/css/estilos.css
+0 123 8678280833089760359 277611 0 0
+/tarefas_pesquisa.php
+0 18 3328776062367053313 44846 0 0
+/login.php
+0 692 3330186735768907058 719725 0 0
+/img/users/andre.jpg
+0 111 23158 5788983 0 0
+/img/users/rui.jpg
+0 94 8535558717670044721 5806004 0 0
+/img/logo.png
+0 112 3546695076043895651 10803968 0 0
+/img/users/natalia.jpg
+0 60 3330749672971382327 1838340 0 0
+/img/fundo.jpg
+0 80 8462877645781688946 15406320 0 0
+/img/users/miguel.jpg
+0 68 25769616 2351644 0 0
+/list_tarefas_diarias.php
+0 11 0 25100 0 0
+/list_tarefas_user.php
+0 1583 0 6847599 0 0
+/js/bootstrap-datetimepicker.min.js
+0 20 0 154300 0 0
+/img/users/joana.jpg
+0 62 0 2171240 0 0
+/css/queries.css
+0 125 0 64500 0 0
+/registo.php
+0 4 0 9411 0 0
+/img/users/nuno.jpg
+0 84 0 5846316 0 0
+/list_tarefas.php
+0 463 0 5799059 0 0
+/list_tarefas_urg.php
+0 1 0 1760 0 0
+/insert_cliente.php
+0 10 0 22383 0 0
+/img/users/lina.jpg
+0 72 0 1718064 0 0
+/img/users/user.png
+0 18 0 91260 0 0
+/img/users/bruna.jpg
+0 92 0 4839660 0 0
+/img/favicon.ico
+0 130 0 176020 0 0
+/list_my_tarefas.php
+0 500 0 1736260 0 0
+/js/bootstrap-datetimepicker.pt-BR.js
+0 21 0 7539 0 0
+/img/users/filipe.jpg
+0 89 0 2843016 0 0
+/listar_tarefa.php
+0 445 0 1118459 0 0
+/listar_tarefa_diaria.php
+0 1 0 2086 0 0
+/img/users/pedro.jpg
+0 87 0 5169888 0 0
+/mensagens.php
+0 2 0 6472 0 0
+/edit_tarefa.php
+0 230 0 870450 0 0
+/
+0 1371 0 3260054 56 45
+/css/bootstrap-combined.min.css
+0 19 0 37183 0 0
+/img/users/fidalgo.jpg
+0 76 0 3180676 0 0
+/.vscode/ftp-sync.json
+0 7 0 1897 0 0
+/img/users/carina.jpg
+0 68 0 1176944 0 0
+/img/users/claudia.jpg
+0 48 0 2327616 0 0
+/img/glyphicons-halflings.png
+0 19 0 243181 0 0
+/insert_tarefa.php
+0 256 0 938027 0 0
+/img/users/eduardo.jpg
+0 66 0 3665838 0 0
+/css/bootstrap-datetimepicker.min.css
+0 19 0 24890 0 0
+/img/users/joao.jpg
+0 96 0 1540608 0 0
+# End Of Table - urls
+# -sites- (monthly)
+google-proxy-66-249-81-105.google.com
+0 7 7 7042 0 0
+-
+159.65.47.241
+0 1 0 6509 1 1517902533
+/
+195.22.127.249
+0 17 7 1897 0 0
+-
+nugura.cs.usyd.edu.au
+0 8 4 10596 4 1518512932
+/
+jobqueue-listener.jobqueue.netcraft.com-u643e7ccdb8b54ee69f652c39fad8100bu-digitalocean-2gb
+0 2 1 8900 1 1517632999
+/
+google-proxy-66-102-9-141.google.com
+0 7 7 7042 0 0
+-
+a213-22-34-241.cpe.netcabo.pt
+0 7985 6468 84928810 37 1518606200
+/
+165.227.112.138
+0 2 1 8900 1 1517638573
+/
+ec2-34-242-187-79.eu-west-1.compute.amazonaws.com
+0 1 0 1643 1 1517717018
+/
+45.55.42.178
+0 1 0 6509 1 1517900609
+/
+google-proxy-66-249-93-41.google.com
+0 10 10 12496 0 0
+-
+google-proxy-66-249-93-53.google.com
+0 2 2 2012 0 0
+-
+27.107.60.94.rev.vodafone.pt
+0 2 0 3286 2 1517779048
+/
+228.125.136.95.rev.vodafone.pt
+0 3 2 195228 1 1517862488
+/
+researchscan19.netintum.umbrellastudy.com
+0 1 0 0 1 1518635607
+/
+google-proxy-66-249-93-45.google.com
+0 10 10 11452 0 0
+-
+google-proxy-66-249-81-107.google.com
+0 3 3 3018 0 0
+-
+a94-132-184-113.cpe.netcabo.pt
+0 1054 911 14312192 5 1518632836
+/
+google-proxy-66-249-93-57.google.com
+0 1 1 1354 0 0
+-
+google-proxy-66-249-93-43.google.com
+0 8 8 9092 0 0
+-
+google-proxy-66-249-81-109.google.com
+0 3 3 3018 0 0
+-
+google-proxy-66-102-9-137.google.com
+0 2 2 2012 0 0
+-
+av3-84-90-167-219.netvisao.pt
+0 6 4 198393 2 1518544932
+/
+google-proxy-66-102-9-139.google.com
+0 10 10 10060 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+google-proxy-66-249-93-53.google.com
+0 1 1 1006 0 0
+-
+google-proxy-66-249-93-57.google.com
+0 1 1 1354 0 0
+-
+google-proxy-66-249-81-109.google.com
+0 1 1 1006 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://tarefas.invisual.pt/img/users/rui.jpg
+0 1
+https://www.tarefas.invisual.pt/list_tarefas.php
+0 44
+https://tarefas.invisual.pt/registo.php
+0 9
+https://www.tarefas.invisual.pt/list_tarefas_user.php
+0 62
+http://94.46.176.249
+0 4
+https://tarefas.invisual.pt/tarefas_pesquisa.php
+0 18
+https://tarefas.invisual.pt/mensagens.php
+0 1
+https://tarefas.invisual.pt/list_tarefas_diarias.php
+0 10
+http://www.google.com/search
+0 33
+https://www.tarefas.invisual.pt/insert_tarefa.php
+0 29
+https://tarefas.invisual.pt/insert_tarefa.php
+0 310
+- (Direct Request)
+0 712
+https://www.tarefas.invisual.pt/css/bootstrap-combined.min.css
+0 2
+https://tarefas.invisual.pt/list_tarefas_user.php
+0 2190
+https://www.tarefas.invisual.pt/listar_tarefa.php
+0 29
+https://tarefas.invisual.pt/
+0 113
+https://tarefas.invisual.pt/index.php
+0 2211
+https://www.tarefas.invisual.pt/index.php
+0 330
+https://www.tarefas.invisual.pt/
+0 2
+https://tarefas.invisual.pt/insert_cliente.php
+0 10
+https://tarefas.invisual.pt/css/bootstrap-combined.min.css
+0 6
+https://tarefas.invisual.pt/list_my_tarefas.php
+0 340
+https://www.tarefas.invisual.pt/login.php
+0 353
+https://tarefas.invisual.pt/login.php
+0 632
+https://tarefas.invisual.pt/edit_tarefa.php
+0 255
+https://tarefas.invisual.pt/listar_tarefa_diaria.php
+0 2
+https://tarefas.invisual.pt/listar_tarefa.php
+0 568
+https://www.tarefas.invisual.pt/list_my_tarefas.php
+0 345
+https://tarefas.invisual.pt/l
+0 2
+https://tarefas.invisual.pt/list_tarefas.php
+0 513
+https://tarefas.invisual.pt/list_clientes.php
+0 8
+https://tarefas.invisual.pt/list_tarefas_urg.php
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0
+0 221
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko)
+0 18
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/41.0.2272.118 Safari/537.36
+0 33
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+0 505
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko)
+0 9
+Safari/13604.4.7.1.6 CFNetwork/893.13.1 Darwin/17.3.0 (x86_64)
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+0 3995
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.38 (KHTML, like Gecko) Version/10.0 Mobile/14A300 Sa
+0 27
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 429
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+0 344
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+0 207
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+0 145
+Safari/12604.4.7.1.4 CFNetwork/811.8 Darwin/16.7.0 (x86_64)
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+0 13
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 146
+Safari/12602.1.50.0.10 CFNetwork/807.0.4 Darwin/16.0.0 (x86_64)
+0 4
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 1
+Safari/13604.3.5 CFNetwork/889.9 Darwin/17.2.0 (x86_64)
+0 4
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+0 5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12
+0 253
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+0 295
+Safari/10603.3.8 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)
+0 35
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+0 291
+Safari/12602.3.12.0.1 CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)
+0 37
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 30
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+0 207
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.2.5 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.5
+0 836
+Safari/10603.2.5 CFNetwork/720.5.7 Darwin/14.5.0 (x86_64)
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 402
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 615
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

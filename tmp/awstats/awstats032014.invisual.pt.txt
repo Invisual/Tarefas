@@ -1,0 +1,3773 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201403 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2692                
+POS_VISITOR 97199               
+POS_DAY 149057              
+POS_DOMAIN 3718                
+POS_LOGIN 4748                
+POS_ROBOT 4903                
+POS_WORMS 5560                
+POS_EMAILSENDER 5691                
+POS_EMAILRECEIVER 5834                
+POS_SESSION 150039              
+POS_SIDER 150255              
+POS_FILETYPES 5969                
+POS_DOWNLOADS 6340                
+POS_OS 8491                
+POS_BROWSER 8778                
+POS_SCREENSIZE 11197               
+POS_UNKNOWNREFERER 11271               
+POS_UNKNOWNREFERERBROWSER 13601               
+POS_ORIGIN 15120               
+POS_SEREFERRALS 15272               
+POS_PAGEREFS 15451               
+POS_SEARCHWORDS 20997               
+POS_KEYWORDS 21367               
+POS_MISC 2354                
+POS_ERRORS 21596               
+POS_CLUSTER 4604                
+POS_SIDER_404 21767               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140401000346 1438 356436 15735776809778
+FirstTime 20140301001646
+LastTime 20140331235706
+LastUpdate 20140401134600 1438 0 1437 0 0
+TotalVisits 1510                
+TotalUnique 726                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1608                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 285 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 201 1479 27652938 756 1006 14707767
+1 211 906 28573801 379 608 5658964
+2 220 513 13077921 291 479 3521406
+3 158 411 6571629 547 756 5515827
+4 157 217 14267849 704 882 7896883
+5 199 542 7562875 275 429 7168848
+6 116 279 23089613 302 469 18333215
+7 175 367 15170131 391 582 4352251
+8 126 562 6529389 331 509 5901380
+9 387 2146 57111570 346 680 5973450
+10 429 2423 226565679 463 786 19877590
+11 623 3463 575552403 369 692 11271779
+12 410 2840 126320950 330 674 4011919
+13 268 1483 65274289 358 709 2695385
+14 656 3469 99156750 390 821 13373600
+15 474 2754 112832307 414 943 7751938
+16 719 4640 133675441 444 886 9302363
+17 1201 4223 401785885 618 957 8681992
+18 461 2515 526740116 1567 1999 11768030
+19 377 1953 71106816 1427 1944 14447397
+20 268 1705 38613161 1670 2092 14891965
+21 356 1746 61597291 1906 2406 24271864
+22 347 1913 76438457 1548 2081 26467733
+23 440 2280 76090730 1911 2293 13947334
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 51
+pt 5615 35347 2421191697
+ru 849 948 17528940
+us 717 2333 86354070
+ua 417 418 13375970
+br 235 1287 34822867
+es 224 449 9704251
+de 174 800 23460190
+gb 147 610 14183340
+fr 109 446 16846449
+ca 89 94 15294594
+sa 81 514 7161759
+se 53 63 446413
+cn 36 299 39772206
+il 34 85 1543007
+ro 30 34 560318
+nl 30 44 7186066
+ch 29 377 5087402
+pl 22 78 6092162
+dk 13 15 125817
+mx 12 80 1867212
+it 12 100 3101377
+ma 11 66 3488272
+jp 8 9 252195
+mz 8 57 1559143
+id 6 49 1431660
+tr 0 2 54193
+ph 0 8 25355156
+kr 1 1 16337
+in 0 3 332024
+kh 0 2 1845426
+co 0 3 387039
+si 1 1 22064
+ie 0 1 90486
+al 0 1 15341
+cz 1 3 234029
+fi 1 1 4826
+lt 1 1 4826
+mo 0 1 114395
+cv 0 1 40307
+ao 0 3 4467265
+gr 0 2 641858
+au 6 49 1430862
+eu 1 3 31860
+at 0 2 3809304
+mu 0 1 237347
+vn 0 2 680838
+dz 0 1 46756
+cm 0 2 278858
+ae 0 1 37157
+lu 6 131 1389692
+ve 0 1 4413837
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+no_user_agent 7935 31986666 20140328212802 0
+googlebot 1858 93960959 20140331221537 67
+bot[\s_+:,\.\;\/\\-] 1165 30219527 20140331205151 320
+msnbot\-media 403 7073311 20140331181037 155
+[\s_+:,\.\;\/\\-]bot 382 673839 20140329043309 14
+spider 374 45097704 20140331150608 19
+unknown 172 24461 20140331203944 172
+robot 165 1277320 20140331232043 56
+slurp 115 648805 20140331214150 27
+discovery 80 1678997 20140324165219 0
+crawl 31 198865 20140329051808 2
+ia_archiver 5 38560 20140314080914 3
+netcraft 2 51530 20140310202504 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+css 4738 14704711 0 0
+bmp 8 122728 0 0
+png 5979 79419536 0 0
+ico 226 40363 0 0
+pdf 98 222674476 0 0
+woff 1 43568 0 0
+php 5262 6222166 0 0
+zip 17 1457460424 0 0
+html 3643 47806854 0 0
+xml 21 22092 0 0
+jpg 11421 753248798 0 0
+js 9385 119124326 0 0
+Unknown 52 441510 0 0
+svg 1 55552 0 0
+gif 3977 77032002 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 40
+/robots.txt 835 3 116629
+/arcadamagazine/arcadamagazine_n13.pdf 44 0 179900250
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 27 0 46852855
+/aveiroexpo/regulamento_feira_marco2012.pdf 15 0 1973669
+/aveiroexpo/dossier_imprensa_farav09.pdf 12 0 1137107
+/aveiroexpo/programa_agrovouga_2010.pdf 10 0 8763747
+/smart_aqua/wp-content/uploads/2012/04/aicep_30_mar_2012.pdf 10 0 4272520
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 9 0 11248515
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 9 0 8951669
+/smart_aqua/wp-content/uploads/2012/04/tribuna_de_macau.pdf 7 0 621572
+/aveiroexpo/programa_porto_aveiro.pdf 7 5 679984
+/aveiroexpo/programa_seminario_PFMC.pdf 6 0 167280
+/aveiroexpo/dossier_imprensa_fm_09.pdf 6 5 1400283
+/aveiroexpo/agrovouga2010_reg.pdf 5 0 639017
+/aveiroexpo/regulamento_fm2011.pdf 5 5 11275925
+/aveiroexpo/programa_ti_s_.pdf 5 5 758965
+/download/neon_run/cartaz/cartaz_neon_run_50x70.zip 5 0 64511429
+/aveiroexpo/programa_frilac2011.pdf 5 5 32902480
+/aveiroexpo/sector_diversao.pdf 5 0 909562
+/aveiroexpo/sector_exposicao.pdf 4 0 660476
+/programa_aveironoivos.pdf 3 0 3446638
+/download/bmw/telas_bmw_feira_de_marco_prod.zip 3 0 143570617
+/eb/eb_video_1280x720_v2_im.mp4.zip 3 0 722062059
+/aveiroexpo/ficha_sector_comercial.pdf 3 0 3246603
+/aveiroexpo/ficha_sector_diversao.pdf 3 0 2901507
+/aveiroexpo/programa_festa_freguesias.pdf 3 0 60203
+/aveiroexpo/ficha_sector_exposicao.pdf 2 0 2325060
+/aveiroexpo/ficha_inscr_agrovouga09.pdf 2 0 695466
+/aveiroexpo/agrovouga2012_regulamento.pdf 2 0 323476
+/eb/eb_video_m170.mp4.zip 2 0 471847745
+/aveiroexpo/frilac_inscricao.pdf 2 0 3446836
+/aveiroexpo/agrovouga2010_fic_inscr.pdf 2 5 749950
+/download/eb2014.zip 2 0 34894208
+/aveiroexpo/agrovouga2012_ficha_inscricao.pdf 2 0 388909
+/aveiroexpo/programa_educacao.pdf 2 0 86676
+/download/neon_run/cartaz/cartaz_A3_neon_run.zip 1 0 11175777
+/aveiroexpo/farav2010_regulamento.pdf 1 0 79683
+/aveiroexpo/sector_comercial.pdf 1 0 387756
+/smart_aqua/wp-content/uploads/2012/04/expresso_24_mar.pdf 1 0 643874
+/download/neon_run/flyer_neon_run.zip 1 0 9398589
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 22
+linuxandroid 1003
+macintosh 1
+winlong 3361
+winxp 6291
+win2000 113
+symbian 1
+winvista 4547
+win95 12
+winunknown 216
+j2me 69
+wince 6
+win2003 193
+unix 39
+java 613
+winnt 53
+win98 16
+linuxubuntu 2
+linux 1236
+win7 18965
+winme 27
+macosx 6561
+Unknown 1537
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 139
+firefox28.0 1251
+webcapture 5
+firefox3.8 1
+firefox3.6 1
+chrome33.0.1750.166 4
+chrome22.0.1190.0 24
+chrome29.0.1547.62 10
+chrome31.0.1650.57 78
+chrome31.0.1650.63 252
+safari7.0.1 157
+chrome23.0.1271.95 2
+msie8.0 2741
+chrome11.0.696.34 25
+msie7.0 791
+chrome27.0.1453 312
+msie10.6 10
+chrome35.0.1898.0 67
+opera9.01 3
+chrome30.0.1599.69 2
+chrome32.0.1700.107 1265
+netscape0.6 3
+firefox25.0 93
+chrome33.0.1750.117 1860
+netscape5.0 2
+chrome32.0.1700.77 108
+firefox14.0.1 32
+safari5.1.9 136
+safari 688
+safari7.0 2515
+chrome31.1.0.0 1
+chrome11.0.672.2 1
+firefox4.0.1 1
+android 646
+chrome28.0.1500.95 3
+chrome22.0.1229.79 1
+chrome23.0.1271.6 1
+firefox24.0 291
+opera9.80 215
+iphone 132
+chrome19.1.1084.5409 1
+chrome32.0.1700.102 258
+firefox2.0.0.9 6
+netscape0.91 18
+msie5.0 7
+msie9.0 1887
+chrome26.0.1410.43 123
+opera7.54 6
+chrome34.0.1847.11 79
+chrome18.0.1025.166 27
+safari3.1.2 1
+samsung 132
+opera8.01 15
+msie5.5 36
+chrome13.0.782.215 17
+chrome30.0.1551.0 83
+chrome23.0.1271.17 2
+firefox22.0 2
+firefox3.6.28 1
+safari4.0.4 2
+firefox20.0.11 1
+svn040 25
+chrome14.0.835.187 96
+safari1.0 47
+msie6.0 456
+chrome18.0.1025.308 1
+firefox10.0 4
+firefox26.0 95
+chrome33.0.1750.149 122
+sonyericsson 4
+chrome5.0.375.99 1
+chrome28.0.1500.94 2
+firefox4.0 13
+msie4.01 6
+firefox18.0 2
+safari5.0.6 139
+curl 5
+chrome28.0.1500.72 3
+opera7.60 3
+netscape3.0 22
+firefox23.0 151
+chrome26.3.9999.1648 2
+chrome18.0.1025.151 1
+opera9.0 15
+safari7.0.2 387
+chrome32.0.1667.0 55
+chrome33.0.1750.152 371
+firefox21.0 943
+safari6.0 184
+firefox29.0 408
+firefox12.0 3
+safari6.0.5 616
+mozilla 3728
+chrome30.0.1599.12785 1
+chrome32.0.1700.76 27
+chrome22.0.1229.94 146
+firefox3.6.3 2
+chrome17.0.963.12 1
+firefox10.0.2 1
+chrome21.0.1180.89 65
+firefox3.0.7 67
+chrome29.0.1547.57 15
+chrome23.0.1271.64 1
+chrome29.0.1547.76 3
+chrome12.0.742.91 14
+firefox8.0 29
+opera9.00 12
+chrome12.0.742.112 1
+msie3.02 6
+chrome26.0.1410.58 1
+lotus\-notes 1
+safari6.1.2 226
+svn130 2
+firefox6.0.2 25
+firefox16.0 5
+msie2.0 9
+chrome33.0.1750.154 6250
+chrome33.0.1750.146 5121
+firefox27.0 4971
+Unknown 1767
+firefox11.0 1
+firefox17.0 79
+safari10.2.1.2141 1
+chrome30.0.1599.17 9
+opera8.00 3
+chrome27.0.1453.110 71
+chrome9.0.597 84
+firefox3.0.5 1
+firefox1.0.7 1
+chrome35.0.1883.0 1
+firefox1.0 1
+msie10.0 1181
+seamonkey 18
+safari5.1 67
+firefox6.0 7
+safari6.0.3 2
+chrome5.0.375.70 60
+chrome27.0.1453.116 2
+opera9.52 1
+chrome33.0.1750.136 159
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1499;_U;_pt)_Presto/2.8.119_Version/11.10 20140313130719
+curl/7.32.0 20140302022650
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1526;_U;_pt)_Presto/2.8.119_Version/11.10 20140320180457
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140319065833
+Mozilla/5.0_(compatible;_Yahoo!_Slurp;_http://help.yahoo.com/help/us/ysearch/slurp) 20140314203142
+Nutch12/Nutch-1.2 20140301113445
+WordPress/3.2.1;_http://invisual.pt/insidepipe4 20140330032001
+PHP/5.3.28 20140317053052
+Kml-Google;_(_http://code.google.com/apis/kml),_gzip 20140320171825
+Mozilla/5.0_(compatible) 20140328022631
+Mozilla/5.0 20140305140202
+Mozilla/5.0_(compatible;_Genieo/1.0_http://www.genieo.com/webfilter.html) 20140319230941
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20140331235704
+nutch-1.4/Nutch-1.4 20140329101421
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1606;_U;_pt)_Presto/2.8.119_Version/11.10 20140327005637
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20140331213543
+Python-urllib/2.7 20140331184546
+Mozilla/5.0_(compatible;_Baiduspider/2.0;__http://www.baidu.com/search/spider.html) 20140315075255
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20140329145502
+curl/7.26.0 20140319155738
+WordPress/3.7.1;_http://invisual.pt 20140331221538
+Mozilla/5.0_(compatible;_Wada.vn_Vietnamese_Image_Search) 20140303153953
+Mozilla/5.0_(compatible;_Lipperhey_SEO_Service;_http://www.lipperhey.com/) 20140303181723
+WordPress/3.8.1;_http://invisual.pt/vgg3 20140319160511
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1576;_U;_pt)_Presto/2.8.119_Version/11.10 20140324160755
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20140325194704
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.1.2141_Mobile_Safari/537.35_ 20140331193241
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140331215733
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1624;_U;_pt)_Presto/2.8.119_Version/11.10 20140327233638
+Mozilla/6.0_(compatible) 20140328022632
+finbot 20140322025314
+Mozilla/4.0_(compatible;) 20140331222415
+Opera/9.80_(Android;_Opera_Mini/7.5.33361/34.1445;_U;_pt)_Presto/2.8.119_Version/11.10 20140312235614
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 24
+Java/1.7.0_25 20140302034107
+Java/1.7.0_51 20140328143915
+Python-urllib/2.7 20140331184546
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(6.1.7601.1);pt-PT;kml:2.2;client:Plus;type:plugin) 20140331173147
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20140331213543
+Java/1.6.0_45 20140330212454
+Axel_2.4_(Linux) 20140319032531
+Java/1.4.1_04 20140309154214
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(6.1.7600.0);pt-PT;kml:2.2;client:Plus;type:plugin) 20140328100543
+Nutch12/Nutch-1.2 20140301113445
+WordPress/3.7.1;_http://invisual.pt 20140331221538
+WordPress/3.2.1;_http://invisual.pt/insidepipe4 20140330032001
+PHP/5.3.28 20140317053052
+WordPress/3.8.1;_http://invisual.pt/vgg3 20140319160511
+Kml-Google;_(_http://code.google.com/apis/kml),_gzip 20140320171825
+Apache-HttpClient/4.3_(java_1.5) 20140322154956
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(6.0.6002.2);pt-PT;kml:2.2;client:Plus;type:plugin) 20140314000413
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20140331235704
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(6.2.9200.0);pt-PT;kml:2.2;client:Plus;type:plugin) 20140313185149
+finbot 20140322025314
+nutch-1.4/Nutch-1.4 20140329101421
+GoogleEarth/6.2.2.6613(Windows;Microsoft_Windows_(5.1.2600.3);pt-PT;kml:2.2;client:Plus;type:plugin) 20140307152041
+Java/1.6.0_04 20140310024618
+GoogleEarth/7.1.2.2041(Windows;Microsoft_Windows_(5.1.2600.3);pt-PT;kml:2.2;client:Plus;type:plugin) 20140313154221
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2718 4814
+From1 0 0
+From2 224 337
+From3 952 1108
+From4 5085 38603
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 224 330
+bing 0 6
+yandex 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 181
+http://www.smartaqua.pt 288 288
+http://credit-info.rsgad.com 18 18
+http://semalt.com/crawler.php 18 18
+http://chimiver.info 12 12
+http://mp3-narezki.ru 12 12
+http://detalka.org 9 9
+http://afora.ru 9 9
+http://dosug-lux.ru 9 9
+http://obmenoff.net 9 9
+http://videokrik.net 9 9
+http://dekanokan.net 9 9
+http://darkbooks.org 9 9
+http://www.betwinservice.com 9 9
+http://www.rospromtest.ru 9 9
+http://arkartex.ru 9 9
+http://doska-vsem.ru 9 9
+http://uchil.net 7 7
+http://vbabule.net 6 6
+http://porno-transsexuals.ru 6 6
+http://www.bookmaker-bet.com 6 6
+http://forum-engineering.ru 6 6
+http://fashion-mk.net 6 6
+http://gcup.ru/games/Ant/ 6 6
+http://cookingmeat.ru 6 6
+http://historyeurop.org 6 6
+http://robot-forex.biz 3 3
+http://www.kiprinform.com 3 3
+http://fastxak.com 3 3
+http://www.arcada-imobiliaria.com/quemsomos/ 0 2
+http://snomer1.ru 3 3
+http://www.avek.ru 3 3
+http://maldita.pt 2 2
+http://intercorp.hk 5 5
+http://cookingmeat.ru 3 3
+http://otoplenieru.ru 3 3
+http://mail.terranova.pt/imp/index.php 0 1
+http://santechnik.jimdo.com 4 4
+http://www.artparquet.ru 3 3
+http://dentuled.net 3 3
+http://www.vltai.com 3 3
+http://buyfriend.ru 2 2
+http://otoplenieru.ru 3 3
+http://aveiroexpo.com/mapa-do-site/ 1 1
+http://pornotubexxx.name 3 3
+http://e.mail.ru 0 3
+http://prank.su/load 4 4
+http://litoralmagazine.com/contacto/ 1 1
+http://www.insidepipe.pt/sample-page-2/ 0 31
+http://photochki.com 6 6
+http://hd-filmy.net 3 3
+http://kochanelli.com 6 6
+http://www.karkas72.ru 6 6
+http://diplopolyt.org 3 3
+http://bag77.ru 6 6
+http://mosvolos.ru 3 3
+http://vseuznaem.com 3 3
+http://allonlinegames.ru 3 3
+http://megavolt.net.ua 3 3
+http://kolotiloff.ru 3 3
+http://maldita.pt/suplemento-economia-diario-de-aveiro/ 1 1
+http://bimatoprost-careprost.com 3 3
+http://www.insidepipe.pt/consultoria/solucoes/ 0 4
+http://invetdollare.net 3 3
+http://www.handsandlegs.ru 3 3
+http://kaac.ru 6 6
+http://renault.afora.ru 6 6
+http://www.kodoff.com 6 6
+http://espertamariana.blogspot.pt 0 2
+http://delayreferat.ru 3 3
+http://www.arcada-imobiliaria.com 0 1
+http://emuparadise.ru 3 3
+https://www.facebook.com 3 3
+http://pornogorod.com 3 3
+http://sovetogorod.ru/ovosh_ogurec_virashivanie.html 3 3
+http://www.arcada-imobiliaria.com/gestao-de-arrendamento/ 0 1
+http://www.insidepipe.pt 0 2
+http://traveluar.net 3 3
+http://correcta.pt 1 1
+http://romhacking.net.ru 4 4
+http://mirmedinfo.ru 3 3
+http://www.bytimedance.ru 6 6
+http://rangapoker.com/_/ruletka 3 3
+http://forms-mtm.ru 6 6
+http://litoralmagazine.com 3 3
+http://litoralmagazine.com/arquivo-revistas/ 1 1
+http://smartaqua.pt 2 2
+http://www.swisstrade.ru 6 6
+http://youdesigner.kz 6 6
+http://bcmebli.com.ua 6 6
+http://pornogig.com 3 3
+http://www.insidepipe.pt/consultoria/diagnostico/ 0 8
+http://super-hotvideo.ru 3 3
+http://gfaq.ru/forum 4 4
+http://www.33realty.ru 3 3
+http://anibox.me 3 3
+http://jjbabskoe.ru 6 6
+http://promokodoff.net 3 3
+http://danceuniverse.ru 3 3
+http://vahrecept.ru 6 6
+http://gdebesplatno.ru 3 3
+http://club-musics.ru 1 1
+http://e-avon.ru 3 3
+http://www.insidepipe.pt/imprensa/ 0 3
+http://berdasovivan.ru 3 3
+http://www.littlemall.ru 6 6
+http://formatn.com 3 3
+http://sbornik-zakonov.ru 6 6
+http://supermesta.ru 3 3
+http://vostgard.com 3 3
+http://vimeo.com/user5761902 1 1
+http://www.civilria.pt 1 1
+http://alkorpkf.ru 2 2
+http://www.telesvoboda.ru 4 4
+http://www.civilria.pt/contatctos/ 1 1
+http://www.arcada-imobiliaria.com/lojas/ 0 4
+http://www.arcada-imobiliaria.com/franchising/ 0 1
+http://aveiroexpo.com 3 3
+http://sexvporno.ru 3 3
+http://www.yaminecraft.ru 6 6
+http://espertamariana.blogspot.com 0 1
+http://www.facebook.com/l.php 1 1
+http://invesome.biz 3 3
+http://otbelivanie-zubov.com 3 3
+http://beamfall.info/info/brevonemerubuku 1 2
+http://kherson-apartments.ru/article_2.php 6 6
+http://opticanascimento.pt/oculos-de-sol-2/ 2 2
+http://5dp.com.ua 3 3
+http://just-like.net 3 3
+http://smartaqua.pt 6 6
+http://blogig.org 3 3
+http://www.am-se.com 3 3
+http://mosair.vhv.ru 3 3
+http://opticanascimento.pt/video/ 1 1
+http://blackwitchcraft.ru 3 3
+http://lernur.net 3 3
+http://imsu-kyiv.com 6 6
+http://yaderenergy.ru 3 3
+http://cervejamaldita.pt 1 1
+http://2kata.ru 6 6
+http://www.insidepipe.pt/consultoria/consultoria-2/ 0 1
+http://www.protank.su 3 3
+http://crirussian.ru 3 3
+http://www.smartaqua.pt/eng/ 3 3
+http://nodelo.net 3 3
+http://espertamariana.blogspot.com.br/search 0 1
+http://delobizne.biz 3 3
+http://zolotoy-lis.ru 3 3
+http://oren-cats.ru 6 6
+http://hobild.net 3 3
+http://maldita.pt/como-posso-vender/ 1 1
+http://www.arcada-imobiliaria.com 0 11
+http://mobplayer.ru 3 3
+http://maldita.pt/videos/ 1 1
+http://clash-clans.ru 3 3
+http://smartweb.brc.com.br/cgi-bin/smartweb/menu.cgi 2 2
+http://www.ekobata.ru 3 3
+http://skyhair.ru 3 3
+http://randevole.com 3 3
+http://opticanascimento.pt/marcas-oculos-de-sol/ 1 1
+http://painart.ru 2 2
+http://maldita.pt/english-barleywine/ 1 1
+http://mirzonru.net 3 3
+http://www.sportbetfair.com 3 3
+http://magazin-masterov.ru 3 3
+http://www.insidepipe.pt 0 65
+http://pornoforadult.com 6 6
+http://www.mymebel.by 3 3
+http://stroiminsk.com 3 3
+http://pereezd136.ru 3 3
+http://cardsharp1.ru 6 6
+http://www.insidepipe.pt/a-agua/ 0 9
+http://egvar.net 3 3
+http://maldita.pt/bohemian-pilsener/ 2 2
+http://www.siteexpress.co.il 3 3
+http://lovecs.ru 3 3
+http://samo-cvet.com 6 6
+http://look-dieta.ru 6 6
+http://256bit.by 3 3
+http://www.insidepipe.pt/contactos/ 0 4
+http://www.smartaqua.pt 2 2
+http://sex-hotgirl.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+ag%c3%aancias+de+comunica%c3%a7%c3%a3o+aveiro 1
+empresas+de+fotografias+e+video+evento+portugal 1
+invisual 1
+suportes+de+comunica%c3%a7%c3%a3o+web+design 1
+designer+da+comunica%c3%a7%c3%a3o+em+aveiro 1
+design+aveiro 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 17
+comunica%c3%a7%c3%a3o 3
+de 3
+aveiro 3
+design 2
+da 1
+web 1
+empresas 1
+evento 1
+invisual 1
+suportes 1
+e 1
+fotografias 1
+ag%c3%aancias 1
+video 1
+designer 1
+em 1
+portugal 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 6 54423
+302 50 940
+206 133 3537726
+500 14 1182
+508 4 8061
+301 1786 86048
+404 10718 45091124
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1293
+/aveiroexpo/site/expocanica-9-set-2012 3 -
+/html/wp-content/uploads/2011/09/IMG_0770-158x96.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent05.jpg 6 http://aveicabo.pt/portfolios/apresentacao/
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333-699x422.jpg 3 -
+/html/archives/gallery-category/arquitectura 3 -
+/html/wp-content/uploads/2011/09/IMG_0698-158x96.jpg 1 -
+/wp-content/themes/central/js/ 4 -
+/aveiroexpo/site/feira-de-stocks/ 17 -
+/wp-content/plugins/wp-pagenavi/timthumb.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/thumb.php 1 -
+/aveicabo1/portfolios/solar-termico/ 9 -
+/aveiroexpo/site/wp-content/themes/clockstone/theme/functions/upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/themes/clockstone/theme/functions/upload.php
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/scripts/modernizr.js 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-0-699x422.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/gnr1.jpg 2 -
+/html/gallery/fotografia-moda-editorial-joias-verdegreen 2 -
+/aveiroexpo/site/wp-content/uploads/2011/02/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/expresso23_04_2012.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa02-300x276.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-1-699x422.jpg 8 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico021.jpg 32 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio.jpg 5 -
+/aveicabo1/category/noticias/ 2 -
+/html/wp-content/uploads/2011/08/big_top_image8-92x92.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/apresentacao.jpg 5 -
+/aveiroexpo/site/2013/06/29/ 13 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-3-699x422.jpg 3 -
+/aveicabo1/wp-content/plugins/contact-form-7/includes/css/styles.css 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre081-300x225.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo.jpg 5 -
+/html/gallery/outros/ferro01 1 -
+/html/archives/466 2 -
+/ekenabay/site/wp-content/uploads/2013/01/ainda_n_existe4-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/6.jpg 7 -
+/aveiroexpo/site/feira-de-outlet 3 -
+/wp-content/plugins/contact-form-7/includes/js/'+m.iframeSrc+' 2 -
+/aveiroexpo/site/buraka-som-sistema/ 10 -
+/aveicabo1/portfolio/instalacao-5/ 3 -
+/html/wp-content/uploads/2011/10/arq26.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2011/12/ 1 -
+/aveiroexpo/site/wp-content/plugins/amr-ical-events-list/css/icalprint.css 1 -
+/aveiroexpo/site/wp-content/uploads/2013/05/farav2013.ficha_.inscricao.pdf 13 -
+/aveicabo1/solar-termico/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/scripts/timthumb.php 4 -
+/download/bmw/telas_bmw_feira_de_marco_prod..zip 3 -
+/aveiroexpo/site/frilac 3 -
+/aveiroexpo/site/imprensa/imprensa-congressos/ 23 -
+/aveiroexpo/site/2012/10/20/ 8 -
+/ekenabay/shop-online/product-category/curvy/bk13105/ 1 -
+/aveiroexpo/site/mapa-do-site/ 66 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 http://invisual.pt/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/aveiroexpo/ 15 -
+/aveicabo1/wp-content/uploads/2012/10/logos_qren.png 439 http://aveicabo.pt/
+/aveiroexpo/site/buraka-som-sistema 3 -
+/aveicabo1/slide03 1 -
+/ekenabay/shop-online/product-category/curvy/bk13107/ 1 -
+/aveicabo/news/aveicabo.html 2 -
+/smart_aqua/wp-content/themes/smartaqua/lib/scripts/timthumb.php 1 -
+/aveicabo1/portfolio/grupo-gesconect-2/ 3 -
+/html/gallery/produtos-calcado 2 -
+/wp-content/plugins/wp-super-cache/Changelog.txtindex.php 2 http://invisual.pt/wp-content/plugins/wp-super-cache/Changelog.txtindex.php
+/aveiroexpo/site/expotrakinas-1-a-4-novembro 3 -
+/aveiroexpo/site/wp-content/uploads/2013/07/melodias_de_aveiro.jpg 4 -
+/smart_aqua/wp-content/themes/smartaqua/lib/utils/thumb.php 1 -
+/html/gallery/design-outros-suportes-stand-bmw-na-feira-de-marco-2012 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/fm2012_buraka.jpg 5 -
+/aveiroexpo/site/assembleia-geral-apcrf-19-dezembro/feed/ 1 -
+/smart_aqua_eng/wp-content/uploads/2012/08/torneira2.jpg%22%3E%3Cimg%20class=%22alignleft%20size-medium%20wp-image-258%22%20title=%22torneira2%22%20src=http:/picasa.com.amandas-designs.com/eva.php 4 -
+/html/wp-content/uploads/2011/09/ins18.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/themify/img.php 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica051.jpg 45 -
+/aveicabo1/author/aveicabo/feed/ 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica061.jpg 61 -
+/aveiroexpo/site/wp-content/uploads/2012/03/portico_fm_rossio_1949.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa10-300x209.jpg 5 -
+/aveiroexpo/site/18a-convencao-internacional-de-fitness/ 20 -
+/html/archives/5645 1 -
+/aveiroexpo/site/pavilhoes 3 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao031.jpg 15 -
+/aveicabo1/portfolio/1013/ 4 -
+/html/wp-content/uploads/2011/09/gesconect1-158x96.jpg 1 -
+/editor/editor/filemanager/connectors/uploadtest.html 3 -
+/aveiroexpo/site/wp-content/uploads/2012/05/2.jpg 9 -
+/cdsaveiro/autarcas-2/ 1 -
+/aveicabo1/portfolio/1035/ 3 -
+/smart_aqua/wp-content/themes/smartaqua/resize.php 1 -
+/aveiroexpo/site/page-with-sidebar/ 1 -
+/ekenabay/site/wp-content/uploads/2013/01/TK-13001_COR-0011-300x219.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/js/thumb.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 3 -
+/smart_aqua/wp-content/uploads/2012/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/04/concerto_aurea-227x300.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/04/noticias_aveirol23_04_2012.jpg 4 -
+/salao_nobre.html 1 -
+/html/gallery/fotografia-moda-balenciaga 2 -
+/html/archives/gallery-category/multimedia 1 -
+/smart_aqua/wp-content/themes/smartaqua/includes/thumb.php 1 -
+/aveicabo1/portfolio/instalacao-2/ 6 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro/feed/ 1 -
+/html/wp-content/uploads/2011/09/Aveiro_Expo2.jpg 1 -
+/aveiroexpo/site/farav-2011/ 8 -
+/aveiroexpo/js/jquery.localscroll-min.js 15 http://www.farmaciacapaofilipe.com/apresentacao.html
+/smart_aqua_eng/wp-content/themes/invisual/php/thumb.php 4 -
+/aveiroexpo/site/2012/04/ 9 -
+/aveiroexpo/site/assembleia-geral-apcrf-19-dezembro 3 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13004_COR-3411-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-21-300x200.jpg 5 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes/ 24 -
+/html/wp-content/uploads/2011/12/mercedes_cls_12.jpg 2 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os161.jpg 1 -
+/html/wp-content/uploads/2011/09/IMG_0671.jpg 2 -
+/aveiroexpo/site/feira-de-marco-2011/ 8 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre011-300x225.jpg 6 -
+/aveiroexpo/site/wp-content/uploads/2012/04/abola.jpg 6 -
+/apple-touch-icon.png 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-0.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-1.jpg 2 -
+/aveiroexpo/site/aveiro-expo-objectivos 3 -
+/html/gallery/eventos-mini 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/continente-300x71.jpg 2 -
+/aveicabo1/portfolio/1015/ 3 -
+/html/wp-content/uploads/2011/09/mercedes161.jpg 2 -
+/html/wp-content/uploads/wysija/bookmarks/medium/02/facebook.png 2 -
+/aveiroexpo/pavilhao_a.html 2 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-conferencia/ 12 -
+/aveiroexpo/site/theme-features/35-custom-fonts/ 2 -
+/optica/sede-optica-nascimento/ 1 -
+/html/videos 4 -
+/apple-touch-icon-precomposed.png 2 -
+/aveicabo1/wp-content/themes/rttheme15/js/colortip-1.0-jquery.js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo-300x191.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foto41-300x224.jpg 3 -
+/html/archives/5383 1 -
+/farav2013/farav_218x200.html 1 -
+/wp-content/themes/central/js/).html()) 2 -
+/aveiroexpo/site/calendario-pea-2012-2/ 1 -
+/aveiroexpo/site/aveiro-expo-servicos/ 25 -
+/nucvjhql.html 1 -
+/aveiroexpo/site/2011/05 3 -
+/html/wp-content/uploads/2012/11/veigas_saldos_fev_2013_net3.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre041-300x225.jpg 3 -
+/html/gallery/insercoes/constrave-2 1 -
+/aveicabo1/portfolio/grupo-gesconect-3/ 8 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031-294x180.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/js/thumb.php 4 -
+/wp-content/plugins/wp-pagenavi/functions/timthumb.php 1 -
+/aveiroexpo/calendario2010.html 3 -
+/aveicabo1/wp-content/uploads/2012/10/fundo4.jpg 1 -
+/aveiroexpo/site/2011/05/04 4 -
+/aveiroexpo/js/jquery.scrollTo-min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2012/03/foto46-300x224.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa04.jpg 6 -
+/aveiroexpo/site/2012/03/31/ 7 -
+/aveicabo1/portfolio/988/ 5 -
+/smart_aqua/wp-content/themes/smartaqua/_tbs.php 1 -
+/aveicabo1/portfolio/redes-5/ 5 -
+/html/wp-content/uploads/2012/11/dia_namorados_2013_pizzarte.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/05/farav_calendario20121-284x186.jpg 2 -
+/html/gallery/embalagens 1 -
+/aveicabo1/portfolio/redes-4/ 5 -
+/aveiroexpo/site/feira-de-marco-22-marco-a-28-abril-2013/ 9 -
+/html/archives/gallery-category/web_design 3 -
+/aveiroexpo/site/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php
+/aveiroexpo/site/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php
+/editor/editor/filemanager/connectors/test.html 3 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-4.jpg 43 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-2.jpg 3 -
+/aveiroexpo/js/supersubs.min.js 15 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/gnr 3 -
+/aveiroexpo/site/portfolio/project/ 11 -
+/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php 1 http://invisual.pt/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php
+/aveicabo1/portfolio/973/ 5 -
+/aveicabo1/feed/atom/ 3 -
+/aveiroexpo/site/category/calendario-2013/ 21 -
+/aveiroexpo/js/jquery.cluetip.min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/plugins/wpstorecart/php/upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/wpstorecart/php/upload.php
+/aveiroexpo/site/congressos-e-convencoes/auditorio/ 21 -
+/aveicabo1/portfolio/ 1 -
+/wp-content/plugins/wp-pagenavi/scripts/thumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias031-300x225.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/phpThumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 9 -
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-1.jpg 4 -
+/smart_aqua/wp-content/themes/smartaqua/lib/utils/timthumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/5.jpg 8 -
+/aveiroexpo/site/aveiro-expo-servicos 3 -
+/aveiroexpo/site/farav-2011 3 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13009_COR-1381-300x219.jpg 1 -
+/aveicabo1/author/aveicabo/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/cartaz_fm20124-227x300.jpg 3 -
+/cdsaveiro/equipa/ 2 http://invisual.pt/cdsaveiro/equipa/
+/aveiroexpo/site/wp-content/uploads/2012/03/missao.jpg 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico011.jpg 32 http://aveicabo.pt/portfolios/solar-fotovoltaico/
+/html/feed/rss 13 -
+/aveiroexpo/site/wp-content/uploads/2012/09/reg_modelo_e_andamentos_agrovouga2012_lusitano.pdf 1 -
+/imoveis/mapa/ 1 -
+/aveiroexpo/site/2012/04/07/ 11 -
+/aveiroexpo/site/wp-content/uploads/2012/09/ 1 -
+/aveicabo1/portfolio/instalacao-6/ 3 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto 3 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao011.jpg 6 -
+/smart_aqua/wp-content/themes/smartaqua/lib/custom/thumb.php 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/06537641511dd44a075c9cb95ab73f60.php 2 -
+/portfolio_page/restaurante-salpoente/https:/maps.googleapis.com/maps/api/js 2 -
+/html/gallery/desdobraveis-aveiro-park 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/feiramarc08-80-300x200.jpg 4 -
+/aveicabo1/wp-content/themes/rttheme15/style.css 1 -
+/aveiroexpo/site/wp-content/uploads/2012/08/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta3.pdf 4 -
+/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php 1 http://invisual.pt/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php
+/ekenabay/site/wp-content/uploads/2013/01/BK-13003_COR-3351-300x219.jpg 1 -
+/aveiroexpo/site/portfolio/project-number-2/ 13 -
+/aveiroexpo/site/imprensa/ 29 -
+/aveiroexpo/site/wp-content/uploads/2012/09/ficha_agrovouga2012_equinos.pdf 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/17.07.2012-diario-de-aveiro1-150x150.jpg 3 -
+/aveicabo1/slide01 1 -
+/aveiroexpo/site/congressos-e-convencoes/foyer-atrio/ 22 -
+/aveiroexpo/site/wp-content/uploads/2012/03/ 2 -
+/aveicabo1/wp-content/themes/rttheme15/js/jquery.cycle.all.min.js 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/terranova23_04_2012.jpg 3 -
+/smart_aqua/wp-content/themes/smartaqua/tools/thumb.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/uploadtest.html 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pedro_abrunhosa2-227x300.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/08/4.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-1.jpg 10 http://it.images.search.yahoo.com/images/view
+/aveiroexpo/site/wp-content/uploads/2012/03/portico_fm_rossio_1949-282x300.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/04/av_noivos.jpg 3 -
+/html/wp-content/uploads/2011/09/IMG_7452.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_de_exposicao.pdf 2 -
+/aveiroexpo/site/feira-de-stocks 2 -
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta4.pdf 9 -
+/aveiroexpo/site/wp-content/uploads/2012/12/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/thumb.php 4 -
+/sitemap.xml 1 -
+/aveiroexpo/site/2011/11/09/ 4 -
+/wp-content/themes/central/js/).html(percentage+ 2 -
+/aveiroexpo/site/wp-content/uploads/2011/07/farav2011.jpg 2 -
+/html/gallery/www-smartaqua-pt 1 -
+/aveiroexpo/site/iv-cidadania-e-seguranca 3 -
+/aveiroexpo/site/evento-de-inauguracao-das-novas-instalacoes-da-ferro-ind-quimica-portugal 3 -
+/html/xmlrpc.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conf02-2.jpg 2 -
+/smart_aqua/wp-content/themes/smartaqua/functions/timthumb.php 1 -
+/aveicabo1/portfolios/climatizacao/ 11 -
+/wp-content/plugins/wp-pagenavi/thumb.php 1 -
+/html/gallery/eventos-lake-ii 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/panel.png 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/onlinenews.jpg 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-5-300x224.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb_old.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/mapa.png 7 -
+/aveiroexpo/site/simposio-nacional-de-artes-e-oficios/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/11/8_expoaveiro.jpg 2 -
+/ekenabay/shop/portfolioentry/activa/ 1 -
+/aveiroexpo/js/jquery.easing.1.3.min.js 15 http://www.farmaciacapaofilipe.com/apresentacao.html
+/cdsaveiro/equipa-2/ 2 -
+/wp-content/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/10/ 1 -
+/html/gallery/fotografia-arquitectura-sede-construtora-da-bairrada 1 -
+/aveicabo1/portfolio/955/ 4 -
+/html/archives/5225 1 -
+/html/gallery/outros 1 -
+/aveiroexpo/site/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/themes/OptimizePress/lib/admin/media-upload.php
+/aveiroexpo/site/2011/03 3 -
+/html/gallery/fotografia-arquitectura-quartel-de-bombeiros-de-oliveira-do-bairro 1 -
+/smart_aqua/wp-content/themes/smartaqua/functions/thumb.php 1 -
+/portfolio_page/susana-lopes/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta2.pdf 4 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/scripts/cufon-yui.js 1 -
+/html/archives/5628 1 -
+/html/wp-content/uploads/2011/09/IMG_0596.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/encontro_carochas-284x186.jpg 6 -
+/aveiroexpo/site/wp-content/uploads/2012/05/Agrovouga2012_ficha_inscri%C3%A7%C3%A3o.pdf 1 -
+/aveicabo1/wp-content/uploads/2012/10/fundo_energia-1.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/aresent01.jpg 17 http://aveicabo.pt/portfolios/apresentacao/
+/aveiroexpo/site/wp-content/uploads/2012/11/animeventos-284x186.jpg 2 -
+/html/wp-content/uploads/2011/09/arq221.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13005_COR-3711-300x219.jpg 1 -
+/ekenabay/shop-online/product-category/sunny/bk13502/ 1 -
+/FCKeditor/editor/filemanager/upload/test.html 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-0-699x422.jpg 5 -
+/aveiroexpo/site/fevereiro-2011 3 -
+/aveiroexpo/site/category/calendario-2013 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 2 -
+/smart_aqua_eng/wp-content/themes/invisual/uploadify.php 4 -
+/html/wp-content/uploads/2011/09/vonhaff01-158x96.jpg 1 -
+/aveiroexpo/site/contact/feed/ 3 -
+/aveiroexpo/site/2o-campeonato-ornitologico-costa-de-prata/ 12 -
+/html/wp-content/uploads/wysija/dividers/solid.jpg 3 -
+/aveicabo1/portfolio/apresentacao01/ 3 -
+/aveicabo1/wp-content/uploads/2012/10/etiqueta.png 466 -
+/aveiroexpo/site/2013/03/ 11 -
+/agencia/recrutamento/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib_frame/thumb.php 4 -
+/aveiroexpo/site/congressos-e-convencoes/auditorio 3 -
+/aveiroexpo/site/wp-content/plugins/wp-photo-album-plus/images/tick.png 2 -
+/html/wp-login.php 541 -
+/calendario2010.html 1 -
+/aveiroexpo/site/aveiro-expo-apresentacao/ 20 -
+/aveiroexpo/site/wp-content/uploads/2012/10/MAPFRE-284x186.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-4.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect03.jpg 26 -
+/aveiroexpo/site/portfolio 3 -
+/aveiroexpo/site/wp-content/uploads/2011/07/ferro.jpg 2 -
+/aveicabo1/wp-content/uploads/2012/10/aresent03.jpg 6 http://aveicabo.pt/portfolios/apresentacao/
+/galeria.html 1 -
+/html/archives/category/noticias 1 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os71.jpg 1 -
+/html/wp-content/uploads/2011/09/IMG_4282.jpg 2 -
+/ekenabay/shop-online/product-category/curvy/bk13106/ 1 -
+/aveiroexpo/sala_conferencia_2.html 2 -
+/aveicabo1/wp-content/themes/rttheme15/css/coda-slider-2.0.css 1 -
+/html/archives/gallery-category/outros 1 -
+/invisual/https:/maps.googleapis.com/maps/api/js 2 -
+/html/gallery/desdobraveis-edificio-park 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica041.jpg 57 -
+/aveiroexpo/site/wp-content/plugins/1-flash-gallery/upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/1-flash-gallery/upload.php
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-3-300x224.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-0-699x422.jpg 3 -
+/html/gallery/eventos-mercentro-classe-c 1 -
+/comments/feed 20 -
+/aveiroexpo/site/2012/11/21/ 7 -
+/aveiroexpo/site/wp-content/uploads/2012/03/logo_aveiroexpo.png 5 -
+/smart_aqua_eng/ 32 -
+/smart_aqua/wp-content/themes/smartaqua/includes/timthumb.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumbs/_tbs.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/17.07.2012-diario-de-aveiro1.jpg 5 -
+/html/archives/gallery-category/veiculos 1 -
+/html/gallery/paginacao-biju-2 2 -
+/aveiroexpo/site/2012/04/25/ 10 -
+/aveiroexpo/site/wp-content/uploads/2012/04/correiodamanha.jpg 4 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb/thumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/SLK_2008_interior_sol-102-300x200.jpg 4 -
+/wp-content/plugins/wp-pagenavi/inc/thumb.php 1 -
+/aveiroexpo/site/aveiro-noivos-2012 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_feira_de_marco2013.jpg 125 -
+/aveiroexpo/site/wp-content/uploads/2012/03/aveiroexpo-2-300x200.jpg 4 -
+/aveicabo1/portfolio/instalacao/ 4 -
+/aveicabo1/wp-content/themes/rttheme15/js/jquery.easing.1.3.js 1 -
+/smart_aqua/wp-content/themes/smartaqua/lib_frame/timthumb.php 1 -
+/html/wp-content/uploads/2011/09/linhaGr6.jpg 2 -
+/aveiroexpo/site/workshop-lean-energy/feed/ 1 -
+/wp-content/themes/central/js/%7Bpath%7D 1 -
+/html/wp-content/uploads/2011/10/Parque_do_Prego-8.jpg 12 -
+/wp-content/plugins/advanced-custom-fields/core/actions/export.php 1 http://invisual.pt/wp-content/plugins/advanced-custom-fields/core/actions/export.php
+/html/wp-content/uploads/2011/09/IMG_7405.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-2-699x422.jpg 6 -
+/aveiroexpo/site/calendario-pea-2012 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/fm2012.jpg 2 -
+/html/archives/gallery-category/eventos 5 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-5.jpg 38 http://aveicabo.pt/portfolios/solar-termico/
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa01.jpg 6 -
+/aveiroexpo/site/2011/02/12/ 7 -
+/smart_aqua_eng/+++++++++++++++++++++++++++++++++++++++++++++++Result:+no+post+sending+forms+are+found 1 http://invisual.pt/smart_aqua_eng/+++++++++++++++++++++++++++++++++++++++++++++++Result:+no+post+sending+forms+are+found
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-3.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb_old.php 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2013/02/ 1 -
+/html/wp-content/uploads/2011/09/mercedes02.jpg 1 -
+/aveiroexpo/site/aviso-legal/ 14 -
+/aveiroexpo/site/2o-campeonato-ornitologico-costa-de-prata/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-1-300x224.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/10/carochas-284x186.jpg 5 -
+/aveiroexpo/site/portfolio/2-pavilhoes/ 9 -
+/aveiroexpo/site/theme-features/ 1 -
+/html/wp-includes/wlwmanifest.xml 1 -
+/cds-pp/gallery/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/timthumb.php 1 -
+/aveicabo1/wp-content/themes/rttheme15/js/jquery.tools.min.js 1 -
+/aveiroexpo/site/imprensa/eventos 3 -
+/wp-content/plugins/revslider/rs-plugin/js/'+i+' 2 -
+/aveiroexpo/site/pablo-alboran 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-4-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2011/11/ 2 -
+/ekenabay/shop/portfolioentry/artes-ideias-lavores/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-1-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias021-300x225.jpg 5 -
+/aveiroexpo/site/8a-expoaveiro-2011/ 8 -
+/cdsaveiro/historia/ 1 -
+/aveiroexpo/js/jquery.overlabel.min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2013/10/1111.jpg 5 -
+/aveiroexpo/site/2011/02/24/ 6 -
+/html/gallery/www-goldenclub-com-pt 1 -
+/aveiroexpo/site/category/calendario-2012-2/ 16 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-3.jpg 3 -
+/aveicabo1 4 -
+/html/gallery/desdobraveis-veigas 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031.jpg 38 http://aveicabo.pt/portfolios/solar-fotovoltaico/
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 6 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13501_COR-300-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/09/reg_racas_selectas_agrovouga2012.pdf 6 -
+/smart_aqua/wp-content/themes/smartaqua/thumbopen.php 1 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa08.jpg 2 -
+/html/wp-content/uploads/2011/12/mercedes_cls_10.jpg 1 -
+/html/wp-content/uploads/2011/09/ferro02-158x96.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/04.07.2012-diario-de-aveiro1.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2013/07/MlAvr_50x70.jpg 5 -
+/feed/ 9 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo.jpg 10 -
+/aveiroexpo/site/wp-content/uploads/2012/03/campionato_ornitologico-284x186.jpg 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-7.jpg 17 -
+/aveicabo1/portfolio/instalacao-3/ 4 -
+/aveiroexpo/site/theme-features/user-friendly-shortcodes/ 3 -
+/html/wp-content/uploads/2011/09/manual_toten01-2.jpg 1 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto/feed/ 1 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/style.css 2 -
+/portfolio_page/civilria/https:/maps.googleapis.com/maps/api/js 2 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_03-294x180.jpg 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_DA.jpg 7 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade02-294x180.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/tools/timthumb.php 1 -
+/html/gallery/fotografia-arquitectura-centro-civico-abarca 1 -
+/aveiroexpo/sala_conferencia_1.html 2 -
+/aveiroexpo/site/wp-content/uploads/2012/04/portocanal_23_04_2012.jpg 2 -
+/aveiroexpo/site/contact/ 19 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-11-300x225.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta3.pdf 3 -
+/smart_aqua/wp-content/themes/smartaqua/lib/custom/timthumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/servicos.jpg 2 -
+/aveiroexpo/site/assembleia-geral-apcrf-19-dezembro/ 14 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa09-300x229.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/custom/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4133-300x200.jpg 7 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceria01_150.png 3 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica021-640x400.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb/timthumb.php 4 -
+/aveicabo1/portfolio/966/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-2.jpg 2 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13007_COR-3511-300x219.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-6-294x180.jpg 1 -
+/aveiroexpo/site/congresso-da-regiao-de-aveiro 3 -
+/aveiroexpo/site/congressos-e-convencoes/salao-nobre 3 -
+/aveiroexpo/site/agrovouga-2012/ 10 -
+/html/wp-content/uploads/2011/09/vonhaff02.jpg 2 -
+/aveiroexpo/servicos.html 3 -
+/html/gallery/fotografia-moda-oculos-de-sol-carrera 2 -
+/carrinha_insidepipe.jpg 76 -
+/aveiroexpo/site/category/calendario-2012-2/page/2/ 13 -
+/aveicabo1/wp-content/uploads/2012/09/workshop08.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-1-699x422.jpg 3 -
+/html/gallery/desdobraveis-eurogres-marca-celebration 1 -
+/aveicabo1/portfolio/1039/ 6 -
+/portfolio_page/litoral-magazine/https:/maps.googleapis.com/maps/api/js 2 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-0.jpg 4 -
+/aveiroexpo/site/2011/05/ 3 -
+/cdsaveiro/paulo-portas-encerra-debate-da-proposta-de-orcamento-do-estado-para-2013/ 1 -
+/gesconect/wp-content/uploads/2012/01/indicadorgesconect.png 474 -
+/wp-content/plugins/wp-pagenavi/cache/06537641511dd44a075c9cb95ab73f60.php 3 -
+/aveicabo1/portfolios/politica-de-qualidade/ 6 -
+/ekenabay/shop-online/product-category/curvy/bk13101/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/7.jpg 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre021-300x225.jpg 3 -
+/aveiroexpo/site/imprensa/imprensa-institucional 3 -
+/aveiroexpo/site/aveiro-noivos-2012/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-0-699x422.jpg 3 -
+/aveiroexpo/site/melodias-de-aveiro-22-jun-a-10-nov-2013/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/278anos-300x229.jpg 3 -
+/html/gallery/insercoes/castigo_e_delito 1 -
+/html/gallery/fotografia-arquitectura-universidade-de-aveiro 2 -
+/html/wp-content/uploads/2011/09/evento37.jpg 1 -
+/html/wp-content/uploads/2011/09/objecto17.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias01-204x104.jpg 5 -
+/html/gallery/fotografia-arquitectura-centro-cultural-de-angeja 1 -
+/images/Best-Of---pop---sm1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta1.pdf 2 -
+/aveiroexpo/site/2011/05/13/ 2 -
+/smart_aqua/wp-content/uploads/2011/ 1 -
+/html/wp-content/uploads/2011/12/lake_header.jpg 1 -
+/aveiroexpo/site/6o-salao-automovel-e-motociclo-antigo-classico-e-sport-de-aveiro/ 8 -
+/html/gallery/outros/ferro06 1 -
+/aveiroexpo/site/seminario-major-technological-and-natural-hazards-in-europe-and-the-civil-protection-systems-response 3 -
+/aveiroexpo/site/2011/12/ 6 -
+/aveiroexpo/site/seminario-major-technological-and-natural-hazards-in-europe-and-the-civil-protection-systems-response/ 13 -
+/aveiroexpo/js/jquery.bgiframe.min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/vgg3/wp-content/themes/fiction/assets/images/slider-background.png 2 http://invisual.pt/vgg3/
+/smart_aqua/ 444 -
+/aveiroexpo/site/2011/10/27/ 7 -
+/aveicabo1/portfolio/981/ 4 -
+/aveiroexpo/site/pavilhoes/ 24 -
+/aveiroexpo/site/2012/03/ 10 -
+/aveiroexpo/auditorio.html 2 -
+/aveicabo1/portfolio/1043/ 5 -
+/aveicabo1/portfolio/apresentacao05/ 5 -
+/aveiroexpo/eventos.html 2 -
+/html/gallery/multimedia-cd-apresentacao-aveiro-expo 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13505_COR-325-300x219.jpg 1 -
+/html/gallery/desdobraveis-farav09 1 -
+/html/wp-content/uploads/2011/09/mercedes08.jpg 1 -
+/aveiroexpo/site/visitantes/ 19 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-4-300x224.jpg 2 -
+/html/ 17 -
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo_alboran1-284x186.jpg 8 -
+/aveiroexpo/canina/regulamento.pdf 1 -
+/aveiroexpo/site/wp-content/uploads/2012/08/1.jpg 9 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galeria01-204x104.jpg 5 -
+/rss/ 1 -
+/aveiroexpo/site/wp-content/uploads/2013/01/regulamento_da_feira_de_marco_2013.pdf 1 -
+/aveiroexpo/site/portfolio/project-number-5/ 17 -
+/aveiroexpo/site/iv-cidadania-e-seguranca/ 7 -
+/aveicabo1/portfolio/1033/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133-699x422.jpg 3 -
+/apple-touch-icon-76x76-precomposed.png 2 -
+/aveiroexpo/site/wp-content/uploads/ 2 -
+/html/wp-content/uploads/2012/05/carrera1.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13003_COR-3811-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/melodias_aveiro.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/fm2012_leandro-227x300.jpg 4 -
+/html/gallery/desdobraveis-clinica-do-certoma 1 -
+/smart_aqua/wp-content/themes/smartaqua/uploadify.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/classes/timthumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/31.03.2012-gazeta-rural.pdf 2 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_ficha_inscricao.pdf 2 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os191.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-2.jpg 3 -
+/html/archives/gallery-category/3d 2 -
+/wp-content/plugins/wp-pagenavi/inc/cache/06537641511dd44a075c9cb95ab73f60.php 2 -
+/ekenabay/shop/shop-2/sunny/sunny-modelo-c/ 1 -
+/html/gallery/insercoes 1 -
+/aveicabo1/portfolios/biomassa/ 7 -
+/aveiroexpo/site/wp-content/uploads/2012/03/esquico_portico_fm_1928-272x300.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/fundo_energia-2.jpg 1 -
+/aveiroexpo/site/congressos-e-convencoes/ 22 -
+/aveiroexpo/site/2011/07/29/ 3 -
+/ekenabay/web/wp-content/uploads/2013/01/TK-13002_COR-3591-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-4.jpg 4 -
+/aveiroexpo/site/2011/11/ 13 -
+/teste/ 1 -
+/html/wp-content/uploads/2011/09/mini-12.jpg 1 -
+/html/gallery/paginacao-catalogo-heliflex 1 -
+/https:/maps.googleapis.com/maps/api/js 18 -
+/aveiroexpo/site/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/html/wp-content/uploads/2011/09/mercedes13.jpg 1 -
+/ekenabay/shop-online/product-category/sunny/bk13504/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo1.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa07-175x300.jpg 4 -
+/aveiroexpo/site/portfolio/project-number-1 3 -
+/smart_aqua_eng/wp-content/themes/invisual/themify/img_x.php 4 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/external_06537641511dd44a075c9cb95ab73f60.php 2 -
+/html/gallery/design-outros-diario-de-aveiro 1 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 3 -
+/smart_aqua_eng/wp-content/themes/invisual/php/timthumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/09/regulamento_derby_de_atrelagem_2012_agrovouga.pdf 2 -
+/aveiroexpo/calendario2009.html 3 -
+/html/archives/gallery-category/espacos-comerciais 1 -
+/aveiroexpo/site/2012/08/06/ 6 -
+/aveiroexpo/site/portfolio/project-number-4 3 -
+/aveicabo1/portfolio/instalacao-7/ 4 -
+/aveicabo1/wp-content/uploads/2012/10/logo_aveicabo.png 1 -
+/aveiroexpo/site/festa-de-natal/ 17 -
+/aveiroexpo/site/frilac-2012-6-a-9-dezembro 3 -
+/aveiroexpo/site/2012/05/ 9 -
+/html/gallery-category/3d 1 -
+/aveiroexpo/site/2011/05/20/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/12/banner_primagama_p_avexpo.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/paulo_gonzo1.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-1-699x422.jpg 6 -
+/ekenabay/shop-online/product-category/sunny/bk13501/ 1 -
+/aveiroexpo.html 1 -
+/aveiroexpo/js/jquery.cycle.all.min.js 14 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveicabo1/portfolio/1036/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-7.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias041-300x225.jpg 4 -
+/marcas/https:/maps.googleapis.com/maps/api/js 2 -
+/html/wp-content/uploads/2011/09/mercedes041.jpg 1 -
+/aveiroexpo/site/farav-2012-27-de-julho-a-5-de-agosto/ 12 -
+/html/wp-content/uploads/2011/09/mini-8-158x96.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/16.03.2012-noticias-de-aveiro.pdf 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio01-204x104.jpg 5 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/custom/timthumb.php 4 -
+/html/wp-content/uploads/2011/10/arq15.jpg 1 -
+/aveiroexpo/site/2011/12/03/ 8 -
+/aveiroexpo/site/9a-expo-aveiro/ 12 -
+/aveicabo1/portfolio/1038/ 1 -
+/wp-includes/js/jquery/!=typeof 16 -
+/wp-content/plugins/wp-pagenavi/timthumb.phptimthumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_de_diversao.pdf 2 -
+/aveiroexpo/site/imprensa/convencoes 3 -
+/wp-content/themes/central/js/).html(this.buttonElement.find( 2 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_03.jpg 1 -
+User-Agent: 38 http://invisual.pt/aveicabo1/wp-login.php
+/html/wp-content/uploads/2011/09/toten03_b.jpg 1 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-conferencia 3 -
+/aveiroexpo/equipamentos.html 2 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13005_COR-3481-300x219.jpg 1 -
+/aveiroexpo/site/feira-de-marco-2012-2 3 -
+/smart_aqua_eng/wp-content/themes/invisual/tools/timthumb.php 4 -
+/aveiroexpo/aveiroexpo.html 2 -
+/ekenabay/shop-online/product-category/sunny/bk13503/ 1 -
+/html/archives/gallery-category/desdobraveis-design 2 -
+/aveiroexpo/site/informacao-institucional-aviso-legal/ 23 -
+/smart_aqua/wp-content/themes/smartaqua/phpThumb.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumbopen.php 4 -
+/aveiroexpo/js/hoverIntent.min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2011/05/feira_outlet.jpg 3 -
+/aveicabo1/portfolios/redes-fixas-nova-geracao-fibra-optica/ 5 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os17-92x92.jpg 1 -
+/aveiroexpo/js/LiberationSans.font.js 15 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2012/03/BOT_esp.png 8 -
+/ekenabay/shop-online/product-category/curvy/bk13104/ 1 -
+/civilria4/wp-login.php 1 http://invisual.pt/civilria4/wp-login.php
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto/ 18 -
+/html/gallery/www-susanalopes-pt 1 -
+/html/gallery/desdobraveis-mariana-urbanizacao 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-0.jpg 4 -
+/aveiroexpo/site/aveiro-expo-missao-estatuto/ 17 -
+/html/gallery/eventos-litoral-design 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/fm2012_gnr-227x300.jpg 5 -
+/aveiroexpo/site/portfolio/2-pavilhoes 3 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13004_COR-1471-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/11/manz.jpg 7 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-3-300x224.jpg 3 -
+/aveiroexpo/site/aveiro-expo-videos/ 19 -
+/hwm 1 -
+/portfolio_page/litoral-fashion/https:/maps.googleapis.com/maps/api/js 2 -
+/aveicabo1/portfolio/instalacao-4/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/10/ANPC-284x186.jpg 5 -
+/aveiroexpo/site/aveiro-expo-missao-estatuto 3 -
+/aveiroexpo/site/2012/05/15/ 9 -
+/html/gallery/3d-gesconect-2 1 -
+/aveiroexpo/site/2013/03/22 3 -
+/aveiroexpo/site/2011/05/13 4 -
+/aveiroexpo/site/2011/07/14 3 -
+/html/wp-content/uploads/2011/09/moda231.jpg 1 -
+/wp-includes/js/jquery/,data:n}).done(function(e){o=arguments,s.html(i 4 -
+/ekenabay/shop-online/product-category/curvy/bk13103/ 1 -
+/aveiroexpo/site/encontro-distrital-de-freguesias 3 -
+/smart_aqua/wp-content/themes/smartaqua/lib/scripts/thumb.php 1 -
+/portfolio_page/maldita/https:/maps.googleapis.com/maps/api/js 2 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13504_COR-319-300x219.jpg 1 -
+/html/gallery/fotografia-espacos-comerciais-latina-adega 3 -
+/html/gallery/3d-edififio-park 1 -
+/aveiroexpo/site/category/calendario-2011/ 21 -
+/html/wp-content/uploads/2011/09/aveicabo_stand01.jpg 1 -
+/portfolio_page/future-cityscapes/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-1-300x224.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre061-300x225.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/transparente.png 6 -
+/html/gallery/desdobraveis-asl 1 -
+/aveiroexpo/site/convencao-internacional-de-fitness/ 21 -
+/aveiroexpo/site/visitantes 3 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade01.jpg 16 -
+/aveiroexpo/site/aveiro-noivos-2012/ 20 -
+/aveiroexpo/site/wp-content/uploads/2011/03/test_avatar.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13001_COR-330-11-300x219.jpg 1 -
+/aveiroexpo/site/frilac/feed/ 1 -
+/html/archives/5351 1 -
+/aveiroexpo/site/3a-expotrakinas/ 24 -
+/aveiroexpo/site/2013/03/22/ 8 -
+/aveicabo1/portfolio/1034/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceria02.png 7 -
+/images/stories/food.php 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 10 -
+/aveicabo1/biomassa/feed/ 1 -
+/aveiroexpo/site/2011/11/11/ 7 -
+/aveicabo1/instalacao-manutencao/ 1 -
+/components/com_community/assets/autocomplete.css 1 -
+/aveicabo1/portfolio/politica-de-qualidade/ 4 -
+/html/wp-content/uploads/2011/09/mini-3.jpg 1 -
+/aveiroexpo/site/encontro-distrital-de-freguesias/ 11 -
+/html/wp-content/uploads/2011/09/desd231.jpg 1 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro/ 16 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/08/agrovouga2012_calendario-284x186.jpg 3 -
+/html/gallery/www-adriazul-pt 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-4.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-2-300x224.jpg 3 -
+/ekenabay/shop-online/product-category/curvy/fb13103/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-4-699x422.jpg 5 -
+/html/gallery/outros/ferro-2 1 -
+/aveiroexpo/site/expotrakinas-1-a-4-novembro/ 12 -
+/aveiroexpo/site/2013/03 2 -
+/aveiroexpo/site/congressos-e-convencoes/salao-nobre/ 11 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa05-175x300.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-2-699x422.jpg 5 -
+/wp-content/uploads/2013/10/1.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/11/banco_de_portugal.jpg 2 -
+/html/wp-content/uploads/2012/11/carnaval_pizzarte.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-3-699x422.jpg 5 -
+/html/archives/3440 1 -
+/insidepipe4/ 3 -
+/civilria4/ 13 -
+/aveiroexpo/site/wp-content/uploads/2012/06/expocanina-284x186.png 3 -
+/aveiroexpo/site/2011/07/ 6 -
+/aveicabo1/feed/ 1 -
+/aveiroexpo/site/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php
+/aveiroexpo/site/portfolio/project-number-4/ 9 -
+/wp-content/plugins/revslider/rs-plugin/js/'+o+' 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/aveiro-expo-exterior-25-300x193.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb.php 4 -
+/aveiroexpo/site/portfolio/feed/ 3 -
+/aveiroexpo/site/2012/04/09 3 -
+/aveiroexpo/site/feira-de-marco-22-marco-a-28-abril-2013 3 -
+/aveiroexpo/site/festa-de-natal/feed/ 1 -
+/aveicabo1/comments/feed/ 1 -
+/html/videos-3d 2 -
+/aveiroexpo/site/melodias-de-aveiro-22-jun-a-10-nov-2013 3 -
+/aveicabo1/climatizacao/ 1 -
+/html/gallery/linhas-graficas 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias01-204x104.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/classes/thumb.php 4 -
+/aveiroexpo/site/2012/05 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-291-300x225.jpg 4 -
+/smart_aqua_eng/wp-content/themes/invisual/thumb.php 4 -
+/html/gallery/fotografia-espacos-comerciais-hotel-de-ilhavo 1 -
+/aveiroexpo/site/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php
+/html/wp-content/uploads/2012/11/pizzarte_dia_do_pai.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2013/07/MlAvr_50x70-731x1024.jpg 51 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_regulamento.pdf 7 -
+/aveiroexpo/site/congresso-da-regiao-de-aveiro/ 10 -
+/aveiroexpo/site/wp-content/uploads/2012/04/visao23_04_2012.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-0-699x422.jpg 5 -
+/aveiroexpo/site/evento-de-inauguracao-das-novas-instalacoes-da-ferro-ind-quimica-portugal/ 9 -
+/html/wp-content/uploads/2011/09/desd41.jpg 1 -
+/aveiroexpo/site/2012/04/09/ 15 -
+/aveiroexpo/site/wp-content/uploads/2012/09/flyer_expocanina.pdf 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/BOT_eng.png 9 -
+/aveiroexpo/site/convencao-internacional-de-fitness/feed/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb/timthumb.php 1 -
+/comments/feed/ 24 -
+/aveiroexpo/site/2011/12/16/ 9 -
+/aveiroexpo/site/wp-content/uploads/2012/04/dicas_luisa.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/05/ 1 -
+/aveiroexpo/site/paulo-gonzo/ 13 -
+/aveicabo1/wp-content/uploads/2012/09/workshop_2011.jpg 3 -
+/aveiroexpo/site/portfolio/project 3 -
+/html/wp-content/uploads/2011/09/evento32.jpg 1 -
+/optica/2012/06/page/6/ 1 -
+/aveiroexpo/salao_nobre.html 2 -
+/aveiroexpo/js/superfish.min.js 16 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/wp-content/uploads/2012/11/veigas_saldos_fev_2013_net4.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/aveiroexpo-1571-300x200.jpg 3 -
+/html/archives/5634 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-1-699x422.jpg 3 -
+/aveiroexpo/site/portfolio/ 26 -
+/aveiroexpo/site/wp-content/uploads/2012/04/dnportugal23_04_2012.jpg 6 -
+/html/wp-content/uploads/2011/12/verdegreen04.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-2-699x422.jpg 3 -
+/aveiroexpo/espacos.html 2 -
+/aveiroexpo/site/2012/03/23/ 4 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-6.jpg 11 -
+/aveiroexpo/site/wp-content/uploads/2012/04/fm2012_gnr.jpg 3 -
+/portfolio_page/pizzarte/https:/maps.googleapis.com/maps/api/js 2 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os14-600x365.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/fitness1-284x186.jpg 55 -
+/aveicabo1/category/noticias/feed/ 2 -
+/aveiroexpo/site/xx-automobilia/ 9 -
+/aveiroexpo/galeria.html 2 -
+/aveiroexpo/site/ 417 -
+/aveiroexpo/site/2012/04/07 3 -
+/servicos.html 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/sala_conf02-0-699x422.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica071.jpg 52 http://aveicabo.pt/portfolios/instalacao-manutencao/
+/aveicabo1/portfolio/1037/ 4 -
+/aveicabo1/portfolio/apresentacao02/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhao_A02-204x104.jpg 4 -
+/html/wp-content/uploads/2011/09/ins13.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/utils/timthumb.php 4 -
+/calendario2008.html 1 -
+/aveicabo1/portfolio/975/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 9 -
+/html/feed 10 -
+/aveiroexpo/site/wp-content/uploads/2012/03/theme_options.xml 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/ 1 -
+/html/gallery/desdobraveis-smart-aqua 1 -
+/pavilhao_a.html 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13008_COR-3531-300x219.jpg 1 -
+/aveiroexpo/site/pedro-abrunhosa 3 -
+/html/gallery/fotografia-veiculos-porche 1 -
+/aveicabo1/wp-content/uploads/2012/10/renovaveis_biomassa1.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala2_conferencias011-300x225.jpg 4 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/images/bg_dropdown.png 1 -
+/aveicabo1/grupo-gesconect/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/21.03.2012-jornal-de-paiva.pdf 3 -
+/smart_aqua_eng/wp-content/themes/invisual/wpsc-images/delete.png 12 http://invisual.pt/smart_aqua_eng/
+/aveiroexpo/pavilhao_b.html 2 -
+/html/wp-content/uploads/2011/09/espa%C3%A7os6-600x365.jpg 1 -
+/portfolio_page/optica-nascimento/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-241-300x225.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo-227x300.jpg 2 -
+/aveiroexpo/site/feira-de-marco-2011 3 -
+/aveiroexpo/site/2011/07/29 3 -
+/aveiroexpo/site/wp-content/uploads/2012/05/3.jpg 7 -
+/smart_aqua_eng/wp-content/themes/invisual/js/timthumb.php 4 -
+/html/gallery/www-ilhamar-com 1 -
+/aveicabo1/wp-content/uploads/2012/10/fundo2.jpg 1 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro 3 -
+/aveicabo1/portfolio/987/ 2 -
+/aveiroexpo/site/feira-de-stocks-2 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4135-300x200.jpg 3 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-0.jpg 4 -
+/ 25 http://invisual.pt/
+/aveiroexpo/site/wp-content/uploads/2012/03/buraka_som_sistema1.jpg 5 -
+/wp-content/plugins/uploader/init.php 2 http://invisual.pt/wp-content/plugins/uploader/init.php
+/aveicabo1/portfolio/1041/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conf02-2-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/farav2013.jpg 5 -
+/smart_aqua_eng/wp-content/themes/invisual/upload.php 4 -
+/html/gallery/fotografia-veiculos-electra-rat-fink-3i 1 -
+/html/gallery/fotografia-veiculos-mercedes-classe-e-coupe 1 -
+/aveiroexpo/site/portfolio/project-number-5 3 -
+/html/wp-content/uploads/2011/09/logos-2-158x96.jpg 2 -
+/foyer.html 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceria02_150.png 4 -
+/aveiroexpo/site/2012/11/ 19 -
+/smart_aqua_eng/wp-content/ 4 -
+/aveiroexpo/site/2011/05/20 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-4-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 2 -
+/smart_aqua/wp-content/themes/smartaqua/thumb.php 1 -
+/espacos.html 1 -
+/wp-includes/js/jquery/).enctype,t.html5Clone= 4 -
+/ekenabay/shop/ 1 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/images/default/bg_body.png 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/278anos.jpg 6 -
+/pavilhao_b.html 1 -
+/html 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/feira_marc.jpg 2 -
+/smart_aqua/wp-content/themes/smartaqua/php/timthumb.php 1 -
+/aveiroexpo/index.html 2 -
+/wp-content/plugins/wp-pagenavi/scripts/timthumb.php 1 -
+/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php 1 http://invisual.pt/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php
+/aveiroexpo/site/wp-content/uploads/2011/11/workshop_lean_energy.jpg 2 -
+/aveiroexpo/site/2013/06/ 12 -
+/civilria2/wp-login.php 1 http://invisual.pt/civilria2/wp-login.php
+/aveiroexpo/site/wp-content/uploads/2011/11/avnoivos.jpg 4 -
+/aveiroexpo/site/2012/11/18/ 9 -
+/aveiroexpo/site/expotrakinas-1-a-4-novembro/feed/ 1 -
+/html/wp-content/uploads/2011/09/mini-13.jpg 2 -
+/aveiroexpo/site/aurea/ 9 -
+/aveicabo1/ 9 -
+/aveiroexpo/site/wp-content/uploads/2011/12/salao.jpg 3 -
+/wp-content/uploads/2013/10/114.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa03.jpg 3 -
+/aveiroexpo/site/frilac-2012-6-a-9-dezembro/ 19 -
+/imoveis/pesquisa/ 1 -
+/aveiroexpo/site/simposio-nacional-de-artes-e-oficios 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/main_ex.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/fm2012_buraka-227x300.jpg 5 -
+/aveiroexpo/site/gnr/ 7 -
+/html/wp-content/uploads/2011/12/mercedes_cls_02-158x96.jpg 1 -
+/wp-includes/js/jquery/],_default:x.support.htmlSerialize 4 -
+/aveiroexpo/site/9a-expo-aveiro 3 -
+/aveiroexpo/calendario2008.html 5 -
+/sala_conferencia_2.html 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre031-300x225.jpg 4 -
+/aveiroexpo/site/caravana-rodoviaria-fundacao-mapfre/ 10 -
+/aveiroexpo/site/wp-content/uploads/2013/07/cartaz_feira_marco_2013-731x1024.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/farav_2012_cartaz-214x300.jpg 3 -
+/ekenabay/shop-online/product-category/curvy/bk13102/ 1 -
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 1 http://invisual.pt/wp-content/themes/OptimizePress/lib/admin/media-upload.php
+/ARCADAMAGAZINE/ARCADAMAGAZINE_N13.PDF 1 http://www.invisual.pt/ARCADAMAGAZINE/ARCADAMAGAZINE_N13.PDF
+/images/africaS.jpg 1 -
+/aveiroexpo/site/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php
+/smart_aqua_eng/wp-content/themes/invisual/tools/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2011/05/cidadania.jpg 2 -
+/aveiroexpo/site/category/calendario-2012-2/page/2 3 -
+/ekenabay/shop-online/product-category/sunny/bk13505/ 1 -
+/aveiroexpo/site/feira-de-marco-2012-2/ 5 -
+/aveiroexpo/site/category/calendario-2012-2 3 -
+/html/wp-content/uploads/2012/11/newsletter_veigas_20132.jpg 10 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-2-699x422.jpg 3 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/aveicabo1/portfolio/redes-3/ 5 -
+/html/gallery/eventos-litoral-fashion 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foto39-300x224.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/11/frilac-284x186.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-4.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4243-300x200.jpg 5 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 http://invisual.pt/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2011/05/automobilia.jpg 3 -
+/editor/editor/filemanager/upload/test.html 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-3-699x422.jpg 4 -
+/aveiroexpo/site/imprensa 8 -
+/aveicabo/news/workshop.htm 2 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica021.jpg 47 http://aveicabo.pt/portfolios/instalacao-manutencao/
+/aveicabo1/portfolio/1023/ 3 -
+/aveiroexpo/site/2011/09/ 9 -
+/html/wp-content/uploads/2011/09/insercoes-2.jpg 1 -
+/wp-content/uploads/2012/11/logo_ekenabay03.png 1 http://invisual.pt/ekenabay/index.php/survey/index/sid/129874/newtest/Y/lang/pt
+/ekenabay/shop-online/product-category/curvy/fb13102/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/avexpo_cab_093.jpg 9 -
+/smart_aqua/wp-content/themes/smartaqua/lib_frame/thumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/stocks-284x186.jpg 2 -
+/ekenabay/shop/cart-2/ 1 -
+/html/wp-content/uploads/2011/09/7431.jpg 1 -
+/aveiroexpo/site/portfolio/project-number-1/ 15 -
+/aveicabo1/portfolio/redes-6/ 5 -
+/html/gallery/fotografia-veiculos-mercedes-cls 3 -
+/smart_aqua/wp-content/themes/smartaqua/classes/thumb.php 1 -
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 15 http://www.farmaciacapaofilipe.com/apresentacao.html
+/html/wp-content/themes/visualmedia/images/layout/favicon.png 29 -
+/html/archives/gallery-category/paginacao 2 -
+/html/archives/5333 2 -
+/aveiroexpo/site/wp-content/uploads/2011/10/frilac.jpg 3 -
+/aveicabo1/portfolios/grupo-gesconect/ 6 -
+/aveiroexpo/site/wp-content/uploads/2012/04/correiodamanha002.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-3-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/galerias-1.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia01-173x300.jpg 4 -
+/FCKeditor/editor/filemanager/connectors/uploadtest.html 3 -
+/wp-content/themes/clockstone/theme/functions/upload.php 1 http://invisual.pt/wp-content/themes/clockstone/theme/functions/upload.php
+/smartaqua/ 7 -
+/aveiroexpo/site/2012/10/23/ 7 -
+/wp-content/plugins/wp-pagenavi/cache/external_06537641511dd44a075c9cb95ab73f60.php 3 -
+/aveiroexpo/site/melodias-de-aveiro-22-jun-a-10-nov-2013/ 4 -
+/aveicabo1/portfolio/apresentacao03/ 6 -
+/html/wp-content/uploads/2011/09/aveicabo_stand02.jpg 2 -
+/aveicabo1/portfolio/redes-7/ 4 -
+/aveiroexpo/site/wp-content/uploads/2013/05/farav2013.regulamento.pdf 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/objectivos.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/12/feira_de_marco_2013-_planta4.pdf 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa04-253x300.jpg 6 -
+/aveicabo1/portfolios/bombas-de-calor/ 9 -
+/aveiroexpo/site/imprensa/eventos/ 19 -
+/aveicabo1/wp-content/themes/rttheme15/images/assets/social_media/icon-facebook.png 2 -
+/html/wp-content/uploads/2011/09/mercedes05.jpg 2 -
+/smart_aqua_eng/wp-content/themes/invisual/classes/timthumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2011/12/outlet.jpg 3 -
+/html/gallery/fotografia-espacos-comerciais-pizzarte 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/leandro1.jpg 3 -
+/smart_aqua/wp-content/themes/smartaqua/js/timthumb.php 1 -
+/aveicabo1/portfolio/989/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102-204x104.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias021-300x225.jpg 6 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/timthumb.php 4 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 http://invisual.pt/wp-content/plugins/wpstorecart/php/upload.php
+/wp-content/plugins/page-flip-image-gallery/ 2 -
+/aveiroexpo/site/2011/09/03/ 3 -
+/aveiroexpo/site/imprensa/imprensa-institucional/ 18 -
+/aveiroexpo/site/portfolio/project-number-3/ 14 -
+/aveiroexpo/site/imprensa/imprensa-congressos 3 -
+/portfolio_page/royal-school-of-languages/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-2.jpg 2 -
+/wp-content/plugins/wp-pagenavi/functions/thumb.php 1 -
+/smart_aqua/wp-content/uploads/wpsc/ 1 -
+/aveiroexpo/site/wp-content/uploads/2013/03/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceria01.png 11 -
+/aveiroexpo/site/wp-content/uploads/2012/07/ 2 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 34 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-3.jpg 2 -
+/html/wp-content/uploads/2011/12/verdegreen02.jpg 1 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13502_COR-306-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/plugins/wp-photo-album-plus/images/clock.png 2 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-2.jpg 1 -
+/aveiroexpo/site/18a-convencao-internacional-de-fitness 3 -
+/aveiroexpo/js/cufon-yui.js 14 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2012/11/apcrf.jpg 4 -
+/html/archives/446 2 -
+/aveiroexpo/site/xx-automobilia 3 -
+/wp-content/plugins/wp-pagenavi/inc/cache/external_06537641511dd44a075c9cb95ab73f60.php 2 -
+/aveiroexpo/foyer.html 2 -
+/aveiroexpo/site/congressos-e-convencoes 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/concerto_aurea.jpg 8 -
+/aveiroexpo/site/pedro-abrunhosa/ 10 -
+/eb/ 4 -
+/portfolio_page/metalegi/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/2012/04/24/ 12 -
+/aveiroexpo/site/wp-content/uploads/2011/12/expotrakinas.jpg 8 -
+/aveicabo1/noticias/ 4 -
+/aveiroexpo/links_uteis.html 2 -
+/aveicabo1/wp-login.php 1303 http://invisual.pt/aveicabo1/wp-login.php
+/aveiroexpo/site/calendario-pea-2012/ 23 -
+/aveiroexpo/site/wp-content/uploads/2012/03/esquico_portico_fm_1928.jpg 2 -
+/html/wp-content/uploads/2011/09/ins17.jpg 2 -
+/aveiroexpo/site/seminario-major-technological-and-natural-hazards-in-europe-and-the-civil-protection-systems-response/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135-699x422.jpg 3 -
+/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php 1 http://invisual.pt/wp-content/plugins/zingiri-web-shop/fwkfor/ajax/uploadfilexd.php
+/aveicabo1/wp-content/uploads/2012/10/aresent02.jpg 17 -
+/admin.php 2 -
+/aveicabo1/xmlrpc.php 1 -
+/aveiroexpo/site/2012/05/14/ 11 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias011-300x225.jpg 5 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect02.jpg 23 -
+/wp-content/themes/central/js/) 4 -
+/portfolio_page/ferro/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/farav-2012-27-de-julho-a-5-de-agosto 3 -
+/aveiroexpo/site/2o-campeonato-ornitologico-costa-de-prata 3 -
+/equipamentos.html 1 -
+/aveiroexpo/site/agrovouga-2012 3 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico021-294x180.jpg 1 -
+/ekenabay/shop-online/product-category/curvy/fb13101/ 1 -
+/portfolio_page/aveicabo/https:/maps.googleapis.com/maps/api/js 2 -
+/ekenabay/site/wp-content/uploads/2013/01/BK-13006_COR-1511-300x219.jpg 1 -
+/aveicabo1/noticias/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/slider_short_1.jpg 4 -
+/aveiroexpo/videos.html 1 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica031.jpg 55 http://aveicabo.pt/portfolios/instalacao-manutencao/
+/smart_aqua/wp-content/themes/smartaqua/thumbs/_tbs.php 1 -
+/html/archives/455 1 -
+/wp-content/plugins/uploader/init.phpindex.php 2 http://invisual.pt/wp-content/plugins/uploader/init.phpindex.php
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-1.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2011/10/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/php/thumb.php 1 -
+/aveiroexpo/site/fevereiro-2011/feed/ 1 -
+/aveicabo1/portfolio/redes-2/ 4 -
+/aveiroexpo/site/2012/04/21/ 12 -
+/html/wp-content/uploads/2011/09/doce_fusao-600x365.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/cartaz_2012_XX_web-284x186.jpg 2 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/images/bg_search_arrows.png 1 -
+/html/gallery/condominio-empresarial 1 -
+/html/gallery/fotografia-veiculos-mercedes-slk 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-0.jpg 4 -
+/aveiroexpo/site/2012/03/24/ 4 -
+/aveiroexpo/site/festa-de-natal 3 -
+/agencia/procuro/ 1 -
+/eventos.html 1 -
+/aveiroexpo/site/2013/07/01/ 13 -
+/links_uteis.html 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/utils/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/theme_options1.xml 1 -
+/aveicabo1/portfolio/1021/ 6 -
+/aveicabo1/portfolio/962/ 5 -
+/aveicabo1/wp-content/uploads/2012/10/fundo_energia-0.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/MG_7333-300x200.jpg 5 -
+/aveiroexpo/site/informacao-institucional-aviso-legal 3 -
+/cds-pp/ 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/LMA1809-300x199.jpg 7 -
+/aveiroexpo/site/wp-content/uploads/2012/ 1 -
+/html/archives/436 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/BOT_PT.png 5 -
+/aveiroexpo/site/2012/08/ 9 -
+/ekenabay/shop/afugentar-a-celulite/ 1 -
+/aveicabo1/portfolio/968/ 5 -
+/images/Swamp-thumb1.jpg 1 -
+/aveiroexpo/site/imprensa/imprensa-feiras/ 29 -
+/civilria2 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/thumb.php 4 -
+/html/gallery/multimedia-dvd-clipping-litoral-fashion 3 -
+/html/wp-content/uploads/2011/08/pub07.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-300x186.jpg 6 -
+/sala_conferencia_1.html 1 -
+/html/wp-content/uploads/2011/12/mercedes_cls_05.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/face.jpg 7 -
+/aveicabo1/biomassa/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/_tbs.php 4 -
+/auditorio.html 1 -
+/fckeditor/editor/filemanager/upload/test.html 1 -
+/aveiroexpo/site/2011/09/03 3 -
+/aveicabo1/portfolio/1017/ 2 -
+/aveiroexpo/site/wp-content/uploads/2013/01/regulamento_da_feira_de_marco_20131.pdf 6 -
+/portfolio_page/mercentro/https:/maps.googleapis.com/maps/api/js 2 -
+/html/gallery/insercoes/civilria 1 -
+/aveiroexpo/site/2012/10/ 11 -
+/aveiroexpo/site/leandro/ 8 -
+/aveiroexpo/site/wp-content/uploads/2011/07/ 1 -
+/html/archives/3453 1 -
+/html/feed/atom 10 -
+/aveiroexpo/site/simposio-nacional-de-artes-e-oficios/ 10 -
+/aveicabo1/wp-content/uploads/2012/10/redes_fixas_nova_ger_fibra_optica011.jpg 42 -
+/noticias/ 1 -
+/aveiroexpo/site/theme-features/powerful-admin-panel/ 2 -
+/aveiroexpo/site/aveiro-noivos-2011-8o-salao-de-produtos-e-servicos-para-cerimonia/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/info_inst.jpg 2 -
+/wp-content/plugins/revslider/rs-plugin/js/) 2 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao021.jpg 18 -
+/cdsaveiro/decada-de-90/ 1 -
+/cdsaveiro/fotos/ 2 -
+/html/wp-content/uploads/2011/12/Lean-website-2.jpg 2 -
+/html/gallery-category/eventos 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-0-300x224.jpg 3 -
+/aveiroexpo/site/conferencia-do-banco-de-portugal-26-novembro 3 -
+/aveicabo1/wp-content/themes/rttheme15/js/jquery.popeye-2.1.min.js 2 -
+/wp-content/themes/central/js/).addClass(this._triggerClass).html(!buttonImage 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre01-204x104.jpg 5 -
+/apple-touch-icon-76x76.png 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/yout.jpg 10 -
+/aveicabo1/wp-content/uploads/2012/10/recuperadores_biomassa02.jpg 1 http://aveicabo.pt/portfolios/biomassa/page/2/
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-2.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/expocanina.jpg 3 -
+/aveicabo1/portfolio/1032/ 4 -
+/html/gallery/design-outros-gesconect 1 -
+/html/wp-content/uploads/2011/09/farmacia_capao_filipe-600x365.jpg 1 -
+/editor/editor/filemanager/browser/default/connectors/test.html 3 -
+/aveiroexpo/js/jquery-1.4.min.js 13 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro/ 15 -
+/aveiroexpo/site/2013/07/ 14 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade01-294x180.jpg 1 -
+/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php 1 http://invisual.pt/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php
+/aveiroexpo/site/frilac-2012-6-a-9-dezembro/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/images/ibab_logo.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-1.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/aveiroexpo1.ico 2 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb.php 1 -
+/ekenabay/web/wp-content/uploads/2013/01/BK-13503_COR-314-1-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/Paulo-Gonzo1-227x300.jpg 5 -
+/contactos/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/pablo-alboran/feed/ 1 -
+/aveiroexpo/site/feira-de-stocks-2/ 17 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_DA-193x300.jpg 4 -
+/contactos.html 1 -
+/aveiroexpo/site/contact 1 -
+/portfolio_page/ekenabay/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo 4 -
+/smart_aqua_eng/wp-content/themes/invisual/resize.php 4 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/scripts/prettyPhoto/js/jquery.prettyPhoto.js 1 -
+/smart_aqua_eng/wp-content/themes/invisual/themify/img.php 4 -
+/aveiroexpo/site/xix-automobilia 3 -
+/html/wp-content/uploads/2011/12/mercedes_cls_06.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilhoes-7-640x422.jpg 5 -
+/aveicabo1/wp-content/uploads/2012/10/grupo_gesconect01.jpg 22 -
+/html/wp-content/uploads/2011/09/linhaGr1.jpg 1 -
+/aveiroexpo/site/caravana-rodoviaria-fundacao-mapfre 3 -
+/wp-includes/js/jquery/).length,t.htmlSerialize=!!d.getElementsByTagName( 4 -
+/wp-content/themes/central/includes/ajax_mail.php 2 http://invisual.pt/contactos/
+/html/wp-content/uploads/2011/09/ins19.jpg 2 -
+/aveiroexpo/site/feira-de-stocks-2/feed/ 1 -
+/aveicabo1/redes-fixas-e-de-nova-geracao-fibra-optica/ 3 -
+/aveiroexpo/site/wp-content/uploads/2011/02/fpao.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/sala_conferencias051-300x225.jpg 4 -
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro 3 -
+/aveiroexpo/site/wp-login.php 1 http://invisual.pt/aveiroexpo/site/wp-login.php
+/aveiroexpo/site/portfolio/project-number-3 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/LMA0427-300x199.jpg 5 -
+/aveiroexpo/site/feira-de-marco-22-marco-a-28-abril-2013/feed/ 1 -
+/aveiroexpo/site/conferencia-do-banco-de-portugal-26-novembro/ 14 -
+/aveiroexpo/site/workshop-lean-energy 3 -
+/aveiroexpo/site/wp-content/uploads/2012/04/terranova.jpg 4 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico011-294x180.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/cartaz_fm20124.jpg 6 -
+/html/wp-content/uploads/2011/10/Bombeiros-10.jpg 1 -
+/aveiroexpo/site/2011/02/18/ 6 -
+/html/gallery/desdobraveis 3 http://designgraficomarta12q.blogspot.pt/2012/01/modulo-13-paginacao.html
+/aveiroexpo/site/wp-content/uploads/2012/03/pedro_abrunhosa2.jpg 10 -
+/aveiroexpo/site/wp-content/uploads/2012/06/ 1 -
+/civilria_01/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_comercial.pdf 3 -
+/aveiroexpo/site 141 http://feirademarco.aveiroexpo.pt/
+/smart_aqua_eng/wp-content/themes/invisual/scripts/thumb.php 4 -
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 9 -
+/portfolio_page/heliflex/https:/maps.googleapis.com/maps/api/js 2 -
+/html/gallery/outros-aveiro-park 1 -
+/html/wp-content/uploads/2012/11/veigas_stock_off.jpg 1 -
+/smart_aqua/wp-content/themes/smartaqua/upload.php 1 -
+/aveiroexpo/site/2011/02/ 5 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 16 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/images/default/bg_menu_divider.png 1 -
+/aveicabo1/portfolio/967/ 2 -
+/aveiroexpo/site/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4159-300x200.jpg 3 -
+/aveicabo1/wp-content/uploads/2012/10/solar_fotovoltaico031-640x400.jpg 5 -
+/aveiroexpo/site/category/calendario-2011/feed/ 4 -
+/aveiroexpo/site/wp-content/uploads/2011/03/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/timthumb.php 4 -
+/portfolio_page/diario-de-aveiro/https:/maps.googleapis.com/maps/api/js 2 -
+/portfolio_page/bmw/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/2011/11/27/ 9 -
+/smart_aqua/wp-content/themes/smartaqua/check.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-0.jpg 4 -
+/aveiroexpo/site/fevereiro-2011/ 13 -
+/aveiroexpo/site/wp-content/uploads/2011/03/slider_short_2.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2013/07/feira_marco.jpg 6 -
+/aveiroexpo/site/wp-content/uploads/2013/07/cartaz_feira_marco_2013.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-3.jpg 2 -
+/aveicabo1/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/wp-pagenavi/scripts/cache/06537641511dd44a075c9cb95ab73f60.php 2 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes 3 -
+/wp-content/themes/central/img/prettyPhoto/light_rounded/btnNext.png 3 http://invisual.pt/marcas/
+/aveiroexpo/site/xix-automobilia/ 15 -
+/aveiroexpo/site/wp-content/uploads/2011/03/mapa_aveiro2.jpg 9 http://www.bing.com/images/search
+/aveicabo1/portfolio/politica-de-qualidade-2/ 6 -
+/html/wp-content/uploads/2011/09/IMG_0677-158x96.jpg 1 -
+/aveiroexpo/site/pablo-alboran/ 27 -
+/html/archives/5387 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/org_sociais.jpg 3 -
+/wp-content/plugins/wp-super-cache/Changelog.txt 2 http://invisual.pt/wp-content/plugins/wp-super-cache/Changelog.txt
+/html/wp-content/uploads/2011/09/moda91.jpg 1 -
+/aveiroexpo/site/conferencia-do-banco-de-portugal-26-novembro/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_farav_2013_.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa06-174x300.jpg 5 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/images/bg_zoom.png 1 -
+/aveicabo1/wp-content/uploads/2012/10/politica_de_qualidade02.jpg 17 -
+/cdsaveiro/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/auditorio-3.jpg 2 -
+/aveiroexpo/site/expocanica-9-set-2012/ 11 -
+/aveicabo1/wp-content/uploads/2012/10/bombas_de_calor_01.jpg 65 http://aveicabo.pt/portfolios/bombas-de-calor/
+/cdsaveiro/txt-02/ 4 -
+/aveiroexpo/site/convencao-internacional-de-fitness 3 -
+/aveiroexpo/site/2011/10/ 6 -
+/aveiroexpo/site/workshop-lean-energy/ 5 -
+/aveicabo1/wp-content/uploads/2012/09/workshop07-150x150.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4585-300x200.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-2-300x224.jpg 5 -
+/aveiroexpo/site/wp-content/uploads/2012/03/04.07.2012-diario-de-aveiro1-150x150.jpg 4 -
+/html/wp-content/uploads/2011/09/IMG_0632.jpg 1 -
+/html/wp-content/uploads/2012/12/ekenabay.jpg 1 -
+/aveiroexpo/site/2011/03/ 4 -
+/wp-content/plugins/1-flash-gallery/upload.php 1 http://invisual.pt/wp-content/plugins/1-flash-gallery/upload.php
+/smart_aqua_eng/wp-content/themes/invisual/functions/timthumb.php 4 -
+/portfolio_page/adriano-e-lito/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo/ 32 -
+/aveiroexpo/site/aveiro-expo-objectivos/ 25 -
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 14 http://www.farmaciacapaofilipe.com/apresentacao.html
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-4-699x422.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/mapa_recinto.jpg 2 -
+/aveicabo1/wp-content/uploads/2012/10/aresent04.jpg 7 http://aveicabo.pt/portfolios/apresentacao/
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 7 -
+/aveiroexpo/contactos.html 2 -
+/aveiroexpo/site/2011/11/18/ 6 -
+/wp-includes/js/jquery/===n 2 -
+/aveicabo1/aveicabo-na-cebit-2012/feed/ 1 -
+/aveicabo1/portfolio/970/ 4 -
+/html/archives/5642 2 -
+/aveiroexpo/site/wp-content/plugins/advanced-custom-fields/core/actions/export.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/advanced-custom-fields/core/actions/export.php
+/Fckeditor/editor/filemanager/connectors/test.html 3 -
+/ekenabay/shop-online/product-category/curvy/bk13108/ 1 -
+/aveiroexpo/site/9a-expo-aveiro/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/logo_aveiroexpo-291x300.png 2 -
+/html/wp-content/uploads/2012/05/M250CDI1-568x200.jpg 1 -
+/aveicabo1/portfolio/1019/ 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/22.03.2012-jornal-da-bairrada.pdf 3 -
+/html/archives/5624 1 -
+/html/wp-content/uploads/2011/09/7359.jpg 1 -
+/html/wp-content/uploads/2012/11/pizzarte_newsletter_dia_crianca6.jpg 1 -
+/aveiroexpo/site/category/calendario-2013/feed/ 11 -
+/aveiroexpo/site/8a-expoaveiro-2011/feed/ 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/external_06537641511dd44a075c9cb95ab73f60.php 2 -
+/html/wp-content/uploads/2011/09/objecto111.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta2.pdf 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-1-699x422.jpg 3 -
+/html/gallery/desdobraveis-aveicabo 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib_frame/timthumb.php 4 -
+/html/wp-content/uploads/2011/09/optica_nascimento1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/IMG_4245-300x200.jpg 4 -
+/aveiroexpo/site/imprensa/imprensa-feiras 4 -
+/metalegi01/wp-content/uploads/2013/04/apresentacao_ilust03.png 2 -
+/aveiroexpo/site/wp-content/uploads/2011/02/regiao_aveiro.jpg 6 -
+/aveiroexpo/site/feira-de-outlet/ 13 -
+/labstestevao/01/styles/silver.css 2 http://invisual.wufoo.com/embed/z7x4a3/def/embedKey=z7x4a341960&entsource=&referrer=http%3Awuslashwuslashwww.labstestevao.comwuslashpostos_colheita.html
+/aveicabo1/portfolios/solar-fotovoltaico/ 12 -
+/ekenabay/site/wp-content/uploads/2013/01/FB-13001_COR-3641-300x219.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/farav_2012_cartaz.jpg 4 -
+/aveiroexpo/site/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php 1 http://invisual.pt/aveiroexpo/site/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php
+/aveicabo1/portfolio/grupo-gesconect/ 4 -
+/html/wp-content/uploads/2011/09/manual_toten02-21.jpg 2 -
+/feed 20 -
+/aveiroexpo/site/wp-content/uploads/2012/05/Aveiro-VII1-284x186.jpg 1 -
+/aveicabo1/wp-content/uploads/2012/10/climatizacao041.jpg 18 -
+/portfolio_page/aveiro-expo/https:/maps.googleapis.com/maps/api/js 2 -
+/aveicabo1/wp-content/uploads/2012/10/biomassa_01.jpg 3 http://aveicabo.pt/portfolios/biomassa/page/2/
+/aveiroexpo/site/wp-content/uploads/2012/03/aurea1.jpg 2 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pavilh-6-300x224.jpg 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/ass_nac_freg-284x186.jpg 2 -
+/RK=0/RS=CJwLZ0X3eX9LjT0K2razgqx2WDY- 3 http://invisual.pt/
+/aveiroexpo/site/2011/07 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/mapa_de_aveiro.jpg 5 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-3.jpg 38 http://aveicabo.pt/portfolios/solar-termico/
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta1.pdf 11 -
+/aveiroexpo/site/wp-content/uploads/2012/03/foyer-300x224.jpg 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/feiramarc08-158-300x200.jpg 7 -
+/aveicabo1/wp-content/uploads/2012/10/solar_termico-2-294x180.jpg 3 -
+/aveicabo1/portfolios/apresentacao/ 11 -
+/aveiroexpo/site/wp-content/uploads/2012/05/aoca_-284x186.jpg 8 -
+/aveiroexpo/site/2011/12/08/ 7 -
+/civilria2/ 15 -
+/smart_aqua/wp-content/themes/smartaqua/themify/img_x.php 1 -
+/html/wp-content/uploads/2011/09/moda25.jpg 1 -
+/aveiroexpo/site/congressos-e-convencoes/foyer-atrio 3 -
+/aveicabo1/solar-fotovoltaico-2/ 2 -
+/aveicabo1/portfolios/instalacao-manutencao/ 6 -
+/aveiroexpo/site/wp-content/uploads/2012/03/parceiros_caetano.png 7 -
+/smart_aqua_eng/wp-content/themes/invisual/check.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salaconf01-2-699x422.jpg 3 -
+/aveiroexpo/site/2011/07/14/ 3 -
+/aveiroexpo/site/2012/04/14/ 8 -
+/html/wp-content/uploads/2011/09/mini-1-158x96.jpg 1 -
+/aveicabo1/portfolio/apresentacao04/ 3 -
+/wp-content/plugins/wp-pagenavi/inc/timthumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/salao_nobre-3-699x422.jpg 3 -
+/aveiroexpo/site/portfolio/project-number-2 3 -
+/aveiroexpo/site/paulo-gonzo 3 -
+/aveiroexpo/site/farav-2011/feed/ 1 -
+/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php 1 http://invisual.pt/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php
+/aveiroexpo/site/wp-content/uploads/2012/03/imprensa03-94x300.jpg 5 -
+/portfolio_page/feira-de-marco/https:/maps.googleapis.com/maps/api/js 2 -
+/aveiroexpo/site/wp-content/uploads/2012/10/image001-284x186.jpg 5 -
+/aveiroexpo/site/frilac/ 16 -
+/aveiroexpo/site/wp-content/uploads/2012/05/aveiro.jpg 30 -
+/aveiroexpo/site/2011/03/25/ 4 -
+/aveiroexpo/site/leandro 3 -
+/aveiroexpo/site/18a-convencao-internacional-de-fitness/feed/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/correiodamanha_ilust.jpg 4 -
+/aveiroexpo/site/category/calendario-2012-2/feed/ 4 -
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/presentation/colors.css 1 -
+/aveiroexpo/site/wp-content/uploads/2013/06/calendario_farav2013.jpg 7 -
+/aveiroexpo/site/imprensa/convencoes/ 16 -
+/aveiroexpo/site/8a-expoaveiro-2011 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/pedro_abrunhosa1.jpg 16 https://www.google.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1608
+130.185.84.82 1101 1101 0 20140331235704
+37.9.53.109 637 637 2566238 20140322171704
+89.155.200.66 322 1294 123219042 20140331110245
+193.150.120.33 152 152 4540696 20140331213518
+84.120.156.190 140 155 2580575 20140320190039
+94.132.186.237 118 237 8459509 20140328012820
+83.240.246.157 102 436 1931797 20140317165738
+198.12.76.66 85 94 1570409 20140308180100
+69.84.207.246 85 106 1919983 20140329162246
+24.114.29.162 65 65 260910 20140331143433
+216.151.137.36 60 60 1741962 20140321210248
+217.129.244.181 60 308 3526885 20140312184823
+213.30.17.106 51 296 16234470 20140324110358
+82.155.121.67 49 138 3899590 20140301143517
+194.39.218.10 44 311 9442753 20140320140624
+193.137.168.32 42 301 8312469 20140325142523
+216.151.137.35 42 42 1221604 20140322171431
+89.155.201.40 41 306 14984033 20140325165246
+83.132.18.253 40 147 1355359 20140326230842
+82.193.99.33 39 39 1165047 20140331055759
+188.81.161.89 39 106 8658606 20140305115414
+213.30.86.141 38 241 7905377 20140331183427
+217.129.26.235 38 212 10587386 20140329175500
+74.55.73.74 38 38 638267 20140304092356
+77.54.49.15 36 167 29248805 20140306221805
+94.23.37.192 6 49 1431660 20140324163155
+46.165.222.180 0 1 9898 
+82.154.63.188 0 1 30139 
+193.137.239.229 0 1 96189 
+95.134.147.152 1 2 1167356 20140323035700
+46.60.253.41 16 16 64448 20140330160944
+144.64.99.21 5 77 812862 20140329001002
+69.58.178.56 10 10 175120 20140319202538
+89.109.94.108 3 59 480604 20140331235706
+201.49.155.2 0 1 1769246 
+62.169.66.147 0 1 9898 
+65.55.212.81 1 1 402 20140328000512
+199.30.20.236 0 4 5124 
+176.123.31.20 24 24 119575 20140331135439
+65.55.212.65 0 1 221 
+188.80.145.182 29 109 3491360 20140317170220
+2.81.85.237 7 51 1440713 20140317181129
+85.241.216.221 0 1 8126 
+201.26.253.48 0 1 28727 
+217.69.133.169 1 2 4985 20140308120759
+94.132.184.140 0 1 65940 
+89.152.29.228 0 1 48443 
+194.114.62.70 17 224 1967776 20140306201518
+199.30.228.143 1 1 407 20140331000255
+189.15.46.57 1 15 667494 20140317192418
+2.81.144.38 0 2 19796 
+194.38.144.136 6 45 4821073 20140306103544
+217.129.134.186 5 28 222025 20140311113444
+183.63.204.166 5 26 220143 20140320092434
+144.64.107.47 0 1 38780 
+5.249.66.78 9 69 1277368 20140324150636
+89.153.144.110 3 61 537285 20140303210927
+65.55.218.63 0 2 8114 
+177.43.138.7 0 1 40307 
+62.23.87.194 4 96 1362108 20140327115302
+2.81.128.131 6 46 303166 20140319155427
+79.169.48.203 0 1 8126 
+62.48.248.182 19 70 5177567 20140307153229
+62.28.161.34 0 2 278858 
+213.22.105.20 0 1 32674 
+85.245.93.21 7 86 881658 20140302104523
+93.102.147.11 0 1 8126 
+87.103.72.153 0 1 9898 
+79.168.252.48 6 49 1430862 20140310135716
+188.251.117.1 5 26 220941 20140331230953
+82.155.129.247 0 2 4898 
+2.81.147.36 0 1 0 
+144.64.39.41 0 3 29694 
+84.91.197.16 0 3 27700 
+217.129.25.36 5 25 219984 20140311080220
+46.118.119.133 26 26 776698 20140331134035
+188.80.120.109 0 1 4413837 
+217.129.240.117 4 70 645982 20140325114209
+201.79.224.184 6 48 1430477 20140318185406
+5.158.14.114 6 48 1347820 20140301233332
+89.214.220.209 0 1 8126 
+89.152.11.111 9 85 2455075 20140311161059
+62.28.235.230 26 177 15496873 20140312154631
+188.251.235.164 14 165 917376 20140312142937
+89.155.126.78 0 1 8126 
+188.81.215.73 0 1 9898 
+131.253.24.151 1 1 407 20140328000532
+189.108.134.130 0 1 228159 
+2.80.210.113 5 77 794076 20140326211913
+217.129.211.183 14 90 2379099 20140302051701
+180.76.6.59 0 1 427252 
+189.26.31.235 0 1 228159 
+178.128.176.73 0 1 611719 
+93.108.97.17 0 1 8126 
+85.241.96.10 12 12 183588 20140312144729
+96.47.226.22 16 16 321960 20140323044032
+87.103.49.83 6 15 321735 20140301010904
+95.95.227.91 5 79 821936 20140302215207
+188.83.68.104 6 134 1765724 20140303141027
+187.8.187.66 13 99 2865900 20140321150019
+95.95.113.151 6 49 1430862 20140306201956
+54.196.223.65 1 1 22064 20140321123630
+188.80.150.42 9 77 2124208 20140311114512
+2.83.242.119 6 50 1830429 20140302232212
+84.91.34.164 7 81 877526 20140317145010
+89.155.49.168 0 2 19796 
+46.229.160.208 0 10 6702317 
+144.64.106.16 17 64 1447151 20140324164150
+131.253.24.128 0 1 9733 
+65.55.211.247 0 1 24605 
+89.155.189.70 0 1 8126 
+87.111.151.114 0 2 278858 
+88.157.198.50 0 3 18024 
+194.250.98.243 13 82 855931 20140319180311
+46.50.120.118 0 1 6992 
+88.214.160.120 0 1 9898 
+94.34.216.157 6 49 1431660 20140327074709
+91.236.75.99 1 1 16607 20140323060530
+37.228.106.115 0 3 120921 
+144.64.106.149 0 2 19796 
+65.55.212.77 0 1 5765 
+112.201.156.155 0 1 18913 
+188.81.160.173 7 74 2065472 20140317191632
+95.92.24.169 0 1 8649 
+85.88.130.222 6 49 1430862 20140307204002
+83.143.143.3 3 58 717568 20140306172738
+193.137.231.19 9 82 879304 20140306162516
+213.58.141.66 0 2 278858 
+189.144.191.53 6 49 1431660 20140324222847
+62.28.248.194 0 1 228159 
+77.54.43.136 0 1 9898 
+95.94.2.140 3 67 770378 20140325144228
+65.55.218.40 0 1 21437 
+202.46.54.44 1 1 22178 20140317184554
+179.180.90.124 0 1 18913 
+213.58.129.82 1 2 164551 20140305145215
+2.81.139.169 0 1 278068 
+79.168.48.24 7 41 2262228 20140324215753
+217.129.241.171 32 197 5395854 20140318164341
+79.169.1.242 6 78 919880 20140330152154
+82.155.254.186 5 63 520854 20140314185640
+213.13.178.98 0 2 91586 
+91.236.75.123 3 3 49821 20140331224926
+82.154.75.107 15 93 861371 20140305174450
+199.30.228.151 2 60 750145 20140331000254
+91.236.74.111 1 1 16607 20140323001531
+188.250.224.4 0 2 9796 
+46.50.16.217 0 1 8126 
+177.195.239.206 0 1 278068 
+178.137.5.16 9 9 268857 20140315032854
+82.155.143.104 0 1 64331 
+84.91.24.232 0 2 278858 
+188.83.122.145 0 1 118 
+210.211.106.12 0 1 18545 
+95.172.68.145 8 23 113731 20140302023231
+81.84.253.164 5 79 842471 20140317185429
+2.81.126.71 14 87 2863718 20140307121516
+62.48.174.230 6 49 1430862 20140304105238
+5.79.86.145 25 46 1064070 20140328201935
+188.80.104.111 33 74 125330581 20140313110823
+84.91.224.60 0 1 9898 
+84.90.164.230 0 1 133438 
+87.109.129.246 0 1 22025 
+180.76.5.158 0 1 427252 
+81.84.2.250 12 94 875740 20140329165420
+95.69.23.243 0 2 5099551 
+82.155.181.208 7 81 809961 20140328194521
+2.81.4.239 0 1 21186 
+2.83.140.119 0 1 9898 
+88.214.160.130 0 1 71623 
+84.91.35.22 9 86 2460100 20140307103032
+84.90.166.59 0 1 228159 
+144.64.119.179 0 2 16252 
+194.65.230.159 15 88 702888 20140319155005
+84.103.101.4 0 1 15341 
+78.130.99.67 0 2 278858 
+131.253.24.134 0 1 65735 
+198.74.59.142 1 1 22064 20140317053052
+83.240.187.45 29 81 3419321 20140310114644
+92.250.102.31 0 2 441390583 
+95.92.51.65 31 431 1108020 20140330111514
+180.76.6.17 0 2 3498817 
+78.137.237.54 5 25 219984 20140307222528
+119.63.193.132 1 1 22178 20140316204434
+69.85.201.155 6 6 24168 20140317150832
+172.240.93.90 0 6 230484 
+96.52.242.72 10 10 40280 20140318154242
+109.120.157.179 18 18 537714 20140329145502
+85.240.152.53 6 49 1430862 20140311211534
+2.81.134.87 0 1 32505 
+2.81.121.84 0 1 9898 
+178.137.128.213 6 6 179238 20140309113810
+89.153.119.90 0 2 15345 
+194.169.215.101 0 2 3809304 
+79.168.246.231 3 67 770378 20140325225741
+82.145.216.187 4 68 776263 20140314195856
+188.80.108.70 0 1 9898 
+188.81.129.162 0 1 278068 
+188.251.221.158 0 1 4413837 
+87.196.150.69 0 2 108971 
+2.80.141.204 0 2 278858 
+89.152.39.251 9 78 2125239 20140306224740
+2.81.253.162 0 1 8649 
+93.108.15.3 0 1 8126 
+69.170.148.164 3 3 2562 20140326123520
+81.66.136.172 0 1 9898 
+188.250.139.224 0 2 278858 
+87.103.60.2 0 1 40434 
+95.69.124.4 0 1 9898 
+199.30.24.114 5 25 219984 20140306031421
+87.1.58.34 6 49 1431660 20140315183228
+38.99.82.191 23 101 574696 20140327201912
+65.55.218.54 0 1 1883 
+85.139.152.173 0 1 30139 
+68.117.126.13 6 55 922227 20140311010551
+88.210.96.69 18 104 926213 20140328155523
+187.12.84.146 0 1 169380 
+37.228.105.0 0 1 40307 
+195.110.138.209 0 1 9898 
+2.81.152.230 10 63 3161367 20140314101626
+31.22.164.35 12 96 911012 20140312212941
+95.93.40.185 0 1 21186 
+193.137.157.167 0 1 8126 
+188.251.47.201 0 1 8649 
+93.102.92.179 0 2 8126 
+79.168.194.52 0 1 8126 
+195.23.63.110 3 67 770378 20140306171921
+197.214.132.45 0 1 46756 
+222.127.248.237 0 1 22025 
+223.30.92.226 0 1 48443 
+89.155.200.73 0 2 16252 
+93.108.92.130 9 27 2780991 20140314145520
+188.251.202.252 6 49 1430862 20140319193159
+87.103.60.90 0 1 4898 
+81.193.208.223 5 26 220143 20140316153636
+93.108.13.237 16 136 3895846 20140327142027
+2.81.153.161 10 92 7068326 20140319164202
+195.245.197.35 0 2 4423735 
+92.250.31.44 0 1 9898 
+62.48.153.158 10 89 2466846 20140314164130
+84.90.55.191 0 1 0 
+5.99.125.97 0 1 8126 
+213.228.163.87 0 2 19796 
+213.58.128.102 3 67 1268906 20140327122400
+194.65.224.190 6 31 252367 20140303160952
+89.155.122.200 7 58 2264906 20140313000151
+194.140.232.254 0 1 17597 
+188.80.91.4 0 1 3807331 
+109.50.156.67 0 1 6696 
+131.253.24.155 0 1 7107 
+89.214.178.21 0 1 8126 
+89.145.108.205 0 1 5059061 
+89.155.59.75 10 135 1545431 20140313104115
+85.247.71.163 0 2 29912 
+188.83.194.84 8 86 836728 20140302141315
+188.81.33.115 5 28 222025 20140306181421
+2.81.88.69 3 67 770378 20140323013719
+85.243.91.207 0 1 22559 
+193.136.201.116 6 134 1540757 20140319091957
+2.81.139.155 0 1 31461 
+88.214.161.241 0 1 9898 
+180.76.5.77 0 1 1729571 
+62.28.88.130 16 322 1043512 20140326161913
+200.144.14.210 3 54 475721 20140313134320
+177.35.100.248 0 1 28727 
+199.15.233.137 1 1 22064 20140326103805
+193.204.158.10 0 1 228159 
+84.91.20.207 0 3 400314 
+131.253.24.146 1 1 402 20140327115709
+2.81.125.192 7 51 1436752 20140315194120
+65.55.217.240 5 25 219984 20140325135954
+85.241.202.88 0 1 8126 
+81.84.249.106 3 67 770378 20140325121031
+95.69.118.228 0 3 16252 
+84.90.24.193 17 70 3310273 20140313191255
+2.83.243.225 9 52 1444748 20140308163134
+85.247.48.124 0 1 8126 
+93.159.230.87 4 38 325012 20140322135617
+85.139.107.15 1 1 5886 20140303122532
+46.60.253.53 1 1 4028 20140317094222
+199.30.228.141 0 1 4073 
+85.246.26.31 0 1 8126 
+62.169.66.151 5 27 239780 20140301185839
+2.83.161.226 0 2 15345 
+217.129.149.26 13 66 1773362 20140326162241
+109.50.157.34 0 2 19796 
+84.90.140.107 0 2 44050 
+2.83.242.117 0 1 9898 
+199.19.249.196 8 9 5181896 20140320140617
+37.115.112.31 6 6 179238 20140325141234
+109.48.64.152 3 67 770378 20140305125513
+79.168.29.6 5 113 790329 20140307160619
+103.31.200.92 0 1 5059061 
+41.204.71.159 0 2 278858 
+2.82.49.241 5 28 222025 20140304151940
+83.240.240.30 0 2 70573 
+85.247.115.14 7 74 2110288 20140326235524
+5.249.3.210 5 25 219984 20140310203716
+65.55.212.95 0 1 221 
+188.80.150.189 7 75 2111251 20140331153551
+213.22.4.47 0 1 8126 
+84.90.26.112 5 25 219984 20140301145236
+84.90.25.243 6 49 1430862 20140323223628
+188.251.62.161 12 89 2470120 20140320211046
+93.108.121.185 0 2 19796 
+194.38.144.27 8 150 1787609 20140304112742
+217.129.175.142 0 1 278068 
+188.80.151.99 8 77 2121102 20140324170539
+179.187.51.86 0 1 237347 
+195.23.41.195 0 1 8126 
+131.253.26.255 0 1 242 
+213.30.118.100 0 1 18169 
+2.82.98.2 0 1 237347 
+81.193.18.78 0 1 228159 
+81.193.115.235 0 1 23289 
+37.228.106.165 0 2 80614 
+177.9.28.54 0 1 30139 
+88.214.180.100 0 1 18913 
+65.55.212.83 0 1 65735 
+93.102.56.159 0 1 8126 
+2.81.159.154 4 17 72647 20140304141423
+199.30.24.111 5 44 1418464 20140312012219
+87.103.59.32 7 63 5394453 20140322210256
+81.193.205.193 20 106 1236973 20140315164605
+31.22.253.57 0 1 8126 
+193.126.152.125 6 71 782419 20140324110534
+79.168.193.67 0 1 8126 
+37.228.105.220 0 1 40307 
+131.253.26.243 0 2 2555 
+2.82.197.163 0 1 278068 
+217.129.128.235 5 25 219984 20140313211206
+195.23.11.237 11 97 958687 20140317095214
+37.228.106.134 0 1 40307 
+66.249.84.65 0 2 19796 
+208.49.156.22 0 1 37348 
+88.214.161.163 0 1 136534 
+62.28.10.236 0 2 278858 
+204.45.158.210 2 2 44128 20140313201840
+91.236.74.248 1 1 16607 20140323000930
+79.168.1.102 6 49 1430862 20140317135512
+177.155.128.34 6 49 1431660 20140328164949
+188.250.215.86 0 1 8126 
+199.30.26.171 0 1 278068 
+74.52.245.146 1 1 22064 20140320212920
+80.58.250.77 5 27 821559 20140305164421
+217.129.28.43 0 2 278858 
+93.108.28.249 0 1 9898 
+188.140.79.65 0 1 18169 
+2.82.245.21 0 1 327672 
+188.226.165.104 1 1 22064 20140330212454
+199.30.25.211 0 18 40123 
+84.91.128.213 14 93 2485098 20140314225223
+24.114.87.174 0 1 25911 
+199.30.25.108 0 1 278068 
+202.46.54.47 1 1 22178 20140331114617
+179.124.219.9 0 1 278068 
+2.81.94.155 9 53 1449608 20140325141136
+88.214.161.92 0 1 9898 
+88.161.27.235 0 1 3807331 
+199.30.20.210 5 22 215261 20140326013321
+65.55.219.136 0 1 278068 
+85.243.114.2 0 1 278068 
+82.155.55.192 2 10 40562 20140308172839
+131.253.36.196 0 1 1375 
+95.95.230.233 3 67 770379 20140315214056
+213.228.181.64 0 3 24378 
+89.155.126.202 10 30 222025 20140305232436
+83.34.104.111 5 28 222340 20140303105855
+177.106.1.143 0 1 278068 
+188.250.143.31 0 1 8126 
+84.90.41.117 0 1 611719 
+31.22.172.78 0 1 8126 
+193.136.201.106 1 35 576788 20140303104201
+193.137.47.125 7 59 1770823 20140321191025
+197.228.43.100 0 1 237347 
+84.90.160.151 0 1 9898 
+84.90.80.96 0 2 43211 
+87.196.194.246 6 50 1431825 20140305230605
+77.54.22.122 6 51 1432782 20140311232331
+186.194.39.2 0 1 46032 
+188.80.151.250 0 1 133438 
+77.54.68.20 0 1 4898 
+2.82.233.3 0 1 8126 
+85.241.5.73 9 94 898730 20140303180519
+177.96.237.31 6 49 1430862 20140318004859
+95.211.169.152 0 1 9898 
+81.84.170.74 19 115 1044096 20140331011216
+87.196.210.33 0 1 8649 
+65.55.218.42 0 1 242 
+79.157.158.230 5 28 222025 20140330121828
+5.249.5.48 0 1 2002 
+2.81.97.189 0 1 4413837 
+91.200.13.1 3 3 66192 20140312140239
+37.59.176.213 35 53 1308105 20140305121743
+188.80.20.163 0 2 733079 
+194.65.130.89 0 1 278068 
+92.85.45.56 27 30 494051 20140310024616
+187.37.186.13 0 1 28727 
+79.168.98.33 6 77 815444 20140306175544
+189.100.64.100 0 2 38788 
+93.102.13.130 0 1 64331 
+84.91.6.70 9 86 2460100 20140325230341
+144.64.100.84 10 50 222982 20140307015916
+195.23.253.148 6 49 1430862 20140318115113
+87.103.68.94 0 1 9898 
+194.65.227.139 0 1 4413837 
+2.81.176.207 0 2 3809304 
+64.7.220.230 5 5 16470 20140301051648
+95.136.17.217 0 1 8126 
+85.247.235.186 10 63 667151 20140317151119
+212.55.162.79 0 1 18169 
+213.228.163.98 3 67 770379 20140320093339
+195.245.179.94 0 1 13850 
+85.241.138.76 0 2 1009 
+188.251.31.108 0 2 108971 
+2.81.207.213 0 2 16252 
+189.78.10.171 6 49 1431660 20140318212013
+121.1.195.124 0 1 111013 
+193.127.177.2 0 2 9796 
+93.108.122.61 5 25 219984 20140304195752
+89.180.50.88 3 67 770379 20140318104810
+188.82.68.122 3 67 770378 20140312124838
+87.196.189.14 0 2 16252 
+89.155.122.25 0 5 49490 
+195.23.23.250 0 1 278068 
+119.63.193.130 4 4 88712 20140331114626
+2.80.139.36 15 55 442009 20140306170117
+188.250.236.228 1 1 1280 20140321125508
+87.103.72.96 0 1 3807331 
+41.70.201.40 0 1 30139 
+89.155.55.38 0 3 130950 
+194.156.153.10 0 2 278858 
+91.200.13.41 3 3 6460 20140320035457
+188.81.215.199 7 50 1435688 20140309115534
+5.249.101.153 5 26 220143 20140303161021
+192.81.215.7 12 17 169966 20140328200741
+82.155.250.25 0 1 8126 
+96.53.40.98 1 1 3118 20140314112830
+2.81.146.70 0 2 16252 
+217.129.240.253 0 1 4413837 
+217.129.139.93 0 1 32505 
+195.23.86.54 8 87 5337676 20140312163452
+87.103.51.80 0 1 37348 
+200.192.211.7 0 1 21186 
+2.80.3.137 0 2 16252 
+95.136.63.104 34 143 15718328 20140327114244
+92.250.62.151 5 25 219984 20140309114554
+2.80.138.162 0 1 433998 
+188.251.177.197 0 1 6696 
+83.161.213.69 0 1 8126 
+89.154.103.217 0 1 8126 
+60.246.247.238 0 1 114395 
+217.129.128.170 0 1 9898 
+217.129.214.79 8 76 2115586 20140303212052
+188.81.214.167 23 170 5731767 20140319102710
+187.13.81.91 0 1 28727 
+95.94.42.60 6 49 1430862 20140307111755
+89.155.200.107 5 25 219984 20140304231427
+148.251.11.146 1 1 4826 20140322154956
+85.241.96.221 27 28 393766 20140328143915
+131.253.26.232 0 1 1468 
+193.137.79.230 0 1 133438 
+87.196.96.189 0 1 8126 
+2.81.221.106 0 6 9898 
+180.76.5.60 0 1 1729571 
+213.22.0.160 0 2 19796 
+188.81.64.46 13 297 1676131 20140303125439
+194.65.225.29 0 1 21186 
+89.155.217.24 5 15 105601 20140307141155
+180.76.5.188 0 1 1729571 
+213.22.5.135 0 1 0 
+196.28.226.34 8 56 1444748 20140328141704
+193.137.168.197 12 45 569692 20140305162446
+187.28.39.2 6 49 1431660 20140312110402
+82.155.201.187 0 1 40307 
+2.81.114.213 0 1 4898 
+84.90.82.27 0 2 19796 
+95.69.26.176 0 1 450246935 
+178.137.160.54 7 7 16084 20140331195833
+85.241.141.17 0 1 30139 
+46.50.119.223 0 1 8126 
+94.153.64.155 18 18 537714 20140325061012
+85.243.33.5 5 71 787450 20140301221005
+178.166.8.6 5 26 221048 20140312231013
+188.80.9.11 0 1 28727 
+2.81.156.122 6 49 1430862 20140328190030
+186.93.65.57 0 1 4413837 
+2.81.157.159 0 1 8126 
+193.201.132.242 7 59 1770823 20140324173414
+213.22.4.84 11 100 5193050 20140322144200
+79.168.82.61 0 12 0 
+188.81.161.23 0 1 8126 
+113.120.102.129 3 65 768763 20140310035728
+217.129.131.83 0 2 138502 
+65.55.212.75 0 2 11497 
+79.168.235.221 1 1 4826 20140318164527
+131.253.24.141 0 1 1883 
+62.151.155.69 7 48 1321879 20140328120617
+199.30.25.32 0 1 278068 
+62.99.9.18 6 49 1431660 20140318235143
+198.50.174.237 1 1 4826 20140304005549
+89.154.16.88 4 73 758730 20140311224401
+195.23.155.217 0 1 237347 
+66.65.150.214 0 1 776818 
+37.228.105.185 0 1 40307 
+89.155.186.12 0 10 19796 
+131.253.26.223 0 1 9733 
+188.251.30.13 0 1 9898 
+188.140.79.14 0 1 9898 
+82.154.74.112 0 1 8126 
+213.22.82.241 0 1 8126 
+85.158.139.227 9 88 1026809 20140306075528
+180.76.5.223 0 2 3498817 
+5.158.22.166 0 1 9898 
+89.214.23.233 0 1 278068 
+188.57.89.163 0 2 54193 
+2.81.150.212 0 1 0 
+177.34.148.161 0 1 228159 
+2.81.186.227 5 26 220143 20140308123402
+217.129.206.138 7 43 4207082 20140321230949
+125.95.139.184 1 1 22178 20140317095136
+194.224.245.226 0 2 16252 
+188.81.1.230 3 56 552335 20140326124155
+89.180.218.6 8 92 900138 20140327174516
+89.155.220.125 0 1 8126 
+200.155.87.118 0 1 228159 
+213.141.30.28 0 1 8126 
+84.91.64.221 9 164 904874 20140313165330
+89.155.189.140 12 91 2476465 20140319170011
+157.55.230.254 0 5 49490 
+85.75.63.66 0 1 30139 
+188.21.231.110 0 2 3809304 
+89.153.169.212 0 1 8126 
+85.244.197.14 0 1 4413837 
+68.204.84.205 6 49 1431660 20140319180905
+180.76.6.147 0 1 1729571 
+217.129.28.151 0 2 9898 
+62.28.84.225 0 3 556926 
+86.98.12.133 0 1 37157 
+85.245.60.29 0 1 8649 
+189.100.144.31 0 1 278068 
+141.212.108.13 4 4 90644 20140323033103
+95.95.93.157 5 26 221048 20140308105743
+89.214.60.233 0 2 19796 
+2.81.120.16 0 2 16252 
+87.103.57.134 0 1 611719 
+2.83.212.105 0 1 37348 
+93.186.202.198 0 1 4896489 
+2.80.201.92 0 3 1504400 
+195.85.221.94 0 1 26171 
+217.129.24.121 0 7 836574 
+178.137.167.135 21 21 627333 20140320111846
+188.250.225.206 0 1 278068 
+79.168.21.212 0 1 244612 
+199.30.25.153 5 47 1425877 20140304164458
+89.155.233.22 7 84 895247 20140315172023
+37.228.106.239 0 1 40307 
+2.81.144.252 0 4 19796 
+5.158.49.98 14 102 990740 20140318201737
+188.81.65.75 8 60 1774999 20140317221151
+189.24.242.60 0 1 6696 
+85.138.158.155 0 1 8126 
+180.76.6.46 0 1 1729571 
+194.145.60.36 0 1 228159 
+85.240.201.74 0 1 8126 
+193.126.23.206 5 25 219984 20140307165606
+2.81.176.242 0 1 71623 
+62.28.248.118 0 2 16252 
+89.155.136.223 7 84 894780 20140323084953
+84.90.47.31 0 3 131893 
+106.187.49.181 2 2 8114 20140319155738
+2.82.202.47 1 1 22178 20140326115839
+37.228.106.180 0 2 80614 
+85.240.78.8 14 99 978564 20140310151700
+37.59.7.157 8 8 292932 20140320012631
+83.240.187.148 0 11 49490 
+83.240.129.13 12 145 3294620 20140318114704
+5.9.82.107 21 21 555740 20140315213059
+84.91.187.159 1 1 5886 20140303190200
+202.70.136.103 6 49 1431660 20140325013452
+2.80.217.195 0 1 30139 
+93.108.171.190 7 80 2128294 20140328103946
+78.130.63.182 5 27 221100 20140304195125
+95.93.89.179 0 4 0 
+217.129.211.197 0 1 8126 
+89.155.187.55 0 1 278068 
+81.84.245.113 0 5 9898 
+193.137.97.20 7 86 839466 20140306152152
+62.28.88.194 12 78 8366293 20140331190109
+84.91.121.138 6 49 1430862 20140304145915
+85.243.60.136 0 2 278858 
+2.81.34.254 9 83 699815 20140301002007
+87.103.74.156 6 25 6887 20140325231539
+188.251.1.10 0 1 8126 
+213.30.118.69 5 25 219984 20140305130302
+189.107.92.150 0 1 237347 
+187.137.242.109 6 31 435552 20140318225933
+131.253.26.226 0 1 7846 
+89.152.247.187 0 2 15345 
+62.28.81.94 0 2 13850 
+93.108.37.249 0 1 48443 
+177.75.197.38 0 1 278068 
+37.228.105.161 0 1 40307 
+194.65.224.150 0 1 21186 
+85.241.7.112 0 1 6696 
+89.154.148.13 5 26 221048 20140304145119
+2.83.175.55 1 1 5885 20140327185156
+91.236.74.185 1 1 16607 20140323025040
+188.80.249.34 8 100 968647 20140304181640
+31.22.148.64 7 88 868927 20140310120949
+89.155.84.32 0 1 8649 
+188.251.60.162 0 2 130271 
+201.75.26.132 12 46 570748 20140326182549
+2.83.242.158 8 84 2450249 20140325010326
+201.8.5.86 0 1 21186 
+198.100.144.55 8 8 119767 20140325122012
+37.228.107.35 0 1 40307 
+89.155.216.97 0 1 9898 
+177.96.131.186 3 4 11576 20140313221747
+2.83.240.236 7 13 20834 20140320120143
+188.82.243.101 0 1 8126 
+87.196.215.186 0 2 130271 
+195.23.91.56 7 19 87878 20140307113551
+95.69.47.48 0 1 278068 
+2.81.136.59 6 49 1431660 20140311225821
+37.190.62.26 0 3 7616635 
+192.99.9.164 1 1 4826 20140319091355
+81.84.105.161 6 86 858160 20140303144617
+186.221.85.69 7 52 1441670 20140312041025
+85.242.176.222 0 1 5824 
+77.243.53.90 0 1 20944 
+189.41.103.103 3 19 314580 20140317192424
+188.82.218.252 0 1 8649 
+188.80.147.252 5 26 821785 20140301192531
+188.251.185.14 0 3 16252 
+87.196.120.6 0 1 228159 
+93.102.0.31 0 1 30139 
+201.79.192.54 0 1 21186 
+195.23.32.98 9 81 838474 20140307104050
+184.72.148.88 1 1 22064 20140321102850
+216.185.58.158 16 103 1006624 20140320184533
+188.37.71.223 0 1 278068 
+188.37.69.37 8 83 839838 20140314005508
+87.103.57.236 0 1 9898 
+85.243.66.35 0 1 8126 
+91.236.74.156 1 1 16607 20140323023421
+174.236.104.4 0 1 15341 
+87.196.189.102 6 30 251283 20140312161422
+87.196.141.13 0 1 133438 
+192.114.71.13 28 36 112145 20140328022632
+65.55.218.33 0 2 7868 
+194.140.232.139 20 172 17858984 20140321100255
+103.31.201.159 0 1 5059061 
+88.214.162.67 0 1 9898 
+87.103.49.221 6 49 1431660 20140322012622
+180.76.5.19 0 1 1769246 
+188.250.89.192 0 2 249494442 
+204.8.156.142 6 6 114045 20140323040236
+82.155.221.201 13 90 2478496 20140317110337
+216.169.95.42 5 25 219984 20140305053756
+85.241.139.111 5 77 860032 20140302191411
+65.55.218.58 0 1 3651 
+46.25.78.190 0 1 111062 
+91.236.74.247 1 1 16607 20140323023018
+148.251.11.149 1 1 4826 20140308075143
+83.240.204.235 0 7 0 
+91.236.74.95 1 1 16607 20140323042527
+213.228.163.8 0 2 19796 
+94.252.99.69 0 1 30139 
+78.130.113.58 0 1 90486 
+2.82.64.44 0 1 228159 
+188.251.115.212 2 2 9694 20140321190445
+76.225.24.34 6 38 4850073 20140328020533
+201.6.220.23 0 1 25911 
+201.10.155.117 6 49 1431660 20140316235346
+189.21.43.6 0 1 37157 
+201.71.228.170 0 1 30139 
+82.155.195.35 1 1 4826 20140331085356
+78.130.79.242 0 1 13850 
+188.80.145.138 23 194 1131140 20140326130743
+77.54.83.80 6 34 253729 20140302181710
+84.91.33.236 5 71 785385 20140317225506
+85.243.242.239 6 48 1430703 20140307124147
+188.80.3.62 0 1 65940 
+87.196.202.60 0 1 8126 
+66.249.93.131 0 39 4179482 
+65.55.219.132 3 15 77696 20140326195312
+188.81.222.225 7 50 1435038 20140320125202
+87.103.115.158 3 67 770378 20140307110939
+78.130.63.176 0 2 278858 
+95.69.119.55 3 67 770378 20140330120504
+62.48.199.226 0 1 8126 
+213.228.152.131 24 123 7255600 20140317110443
+213.58.152.233 0 1 6696 
+85.245.48.183 0 1 188822 
+144.64.68.23 0 2 278858 
+89.155.124.126 0 1 9898 
+188.250.226.238 0 1 0 
+83.240.240.54 0 1 8126 
+188.83.65.130 5 25 219984 20140308002851
+117.78.13.18 2 2 9652 20140329101421
+103.31.200.97 0 2 10118122 
+202.46.53.38 1 1 22178 20140316204422
+87.196.254.254 6 49 1430862 20140312162144
+85.240.245.77 3 60 552695 20140305122511
+94.153.64.251 6 6 179238 20140301115438
+193.137.168.16 6 53 1455240 20140331160845
+162.251.164.30 1 1 22064 20140322073626
+8.28.16.254 3 3 47256 20140311140834
+2.81.226.186 6 49 1430862 20140312101912
+188.250.141.71 0 1 9898 
+89.155.206.4 0 1 90486 
+77.54.170.204 2 2 8262 20140310100945
+89.155.217.6 0 1 9898 
+92.250.126.47 0 1 9898 
+31.22.255.150 0 1 278068 
+87.196.159.175 0 1 9898 
+199.30.24.41 3 67 770379 20140303052116
+188.83.27.65 7 106 820031 20140317182228
+82.155.7.45 4 70 781563 20140324202734
+89.155.218.4 3 67 770378 20140309124010
+82.154.8.251 0 1 8126 
+37.228.105.177 0 1 40307 
+180.76.5.172 0 1 1769246 
+87.245.168.74 2 2 6236 20140325054419
+2.81.68.230 4 15 782353 20140310170229
+83.36.222.29 0 5 14694 
+89.181.61.158 20 108 933069 20140306152822
+2.81.150.155 10 58 1414473 20140301221842
+79.168.81.94 0 1 28727 
+191.161.211.20 0 2 108971 
+78.137.205.235 0 1 8126 
+213.30.16.74 0 6 213726 
+79.168.175.107 6 47 1429520 20140324230241
+188.81.95.10 0 2 55423 
+2.81.181.200 0 1 8126 
+180.76.5.95 0 1 1729571 
+87.196.177.244 0 2 16252 
+213.22.4.183 20 95 2140564 20140321175727
+188.80.111.218 7 56 3574442 20140304101142
+2.81.145.218 0 1 278068 
+188.140.92.189 0 1 9898 
+220.181.132.19 6 24 213705 20140319101518
+188.250.32.219 0 1 8126 
+65.55.212.85 0 1 963 
+87.103.74.174 0 2 71285 
+94.132.185.177 0 2 238975 
+2.81.147.82 0 1 278068 
+31.22.129.147 12 46 876781 20140307231245
+84.91.144.23 5 26 220143 20140303000355
+83.223.160.227 0 1 53419 
+37.228.104.196 0 1 40307 
+84.90.82.30 13 72 1597876 20140328125650
+2.81.166.57 10 30 222025 20140324001439
+188.80.161.41 0 1 9898 
+66.249.93.157 31 307 5691636 20140325143236
+62.28.13.118 14 109 946411 20140331151401
+89.155.125.120 11 65 1782118 20140313173832
+87.103.59.149 7 59 1771621 20140327135841
+41.79.124.11 0 1 40307 
+81.84.39.203 0 1 8126 
+87.196.148.6 5 25 219984 20140314085345
+84.90.143.144 7 50 1435038 20140317164557
+217.129.248.94 3 67 770378 20140321151736
+81.84.16.149 0 1 8126 
+188.251.29.46 0 1 9898 
+202.46.62.29 1 1 22178 20140321044428
+46.118.115.66 30 30 896190 20140314062653
+193.136.97.250 0 1 327672 
+85.206.51.80 1 1 4826 20140322140300
+217.129.30.54 2 14 194986 20140309213503
+217.129.133.173 0 2 733079 
+46.60.253.45 1 1 4028 20140320110027
+62.28.6.40 0 1 31461 
+187.59.158.84 0 1 278068 
+88.157.198.204 9 83 1522568 20140326180305
+201.29.207.123 0 1 5824 
+5.249.53.18 3 59 513808 20140330165803
+188.80.99.188 9 77 2124315 20140314115359
+213.30.118.99 0 3 750899 
+195.23.90.211 0 1 278068 
+93.108.182.45 0 1 278068 
+178.166.106.166 0 1 8126 
+95.211.233.206 0 1 9898 
+54.248.219.216 11 11 36234 20140331012350
+217.129.205.66 9 54 1442031 20140325021619
+188.81.86.209 20 106 2153905 20140326064914
+2.81.150.75 0 1 9898 
+85.241.91.3 5 26 220143 20140317215300
+82.154.216.117 0 4 278858 
+87.103.64.18 0 3 29694 
+2.81.5.4 0 1 21186 
+178.137.167.118 9 9 268857 20140305131634
+180.76.6.42 0 1 1769246 
+72.52.91.30 7 7 299347 20140323041143
+88.214.162.143 0 1 4898 
+89.154.73.19 0 1 3807331 
+208.43.243.244 10 10 33950 20140325060226
+2.81.138.80 1 3 2371 20140314135901
+87.103.86.223 23 80 2049548 20140326225915
+89.214.75.58 0 3 9898 
+2.81.221.230 0 1 4413837 
+82.155.42.167 0 4 278858 
+189.123.87.167 5 25 219984 20140309150109
+178.166.15.56 0 2 16252 
+213.22.1.162 11 96 7073162 20140321171219
+89.155.216.42 0 1 64331 
+95.69.104.89 0 1 30139 
+2.81.132.57 0 1 0 
+95.76.182.147 2 2 22178 20140313103100
+188.82.150.69 19 89 1991395 20140328135626
+81.193.6.59 1 17 242062 20140311010858
+65.55.218.43 0 1 24605 
+83.233.207.74 29 29 106573 20140312215939
+81.193.119.195 0 4 557716 
+2.82.71.230 5 25 219984 20140304220709
+82.155.122.108 5 60 689415 20140306170845
+178.166.47.167 0 2 65348 
+188.250.226.245 0 2 16252 
+144.64.97.180 6 35 2093656 20140306210114
+144.64.106.77 0 1 0 
+62.169.115.136 0 1 8126 
+85.88.131.196 0 6 0 
+216.38.216.101 2 17 156546 20140325224026
+93.102.240.53 4 4 12579 20140324183249
+84.91.128.184 0 8 19796 
+82.155.238.133 0 1 8126 
+91.236.74.96 1 1 16607 20140323033914
+212.55.161.166 0 1 21186 
+88.214.165.79 0 1 9898 
+37.228.105.43 0 2 80614 
+155.91.64.11 0 2 1009 
+201.67.168.199 16 155 1835600 20140305172342
+2.81.28.139 0 1 278068 
+93.102.130.149 0 1 9898 
+87.196.170.57 0 18 0 
+82.155.142.153 0 3 9418385 
+195.83.178.120 6 38 2735196 20140322182957
+2.81.127.196 6 50 1431926 20140318085859
+62.28.186.2 0 1 6696 
+157.55.43.26 1 5 281584 20140328180203
+98.139.243.182 0 1 228159 
+66.249.85.93 0 1 8126 
+188.250.140.179 6 17 149868 20140305133609
+65.55.218.49 0 1 1468 
+193.137.231.89 1 1 5885 20140312121720
+2.82.202.73 0 1 8126 
+85.247.131.201 0 1 8126 
+200.232.194.22 0 1 22025 
+2.83.168.204 0 2 254263 
+217.129.29.121 0 4 0 
+87.103.49.171 0 1 9898 
+209.131.39.51 1 2 23214 20140326162732
+195.23.86.222 3 67 770378 20140314114124
+188.80.101.37 0 1 0 
+188.82.240.162 0 15 49490 
+89.152.103.176 5 26 220143 20140307193415
+83.240.154.174 0 1 228159 
+84.91.40.86 10 87 2464926 20140313022553
+89.155.214.220 0 16 84127 
+188.83.5.145 0 2 16252 
+202.46.63.56 1 1 4744 20140319222553
+85.139.121.2 0 1 1009 
+180.76.6.150 0 1 1769246 
+172.240.93.146 0 12 14241396 
+82.192.74.233 27 27 436047 20140303181723
+180.76.5.61 0 1 427252 
+2.81.141.241 0 1 37348 
+189.3.90.130 0 2 46258 
+88.214.165.237 0 1 9898 
+188.82.105.189 0 1 641061 
+2.83.208.46 0 2 77591 
+89.153.128.20 6 39 1589017 20140322230331
+193.137.168.233 18 105 4631471 20140313161757
+178.166.78.38 0 1 4413837 
+2.81.154.241 0 1 48167 
+196.46.9.140 0 1 114395 
+213.133.97.216 1 1 0 20140321112541
+188.83.210.136 13 99 2871416 20140331224108
+95.69.75.114 0 1 228159 
+188.81.36.121 0 1 278068 
+83.240.187.150 0 4 0 
+78.130.101.68 0 1 9898 
+91.236.74.121 0 1 5059061 
+217.115.199.156 3 3 9882 20140304102620
+191.179.104.159 0 1 278068 
+144.64.93.36 0 1 8649 
+213.228.140.2 11 149 2246671 20140313134445
+77.54.236.31 0 2 16252 
+84.91.65.157 14 84 2122837 20140312112350
+87.196.9.68 1 5 281588 20140310214528
+2.81.209.11 0 1 9898 
+84.90.88.26 32 219 14856509 20140331175459
+89.152.78.66 0 4 9796 
+87.196.170.47 0 1 278068 
+65.52.246.161 0 1 437194 
+85.246.141.151 0 1 8126 
+82.155.131.50 0 1 4413837 
+87.103.72.130 0 2 4898 
+217.129.139.124 8 58 3308977 20140326000619
+209.63.10.178 6 38 2232090 20140312200010
+84.91.35.56 0 1 13850 
+93.108.233.145 0 1 114395 
+62.28.6.64 0 1 9898 
+89.153.128.72 0 1 8126 
+38.99.82.229 8 34 220748 20140326223134
+37.228.107.70 0 1 40307 
+23.92.215.6 1 1 22064 20140314000206
+189.79.84.223 0 1 21186 
+5.248.80.107 30 30 896190 20140330180805
+199.30.228.144 0 2 4530 
+198.7.58.151 0 1 13850 
+89.155.203.197 0 2 19796 
+46.60.253.40 2 2 8056 20140318221831
+62.28.191.238 2 3 14677 20140307153518
+82.155.143.221 0 1 9898 
+2.81.137.163 0 1 9898 
+95.93.56.120 0 1 8126 
+189.78.174.221 0 1 21186 
+91.227.100.17 3 68 778505 20140320122318
+95.136.76.86 9 146 910484 20140302235944
+88.214.164.209 0 1 611719 
+82.155.158.134 6 77 816608 20140318193544
+62.210.152.235 6 16 189165 20140317155701
+213.13.115.95 3 67 770379 20140315123938
+2.81.136.123 0 1 71623 
+176.9.50.43 1 1 3240 20140319181311
+103.23.135.130 0 2 1845426 
+78.130.68.21 0 1 9898 
+87.103.13.105 0 1 9898 
+2.80.247.60 0 1 18913 
+46.119.119.21 12 12 358476 20140314084158
+2.83.22.220 5 26 220143 20140324230517
+81.84.224.138 0 1 8649 
+95.136.61.148 0 1 8126 
+109.48.41.238 11 86 896316 20140306232333
+89.152.184.159 6 48 1429679 20140311095809
+109.51.86.181 0 1 4413837 
+46.60.253.33 33 33 132924 20140327054241
+2.83.73.25 5 26 220143 20140309172125
+199.30.228.152 0 1 1375 
+2.82.133.215 3 67 770379 20140301163011
+2.81.1.237 0 1 32674 
+62.28.4.74 0 1 111976 
+199.30.20.219 0 4 5124 
+87.196.220.143 4 5 14183 20140319230940
+189.41.82.188 2 15 449586 20140317192421
+85.243.130.27 0 2 16252 
+178.137.165.237 1 1 165414 20140307145659
+84.91.7.136 0 1 9898 
+176.31.100.209 1 1 4826 20140317151508
+194.65.43.210 13 105 1029126 20140306193721
+188.80.106.88 8 53 1441904 20140310162801
+37.228.106.102 0 1 278068 
+201.20.106.178 0 1 31944 
+94.132.109.55 0 1 31944 
+178.137.82.209 18 18 537714 20140310115001
+148.251.11.133 1 1 4826 20140307203010
+89.155.129.196 6 55 922227 20140302232738
+79.168.10.203 6 36 3954136 20140327211823
+2.80.223.152 6 34 3844127 20140311171731
+87.103.74.100 0 1 9898 
+37.28.204.58 0 1 28989 
+84.91.103.96 3 67 770379 20140310225052
+37.55.109.245 1 1 1207 20140312014943
+5.249.39.40 0 2 16252 
+82.155.6.168 0 4 1942262 
+194.65.229.46 0 1 228159 
+37.228.107.97 0 1 40307 
+80.59.62.89 0 2 16252 
+193.137.97.191 3 67 770379 20140320163944
+78.137.234.101 25 95 3318096 20140325231337
+134.249.48.152 23 23 687079 20140321181614
+95.136.19.61 0 1 9898 
+157.55.230.158 0 13 118674 
+81.84.157.203 11 217 2285928 20140307165414
+66.249.80.45 2 49 486897 20140325092045
+188.251.74.219 9 83 817075 20140321150028
+188.251.61.32 0 1 9898 
+147.67.241.226 6 130 1359553 20140325092818
+37.228.106.249 0 1 0 
+177.59.128.211 6 24 213705 20140331180041
+89.154.121.114 0 1 30139 
+60.180.52.220 8 146 1631473 20140319100828
+208.115.113.89 26 26 432583 20140331215733
+193.126.159.39 5 25 219984 20140306191827
+95.92.38.40 0 1 8649 
+154.68.55.132 0 1 5059061 
+157.56.122.218 0 4 55400 
+85.243.112.42 0 1 8126 
+83.240.209.141 0 1 8126 
+144.64.122.177 3 67 770378 20140324123058
+93.102.143.215 0 1 9898 
+77.54.228.120 14 76 1659244 20140306140528
+88.214.180.123 5 26 220143 20140303165247
+89.153.128.34 6 53 1964886 20140327184547
+85.240.130.244 0 1 8126 
+89.152.71.87 0 2 19796 
+187.41.16.205 0 1 278068 
+37.115.113.132 3 3 89619 20140317073007
+199.30.25.51 0 21 65863 
+66.249.88.194 0 1 278068 
+192.81.219.93 11 16 165140 20140330234933
+88.157.128.86 0 1 278068 
+85.214.25.242 1 1 22064 20140311013718
+62.169.66.149 0 3 5101353 
+96.44.189.101 17 17 391219 20140323043716
+2.82.115.184 0 2 278858 
+2.81.119.124 0 1 8126 
+89.181.247.95 11 89 2469958 20140328135152
+93.102.233.160 27 120 1190491 20140319151852
+37.228.105.124 0 1 40307 
+95.69.23.145 6 49 1431767 20140327135004
+199.30.25.17 2 7 38478 20140331214907
+94.133.250.110 0 3 285584 
+208.55.161.107 11 11 36234 20140331113200
+188.80.110.166 20 66 1438899 20140320164751
+89.214.48.24 5 79 821936 20140316152641
+93.102.132.110 0 1 278068 
+95.95.122.58 0 1 32505 
+2.83.242.252 0 1 4413837 
+193.136.124.164 3 59 480604 20140317184459
+98.101.110.210 2 2 38192 20140304114304
+85.246.123.160 10 78 2129141 20140331185147
+188.37.55.156 6 72 791263 20140330201747
+2.81.138.9 0 1 8126 
+87.196.227.221 18 110 8346758 20140307100129
+178.166.16.138 0 1 30139 
+189.105.172.121 3 58 455489 20140320144900
+179.192.2.35 0 1 8726 
+177.103.230.160 0 1 28727 
+87.103.74.47 0 1 9898 
+188.81.212.204 8 56 1479966 20140315225844
+65.55.218.41 1 1 5885 20140327115655
+2.82.239.108 5 26 221048 20140323002833
+217.129.227.73 0 1 8126 
+88.214.167.201 0 1 4898 
+91.236.75.124 2 2 33214 20140326032521
+2.83.105.249 0 1 8126 
+82.155.127.85 0 2 278858 
+81.84.156.141 4 76 788834 20140331131202
+188.251.30.142 0 1 9898 
+180.76.5.65 0 1 1769246 
+60.7.155.168 1 1 22178 20140307023023
+84.90.82.114 6 49 1430862 20140315235039
+85.246.246.199 5 26 220143 20140309000046
+188.251.45.153 0 1 8126 
+2.81.139.186 0 1 0 
+95.92.54.75 0 2 15345 
+194.65.227.59 0 1 65940 
+93.102.154.181 8 89 5991116 20140302153739
+23.92.21.42 1 1 4057 20140319124622
+188.80.104.139 0 2 19796 
+213.55.184.140 11 52 1432339 20140310112525
+2.81.96.53 0 1 4898 
+179.192.247.16 0 2 42372 
+46.50.72.11 0 1 611719 
+189.125.130.2 0 1 71623 
+180.76.6.140 0 1 1769246 
+194.65.227.166 0 2 41782 
+79.168.204.177 0 1 8649 
+177.0.239.211 6 51 439268 20140313170254
+194.38.128.128 0 1 37348 
+199.30.18.215 3 13 60732 20140302124008
+213.205.83.82 11 71 1299770 20140328170652
+200.141.216.142 0 1 159730 
+192.151.156.248 28 31 516115 20140328051148
+172.240.93.82 0 6 358212 
+93.108.176.65 7 74 2110288 20140311114031
+177.44.125.242 0 1 21186 
+62.169.86.133 0 2 3809304 
+188.37.80.181 0 1 58055 
+178.166.127.184 0 1 9898 
+95.94.123.228 0 1 48443 
+92.106.25.127 6 49 1431660 20140324173814
+203.122.193.116 6 49 1430862 20140312214032
+82.154.155.113 0 1 8126 
+94.153.65.111 3 3 89619 20140323025206
+74.92.53.37 6 6 24168 20140325104328
+177.140.168.148 6 49 1431660 20140317183116
+2.81.126.108 0 1 456415 
+85.247.21.26 1 1 3241 20140307223752
+89.155.49.205 5 27 221100 20140329125823
+88.214.181.206 0 3 146319 
+82.155.201.246 0 1 40307 
+188.81.4.3 10 86 836217 20140318214334
+188.82.212.104 10 191 1473144 20140331174348
+77.54.13.55 0 1 4413837 
+88.214.167.105 0 1 0 
+89.155.215.187 0 3 29694 
+89.181.158.164 0 1 8126 
+89.155.157.162 6 48 1430703 20140317224829
+208.90.57.196 1 1 22064 20140328090047
+178.166.23.34 14 87 4396841 20140328145519
+62.28.14.126 12 62 1442190 20140313073937
+87.103.41.124 0 1 30139 
+85.243.173.140 0 1 8126 
+5.249.18.91 0 1 8649 
+84.90.149.192 14 94 6306374 20140325160120
+213.30.22.86 0 1 8126 
+131.253.24.131 0 1 652 
+82.154.22.6 33 46 1131723 20140319123922
+2.81.157.124 0 5 108899 
+82.154.145.142 10 91 4369465 20140328131541
+87.103.57.215 0 1 9898 
+85.240.234.142 0 1 8126 
+188.82.2.52 0 1 8126 
+88.210.82.57 0 6 19796 
+199.30.24.32 5 25 219984 20140313113743
+194.38.144.4 0 1 8126 
+41.142.243.101 11 65 3464983 20140330232948
+193.126.165.75 0 2 278858 
+37.228.105.240 0 1 0 
+177.158.5.154 0 1 228159 
+188.83.208.195 6 49 1430862 20140326004241
+83.240.165.30 0 1 8649 
+83.223.226.99 7 50 1435038 20140326202010
+217.6.3.82 11 93 2456232 20140331160326
+186.241.59.78 0 1 21186 
+78.52.13.106 7 50 1435038 20140317143521
+80.78.9.34 6 42 564830 20140313085930
+103.31.200.170 0 1 5059061 
+151.250.213.193 0 1 111976 
+177.83.29.104 6 49 1431660 20140330214620
+94.153.65.49 20 20 597460 20140309225214
+188.251.31.172 14 69 4194869 20140321105756
+88.157.193.114 6 50 1431825 20140313160009
+193.126.23.64 6 49 1430862 20140318193504
+95.69.62.119 0 1 9898 
+81.84.160.49 10 83 834498 20140311095332
+37.28.225.219 17 60 5483692 20140327235738
+62.28.157.236 7 89 932228 20140303172026
+188.80.242.122 13 72 2105801 20140322112913
+188.82.243.131 5 25 219984 20140309202628
+177.106.97.247 6 49 1431660 20140329153833
+2.81.69.31 0 1 8126 
+95.69.11.162 0 1 8126 
+78.248.86.75 8 59 2801134 20140319202046
+2.81.28.72 0 4 39592 
+213.58.224.193 11 68 2176418 20140324102219
+5.9.152.10 21 21 555740 20140309115256
+37.228.104.183 0 1 40307 
+194.79.89.96 0 1 8126 
+79.183.67.17 6 49 1430862 20140310132607
+81.39.206.102 28 31 515469 20140301091839
+213.30.1.42 0 1 8649 
+83.89.195.186 1 1 3118 20140314210358
+179.185.81.50 0 1 31465 
+109.48.95.32 6 56 923742 20140311101900
+62.48.191.253 4 68 776263 20140328172808
+85.241.173.220 0 1 1243711 
+83.193.193.3 0 1 90486 
+217.129.139.74 0 2 16252 
+87.103.74.60 7 15 11713 20140305222216
+89.155.100.160 0 1 8126 
+95.136.86.130 2 2 44128 20140324224234
+188.83.241.14 5 85 828474 20140320102313
+65.55.212.74 0 1 756 
+37.228.107.190 0 1 0 
+188.250.212.14 5 28 222340 20140311152632
+188.250.142.246 0 3 29694 
+194.65.224.233 0 1 611719 
+131.253.24.156 1 1 407 20140327115721
+201.9.154.60 0 1 228159 
+89.155.187.79 6 35 6746067 20140303163543
+109.48.175.182 0 1 4413837 
+188.81.33.11 5 76 810719 20140324141511
+199.30.228.142 0 1 7846 
+65.55.217.237 4 14 159403 20140302124017
+85.246.159.37 6 75 822527 20140318174302
+88.214.166.8 0 1 9898 
+65.17.27.234 12 12 48336 20140331234151
+65.55.211.245 0 1 7107 
+62.28.82.77 0 2 9898 
+89.180.99.248 0 1 8126 
+87.103.68.205 6 50 1431819 20140318130244
+82.155.53.108 0 2 19796 
+85.240.136.106 0 2 78620 
+95.93.41.182 0 1 8126 
+94.133.181.74 0 1 32729 
+66.249.81.131 0 15 7743336 
+80.30.83.156 0 4 39592 
+14.139.120.140 0 1 5513 
+193.126.142.152 5 25 219984 20140307200736
+177.134.236.191 0 1 228159 
+2.81.137.198 0 1 13850 
+180.76.6.66 0 1 1769246 
+202.46.49.16 1 1 22178 20140307025233
+85.242.152.69 7 80 806980 20140320202440
+2.81.124.122 6 50 1431825 20140328113245
+66.249.85.194 1 2 4985 20140325194911
+65.55.217.217 3 14 437447 20140326195315
+199.30.16.101 4 61 481180 20140309095418
+64.79.89.130 1 1 22064 20140328175523
+46.118.127.178 12 12 358476 20140314230241
+81.193.119.230 0 1 278068 
+108.59.11.79 0 1 9898 
+213.30.118.67 0 1 8126 
+194.65.37.71 5 27 228269 20140319144632
+189.126.59.117 0 1 228159 
+194.209.132.116 12 273 1478817 20140325093430
+89.155.215.59 5 25 219984 20140306230635
+217.129.28.34 5 25 219984 20140310210037
+93.186.202.244 0 1 82316 
+188.80.101.108 0 1 9898 
+62.28.186.242 3 67 770379 20140303143414
+188.80.33.104 0 1 8126 
+179.200.100.215 5 21 123131 20140330151832
+83.240.235.238 0 1 8126 
+2.81.9.124 0 2 16252 
+54.193.79.49 1 1 22064 20140311123300
+87.103.64.136 0 1 9898 
+194.79.66.193 5 26 221048 20140314162414
+109.69.5.39 0 1 15341 
+85.240.139.2 0 2 16252 
+188.251.29.53 7 51 1440713 20140307003004
+2.81.131.20 0 2 19796 
+5.43.53.101 0 2 23748 
+85.240.187.77 0 2 278858 
+77.54.73.13 0 1 0 
+84.75.2.22 0 1 20891 
+89.180.216.237 0 1 8126 
+62.28.238.4 2 4 276009 20140319094412
+85.244.113.123 5 26 220143 20140312161136
+194.79.70.206 0 6 106863 
+194.145.60.35 0 1 8126 
+194.114.62.125 4 6 93760 20140331222415
+189.33.105.113 0 1 278068 
+2.83.140.244 0 1 8126 
+95.94.87.4 3 67 770379 20140310151313
+94.153.64.83 21 21 627333 20140320200615
+37.228.106.167 0 1 40307 
+188.83.12.22 21 82 3780599 20140331234504
+87.103.74.140 6 17 6887 20140307201940
+94.132.187.114 0 12 2806617 
+82.155.142.143 0 2 9898 
+85.242.125.158 0 1 13850 
+89.109.116.218 0 3 22041 
+91.236.75.106 3 3 49821 20140331043358
+2.83.41.202 0 1 6696 
+62.48.154.39 4 93 1065002 20140318102954
+220.181.127.14 2 2 44356 20140320120323
+46.60.253.46 5 5 20140 20140331145525
+194.65.103.1 0 1 3807331 
+2.81.122.49 9 53 1449715 20140310233201
+85.247.189.203 4 86 535695 20140301080208
+186.237.87.151 0 1 5824 
+82.155.142.247 0 1 8126 
+85.138.163.191 0 4 1251331 
+84.90.163.148 8 10 17048 20140329104722
+88.214.166.71 0 2 19796 
+37.228.104.95 0 2 80614 
+2.81.110.41 0 1 8126 
+82.155.43.155 6 50 1431819 20140324185300
+62.28.71.74 0 1 278068 
+66.249.82.235 0 1 8126 
+62.28.65.90 5 26 221048 20140310192441
+62.28.237.170 8 21 2724433 20140325093814
+79.169.76.28 0 1 8126 
+89.155.48.25 7 32 256572 20140310090110
+178.166.21.68 3 62 578351 20140303163409
+188.250.38.253 0 1 8126 
+62.28.247.119 0 2 278858 
+5.249.93.19 0 2 19796 
+89.155.86.17 3 67 770379 20140303151505
+213.58.193.201 8 52 1444889 20140326115208
+2.80.147.143 4 77 813307 20140304234151
+213.68.238.113 4 4 6548 20140321195630
+24.245.103.3 0 1 90486 
+188.250.213.241 5 74 819196 20140304172227
+188.82.120.135 6 50 1431819 20140312172804
+193.136.201.119 3 67 770378 20140328164259
+85.247.129.46 0 1 8126 
+2.83.241.228 0 1 40307 
+94.132.186.106 5 26 220143 20140309231405
+95.95.183.137 11 103 924615 20140307123655
+81.13.190.37 0 1 611719 
+208.120.20.72 6 49 1430862 20140330214728
+177.43.4.148 0 1 28727 
+188.80.97.175 1 1 6924 20140319160429
+188.80.208.169 0 1 278068 
+62.28.172.42 0 1 8126 
+199.30.24.223 0 20 43608 
+144.64.106.157 0 1 133438 
+199.30.228.146 0 1 2002 
+188.80.96.44 0 1 291739 
+46.50.96.4 0 1 278068 
+79.169.197.209 5 26 221048 20140307141425
+185.30.177.25 1 1 22064 20140305125342
+66.249.81.157 18 117 5784437 20140325194703
+85.242.243.156 0 2 15345 
+213.30.118.66 5 25 219984 20140312223031
+89.154.21.84 8 139 830673 20140312223401
+85.243.165.52 0 1 30139 
+95.69.31.37 0 7 0 
+2.81.173.77 0 2 9796 
+84.90.24.143 0 1 8126 
+89.221.172.162 0 1 53419 
+84.90.162.11 0 1 8126 
+188.80.242.174 13 78 2115701 20140312220218
+84.90.176.247 0 1 8126 
+85.244.136.29 8 79 815064 20140306193248
+188.82.241.169 0 5 49490 
+194.65.37.72 10 172 921805 20140328151619
+91.236.74.186 1 1 16607 20140323100832
+195.23.61.1 6 32 252752 20140324174007
+201.63.35.70 0 1 133438 
+199.30.20.234 0 5 6311 
+144.64.61.32 6 48 1446917 20140311185612
+188.250.90.149 0 1 22025 
+193.126.143.168 36 585 2734708 20140314001949
+5.249.44.97 6 77 816604 20140309182839
+188.37.72.202 0 2 37761 
+188.83.53.228 0 1 164113 
+90.174.2.21 0 1 15341 
+85.49.210.54 28 31 515469 20140302034102
+89.153.189.115 0 2 3809304 
+82.155.120.205 8 61 1780674 20140327022117
+93.108.136.124 0 1 6696 
+77.54.150.232 3 67 770378 20140314132200
+213.30.73.73 0 1 278068 
+92.249.127.111 30 30 896190 20140314051635
+180.76.5.59 0 1 1769246 
+50.57.124.244 11 11 36234 20140328054723
+85.138.122.196 0 1 8126 
+157.56.122.217 0 6 59388 
+188.80.102.205 0 1 17447104 
+198.23.152.238 2 2 2832 20140307113957
+82.155.123.8 6 42 1096199 20140317170808
+178.166.52.183 0 1 8126 
+37.228.107.49 0 1 40307 
+46.118.124.80 18 18 537714 20140321125424
+82.154.19.205 33 46 1131723 20140321103423
+2.81.135.125 7 52 1441676 20140326095921
+208.43.251.180 10 10 39731 20140320173129
+37.228.105.213 0 1 40307 
+37.216.14.246 0 1 22025 
+95.94.99.57 0 1 21186 
+85.240.175.244 5 71 787444 20140310212733
+144.76.34.109 1 1 3240 20140319191308
+85.158.138.21 15 109 1217446 20140327124629
+82.155.231.79 5 26 221048 20140305232447
+95.92.146.74 1 1 4826 20140308172313
+2.81.125.68 0 1 64331 
+87.196.101.171 0 1 278068 
+91.236.74.198 1 1 16607 20140323051710
+89.154.72.79 5 24 218801 20140331142141
+188.80.47.181 0 1 37348 
+62.28.0.79 5 28 222025 20140325122823
+2.81.2.151 0 1 278068 
+117.78.13.29 1 1 4768 20140301225213
+95.136.23.34 0 1 37348 
+5.43.8.150 12 73 1437729 20140310201012
+93.108.177.66 0 2 16252 
+68.115.233.226 3 3 9882 20140329013717
+188.81.215.29 6 30 250505 20140310141736
+78.130.7.248 5 76 810719 20140325215352
+199.30.24.83 0 2 2185 
+194.79.64.90 0 2 16252 
+89.155.200.163 0 1 133438 
+123.136.131.194 0 1 278068 
+85.139.240.164 0 2 16252 
+85.242.81.225 0 1 6696 
+2.83.243.176 0 1 9898 
+89.109.104.224 3 59 480603 20140305175821
+2.81.163.129 10 48 222184 20140320164332
+188.93.195.14 0 2 15345 
+188.82.240.108 10 93 5123017 20140331162749
+188.81.213.90 6 47 1347661 20140302000332
+95.95.188.41 3 67 770378 20140325222030
+84.90.26.105 0 1 8126 
+89.212.57.169 1 1 22064 20140318202108
+89.155.188.153 0 1 611719 
+89.154.214.41 17 101 934403 20140306123101
+65.55.212.73 0 1 1375 
+79.168.51.68 9 101 986806 20140329163705
+89.155.196.254 3 67 770379 20140310175606
+96.127.158.50 2 2 30788 20140306132214
+89.155.55.84 0 4 39592 
+199.168.136.209 12 48 426016 20140323022243
+177.16.213.22 0 1 228159 
+208.115.111.73 16 16 228717 20140330043437
+188.80.109.224 7 49 4929945 20140309213132
+179.216.141.214 0 2 456318 
+57.68.49.133 20 94 2739614 20140311140839
+81.193.123.202 0 1 6696 
+85.158.139.228 4 5 90301 20140306091312
+194.65.31.9 32 345 9726723 20140308181831
+83.240.240.94 0 4 3809304 
+88.214.161.67 0 1 30139 
+92.53.113.76 1 1 3118 20140321103022
+95.94.210.250 4 69 775517 20140302110907
+87.103.66.171 20 97 3829070 20140308230443
+90.187.31.165 0 1 278068 
+94.46.143.167 7 84 1392776 20140305181335
+87.196.46.199 11 96 4450467 20140312180113
+2.83.48.86 0 1 228159 
+78.130.46.210 0 1 9898 
+201.89.245.123 6 49 1431660 20140323235751
+189.58.10.254 0 1 42511 
+177.5.218.27 0 1 452590 
+41.63.167.79 0 1 4413837 
+113.172.10.170 0 1 662293 
+89.155.138.54 0 1 8649 
+95.69.126.112 0 2 16252 
+188.83.11.105 0 1 118 
+87.196.59.193 0 1 8126 
+188.80.156.161 10 79 844012 20140303140053
+188.80.180.182 4 70 781564 20140319145107
+192.241.205.235 1 1 22064 20140327155714
+87.103.60.198 9 89 4337139 20140322170304
+65.55.218.62 0 1 4421 
+87.103.114.125 0 2 278858 
+89.154.120.90 5 26 220143 20140310111324
+89.214.74.10 0 5 19796 
+87.196.164.28 0 78 39592 
+89.214.108.17 0 1 21186 
+188.80.236.164 6 49 1430862 20140310141741
+89.155.166.112 0 1 8126 
+79.168.50.103 6 91 793327 20140329052653
+85.247.220.37 0 1 8649 
+83.240.209.127 0 1 8126 
+88.214.165.6 0 1 9898 
+87.196.116.110 6 48 1429679 20140319191958
+84.91.121.171 0 1 278068 
+31.22.156.203 0 1 8126 
+134.249.76.140 16 16 477968 20140307033452
+131.253.36.205 0 1 4421 
+65.55.212.84 0 1 2149 
+95.69.39.23 0 1 278068 
+188.82.191.19 0 6 59388 
+213.22.3.214 0 1 8126 
+2.82.8.31 11 183 610145 20140318203915
+2.81.151.163 0 1 9898 
+41.223.41.79 0 1 23289 
+84.18.247.66 0 1 8126 
+89.123.28.70 1 1 22064 20140309185848
+213.63.130.193 15 99 892475 20140321105728
+87.196.176.76 0 1 9898 
+62.169.66.5 0 1 8126 
+188.251.197.46 0 1 8126 
+82.102.31.193 6 42 564830 20140306162128
+84.90.87.20 0 1 6696 
+188.81.133.3 0 1 25284 
+213.30.118.68 0 4 914583 
+62.169.86.132 0 1 111013 
+217.129.131.110 0 1 8126 
+82.155.136.136 6 86 900112 20140316012301
+188.80.105.241 0 1 9898 
+77.54.12.66 0 1 9898 
+193.136.44.65 0 12 19796 
+37.228.107.218 0 1 40307 
+213.22.40.232 0 1 25911 
+85.245.81.48 0 1 278068 
+165.72.200.11 0 3 7614662 
+93.159.230.28 4 38 325011 20140308061459
+109.50.227.45 0 1 62048 
+84.91.69.169 16 108 1008909 20140309142459
+37.228.104.103 0 1 40307 
+85.243.47.68 0 1 237347 
+2.82.251.129 0 1 0 
+199.30.24.134 5 47 1425877 20140320092838
+2.81.222.190 5 72 812055 20140302160231
+93.102.23.124 0 1 963 
+213.58.139.35 0 2 556136 
+88.214.161.73 0 1 111013 
+217.129.184.193 0 1 8649 
+62.48.197.54 0 1 8649 
+46.60.253.35 6 6 24168 20140331041519
+46.4.113.114 1 1 3114 20140322082350
+46.165.212.109 30 48 1285440 20140309154214
+2.80.204.124 0 1 8126 
+177.35.168.86 0 2 42372 
+37.228.104.19 0 1 40307 
+5.249.35.2 3 67 770378 20140328184438
+217.129.216.61 3 67 770378 20140328000821
+180.76.6.57 0 2 2156823 
+188.80.111.193 29 119 5187928 20140314121108
+188.250.182.73 0 1 28727 
+108.61.90.131 4 4 88256 20140311102314
+188.80.107.51 5 36 259735 20140313100007
+188.250.194.240 0 1 21186 
+131.253.26.248 0 1 5765 
+63.141.248.27 2 2 51937 20140325015533
+188.82.248.242 12 107 961144 20140331231658
+84.91.151.241 0 2 1523 
+2.81.98.30 0 1 51279 
+205.244.126.142 11 11 36234 20140330024231
+187.3.119.190 0 1 6696 
+201.33.245.96 0 1 278068 
+217.86.196.40 7 7 33782 20140322025314
+82.154.123.207 1 1 5885 20140304215601
+112.209.51.170 0 1 18913 
+188.140.21.113 0 1 9898 
+188.80.99.52 0 2 278858 
+188.80.100.108 0 32 74211024 
+79.168.218.65 0 1 8126 
+188.250.212.183 0 1 64331 
+188.80.97.62 5 25 219984 20140308214116
+146.120.166.238 1 1 16223 20140320094911
+65.55.218.34 0 1 963 
+41.251.152.36 0 1 23289 
+188.37.6.137 0 1 30139 
+194.65.227.223 0 1 8126 
+199.30.24.207 0 24 60553 
+5.249.74.147 0 1 13850 
+46.50.32.51 0 2 0 
+213.30.84.118 10 98 4918049 20140317174654
+83.240.243.82 0 1 278068 
+95.23.198.185 0 1 93946 
+85.245.209.114 0 1 8126 
+81.193.78.132 6 50 5844699 20140318192846
+201.77.122.18 0 1 5824 
+82.211.83.70 0 1 9898 
+89.153.192.112 5 71 787442 20140327151437
+90.184.87.44 4 4 16112 20140327162027
+87.103.64.4 6 28 7850 20140326223648
+212.0.161.140 3 67 770378 20140308170207
+77.233.250.205 8 8 32224 20140325010116
+2.83.21.251 0 1 8126 
+217.129.130.78 0 1 8126 
+213.22.59.139 0 1 21186 
+201.11.215.125 0 1 65940 
+62.28.28.2 14 67 1807315 20140321171453
+188.37.94.187 0 2 278858 
+180.76.5.187 0 1 1729571 
+46.246.32.23 1 1 4734 20140320215427
+85.247.150.133 0 1 8126 
+188.80.100.27 0 5 69250 
+2.81.159.211 4 68 12581 20140301134421
+217.129.135.136 0 1 4413837 
+81.193.246.128 13 288 1013349 20140328093921
+109.255.162.169 0 1 90486 
+85.242.30.154 0 1 31944 
+95.69.78.35 0 3 0 
+85.240.143.101 0 1 8126 
+2.81.210.1 0 1 118 
+62.169.66.150 0 2 18024 
+77.54.20.240 0 1 32674 
+2.81.131.171 10 78 6425561 20140317193829
+178.166.61.233 0 2 278858 
+87.103.57.16 6 11 6433 20140304171542
+213.30.57.86 10 89 885381 20140326195957
+31.22.140.152 0 1 9898 
+95.95.254.58 0 1 133438 
+62.28.102.210 0 1 135070 
+188.81.74.32 0 2 278858 
+199.15.233.139 1 1 21741 20140303065518
+199.30.25.161 0 1 4413837 
+70.72.240.218 2 2 8056 20140323204818
+202.46.49.13 1 1 22178 20140317124517
+95.55.122.52 0 1 228159 
+78.137.4.249 1 1 4057 20140302022650
+195.245.179.98 0 1 8126 
+213.228.140.138 0 1 9898 
+188.81.12.221 3 67 770378 20140324222728
+119.63.193.196 1 1 22178 20140321044439
+83.240.187.234 0 4 0 
+200.204.35.127 0 4 246503 
+199.193.117.38 0 1 0 
+93.108.140.190 0 1 8126 
+195.242.218.133 18 18 537714 20140329103042
+178.72.252.117 0 2 217806 
+177.106.10.146 0 1 278068 
+178.166.84.58 18 94 236976 20140328113948
+131.253.36.200 0 1 756 
+65.55.218.39 1 1 5885 20140328000504
+193.126.157.197 0 1 8126 
+79.169.70.205 6 49 1430862 20140310120933
+81.193.248.239 0 3 556926 
+81.84.231.196 0 1 8726 
+213.228.163.5 5 26 220143 20140325103212
+142.91.199.178 0 12 5295963 
+148.251.69.136 0 1 35616 
+89.155.176.41 0 1 31461 
+199.30.20.227 8 30 270468 20140327155124
+188.82.73.227 0 2 16252 
+95.94.49.101 0 1 6696 
+213.30.12.6 0 1 8126 
+217.129.243.238 17 110 8513198 20140329154321
+91.236.74.119 1 1 16607 20140323052720
+89.152.14.46 7 79 825307 20140304173333
+78.130.35.224 18 76 5934228 20140329225410
+94.75.244.176 0 1 9898 
+46.50.24.131 0 1 21186 
+188.82.110.66 0 1 8649 
+109.48.113.112 0 1 8649 
+198.245.61.43 3 3 6460 20140319225718
+89.153.170.215 14 188 865981 20140316141210
+2.82.248.188 5 26 221048 20140306092759
+89.154.105.248 4 70 781563 20140321143640
+116.39.92.155 1 1 16337 20140326134349
+188.82.171.20 7 81 833030 20140330200709
+189.28.206.105 10 24 329567 20140308024056
+62.169.120.54 7 50 1435038 20140325151354
+79.168.6.254 0 1 37348 
+89.155.61.131 0 1 8126 
+2.82.69.15 0 1 278068 
+188.251.190.197 0 1 0 
+83.240.176.169 0 2 278858 
+194.65.234.120 3 67 770378 20140312132921
+85.246.249.165 5 78 861145 20140327001725
+46.118.112.15 36 36 1075428 20140330232620
+65.55.218.45 0 1 21437 
+5.249.24.91 0 1 8126 
+179.101.134.202 0 1 37157 
+85.243.196.253 0 1 8726 
+2.81.188.4 6 49 1431660 20140327214307
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140301 251 967 32188854 36
+20140302 205 1242 35494988 38
+20140303 356 1928 44627913 44
+20140304 236 1058 39107343 45
+20140305 284 1439 58826781 50
+20140306 298 1956 67243270 43
+20140307 344 1557 45635374 60
+20140308 229 939 37265657 39
+20140309 174 717 21403403 31
+20140310 286 1736 53970399 49
+20140311 253 1358 47430269 48
+20140312 452 2555 83908964 61
+20140313 330 1593 176798416 50
+20140314 279 1798 39469628 46
+20140315 163 769 18530493 33
+20140316 75 479 6002600 23
+20140317 393 2143 67850997 84
+20140318 263 1721 34721450 62
+20140319 309 1340 29850842 58
+20140320 240 1233 30839402 55
+20140321 268 1406 73906524 51
+20140322 787 1257 30490151 42
+20140323 183 493 13214770 53
+20140324 254 1603 821112950 48
+20140325 321 2196 148063850 63
+20140326 364 2032 531967317 59
+20140327 248 1453 57589353 50
+20140328 391 2104 41239694 58
+20140329 244 917 37232838 34
+20140330 213 1278 14409383 41
+20140331 286 1562 50964118 56
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 111
+5mn-15mn 68
+30s-2mn 148
+2mn-5mn 92
+15mn-30mn 52
+0s-30s 907
+30mn-1h 132
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 66
+/smart_aqua/ 1105 9434865 257 170
+/wp-login.php 903 3538675 154 161
+/smart_aqua_eng/ 793 21839957 197 195
+/wp-content/themes/central/css/style_dynamic_responsive.php 546 70434 16 23
+/ 543 4645445 347 117
+/wp-content/themes/central/css/style_dynamic.php 526 101449 53 8
+/wp-content/themes/central/css/custom_css.php 526 12344 25 15
+/wp-content/themes/central/js/default_dynamic.php 495 884072 1 65
+/wp-content/themes/central/js/custom_js.php 493 10566 2 159
+/smart_aqua/index.php 462 230048 5 84
+/smart_aqua/wp-cron.php 449 0 148 175
+/smart_aqua_eng/wp-cron.php 438 0 88 80
+/wp-cron.php 189 0 56 38
+/marcas/ 165 1510474 6 22
+/contactos/ 121 845385 17 26
+/invisual/ 117 891563 10 21
+/wp-admin/admin-ajax.php 63 15718 0 0
+/smart_aqua_eng/index.php 50 34686 0 2
+/portfolio_page/ekenabay/ 47 515973 7 6
+/portfolio_page/civilria/ 47 504104 6 5
+/portfolio_page/feira-de-marco/ 45 420792 2 6
+/portfolio_page/bmw/ 44 407101 5 5
+/portfolio_page/mercentro/ 42 429909 4 3
+/portfolio_page/maldita/ 40 394071 5 2
+/portfolio_page/restaurante-salpoente/ 39 421376 4 6
+/wp-admin/media-new.php 1 7224 0 0
+/smart_aqua_eng/xmlrpc.php 6 252 0 1
+/wp-admin/load-styles.php 6 122264 0 0
+/portfolio_page/heliflex/ 29 353245 2 2
+/wp-admin/async-upload.php 2 245 0 0
+/apresentacao/ 31 189238 0 8
+/vgg3/wp-content/plugins/mnky-vector-icons/inc/font/fontawesome-webfont.woff 1 43568 0 0
+/wp-admin/ 2 29364 0 0
+/portfolio_page/pizzarte/ 35 409811 1 4
+/vgg3/wp-cron.php 7 0 2 1
+/wp-admin/post.php 4 117796 0 0
+/vgg3/ 7 48468 1 1
+/xmlrpc.php 33 4716 0 3
+/portfolio_page/adriano-e-lito/ 31 385936 2 16
+/portfolio_page/susana-lopes/ 34 374055 3 4
+//wp-login.php 1 4057 1 1
+/portfolio_page/aveicabo/ 28 373998 2 3
+/wp-includes/js/tinymce/wp-tinymce.php 1 116238 0 0
+/wp-admin/load-scripts.php 10 713436 0 0
+/ekenabay/index.php/survey/index/sid/129874/newtest/Y/lang/pt 2 2560 2 2
+/smart_aqua/wp-login.php 8 44071 0 1
+/smart_aqua_eng/wp-login.php 8 44190 6 0
+/insidepipe4/wp-cron.php 18 0 3 3
+/portfolio_page/litoral-magazine/ 29 340555 4 2
+/portfolio_page/future-cityscapes/ 29 359085 2 2
+/whm 25 219225 15 15
+/portfolio_page/optica-nascimento/ 30 363042 3 3
+/wp-admin/admin.php 4 34758 0 0
+/wp-includes/wlwmanifest.xml 21 22092 1 0
+/smart_aqua/xmlrpc.php 7 294 0 2
+/portfolio_page/metalegi/ 29 338208 3 1
+/portfolio_page/litoral-fashion/ 35 465951 2 2
+/portfolio_page/diario-de-aveiro/ 29 334230 2 3
+/wp-content/themes/central/includes/ajax_mail.php 3 21 0 2
+/vgg3/advogados_socios_vgg/ 3 19776 1 0
+/portfolio_page/aveiro-expo/ 35 402840 5 4
+/vgg3/wp-admin/admin-ajax.php 3 114612 0 1
+/portfolio_page/royal-school-of-languages/ 33 368564 4 3
+/webmail 25 219725 17 15
+/subscriptions/ 10 1546 6 6
+/portfolio_page/ferro/ 36 387927 5 5
+END_SIDER

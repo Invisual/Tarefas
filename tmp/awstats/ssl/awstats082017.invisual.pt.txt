@@ -1,0 +1,425 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2675                
+POS_VISITOR 9523                
+POS_DAY 10062               
+POS_DOMAIN 3403                
+POS_LOGIN 3711                
+POS_ROBOT 3866                
+POS_WORMS 4161                
+POS_EMAILSENDER 4292                
+POS_EMAILRECEIVER 4435                
+POS_SESSION 10420               
+POS_SIDER 10606               
+POS_FILETYPES 4570                
+POS_DOWNLOADS 4804                
+POS_OS 4852                
+POS_BROWSER 4999                
+POS_SCREENSIZE 5247                
+POS_UNKNOWNREFERER 5321                
+POS_UNKNOWNREFERERBROWSER 5543                
+POS_ORIGIN 5677                
+POS_SEREFERRALS 5812                
+POS_PAGEREFS 5956                
+POS_SEARCHWORDS 6104                
+POS_KEYWORDS 6256                
+POS_MISC 2339                
+POS_ERRORS 6315                
+POS_CLUSTER 3567                
+POS_SIDER_404 6431                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901001749 12 1552 3443910207051
+FirstTime 0
+LastTime 20170830025818
+LastUpdate 20170901070541 12 0 11 0 0
+TotalVisits 24                  
+TotalUnique 11                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 47580 13 29 879759
+1 0 0 0 9 17 871365
+2 29 30 465531 8 8 79815
+3 12 12 543839 135 136 2723222
+4 0 0 0 18 48 719449
+5 1 1 0 7 20 652473
+6 0 0 0 11 19 579702
+7 2 2 95154 18 30 354489
+8 0 0 0 9 25 930773
+9 1 7 273717 7 17 633808
+10 3 9 274341 6 11 586096
+11 10 76 2295324 18 30 628711
+12 1 15 291761 17 38 826919
+13 11 11 496259 133 134 2785113
+14 27 263 8114125 12 21 112044
+15 0 0 0 6 10 67890
+16 19 255 8648148 6 10 75722
+17 14 20 864689 97 109 2291808
+18 7 37 1001956 11 32 502936
+19 0 0 0 14 29 870362
+20 0 0 0 5 15 1211340
+21 5 70 2322203 21 40 414703
+22 0 0 0 8 11 53559
+23 0 0 0 6 6 35489
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+pt 74 739 23494839
+lt 28 29 417951
+de 13 13 591425
+se 12 12 543839
+no 11 11 496259
+us 5 5 190314
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bot[\s_+:,\.\;\/\\-] 299 10078737 20170831224715 52
+no_user_agent 20 951540 20170831112802 0
+googlebot 16 1888 20170830041145 16
+netcraft 1 47574 20170812073950 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpeg 13 240534 0 0
+html 104 2419933 0 0
+css 150 3101388 0 0
+woff2 9 1103412 0 0
+php 30 210995 0 0
+js 298 8540490 0 0
+png 22 2650924 0 0
+jpg 182 7466104 0 0
+gif 1 847 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+macosx 369 38
+Unknown 4 4
+win8.1 29 28
+win7 1 0
+winnt 367 34
+linux 3 3
+unix 36 36
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome60.0.3112.90 70 5
+chrome59.0.3071.115 259 27
+safari10.1.1 279 29
+netscape5.0 37 37
+chrome34.0.1847.137 3 3
+firefox51.0 1 0
+chrome54.0.2840.99 29 28
+firefox54.0 128 11
+mozilla 1 1
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0 20170803055248
+Mozilla/5.0_(compatible;_Redirector/1.1) 20170816073752
+WordPress/4.8.1;_https://invisual.pt 20170826115749
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WordPress/4.8.1;_https://invisual.pt 20170826115749
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 95 97
+From1 0 0
+From2 0 0
+From3 0 0
+From4 48 712
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 1 8729
+404 341 7796647
+301 159 1160
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 107
+/JAG/guestbook.php 3 -
+/kanboard/ 6 -
+/ows-bin/perlidlc.bat_1803452294 1 -
+/Security/login 2 -
+/cgi-bin/login.cgi 3 -
+/forum/content.php 3 -
+/web/index.html 3 -
+/scripts/jsonrpc.php 3 -
+/account/login 3 -
+/scripts/guestbook.php 3 -
+/kanboard/jsonrpc.php 3 -
+/htdocs/login.php 3 -
+/logon.jsp 3 -
+/cgi-bin/php/login.php 3 -
+/ControlManager/default.htm 3 -
+/WideImage-master/composer.json 2 -
+/jsonrpc.php 3 -
+/scripts/admin/login.php 3 -
+/cgi-bin/admin/login.php 3 -
+/composer.json 2 -
+/login 8 -
+/wideimage/doc/index.html 2 -
+/mt/mt-load.cgi_1055291199 1 -
+/trc/ 3 -
+/license/records 3 -
+/vbulletin/content.php 3 -
+/cgi-mod/index.cgi 3 -
+/jag/guestbook.php 3 -
+/scripts/userlogin!default.action 2 -
+/ui/modules/login/ 3 -
+/documentation.html 2 -
+/scripts/php/login.php 3 -
+/PHPMailer-master/lib/composer.json 2 -
+/wideimage/composer.json 1 -
+/auth/login 2 -
+/Login.jsp 3 -
+/dtlt/home.html 3 -
+/apple-app-site-association 21 -
+/scripts/content.php 1 -
+/cgi-bin/guestbook.php 3 -
+/orbis/admin/login.php 3 -
+/login.html 3 -
+/scripts/htdocs/login.php 3 -
+/users/login 2 -
+/mt/mt-load.cgi_1875696816 1 -
+/login.cgi 2 -
+/bamboo/userlogin!default.action 3 -
+/cgi-bin/jsonrpc.php 2 -
+/cgi-bin/viart_shop.xml 3 -
+/cgi-bin/login.php 2 -
+/WideImage-master/doc/index.html 2 -
+/ntop-bin/dashboard.cgi 3 -
+/session_login.cgi 2 -
+/dmanager/php/login.php 3 -
+/index.htm 2 -
+/login.php 2 -
+/intruvert/jsp/admin/Login.jsp 3 -
+/Orbis/admin/login.php 3 -
+/cgi-bin/mapserv 3 -
+/scripts/viart_shop.xml 3 -
+/Documentation/misc/about.jsp 2 -
+/nuxeo/login.jsp 3 -
+/Site/Pages/login.aspx 2 -
+/viart_shop/viart_shop.xml 3 -
+/Websense/cgi-bin/WsCgiLogin.exe 3 -
+/ows-bin/perlidlc.bat 2 -
+/PHPMailer-master/extras 1 -
+/cgi-bin/userlogin!default.action 1 -
+/.well-known/apple-app-site-association 22 -
+/admin/login.php 3 -
+/PHPMailer-master/README 2 -
+/opensso/UI/Login.jsp 3 -
+/cgi-bin/mapserv.exe 3 -
+/userlogin!default.action 3 -
+/ConsoleHelp/default.jsp 1 -
+/cgi-bin/ 7 -
+/ows-bin/perlidlc.bat_11699551 1 -
+/vbulletin/forum/content.php 1 -
+/guestbook.php 3 -
+/console/faces/jsp/login/BeginLogin.jsp 3 -
+/.well-known/assetlinks.json 22 -
+/scripts/ 8 -
+/crowd/console/login.action 2 -
+/php/login.php 3 -
+/viart_cms/viart_shop.xml 3 -
+/scripts/doc/index.html 1 -
+/doc/index.html 2 -
+/v-webmail/htdocs/login.php 3 -
+/content.php 3 -
+/index.php5 3 -
+/wps/portal/Home/Welcome/ 2 -
+/icfb/ 3 -
+/commoncgi/servlet/CCGIServlet 3 -
+/cgi-bin/htdocs/login.php 3 -
+/SilverStream/Meta/Tables/ 2 -
+/MNU_access_login_top.htm 3 -
+/viart_shop.xml 3 -
+/discloser/login.php 2 -
+/mt/mt-load.cgi 2 -
+/cgi-bin/MANGA/index.cgi 3 -
+/scripts/login.php 2 -
+/auth 2 -
+/en-US/account/login 2 -
+/corporate/webpages/login.jsp 3 -
+/scripts/branding.js 2 -
+/PHPMailer-master/composer.json 2 -
+/zport/acl_users/cookieAuthHelper/login_form 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+89.155.214.185 67 666 21165900 20170811182525
+185.80.128.131 28 29 417951 20170803021802
+84.19.166.58 13 13 591425 20170806175734
+80.67.10.205 12 12 543839 20170821030346
+194.242.11.44 11 11 496259 20170808132322
+84.91.4.229 5 70 2322203 20170808213200
+94.46.176.249 2 2 40 20170826115749
+66.240.236.119 2 2 95160 20170830025818
+54.200.64.188 1 1 0 20170803055248
+172.104.159.121 1 1 47580 20170816073752
+71.6.165.200 1 1 47574 20170828075005
+213.30.47.10 0 1 6696 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20170802 23 234 6981110 1
+20170803 46 236 7451070 4
+20170804 14 144 4771135 5
+20170806 14 14 591445 2
+20170808 16 81 2818462 2
+20170809 8 60 1858662 3
+20170810 3 9 274341 1
+20170811 3 14 295113 1
+20170816 1 1 47580 1
+20170821 12 12 543839 1
+20170826 1 1 20 1
+20170828 1 1 47574 1
+20170830 1 2 54276 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+2mn-5mn 3
+0s-30s 16
+15mn-30mn 2
+1h+ 1
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/ 67 2012918 22 12
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 22 6766 0 3
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 9 1103412 0 0
+/invisual/ 7 64556 0 4
+/webmail/index.php 3 101958 0 1
+/contactos/ 3 52627 0 1
+/webmail/htdocs/login.php 3 102231 0 0
+/portfolio/festival-dos-canais/ 2 18055 0 1
+/portfolio/clinicas-persona-identidade-visual/ 2 17971 0 0
+/clientes/ 2 19374 0 0
+/portfolio_cat/embalagem/ 2 16994 0 0
+/portfolio/carne-marinhoa/ 2 17858 0 0
+/portfolio_cat/impressao/ 2 17299 0 0
+/portfolio_cat/paginacao/ 2 17242 0 0
+/wp-cron.php 2 40 2 2
+/portfolio/apartamento-civilria/ 1 9381 0 0
+/portfolio/unimadeiras-video-institucional-2016/ 1 9516 0 0
+/portfolio_cat/web-design/ 1 8729 0 0
+/portfolio/civilria-web-design/ 1 9380 0 0
+/portfolio_cat/video/ 1 46298 0 0
+/portfolio_cat/fotografia/ 1 8733 0 0
+/portfolio/iorc/ 1 9457 0 0
+/portfolio_cat/assessoria/ 1 8733 0 0
+/portfolio_cat/eventos/ 1 8712 0 0
+/portfolio_cat/ativacao-de-marca/ 1 8790 0 0
+/portfolio/ekena-bay-2017/ 1 18582 0 0
+/portfolio/ls-medicall/ 1 9342 0 0
+/portfolio/salpoente/ 1 9386 0 0
+END_SIDER

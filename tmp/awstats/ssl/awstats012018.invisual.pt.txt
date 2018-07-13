@@ -1,0 +1,827 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2681                
+POS_VISITOR 20950               
+POS_DAY 24264               
+POS_DOMAIN 3620                
+POS_LOGIN 3950                
+POS_ROBOT 4105                
+POS_WORMS 4715                
+POS_EMAILSENDER 4846                
+POS_EMAILRECEIVER 4989                
+POS_SESSION 25130               
+POS_SIDER 25343               
+POS_FILETYPES 5124                
+POS_DOWNLOADS 5515                
+POS_OS 6122                
+POS_BROWSER 6425                
+POS_SCREENSIZE 7062                
+POS_UNKNOWNREFERER 7136                
+POS_UNKNOWNREFERERBROWSER 7960                
+POS_ORIGIN 8422                
+POS_SEREFERRALS 8568                
+POS_PAGEREFS 8743                
+POS_SEARCHWORDS 8923                
+POS_KEYWORDS 9075                
+POS_MISC 2343                
+POS_ERRORS 9134                
+POS_CLUSTER 3806                
+POS_SIDER_404 9291                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201013047 205 52359 4524410584106
+FirstTime 0
+LastTime 20180131190825
+LastUpdate 20180201045636 205 0 204 0 0
+TotalVisits 331                 
+TotalUnique 72                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 82                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 147 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 15 15 73067 100 220 4889746
+1 31 109 5570358 89 197 4179629
+2 38 189 8843478 185 245 4551104
+3 21 50 750031 80 163 3023169
+4 16 16 143390 59 127 2227875
+5 8 36 538681 78 176 3595813
+6 9 9 29860 69 158 2893188
+7 3 3 60 65 134 2384884
+8 4 4 80 73 172 3087827
+9 749 2501 149349116 140 300 6115719
+10 1252 3565 170146530 156 311 5104432
+11 1741 3727 382890763 129 277 3565266
+12 1868 5624 246581514 185 340 3898916
+13 146 888 64521451 64 121 1473186
+14 692 2649 135129005 154 269 2953537
+15 1425 4997 176021832 239 382 4285669
+16 1206 4401 214055674 153 253 2233521
+17 1257 3796 443750297 263 382 3638303
+18 952 2909 121948779 130 221 2066442
+19 117 1136 69636546 118 285 5512683
+20 26 210 14227455 66 190 5030832
+21 29 211 10587064 37 116 2210620
+22 65 519 24667466 56 174 3115712
+23 19 73 2761103 52 109 5232292
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+pt 11537 37130 2217830707
+us 110 458 22445602
+de 20 20 289649
+nl 19 19 1437164
+jp 1 1 38612
+ee 1 8 143255
+fr 1 1 38611
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 1583 36989513 20180131231407 217
+googlebot 656 13717311 20180111230213 71
+bingbot/ 333 6376500 20180131235355 48
+bot[\s_+:,\.\;\/\\-] 179 987759 20180111222206 34
+bingpreview 76 7458535 20180125005821 0
+googlebot\-image 39 4122589 20180111070130 0
+Googlebot\-Image/ 25 2745420 20180128155522 0
+no_user_agent 19 1561787 20180131172542 0
+nbot 10 2759 20180119134044 5
+php 7 67677 20180105161409 0
+netcraft 1 83465 20180109143905 0
+linkdexbot/ 1 10704 20180121195644 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+zip 6 563559292 0 0
+js 8821 427980891 0 0
+html 2151 25808948 0 0
+gif 161 776011 0 0
+svg 220 95361 0 0
+eot 1 151143 0 0
+json 1 13120 0 0
+jpg 4447 804509116 0 0
+Unknown 58 38075 0 0
+png 2616 67044159 0 0
+css 9605 206634957 0 0
+woff 91 1833391 0 0
+php 9283 129473097 0 0
+jpeg 72 2898445 0 0
+ttf 6 18614 0 0
+woff2 98 11388980 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 6
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/uncode-core.zip 1 0 235621
+/novo/wp-snapshots/20180105_invisual_687d1d91afbb5a783269180105165319_archive.zip 1 0 300456187
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/vc_clipboard.zip 1 0 15406
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/uncode-js_composer.zip 1 0 5045597
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/revslider.zip 1 0 6974250
+/novo/wp-snapshots/20180105_invisual_f1c6a1eece87d5278949180105113645_archive.zip 1 0 250832231
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+winnt 1051 140
+linuxandroid 1320 183
+linux 76 13
+unix 19 19
+Unknown 370 365
+ios_iphone 1200 119
+win10 228 21
+macosx9 1 1
+win7 21290 9518
+macosx7 1 1
+macosx10 561 52
+winxp 1 1
+macosx12 18 18
+ios_ipad 271 101
+macosx 11171 1129
+win8.1 59 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 27
+safari11.0.1 629 70
+netscape5.0 39 39
+msie9.0 116 2
+chrome32.0.1664.3 1 1
+chrome21.0.1180.82 1 1
+chrome62.0.3202.62 66 5
+chrome63.0.3239.111 1358 186
+safari11.0 1199 118
+chrome61.0.3163.100 28 28
+safari10.0 1 1
+safari10.1.1 6133 622
+chrome63.0.3239.132 2131 420
+mozilla 8 8
+safari9.0 271 101
+safari10.0.2 1339 133
+chrome35.0.2117.157 1 1
+chrome63.0.3239.108 19555 9181
+chrome34.0.1847.137 4 4
+chrome41.0.2225.0 7 7
+safari11.0.2 577 50
+Unknown 344 339
+chrome58.0.3029.110 4 4
+msie11.0 68 6
+chrome63.0.3239.84 2510 250
+chrome50.0.2661.75 2 2
+chrome64.0.3282.119 78 7
+firefox57.0 1167 103
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12l;__http://researchscan.comsys.rwth-aachen.de) 20180129232752
+Magic_Browser 20180130010156
+WordPress/4.9.2;_https://invisual.pt 20180131190825
+WordPress/4.9.1;_https://invisual.pt 20180116225540
+Mediapartners-Google 20180106133739
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com) 20180106151301
+Mozilla/5.0_zgrab/0.x_--_We_are_scanning_for_research,_further_information_at_http://researchscan.comsys.rwth-aachen.de/_-- 20180123001527
+WordPress/4.8.4;_http://invisual.pt 20180108150752
+Mozilla/5.0_zgrab/0.x 20180117184518
+WordPress/4.8.4;_https://invisual.pt 20180108150457
+WordPress/4.8.4;_https://invisual.pt/novo 20180105165156
+WordPress/4.9.1;_http://invisual.pt 20180111170514
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Magic_Browser 20180130010156
+WordPress/4.9.2;_https://invisual.pt 20180131190825
+WordPress/4.9.1;_https://invisual.pt 20180116225540
+Mediapartners-Google 20180106133739
+WordPress/4.8.4;_https://invisual.pt 20180108150457
+WordPress/4.8.4;_http://invisual.pt 20180108150752
+WordPress/4.9.1;_http://invisual.pt 20180111170514
+WordPress/4.8.4;_https://invisual.pt/novo 20180105165156
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 500 504
+From1 2 2
+From2 20 20
+From3 20 20
+From4 11147 37091
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_pt 13 13
+google 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://94.46.176.249:443 20 20
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 540 24621
+400 2 242
+401 4 118635
+206 2 17520
+301 460 38747
+404 1238 12923208
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 238
+/portfolio/vr2p-identidade/ 3 -
+/seopanel/ 1 -
+/portfolio_cat/video/ 3 -
+/conteudo/uploads/2016/09/alital-web-design-mobile-1-invisual-uai-258x172.jpg 1 -
+/conteudo/uploads/2016/09/civilria-site-web-home-3-uai-258x172.jpg 1 -
+/jade/css/queries.css 9 https://invisual.pt/jade/login.php
+/cgi-bin/config.cgi 1 -
+/cgi-bin/mapserv 1 -
+/conteudo/uploads/2016/09/vr2p-mobile-pormenor-web-2-invisual-1-uai-258x172.jpg 1 -
+/portfolio/iorc/ 12 -
+/conteudo/uploads/2016/09/destaque-vr2p-web-II.jpg 1 -
+/conteudo/plugins/uncode-daves-wordpress-live-search/js/daves-wordpress-live-search.js 18 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/conteudo/uploads/2017/07/impressao-festival-dos-canais-mini-uai-258x172.jpg 1 -
+/apple-touch-icon-precomposed.png 10 -
+/conteudo/uploads/2016/09/vr2p-mobile-pormenor-web-2-invisual-1.jpg 1 -
+/confluence/login.action 1 -
+/portfolio/leonor-reis-sic-mulher-2/ 6 -
+/web/guest 1 -
+/conteudo/uploads/2016/09/alital-web-design-mobile-2-invisual-uai-258x172.jpg 1 -
+/servlet/Login 1 -
+/conteudo/plugins/vcparticlesbackground/vcparticlesbackground.css 10 https://invisual.pt/contactos/
+/portfolio/socertima-construcoes/ 13 -
+/portfolio/adriano-carreira-medicina-dentaria/ 10 -
+/wps/portal/Home/Welcome/ 1 -
+/conteudo/uploads/2017/07/identidade-visual-maldita-uai-258x172.jpg 1 -
+/conteudo/plugins/contact-form-7/includes/js/jquery.form.min.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/portfolio/unimadeiras-relatorio-de-contas/ 4 -
+/titleBar.php 1 -
+/portfolio/civilria-icon-novo-empreendimento/ 7 -
+/conteudo/uploads/2017/07/identidade-visual-susana-lopes-uai-258x172.jpg 1 -
+/php/mytutos.php 1 -
+/apple-touch-icon.png 10 -
+/portfolio/ekena-bay-video-oficial-2016/ 11 -
+/conteudo/uploads/2017/07/ativacao-marca-unimadeiras-expoflorestal6-uai-258x172.jpg 1 -
+/corporate/webpages/login.jsp 1 -
+/wp-includes/js/mediaelement/mediaelement-migrate.min.js 1 https://invisual.pt/portfolio/clinicaspersona/
+/portfolio/lardarte-catalogo/ 1 -
+/novo 1 https://invisual.pt/novo/portefolios/ekena-bay/
+/admin/login.php 1 -
+/lua/onlinehelp/LUHelp0002.html 1 -
+/portfolio_cat/identidade/ 3 -
+/.well-known/apple-app-site-association 17 -
+/conteudo/uploads/2017/07/impressao-colegio-portugues-mini2-uai-258x172.jpg 1 -
+/portfolio/adriano-carreira-medicina-dentaria-2/ 6 -
+/users/login 1 -
+/account/login 1 -
+/portfolio_cat/embalagem/ 3 -
+/portfolio/agner-service/ 3 -
+/conteudo/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/conteudo/uploads/2017/02/1-uai-258x172.jpg 1 -
+/conteudo/uploads/2016/09/civilria-invisual-site-2-mac-uai-258x172.jpg 1 -
+/en-US/account/login 1 -
+/conteudo/uploads/2016/09/civilria-invisual-mobile-2-site-uai-258x172.jpg 1 -
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 179 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/portfolio_cat/fotografia/ 6 -
+/portfolio/pizzarte-25-anos/ 13 -
+/repos/kallithea/ 1 -
+/wp-content/uploads/2018/01/estacion%C3%A1rio.jpg 1 https://invisual.pt/portefolios/colegio-portugues/
+/conteudo/uploads/2016/09/vr2p-identidade-logo-invisual-uai-258x172.jpg 1 -
+/MNU_access_login_top.htm 1 -
+/trc/ 1 -
+/portfolio/ekena-bay-sic-mulher/ 4 -
+/login.cgi 1 -
+/portfolio/litoral-awards-2016-2/ 9 -
+/cgi-bin/web_index.cgi 1 -
+/icinga/cgi-bin/config.cgi 1 -
+/portfolio_cat/paginacao/ 6 -
+/evalsmsi/evalsmsi.php 1 -
+/portfolio/ramalhos-video-oficial-2016/ 7 -
+/icinga/main.html 1 -
+/portfolio/ekena-bay-cmtv/ 1 -
+/works/portfolio-landing-page/ 1 -
+/invisual/ 7 -
+/portfolio/clinicas-persona-identidade-visual/ 4 -
+/conteudo/themes/uncode/library/css/style-custom.css 28 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/portfolio/lindeberg/ 7 -
+/orbis/admin/login.php 1 -
+/apache/openmeetings/signin 1 -
+/portfolio/alital-web-design/ 7 -
+/crowd/console/login.action 1 -
+/novo/wp-content/uploads/2018/01/brochura-1-uai-258x349.jpg 1 -
+/portfolio/festival-dos-canais-2017-2/ 1 -
+/conteudo/uploads/2017/07/impressao-pizzarte-cartaz-uai-258x172.jpg 1 -
+/portfolio/ekena-bay-catalogo-2016/ 7 -
+/content.php 1 -
+/portfolio/salpoente-2/ 5 -
+/tutos/ChangeLog 1 -
+/apple-app-site-association 18 -
+/login.html 1 -
+/apple-touch-icon-120x120.png 1 -
+/EmployeeSearch.cc 1 -
+/conteudo/themes/uncode/library/css/style.css 22 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/conteudo/themes/uncode/library/js/min/ai-uncode.min.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/conteudo/uploads/2017/07/impressao-feira-marco-cartaz-uai-258x172.jpg 1 -
+/novo/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/images/ui-icons_888888_256x240.png 39 https://invisual.pt/novo/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/jquery-ui-less.custom.min.css
+/portfolio_cat/impressao/ 4 -
+/ntop-bin/dashboard.cgi 1 -
+/express/ 1 -
+/portfolio/civilria-web-design/ 5 -
+/siteadmin/ 1 -
+/portfolio/maldita-embalagem-e-rotulo/ 2 -
+/portfolio/adriano-carreira-natal-2/ 8 -
+/portfolio/carne-marinhoa/ 6 -
+/wp-content/plugins/related-posts-for-wp/images/grabber.png 5 https://invisual.pt/wp-content/plugins/related-posts-for-wp/assets/css/edit-post.css
+/index.php5 1 -
+/openmeetings/signin 1 -
+/conteudo/plugins/vcparticlesbackground/_3rdparty/particles.js/particles.min.js 5 https://invisual.pt/clientes/
+/portfolio/targo/ 5 -
+/conteudo/uploads/2017/07/impressa%CC%83o-persona-outdoor.jpg 1 -
+/site_admin/ 1 -
+/flashlight/README.txt 1 -
+/conteudo/plugins/vcparticlesbackground/vcparticlesbackground.js 5 https://invisual.pt/clientes/
+/conteudo/themes/uncode/library/js/init.js 8 https://invisual.pt/portfolio/ekenabay/
+/portfolio/vgg-sociedade-de-advogados/ 1 -
+/login.action 1 -
+/portfolio/apartamento-civilria/ 10 -
+/Liferay/web/guest 1 -
+/contactos/ 10 -
+/gc/flash.php 1 -
+/conteudo/plugins/LayerSlider/static/js/layerslider.transitions.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/conteudo/uploads/2016/09/civilria-site-web-home-2-uai-258x172.jpg 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/conteudo/plugins/LayerSlider/static/css/layerslider.css 26 https://invisual.pt/portfolio/clinicaspersona/
+/portfolio/susana-lopes-hair-stylist-ideology/ 10 -
+/xmlpserver/login.jsp 1 -
+/conteudo/uploads/2017/07/identidade-visual-metalegi-uai-258x172.jpg 1 -
+/conteudo/uploads/2016/09/civilria-invisual-site-mac-uai-258x172.jpg 1 -
+/manageengine/EmployeeSearch.cc 1 -
+/novo/invisual 2 -
+/portfolio/adriano-carreira/ 1 -
+/portfolio/confeitaria-framboesa-2/ 11 -
+/OperaLogin/Welcome.do 1 -
+/portfolio/ipmd-instituto-portugues-de-medicina-dentaria/ 8 -
+/bovo 1 -
+/portfolio/litoral-awards-2016-4/ 4 -
+/conteudo/uploads/2017/07/identidade-visual-lifepoly--uai-258x172.jpg 1 -
+/opensso/UI/Login.jsp 1 -
+/ChangeLog 1 -
+/SeoPanel/ 1 -
+/bitweaver/users/login.php 1 -
+/conteudo/uploads/2016/09/alital-web-design-site-2-invisual-uai-258x172.jpg 1 -
+/cgi-mod/index.cgi 2 -
+/.well-known/assetlinks.json 17 -
+/portfolio/ekenabay/ 5 -
+/conteudo/uploads/2017/07/web-design-adrianocarreira-uai-258x172.jpg 1 -
+/portfolio/unimadeiras-expoflorestal/ 2 -
+/arsys/shared/login.jsp 1 -
+/signin 1 -
+/bw/users/login.php 1 -
+/main.html 1 -
+/conteudo/plugins/i-recommend-this/js/dot_irecommendthis.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/conteudo/uploads/2017/07/identidade-visual-vgg--uai-258x172.jpg 1 -
+/portfolio/vr2p/ 2 -
+/portfolio/feira-de-marco/ 6 -
+/portfolio/insidepipe/ 8 -
+/conteudo/uploads/2017/07/impressao-dia-da-crianca-cartaz-uai-258x172.jpg 1 -
+/commoncgi/servlet/CCGIServlet 1 -
+/portfolio/litoral-magazine/ 1 -
+/login.xhtml 1 -
+/tutos/php/mytutos.php 1 -
+/timesheet/about-show.do 1 -
+/clientes/ 6 -
+/conteudo/plugins/contact-form-7/includes/css/styles.css 26 https://invisual.pt/portfolio/clinicaspersona/
+/conteudo/uploads/2017/07/web-design-framboesa-uai-258x172.jpg 1 -
+/portfolio_cat/ativacao-de-marca/ 4 -
+/conteudo/uploads/2016/09/alital-web-design-site-invisual-uai-258x172.jpg 1 -
+/portfolio/dia-mundial-da-crianca-2016/ 4 -
+/conteudo/uploads/2016/09/vr2p-mobile-pormenor-web-4-invisual-uai-258x172.jpg 1 -
+/portfolio/colegio-portugues-2/ 7 -
+/nnm/main 1 -
+/evalsmsi.php 1 -
+/novo/ 4 -
+/portfolio/arcada-imobiliaria/ 2 -
+/portfolio/maldita/ 5 -
+/conteudo/uploads/2016/09/ekenabay_sicmulher-uai-258x172.jpg 1 -
+/backend/ 1 -
+/conteudo/uploads/2017/07/identidade-visual-targo-uai-258x172.jpg 1 -
+/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/images/ui-icons_888888_256x240.png 3 https://invisual.pt/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/jquery-ui-less.custom.min.css
+/ads.txt 28 -
+/portfolio/lifepoly-reciclagem-de-polimeros/ 9 -
+/portfolio_cat/web-design/ 4 -
+/cms/ 1 -
+/console/faces/jsp/login/BeginLogin.jsp 1 -
+/cgi-bin/mapserv.exe 1 -
+/portfolio/exporlux-video/ 7 -
+/apple-touch-icon-152x152-precomposed.png 3 -
+/conteudo/uploads/2017/07/Screen-Shot-2017-07-14-at-17.56.22-uai-258x172.png 1 -
+/conteudo/themes/uncode/library/js/min/uncode.gmaps.min.js 1 https://invisual.pt/contactos/
+/conteudo/uploads/2016/11/Screen-Shot-2017-07-13-at-10.50.19.png 2 -
+/conteudo/uploads/2017/07/identidade-visual-ekenabay-1-uai-258x172.jpg 1 -
+/conteudo/uploads/2016/09/aveiro-ambiente-novo-renualt-megane-litoral-magazine.jpg 1 -
+/LoginPage.do 1 -
+/portfolio/unimadeiras-video-institucional-2016/ 12 -
+/portfolio/susana-lopes/ 4 -
+/conteudo/uploads/2016/09/vr2p-mobile-pormenor-web-invisual-uai-258x172.jpg 1 -
+/DMC/titleBar.php 1 -
+/rainloop/ 1 -
+/conteudo/uploads/2017/07/identidade-visual-salpoente--uai-258x172.jpg 1 -
+/users/login.php 1 -
+/portfolio/brigadeiros-conservas/ 2 -
+/portfolio/bosch-catalogo/ 1 -
+/conteudo/plugins/LayerSlider/static/js/greensock.js 2 http://invisual.pt/portfolio-boxed-grid/page/4/
+/conteudo/uploads/2016/09/aveiro-ambiente-novo-renualt-megane-litoral-magazine-uai-258x172.jpg 1 -
+/conteudo/themes/uncode/library/css/uncode-icons.css 20 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/conteudo/uploads/2017/07/web-design-agner3-uai-258x172.jpg 1 -
+/novo/features/team-members/ 1 -
+/conteudo/uploads/2017/06/identidade-visual-arcada--uai-258x172.jpg 1 -
+/portfolio/agner-service-2/ 8 -
+/conteudo/uploads/2017/07/identidade-visual-adriano-carreira-2-uai-258x172.jpg 1 -
+/wiki/login.action 1 -
+/portfolio/clinicas-persona/ 8 -
+/Orbis/admin/login.php 1 -
+/portfolio/metalegi/ 6 -
+/portfolio/clinicaspersona/ 11 -
+/conteudo/uploads/2017/07/web-design-ekenabay-uai-258x172.jpg 1 -
+/apple-touch-icon-152x152.png 3 -
+/portfolio/orgreen/ 5 -
+/orion/login 1 -
+/auth 1 -
+/mail/ 1 -
+/web/index.html 1 -
+/kallithea/ 1 -
+/portfolio/ls-medicall/ 9 -
+/conteudo/uploads/2017/06/identidade-visual-framboesa--uai-258x172.jpg 1 -
+/flash/README.txt 1 -
+/accounts/login/ 1 -
+/README.txt 1 -
+/conteudo/uploads/2014/12/optica-nascimento-pormenor-pormenor-2-lindberg-fotografia-invisual-uai-258x172.jpg 1 -
+/cgi-bin/MANGA/index.cgi 1 -
+/novo/wp-content/plugins/related-posts-for-wp/images/grabber.png 118 https://invisual.pt/novo/wp-content/plugins/related-posts-for-wp/assets/css/edit-post.css
+/conteudo/themes/uncode/library/js/app.js 20 https://invisual.pt/portfolio/ramalhos-video-oficial-2016/
+/portfolio_cat/eventos/ 4 -
+/portfolio/adriano-carreira-medicina-dentaria-dia-da-mae-2/ 7 -
+/about-show.do 1 -
+/portfolio/dia-mundial-da-crianca-2017-2/ 10 -
+/Login 1 -
+/conteudo/themes/uncode/library/js/plugins.js 20 https://invisual.pt/portfolio/clinicaspersona/
+/portfolio/novo-megane/ 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 82
+89.155.214.185 10307 30198 1890548745 20180109170038
+213.22.34.241 473 2336 72860076 20180131160642
+94.46.176.215 198 198 18453 20180131190825
+94.46.176.249 108 113 12311776 20180109230058
+89.155.54.247 90 904 59882686 20180106134942
+89.181.234.55 88 449 19467387 20180106151604
+87.103.63.60 48 427 45793981 20180105143621
+54.183.130.127 28 28 395744 20180131180135
+89.181.247.39 21 210 9806819 20180104193413
+93.190.141.159 19 19 1437164 20180109021045
+2.81.100.112 13 167 11948105 20180113205202
+137.226.113.28 12 12 170261 20180125015017
+87.103.16.198 11 234 35047885 20180106110730
+35.162.70.167 11 11 144063 20180128063425
+193.236.76.153 11 136 4202239 20180111155753
+87.196.80.246 11 50 1594247 20180103190019
+87.103.2.217 11 122 4426875 20180110185918
+77.54.167.77 10 118 3491395 20180127222319
+87.103.60.196 10 39 1112485 20180103184038
+87.196.81.81 10 34 1210897 20180104190950
+37.189.120.187 9 86 2801512 20180115135209
+87.103.57.28 9 71 4096963 20180104121157
+89.181.233.119 9 119 5471290 20180104211312
+83.223.235.22 8 82 2485882 20180110132824
+148.69.13.164 8 62 5590042 20180108142039
+83.223.242.115 6 68 1877329 20180110142527
+148.69.8.4 1 7 301254 20180103144515
+82.154.99.190 1 1 14782 20180110172321
+204.79.180.20 0 10 160008 
+66.240.236.119 1 1 84352 20180113170330
+198.20.69.98 1 1 84352 20180113150448
+178.166.12.105 1 52 682071 20180130122122
+176.31.107.99 1 1 38611 20180114110455
+204.79.180.13 1 24 363758 20180129023729
+204.79.180.8 0 8 81256 
+87.196.80.55 1 7 300189 20180104165416
+52.41.211.72 7 7 102718 20180130010156
+52.51.2.57 1 1 13184 20180105222826
+52.211.237.104 7 7 75121 20180105225639
+204.79.180.9 0 12 294919 
+204.79.180.17 1 14 350225 20180123034916
+94.63.158.255 3 61 2176388 20180105112855
+66.249.92.29 1 1 10719 20180106133739
+94.63.151.3 7 78 2415860 20180122174550
+87.196.15.69 6 68 1868661 20180111225121
+137.226.113.27 4 4 59709 20180129232752
+148.69.31.85 2 16 1670379 20180104153728
+52.214.213.33 1 1 13172 20180106005604
+204.79.180.3 0 7 277811 
+85.253.53.135 1 8 143255 20180107092119
+94.63.35.63 7 108 3830445 20180111152357
+94.60.177.196 2 43 878339 20180104114239
+70.39.246.37 6 6 25701 20180106151301
+204.79.180.11 0 4 14964 
+148.69.29.22 6 47 3042410 20180104130649
+188.82.199.20 7 78 2415285 20180129175010
+137.226.113.26 4 4 59679 20180127222928
+52.34.24.33 6 6 85406 20180123032056
+54.84.155.162 2 2 168710 20180114180840
+52.37.211.217 2 2 29847 20180124045945
+89.114.27.169 1 16 330090 20180116104519
+194.65.37.71 6 68 1853921 20180117162403
+204.79.180.7 0 10 202956 
+204.79.180.15 0 4 75924 
+79.168.56.253 6 68 1897192 20180115105244
+52.202.52.81 2 2 168704 20180114130710
+84.90.188.148 1 52 733833 20180107161044
+93.108.232.195 4 64 2060666 20180116115823
+148.69.9.107 6 125 8075704 20180102200002
+188.83.96.191 8 82 2456341 20180130140111
+69.46.36.20 1 1 14 20180108150449
+204.79.180.18 0 10 201771 
+188.250.243.239 3 11 241383 20180104114325
+35.162.141.144 3 3 44759 20180126045620
+87.103.57.29 3 21 901018 20180103191931
+212.55.178.226 6 68 1853785 20180110132709
+35.162.214.175 3 3 44765 20180123032911
+106.187.98.143 1 1 38612 20180119151617
+87.196.80.239 3 23 463431 20180104110503
+204.79.180.16 0 9 82734 
+204.79.180.21 0 4 34638 
+66.240.192.138 2 2 133518 20180110041956
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180101 2 2 21603 2
+20180102 38 453 27641097 4
+20180103 1048 4010 171012338 14
+20180104 5162 16474 721568465 25
+20180105 3710 8994 975777057 18
+20180106 96 647 59707960 11
+20180107 8 66 916709 8
+20180108 633 2373 141438799 10
+20180109 122 425 15701786 14
+20180110 198 902 34367050 20
+20180111 145 855 25005018 18
+20180112 10 10 200 9
+20180113 41 195 12176961 16
+20180114 17 17 406078 10
+20180115 85 610 15294987 13
+20180116 67 420 12644212 16
+20180117 18 105 2813349 11
+20180118 10 10 29999 8
+20180119 9 9 68568 8
+20180120 2 2 40 2
+20180121 15 15 59916 10
+20180122 21 145 4251497 8
+20180123 9 38 617416 8
+20180124 71 171 2762061 12
+20180125 63 140 2987763 11
+20180126 6 6 44826 6
+20180127 17 125 3551125 7
+20180128 12 12 30048 8
+20180129 22 122 3017928 10
+20180130 16 141 3168366 8
+20180131 16 143 5140378 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 10
+0s-30s 226
+30mn-1h 15
+5mn-15mn 22
+15mn-30mn 16
+1h+ 22
+30s-2mn 20
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 139
+/novo/wp-admin/admin-ajax.php 6704 13593349 0 1
+/wp-admin/admin-ajax.php 636 801266 3 8
+/novo/ 581 7117965 19 10
+/novo/wp-admin/post.php 557 75289853 0 0
+/novo/portefolio/ 317 3136077 1 5
+/ 291 4858083 142 115
+/wp-cron.php 211 4220 128 133
+/novo/wp-content/themes/uncode/core/inc/uncode-ajax.php 174 49872 0 1
+/novo/quem-somos/ 168 1712320 1 1
+/novo/wp-admin/admin.php 149 14079868 0 0
+/novo/contacto/ 130 1318530 1 4
+/novo/wp-admin/edit.php 116 2877157 0 0
+/novo/wp-admin/async-upload.php 107 224781 0 0
+/novo/portefolios/civilria/ 86 969453 0 0
+/wp-content/themes/uncode/core/inc/uncode-ajax.php 77 23756 0 4
+/novo/portefolios/salpoente/ 67 790895 0 0
+/novo/wp-cron.php 64 1280 14 13
+/novo/wp-admin/load-scripts.php 54 5471049 0 0
+/portefolio/ 54 623488 0 0
+/wp-admin/load-scripts.php 53 4370243 0 0
+/novo/portefolios/ekena-bay/ 52 553147 0 0
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff2 50 6130510 0 0
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff 46 453216 0 0
+/wp-admin/admin.php 45 2213169 0 1
+/novo/portefolios/marinhoa/ 44 468501 0 0
+/novo/joel-rigota-outinv-2018-19/ 7 74626 0 0
+/wp-admin/async-upload.php 13 25330 0 0
+/novo/wp-json/yoast/v1/configurator 2 5868 0 0
+/novo/wp-admin/plugin-install.php 4 102912 0 0
+/novo/wp-content/plugins/revslider/public/assets/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff 1 29027 0 0
+/wp-json/wp/v2/ 11 44663 0 0
+/novo/feed/ 4 10083 4 4
+/index.php 2 77223 2 2
+/novo/wp-admin/term.php 2 59103 0 0
+/novo/wp-json/wp/v2/ 1 4095 0 0
+/wp-login.php 8 10632 5 0
+/novo/hello-world/ 3 27102 0 0
+/portefolios/ekena-bay/ 3 36739 0 0
+/novo/wp-snapshots/20180105_invisual_f1c6a1eece87d5278949180105113645_installer.php 1 137046 0 0
+/portefolios/salpoente/ 7 94921 0 0
+/novo/wp-admin/edit-comments.php 4 98500 0 0
+/novo/wp-content/plugins/uncode-js_composer/assets/fonts/vc_icons/fonts/VC-Icons.ttf 2 5654 0 0
+/portefolios/renault/ 6 59983 0 1
+/jade/adicionar.php 3 3498 0 0
+/jade/ 4 6309 0 0
+/webmail/ 2 67774 0 0
+/clientes/ 2 21158 0 0
+/novo/wp-json/yoast/v1/statistics 1 279 0 0
+/wp-content/plugins/revslider/admin/assets/css/font/egfont.woff 1 32719 0 0
+/dia-mundial-da-crianca-litoral-magazine/ 2 18260 0 0
+/wp-content/plugins/envato-wordpress-toolkit-master/assets/fonts/envato.woff 9 5778 0 0
+/novo/home-2/ 7 83175 0 0
+/portefolios/civilria/ 10 106632 1 3
+/contactos/ 1 10124 0 1
+/wp-json/yoast/v1/ryte 11 1529 0 0
+/wp-admin/post.php 18 2714247 0 0
+/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2 1 77162 0 0
+/portefolios/unimadeiras/ 5 56619 0 1
+/portefolios/festival-dos-canais/ 10 106180 0 1
+/novo/portefolios/persona/ 35 358455 0 0
+/novo/wp-admin/plugins.php 5 136094 0 0
+/portefolios/adriano-carreira/ 19 255341 0 1
+/novo/wp-json/contact-form-7/v1/contact-forms/61789/feedback 1 231 0 0
+/portfolio/novo-megane/ 1 10932 0 0
+/novo/portefolios/colegio-portugues/ 22 254644 0 0
+/novo/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 2 14982 0 0
+/wp-admin/plugins.php 6 181275 0 0
+/novo/litoral-awards/ 19 186389 0 0
+/novo/wp-admin/edit-tags.php 6 192389 0 0
+/novo/wp-admin/ 15 385035 0 0
+/novo/wp-admin/options-reading.php 2 38768 0 0
+/wp-json/contact-form-7/v1/contact-forms/61789/feedback 8 1532 0 0
+/novo/page-404-custom/ 3 29306 0 0
+/novo/wp-json/contact-form-7/v1/contact-forms/61789 23 25473 0 0
+/quem-somos/ 16 193409 0 0
+/jade/loaddata.php 19 380 1 0
+/novo/wp-admin/options-general.php 6 155431 0 0
+/jade/user.php 10 17566 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 7 858260 1 0
+/wp-content/plugins/uncode-js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf 3 9720 0 0
+/feed/ 1 2433 0 1
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 2 17932 0 0
+/novo/wp-admin/nav-menus.php 4 171128 0 0
+/novo/wp-admin/load-styles.php 24 1193771 0 0
+/novo/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 2 17932 0 0
+/novo/wp-admin/index.php 2 52051 0 0
+/novo/wp-content/plugins/loco-translate/pub/font/loco.woff 2 23672 0 0
+/novo/wp-login.php 15 17570 0 0
+/contacto/ 14 154493 0 6
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 1 7491 0 0
+/jade/login.php 20 24290 2 1
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 25 6958 0 2
+/novo/wp-content/plugins/revslider/admin/assets/css/font/egfont.woff 2 65438 0 0
+/novo/creative-digital-agency/ 1 13635 0 0
+/novo/portefolios/unimadeiras/ 27 283599 0 1
+/litoral-awards/ 2 18195 0 0
+/novo/wp-json/yoast/v1/ryte 1 139 0 0
+/novo/portefolios/festival-dos-canais/ 10 105250 0 0
+/novo/wp-admin/customize.php 8 471505 0 0
+/wp-admin/about.php 1 24127 0 0
+/novo/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2 2 154324 0 0
+/jade/backend-search.php 6 4366 0 0
+/jade/index.php 26 45203 0 3
+/wp-admin/edit.php 31 898407 0 0
+/novo/portefolios/ 1 8364 0 0
+/wp-json/yoast/v1/statistics 11 3024 0 0
+/wp-admin/ 11 303858 1 0
+/portefolios/marinhoa/ 3 27988 0 1
+/novo/wp-content/plugins/envato-wordpress-toolkit-master/assets/fonts/envato.woff 3 1926 0 0
+/wp-admin/plugin-install.php 2 55663 0 0
+/novo/wp-admin/post-new.php 5 624079 0 0
+/wp-admin/upgrade.php 1 21 0 0
+/portefolios/colegio-portugues/ 6 58250 1 1
+/wp-admin/customize.php 4 282353 0 0
+/portefolios/exporlux/ 1 10349 0 0
+/novo/wp-content/plugins/uncode-js_composer/assets/fonts/vc_icons_v2/fonts/vcpb-plugin-icons.ttf 1 3240 0 0
+/portefolios/ramalhos-2/ 2 18988 0 1
+/novo/wp-content/themes/uncode/core/theme-options/selection.json 1 13120 0 0
+/portfolio/ 1 12009 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 2 302144 0 0
+/portefolios/persona/ 3 33621 0 0
+/wp-admin/load-styles.php 36 2103188 0 0
+/novo/dia-mundial-da-crianca-litoral-magazine/ 24 246649 0 0
+/novo/home2/ 15 194192 0 0
+/novo/classic-agency/ 19 205836 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff 16 755360 1 2
+/novo/wp-admin/revision.php 5 107534 0 0
+/novo/inspired-by-clouds/ 1 14787 0 0
+/wp-admin/options-general.php 4 109362 0 0
+/portfolio/page/2/ 1 10794 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff2 38 4168724 3 1
+/novo/wp-content/themes/uncode/core/theme-options/assets/fonts/option-tree-font.woff 2 105774 0 0
+/novo/wp-snapshots/20180105_invisual_687d1d91afbb5a783269180105165319_installer.php 1 137045 0 0
+/novo/make-it-clean-and-simple/ 2 25092 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.eot 1 151143 0 0
+/novo/wp-admin/upload.php 4 114228 0 0
+/webmail/index.php 1 33986 0 0
+/invisual/ 1 10153 0 1
+/wp-admin/update-core.php 2 46005 0 0
+END_SIDER

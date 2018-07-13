@@ -1,0 +1,889 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201712 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2677                
+POS_VISITOR 20279               
+POS_DAY 21811               
+POS_DOMAIN 3490                
+POS_LOGIN 3800                
+POS_ROBOT 3955                
+POS_WORMS 4372                
+POS_EMAILSENDER 4503                
+POS_EMAILRECEIVER 4646                
+POS_SESSION 22555               
+POS_SIDER 22755               
+POS_FILETYPES 4781                
+POS_DOWNLOADS 5093                
+POS_OS 5141                
+POS_BROWSER 5323                
+POS_SCREENSIZE 5709                
+POS_UNKNOWNREFERER 5783                
+POS_UNKNOWNREFERERBROWSER 6045                
+POS_ORIGIN 6265                
+POS_SEREFERRALS 6407                
+POS_PAGEREFS 6573                
+POS_SEARCHWORDS 6753                
+POS_KEYWORDS 6905                
+POS_MISC 2340                
+POS_ERRORS 6964                
+POS_CLUSTER 3656                
+POS_SIDER_404 7112                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180101031937 12 2022 12086173896937
+FirstTime 0
+LastTime 20171231200751
+LastUpdate 20180101062736 12 0 11 0 0
+TotalVisits 105                 
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 36                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 11 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 24 539404 14 44 749729
+1 4 34 586374 21 31 604617
+2 2 30 447769 39 93 1917251
+3 7 7 75624 44 87 1873325
+4 1 1 10798 23 75 1200016
+5 4 4 71196 45 133 2477765
+6 1 1 10805 31 75 1874980
+7 0 0 0 25 52 1832992
+8 5 5 54016 14 43 529289
+9 58 62 2777778 694 737 15595179
+10 7 40 23870021 16 42 709014
+11 9 81 6190935 18 26 173993
+12 38 181 8414912 414 498 9718468
+13 6 6 64815 21 43 672146
+14 5 43 1276088 26 93 2621539
+15 4 18 2350253 22 33 387636
+16 13 69 3470017 45 79 1342210
+17 10 16 371393 25 36 367041
+18 16 104 2373851 30 64 1379943
+19 3 4 1962454 38 60 2466097
+20 23 74 5879787 24 51 894210
+21 28 376 23890992 22 68 1031695
+22 12 81 1681141 30 64 3958984
+23 2 2 21598 17 37 287924
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+pt 99 1094 81658240
+us 57 57 615701
+fi 57 61 2766981
+de 26 26 270047
+gb 20 20 889954
+cn 5 5 191098
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 596 13093055 20171231234345 76
+googlebot 506 8481749 20171231163244 39
+no_user_agent 29 1451651 20171229124750 0
+googlebot\-image 28 6479734 20171220145048 0
+bingpreview 22 1919639 20171217153450 0
+netcraft 2 100112 20171210031218 0
+unknown 1 153 20171224093001 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+html 198 4432313 0 0
+gif 26 23525516 0 0
+svg 1 407 0 0
+js 421 9929837 0 0
+php 45 77018 0 0
+jpeg 15 427946 0 0
+xml 1 1045 0 0
+woff2 14 1716558 0 0
+css 164 3529587 0 0
+jpg 246 22987016 0 0
+png 126 19342102 0 0
+woff 2 302144 0 0
+Unknown 2 117486 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+unix 81 77
+win8.1 1 1
+linux 1 1
+ios_iphone 268 16
+ios_ipad 35 2
+winnt 433 52
+win7 113 12
+Unknown 60 60
+macosx 271 43
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+chrome41.0.2228.0 1 1
+safari10.1.1 122 7
+chrome58.0.3029.81 1 1
+opera49.0.2725.64 53 4
+Unknown 36 36
+firefox57.0 46 2
+chrome63.0.3239.84 287 24
+chrome61.0.3163.100 26 26
+chrome40.0.2214.85 1 1
+safari10.0 160 10
+chrome51.0.2704.106 5 5
+safari9.0 35 2
+netscape5.0 105 101
+chrome62.0.3202.94 210 21
+safari 108 6
+chrome52.0.2743.116 67 17
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Magic_Browser 20171231145333
+Mozilla/5.0_zgrab/0.x 20171230224312
+WordPress/4.8.4;_https://invisual.pt/novo 20171218120146
+WordPress/4.9.1;_https://invisual.pt 20171228105651
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/4.8.4;_https://invisual.pt/novo 20171218120146
+Magic_Browser 20171231145333
+WordPress/4.9.1;_https://invisual.pt 20171228105651
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 129 138
+From1 0 0
+From2 13 13
+From3 24 24
+From4 98 1088
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 12 12
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://94.46.176.249:443 24 24
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+301 489 4871
+404 845 22895899
+401 17 237270
+302 16 0
+405 1 42
+400 1 119
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 485
+/phpmailer/README 2 -
+/Readme/ 1 -
+/scripts/awstats.pl 2 -
+/discloser/login.php 2 -
+/bw/users/login.php 2 -
+/cgi-bin/admin/ 2 -
+/login.php 2 -
+/scripts/admin/login.php 2 -
+/Websense/cgi-bin/WsCgiLogin.exe 2 -
+/scripts/chksession.cgi 2 -
+/wps/portal/Home/Welcome/ 2 -
+/Fhkz7xFR8Ktq.php 1 -
+/comments/feed/web/guest 1 -
+/BizTalkServerRepository/ 1 -
+/Stats/ 1 -
+/WSsamples/ 1 -
+/typo3/ChangeLog 1 -
+/awstats/wwwroot/cgi-bin/awstats.pl 2 -
+/rtm.log 1 -
+/cgi-bin/cgi-bin/config.cgi 1 -
+/scripts/EmployeeSearch.cc 2 -
+/DVWA/ 1 -
+/ToDo/ 1 -
+/conteudo/plugins/i-recommend-this/js/non-existent-1991860416 1 -
+/scripts/readme.html 2 -
+/secretserver/Login.aspx 2 -
+/jsonrpc.php 2 -
+/cgi-bin/signin 1 -
+/MessagingManager/ 1 -
+/cgi-bin/RELEASE_NOTES.txt 2 -
+/postnuke/themes/SeaBreeze/style/style.css 2 -
+/ChangeLog 4 -
+/scripts/typo3_src/ChangeLog 1 -
+/scripts/jsonrpc.php 2 -
+/portfolio/susana-lopes/non-existent-430783425 1 -
+/kanboard/ 4 -
+/01.htm 2 -
+/asbru/index.jsp 2 -
+/Install/ 1 -
+/PHPMailer/README 2 -
+/kanboard/jsonrpc.php 2 -
+/Zikula_Core/docs/distribution/tour_page1.htm 1 -
+/NetDynamics/ 1 -
+/portfolio/clinicas-persona-identidade-visual/non-existent-413580624 1 -
+/sNews/readme.txt 2 -
+/7/ 1 -
+/portfolio/ekena-bay-2017/non-existent-1503861096 1 -
+/XSL/ 1 -
+/conteudo/plugins/LayerSlider/static/js/ 1 -
+/portfolio/civilria-web-design/non-existent-1069695535 1 -
+/portfolio/apartamento-civilria/non-existent-901734593 1 -
+/cgi-bin/config.cgi 1 -
+/orion/login 2 -
+/login.html 4 -
+/bitweaver/users/login.php 2 -
+/NetDynamic/ 1 -
+/lib/README 1 -
+/sphider/changelog 2 -
+/portfolio/carne-marinhoa/non-existent-605538383 1 -
+/WideImage-master/composer.json 2 -
+/opensso/UI/Login.jsp 2 -
+/framework/docs/distribution/tour_page1.htm 1 -
+/users/login.php 2 -
+/5/ 1 -
+/WebBank/ 1 -
+/News/ 1 -
+/configurations.do 2 -
+/cgi-bin/mapserv 2 -
+/Templates/ 1 -
+/cgi-bin/web/guest 1 -
+/readme.txt 2 -
+/cgi-bin/Fhkz7xFR8Ktq.shtml 1 -
+/HB/ 1 -
+/Liferay/web/guest 2 -
+/portfolio/festival-dos-canais-2/non-existent-1724804172 1 -
+/typo3/ 2 -
+/awstats.pl 2 -
+/icinga/main.html 1 -
+/xf/ 2 -
+/lua/onlinehelp/LUHelp0002.html 2 -
+/genealogie/Index2.php 2 -
+/repos/kallithea/ 2 -
+/Backburner/ 2 -
+/1/ 1 -
+/NonExistant1998947166/ 1 -
+/ads.txt 28 -
+/NSearch/ 1 -
+/Fhkz7xFR8Ktq.pl 1 -
+/BizTalkTracking/ 1 -
+/documentation.html 2 -
+/README/ 1 -
+/openmeetings/signin 2 -
+/PostNuke/themes/SeaBreeze/style/style.css 2 -
+/scripts/main.html 1 -
+/shop/admin/ 2 -
+/CS/ 1 -
+/Zikula_Core/ 1 -
+/corporate/webpages/login.jsp 2 -
+/DMR/ 1 -
+/titleBar.php 2 -
+/scripts/content.php 2 -
+/vbulletin/forum/content.php 2 -
+/9/ 1 -
+/conteudo/plugins/LayerSlider/static/js/non-existent-1198015817 1 -
+/scripts/login.action 1 -
+/conteudo/plugins/uncode-daves-wordpress-live-search/js/non-existent-1324737579 1 -
+/wp-json/oembed/1.0/non-existent-960905953 1 -
+/Boutiques/ 1 -
+/index.jsp 2 -
+/scripts/login.html 2 -
+/apiclient/ember/Login.jsp 2 -
+/scripts/chklogin.cgi 2 -
+/SwiftMailer/lib/CHANGES 1 -
+/cgi-bin/awstats.pl 2 -
+/foo.thtml 1 -
+/conteudo/uploads/2016/09/ 1 -
+/magento/RELEASE_NOTES.txt 2 -
+/siestta/ 2 -
+/main.html 1 -
+/scripts/changelog 2 -
+/commoncgi/servlet/CCGIServlet 2 -
+/Fhkz7xFR8Ktq.php5 1 -
+/composer.json 4 -
+/scripts/viart_shop.xml 2 -
+/wcm/index.jsp 2 -
+/cgi-bin/start.php 2 -
+/SwiftMailer/lib/composer.json 1 -
+/viart_shop/viart_shop.xml 2 -
+/cgi-mod/index.cgi 4 -
+/boards/ 2 -
+/cgi-bin/Fhkz7xFR8Ktq.html 1 -
+/invoiceplane/sessions/login 2 -
+/kallithea/ 2 -
+/scripts/web/guest 1 -
+/backend/ 2 -
+/WebDB/ 1 -
+/scripts/rtm.log 1 -
+/6/ 1 -
+/cgi-bin/Fhkz7xFR8Ktq.php7 1 -
+/xenforo/ 2 -
+/cgi-bin/composer.json 4 -
+/conteudo/plugins/vcparticlesbackground/_3rdparty/particles.js/non-existent-1289281179 1 -
+/postnuke/docs/distribution/tour_page1.htm 2 -
+/cgi-bin/chklogin.cgi 2 -
+/wp-includes/ 1 -
+/swiftmailer/lib/README 1 -
+/SilverStream/Meta/Tables/ 1 -
+/conteudo/plugins/contact-form-7/includes/js/non-existent-1847942511 1 -
+/php/login.php 2 -
+/swiftmailer/CHANGES 1 -
+/scripts/cgi-bin/config.cgi 1 -
+/scripts/Index2.php 2 -
+/web/guest 2 -
+/cgi-bin/main.html 1 -
+/DB4Web/ 1 -
+/account/login 2 -
+/portfolio_cat/identidade/feed/non-existent-477428726 1 -
+/cgi-bin/chksession.cgi 2 -
+/viart_shop.xml 2 -
+/cgi-bin/login.cgi 2 -
+/php/mytutos.php 2 -
+/login.action 2 -
+/swiftmailer/lib/composer.json 1 -
+/portfolio_cat/embalagem/non-existent-1605487380 1 -
+/wideimage/composer.json 2 -
+/AdvWebAdmin/ 1 -
+/magento/admin/ 2 -
+/scripts/CHANGES 1 -
+/auth/login 2 -
+/snews/readme.html 2 -
+/portfolio_cat/identidade/non-existent-1865462634 1 -
+/.well-known/apple-app-site-association 19 -
+/portfolio_cat/impressao/web/guest 1 -
+/ntop-bin/dashboard.cgi 2 -
+/PHPMailer/composer.json 2 -
+/wp-json/oembed/1.0/web/guest 1 -
+/xmlpserver/login.jsp 2 -
+/index.htm 2 -
+/Album/ 1 -
+/wp-includes/js/non-existent-916319431 1 -
+/login.cgi 2 -
+/DMC/titleBar.php 2 -
+/conteudo/uploads/2017/06/non-existent-2116639339 1 -
+/GXApp/ 1 -
+/Documentation/misc/about.jsp 2 -
+/manageengine/EmployeeSearch.cc 2 -
+/typo/ChangeLog 2 -
+/olt/Login.do 2 -
+/zport/acl_users/cookieAuthHelper/login_form 2 -
+/PostNuke/docs/distribution/tour_page1.htm 2 -
+/Default.aspx 2 -
+/StoreDB/ 1 -
+/Administration/ 1 -
+/scripts/docs/distribution/tour_page1.htm 1 -
+/crowd/console/login.action 2 -
+/scripts/composer.json 4 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_18705135 1 -
+/portfolio/salpoente/non-existent-501238411 1 -
+/EmployeeSearch.cc 2 -
+/status/hostgroup 2 -
+/scripts/README 2 -
+/rws/user/ 2 -
+/cgi-bin/userlogin!default.action 2 -
+/lib/CHANGES 1 -
+/snews/readme.txt 2 -
+/docs/distribution/tour_page1.htm 2 -
+/<SCRIPT>foo</SCRIPT> 1 -
+/auth 2 -
+/PassTrixMain.cc 2 -
+/README 2 -
+/cgi-bin/Fhkz7xFR8Ktq.php4 1 -
+/swiftmailer/lib 1 -
+/icfb/ 2 -
+/DocuColor/ 1 -
+/cgi-bin/readme.txt 2 -
+/portfolio_cat/ativacao-de-marca/non-existent-281492 1 -
+/Fhkz7xFR8Ktq.cgi 1 -
+/cgi-bin/Fhkz7xFR8Ktq.pl 1 -
+/ControlManager/default.htm 2 -
+/mail/ 2 -
+/Security/login 2 -
+/wp-includes/non-existent-1518168022 1 -
+/lib/composer.json 2 -
+/wiki/login.action 1 -
+/zikula/ 1 -
+/cgi-bin/Login.aspx 2 -
+/clientes/non-existent-1168292330 1 -
+/conteudo/plugins/vcparticlesbackground/non-existent-659235308 1 -
+/shop/RELEASE_NOTES.txt 2 -
+/Log/ 1 -
+/scripts/ChangeLog 3 -
+/Mail/ 1 -
+/cgi-bin/Fhkz7xFR8Ktq.htm 1 -
+/conteudo/uploads/2017/02/non-existent-1784538364 1 -
+/cgi-bin/changelog 2 -
+/cgi-bin/extras 1 -
+/forum/ 2 -
+/typo3/typo3_src/ChangeLog 1 -
+/jasperreports/login.html 2 -
+/_ScriptLibrary/ 1 -
+/console/faces/jsp/login/BeginLogin.jsp 2 -
+/Login.aspx 2 -
+/board/ 2 -
+/Fhkz7xFR8Ktq.php7 1 -
+/scripts/Default.aspx 2 -
+/main/web/status/ 2 -
+/cgi-bin/admin.php 2 -
+/10/ 1 -
+/dmanager/php/login.php 2 -
+/framework/ 1 -
+/portfolio/iorc/web/guest 1 -
+/siteadmin/ 2 -
+/cgi-bin/EmployeeSearch.cc 2 -
+/portfolio/festival-dos-canais/non-existent-1625952950 1 -
+/PostNuke/ 1 -
+/portfolio_cat/fotografia/non-existent-1785521658 1 -
+/scripts/titleBar.php 2 -
+/portfolio/colegio-portugues/non-existent-702654003 1 -
+/portfolio/lifepoly-reciclagem-de-polimeros/non-existent-471385258 1 -
+/confluence/login.action 2 -
+/phpmailer/lib/composer.json 2 -
+/scripts/signin 1 -
+/portfolio_cat/video/non-existent-429270376 1 -
+/PHPMailer-master/README 2 -
+/ows-bin/perlidlc.bat 1 -
+/en-US/account/login 2 -
+/foo.cfm 1 -
+/tutos/php/mytutos.php 2 -
+/SwiftMailer/CHANGES 1 -
+/GW5/GWWEB.EXE 1 -
+/cgi-bin/titleBar.php 2 -
+/xampp/start.php 2 -
+/Remote/ 1 -
+/phpmailer/extras 2 -
+/cms/ 2 -
+/forum/content.php 2 -
+/JBookIt/ 1 -
+/conteudo/uploads/2016/09/non-existent-1287980603 1 -
+/invisual/non-existent-621857471 1 -
+/zikula/docs/distribution/tour_page1.htm 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi 2 -
+/cgi-bin/Fhkz7xFR8Ktq.php5 1 -
+/PHPMailer-master/extras 2 -
+/comments/feed/non-existent-355362991 1 -
+/typo/typo3_src/ChangeLog 2 -
+/PHPMailer-master/lib/composer.json 2 -
+/ui/modules/login/ 2 -
+/portfolio/ls-medicall/non-existent-633723943 1 -
+/scripts/admin.php 2 -
+/LoginPage.do 2 -
+/tcpbx/ 2 -
+/cgi-bin/Default.aspx 2 -
+/tutos/ChangeLog 2 -
+/scripts/php/login.php 2 -
+/cgi-bin/non-existent-1271734585 1 -
+/feed/web/guest 1 -
+/portfolio_cat/assessoria/non-existent-1981303431 1 -
+/Site/Pages/login.aspx 2 -
+/ucmdb-ui/login_page.jsp 2 -
+/PHPMailer-master/composer.json 2 -
+/.well-known/assetlinks.json 19 -
+/SwiftMailer/README 1 -
+/portfolio/brigadeiros-conservas/non-existent-1026294141 1 -
+/cgi-bin/Fhkz7xFR8Ktq.cgi 1 -
+/logon.jsp 2 -
+/cms/typo3_src/ChangeLog 2 -
+/cgi-bin/users/login.php 2 -
+/SwiftMailer/composer.json 1 -
+/ROADS/ 1 -
+/admin/login.php 2 -
+/scripts/userlogin!default.action 2 -
+/opendocman/admin.php 2 -
+/2/ 1 -
+/cgi-bin/Fhkz7xFR8Ktq.sh 1 -
+/OpenVASTest1602264128.html 1 -
+/Web_store/ 1 -
+/SecretServer/Login.aspx 2 -
+/portfolio/ekena-bay/non-existent-1292444315 1 -
+/portfolio/carne-marinhoa/web/guest 1 -
+/signin 2 -
+/scripts/index.jsp 2 -
+/downloader/ 2 -
+/phpmailer/composer.json 2 -
+/scripts/RELEASE_NOTES.txt 2 -
+/foo.jsp 1 -
+/icinga/cgi-bin/config.cgi 1 -
+/SilverStream/ 1 -
+/scripts/extras 1 -
+/apple-app-site-association 19 -
+/conteudo/plugins/LayerSlider/static/js/web/guest 1 -
+/Corporate/ 1 -
+/Index2.php 2 -
+/scripts/login.php 2 -
+/start.php 2 -
+/portfolio/confeitaria-framboesa/non-existent-1218319171 1 -
+/admin.php 2 -
+/WebConsole/Login.jsp 2 -
+/cgi-bin/readme.html 2 -
+/scripts/ 6 -
+/SwiftMailer 1 -
+/cgi-bin/ChangeLog 3 -
+/dtlt/home.html 2 -
+/scripts/lib/composer.json 1 -
+/swiftmailer/composer.json 1 -
+/wp-json/non-existent-1628633153 1 -
+/wp-json/oembed/1.0/index.php 1 -
+/swiftmailer/README 1 -
+/cgi-bin/typo3_src/ChangeLog 1 -
+/WebCalendar/ 1 -
+/Login 2 -
+/portfolio_cat/eventos/non-existent-1176156045 1 -
+/jasperserver/login.html 2 -
+/userlogin!default.action 2 -
+/AdminWeb/ 1 -
+/magento/ 2 -
+/invisual-branding-solutions/feed/non-existent-1976826011 1 -
+/RSAarcher/Default.aspx 2 -
+/intruvert/jsp/admin/Login.jsp 2 -
+/.cobalt/ 1 -
+/SwiftMailer/lib 1 -
+/HNAP1 1 -
+/ecommerce/admin/login.php 2 -
+/site_admin/ 2 -
+/scripts/branding.js 2 -
+/portfolio/ls-medicall/web/guest 1 -
+/3/ 1 -
+/portfolio_cat/paginacao/non-existent-1859890966 1 -
+/Fhkz7xFR8Ktq.cfm 1 -
+/apache/openmeetings/signin 2 -
+/forums/ 2 -
+/geneald/Index2.php 2 -
+/BizTalkServerDocs/ 1 -
+/vbulletin/content.php 2 -
+/system/login 2 -
+/PHPMailer/extras 2 -
+/cgi-bin/php/login.php 2 -
+/cgi-bin/downloader/ 2 -
+/cgi-bin/doc/index.html 2 -
+/CVS/ 1 -
+/feed/non-existent-1793409063 1 -
+/app 2 -
+/RELEASE_NOTES.txt 2 -
+/Agents/ 1 -
+/cgi-bin/ 6 -
+/cms/ChangeLog 2 -
+/scripts/admin/ 2 -
+/cgi-bin/Fhkz7xFR8Ktq.inc 1 -
+/oscmax/catalog/admin/login.php 2 -
+/IBMWebAS/ 1 -
+/Fhkz7xFR8Ktq.htm 1 -
+/wp-json/index.php 1 -
+/tkset/login.html 2 -
+/SeoPanel/ 2 -
+/Siestta/ 2 -
+/WideImage-master/doc/index.html 2 -
+/cgi-bin/login.html 2 -
+/scripts/doc/index.html 2 -
+/portfolio/unimadeiras-video-institucional-2016/non-existent-1417328596 1 -
+/cgi-bin/admin/login.php 2 -
+/OperaLogin/Welcome.do 2 -
+/cgi-bin/login.php 2 -
+/scripts/start.php 2 -
+/Fhkz7xFR8Ktq.php4 1 -
+/cgi-bin/lib/composer.json 2 -
+/cgi-bin/Index2.php 2 -
+/scripts/downloader/ 2 -
+/scripts/php/mytutos.php 2 -
+/conteudo/uploads/2017/07/non-existent-1798773818 1 -
+/changelog 2 -
+/cgi-bin/content.php 2 -
+/typo3_src/ChangeLog 2 -
+/content.php 2 -
+/ows-bin/perlidlc.bat_696738868 1 -
+/portfolio/unimadeiras/non-existent-503085954 1 -
+/login.xhtml 2 -
+/wideimage/doc/index.html 2 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_948414865 1 -
+/Fhkz7xFR8Ktq.sh 1 -
+/scripts 3 -
+/scripts/readme.txt 2 -
+/cgi-bin/docs/distribution/tour_page1.htm 1 -
+/NonExistant2056189956/ 1 -
+/oscmax/admin/login.php 2 -
+/portfolio_cat/assessoria/web/guest 1 -
+/scripts/users/login.php 2 -
+/sdk 1 -
+/cgi-bin/php/mytutos.php 2 -
+/lib 1 -
+/foo.shtml 1 -
+/Msword/ 1 -
+/index.php5 2 -
+/PDG_Cart/ 1 -
+/users/login 2 -
+/chklogin.cgi 2 -
+/portfolio_cat/impressao/non-existent-405620988 1 -
+/GWWEB.EXE 1 -
+/doc/index.html 2 -
+/cgi-bin/Fhkz7xFR8Ktq.php 1 -
+/scripts/Login.aspx 2 -
+/Admin_files/ 1 -
+/cgi-bin/index.jsp 2 -
+/PHPMailer/lib/composer.json 2 -
+/WebTrend/ 1 -
+/portfolio_cat/web-design/non-existent-1818918758 1 -
+/AlbumArt_/ 1 -
+/postnuke/ 2 -
+/swiftmailer 1 -
+/cgi-bin/viart_shop.xml 2 -
+/chksession.cgi 2 -
+/SwiftMailer/lib/README 1 -
+/shop/downloader/ 2 -
+/Fhkz7xFR8Ktq.shtml 1 -
+/seopanel/ 2 -
+/HBTemplates/ 1 -
+/viart_cms/viart_shop.xml 2 -
+/portfolio/iorc/non-existent-1745172699 1 -
+/Agent/ 1 -
+/Fhkz7xFR8Ktq.asp 1 -
+/cgi-bin/MANGA/index.cgi 2 -
+/8/ 1 -
+/4/ 1 -
+/servlet/Login 2 -
+/cgi-bin/mapserv.exe 2 -
+/cgi-bin/README 1 -
+/docman/admin.php 2 -
+/Fhkz7xFR8Ktq.php3 1 -
+/Fhkz7xFR8Ktq.html 1 -
+/CHANGES 2 -
+/CVS/Entries 1 -
+/WebShop/ 1 -
+/cgi-bin/jsonrpc.php 2 -
+/sNews/readme.html 2 -
+/genealogie_sql/Index2.php 2 -
+/foo.php 1 -
+/magento/downloader/ 2 -
+/swiftmailer/lib/CHANGES 1 -
+/Fhkz7xFR8Ktq.inc 1 -
+/cgi-bin/Fhkz7xFR8Ktq.php3 1 -
+/contactos/non-existent-1902695336 1 -
+/bamboo/userlogin!default.action 2 -
+/rainloop/ 2 -
+/cgi-bin/login.action 1 -
+/trc/ 2 -
+/wsman 2 -
+/portfolio/adriano-carreira-medicina-dentaria/non-existent-1380319269 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 36
+217.64.42.218 57 61 2766981 20171224093408
+54.183.130.127 26 26 280857 20171231200751
+185.93.182.149 20 20 889954 20171214122429
+94.132.115.92 17 67 3884929 20171216202100
+89.155.214.185 14 217 32569880 20171218120149
+137.226.113.27 14 14 151230 20171228114206
+52.34.24.33 10 10 108010 20171231145333
+94.60.65.253 10 111 4894329 20171219150119
+52.41.211.72 9 9 97211 20171228180603
+35.162.70.167 9 9 97223 20171229185133
+89.155.126.83 7 62 1393889 20171212213004
+95.136.22.149 7 139 11325193 20171204211643
+137.226.113.28 6 6 64812 20171226173434
+89.181.234.55 6 71 3862731 20171215214043
+144.64.83.17 6 108 7561751 20171214224151
+94.46.176.249 6 6 120 20171228105651
+88.214.184.141 5 54 1119719 20171207224234
+94.63.172.157 5 54 1119719 20171201162113
+77.54.105.69 4 53 1412535 20171226183546
+137.226.113.26 4 4 43208 20171230224312
+115.212.60.224 3 3 113676 20171219162045
+89.155.54.247 3 21 506999 20171210004951
+37.189.102.30 2 8 274166 20171204161450
+62.28.114.65 2 45 8545670 20171202185202
+5.249.24.132 2 32 564770 20171214014412
+35.162.214.175 1 1 10802 20171220222804
+188.110.131.198 1 1 10797 20171205094023
+89.152.170.158 0 1 1930048 
+5.249.94.66 1 15 244021 20171226225149
+87.196.153.234 1 1 10800 20171213010148
+188.82.242.179 1 29 436971 20171224025949
+34.227.225.61 1 1 10800 20171215051724
+180.107.26.3 1 1 38804 20171210052747
+35.162.141.144 1 1 10798 20171220043352
+138.246.253.19 1 1 0 20171207222839
+117.94.86.231 1 1 38618 20171223185233
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20171201 6 55 1130517 2
+20171202 6 45 868674 4
+20171203 3 3 32399 3
+20171204 12 151 13551486 5
+20171205 1 3 3870893 1
+20171206 5 6 1984067 4
+20171207 8 57 1141324 4
+20171209 1 2 1940851 1
+20171210 6 24 567404 4
+20171211 2 2 21603 2
+20171212 11 66 1437101 4
+20171213 2 2 21606 2
+20171214 37 273 37092874 9
+20171215 15 124 5434629 8
+20171216 19 69 3906529 3
+20171217 3 3 32404 2
+20171218 10 65 3029225 5
+20171219 13 114 5008005 3
+20171220 7 7 75612 6
+20171221 1 1 10800 1
+20171222 5 5 54014 4
+20171223 3 3 60227 3
+20171224 59 91 3214750 3
+20171225 5 5 54020 4
+20171226 9 72 1699765 5
+20171227 1 1 10802 1
+20171228 6 6 54038 5
+20171229 2 2 21600 2
+20171230 3 3 32403 2
+20171231 3 3 32399 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 2
+30mn-1h 1
+15mn-30mn 2
+2mn-5mn 1
+5mn-15mn 3
+0s-30s 96
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/ 138 2928844 86 79
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 30 6932 0 5
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 11 1348716 1 4
+/novo/wp-content/themes/uncode/core/inc/uncode-ajax.php 7 1994 0 2
+/contactos/ 7 98291 2 2
+/novo/ 6 65493 5 1
+/novo/wp-cron.php 5 100 5 5
+/webmail/ 4 135548 0 0
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff2 3 367842 0 0
+/feed/ 2 1838 0 0
+/portfolio_cat/identidade/ 2 142762 0 0
+/shop/ 2 59906 0 0
+/wp-json/oembed/1.0 2 3046 0 0
+/webmail/index.php 2 67972 0 0
+/invisual-branding-solutions/feed/ 2 1666 0 0
+/readme.html 2 14826 0 0
+/portfolio_cat/video/ 2 66450 0 0
+/comments/feed/ 2 1630 0 0
+/wp-json 2 117486 0 0
+/portfolio/ekena-bay-cmtv/ 2 69642 1 0
+/wp-json/ 2 117486 0 0
+/clientes/ 2 92760 0 0
+/portfolio/festival-dos-canais/ 2 48175 0 0
+/portfolio/alital-web-design/ 1 9782 0 0
+/portfolio_cat/fotografia/ 1 36613 0 0
+/portfolio_cat/paginacao/ 1 40093 0 0
+/novo/portefolios/ekena-bay/ 1 9765 0 0
+/wp-json/oembed/1.0/ 1 1523 0 0
+/portfolio_cat/assessoria/ 1 38372 0 0
+/wp-includes/wlwmanifest.xml 1 1045 0 0
+/portfolio/ekena-bay-catalogo-2016/ 1 44034 0 1
+/novo/quem-somos-teste/ 1 9314 1 0
+/portfolio/civilria-web-design/ 1 10252 1 0
+/novo/portefolio/ 1 9001 0 0
+/invisual/ 1 50913 0 0
+/portfolio_cat/web-design/ 1 48495 0 0
+/portfolio/clinicas-persona-identidade-visual/ 1 36749 0 0
+/wp-cron.php 1 20 1 1
+/portfolio_cat/embalagem/ 1 33051 0 0
+/novo/contacto/ 1 8911 0 1
+/portfolio_cat/impressao/ 1 41874 0 0
+/portfolio/festival-dos-canais-2/ 1 38804 1 1
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff 1 151072 0 0
+/portfolio_cat/ativacao-de-marca/ 1 35038 0 0
+/portfolio/litoral-awards-2016-2/ 1 38618 1 1
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 1 151072 0 1
+/novo/quem-somos/ 1 9113 0 1
+/portfolio_cat/eventos/ 1 36681 0 0
+END_SIDER

@@ -1,0 +1,3843 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2692                
+POS_VISITOR 101517              
+POS_DAY 142439              
+POS_DOMAIN 3763                
+POS_LOGIN 5488                
+POS_ROBOT 5643                
+POS_WORMS 6507                
+POS_EMAILSENDER 6638                
+POS_EMAILRECEIVER 6781                
+POS_SESSION 143377              
+POS_SIDER 143594              
+POS_FILETYPES 6916                
+POS_DOWNLOADS 7310                
+POS_OS 7937                
+POS_BROWSER 8457                
+POS_SCREENSIZE 12172               
+POS_UNKNOWNREFERER 12246               
+POS_UNKNOWNREFERERBROWSER 14349               
+POS_ORIGIN 15752               
+POS_SEREFERRALS 15907               
+POS_PAGEREFS 16108               
+POS_SEARCHWORDS 22264               
+POS_KEYWORDS 22447               
+POS_MISC 2354                
+POS_ERRORS 22541               
+POS_CLUSTER 5344                
+POS_SIDER_404 22712               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170501000000 780 165508 15654059131058
+FirstTime 20170401000006
+LastTime 20170430235959
+LastUpdate 20170501133044 780 0 779 0 0
+TotalVisits 2252                
+TotalUnique 948                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1101                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 258 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 749 1589 39116801 1595 2331 37038812
+1 541 717 18080781 1508 2009 35791376
+2 854 1072 13649315 1635 2029 36954384
+3 659 1048 13308379 1624 2001 53212580
+4 629 859 21858357 1601 2112 38589429
+5 624 800 10375773 1954 2407 58091228
+6 614 726 11491308 1625 2200 33318508
+7 582 645 7437111 1612 2188 43607980
+8 597 1271 33404629 2173 3059 51357157
+9 860 2236 80465785 1749 2786 56098252
+10 818 1954 44834188 2426 3308 53727449
+11 808 2327 75253886 1834 2641 57474090
+12 841 2394 70555399 1807 2596 58158189
+13 677 1905 54206861 2199 2944 80306934
+14 766 2165 68809972 2456 3165 40734645
+15 761 2332 82427426 1873 2693 29619347
+16 774 2211 64265412 2204 3024 55873139
+17 794 1959 55577004 2130 3043 37436102
+18 650 1260 29691360 3408 4281 44312210
+19 731 1378 31162067 4307 5317 56413826
+20 639 1363 34159599 2665 3571 52473583
+21 634 1315 30788375 1733 2615 54000407
+22 654 1405 36192602 1711 2747 60659335
+23 675 1405 32907559 1515 2552 45127500
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 103
+pt 11371 28616 816818427
+gb 3616 3802 11943687
+us 479 1261 49713131
+ua 227 227 6361434
+fr 215 232 6451428
+cn 211 600 7206457
+in 88 88 3864883
+nl 48 52 1582514
+ru 34 249 3620994
+ro 32 32 1218757
+it 29 133 8225251
+kr 28 28 1042898
+pl 28 28 676846
+br 28 94 2708786
+ph 25 25 1121453
+my 25 71 2197066
+ca 22 22 773733
+rs 21 21 942009
+es 21 79 2227054
+de 17 17 679061
+dz 16 16 717710
+pk 15 15 672867
+au 14 61 3966675
+be 14 108 3554984
+jp 13 13 583169
+sa 8 8 358870
+la 2 2 89710
+eu 2 2 39142
+cl 5 5 138114
+lt 4 4 179420
+mk 5 5 224293
+mx 3 3 134632
+hr 7 7 314009
+kz 2 2 89710
+eg 8 8 358858
+me 4 4 179438
+ar 6 6 269136
+no 6 6 126241
+cz 5 5 202571
+lv 2 2 89710
+ba 7 7 314021
+si 4 4 179414
+am 8 49 1601161
+lk 3 3 134583
+mv 1 1 44861
+tt 2 2 89710
+uy 2 2 89710
+cv 4 43 991047
+id 11 11 493429
+om 4 4 179432
+sd 1 1 44861
+tn 1 1 44861
+tr 6 6 179435
+lb 2 2 89716
+ao 5 6 314773
+hn 1 1 3767
+pe 3 3 134577
+pa 1 1 44910
+ci 1 1 44855
+ht 1 1 44855
+ve 3 3 134577
+ma 7 7 313991
+gl 1 1 44861
+bg 3 3 134571
+jo 4 4 179438
+tw 2 2 89716
+za 9 9 284545
+th 12 12 538266
+ae 5 5 224299
+se 8 8 252297
+mn 2 2 89716
+sc 2 2 17554
+lu 0 3 14694
+qa 1 1 44861
+mr 2 2 89716
+ie 3 3 134571
+kh 1 1 44861
+ee 1 1 44861
+sk 3 3 134583
+bd 6 6 269136
+co 2 2 89710
+nz 2 2 89722
+mg 2 2 89710
+ps 2 2 89716
+kg 1 1 44855
+by 1 1 44855
+ge 1 1 44855
+sg 7 8 451766
+sy 2 2 89722
+ch 2 4 4091712
+hu 9 9 403719
+dm 2 2 89704
+np 4 4 179444
+do 4 4 179420
+kw 1 1 44855
+vn 7 7 272921
+tz 1 1 44855
+il 4 4 179420
+at 2 2 89716
+gr 10 10 448604
+mu 5 5 224293
+dk 8 70 2808867
+hk 3 6 117288
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+googlebot 5426 139291084 20170430231212 63
+bot[\s_+:,\.\;\/\\-] 3435 123192921 20170430233405 549
+bingpreview 467 30309087 20170430080616 0
+robot 415 81653956 20170430224943 84
+googlebot\-image 404 39379275 20170429015631 0
+spider 342 191351694 20170430231154 16
+[\s_+:,\.\;\/\\-]bot 268 30302182 20170430202329 0
+unknown 215 28695 20170430233051 215
+msnbot\-media 167 1034936 20170427002101 0
+slurp 124 733358 20170429230901 28
+php 77 106011223 20170428235653 0
+no_user_agent 61 708142 20170429160716 5
+google[_+\s]web[_+\s]preview 59 522545 20170402221942 0
+checker 50 1126049 20170424184010 14
+crawl 11 320858 20170426223651 3
+netcraft 2 89722 20170413061138 0
+ia_archiver 2 82325 20170427233924 1
+curl 1 44855 20170412225728 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 16
+bmp 1 15341 0 0
+pdf 3 8105426 0 0
+eot 10 1511430 0 0
+js 7758 199105255 0 0
+ttf 3 453165 0 0
+css 3508 69407746 0 0
+png 980 184057757 0 0
+woff2 225 27293685 0 0
+svg 10 5995 0 0
+woff 34 5161622 0 0
+Unknown 455 8832661 0 0
+jpeg 522 29038538 0 0
+html 5908 159915491 0 0
+gif 430 907062 0 0
+jpg 6193 263482221 0 0
+php 10296 2726554 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 9
+/arcadamagazine/arcadamagazine_n17.pdf 44 0 145431904
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 16 0 20095872
+/arcadamagazine/arcadamagazine_n15.pdf 15 0 62110911
+/arcadamagazine/arcadamagazine_n13.pdf 14 0 66310286
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 13 0 12957906
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 13 0 22484423
+/smart_aqua/wp-content/uploads/2012/04/tribuna_de_macau.pdf 6 0 532776
+/arcadamagazine/arcadamagazine_16.pdf 3 0 9685245
+/smart_aqua/wp-content/uploads/2012/04/aicep_30_mar_2012.pdf 1 0 427252
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 31
+win16 12 12
+ios_iphone 1599 164
+win2000 158 157
+macosx8 22 20
+ios_ipad 172 12
+win98 34 34
+winphone 1 0
+Unknown 9844 9683
+wince 8 8
+java 779 689
+macosx7 6 5
+linuxubuntu 178 12
+riscos 1 1
+linuxredhat 1 1
+winxp 922 625
+winlong 282 142
+macosx6 37 37
+winme 32 32
+win95 25 25
+macosx9 260 40
+macosx 5173 882
+linuxdebian 47 47
+win8.1 468 72
+linuxandroid 1646 195
+win2003 73 73
+linux 1308 383
+unix 28 28
+win8 260 92
+winnt 8144 906
+winunknown 12 12
+win7 4804 2542
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 184
+chrome32.0.1742.2 1 1
+opera8.00 24 24
+firefox36.0 8 8
+chrome37.0.2083.3 1 1
+chrome37.0.0.0 1 1
+msie2.0 15 15
+firefox16.0.1 24 24
+chrome9.0.597 1 1
+chrome54.0.2840.99 1 1
+firefox25.0 18 18
+opera11.2.3.102637 94 23
+firefox15.0 1 1
+firefox34.0 44 44
+chrome57.0.2987.110 2 2
+firefox40.1 1986 1968
+opera12.14 21 21
+chrome36.0.1985.125 32 5
+chrome51.0.2704.79 238 22
+chrome36.0.1985.67 2 2
+opera8.50 7 7
+firefox40.0 12 12
+chrome52.0.2743.116 16 15
+chrome57.0.2987.98 116 7
+firefox15.0.1 13 13
+Unknown 1916 1729
+vodafone 6 5
+firefox48.0 15 15
+msie5.0 15 15
+chrome39.0.2171.99 10 9
+chrome37.0.2062.120 18 18
+opera7.54 12 12
+firefox4.0 4 4
+msie5.5 68 68
+chrome36.0.1985.97 1 1
+firefox3.5.2 3 3
+safari8.0.8 483 57
+firefox11.0 50 0
+safari10.0.2 490 125
+firefox19.0 1 1
+chrome46.0.2490.80 15 15
+opera43.0.2442.1144 16 2
+safari9.1.3 236 19
+chrome30.0.1599.66 1 1
+firefox3.6.16 1 1
+firefox4.2 1 1
+chrome50.0.2661.75 3 3
+chrome30.0.0.0 3 2
+opera8.01 23 23
+chrome26.0.1410.58 1 1
+chrome45.0.2454.101 176 19
+chrome39.0.2171.71 1 1
+opera9.0 7 7
+chrome5.0.375.99 16 16
+chrome42.0.2311.152 2 2
+chrome47.0.2526.80 1 0
+chrome51.0.2704.106 62 4
+firefox28.0 1 1
+chrome53.0.2785.116 38 38
+chrome40.0.2214.111 119 7
+firefox52.0 1635 311
+firefox38.0 1 1
+chrome28.0.1500.95 93 6
+android 4 0
+chrome26.0.1410.65 1 1
+chrome46.0.2490.86 2 2
+msie5.01 38 37
+opera11.52 20 20
+webcapture 3 3
+chrome55.0.2883.91 3 0
+chrome33.0.0.0 4 2
+chrome24.0.1312.60 17 17
+opera7.0 3 3
+chrome34.0.1847.116 2 2
+safari8.0 13 12
+firefox8.0 1 1
+safari7.0 76 12
+chrome54.0.2840.90 248 32
+chrome40.0.2214.93 1 1
+firefox15.0.2 18 18
+firefox17.0 4 4
+chrome49.0.2623.91 1 1
+netscape9.1.0285 17 17
+chrome56.0.2924.76 178 12
+msie7.0 252 31
+chrome53.0.2785.104 18 4
+safari10.0.3 254 18
+chrome10.0.648.204 7 7
+chrome22.0.1229.94 6 1
+chrome41.0.2227.0 1 1
+firefox35.0 8 8
+chrome53.0.2785.89 44 44
+firefox46.0 1 0
+chrome31.0.1650.57 12 12
+firefox3.6.8 1 1
+opera26.0.1656.60 1 1
+opera9.01 2 2
+chrome57.0.2987.132 971 107
+chrome40.0.2214.115 2 2
+safari 697 80
+msie9.0 204 122
+safari10.1 1385 195
+chrome46.0.2486.0 1 0
+netscape3.0 7 7
+netscape0.6 5 5
+chrome50.0.2661.102 7 7
+chrome43.0.2357.124 16 4
+firefox3.6 21 21
+firefox7.0.1 10 10
+firefox3.6.3 58 48
+chrome41.0.2220.0 7 7
+msie11.0 597 68
+chrome29.0.1600.1 5 5
+opera7.11 11 11
+chrome58.0.2988.0 1 0
+chrome34.0.1847.137 1 1
+chrome32.0.1700.76 1 1
+chrome48.0.2564.109 2 2
+safari9.0.3 69 6
+chrome44.0.2403.133 177 25
+chrome46.0.2494.43 1 1
+chrome42.0.2341.0 1 1
+chrome12.0.742.112 1 1
+safari10.0 1106 90
+chrome58.0.3029.81 655 46
+firefox50.0 37 22
+netscape4.61 9 9
+chrome55.0.2883.87 31 4
+libwww 1 1
+chrome49.0.2623.75 8 8
+chrome45.0.2454.93 6 1
+firefox18.0 1 1
+firefox24.0 42 11
+opera12.17 2 2
+firefox45.0 1 1
+safari9.0 273 36
+chrome57.0.2987.133 7553 654
+firefox53.0 232 24
+firefox2.0.0.12 13 13
+opera6.0 9 9
+chrome49.0.2623.105 1 1
+netscape5.0 8582 8582
+firefox33.0 9 9
+opera7.60 15 15
+opera11.50 17 17
+chrome28.0.1500.71 24 3
+netscape 2 2
+firefox43.0 32 5
+chrome44.0.2403.125 3 3
+opera6.01 5 5
+firefox5.0 94 94
+iphone 64 4
+chrome53.0.2785.34 150 86
+msie6.0 574 572
+opera36.0.2130.32 50 50
+chrome49.0.2623.112 224 27
+opera7.02 10 10
+chrome26.0.1410.64 2 2
+firefox0.10.1 2 2
+chrome38.0.2125.101 77 23
+opera9.00 10 10
+firefox2.0.0.6 14 14
+firefox12.0 1 1
+chrome24.0.1309.0 19 19
+lg\- 1 0
+mozilla 437 211
+msie8.0 218 114
+chrome45.0.2454.94 1 1
+msie3.02 8 8
+msie10.0 76 12
+netscape0.91 2 2
+chrome56.0.2924.87 1811 183
+chrome39.0.2171.95 25 25
+chrome26.0.1410.43 17 17
+chrome26.0.1410.63 3 3
+firefox4.0.1 2 2
+chrome53.0.2785.124 1 1
+firefox44.0 1 1
+firefox49.0 1 1
+firefox2.0.0.4 7 7
+firefox3.6.9 1 1
+firefox13.0.1 1 1
+chrome55.0.2883.95 19 7
+chrome56.0.2896.3 1 1
+firefox3.5.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 37
+Mozilla/5.0_(Android_4.2.2;_Tablet;_rv:52.0)_Gecko/52.0_Firefox/52.0 20170404003117
+<a_href=\ 20170416021621
+Mozilla/5.0_(compatible;_Attracta) 20170407094316
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20170413131423
+Lunascape 20170423142910
+Mozilla/5.0_(compatible;_Qwantify/2.3w;__https://www.qwant.com/)/2.3w 20170412194634
+WordPress/4.7.3;_http://invisual.pt/biomedls 20170412152918
+Mozilla/4.0_(compatible;) 20170404112413
+WordPress/4.7.4;_http://invisual.pt/old54321 20170421234135
+Mozilla_5.0 20170406031409
+WordPress/4.7.3;_http://invisual.pt/old54321 20170421234121
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20170420152741
+python-requests/2.10.0 20170419190237
+Ruby 20170407165206
+libwww-perl/6.18 20170413181936
+Blackboard_Safeassign 20170411174704
+WordPress/4.7.2;_http://invisual.pt/biomedls 20170412152908
+Cpanel-HTTP-Client/1.0 20170430025409
+Softaculous 20170421234120
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20170411102416
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20170430065606
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20170413085217
+Go-http-client/1.1 20170430230123
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20170430231155
+Mozilla/5.0_(compatible;_Embedly/0.2;_snap;__http://support.embed.ly/) 20170420152743
+WordPress/4.7.3;_http://invisual.pt 20170420190035
+MailChimp 20170427105456
+Mozilla/5.0_(compatible;_ips-agent) 20170425035845
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/)/2.4w 20170430233051
+Mozilla/5.0 20170430235504
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20170430122528
+Mozilla/5.0_(compatible;_Daum/4.1;__http://cs.daum.net/faq/15/4118.html?faqId=28966) 20170427215041
+Apple-PubSub/65.28 20170421174848
+Go_1.1_package_http 20170404095126
+WordPress/4.7.4;_http://invisual.pt 20170430115900
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20170419171505
+ROME 20170421123100
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 31
+Java/1.8.0_101 20170404000424
+Lunascape 20170423142910
+<a_href=\ 20170416021621
+MailChimp 20170427105456
+WordPress/4.7.3;_http://invisual.pt 20170420190035
+Java/1.6.0_04 20170415042637
+WordPress/4.7.3;_http://invisual.pt/old54321 20170421234121
+WordPress/4.7.4;_http://invisual.pt/old54321 20170421234135
+WordPress/4.7.3;_http://invisual.pt/biomedls 20170412152918
+WordPress/4.7.2;_http://invisual.pt/biomedls 20170412152908
+Blackboard_Safeassign 20170411174704
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20170430122528
+com.google.GoogleMobile/25.0.0_iPad/10.3.1_hw/iPad3_4 20170420194227
+Ruby 20170407165206
+python-requests/2.7.0_CPython/2.7.6_Windows/2008ServerR2 20170420164724
+com.google.GoogleMobile/24.1.0_iPad/9.3.5_hw/iPad2_2 20170402221953
+python-requests/2.10.0 20170419190237
+Java/1.7.0_79 20170416090758
+Go-http-client/1.1 20170430230123
+Java/1.8.0_131 20170430220603
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20170430231155
+ROME 20170421123100
+WordPress/4.7.4;_http://invisual.pt 20170430115900
+Java/1.8.0_45 20170414132107
+Java/1.8.0_111 20170401100235
+Java/1.4.1_04 20170427221556
+Softaculous 20170421234120
+Apple-PubSub/65.28 20170421174848
+Go_1.1_package_http 20170404095126
+Cpanel-HTTP-Client/1.0 20170430025409
+python-requests/2.7.0_CPython/2.7.12_Linux/3.13.0-116-generic 20170419005030
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 13538 14322
+From1 24 24
+From2 510 729
+From3 975 977
+From4 1884 20284
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+bing 3 6
+live 0 12
+yandex 19 19
+baidu 1 1
+google 487 691
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 175
+http://m.facebook.com 37 38
+https://en.altezza.travel 23 23
+http://vipms.ru 20 20
+http://sexreliz.com 19 19
+http://krasnodar-avtolombards.ru 18 18
+http://picturesmania.com 18 18
+https://b-styles.xyz 18 18
+http://life-instyle.com 17 17
+http://nagdak.ru 17 17
+http://purchasepillsnorx.com 15 15
+https://2dm.prohoster.info/domain-registration/domain-whois-lookup.php 15 15
+http://iopeninghours.co.uk 14 14
+http://www.picowireless.com 13 13
+http://zajm-zalog-krasnodar.ru 12 12
+http://prohoster.info/server/dts-vinnitsa 12 12
+http://www.domain2008.com/domains/www.invisual.pt 12 12
+http://evrotekhservis.ru 12 12
+http://avtolombard-krasnodar.ru 12 12
+http://mygameplus.com 11 11
+http://xn-----7kcabaipgeakzcss7bjdqdwpfnhv.xn--p1ai 11 11
+http://rybalka-opt.ru 11 11
+http://whiteelephantwellington.com 11 11
+http://prohoster.info/vps/ssd-vps 11 11
+http://www.avtolombard-krasnodar.com 11 11
+http://mega-polis.biz.ua 10 10
+http://8xv8.com 6 6
+http://gilsonchiro.xyz 5 5
+http://xxxnatelefon.ru 5 5
+http://implantesaveiro.com 2 2
+http://udsgame.online 3 3
+http://alital.pt/portfolio_page/fortis/ 1 1
+http://varikoz24.com 5 5
+http://sstroy44.ru 8 8
+http://craftinsta.ru 4 4
+http://irkutsk.zrus.org 4 4
+http://mygameplus.ru 6 6
+http://stroyhelp-dv.ru 4 4
+http://kredit-pod-zalog-krasnodar.ru 2 2
+https://g.techcat.top 1 1
+https://www.tattooreligion.ru 3 3
+http://prohoster.info 3 3
+http://piter.zrus.org 2 2
+http://endlessplace.com 4 4
+https://www.country-chic.ru 5 5
+http://4262.cabet125.com 1 1
+http://doctormakarova.ru 6 6
+http://ed-shop01.ru 5 5
+https://murmansk.afora.ru 2 2
+http://www.infoempresas.com.pt/M_ATIVIDADES-CONSULTORIA-CIENTIFICAS-TECNICAS-SIMILARES/Concelho_AVEIRO.html 1 1
+http://burger-imperia.com 7 7
+http://prohoster.info/hosting/constructor 4 4
+https://digital-sale.su 5 5
+http://www.bookmaker-bet.com 6 6
+http://intimshop-fantasy.ru 9 9
+http://khabarovsk.zrus.org 2 2
+http://www.arenda-yeisk.ru 3 3
+https://l.facebook.com 3 3
+http://pepperstyle.ru 10 10
+http://www.japan-bearings.ru 4 4
+http://pizza-tycoon.com 5 5
+http://lipetsk.zrus.org 3 3
+https://woweb.com.ua 4 4
+http://prohoster.info/hosting/unlim-khosting 6 6
+http://kinoplen.ru 6 6
+https://glicol.kz 3 3
+http://zajm-pod-zalog-nedvizhimosti.ru 8 8
+http://remontbiz.ru 9 9
+http://konturkrasoty.ru 4 4
+https://ascat.porn 8 8
+http://adrianocarreira.com/conselhos-de-saude/ 1 1
+http://w3data.co/profile.php 2 2
+http://pizza-imperia.com 2 2
+http://jjbabskoe.ru 7 7
+http://bolitgorlo.net/shhitovidnaya-zheleza/lechenie-4/uprazhneniya-dlya-shhitovidnoj-zhelezy.html 2 2
+http://xdoza.com 5 5
+http://pk-pomosch.ru 3 3
+http://www.partybunny.ru 5 5
+http://xn--80aodinpgi.xn--p1ai 5 5
+http://hvd-store.com 2 2
+http://confeitariaframboesa.pt 4 4
+http://xn-----6kccaibs5cb8afhjrfmix2n.xn--p1ai 1 1
+http://good-mummy.ru 5 5
+http://life-instyle.com/interview.html 4 4
+http://mosrif.ru 3 3
+http://xn----7sbbahaq9bb5afgiqfliv4m.xn--p1ai 2 2
+http://oconto.ru 8 8
+http://meivcore.pt/demander-de-budgets/ 1 1
+http://murmansk.xrus.org 1 1
+http://vykup-avto-krasnodar.ru 8 8
+http://xn--80aagddcgkbcqbad7amllnejg6dya.xn--p1ai 1 1
+http://yaroslavl.zrus.org 1 1
+http://autogrep.ru 7 7
+http://prohoster.info/server/dts-prohoster 2 2
+http://krasnodar.nodup.ru 4 4
+http://bad-stars.net 3 3
+http://xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai 8 8
+http://vektorpress.ru 8 8
+http://investyb.com 8 8
+http://wsgames.ru 3 3
+https://groupmoney.ru 3 3
+https://creditmoney.com.ua 2 2
+http://arenda-avtoprokat-krasnodar.ru 2 2
+https://b-styles.xyz 3 3
+http://gosimat.eu 4 4
+http://krasivoe-hd.net 10 10
+http://lsmedicall.pt/a-lsmedicall/ 1 1
+http://adrianocarreira.com 2 2
+http://bolitgorlo.net/shhitovidnaya-zheleza/zob/diagnostika-i-lechenie-sporadicheskogo-zoba.html 3 3
+http://oil-td.ru 10 10
+http://nodup.ru 10 10
+https://www.inboundlinks.win/InboundLinks/www.invisual.pt 3 3
+http://top-karkas.ru 8 8
+http://www.prc-magazine.com 1 1
+http://lsmedicall.pt/contactos/ 1 1
+http://meivcore.pt 1 1
+http://implantesagueda.com 2 2
+http://kashubadesign.ru 4 4
+http://dengi-pod-zalog-pts-avto.ru 2 2
+http://xn------7cdbapdecfd4ak1bn0amjffj7afu3y.xn--p1ai 8 8
+http://ulanude.zrus.org 2 2
+http://prohoster.info/lir/ipv4 8 8
+http://civilria.pt/conheca-o-novo-projecto-na-marginal-de-vila-nova-de-gaia/projeto_marginal_vila_nova_gaia/ 2 2
+http://dvervmoskvu.ru 7 7
+http://hundejo.com 2 2
+http://invisiblewind.aimsites.org/wp-admin/admin-ajax.php 1 1
+http://zona-aqua.ru 6 6
+http://healgastro.com/lechenie/oblepihovoe-maslo.html 3 3
+http://grupoalboi.com 8 8
+http://running-line.ru 7 7
+http://empresas.verportugal.net/navigate/6947 1 1
+https://2dm.prohoster.info 6 6
+http://investportugal.pt 1 1
+http://x-true.info 6 6
+http://correio.portugalmail.pt/imp/ 0 1
+http://moskva.nodup.ru 3 3
+http://civilria.pt/projects/lake-1-e-2-aveiro/ 1 1
+https://atleticpharm.org 3 3
+http://good.wokacha.cn 1 1
+http://libidus.pt 1 1
+http://xn----7sbbagbq7bd5aheftfllo4m.xn--p1ai 10 10
+https://2dm.prohoster.info/domain-registration/index.php 3 3
+http://buypuppies.ca 2 2
+http://krasnodar.dengi-pod-zalog-nedvizhimosti.ru 3 3
+http://advogados-vgg.pt/escritorios/escritorio-leiria/ 1 1
+http://avon-ukraine.com 8 8
+http://socertima.com/sobre-nos/ 1 1
+http://mnogabukaff.net 3 3
+https://akita.kz 2 2
+http://eventosecriancas.pt 1 1
+http://maldita.pt 1 1
+http://healgastro.com/pod/simptomy-pankreatita.html 3 3
+http://meivcore.pt/candidaturas/ 1 1
+http://www.ic-tuebingen.de 4 4
+https://greendream.com.ua 1 1
+https://balkanfarma.org 6 6
+http://produkto.net 6 6
+http://alital.pt 2 2
+https://paydayloanslocal.com 3 3
+http://simferopol.zrus.org 1 1
+http://tver.zrus.org 3 3
+http://sankt-peterburg.nodup.ru 8 8
+http://kinohall.ru 3 3
+http://zarabotat-na-sajte.ru 10 10
+http://zakonobosago.ru 7 7
+http://voloomoney.com 3 3
+http://trincaxa.pt 1 1
+http://advogados-vgg.pt/vgg/ligacoes-uteis/ 1 1
+http://socertima.com 1 1
+http://hotloans.ru 6 6
+http://vr2p.pt/ceo/ 1 1
+http://vykupavto-krasnodar.ru 6 6
+http://www.pornosee.info 3 3
+http://fable.in.ua 5 5
+http://namenectar.com 3 3
+https://www.aquarium-pro.ru 10 10
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+catalogo+ekenabay+2016 2
+www 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+2016 2
+ekenabay 2
+catalogo 2
+www 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+503 4 904
+302 16502 3000
+301 5020 27634
+404 34285 424033882
+403 1 1631
+206 9 78690
+500 14 2828
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1582
+/portfolio_page/montages-metalegi/ 2 -
+/mil.php 1 -
+/twc/tiki-calendar.php 1 -
+/wp-content/uploads/2016/04/web_spcv-2.jpg 3 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/mmenu.css 4 http://invisual.pt/alboi/
+/alboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/retina.1.3.0.min.js 3 http://invisual.pt/alboi/
+/nicasia/assets/elfinder/elfinder.html 1 -
+/wp-content/uploads/2015/09/in_brand_joana_rato_2.jpg 1 -
+/hoteldassalinas/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css 12 http://invisual.pt/hoteldassalinas/en/promotions/
+/baws.php 2 -
+/wp-content/uploads/2014/12/mercentro_car.jpg 1 -
+/hosteldoalboi/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/smart_aqua_eng/wp-content/themes/invisual/timthumb/timthumb.php 1 -
+/cv.php 3 -
+/http:/invisual.pt/wp-admin/admin-ajax.php 11 -
+/help.txt 1 -
+/admin/ 6 -
+/images/head.php 2 invisual.pt
+/wp-content/plugins/dukapress/lib/dp_image.php 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/flexslider.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/hosteldoalboi/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-cache.php 4 -
+/wp-version.php 1 http://invisiblepeople.eu/blog//wp-version.php
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 6 -
+/administrator/webconfig.txt.php 2 invisual.pt
+/portfolio_page/litoral-magazine-webdesign/ 3 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/jquery-ui-1.10.4.datepicker.min.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/biorumo/ 1 -
+/magmi/web/download_file.php 2 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro007.jpg 1 -
+/alboi/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation.css 3 http://invisual.pt/alboi/
+/wp-content/uploads/2013/10/logo_metalegi-300x203.jpg 1 -
+/wp-content/plugins/showbiz/temp/update_extract/wolf.php 4 -
+/wp-temporary.php 2 litoralfashion.pt
+/user/ 5 -
+/wp-content/themes/nuance 1 http://eventosportugal.pt/wp-content/themes/nuance
+/tmp.php 4 invisual.pt
+/skin/405.php 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/prettyPhoto.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/backup/preview_problem/admin/elfinder/elfinder.html 1 -
+/product-creative/ 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/jquery-ui-1.10.4.datepicker.min.css 4 http://invisual.pt/alboi/
+/wp-content/uploads/2016/08/eurogres_fotografia011.jpg 1 -
+/gotha/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/hoteldassalinas/promocoes/ 1 -
+/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css 5 http://invisual.pt/portfolio_page/pizzarte-gins/
+/timesheet/about-show.do 1 -
+/wp-admin/js/logo_img.php 1 http://invisual.pt/wp-admin/js/logo_img.php
+/media/jss.php 1 -
+/aveiroexpo/js/jquery.bgiframe.min.js 7 http://www.farmaciacapaofilipe.com/apresentacao.html
+/features/header-slider-revolution/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php 1 -
+/wp-content/themes/parallelus-salutation/framework/utilities/download/getfile.php 2 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/colors/default.css 4 http://invisual.pt/alboi/
+/hoteldassalinas/es/room/habitacion-estandard/ 1 -
+/hoteldassalinas/category/eventos/ 1 -
+/video_gallery.swf 1 -
+/alboi/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css 4 http://invisual.pt/alboi/
+/ 119 -
+/string.php 2 -
+/wp-content/plugins/levelfourstorefront/products/wp-classes.php 3 -
+/wp-content/uploads/2016/04/novo_smart_005.jpg 1 -
+/wp-content/uploads/2016/04/marca_meia_maratona.jpg 2 -
+/hdstat.htm 1 -
+/hoteldassalinas/room/quarto-mobilidade-reduzida/ 1 -
+/alboi/wp-content/plugins/contact-form-7/includes/css/styles.css 4 http://invisual.pt/alboi/
+/wp-admin/images/maink.php 1 http://invisual.pt/wp-admin/images/maink.php
+/home.html 1 -
+/olt/Login.do 1 -
+/features/isotope-grid/ 1 -
+/x.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/mil.php 1 -
+/dump.php 3 litoralfashion.pt
+/hoteldassalinas/service/camas/ 1 -
+/REM_EDX/tiki-calendar.php 1 -
+/auth.php 2 -
+/bitrix/admin/index.php 1 -
+/show.php 2 invisual.pt
+/cgi-bin/cmsbuild.php 3 litoralfashion.pt
+/install.php 2 invisual.pt
+/wp-content/themes/sketch/wp-ajax.php 1 http://invisual.pt/wp-content/themes/sketch/wp-ajax.php
+/wp-content/plugins/wp-filemanager/incl/libfile.php 3 -
+/wp-conet.php 2 -
+/place1/elfinder/elfinder.html 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/weather-icons.css 4 http://invisual.pt/alboi/
+/hoteldassalinas/slider/aguardamos-pela-sua-visita/ 1 -
+/tmp/upxx.php 1 -
+/classic-studio/ 1 -
+/jetspeed 1 -
+/testevgg/portfolio_page/art-design-blvd/ 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro005.jpg 1 -
+/wp-content/themes/parallelus-mingle/framework/utilities/download/getfile.php 3 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-estudio-vistas-superior.jpg 1 -
+/features/header-slider-revolution/wp-includes/log.php 1 -
+/hoteldassalinas/wp-includes/js/jquery/ui/core.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/features/header-slider-revolution//wp-admin/admin-ajax.php 1 -
+/cache/cachee.php 2 invisual.pt
+/b1.php 1 -
+/smart_aqua/xmlrpc.php 1 -
+/webconfig.txt.php.suspected 2 invisual.pt
+/wp-content/uploads/2016/08/salpoente_webdesign000.jpg 1 -
+/portfolio_page/feira-de-marco-video/ 4 -
+/wp-content/uploads/2016/08/socertima-Sabado_19.05.2016-1200x839.jpg 1 -
+/CHANGES 1 -
+/portfolio_cat/eventos/feed/ 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia000.jpg 1 -
+/portfolio_page/ferro 1 -
+/conteudo/uploads/2016/09/destaque-vr2p-web-ii.jpg 1 -
+/wp-content/plugins/gallery-slider/readme.txt 2 -
+/hoteldassalinas/es/service/desayuno/ 1 -
+/portfolio/litoral-magazine/ 1 -
+/privacy-policy/ 3 http://invisual.pt/
+/alboi/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css 3 http://invisual.pt/alboi/
+/hudson/ 1 -
+/cgi-bin/web/magmi.php 1 -
+/portfolio_page/optica-nascimento-video/ 2 -
+/html/wp-content/uploads/2011/10/arq15.jpg 1 -
+/login.aspx 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.fitvids.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/feira-de-marco-2016-outdoor/ 1 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css 14 http://invisual.pt/hoteldassalinas/en/
+/portfolio_page/socertima-jornal-de-negocios/ 2 -
+/wp-content/uploads/2013/10/assessoria_imprensa_susanalopes.jpg 1 -
+/express/ 1 -
+/hotelaveirocenter/wp-content/uploads/2015/04/grupoalboi_footer.png 1 -
+/access.php 2 -
+/wp-content/themes/sketch/nginx2.php 1 http://invisual.pt/wp-content/themes/sketch/nginx2.php
+/wp-admin/css/logo_img.php 1 http://invisual.pt/wp-admin/css/logo_img.php
+/wp-content/uploads/2016/04/ekenabay_2016_foto001.jpg 1 -
+/backend/ 1 -
+/al277.php 2 invisual.pt
+/jconfig.php 2 invisual.pt
+/template.swf 4 -
+/portfolio_page/gesconect-identidade/ 1 -
+/wp-installation.php 1 -
+/wp-content/cilik.php 2 -
+/portfolio_page/ekenabay-sic-mulher/ 1 -
+/wp-content/uploads/2013/10/assessoria_imp_edit1.jpg 1 -
+/MSWSMTP/Common/Authentication/Logon.aspx 1 -
+/wp-content/uploads/2013/10/stand_bmw.jpg 1 -
+/.libs.php 2 -
+/wp-content/uploads/2016/08/eurogres_fotografia002.jpg 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js 6 http://invisual.pt/portfolio_page/pizzarte-gins/
+/bin/logo_img.php 1 -
+/portfolio_page/novo-classe-e-eventos-mercentro/ 1 -
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/myluph.php 1 -
+/wp-content/uploads/2013/09/bmw.jpg 1 -
+/u.php 1 -
+/opensso/UI/Login.jsp 1 -
+/cgi-bin/FormMail.cgi 1 -
+/wp-live.php 2 -
+/portfolio_page/aveiro-expo-identidade/ 4 -
+/wp-admin/css/maink.php 1 http://invisual.pt/wp-admin/css/maink.php
+/testevgg/portfolio_page/vintage-vinyl-house/ 1 -
+/cox.php 2 -
+/RoseLeif.php 2 invisual.pt
+/cli/40dd1d.php 2 invisual.pt
+/hoteldassalinas/en/service/bar/ 1 -
+/wp-content/uploads/2013/07/in_nl_footer1.png 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia004.jpg 1 -
+/flash/README.txt 2 -
+/config.php 1 invisual.pt
+/wp-content/uploads/2016/04/marca_ipmd.jpg 1 -
+/wp-content/uploads/2013/09/logo_pizzarte.jpg 1 -
+/administrator/components/com_jvframework/libraries/elfinder-2.0-rc1/elfinder.html 1 -
+/icfb/ 1 -
+/media/404.php 2 invisual.pt
+/wp-content/uploads/2016/04/novo_smart_006.jpg 1 -
+/elfinder1/elfinder.html 1 -
+/portfolio_page/ribsol-identidade/ 2 -
+/wp-content/themes/central/js/default_dynamic.php 9 http://invisual.pt/portfolio_page/pizzarte-gins/
+/app/etc/local.xml 6 -
+/evalsmsi/evalsmsi.php 1 -
+/js/fr.php 22 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/superfish.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-includes/css/logo_img.php 1 http://invisual.pt/wp-includes/css/logo_img.php
+/wp-content/uploads/2013/10/fotografia1.jpg 1 -
+/images/stories/xsamxadoo.php 1 -
+/wp-includes/images/hon2our.php 2 -
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/2x.php 2 -
+/portfolio_page/confeitaria-framboesa/ 1 -
+/cgi-bin/mapserv 1 -
+/features/header-slider-revolution/budak.php 1 -
+/admin/index.php 1 -
+/hosteldoalboi/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/hoteldassalinas/servicos/ 1 -
+/wp-includes/log.php 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 5 http://invisual.pt/portfolio_page/pizzarte-gins/
+/wp-content/uploads/2016/08/exporlux-caras_decoracao_000.jpg 1 -
+/wp-content/themes/echelon/lib/scripts/dl-skin.php 6 -
+/kk.php 1 -
+/hoteldassalinas/en/attraction/ilhavo-maritime-museum/ 1 -
+/wp-content/plugins/inboundio-marketing/admin/partials/csv_uploader.php 3 -
+/portfolio_page/exporlux-imprensa-escrita-caras-decoracao/ 4 -
+/wp-admin/js/media-upload.dev.js 1 -
+/wp-content/uploads/2016/04/tv_ria.jpg 1 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 1 http://invisual.pt/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php
+/aveiroexpo/site/wp-content/uploads/2013/03/banner1.jpg 6 -
+/blog//wp-content/plugins/wp-symposium/server/php/index.php 7 -
+/smart_aqua_eng/skin/405.php 1 -
+/wp-content/uploads/2013/10/internet_FARMACIA_CAPAO.jpg 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.ui.datepicker.localize.js 14 http://invisual.pt/hoteldassalinas/en/
+/wp-content/uploads/2016/04/mercedes_sls_mercentro008.jpg 1 -
+/cms/ 1 -
+/LoginPage.do 1 -
+/homepages/classic-documentation/ 1 -
+/wp-content/themes/infocus2/lib/scripts/dl-skin.php 3 -
+/printenv_758127706 1 -
+/jsonrpc.php 1 -
+/wp-xmlrpc.php 1 -
+/robots.txt.php 2 invisual.pt
+/version.php 3 litoralfashion.pt
+/fozi.php 3 -
+/erpfilemanager/elfinder.html 1 -
+/images/stories/webroot.php 1 -
+/news.php 2 invisual.pt
+/wp-content/themes/awake/lib/scripts/dl-skin.php 6 -
+/webconfig.txt.php 2 invisual.pt
+/smart_aqua/ 3 -
+/default.php 3 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro000.jpg 2 -
+/portfolio_page/branding-pessoal-leonor-reis-video/ 1 -
+/portfolio_page/colegio-portugues-identidade/ 4 -
+/aveiroexpo/images/mapas/mapaaveiro.html 1 -
+/wp-content/plugins/the-viddler-wordpress-plugin/js/plupload/examples/upload.php 2 -
+/en/admin/elfinder/elfinder.html 1 -
+/wp-content/uploads/2016/04/civilria_andar_modelo_002.jpg 1 -
+/pagephp 3 http://invisual.pt/pagephp
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.mmenu.min.all.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/ekenabay/shop/portfolioentry/artes-ideias-lavores/ 1 -
+/portfolio_page/salpoente-revista-sabado/ 4 -
+/scripts/login.jsp 1 -
+/wp-content/uploads/2016/04/marca_maldita-1.jpg 2 -
+/siteadmin/ 1 -
+/unix.php 2 -
+/html/gallery/desdobraveis-clinica-do-certoma 3 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/scripts.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/meivcore-video/ 2 -
+/portfolio_page/litoral-fashion-2005-sic-noticias/ 1 -
+/hoteldassalinas/service/bar/ 1 -
+/ativacao-de-marca/ 5 -
+/commoncgi/servlet/CCGIServlet 1 -
+/joomla/robots.txt 1 -
+/r3x.php 2 invisual.pt
+/hoteldassalinas/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css 13 http://invisual.pt/hoteldassalinas/en/promotions/
+/1210370435openvas.aspx 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/jquery-ui-1.10.4.datepicker.min.css 14 http://invisual.pt/hoteldassalinas/en/
+/costanova_gallery.swf 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/default_component.php 1 -
+/hoteldassalinas/es/room/habitacion-movilidad-reducida/ 1 -
+/buying-vitamin-b12/ 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.ui.datepicker.localize.js 4 http://invisual.pt/alboi/
+/login 9 -
+/cgi-bin/login.jsp 1 -
+/features/header-slider-revolution/jalang.php 1 -
+/portfolio_page/mirador-business-center/ 2 -
+/app/elfinder/elfinder.html 1 -
+/wp-content/uploads/2016/04/marca_mercentro-1.jpg 1 -
+/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/page-sitemap.xml 1 -
+/wp-content/uploads/2013/09/logo_adriano_carreira-600x409.jpg 1 -
+/wp-content/uploads/2016/04/fashiontv_2015_opticanascimento000.jpg 2 -
+/hoteldassalinas/wp-includes/js/wp-emoji-release.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/flexslider.css 3 http://invisual.pt/alboi/
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/colors/default.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/hoteldassalinas/wp-content/plugins/socials-ignited/css/style.css 14 http://invisual.pt/hoteldassalinas/en/
+/logon.jsp 1 -
+/portfolio/susana-lopes-hair-stylist-ideology/ 2 -
+/fotografia-invisual/ 10 -
+/features/header-slider-revolution/wp-apps.php 1 -
+/foo.shtml 1 -
+/wp-content/themes/zenite/apache-conf.php 1 http://invisual.pt/wp-content/themes/zenite/apache-conf.php
+/aveicabo1/ 2 -
+/hotelaveirocenter/wp-content/uploads/2015/06/email.jpg' 1 -
+/hoteldassalinas/en/comments/feed/ 1 -
+/foo.jsp 1 -
+/metalegi01/wp-content/uploads/2013/04/apresentacao_ilust03.png 1 -
+/wp-content/uploads/2015/08/internet_spcv.jpg 1 -
+/chklogin.cgi 1 -
+/wp-content/uploads/2013/04/maldita_logo.jpg 1 -
+/status/hostgroup 1 -
+/features/header-slider-revolution/wp-admin/options-link.php 2 -
+/portfolio_page/meivcore-webdesign/ 3 -
+/wp-content/plugins/ubh/up.php 3 http://litoralfashion.pt/wp-content/plugins/ubh/up.php
+/wp-content/uploads/2016/04/colg_port_webdesign003.jpg 1 -
+/wp-content/plugins/wp-sys/wp-sys.php 6 litoralfashion.pt
+/wp-includes/posts.php 1 -
+/scripts/chklogin.cgi 1 -
+/wp-content/uploads/2016/08/crisalida_000.jpg 1 -
+/tmp/pz.php 1 -
+/wolf.php 2 -
+/portfolio_cat/ativacao-de-marca/ 2 -
+/wp-content/plugins/db-backup/download.php 6 -
+/wp-check.php 2 -
+/hoteldassalinas/o-hotel/ 1 -
+/bitrix/admin/ 4 -
+/portfolio_page/smart-aqua/ 3 -
+/images/stories/a.php 1 -
+/wp-content/uploads/2016/04/boca_torta.jpg 1 -
+/authenticating.php 2 invisual.pt
+/wp-content/plugins/ibs-mappro/lib/download.php 2 -
+/wp-admin/includes/wp-themes.phpz9 2 -
+/smart_aqua_eng/magmi/conf/magmi.ini 1 -
+/portfolio_page/o-dia-mercentro-video/ 2 -
+/js/lib/ccard.js 1 -
+/colegioportugues/bem-vindo/inscricoes/ 5 -
+/bookmark.php 2 invisual.pt
+/wp-content/uploads/2013/07/np4457.jpg 2 -
+/wp-content/themes/trinity/lib/scripts/download.php 2 -
+/portfolio_page/litoral-fashion-tv-guia/ 3 -
+/scripts/web/magmi.php 1 -
+/wp-content/plugins/ultimate-product-catalogue/product-sheets/wp-classes.php 3 -
+/wp-content/themes/central/js/default.js 5 http://invisual.pt/portfolio_page/eurogres-embalagem/
+/features/header-slider-revolution/logs.php 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/destaque-studio.jpg 1 -
+/login.html 3 -
+/wp-content/uploads/2016/04/bosch_paginacao003.jpg 2 -
+/hotelaveirocenter/wp-content/uploads/2015/06/email.jpg 1 -
+/alboi 2 -
+/portfolio_page/portucel-soporcel-video/ 2 -
+/wp-content/plugins/malapascua-agency/js/plupload/examples/upload.php 3 -
+/wp-content/uploads/2013/10/ASSESSORIA_ROYAL_SCHOOL.jpg 1 -
+/wp-content/uploads/2014/10/meivcore.jpg 2 -
+/wp-content/uploads/2016/04/internet_adriano_carreira.jpg 2 -
+/hoteldassalinas/wp-content/plugins/contact-form-7/includes/js/scripts.js 12 http://invisual.pt/hoteldassalinas/en/
+/wp-content/plugins/front-end-editor/lib/aloha-editor/plugins/extra/draganddropfiles/demo/upload.php 3 -
+/wp-content/plugins/revslider/rs-plugin/css/settings.css 5 http://invisual.pt/portfolio_page/pizzarte-gins/
+/portfolio_page/ribsol/ 4 -
+/pomo.php 2 -
+/wp-content/plugins/Fbrrchive.php 2 invisual.pt
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/mediaqueries.css 14 http://invisual.pt/hoteldassalinas/en/
+/OperaLogin/Welcome.do 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro001.jpg 1 -
+/wp-content/uploads/2013/09/logo_diario_aveiro_1.jpg 20 -
+/invisual/ 22 http://yur-p.ru/
+/edic06_joel.swf 1 -
+/common/js/elfinder_2.0/elfinder.html 1 -
+/wp-main.php 4 -
+/page.php 2 -
+/wp-content/plugins/wp-cache.php 2 invisual.pt
+/info_deviceStatus.html 3 -
+/portfolio/dia-mundial-da-crianca-2016/ 1 -
+/wp-green.php 1 http://iranwebkaran.com//wp-green.php
+/edic_05.swf 1 -
+/portfolio_page/entreposto-a-fontes-video/ 1 -
+/wp-content/themes/mTheme-Unus/css/css.php 2 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro003.jpg 1 -
+/wp-content/uploads/2016/08/litoral_magazine.jpg 1 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js 13 http://invisual.pt/hoteldassalinas/en/promotions/
+/wp-content/themes/NativeChurch/download/download.php 2 -
+/features/header-slider-revolution/myluph.php 1 -
+/buy-albenza/ 1 -
+/wp-content/uploads/2016/08/linberg_opticanascimento000.jpg 1 -
+/wp-conten1.php 3 -
+/AKaWn7.php 1 -
+/images/stories/alfa.php 1 -
+/portfolio_page/pizzarte-25oaniversario/ 1 -
+/wp-content/uploads/Fbrrchive.php 2 invisual.pt
+/alboi/wp-includes/js/jquery/jquery-migrate.min.js 4 http://invisual.pt/alboi/
+/help.php 2 -
+/wp-content/plugins/logo_img.php 1 http://invisual.pt/wp-content/plugins/logo_img.php
+/images/defau1t.php 2 invisual.pt
+/portfolio_page/litoral-awards-14-porto-canal/ 2 -
+/hosteldoalboi/wp-content/plugins/socials-ignited/css/font-awesome.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/maill.php 4 -
+/hoteldassalinas/wp-content/uploads/2015/06/widget-pre%C3%A7os.jpg 2 -
+/wp-content/plugins/formcraft/file-upload/server/php/ 4 -
+/images/laj.php 2 invisual.pt
+/hotelaveirocenter/wp-content/uploads/2015/04/grupoAlboi_logotipos.gif 80 http://alojamentodoalboi.com/
+/wp-content/plugins/dzs-zoomsounds/admin/upload.php 6 -
+/form.php 3 -
+/email.php 2 invisual.pt
+/wp-content/uploads/2015/07/header_in.jpg 1 -
+/zibi.php 1 -
+/features/header-slider-revolution/wp-admin/user/reload-x.pHp 1 -
+/bomgar/ 1 -
+/wp-content/themes/classic/rtl.css 1 -
+/alboi/wp-content/uploads/2015/04/hotel-aveiro-center.png 134 http://grupoalboi.com/
+/checkout/app/etc/local.xml 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.ui.datepicker.localize.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-content/themes/central/js/plugins.js 6 http://invisual.pt/portfolio_page/pizzarte-gins/
+/smart_aqua_eng/wp-content/themes/invisual/scripts/timthumb.php 2 -
+/webdesign/ 4 -
+/sites/all/libraries/elfinder/files/AOUoAc.php 1 -
+/wp-content/uploads/2016/04/novo_smart_007.jpg 1 -
+/aveiroexpo/js/superfish.min.js 4 http://www.farmaciacapaofilipe.com/apresentacao.html
+/site_admin/ 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/style.css 14 http://invisual.pt/hoteldassalinas/en/
+/smart_aqua_eng/wp-content/themes/invisual/classes/timthumb.php 1 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 2 http://invisual.pt/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php
+/wp-content/plugins/fluid_forms/file-upload/server/content/ 1 http://invisual.pt/wp-content/plugins/fluid_forms/file-upload/server/content/index.php
+/hotelaveirocenter/wp-content/uploads/2015/04/grupoAlboi_footer.png 3987 http://hotelaveirocenter.com/
+/smart_aqua_eng/wp-content/themes/invisual/thumb.php 2 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_ficha_inscricao.pdf 1 -
+/locoy.php 2 -
+/hosteldoalboi/wp-content/plugins/wpml-cms-nav/res/css/navigation.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/prettyPhoto.css 4 http://invisual.pt/alboi/
+/wp-content/uploads/2016/08/eurogres_fotografia013.jpg 1 -
+/alboi/wp-content/plugins/cssigniter-shortcodes/src/js/scripts.js 4 http://invisual.pt/alboi/
+/Orbis/admin/login.php 1 -
+/wp-content/uploads/2016/08/salpoente_foto_produto0000.jpg 1 -
+/novo2/wp-admin/ 1 -
+/hoteldassalinas/en/our-rooms/ 1 -
+/wp-link.php 1 -
+/wp-content/themes/urbancity/lib/scripts/download.php 3 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro009.jpg 1 -
+/rebranding-da-empresa-socertima/ 2 -
+/evalsmsi.php 1 -
+/portfolio-full-width-square/ 1 -
+/Abbrevsprl.php 2 invisual.pt
+/smart_aqua_eng/api/xmlrpc 5 -
+/images/p.php 1 -
+/portfolio_cat/identidade/ 2 -
+/alboi/wp-content/plugins/cssigniter-shortcodes/src/style.css 3 http://invisual.pt/alboi/
+/wrm.php 3 -
+/wp-content/plugins/Analyser.php 2 invisual.pt
+/portfolio_page/fashion-tv-optica-nascimento/ 5 -
+/hoteldassalinas/en/booking/ 1 -
+/portfolio_page/agner/ 3 -
+/aveiroexpo/dossier_imprensa_farav09.pdf 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 1 -
+/PassTrixMain.cc 1 -
+/icinga/main.html 2 -
+/hoteldassalinas/wp-includes/js/jquery/ui/datepicker.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/hoteldassalinas/en/service/laundry/ 1 -
+/portfolio_page/framboesa-identidade/ 3 -
+/wp-content/themes/method/lib/scripts/dl-skin.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/shunceng.php 1 -
+/promotores.swf 1 -
+/portfolio_page/adriano-carreira/ 2 -
+/portfolio_page/litoral-awards/ 3 -
+/erfurt/erfurt/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/admin/wys/elfinder/elfinder.html 1 -
+/uploadify/uploadify.php 1 http://invisual.pt/uploadify/uploadify.php
+/scripts/Index2.php 1 -
+/site/ 2 -
+/web/guest 1 -
+/portfolio_page/grupo-alboi-identidade/ 5 -
+/goog1es.php 2 invisual.pt
+/wp-content/themes/logo_img.php 1 http://invisual.pt/wp-content/themes/logo_img.php
+/images/404.php 2 invisual.pt
+/yena.php 1 -
+/geneald/Index2.php 1 -
+/aveiroexpo/js/jquery.scrollTo-min.js 7 -
+/wp-content/uploads/2013/09/logo_mercentro1-300x203.jpg 1 -
+/admin/Cms_Wysiwyg/directive/ 9 -
+/media/css.php 1 -
+/conteudo/plugins/wordpress-seo/css/inside-editor-450.min.css/fonts.googleapis.com/css 4 -
+/smart_aqua_eng/wp-content/themes/craftycart/404.php 1 -
+/portfolio/ekena-bay-catalogo-2016/ 4 -
+/aveiroexpo/site/7o-salao-automovel-antigo-de-aveiro-1-e-2-dezembro/ 2 -
+/hosteldoalboi/en/santorini-five-reasons-to-visit-the-beautiful-greek-island-2/ 1 -
+/portfolio_page/litoral-fashion-tv-mais/ 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/js/superfish.min.js 3 http://invisual.pt/alboi/
+/wp-content/plugins/revslider/temp/update_extract/revslider/indra.php 1 -
+/home.bak.php 2 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/jquery.prettyPhoto.js 14 http://invisual.pt/hoteldassalinas/en/
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 10 -
+/images/stories/filemga.php 1 -
+/hotelaveirocenter/wp-content/uploads/2015/04/turismo-de-portugal_footer.png 3989 http://hotelaveirocenter.com/
+/images/logo_img.php 1 -
+/alboi/wp-content/uploads/wysija/bookmarks/medium/10/facebook.png 1 https://outlook.live.com/
+/thumb.php 2 invisual.pt
+/wsman 1 -
+/portfolio_page/pizzarte-webdesign/ 5 -
+/portfolio_page/civilria-andar-modelo/ 6 -
+/old/wp-admin/setup-config.php 2 -
+/meivcore/2015/11/17/hello-world/ 1 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js 3 http://invisual.pt/hoteldassalinas/en/
+/hoteldassalinas/wp-content/plugins/image-slider-widget/js/jquery/bxslider/jquery.bxslider.min.js 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/wp-content/uploads/2016/08/eurogres_fotografia007.jpg 1 -
+/wp-content/common.php 4 litoralfashion.pt
+/administrator/ 13 -
+/wss.php 2 -
+/hotelaveirocenter/wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js 1 http://invisibleibiza.org//wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 1 -
+/wps/portal/Home/Welcome/ 1 -
+/alboi/wp-includes/js/jquery/jquery.js 4 http://invisual.pt/alboi/
+/portfolio/festival-dos-canais-outdoors/ 1 -
+/google6e54f45643c0c273.html 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/version.php 1 -
+/blog/wp-admin/ 4 -
+/portfolio_page/aveicabo/ 3 -
+/features/lists-styles/ 1 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 4 http://invisual.pt/portfolio_page/pizzarte-gins/
+/fonts.googleapis.com/css 4 -
+/wp-content/uploads/2016/04/marca_modelin.jpg 1 -
+/alboi/wp-cron.php 8643 -
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://invisual.pt/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+/html/archives/5624 1 -
+/wp-content/plugins/use-your-drive/includes/jquery-file-upload/server/php/ 3 -
+/aveiroexpo/js/jquery-1.4.min.js 9 -
+/features/header-slider-revolution/wp-content/themes/404.php 1 -
+/hoteldassalinas/es/ 1 -
+/portfolio/apartamento-civilria/ 1 -
+/wp-content/uploads/2016/08/verdegreen_opticanascimento000.jpg 1 -
+/wp-content/uploads/2013/10/FOTOGRAFIA_BRINDES2.jpg 2 -
+/0.php 3 -
+/wp-content/uploads/2016/04/web_agner_SERVICE-1.jpg 1 -
+/wp-content/uploads/2016/04/novo_smart_002.jpg 1 -
+/wp-content/plugins/SocketIasrgasfontrol.php 2 invisual.pt
+/wp-content/uploads/2016/08/tvguia_LF_julho_2008_0001.jpg 1 -
+/feed/ 10 -
+/wp-content/plugins/seo-keyword-page/readme.txt 2 -
+/hoteldassalinas/es/servicio/ 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://invisual.pt/sites/all/libraries/elfinder/php/connector.minimal.php
+/hotelaveirocenter/wp-content/uploads/2015/06/aveiro-center-mail.png 257 -
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 2 http://eventosportugal.pt/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php
+/assets/elfinder/back/elfinder.html 1 -
+/index.rb 1 -
+/erfurt/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/test_avatar.jpg 1 -
+/assinatura-email.jpg 2 -
+/ntop-bin/dashboard.cgi 1 -
+/up14.php 1 -
+/extracts.php 2 -
+/portfolio_category-sitemap.xml 1 -
+/search.php 2 -
+/hoteldassalinas/wp-includes/js/wp-embed.min.js 13 http://invisual.pt/hoteldassalinas/en/
+/html/archives/5338 4 -
+/wp-content/uploads/2015/07/unimadeiras.jpg 1 -
+/aveiroexpo/js/jquery.easing.1.3.min.js 10 -
+/hoteldassalinas/en/slider/feel-as-home/ 1 -
+/wp-content/uploads/2016/08/inpeople_abril_2008_0001.jpg 1 -
+/wp-content/uploads/2016/08/ls_medicall_web.jpg 1 -
+/wp-content/uploads/2013/04/maldita_logo-300x203.jpg 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia017.jpg 1 -
+/assets/images/version.php 3 litoralfashion.pt
+/hoteldassalinas/wp-content/plugins/image-slider-widget/css/bxslider/jquery.bxslider.css 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/web/magmi.php 1 -
+/vendor/barryvdh/elfinder-builds/elfinder.html 1 -
+/career/elfinder.html 1 -
+/wp-content/uploads/2013/04/logo_heliflex-300x203.jpg 2 -
+/priv.php 3 -
+/portfolio/exporlux-video/ 2 -
+/ee/tiki-calendar.php 1 -
+/indes.php 2 -
+/rebranding-da-marca-alital/ 1 -
+/hotelaveirocenter/ 1 http://invevida.com/wp-admin/admin-ajax.php
+/backup/elfinder/elfinder.html 1 -
+/wp-content/themes/persuasion/lib/scripts/dl-skin.php 2 -
+/backup/preview_2/admin/elfinder/elfinder.html 1 -
+/index.htm 1 -
+/wp-upgrade.php 2 -
+/alboi/wp-includes/js/wp-emoji-release.min.js 1 http://invisual.pt/alboi/
+/hoteldassalinas/testimonials/vivianne-brasil/ 1 -
+/wp-content/uploads/2013/11/in_brand_miguel_bastos.jpg 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/jquery.dropkick-min.js 14 http://invisual.pt/hoteldassalinas/en/
+/portfolio-boxed-square 5 -
+/administrator/administrator.php 2 invisual.pt
+/portfolio_page/lindeberg-optica-nascimento-fotografia/ 1 -
+/aveiroexpo/js/jquery.cycle.all.min.js 7 -
+/s.w.org 6 -
+/administrator/robots.txt 1 -
+/openbb/board.php 1 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 -
+/license.php 3 -
+/aveiroexpo/site/contact/ 1 -
+/portfolio_page/agner-service-identidade/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 27 -
+/auth 2 -
+/cgi-bin/formmail.pl.cgi 1 -
+/libraries/joomla/web.php 1 -
+/portfolio/ 1 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 3 -
+/wp-content/plugins/mobile-app-builder-by-wappress/readme.txt 1 -
+/webmai 1 -
+/blog-boxed-images/ 1 -
+/wp-info.php 2 -
+/wp-content/uploads/2016/06/video_Dia_da_Crianca_2015.jpg 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/panel/scripts/modernizr-2.6.2.js 14 http://invisual.pt/hoteldassalinas/en/
+/media/tmp.php 2 invisual.pt
+/media/mass.php 1 -
+/wp-content/uploads/2016/08/ilhamar_embalagem002.jpg 1 -
+/portfolio_page/meivcore/ 1 -
+/wp/ 13 -
+/hoteldassalinas/en/service/beds/ 1 -
+/configurationbak.php 4 -
+/conteudo/plugins/wordpress-seo/css/inside-editor-421.min.css/fonts.googleapis.com/css 2 -
+/roundcube/ 1 -
+/uploader.php 2 litoralfashion.pt
+/festivaldoscanais/tag/mountains/ 1 -
+/alboi/wp-content/plugins/contact-form-7/includes/js/scripts.js 4 http://invisual.pt/alboi/
+/tiki2/tiki-calendar.php 1 -
+/wp-smtp.php 2 -
+/not_found 10376 -
+/wp-content/themes/fusion/lib/scripts/dl-skin.php 3 -
+/portfolio_page/heliflex/ 3 -
+/wp-content/uploads/2013/07/in_nl_header_2.png 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/db.php 1 -
+/editarinvisual 10 -
+/features/header-slider-revolution/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/myluph.php 1 -
+/scripts/alya.cgi_233283445 1 -
+/scripts/evalsmsi.php 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/style.css 4 http://invisual.pt/alboi/
+/images/stories/shell.php 1 -
+/aveiroexpo/js/jquery.localscroll-min.js 6 -
+/hosteldoalboi/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/cerveja-maldita-rotulo/ 4 -
+/wp-content/uploads/2016/08/trinca_xa.jpg 2 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.dropkick-min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/dd.php 2 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 3 -
+/intruvert/jsp/admin/Login.jsp 1 -
+/hoteldassalinas/en/the-plant-is-an-alternative-to-salt-once-it-was-a-curse-is-now-a-gourmet-herb/ 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 9 http://aveiroexpo.com/portfolio/project-number-1/
+/wp-content/uploads/2013/10/in_visual_branding_solutions.png 1 -
+/user/register 2 -
+/administrator 2 -
+/page_category-sitemap.xml 1 -
+/smart_aqua_eng/web/download_file.php 2 -
+/wp-content/plugins/SocketIontrol.php 2 invisual.pt
+/log.php 4 http://invisual.pt/log.php
+/mide.php 1 -
+/cgi-bin/evalsmsi.php 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/mmenu.css 1 http://invisual.pt/hosteldoalboi/es/ofertas/
+/html/gallery/fotografia-espacos-comerciais-hotel-de-ilhavo 1 -
+/portfolio_page/boca-torta/ 1 -
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/version.php 2 -
+/web/download_file.php 2 -
+/wp-content/uploads/2016/04/marca_agner.jpg 1 -
+/conteudo/uploads/2016/09/composicao.png 1 -
+/scripts/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 -
+/homepages/blog-grid/ 1 -
+/novo-website-da-empresa-agner-service/ 1 -
+/wp-includes/logo_img.php 1 http://litoralfashion.pt/wp-includes/logo_img.php
+/wp-content/plugins/history-collection/download.php 2 -
+/cgi-bin/alya.cgi 1 -
+/home-3/ 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/bootstrap.css 4 http://invisual.pt/alboi/
+/cgi-bin/login/auth 1 -
+/aveiroexpo/site/12o-encontro-de-carochas-de-aveiro/ 4 -
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 6 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2016/04/smart_aqua.jpg 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.mmenu.min.all.js 4 http://invisual.pt/alboi/
+/portfolio_page/litoral-awards-2015-video/ 1 -
+/html/gallery/desdobraveis 1 -
+/alboi/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js 3 http://invisual.pt/alboi/
+/alboi/wp-includes/js/jquery/ui/core.min.js 4 http://invisual.pt/alboi/
+/images/stories/0day.php 3 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 3 -
+/index.html 1 -
+/cgi-bin/formmail.pl 1 -
+/scripts/branding.js 1 -
+/aveiroexpo/programa_seminario_PFMC.pdf 1 -
+/portfolio_page/rapidsol/ 3 -
+/cgi-bin/modules/module_db.php 1 -
+/portfolio_page/ekenabay/ 4 -
+/hoteldassalinas/es/testimonials/vivianne-brasil-2/ 1 -
+/meivcore/category/real-estate-infrastructure/feed/ 1 -
+/tmp/guide.php 1 -
+/conteudo/uploads/2016/09/parque-ii-costa-nova-novo-renault-megane-litoral-magazine.jpg 1 -
+/test/wp-admin/setup-config.php 2 -
+/portfolio_page/bosch-paginacao/ 2 -
+/wp-includes/wp-logo.php 1 -
+/portfolio_page/diario-de-aveiro/ 1 -
+/inedx.php 3 http://litoralfashion.pt/inedx.php
+/cgi-bin/rtm.log 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/image001-284x186.jpg 4 -
+/siestta/ 2 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/modernizr-2.6.2.js 4 http://invisual.pt/alboi/
+/portfolio_page/dia-da-crianca-2015/ 3 -
+/smart_aqua_eng/skin/skinmain.php 1 -
+/pivot/modules/module_db.php 1 -
+/accouynt 2 http://ya.ru/
+/wp-content/uploads/2013/10/susanalopes.jpg 1 -
+/blog/robots.txt 52 -
+/eventos-invisual/ 6 -
+/wp-content/uploads/2016/04/marca_ilhamar.jpg 1 -
+/sndso.php 2 -
+/wp-content/uploads/2013/09/royalschool_logo-600x406.jpg 1 -
+/portfolio/ekena-bay-cmtv/ 2 -
+/aveiroexpo/site/ 23 -
+/page.php.suspected 2 -
+/blog/wp-admin/setup-config.php 2 -
+/userlogin!default.action 1 -
+/scripts/formmail.pl 1 -
+/wp-content/logo_img.php 2 http://invisual.pt/wp-content/logo_img.php
+/fonts.googleapis.com 4 -
+/system/login 1 -
+/skin/skinmain.php 1 -
+/wp-content/uploads/2016/04/marca_gesconect-1.jpg 5 -
+/eng/status/statprn.htm 1 -
+/alboi/wp-includes/js/jquery/ui/datepicker.min.js 3 http://invisual.pt/alboi/
+/portfolio_page/ilhamar-embalagem/ 1 -
+/admin.php 16 -
+/hoteldassalinas/wp-content/plugins/image-slider-widget/js/jquery/jquery.easing.1.3.js 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/portfolio_page/w-uniforms/ 2 -
+/scripts 1 -
+/clash.pHp 2 -
+/wp-content/themes/linenity/functions/download.php 2 -
+/portfolio_cat/paginacao/feed/ 4 https://www.google.com/
+/orion/login 1 -
+/gotha/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/readme.txt 1 -
+/ss.php 2 -
+/wp-content/uploads/2016/04/identidade_unimadeiras.jpg 1 -
+/wp-content/plugins/hello.php 3 litoralfashion.pt
+/test/wp-admin/ 4 -
+/portfolio-boxed-grid 6 -
+/wp-content/plugins/peugeot-music-plugin/js/plupload/examples/upload.php 3 -
+/video_gallery.xml 1 -
+/hh.php 1 -
+/wp-content/uploads/2013/07/sab0011-600x859.png 1 -
+/cp 1 -
+/portfolio_page/metalegi/ 6 -
+/https:/www.googletagmanager.com/ns.html 21 -
+/wp-content/uploads/2016/08/outdoor_fest_canais_00000.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/themify/img.php 1 -
+/wp-content/themes/centum/revslider/temp/update_extract/revslider/.libs.php 2 -
+/backup/preview_1/admin/elfinder/elfinder.html 1 -
+/sittir.php 2 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-quarto-standard-vermelho.jpg 1 -
+/meivcore/category/clean-energy/feed/ 1 -
+/tmp/petx.php 1 -
+/blog//xmlrpc.php 29 -
+/mail/ 1 -
+/wp-content/themes/sketch/404.php 4 litoralfashion.pt
+/wp-content/uploads/2016/04/marca_rapidsol.jpg 1 -
+/wp-content/plugins/wp-vertical-gallery/readme.txt 1 http://invisual.pt/wp-content/plugins/wp-vertical-gallery/readme.txt
+/portfolio_page/trincaxa-identidade/ 2 -
+/wp-content/uploads/2016/04/marca_wuniforms.jpg 1 -
+/aveicabo/news/aveicabo.html 6 -
+/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 6 http://invisual.pt/portfolio_page/pizzarte-gins/
+/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php 3 -
+/portfolio_page/bmw-aveiro/ 6 -
+/alboi/wp-includes/js/wp-embed.min.js 1 http://invisual.pt/alboi/
+/wp-content/uploads/2016/04/bosch_paginacao004.jpg 2 -
+/wp-session.php 1 -
+/portfolio_page/festival-dos-canais-logo/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/10/carochas-284x186.jpg 1 -
+/license.txt 3 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/flexslider.css 14 http://invisual.pt/hoteldassalinas/en/
+/aveiroexpo/js/cufon-yui.js 6 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/uploads/2014/12/02_bmw_ativ_eventos.jpg 1 -
+/portfolio_page/tv-ria/ 3 -
+/showcase/ 1 -
+/wcd/system_device.xml 1 -
+/wp-content/uploads/logo_img.php 1 http://invisual.pt/wp-content/uploads/logo_img.php
+/wp-admin/includes/logo_img.php 1 http://invisual.pt/wp-admin/includes/logo_img.php
+/features/header-slider-revolution/wp-content/plugins/ 2 -
+/servlet/Login 1 -
+/wp-content/plugins/wp-db-backup-made/system.php 1 http://invisual.pt/wp-content/plugins/wp-db-backup-made/system.php
+/hp/device/ 1 -
+/wp-content/uploads/2016/04/marca_cliria.jpg 2 -
+/budak.php 2 -
+/portfolio/vr2p-identidade/ 1 -
+/elements.php 2 invisual.pt
+/alboi/wp-content/uploads/2015/04/aveiro-center-footer.png 135 http://grupoalboi.com/
+/hoteldassalinas/es/attraction/museo-maritimo-de-ilhavo/ 1 -
+/load.sumome.com 45 -
+/wp-content/uploads/2013/10/fotografia_optica_nascimento_1.jpg 1 -
+/wp-content/uploads/2013/07/invisual_icon.ico 4 -
+/wp-content/uploads/2016/08/eurogres_fotografia006.jpg 1 -
+/wp-content/themes/twentyeleven/readme.txt 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.fitvids.js 4 http://invisual.pt/alboi/
+/admin 1 -
+/libraries/joomla/css.php 1 -
+/oscmax/catalog/admin/login.php 1 -
+/BLL.php 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 4 -
+/wp-admin/includes/ms-comment.php 2 -
+/smart_aqua_eng/xmlrpc.php 3 -
+/hoteldassalinas/a-cidade/ 1 -
+/alboi/wp-content/uploads/2015/04/alboi-footer.png 134 http://grupoalboi.com/
+/portfolio_cat/eventos/ 3 -
+/login.cgi 1 -
+/xmlpserver/login.jsp 1 -
+/hosteldoalboi/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/javascripts/app.js 1 -
+/cgi-bin/ReleaseNotes.txt 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/bootstrap.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/works/portfolio-landing-page/ 1 -
+/skin/skinwizard.php 1 -
+/wp-content/themes/twentyten/images/wordpress.png 1 -
+/wp-content/plugins/webapp-builder/readme.txt 1 -
+/wp-content/uploads/2016/04/marca_baviera_aveiro.jpg 1 -
+/README.txt 1 -
+/portfolio_page/colegio-portugues/ 1 -
+/hosteldoalboi/wp-includes/js/jquery/jquery.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_cat/fotografia/feed/ 5 https://www.google.com/
+/main/web/status/ 2 -
+/portfolio_page/litoral-magazine-paginacao/ 4 -
+/wp-content/plugins/robotcpa/f.php 3 -
+/moodletreinar/elfinder/elfinder.html 1 -
+/csvn/login/auth 1 -
+/Leonas.php 3 -
+/portfolio_page/spcv-webdesign/ 2 -
+/ms/local/vendor/barryvdh/elfinder-builds/elfinder.html 1 -
+/wp-content/uploads/2016/08/lux_18_fev_0001.jpg 1 -
+/portfolio_page/future-cityscapes/ 2 -
+/wp-content/plugins/mailpress/mp-includes/action.php 2 -
+/wp-includes/wp-xmlrpc.php 1 -
+/scripts/ReleaseNotes.txt 1 -
+/images/stories/black.php 1 -
+/hoteldassalinas/es/service/otros-servicios/ 1 -
+/wp-content/uploads/2013/07/neg0021-600x820.png 1 -
+/error-log.php 2 invisual.pt
+/component/users/ 3 -
+/features/header-slider-revolution/wp-includes/js/tinymce/plugins/media/libs.php 1 -
+/category/noticias/ 1 -
+/google-assist.php 2 invisual.pt
+/hoteldassalinas/wp-content/plugins/image-slider-widget/css/prettyphoto/css/prettyPhoto.css 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/Index2.php 1 -
+/features/header-slider-revolution/wp-content/plugins/revslider/temp/update_extract/revslider/polahi.php 1 -
+/portfolio_page/feira-de-marco-identidade/ 4 -
+/wp-content/uploads/2013/07/pdf003-600x167.jpg 2 -
+/flashlight/README.txt 1 -
+/portfolio-agency/ 1 -
+/portfolio_page/alital-producao-fotografica/ 4 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/myluph.php 2 -
+/images/stories/3xp.php 1 -
+/ws0.php 1 -
+/auth/led_auth.asp 1 -
+/hotelaveirocenter/wp-green.php 1 http://invertirenladrillos.com/wp-green.php
+/backoffice/js/texteditor/elfinder/elfinder.html 1 -
+/aveiroexpo/js/hoverIntent.min.js 8 -
+/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php 2 -
+/hoteldassalinas/room/estudio/ 1 -
+/hoteldassalinas/wp-includes/js/comment-reply.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/robot.php 2 invisual.pt
+/phpmyadmin 1 -
+/images/xxu.php 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro010.jpg 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/colors/default.css 14 http://invisual.pt/hoteldassalinas/en/
+/alboi/wp-content/uploads/2015/04/salinas-footer.png 133 http://grupoalboi.com/
+/portfolio_page/fonte-nova-identidade/ 1 -
+/portfolio_page/exporlux-imprensa-escrita-caras-ideias/ 1 -
+/hoteldassalinas/en/room/handicapped-room/ 1 -
+/wp-content/themes/antioch/lib/scripts/download.php 2 -
+/portfolio_page/atz-webdesign/ 2 -
+/images/robots.txt.php 2 invisual.pt
+/wp-content/plugins/revslider/temp/update_extract/conf.php 1 http://invisual.pt/wp-content/plugins/revslider/temp/update_extract/conf.php
+/web 1 -
+/smart_aqua_eng/ 2 -
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 6 -
+/skin/error.php 2 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 1 -
+/alboi/ 41 -
+/images/1ndex.php 2 invisual.pt
+/wp-content/themes/404.php 4 -
+/wp-content/themes/elegance/lib/scripts/dl-skin.php 5 -
+/wp-admin/logo_img.php 2 http://invisual.pt/wp-admin/logo_img.php
+/portfolio_page/mercentro/ 3 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/scripts.js 14 http://invisual.pt/hoteldassalinas/en/
+/wp-content/themes/dejavu/lib/scripts/dl-skin.php 5 -
+/identidade/ 5 -
+/hoteldassalinas/en/promotions/ 1 -
+/portfolio_page/salpoente-identidade/ 1 -
+/features/header-slider-revolution/wp-content/plugins/revslider/temp/update_extract/revslider/myluph.php 1 -
+/hosteldoalboi/wp-content/plugins/sitepress-multilingual-cms/res/js/browser-redirect.js 1 http://invisual.pt/hosteldoalboi/es/ofertas/
+/colegioportugues/wp-content/uploads/2015/05/Regulamento-Interno-Col%C3%A9gio-Portugu%C3%AAs-.pdf 1 -
+/cache/support.php 2 invisual.pt
+/users/login 1 -
+/wp-content/plugins/formcraft/js/form.js 1 -
+/akism.php 2 http://eventosportugal.pt/akism.php
+/wp-content/uploads/2016/08/vr2p_webdesign000.jpg 2 -
+/wp-content/uploads/2013/09/ekenabay.jpg 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro006.jpg 1 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 2 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/css/mediaqueries.css 3 http://invisual.pt/alboi/
+/wp-content/uploads/2016/08/festival_canais_aveiro.jpg 2 -
+/doc/index.html 1 -
+/ekenabay/survey/index/sid/129874/newtest/Y/lang/pt 7 -
+/main.html 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 3 -
+/configurationbak.php.suspected 2 invisual.pt
+/smart_aqua_eng/wp-content/themes/invisual/thumbopen.php 2 -
+/wp-content/uploads/2016/08/destaque.jpg 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/weather-icons.css 12 http://invisual.pt/hoteldassalinas/en/promotions/
+/wp-content/plugins/revslider/temp/update_extract/revslider/ctrl.php 1 -
+/portfolio_page/ekena-bay-revista-flash/ 2 -
+/wp-content/uploads/2016/08/alital_webdesign.jpg 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/ 1 http://invisual.pt/wp-content/plugins/formcraft/file-upload/server/content/index.php
+/wp-content/uploads/2016/04/invisual_branding_solutions_-1.png 1 -
+/media/jmail.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/core/timthumb.php 1 -
+/features/header-slider-revolution/wp-includes/routing.php 1 -
+/hoteldassalinas/wp-content/uploads/2015/04/museu-ilhavo-700x865.jpg 1 -
+/wp-content/plugins/sexy-contact-form/includes/fileupload/ 3 -
+/hoteldassalinas/ 18 -
+/catalogo_neoplast-3/ 2 -
+/wp-content/uploads/2016/04/marca_arcada.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_feira_de_marco2013.jpg 6 -
+/wp-content/plugins/wp-pagenavi/pagenavi-css.css 6 -
+/classic-business/ 1 -
+/wp-config.php.txt 1 -
+/m.php 1 -
+/portfolio_page/exporlux-imprensa-escrita-visao/ 1 -
+/teste2/2014/06/08/gopro-hero4-adventure-life-4k/ 1 -
+/wp-content/plugins/front-end-editor/lib/aloha-editor/plugins/extra/draganddropfiles/demo/wp-classes.php 3 -
+/portfolio/vr2p/ 1 -
+/xml.php 1 -
+/tcpbx/ 1 -
+/wp-content/uploads/2016/04/marca_pizzarte-1.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 8 http://aveiroexpo.com/portfolio/project-number-1/
+/wp-content/plugins/paypal-currency-converter-basic-for-woocommerce/proxy.php 2 -
+/wp-includes/wp-script.php 1 -
+/wp-content/themes/churchope/lib/downloadlink.php 5 -
+/aveiroexpo/agrovouga2010_reg.pdf 2 -
+/hoteldassalinas/wp-content/plugins/image-slider-widget/css/frontend.css 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/wp-content/plugins/revslider/temp/update_extract/revslider/polahi.php 1 -
+/images/stories/0d4y.php 1 -
+/1.php 2 -
+/aveiroexpo/ficha_de_inscr2010.pdf 1 -
+/wp-content/uploads/2013/04/salpoente1.jpg 1 -
+/portfolio_page/litoral-fashion-lux/ 2 -
+/modules/tadtools/ckeditor/elFinder/elfinder.html 1 -
+/wcd/system.xml 1 -
+/wp-content/upgrade/logo_img.php 1 http://invisual.pt/wp-content/upgrade/logo_img.php
+/wp-content/themes/central/style.css 6 http://invisual.pt/portfolio_page/pizzarte-gins/
+/wp-content/themes/lote27/download.php 2 -
+/smart_aqua_eng/skin/upil.php 1 -
+/wp-includes/pomo/wp-sys.php 3 litoralfashion.pt
+/portfolio_page/eurogres-embalagem/ 1 -
+/wp-content/uploads/2016/04/civilria_webdesign002-2.jpg 1 -
+/coollse.php 2 -
+/wp-content/plugins/gravityforms/css/preview.css 3 -
+/html/gallery/www-ilhamar-com 1 -
+/edic_06.swf 1 -
+/5/tiki-calendar.php 1 -
+/shootme.php 2 invisual.pt
+/trc/ 1 -
+/wp-content/uploads/2016/08/ekenabay_embalagem001.jpg 1 -
+/wp-content/uploads/2013/09/logo_adriano_carreira.jpg 1 -
+/portfolio_page/salpoente-revista_must/ 4 -
+/wp-content/uploads/2016/08/sikawa.jpg 2 -
+/portfolio_page/atz/ 5 -
+/televisao/ 5 -
+/404.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_regulamento.pdf 1 -
+/hoteldassalinas/en/ 2 -
+/http.php 3 litoralfashion.pt
+/wp-content/uploads/2014/10/logo_ekenabay.png 1 -
+/historial.swf 1 -
+/wp-content/maink.php 1 http://invisual.pt/wp-content/maink.php
+/media/version.php 3 litoralfashion.pt
+/tiki/tiki-calendar.php 1 -
+/html/gallery/produtos-calcado 7 -
+/wp-content/uploads/2016/08/tom_ford_optica_nascimento_fotografia0000.jpg 1 -
+/wcd/top.xml 1 -
+/wp-content/uploads/2016/04/ekenabay_2016_foto002.jpg 1 -
+/wp-content/uploads/2015/07/INTERNET_gcolegio_portugues.jpg 1 -
+/AOUoAc.php 1 -
+/zport/acl_users/cookieAuthHelper/login_form 1 -
+/hosteldoalboi/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/hoteldassalinas 2 -
+/hosteldoalboi/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/orbis/admin/login.php 1 -
+/portfolio_page/sikawa-identidade/ 1 -
+/portfolio_page/daifer/ 3 -
+/wp-content/uploads/2016/04/marca_lardarte.jpg 1 -
+/portfolio_cat/fotografia/ 2 -
+/cmsbuild.php 3 litoralfashion.pt
+/wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js 1 http://invisibleptsd.com//wp-content/plugins/woocommerce-catalog-enquiry/lib/jquery/upload/media-upload.js
+/php/login.php 1 -
+/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php 2 http://invisual.pt/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+/configurations.do 1 -
+/images/upxx.php 1 -
+/wp-content/uploads/2015/07/not_pizzarte.jpg 1 -
+/packages/ahmadazimi/laravel-media-manager/elfinder.html 1 -
+/wp-content/uploads/2016/08/MARKETING_DIGITAL.jpg 1 -
+/portfolio_page/festival-dos-canais-web/ 1 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/js/front-subscribers.js 3 http://invisual.pt/hoteldassalinas/en/
+/wp-content/uploads/2013/07/feira001.jpg 2 -
+/portfolio_page/feira-de-marco/ 1 -
+/dev/elfinder/elfinder.html 1 -
+/tdiary/index.rb 1 -
+/wp-content/themes/central/css/style_dynamic.php 7 http://invisual.pt/portfolio_page/pizzarte-gins/
+/sql_dump.php 2 invisual.pt
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css 14 http://invisual.pt/hoteldassalinas/en/
+/// 2 -
+/wp-content/plugins/levelfourstorefront/scripts/administration/dbuploaderscript.php 3 -
+/wordpress/wp-admin/ 4 -
+/portfolio_cat/web-design/ 2 -
+/wordpress/ 13 -
+/images/wp-mail.php 1 -
+/Neko.php 1 -
+/genealogie_sql/Index2.php 1 -
+/wp-content/uploads/2016/08/matsuri_fotografia000.jpg 1 -
+/readme.html 1 -
+/admin/login.php 6 -
+/wp-content/uploads/2016/08/eurogres_fotografia012.jpg 1 -
+/up.php 3 http://invisual.pt/up.php
+/wp-content/uploads/2016/04/mercedes_sls_mercentro004.jpg 1 -
+/wp-content/themes/central/css/custom_css.php 8 http://invisual.pt/portfolio_page/pizzarte-gins/
+/pasts.php 3 -
+/wp-admin/user/reload-x.pHp 1 -
+/aveiroexpo/js/jquery.cluetip.min.js 7 -
+/portfolio_page/pizzarte-gins/ 3 -
+/portfolio_page/grupo-alboi/ 1 -
+/foo.cfm 1 -
+/embalagem/ 3 -
+/portfolio_page/unimadeiras-rel-contas/ 1 -
+/wp-admin/includes/maink.php 1 http://invisual.pt/wp-admin/includes/maink.php
+/hoteldassalinas/es/service/servicios-proporcionados-por-la-recepcion-del-hotel/ 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/jquery.flexslider-min.js 13 http://invisual.pt/hoteldassalinas/en/
+/wp-content/uploads/2013/10/salpoente-destaque.jpg 1 -
+/_backup/library/elfinder/elfinder.html 1 -
+/wp-content/uploads/2016/04/maldita_embalagem001.jpg 1 -
+/bogel.php 2 -
+/wp-admin/wp-optionslink.phpz9 1 -
+/hoteldassalinas/es/service/camas/ 1 -
+/console/faces/jsp/login/BeginLogin.jsp 1 -
+/wp-content/plugins/s3bubble-amazon-s3-html-5-video-with-adverts/assets/plugins/ultimate/content/downloader.php 3 -
+/wp-content/uploads/2013/10/DESIGN2.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2012/04/pablo_alboran1-284x186.jpg 2 -
+/configbak.php 2 invisual.pt
+/wp-content/uploads/2013/07/RODAPE_rapidsol_1-600x530.jpg 2 -
+/wp-content/uploads/2016/08/eurogres_fotografia015.jpg 1 -
+/html/gallery/linhas-graficas 5 -
+/header.php 1 -
+/gelo.php 2 -
+/html/ 2 -
+/hoteldassalinas/wp-content/plugins/image-slider-widget/js/jquery/prettyphoto/jquery.prettyPhoto.js 2 http://invisual.pt/hoteldassalinas/o-hotel/
+/libraries/joomla/zipy.php 1 -
+/wp-content/uploads/2016/04/novo_smart_009.jpg 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 9 -
+/hoteldassalinas/wp-includes/js/jquery/jquery.js 14 http://invisual.pt/hoteldassalinas/en/
+/wp-content/uploads/2016/08/novo_classe_E_007.jpg 39 -
+/wp-admin/css/colors-classic.css 1 -
+/hoteldassalinas/es/service/lavanderia/ 1 -
+/wp-content/uploads/2016/04/outdoor_ferro_002.jpg 1 -
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 3 -
+/site/tmp/cTivrC.php 2 invisual.pt
+/portfolio/clinicas-persona/ 3 -
+/libraries/respectMuslims.php 1 -
+/hoteldassalinas/en/service/hotel-reception-provided-services/ 1 -
+/apple-touch-icon.png 7 -
+/.unix.php 2 -
+/portfolio_page/icon-video/ 1 -
+/active.php 1 -
+/wp-includes/include.php 2 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-pt.js 2 http://invisual.pt/hoteldassalinas/
+/portfolio_page/marc-jacobs-optica-nascimento/ 2 -
+/web/index.html 1 -
+/images/upa.php 1 -
+/portfolio/civilria-web-design/ 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 5 http://invisual.pt/portfolio_page/pizzarte-gins/
+/portfolio_page/susana-lopes-identidade/ 3 -
+/lib/elfinder/build/elfinder.html 1 -
+/wp-content/plugins/myshe.php 2 invisual.pt
+/wp/wp-admin/ 4 -
+/wp-content/plugins/wpfootes.php 2 invisual.pt
+/features/maintenance-mode/ 1 -
+/alboi/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 3 http://invisual.pt/alboi/
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/panel/scripts/jquery.fitvids.js 12 http://invisual.pt/hoteldassalinas/en/promotions/
+/wp-content/plugins/revslider/temp/update_extract/revslider/2x.php 1 -
+/wp-includes/default-string.php 4 -
+/aveiroexpo/js/jquery.overlabel.min.js 8 -
+/wp-content/uploads/2016/04/outdoor_ferro_001.jpg 1 -
+/alboi/wp-content/uploads/2015/04/hotel-salinas.png 134 http://grupoalboi.com/
+/portfolio_page/optica-nascimento/ 1 -
+/hoteldassalinas/en/attraction/costa-nova-beach/ 1 -
+/wp-content/uploads/2016/04/marca_grupo_alboi.jpg 1 -
+/aveiroexpo/js/LiberationSans.font.js 8 -
+/portfolio_page/aveiro-expo/ 6 -
+/wp-content/themes/sketch/system_ml.php 1 http://invisual.pt/wp-content/themes/sketch/system_ml.php
+/portfolio_page/adriano-carreira-identidade/ 4 -
+/wp-content/uploads/2016/04/renault_2016_foto005.jpg 2 -
+/features/header-slider-revolution/wp-content/languages/en_GB.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb.php 2 -
+/wp-content/uploads/wysija/themes/Gassrini/herewgo.php 2 -
+/wemail 1 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 3 -
+/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/wp-content/plugins/akismet/akismet.js 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro011.jpg 1 -
+/wp-content/uploads/2013/07/iso9001.jpg 2 -
+/infos.php 2 invisual.pt
+/hdjobq.htm 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/servico-pequeno.jpg 1 -
+/portfolio_cat/video/ 1 -
+/wp-content/uploads/2013/10/mailing_natal_optica_nascimento_1.jpg 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-estudio.jpg 1 -
+/portfolio_page/miss-mar-ekena-bay-fotografia/ 1 -
+/jahat.php 1 -
+/newvercion 1 http://ya.ru/
+/account/login 1 -
+/wp-content/plugins/wp-post-frontend/js/plupload-2.1.2/examples/upload.php 2 -
+/portfolio_page/colegio-portugues-video/ 2 -
+/sitemap_index.xml 2 -
+/administrator/includes/readmy.php 2 invisual.pt
+/portfolio_page/litoral-fashion-tv-guia-2/ 2 -
+/portfolio_page/colegio-portugues-webdesign/ 3 -
+/ControlManager/default.htm 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro013.jpg 1 -
+/wp-content/plugins/revslider/temp/update_extract/AOUoAc.php 1 -
+/portfolio_page/video-oficial-ekena-bay-2016/ 6 -
+/wp-code.php 2 -
+/alboi/wp-content/uploads/2015/04/alojamento-alboi.png 134 http://grupoalboi.com/
+/portfolio-images-full-width/ 1 -
+/hoteldassalinas/wp-content/plugins/contact-form-7/includes/css/styles.css 13 http://invisual.pt/hoteldassalinas/en/
+/portfolio_page/cerveja-maldita-embalagem/ 3 -
+/app 1 -
+/aveiroexpo/programa_agrovouga_2010.pdf 1 -
+/old/wp-admin/ 4 -
+/EmployeeSearch.cc 1 -
+/wp-content/uploads/2016/04/marca_susana_lopes.jpg 1 -
+/wp-admin/old-post.php 2 -
+/wp-content/themes/estrutura-basica/scripts/download.php 2 -
+/Jijle3.php 1 -
+/wp-content/themes/authentic/includes/download.php 3 -
+/alboi/wp-content/plugins/wpml-cms-nav/res/css/navigation.css 4 http://invisual.pt/alboi/
+/cds-pp/ 1 -
+/portfolio-boxed-metro/ 3 -
+/wp-content/uploads/2013/10/litoralfashion_SL_susanalopes.jpg 1 -
+/cgi-bin/chklogin.cgi 1 -
+/indo.php 1 -
+/wsdl.php 2 invisual.pt
+/hoteldassalinas/en/attraction/teatro-aveirense-250-m/ 1 -
+/wp-content/plugins/google-analyticator/includes_l.php 2 -
+/wp-content/themes/sketch/phpini.php 1 http://invisual.pt/wp-content/themes/sketch/phpini.php
+/portfolio_page/agner-service/ 4 -
+/wp-includes/images/logo_img.php 1 http://invisual.pt/wp-includes/images/logo_img.php
+/xup.php 1 -
+/smart_aqua_eng/magmi/web/download_file.php 2 -
+/images/stories/ali.php 1 -
+/wp-content/uploads/2013/07/neg0011-600x820.png 1 -
+/portfolio_page/ipmd-identidade/ 3 -
+/wp-content/plugins/wp-footers.php 2 invisual.pt
+/apache_pd2.php 2 -
+/akiesmet.php 2 -
+/wp-content/uploads/2016/04/novo_smart_008.jpg 1 -
+/wp-content/plugins/revslider/temp/ 2 http://eventosportugal.pt/wp-content/plugins/revslider/temp/
+/rtm.log 1 -
+/shop-creative/ 5 -
+/auth/login 1 -
+/Siestta/ 1 -
+/includes.php 2 invisual.pt
+/startwlm/Start_Wlm.htm 1 -
+/wp-content/plugins/wp-symposium/server/php/ 3 -
+/html/gallery/fotografia-espacos-comerciais-just-fashion 1 -
+/wp-content/uploads/2013/07/feira002.jpg 2 -
+/administrator/dbconfig.php 2 invisual.pt
+/family/view/elfinder/elfinder.html 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.flexslider-min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-content/uploads/2016/04/bosch_paginacao002.jpg 1 -
+/market/elfinder.html 1 -
+/cgi-bin/mapserv.exe 1 -
+/login.jsp 1 -
+/portfolio_page/civilria-outdoor/ 1 -
+/smart_aqua/wp-content/themes/craftycart/404.php 1 -
+/portfolio_page/matsuri-fotografia/ 3 -
+/documentation.html 1 -
+/portfolio_page/litoral-fashion/ 2 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro012.jpg 1 -
+/portfolio_page/meia-maratona-identidade/ 2 -
+/html/archives/436 1 -
+/hoteldassalinas/es/slider/esperamos-su-visita/ 1 -
+/smart_aqua_eng/app/etc/local.xml 5 -
+/foo.thtml 1 -
+/modules/mod_simplefileuploadv1.3/elements/AOUoAc.php 1 -
+/portfolio_page/alit-web/ 4 -
+/alboi/wp-content/plugins/socials-ignited/css/style.css 4 http://invisual.pt/alboi/
+/wp-content/uploads/2014/04/civilria_andar_modelo_000_B.jpg 2 -
+/conteudo/uploads/2016/09/salpoente-web-mobile-5-invisual.jpg 1 -
+/portfolio_page/lar-darte/ 3 -
+/403.php 3 -
+/wp-content/plugins/zen-mobile-app-native/readme.txt 1 -
+/dswat.org/wsdl.php 2 invisual.pt
+/cache/clean.php 1 -
+/wp-data.php 2 invisual.pt
+/portfolio/iorc/ 9 https://www.google.pt/
+/features/header-slider-revolution/bogel.php 1 -
+/wp-content/languages/en_GB.php 1 -
+/portfolio/ekena-bay-sic-mulher/ 1 -
+/hoteldassalinas/category/sem-categoria/ 1 -
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 1 -
+/portfolio_page/rapidsol-identidade/ 3 -
+/wp-content/uploads/2016/04/marca_royal_school.jpg 1 -
+/main/tiki-calendar.php 1 -
+/Login 1 -
+/wp-content/plugins/wp-handy-lightbox/readme.txt 2 -
+/smart_aqua_eng/skin/error.php 2 -
+/images/google-assist.php 2 invisual.pt
+/hoteldassalinas/wp-content/plugins/socials-ignited/css/font-awesome.css 13 http://invisual.pt/hoteldassalinas/en/promotions/
+/skin/upil.php 1 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-en.js 1 http://invisual.pt/hoteldassalinas/en/
+/wp-content/uploads/2016/08/marc_jacobs_opticanascimento000.jpg 1 -
+/wp-admin/includes/themes.php 4 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/weather-icons.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/salpoente-video/ 2 -
+/alboi/wp-includes/js/comment-reply.min.js 2 http://invisual.pt/alboi/
+/cgi-bin/ 2 -
+/portfolio_page/metalegi 1 -
+/zebda.php 1 -
+/WideImage-master/doc/index.html 1 -
+/portfolio_cat/paginacao/ 3 -
+/index_top.htm 1 -
+/portfolio/alital-web-design/ 1 -
+/html/gallery/3d-espaco-pizzarte 1 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/js/browser-redirect.js 14 http://invisual.pt/hoteldassalinas/en/
+/update.php 6 -
+/colegioportugues/bem-vindo/regulamento-interno/ 1 -
+/myluph.php 1 -
+/features/header-slider-revolution/&amp 3 -
+/hosteldoalboi/wp-content/plugins/contact-form-7/includes/css/styles.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wso2_pack.php 2 -
+/aveiroexpo/farav2010_regulamento.pdf 1 -
+/cache/list.php 2 invisual.pt
+/wp-content/plugins/document_manager/views/file_download.php 2 -
+/festivaldoscanais/tag/feature/ 1 -
+/scripts/ 1 -
+/wp-content/uploads/2013/10/logo_royal_school.jpg 18 https://www.google.pt/
+/wp-content/plugins/plugin-newsletter/preview.php 3 -
+/wp-content/uploads/2013/10/design_expositor1.jpg 1 -
+/edic03_joel.xml 1 -
+/wp-includes/js/scriptaculous/wp-scriptaculous.js 1 -
+/user-info.php 2 -
+/hosteldoalboi/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/apple-touch-icon-precomposed.png 6 -
+/%0D/wp-admin/admin-ajax.php 1 -
+/alboi/wp-content/plugins/page-scroll-to-id/js/jquery.malihu.PageScroll2id-init.js 4 http://invisual.pt/alboi/
+/wp-content/themes/centum/revslider/temp/update_extract/revslider/myluph.php 1 -
+/modelin/ 12 -
+/hoteldassalinas/en/service/breakfast/ 1 -
+/edic_04.swf 1 -
+/genealogie/Index2.php 1 -
+/alboi/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base.css 4 http://invisual.pt/alboi/
+/SessionController.php 2 invisual.pt
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.prettyPhoto.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/cgi-mod/index.cgi 2 -
+/hoteldassalinas/a-planta-que-e-uma-alternativa-ao-sal-antes-era-uma-praga-agora-e-uma-erva-gourmet/ 2 -
+/wp-content/uploads/2016/04/novo_smart_003.jpg 1 -
+/magic.php 1 -
+/README 1 -
+/portfolio_page/salpoente-web/ 4 -
+/cgi-bin/board.php 1 -
+/hoteldassalinas/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-es.js 1 http://invisual.pt/hoteldassalinas/es/
+/wp-content/plugins/mdc-youtube-downloader/includes/download.php 3 -
+/hosteldoalboi/wp-includes/js/jquery/jquery-migrate.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/functions.php 2 invisual.pt
+/features/header-slider-revolution/wp-admin/includes/class-wp-upgrader-list.php 2 -
+/ekenabay/shop/2012/05/11/ 1 -
+/eng/start/about.htm 1 -
+/about-show.do 1 -
+/wp-content/uploads/2016/08/jn_lf_11fev_2008_0001.jpg 1 -
+/sqlbak.php 2 invisual.pt
+/wp-content/plugins/aviary-image-editor-add-on-for-gravity-forms/includes/upload.php 3 -
+/aveiroexpo/js/supersubs.min.js 7 http://www.farmaciacapaofilipe.com/apresentacao.html
+/wp-content/themes/infocus/lib/scripts/dl-skin.php 6 -
+/foo.php 1 -
+/wp-content/plugins/logsa.php 1 http://invisual.pt/wp-content/plugins/logsa.php
+/WHM 1 -
+/hoteldassalinas/es/attraction/oficina-de-turismo-300-m/ 1 -
+/assets/elfinder1/elfinder.html 1 -
+/printenv 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia014.jpg 1 -
+/features/header-slider-revolution/index.inc.php 1 -
+/css.php 1 -
+/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php 3 http://invisual.pt/wp-content/themes/RightNow/includes/uploadify/upload_settings_image.php
+/alboi/wp-content/plugins/cssigniter-shortcodes/src/js/jquery.flexslider.js 3 http://invisual.pt/alboi/
+/portfolio_page/metalegi-iberica-identidade/ 2 -
+/html/feed/atom 1 -
+/api/xmlrpc 5 -
+/wp-content/themes/modular/lib/scripts/dl-skin.php 2 -
+/wp-content/themes/sketch/info.php 1 http://invisual.pt/wp-content/themes/sketch/info.php
+/wp-admin/network/logo_img.php 1 http://invisual.pt/wp-admin/network/logo_img.php
+/wp-content/plugins/wp-polls/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 -
+/servlet/com.newatlanta.servletexec.JSP10Servlet/..%5c..%5cglobal.asa 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/timthumb.php 2 -
+/admin/language/english/total/arhive.php 3 litoralfashion.pt
+/portfolio_page/salpoente-fotografia/ 3 -
+/wp-content/themes/famous/style.css 1 http://invisual.pt/wp-content/themes/famous/style.css
+/images/sym.php 1 -
+/features/header-slider-revolution/wp-includes/posts.php 1 -
+/hoteldassalinas/en/news/ 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/mmenu.css 14 http://invisual.pt/hoteldassalinas/en/
+/seopanel/ 1 -
+/hosteldoalboi/wp-includes/js/jquery/ui/core.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/eng/status/statprn1.htm 1 -
+/wp-includes/routing.php 1 -
+/edic_09.swf 1 -
+/login/auth 2 -
+/wp-admin/maink.php 1 http://invisual.pt/wp-admin/maink.php
+/wp-content/uploads/2016/04/novo_smart_001.jpg 1 -
+/jalang.php 1 -
+/invisual/feed/ 1 -
+/wp-content/uploads/2015/07/noticia_alboi.jpg 1 -
+/portfolio_page/ekenabay-identidade/ 4 -
+/wp-content/uploads/2016/04/novo_smart_004.jpg 1 -
+/festivaldoscanais/tag/must-do/ 1 -
+/hoteldassalinas/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie.js 14 http://invisual.pt/hoteldassalinas/en/
+/chksession.cgi 1 -
+/hoteldassalinas/wp-includes/js/jquery/jquery-migrate.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/smart_aqua_eng/skin/skinwizard.php 1 -
+/portfolio/lardarte-catalogo/ 1 -
+/wp-content/themes/myriad/lib/scripts/dl-skin.php 3 -
+/portfolio_page/recicla-ecovalor/ 1 -
+/start/about.htm 1 -
+/wp-configuration.php 1 -
+/smart_aqua_eng/Neko.php 1 -
+/E.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/timthumb.php 2 -
+/opennms/login.jsp 1 -
+/features/header-slider-revolution/wp-content/plugins/revslider/temp/update_extract/revslider/petx.php 1 -
+/wp-content/themes/central/css/style_dynamic_responsive.php 7 http://invisual.pt/portfolio_page/pizzarte-gins/
+/hoteldassalinas/es/contactos-2/ 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/salinas-logo.png 1 -
+/features/header-slider-revolution/wp-admin/includes/ms-comment.php 1 -
+/portfolio_page/spcv/ 1 -
+/includes/u2p.php 2 invisual.pt
+/wp-content/uploads/2016/08/tvguia_LF_agosto2008_0001.jpg 2 -
+/kallithea/ 2 -
+/cache/.libs.php 2 -
+/features/header-slider-revolution/wp-indeks.php 1 -
+/sftp-config.json 4 -
+/portfolio_page/mercedes-sls-mercentro/ 2 -
+/wordpress/wp-admin/setup-config.php 2 -
+/hoteldassalinas/wp-content/plugins/wpml-cms-nav/res/css/navigation.css 14 http://invisual.pt/hoteldassalinas/en/
+/wp-content/plugins/revslider/css/admin.css 2 http://invisual.pt/wp-content/plugins/revslider/css/admin.css
+/wp-includes/maink.php 1 http://invisual.pt/wp-includes/maink.php
+/images/xxx.php 2 invisual.pt
+/insidepipe/ 1 -
+/wp-content/themes/amoveo/includes/fileuploader/upload_handler.php 1 http://invisual.pt/wp-content/themes/amoveo/includes/fileuploader/upload_handler.php
+/wp-content/themes/construct/lib/scripts/dl-skin.php 3 -
+/meivcore/ 2 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/thumb.php 1 -
+/portfolio_page/colegio-portugues-outdoor/ 1 -
+/portfolio_cat/impressao/ 2 -
+/features/header-slider-revolution/wp-admin/admin-ajax.php 3 -
+/smart_aqua_eng/wp-content/themes/invisual/framework/timthumb.php 2 -
+/cgi-bin/index.rb 1 -
+/hoteldassalinas/es/la-ciudad/feed/ 1 -
+/portfolio_page/stand-entreposto-a-fontes/ 3 -
+/xGSx.php 4 -
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php 1 http://eventosportugal.pt/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/jquery.mmenu.min.all.js 13 http://invisual.pt/hoteldassalinas/en/
+/wp-includes/js/logo_img.php 1 http://invisual.pt/wp-includes/js/logo_img.php
+/images/stories/gass.php 1 -
+/features/header-slider-revolution/indo.php 1 -
+/edic_08.swf 1 -
+/blog// 4 -
+/logs.asp 2 invisual.pt
+/portfolio_page/restaurante-salpoente/ 5 -
+/ny.php 1 -
+/paginacao-invisual/ 2 -
+/wp-content/themes/epic/includes/download.php 2 -
+/wp_logns.php 1 -
+/portfolio_page/exporlux-no-museu-nacional-do-azulejo/ 1 -
+/marcas/ 10 -
+/portfolio_page/neoplast-catalogo/ 2 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-qurto-standard-azul.jpg 1 -
+/portfolio_cat/identidade/feed/ 6 https://www.google.com/
+/wp-content/uploads/cmsbuild.php 3 litoralfashion.pt
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/style.css 1 http://invisual.pt/hosteldoalboi/es/ofertas/
+/portfolio-photo/ 1 -
+/magmi/conf/magmi.ini 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/modernizr-2.6.2.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/buy-cheap-hydrochlorothiazide/ 1 -
+/libraries/joomla/wso.php 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/css/mediaqueries.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/adriano-carreira-espaco/ 2 -
+/wp-admin/js/maink.php 1 http://invisual.pt/wp-admin/js/maink.php
+/wp-content/themes/central/css/responsive.min.css 6 http://invisual.pt/portfolio_page/pizzarte-gins/
+/portfolio-sitemap.xml 1 -
+/yt.php 2 -
+/portfolio_page/litoral-fashion-2008-tvi/ 2 -
+/wp-content/plugins/ 4 -
+/aveiroexpo/programa_frilac2011.pdf 3 -
+/images/stories/gh.php 1 -
+/wp-includes/wp-inc.php 2 http://invisual.pt/wp-includes/wp-inc.php
+/portfolio_page/ferro-reclamo/ 2 -
+/wp-content/themes/twentyten/style.css 1 -
+/portfolio_cat/assessoria/ 3 -
+/portfolio_page/apresentacao-do-novo-smart/ 1 -
+/tmp/bogel.php 1 -
+/wp-content/uploads/2013/10/desdobraveis_AVEICABO.jpg 1 -
+/smart_aqua_eng/admin/Cms_Wysiwyg/directive/ 9 -
+/administrator/index.php 1 -
+/wp-content/uploads/2016/04/web_spcv-1.jpg 2 -
+/wp-content/plugins/image-export/download.php 2 -
+/wp-content/themes/central/css/stylesheet.css 7 http://invisual.pt/portfolio_page/pizzarte-gins/
+/jetspeed/portal 1 -
+/4Rc43a.php 2 -
+/portfolio_page/adriano-carreira-webdesign/ 4 -
+/wp-content/plugins/estatik/readme.txt 1 http://eventosportugal.pt/wp-content/plugins/estatik/readme.txt
+/preview/admin/elfinder/elfinder.html 1 -
+/portfolio_page/ferro/ 4 -
+/civilria2/ 5 -
+/go.php 1 -
+/lib/composer.json 1 -
+/hoteldassalinas/attraction/praia-da-costa-nova/ 1 -
+/wp-content/force-download.php 2 -
+/cache/cache_aqbmkwwx.php 2 invisual.pt
+/wp-content/uploads/2013/07/pdf002-600x144.jpg 2 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/bootstrap.css 14 http://invisual.pt/hoteldassalinas/en/
+/wp-help.php 2 litoralfashion.pt
+/images/stories/s.php 1 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.dropkick-min.js 4 http://invisual.pt/alboi/
+/wp-content/plugins/fancybox-for-wordpress/js/admin.js 1 INVISUAL.PT/wp-content/plugins/fancybox-for-wordpress/js/admin.js
+/edic_03.swf 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 http://invisual.pt/modules/mod_simplefileuploadv1.3/elements/udd.php
+/wp-content/uploads/2016/04/lf_2015_sicnoticias.jpg 2 -
+/hoteldassalinas/es/ofertas/ 1 -
+/wp-content/uploads/2013/07/pdf004-600x155.jpg 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/.libs.php 1 -
+/cache/defau1t.php 2 invisual.pt
+/wp-content/plugins/revslider/manz.php 2 -
+/portfolio_page/confeitaria-framboesa-webdesign/ 5 -
+/wp-admin/options-link.php 3 -
+/media/reads.php 2 invisual.pt
+/1337.php 2 -
+/cgi-bin/chksession.cgi 1 -
+/alboi/wp-content/uploads/2014/03/sample_image14-700x865.jpg 1 -
+/hotelaveirocenter/wp-version.php 1 http://invinciblemarketing.org/wp-version.php
+/01.htm 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 10 http://aveiroexpo.com/portfolio/project-number-1/
+/logs.php 1 -
+/wp-content/uploads/2016/04/mercedes_sls_mercentro002.jpg 1 -
+/cgi-bin/printenv_53136243 1 -
+/wp-indeks.php 2 -
+/session_login.cgi 1 -
+/portfolio_page/vr2p-web/ 2 -
+/wp-includes/images/maink.php 1 http://invisual.pt/wp-includes/images/maink.php
+/portfolio/ls-medicall/ 1 -
+/authority/elfinder/elfinder.html 1 -
+/wp-content/uploads/AOUoAc.php 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-estudio-superior.jpg 1 -
+/portfolio_page/leonor-reis-sic-mulher/ 3 -
+/wp-admin/user/logo_img.php 1 http://invisual.pt/wp-admin/user/logo_img.php
+/xmlrpc-activate.php 2 -
+/wp-content/tiny_mce/plugins/tinybrowser/tinybrowser.php 1 -
+/wp-api.php 3 litoralfashion.pt
+/login/ 2 -
+/portfolio_page/civilria-webdesign/ 3 -
+/xmlsrpc.php 2 invisual.pt
+/wp-content/themes/central/js/custom_js.php 11 -
+/portfolio/civilria-icon-novo-empreendimento/ 1 -
+/news/elfinder.html 1 -
+/alboi/wp-content/plugins/page-scroll-to-id/js/jquery.malihu.PageScroll2id.js 4 http://invisual.pt/alboi/
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/css/prettyPhoto.css 14 http://invisual.pt/hoteldassalinas/en/
+/homepages/blog-splitted/ 1 -
+/Login.jsp 1 -
+/wp/wp-admin/setup-config.php 2 -
+/smart_aqua_eng/downloader/ 3 -
+/542254040.aspx 1 -
+/images/w0rm.php 1 -
+/cache/news.php 2 invisual.pt
+/wp-content/uploads/2013/07/iso27001.jpg 2 -
+/readme.htm 1 -
+/wp-content/plugins/simple-ads-manager/readme.txt 2 -
+/mark.php 2 -
+/wp-content/plugins/sql_dump.php 2 invisual.pt
+/aveicabo1 1 -
+/_sub/authority/elfinder/elfinder.html 1 -
+/outdoor/ 4 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/js/jquery.prettyPhoto.js 4 http://invisual.pt/alboi/
+/alboi/wp-content/plugins/socials-ignited/css/font-awesome.css 4 http://invisual.pt/alboi/
+/wp-content/plugins/revslider/temp/update_extract/revslider/petx.php 1 -
+/smart_aqua_eng/wp-content/themes/eclipse/404.php 1 -
+/blog//wp-admin/admin-ajax.php 7 -
+/hoteldassalinas/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/portfolio_page/lsmedicall-web/ 1 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/panel/scripts/retina.1.3.0.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/uploads/admin/elfinder/elfinder.html 1 -
+/%C3%83%C6%92%C3%86%E2%80%99%C3%83%E2%80%A0%C3%A2%E2%82%AC%E2%84%A2%C3%83%C6%92%C3%A2%E2%82%AC%C5%A1%C3%83%E2%80%9A%C3%82%C2%A2%C3%83%C6%92%C3%86%E2%80%99%C3%83%E2%80%9A%C3%82%C2%A2%C3%83%C6%92%C3%82%C2%A2%C3%83%C2%A2%C3%A2%E2%82%AC%C5%A1%C3%82%C2%AC%C3%83 1 -
+/portfolio_page/ekena-bay-paginacao/ 7 -
+/downloader/ 3 -
+/wiki5/tiki-calendar.php 1 -
+/icon_lf.ico 7 -
+/wp-content/uploads/2016/08/imprensa_caras_exporlux0000-1.jpg 1 -
+/contactos/ 5 https://www.google.pt/
+/contactos/function.gethostbyaddr 1 -
+/features/header-slider-revolution/yena.php 1 -
+/portfolio/unimadeiras-video-institucional-2016/ 1 -
+/wp-content/uploads/2016/04/bosch_paginacao005.jpg 2 -
+/portfolio_cat/embalagem/ 1 -
+/portfolio_cat/assessoria/feed/ 5 https://www.google.com/
+/xmlrpc.php 2083 -
+/wp-admin/images/wp-logo-2x.png 1 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/thumb.php 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/php/ 3 http://invisual.pt/wp-content/plugins/fluid_forms/file-upload/server/php/
+/scripts/about-show.do 1 -
+/portfolio/unimadeiras-relatorio-de-contas/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/scripts/thumb.php 2 -
+/portfolio_page/unimadeiras-identidade/ 4 -
+/portfolio_cat/web-design/feed/ 3 https://www.google.com/
+/wp-content/uploads/2016/08/eurogres_fotografia016.jpg 1 -
+/wp-content/plugins/revslider/temp/update_extract/wolf.php 4 -
+/docman/admin.php 2 -
+/wp-content/plugins/candidate-application-form/downloadpdffile.php 2 -
+/crowd/console/login.action 1 -
+/wp-content/uploads/2016/04/renault_2016_foto007.jpg 1 -
+/aveiroexpo/ 15 -
+/wp-content/uploads/2013/07/sab0021-600x859.png 1 -
+/wp-content/uploads/2014/10/identidade_metalegi.jpg 2 -
+/hoteldassalinas/en/slider/we-wait-for-your-visit/ 1 -
+/conteudo/uploads/2016/09/agueda-palco-ii-moonshiners-novo-renault-megane-litoral-magazine.jpg 1 -
+/wp-content/plugins/really-simple-guest-post/simple-guest-post-submit.php 7 -
+/teste2/2015/01/09/20-ui-design-photoshop-tutorials-will-come-handy/ 1 -
+/hosteldoalboi/wp-includes/js/jquery/ui/datepicker.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/portfolio_page/royal-school-of-languages/ 2 -
+/features/header-slider-revolution/wp-link.php 1 -
+/wp-content/plugins/wpshop/includes/ajax.php 3 -
+/wp-content/uploads/2016/04/ipmd.jpg 1 -
+/portfolio_page/epa-embalagem/ 1 -
+/checkout/js/lib/ccard.js 1 -
+/hoteldassalinas/en/room/studio-room/ 1 -
+/oscmax/admin/login.php 2 -
+/wp-content/uploads/2016/04/id_EK.jpg 1 -
+/portfolio_page/bosch-video/ 3 -
+/tat/tiki-calendar.php 1 -
+/optica/ 1 -
+/imprensa-escrita/ 4 -
+/cgi-bin/about-show.do 1 -
+/wp-content/plugins/stats-wp/readme.txt 2 -
+/alboi/wp-content/themes/wp_santorini5-v1.4/js/scripts.js 4 http://invisual.pt/alboi/
+/images/al277.php 2 invisual.pt
+/cgi-bin/alya.cgi_1090643748 1 -
+/_core/utils/elfinder/elfinder.html 1 -
+/smart_aqua_eng/admin/ 1 -
+/portfolio_page/ekena-bay-fotografia/ 6 -
+/hoteldassalinas/wp-content/themes/wp_santorini5-v1.4/js/superfish.min.js 14 http://invisual.pt/hoteldassalinas/en/
+/wp-profi1e.php 2 -
+/backup/preview_Jan27/admin/elfinder/elfinder.html 1 -
+/aveiroexpo/site 7 -
+/tiny_mce/plugins/elfinder/elfinder.html 1 -
+/images/stories/u.php 1 -
+/wp-linknet.php 2 -
+/edic_02.swf 2 -
+/wp-content/plugins/acf-frontend-display/js/blueimp-jQuery-File-Upload-d45deb1/server/php/ 3 -
+/favicon.png 1 -
+/backup/preview_Jan9/admin/elfinder/elfinder.html 1 -
+/gotha/administrator/components/com_akquickicons/includes/elfinder/elfinder.html 1 -
+/broadWeb/bwRoot.asp 1 -
+/hoteldassalinas/wp-content/uploads/2015/03/galeria-estudio-sala.jpg 1 -
+/portfolio_page/maldita-identidade/ 7 -
+/wp-apps.php 2 -
+/hoteldassalinas/attraction/museu-maritimo-de-ilhavo/ 2 -
+/aveiroexpo/site/leandro/ 1 -
+/Mamha.php 3 -
+/hoteldassalinas/xmlrpc.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 2 http://eventosportugal.pt/wp-content/upgrade/theme-compat/popup-pomo.php
+/optica/vista/ 1 -
+/hosteldoalboi/wp-content/themes/wp_santorini5-v1.4/panel/scripts/retina.1.3.0.min.js 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-admin/css/uploader.php 2 litoralfashion.pt
+/festivaldoscanais&amp 1 -
+/media/1ndex.php 2 invisual.pt
+/html/wp-content/uploads/2011/09/B-25_editorial-158x96.jpg 1 -
+/wso.php 2 http://invisual.pt/wso.php
+/portfolio_page/w-uniforms-identidade/ 3 -
+/features/header-slider-revolution/wp-content/plugins/revslider/temp/update_extract/revslider/2x.php 1 -
+/wp-content.php 1 -
+/mod_ariimageslidersa.php 3 litoralfashion.pt
+/wp-content/uploads/2016/04/maldita_rotulo001.jpg 1 -
+/wp-content/uploads/2016/04/civilria_webdesign005-2.jpg 1 -
+/editar 7 -
+/smart_aqua_eng/wp-content/themes/invisual/includes/timthumb.php 2 -
+/hosteldoalboi/wp-content/plugins/socials-ignited/css/style.css 1 http://invisual.pt/hosteldoalboi/en/service/beds/
+/wp-content/themes/theagency/includes/uploadify/uploadify.php 1 http://eventosportugal.pt/wp-content/themes/theagency/includes/uploadify/uploadify.php
+/tmp/sfx.php 1 -
+/cgi-bin/Index2.php 1 -
+/smartaqua/ 3 -
+/hoteldassalinas/en/testimonials/vivianne-brazil/ 1 -
+/allinone/administrator/components/com_jvframework/libraries/elfinder-2.0-rc1/elfinder.html 1 -
+/composer.json 2 -
+/wp-content/uploads/2016/04/insignia_.png 1 -
+/tw/tiki-calendar.php 1 -
+/smart_aqua/wp-content/themes/eclipse/404.php 1 -
+/~daycare/assets/elfinder/elfinder.html 1 -
+/arsys/shared/login.jsp 1 -
+/wp-content/uploads/2014/07/atz.jpg 1 -
+/portfolio_page/ekena-bay-revista-nova-gente/ 1 -
+/wp-cods.php 2 -
+/wp-content/uploads/2014/10/meivcore-300x203.jpg 1 -
+/hotelaveirocenter/wp-content/uploads/2015/06/email.jpg%22 1 -
+/wp-admin/includes/class-wp-upgrader-list.php 4 -
+/wp-content/plugins/front-end-upload/lib/plupload/examples/upload.php 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php 1 -
+/wp-tmp.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/panel.png 1 -
+/video/ 5 -
+/wp-includes/js/tinymce/plugins/media/libs.php 1 -
+/nktt.php 1 -
+/portfolio/litoral-magazine-revista-trimestral/ 1 -
+/wp-content/uploads/2016/08/eurogres_fotografia003.jpg 1 -
+/cgi-bin/config.cgi 1 -
+/wp-content/uploads/2013/07/CABECALHO-600x372.jpg 2 -
+/wp-content/uploads/2016/02/new_up.php 1 http://www.google.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1101
+94.46.176.249 10556 19719 478828502 20170430231155
+176.58.97.39 449 449 0 20170430224504
+85.159.211.249 435 435 0 20170430234005
+178.79.184.115 429 429 0 20170430235504
+178.79.159.44 425 425 0 20170430231005
+151.236.217.218 406 406 0 20170430235011
+176.58.113.125 393 393 0 20170430234504
+212.71.252.46 356 356 0 20170430222504
+88.80.184.58 351 351 0 20170430215504
+212.111.41.181 317 317 0 20170430220504
+212.83.151.125 120 136 3920434 20170427221552
+54.245.1.61 93 391 13510775 20170419005023
+89.155.186.74 78 518 15249575 20170428170930
+46.118.115.123 47 47 1318710 20170430133547
+37.187.56.47 46 46 1756170 20170422034331
+46.119.118.191 44 44 1203581 20170430012409
+46.119.112.125 43 43 1260013 20170430013349
+95.136.122.247 33 365 13167657 20170420194600
+37.229.253.129 33 33 940414 20170430075054
+121.34.166.250 32 32 432653 20170419193914
+46.118.126.252 31 31 751452 20170425072928
+89.115.74.214 31 36 1026930 20170430220600
+37.49.224.107 30 34 980119 20170423023059
+36.5.243.149 30 30 216088 20170426171931
+36.5.226.129 30 30 216087 20170428221602
+89.155.185.67 0 1 9898 
+41.101.161.189 1 1 44855 20170420073446
+222.127.147.213 2 2 89710 20170419121443
+82.190.241.210 12 116 7548823 20170429084514
+88.157.198.50 0 2 27700 
+54.77.74.58 1 1 29804 20170428221710
+197.227.122.53 1 1 44861 20170426064700
+185.104.252.77 2 2 89716 20170420112111
+61.6.46.40 1 1 44855 20170424141853
+5.249.12.3 0 1 301199 
+54.158.70.9 1 1 0 20170427064359
+77.166.121.239 2 2 89716 20170423195645
+193.227.29.234 1 1 44855 20170424124107
+173.208.244.98 1 1 44861 20170421190130
+79.160.0.146 2 2 89710 20170420184023
+85.211.208.62 2 2 89710 20170430111716
+49.145.103.83 2 2 89710 20170425154531
+188.251.40.105 7 119 2458402 20170421133909
+79.141.232.195 1 1 44861 20170422195907
+217.244.239.236 2 2 89716 20170422202654
+81.196.43.25 1 1 44855 20170422215940
+203.200.180.114 1 1 44861 20170426130922
+94.141.221.48 1 1 44861 20170424104804
+95.136.21.59 7 43 2614468 20170420181411
+14.202.34.174 1 1 44861 20170429155730
+41.136.142.69 2 2 89710 20170424222545
+204.13.201.137 1 1 29804 20170428214448
+188.83.98.46 0 1 36086 
+54.91.139.198 1 1 0 20170425125231
+185.159.36.6 2 2 42 20170423010022
+93.108.10.4 4 46 2056974 20170426000459
+83.240.246.157 0 3 41550 
+89.153.69.167 0 1 22559 
+175.156.9.194 2 2 89722 20170428173322
+77.46.132.177 2 2 89722 20170423202819
+82.155.182.39 8 85 2561709 20170426220612
+89.154.50.97 0 2 9796 
+2.82.173.16 0 1 9898 
+89.155.214.220 0 1 9898 
+79.169.174.163 0 1 9898 
+117.241.188.150 1 1 44855 20170430163357
+34.208.108.73 4 31 544732 20170421073338
+79.117.40.168 1 1 44855 20170430230100
+188.250.173.168 0 6 59388 
+1.23.48.114 2 2 89704 20170428170445
+156.199.126.56 2 2 89710 20170428012534
+13.82.177.226 1 1 44855 20170424153529
+49.206.254.53 1 1 44861 20170426125730
+85.243.210.171 0 1 8649 
+101.226.51.227 1 1 402 20170421032306
+66.249.93.51 0 5 57394 
+81.234.146.135 1 1 44855 20170420174302
+112.134.6.102 1 1 44861 20170423120404
+5.89.237.149 1 1 44855 20170429035633
+79.101.186.130 1 1 44861 20170421190712
+41.223.41.171 0 1 90486 
+140.207.185.111 2 4 10389 20170421032411
+94.132.188.22 2 28 905644 20170425172318
+71.167.147.213 1 1 44861 20170425191749
+109.93.57.190 2 2 89722 20170429190623
+175.140.181.15 4 50 1294837 20170425024602
+188.121.41.90 1 1 1 20170420102803
+183.83.190.188 1 1 44861 20170423153325
+104.144.173.47 1 1 8215 20170424054611
+54.86.2.209 1 1 0 20170430153332
+185.18.191.245 1 1 44861 20170421142234
+104.243.26.15 29 32 933332 20170424055728
+54.158.240.148 1 1 0 20170425151759
+88.185.22.57 2 2 89716 20170425171707
+162.212.171.39 1 1 8216 20170422224105
+184.73.46.75 1 1 0 20170428232833
+103.23.224.169 2 2 89722 20170428105501
+95.24.239.138 3 73 637765 20170424053926
+87.103.15.6 0 3 41550 
+200.68.46.5 2 2 3543 20170430092823
+195.245.150.242 0 1 301199 
+172.97.235.122 1 1 44861 20170423020520
+188.93.197.91 1 1 9338 20170419215013
+46.118.156.191 1 1 44855 20170423215802
+83.47.53.76 2 2 89722 20170424102034
+144.76.80.151 5 5 176282 20170425111425
+188.140.47.84 0 2 201005 
+66.102.9.12 1 1 9337 20170418180918
+54.160.90.220 1 1 0 20170419200630
+5.37.224.92 2 2 89716 20170422105520
+54.159.214.113 1 1 0 20170426182727
+174.5.146.33 2 2 89716 20170421071710
+94.63.191.130 0 1 13850 
+107.20.65.247 1 1 0 20170424054838
+66.249.93.41 1 1 9339 20170423115118
+104.144.254.5 1 1 8216 20170421164527
+95.95.116.160 8 134 5136483 20170418181731
+78.137.230.231 14 200 6911653 20170428104307
+111.220.40.211 1 1 44861 20170428112934
+49.149.22.59 1 1 44861 20170421002007
+54.255.228.250 1 1 29805 20170428221711
+83.223.226.41 0 1 9898 
+66.249.93.139 0 2 19796 
+62.28.253.6 7 116 4203456 20170421151222
+54.146.22.166 1 1 0 20170423202418
+188.81.29.187 0 1 48443 
+54.198.18.48 1 1 0 20170419161451
+182.69.60.107 1 1 44861 20170422063820
+176.79.135.128 5 57 3651587 20170418140546
+144.217.80.113 4 4 37356 20170430185325
+201.13.63.187 2 2 89716 20170425183638
+180.149.210.84 1 1 44861 20170427093849
+200.3.222.65 2 2 89710 20170428141319
+42.117.212.49 2 2 89716 20170429033107
+93.108.224.82 0 1 13850 
+191.102.208.27 1 1 44855 20170419011441
+54.163.156.165 2 2 0 20170429051233
+1.23.16.96 1 1 44855 20170421170749
+51.15.43.205 2 2 18673 20170430005720
+178.220.205.70 1 1 44855 20170430181353
+79.66.27.145 2 2 89722 20170428180623
+188.251.151.56 6 66 1842272 20170427142154
+103.21.76.138 2 2 89722 20170424092913
+46.65.207.61 2 2 89722 20170424002032
+193.92.193.196 1 1 44861 20170423225218
+54.237.7.216 1 1 0 20170423143934
+186.246.177.20 4 60 528142 20170420170040
+54.237.81.2 1 1 0 20170421102836
+54.160.80.69 1 1 0 20170430063234
+89.154.34.27 0 1 36086 
+85.218.36.110 1 1 44861 20170424172407
+103.71.53.254 1 1 44861 20170429221758
+117.207.17.125 1 1 44849 20170428180421
+94.66.56.59 2 2 89722 20170420122457
+87.153.220.42 1 1 44855 20170422201743
+206.41.168.233 1 1 44861 20170425050344
+89.163.227.170 1 1 44861 20170419212815
+107.21.253.49 1 1 8661 20170420152741
+54.158.244.130 1 1 0 20170424095049
+105.157.28.183 1 1 44855 20170424214316
+187.154.239.147 2 2 89722 20170426041126
+5.141.202.65 1 1 9338 20170424170852
+117.239.4.55 1 1 44861 20170425164201
+89.109.114.10 6 67 1916199 20170420090643
+84.193.14.204 1 1 44855 20170428135956
+66.249.93.55 0 11 132590 
+77.139.20.180 1 1 44861 20170429144615
+76.92.175.37 4 42 762892 20170423161402
+149.202.72.198 1 1 9336 20170425132457
+54.160.83.11 1 1 0 20170422104642
+103.76.228.168 1 1 3316 20170418162822
+211.226.92.85 1 1 44855 20170428120431
+208.91.115.10 4 31 573186 20170422190520
+81.202.112.21 2 2 89722 20170423013033
+54.205.161.249 2 2 0 20170429182111
+54.205.253.8 1 1 0 20170422220750
+82.1.149.205 2 2 89716 20170420203849
+54.159.30.46 1 1 0 20170421142554
+54.87.89.16 1 1 0 20170430163548
+101.100.131.40 1 1 44861 20170422233523
+203.133.169.102 1 1 44855 20170424193515
+39.50.252.8 1 1 44861 20170426194159
+108.212.88.6 2 2 89722 20170421154302
+91.206.201.36 2 2 89710 20170428132044
+162.245.44.139 1 1 44855 20170421002822
+68.198.104.252 2 2 89722 20170424234225
+188.80.106.133 5 51 1037683 20170418200235
+37.123.133.148 3 3 28004 20170428081759
+107.20.33.120 1 1 0 20170423082827
+184.72.168.192 1 1 0 20170419051835
+90.254.45.121 1 1 44861 20170421061821
+66.102.8.197 0 1 546533 
+62.109.16.158 1 1 44855 20170426133134
+54.193.30.197 0 2 3860096 
+144.64.83.133 6 114 2740274 20170426203122
+153.232.48.57 2 2 89722 20170422234710
+47.184.171.178 1 1 44861 20170420060110
+175.142.130.80 1 1 44855 20170420093921
+79.168.13.93 0 1 8016 
+186.89.149.66 1 1 44861 20170418141703
+101.24.117.175 1 1 9336 20170424212120
+104.196.139.222 4 4 0 20170427105456
+52.91.180.65 1 1 0 20170430151706
+186.50.23.181 2 2 89710 20170424232245
+101.199.108.58 4 31 573173 20170421032659
+23.236.148.5 2 2 16431 20170424194858
+54.237.55.150 1 1 0 20170423072616
+172.98.67.92 2 2 89710 20170422020545
+31.220.17.215 2 2 89710 20170429134141
+125.27.180.110 1 1 44855 20170423094314
+188.250.173.232 5 43 771376 20170430235959
+201.212.70.88 1 1 44861 20170429185324
+107.22.84.120 1 1 0 20170422063027
+107.204.190.147 1 1 44861 20170425071820
+54.158.189.188 1 1 0 20170420170017
+185.25.84.27 1 1 29805 20170428221710
+192.70.218.251 5 51 1754427 20170418154849
+203.175.162.2 2 2 89716 20170429205625
+203.133.170.41 1 1 44861 20170427183457
+54.160.65.135 2 2 0 20170427044122
+27.147.203.2 1 1 44855 20170419224349
+72.38.42.84 1 1 44861 20170419170621
+125.26.58.72 2 2 89704 20170426013646
+88.241.32.105 1 1 44861 20170428220957
+175.138.65.218 6 6 229362 20170430192518
+83.217.138.114 0 1 240613 
+46.242.12.255 1 1 44861 20170421191520
+54.90.146.164 1 1 0 20170430234416
+179.208.138.135 1 1 44855 20170426231104
+198.240.103.94 1 1 44861 20170420020750
+217.129.245.50 6 38 1192640 20170430001131
+66.249.93.142 0 3 29694 
+54.221.182.55 1 1 0 20170419200322
+54.166.50.184 4 31 573171 20170420044116
+148.69.36.207 5 67 4218731 20170421160951
+52.23.173.81 1 1 0 20170426154941
+217.129.247.48 11 195 8338462 20170429211723
+90.209.23.78 14 200 10395766 20170418220420
+54.81.211.147 1 1 0 20170421030716
+45.124.5.48 2 2 89710 20170421144714
+154.244.44.178 1 1 44855 20170419180405
+83.240.189.74 21 209 8212137 20170428090255
+69.174.246.62 13 13 68262 20170429040705
+5.249.91.205 7 127 3281111 20170426120559
+54.158.151.14 1 1 0 20170428185553
+201.226.254.226 1 1 44910 20170419224001
+54.212.29.151 1 1 505 20170430193520
+41.218.162.184 1 1 44861 20170425152233
+193.0.139.169 2 2 89710 20170429112941
+183.87.221.26 2 2 89710 20170427072830
+183.16.161.61 22 27 225936 20170425033754
+177.13.83.73 1 1 44861 20170425224107
+181.24.158.129 2 2 89704 20170429201328
+179.186.241.36 1 1 44855 20170426193346
+94.128.120.248 1 1 44855 20170427155901
+188.32.176.116 2 31 425287 20170424183858
+144.64.6.111 0 1 3456 
+149.56.204.245 3 3 28004 20170425183537
+183.149.173.90 11 103 803864 20170421032407
+89.152.83.175 19 229 7832304 20170420165656
+178.2.240.68 1 1 44861 20170430002709
+101.188.57.209 1 1 44861 20170425004247
+119.180.99.163 5 51 742007 20170424103057
+171.13.14.134 3 3 5488 20170421032829
+51.235.222.140 1 1 44861 20170424001214
+107.173.0.188 1 1 8215 20170429044318
+194.187.170.148 10 10 82168 20170426083009
+104.196.240.135 2 2 18671 20170422222226
+83.7.25.55 2 2 89716 20170424220759
+78.120.141.166 2 2 89710 20170426162631
+197.224.121.106 1 1 44861 20170426062052
+89.180.90.19 10 149 6066519 20170421095609
+123.231.126.149 2 2 89722 20170428054810
+73.157.93.235 22 22 10752 20170430224224
+112.196.127.213 2 2 89716 20170427193104
+89.155.49.175 0 1 5250 
+52.34.114.83 4 31 544728 20170422195255
+89.154.68.215 0 1 13850 
+37.186.253.230 2 2 3543 20170429202106
+27.114.135.198 1 1 44861 20170420075846
+193.236.38.137 0 1 7014 
+95.82.173.90 1 1 44861 20170420200816
+121.162.230.102 2 2 89722 20170421115740
+5.43.52.191 3 31 547051 20170420165154
+101.226.66.191 4 31 302955 20170421032349
+193.136.169.222 2 28 905644 20170418160632
+112.203.21.119 2 2 89716 20170423043040
+162.208.50.94 1 1 44861 20170421164014
+54.158.20.70 1 1 0 20170420123424
+125.205.43.225 1 1 44861 20170427133946
+184.73.58.31 4 31 573169 20170427001729
+1.186.132.182 2 2 89716 20170428054803
+188.119.0.237 1 1 44861 20170428062237
+194.187.170.109 5 5 47111 20170425230034
+151.48.119.133 1 1 44855 20170426230430
+89.154.176.236 1 1 9334 20170420082910
+52.27.222.224 1 1 9339 20170428172322
+109.175.81.122 2 2 89716 20170425033102
+175.139.56.95 2 2 89716 20170424233929
+203.133.169.144 1 1 9339 20170420235510
+101.226.66.179 2 17 148347 20170421032339
+54.234.104.183 1 1 0 20170418120626
+105.107.157.117 2 2 89710 20170419184149
+89.154.5.146 0 1 32729 
+46.229.170.197 2 2 89710 20170423004304
+54.166.108.179 1 1 0 20170420225051
+105.102.68.57 1 1 44855 20170420121109
+83.132.186.74 0 2 19796 
+89.115.224.230 0 11 148398 
+162.243.69.215 1 1 52954 20170421192636
+87.103.57.174 0 1 9898 
+217.129.120.2 2 2 89710 20170422153431
+54.174.137.124 1 1 0 20170427151451
+79.66.222.60 1 1 44855 20170419132251
+89.155.51.136 4 53 4461278 20170425014101
+111.88.137.27 2 2 89710 20170420224751
+85.241.82.119 4 42 762895 20170429235721
+50.16.118.136 1 1 0 20170428014935
+200.222.168.96 1 1 44861 20170418225205
+203.133.169.30 1 1 9334 20170421020538
+54.237.45.61 1 1 0 20170430050031
+41.108.236.162 2 2 89716 20170421204657
+202.90.137.43 2 2 89716 20170419085615
+194.154.216.92 0 1 4898 
+81.193.133.211 11 116 2020415 20170428121357
+93.102.48.27 0 1 301199 
+46.246.169.229 2 2 89716 20170420211319
+79.150.255.140 2 2 89716 20170422172422
+175.142.226.61 2 2 89722 20170429172820
+49.149.136.184 1 1 44861 20170425090424
+117.192.216.43 1 1 44861 20170420164053
+79.101.95.101 1 1 44861 20170420073916
+176.9.50.43 1 1 9338 20170429030332
+86.5.214.90 2 2 89716 20170430193146
+124.106.251.82 1 1 44861 20170422142015
+97.127.101.226 2 2 89710 20170421235801
+52.25.108.57 1 3 48127 20170429165812
+62.28.238.4 0 2 19796 
+42.60.22.129 2 2 89716 20170429094815
+104.14.126.73 1 1 44861 20170420154221
+112.72.143.109 1 1 44855 20170423093435
+13.82.97.135 1 1 9338 20170420163121
+54.227.127.70 1 1 0 20170423190946
+109.100.52.50 2 2 89710 20170418121239
+109.48.20.69 0 1 7014 
+54.160.64.201 1 1 0 20170428022219
+193.250.1.156 1 1 44861 20170425120436
+204.86.20.25 1 1 4781 20170423055946
+85.67.33.215 2 2 89716 20170422155119
+59.96.0.83 1 1 44855 20170425142631
+51.36.39.174 1 1 44861 20170422115710
+101.199.108.119 3 3 5546 20170421032720
+54.225.13.105 1 1 0 20170418185951
+54.208.204.176 1 1 0 20170426091226
+93.185.18.27 1 1 44861 20170420190836
+92.59.58.140 2 2 89716 20170427143647
+52.91.104.77 1 1 0 20170428220138
+195.210.46.112 2 2 89710 20170427020607
+188.251.167.56 0 5 761028 
+2.82.167.27 15 53 1135220 20170425092653
+54.80.32.189 1 1 0 20170429093613
+203.133.170.101 1 1 9338 20170421174456
+45.117.28.81 1 1 44855 20170419173141
+89.155.53.73 2 2 67710 20170429121631
+62.28.181.218 4 42 762860 20170419135641
+101.199.108.50 4 31 573166 20170426062028
+120.63.21.21 1 1 44861 20170423140728
+188.167.210.38 2 2 89722 20170421160854
+62.48.187.222 4 50 1745486 20170419035629
+188.154.23.21 0 1 121747 
+160.176.157.10 2 2 89710 20170423010056
+41.188.78.209 2 2 89716 20170424221534
+54.205.0.118 1 1 0 20170425082033
+54.237.41.36 1 1 0 20170422210048
+41.96.13.197 1 1 44855 20170427074957
+50.16.85.4 1 1 0 20170418115944
+54.160.74.90 1 1 0 20170420030150
+54.174.179.177 1 1 0 20170429160539
+62.24.181.134 2 2 89698 20170428161506
+62.28.175.158 0 1 9898 
+84.91.55.223 6 102 1529592 20170420230409
+180.191.134.220 1 1 44861 20170421123843
+14.192.215.144 2 2 89716 20170425133513
+61.151.226.199 2 11 116177 20170421032350
+115.97.160.31 2 2 89716 20170418215452
+185.37.211.162 8 92 3154977 20170428125938
+81.35.129.12 1 1 44861 20170426174533
+37.45.213.226 1 1 44855 20170423202247
+104.197.231.238 2 2 42 20170430114108
+54.227.7.13 1 1 0 20170424144214
+167.250.234.246 0 1 228159 
+5.28.187.74 2 2 89704 20170426060500
+216.252.76.90 2 2 89722 20170419044223
+188.140.46.141 17 70 1625435 20170419230353
+46.112.164.181 2 2 89710 20170427024627
+93.142.11.177 1 1 44861 20170422225848
+54.161.29.233 1 1 0 20170420235627
+66.249.83.159 1 1 9338 20170418180919
+54.198.248.140 1 1 0 20170420022528
+195.234.134.115 0 1 4898 
+201.33.196.52 1 1 44861 20170428000405
+211.198.180.137 2 2 89716 20170427161818
+178.79.53.129 1 1 44861 20170422073929
+93.108.175.181 5 51 1037645 20170420172118
+188.121.41.86 1 1 1 20170424223753
+117.221.44.224 1 1 44855 20170419234539
+104.144.81.153 1 1 8218 20170424160742
+180.191.115.247 1 1 44855 20170420135002
+81.240.150.127 2 2 89716 20170421161415
+54.167.20.13 1 1 0 20170423175423
+101.226.69.246 2 7 57404 20170421032406
+177.128.197.69 2 2 89716 20170423160937
+91.180.182.1 2 2 89722 20170426012922
+54.145.130.106 1 1 0 20170424044143
+107.21.129.155 1 1 0 20170424220344
+116.15.38.73 0 1 137751 
+89.115.229.142 0 1 228159 
+144.217.99.46 1 1 9339 20170424033217
+85.244.16.252 4 50 1294843 20170420162637
+193.126.91.154 4 41 740026 20170426161323
+115.215.126.73 2 2 18682 20170425042539
+23.229.11.227 2 2 16436 20170426030516
+41.105.234.171 1 1 44861 20170425131101
+84.91.84.87 0 1 9898 
+178.42.75.48 1 1 44849 20170428113352
+46.105.31.30 3 3 28018 20170429012323
+188.165.197.58 1 1 9341 20170422123213
+87.116.181.167 2 2 89716 20170429110528
+154.245.43.17 1 1 44861 20170419160816
+190.235.214.240 1 1 44861 20170426164635
+78.98.121.197 1 1 44861 20170424133751
+47.247.14.230 1 1 44861 20170426163831
+181.167.13.6 1 1 44861 20170418210447
+93.102.133.135 0 1 9898 
+188.165.200.217 15 15 0 20170430140441
+123.24.66.22 1 1 44855 20170423020037
+101.199.108.53 3 4 5968 20170421032701
+71.83.170.126 1 1 44861 20170423084337
+199.30.228.159 1 17 446264 20170426202317
+93.108.99.121 0 1 120155 
+40.121.204.55 1 1 9339 20170420164724
+87.196.151.135 0 1 9898 
+212.71.13.133 4 50 1745482 20170423204315
+189.122.97.56 2 2 89710 20170423154258
+186.206.35.219 1 1 44861 20170419004801
+54.146.60.123 1 1 0 20170420061448
+171.99.161.155 2 2 89710 20170421120029
+104.144.232.159 1 1 8215 20170420053750
+92.185.229.52 0 1 13850 
+51.36.20.24 1 1 44861 20170422124937
+106.51.23.56 2 2 89722 20170426212151
+54.160.113.77 1 1 0 20170421134235
+77.54.135.108 4 50 1745481 20170421102048
+37.187.78.81 2 2 18669 20170426121106
+79.175.80.12 2 2 89716 20170421105836
+104.153.250.145 2 2 89704 20170427024040
+190.7.118.45 1 1 44855 20170418163853
+103.69.32.218 1 1 44855 20170423113747
+79.152.11.10 2 2 89722 20170429191133
+89.155.186.51 0 1 36086 
+45.72.0.178 1 1 4781 20170428072318
+89.108.89.2 2 2 89704 20170429125953
+182.185.223.172 1 1 44861 20170423100459
+62.210.114.217 2 2 3543 20170420174226
+103.78.186.2 1 1 44861 20170423175412
+87.103.7.21 0 2 27700 
+178.149.218.181 1 1 44849 20170422091213
+74.243.242.143 1 1 44861 20170429083957
+62.28.9.182 0 1 240613 
+85.240.172.211 4 42 762899 20170418203355
+117.208.147.239 1 1 44861 20170418183547
+217.116.240.219 1 1 44861 20170427031441
+92.53.53.89 1 1 44861 20170421155904
+193.203.107.137 0 3 41550 
+190.58.151.144 1 1 44855 20170418195708
+49.48.156.143 1 1 44849 20170426165937
+88.157.132.206 0 4 39592 
+173.216.2.213 1 1 44855 20170426130118
+54.161.163.198 1 1 0 20170418225347
+13.82.176.43 1 1 44861 20170424200311
+78.162.196.191 1 1 44855 20170428170106
+144.64.82.112 0 3 29694 
+73.222.49.237 1 1 44861 20170426192114
+124.29.237.139 1 1 44855 20170424145422
+87.103.62.216 4 42 762859 20170420164618
+41.59.27.97 1 1 44855 20170426121831
+219.79.43.244 1 4 63087 20170425063054
+5.102.7.172 1 1 44861 20170420011114
+186.192.176.120 2 2 44861 20170423022856
+112.196.45.230 1 1 44855 20170425152305
+46.45.169.242 2 2 3 20170429170537
+37.201.195.157 2 2 89716 20170427055924
+77.169.134.88 1 1 44861 20170430105526
+107.175.133.44 1 1 9336 20170429123607
+137.74.115.67 1 1 44861 20170426124227
+213.150.194.2 4 43 991047 20170427173420
+89.115.69.48 1 1 44861 20170426212533
+188.82.157.253 3 35 589443 20170421075716
+213.13.178.98 0 1 13850 
+179.98.243.48 1 1 44855 20170418210234
+85.242.197.235 2 15 1594241 20170420204526
+89.109.92.193 1 1 44861 20170426185908
+183.82.195.216 1 1 44861 20170421133050
+180.153.214.192 2 6 17966 20170421032421
+177.220.178.231 1 1 44861 20170418194608
+188.250.156.223 0 1 36086 
+178.184.189.110 1 1 44855 20170425181933
+203.133.169.134 1 1 44855 20170425140206
+113.183.33.233 2 2 89722 20170422071904
+104.144.169.240 1 1 8214 20170421152119
+188.251.164.52 7 94 1376671 20170427135259
+77.29.244.195 2 2 89716 20170424230049
+177.13.217.201 0 1 21186 
+54.211.122.114 2 2 0 20170422012311
+218.186.193.185 1 1 44861 20170424091720
+188.82.111.207 12 159 6190506 20170418132020
+14.139.187.67 2 2 89716 20170420175339
+54.224.127.29 1 1 0 20170426080856
+101.199.112.51 1 24 412555 20170426064332
+111.235.90.196 1 1 44855 20170424193200
+201.210.5.134 2 2 89716 20170425111836
+124.106.131.196 1 1 44861 20170419080340
+112.210.15.81 1 1 44855 20170430065458
+186.6.215.217 2 2 89710 20170419205713
+93.108.241.242 4 40 1556791 20170420175035
+34.201.118.33 1 1 0 20170428103728
+89.248.172.48 1 1 9338 20170428173100
+37.104.145.225 2 2 89716 20170418221744
+113.193.186.34 2 2 89722 20170425091133
+178.36.202.41 1 1 44855 20170419135305
+91.104.113.214 1 1 44855 20170423163028
+2.82.162.190 5 51 1037677 20170427104856
+110.5.69.176 1 1 44861 20170419212204
+62.28.219.109 12 160 7439204 20170428112646
+103.66.79.61 1 1 44861 20170420074640
+195.120.100.98 2 2 89722 20170423032435
+39.52.166.153 1 1 44855 20170423230430
+188.115.13.179 0 1 4898 
+185.26.122.21 1 1 44861 20170426134721
+81.172.11.184 1 1 44855 20170423010705
+213.22.62.171 0 1 9898 
+89.164.132.145 2 2 89722 20170420074400
+54.157.171.122 1 1 0 20170428231222
+94.155.112.187 2 2 89710 20170422134559
+54.160.65.146 1 1 0 20170424184255
+131.100.39.234 1 1 44855 20170423234103
+186.193.94.174 0 1 21186 
+5.186.116.81 2 2 89716 20170429215442
+66.249.93.53 0 8 91040 
+36.5.254.214 4 4 37352 20170428060041
+191.181.173.233 0 1 228159 
+109.236.82.177 1 1 933 20170421123100
+113.161.74.90 1 1 44861 20170418113312
+79.131.160.95 2 2 89722 20170424214305
+90.231.244.192 2 2 89722 20170420073056
+36.83.77.77 2 2 89716 20170427223044
+178.197.234.186 0 1 3880249 
+87.103.63.194 0 1 9898 
+124.59.200.89 2 2 89716 20170428143424
+81.16.8.105 1 1 44855 20170421172411
+27.34.17.132 1 1 44861 20170430121824
+89.155.235.200 4 50 1323299 20170420155753
+146.120.158.88 1 1 33994 20170427123118
+148.69.12.63 0 1 9898 
+83.223.232.74 0 1 9898 
+174.129.69.179 1 1 0 20170427234229
+31.15.182.183 1 1 44855 20170430202334
+178.137.83.79 6 6 209481 20170428085117
+116.72.96.193 1 1 44855 20170427033332
+95.93.73.61 0 1 22559 
+41.87.237.158 7 7 194829 20170425135327
+220.181.51.115 0 1 5824 
+203.175.67.40 2 2 89722 20170428204033
+122.175.137.156 2 2 89710 20170426135619
+105.98.209.108 1 1 44861 20170424105904
+94.177.240.104 2 2 3543 20170421145659
+54.92.164.80 1 1 0 20170428210723
+54.225.27.235 1 1 0 20170427110917
+163.53.176.21 1 1 44861 20170430085637
+88.207.53.116 1 1 44855 20170424082213
+83.31.142.8 1 1 44861 20170419154309
+34.207.55.81 1 1 0 20170430133955
+94.214.140.109 2 2 89722 20170425060050
+204.236.222.135 1 1 0 20170428122938
+217.129.139.212 5 91 1313020 20170425092300
+41.202.82.138 1 1 44855 20170420212425
+213.0.109.81 0 1 13850 
+220.181.132.214 7 7 235756 20170426064311
+34.209.120.84 3 3 123704 20170419171505
+174.129.116.57 1 1 0 20170428120115
+131.161.25.114 0 1 228159 
+176.63.30.215 2 2 89716 20170424203425
+51.15.37.18 1 1 44861 20170424012007
+188.255.48.160 0 17 265899 
+109.63.247.236 2 31 425287 20170429080255
+83.132.39.155 0 1 30139 
+103.211.41.113 1 1 44855 20170420044044
+82.6.238.12 1 1 44861 20170420055136
+200.2.145.130 1 1 44855 20170421192700
+176.195.115.189 2 14 308003 20170419014710
+163.58.159.54 1 1 44861 20170423105209
+85.204.4.243 1 1 44855 20170421101722
+46.229.167.149 2 2 89716 20170419154029
+78.137.235.141 0 1 9898 
+189.83.124.93 0 1 344354 
+54.160.104.240 1 1 0 20170419090811
+54.163.70.53 1 1 0 20170421200625
+182.185.98.210 1 1 44861 20170424144910
+188.64.26.108 1 1 44855 20170430153253
+176.12.32.65 1 1 44861 20170426175744
+51.36.73.115 1 1 44855 20170423085911
+197.149.27.170 2 2 89710 20170419200044
+2.81.215.5 10 64 2785307 20170418194601
+2.82.161.224 0 1 9898 
+188.251.1.82 10 154 4542462 20170421100447
+106.51.18.75 1 1 44855 20170424102908
+198.48.239.137 1 1 44861 20170423163730
+188.37.217.102 4 33 578434 20170420155900
+45.55.241.155 1 1 9338 20170430032918
+94.63.5.208 7 87 5183167 20170420173821
+13.56.14.60 2 2 84320 20170421064148
+223.167.244.28 1 1 5879 20170427141952
+49.146.39.156 1 1 44861 20170418135149
+78.92.15.99 1 1 44855 20170421091932
+62.24.252.133 1 1 44861 20170419132322
+89.114.104.161 0 2 19796 
+54.198.9.145 1 1 0 20170427131340
+54.183.87.74 0 2 3860096 
+54.205.35.23 1 1 0 20170429081242
+109.175.79.16 1 1 44861 20170421192642
+52.170.100.118 1 1 44849 20170424054925
+41.205.41.5 1 1 44861 20170426011714
+113.21.67.180 1 1 44855 20170423071501
+85.0.60.173 1 1 44855 20170423202645
+95.136.22.35 6 17 433780 20170426162601
+114.134.184.207 1 1 44861 20170426054621
+27.130.196.221 2 2 89716 20170426173420
+188.250.193.148 1 1 44861 20170426034702
+182.75.243.42 2 2 89722 20170421052424
+204.93.167.45 1 1 44861 20170429230917
+23.250.85.94 1 1 8218 20170427002542
+60.116.104.86 2 2 89716 20170420111123
+146.120.166.235 1 1 33994 20170427123119
+23.20.179.179 1 1 0 20170419163450
+49.204.58.22 2 2 89716 20170419165204
+185.148.145.139 2 2 54202 20170427192550
+185.129.62.62 1 1 9334 20170425224605
+49.145.140.71 1 1 44855 20170426022416
+121.184.74.8 1 1 44855 20170426150950
+188.37.81.131 0 1 13850 
+95.94.248.83 2 2 89716 20170423032012
+82.155.176.171 0 1 344887 
+77.54.90.173 5 59 1569633 20170419220315
+5.12.27.195 1 1 44861 20170420205353
+220.181.51.113 0 1 8726 
+190.236.202.248 1 1 44855 20170429030256
+130.104.171.78 4 50 1294843 20170419120708
+54.234.118.153 1 1 0 20170426050544
+58.190.173.36 4 4 179426 20170430010914
+74.208.86.144 5 5 224293 20170423122945
+185.45.12.211 19 19 757691 20170421102609
+122.105.160.126 1 1 44855 20170419092131
+117.242.162.81 1 1 44855 20170429001151
+86.185.109.204 1 1 44855 20170421114609
+54.159.35.183 2 2 0 20170424201117
+81.171.98.95 1 1 8971 20170425135229
+203.133.168.88 1 1 44861 20170427215041
+105.100.0.163 1 1 44855 20170424153821
+85.246.206.54 2 2 89722 20170425090522
+195.114.18.148 2 2 89710 20170424113447
+187.14.152.107 2 2 89716 20170424215452
+203.145.139.10 2 2 89716 20170422064911
+176.58.89.182 1 1 29804 20170428221710
+185.89.195.254 0 2 19796 
+182.118.20.144 1 1 33994 20170426064319
+220.181.132.200 3 3 5488 20170421032854
+110.139.88.21 1 1 44861 20170422082643
+172.245.40.231 1 1 8217 20170419075002
+37.189.197.196 5 101 5606700 20170425111306
+202.188.201.31 1 1 44855 20170421181508
+77.20.249.63 2 2 89710 20170426023528
+83.110.250.154 2 2 89716 20170422085832
+171.49.169.242 1 1 44861 20170429221014
+151.29.138.235 1 1 44861 20170428073117
+54.160.126.75 1 1 0 20170427053726
+89.181.183.20 10 161 13055444 20170428044228
+137.147.139.197 2 2 89716 20170428020203
+119.235.51.74 1 1 44855 20170422124951
+194.152.25.95 2 2 89704 20170425144108
+54.157.226.218 1 1 0 20170423225827
+207.102.138.158 3 3 28002 20170428172234
+104.158.54.30 1 1 44855 20170427125933
+85.246.163.204 0 1 652950 
+192.241.75.169 1 1 8217 20170419130621
+220.227.137.1 1 1 44861 20170425085549
+89.152.67.44 0 2 19796 
+121.187.98.207 1 1 44861 20170420064853
+213.30.118.99 5 66 5327694 20170421083424
+92.53.61.155 2 2 89716 20170418143414
+77.54.174.128 0 1 9898 
+181.210.51.80 1 1 3767 20170424154953
+95.31.170.61 0 14 213433 
+106.114.65.89 1 1 5728 20170426105313
+89.153.12.46 0 1 30139 
+81.131.118.244 1 1 44855 20170424030132
+148.69.31.231 0 4 7500664 
+178.36.204.58 2 2 89716 20170419171019
+107.77.105.26 0 1 90486 
+178.23.203.24 3 3 134577 20170422093711
+88.99.68.199 1 1 9335 20170428012418
+62.24.222.131 2 2 89722 20170430111626
+54.162.71.179 1 1 0 20170427214452
+174.129.92.98 1 1 0 20170422224453
+49.146.37.173 2 2 89722 20170426172337
+188.250.121.66 0 1 228159 
+213.91.110.219 3 3 134583 20170420154646
+41.101.12.247 1 1 44861 20170423044431
+37.144.43.254 2 31 425284 20170421085536
+202.170.71.100 2 2 89716 20170420023823
+178.137.4.41 15 15 425501 20170430013752
+54.87.175.232 1 1 0 20170418191622
+79.147.11.158 2 28 934183 20170425195025
+89.201.186.92 2 2 89710 20170430222546
+190.100.115.145 2 2 89716 20170422065053
+52.170.102.164 1 1 44855 20170424113909
+37.187.129.166 1 1 29804 20170428221705
+77.31.167.14 1 1 44861 20170425042328
+2.82.84.196 0 2 39425 
+188.80.101.128 0 1 4200 
+188.81.87.17 6 76 4233928 20170425125444
+112.198.103.198 1 1 44855 20170423145937
+181.64.35.88 1 1 44861 20170426170008
+54.81.127.116 1 1 0 20170425024219
+143.255.97.182 1 1 44861 20170425022633
+2.89.230.87 1 1 44861 20170428210944
+156.216.98.75 1 1 44861 20170419125537
+142.116.180.31 1 1 44855 20170425021945
+124.253.197.99 2 2 89716 20170426040156
+54.204.73.159 1 1 0 20170427022450
+177.180.150.203 1 1 44861 20170428235231
+94.36.214.21 1 1 44861 20170425102728
+89.114.120.143 4 42 762896 20170422133848
+111.119.160.158 2 2 89704 20170427113241
+188.80.141.204 0 1 228159 
+54.157.163.183 1 1 0 20170425111945
+94.60.192.135 0 1 13850 
+27.6.183.161 1 1 44855 20170423134353
+203.133.169.74 1 1 44855 20170425130929
+105.184.223.199 1 1 44855 20170428112939
+69.58.178.57 10 10 347844 20170425035845
+107.152.239.214 2 2 16434 20170426195717
+94.60.109.51 15 199 4682626 20170421141251
+168.194.228.4 0 1 228159 
+27.147.204.134 2 2 89716 20170423193323
+24.90.91.233 1 1 44861 20170430012911
+54.80.22.182 1 1 0 20170425174922
+54.90.22.154 1 1 0 20170420171540
+94.132.135.96 0 1 360842 
+50.16.80.221 1 1 0 20170430024534
+163.172.108.226 6 6 150078 20170426185955
+54.80.238.34 1 1 0 20170426144227
+89.153.129.250 0 1 7014 
+54.225.19.189 1 1 0 20170429185227
+213.13.32.76 2 28 934176 20170428134556
+95.172.164.147 0 1 22559 
+50.63.196.86 1 1 44861 20170425182409
+188.251.1.203 0 10 130596 
+95.39.149.96 2 2 89710 20170428074456
+212.73.91.38 1 1 44855 20170419094733
+78.61.134.214 2 2 89710 20170420193931
+115.134.62.134 2 2 89716 20170428061933
+193.203.106.18 0 1 9898 
+194.65.85.25 0 1 9898 
+89.155.49.52 0 4 39592 
+156.216.111.100 1 1 44855 20170419193358
+101.226.66.178 1 1 411 20170421032307
+93.177.173.93 1 1 44855 20170421141322
+54.144.37.113 1 1 0 20170425213321
+62.28.249.211 0 1 8649 
+67.5.114.132 2 2 89710 20170420234018
+89.180.187.168 3 40 1074147 20170421132941
+104.144.169.243 1 1 8219 20170425230630
+148.69.36.218 0 1 301199 
+62.169.84.25 4 50 3289930 20170419142807
+94.61.122.74 5 59 2020270 20170421092104
+121.54.90.105 1 1 44855 20170424171058
+2.86.185.42 1 1 44861 20170427080412
+193.136.205.252 5 59 1569630 20170427134916
+77.54.234.208 0 1 8649 
+91.200.12.135 2 2 89704 20170430124534
+62.28.230.102 3 58 454799 20170424092653
+183.83.130.37 1 1 44861 20170423090713
+203.133.169.39 1 1 9337 20170421110740
+93.108.226.110 0 8 110800 
+46.32.125.231 2 2 89722 20170428204105
+64.114.174.65 1 1 44855 20170423194309
+117.227.37.202 1 1 44861 20170420183051
+54.227.78.237 1 1 0 20170429074511
+193.236.80.168 0 4 1248923 
+81.84.251.173 0 1 9898 
+89.35.228.213 1 1 44849 20170427163236
+101.226.33.206 2 12 75062 20170421032350
+103.211.52.97 2 2 89722 20170422161346
+89.237.74.5 2 2 89710 20170428141923
+46.246.153.226 2 2 89722 20170422190641
+201.7.143.68 0 1 21186 
+23.88.37.115 5 5 224299 20170429221136
+184.72.166.203 1 1 0 20170425230655
+144.64.3.150 0 9 124650 
+212.171.10.101 1 1 44855 20170420062848
+94.63.22.122 4 42 762892 20170428222036
+54.242.9.139 1 1 0 20170419054130
+124.83.109.106 1 1 44861 20170422153123
+78.0.247.11 1 1 44861 20170425193208
+178.118.198.64 1 1 44855 20170425215547
+203.133.169.84 1 1 44861 20170424225754
+89.154.169.249 6 66 1842376 20170419171216
+94.133.19.169 4 39 705280 20170425214106
+84.91.185.242 6 68 1966486 20170418191141
+94.63.200.203 6 38 1168929 20170421131255
+183.82.229.10 1 1 44861 20170421084627
+23.20.214.25 1 1 0 20170423024750
+210.209.89.127 1 1 9340 20170419190237
+39.37.173.11 1 1 44861 20170428134404
+41.109.215.67 2 2 89710 20170421032943
+84.78.17.129 0 1 13850 
+103.72.189.54 1 1 44855 20170428042025
+54.237.30.90 1 1 0 20170425070103
+94.204.128.4 1 1 44861 20170423103101
+94.61.128.242 0 1 3456 
+193.201.224.239 2 2 18679 20170427232955
+82.131.101.132 1 1 44861 20170425212557
+2.82.162.101 5 59 2020274 20170421164058
+203.220.178.37 1 1 44855 20170418135133
+189.105.3.211 1 1 44855 20170426035517
+93.108.246.93 6 76 2498432 20170419173038
+51.15.62.146 1 1 44864 20170425050816
+148.69.52.4 4 4 37344 20170426181114
+54.144.35.59 1 1 0 20170426040306
+110.38.212.197 1 1 44861 20170425080930
+73.178.3.140 1 1 44861 20170422131013
+178.210.90.90 1 1 44855 20170429194600
+54.196.150.18 1 1 0 20170421205150
+85.242.140.71 0 4 39592 
+193.126.139.153 3 29 967958 20170430210121
+83.174.21.198 0 1 9898 
+54.146.36.185 1 1 0 20170419092421
+50.154.160.69 1 1 44855 20170418121832
+54.160.82.69 1 1 0 20170428080330
+36.84.69.43 2 2 89704 20170420034407
+46.251.194.31 1 1 44855 20170424091734
+123.23.244.188 1 1 3767 20170423142910
+213.13.52.195 0 1 4898 
+213.114.118.11 2 2 89716 20170425173828
+54.91.145.112 1 1 0 20170429194425
+148.69.10.24 3 32 547892 20170421095724
+49.189.98.242 1 1 44861 20170424183245
+107.175.74.135 0 1 996762 
+185.79.0.152 5 46 1466596 20170428084201
+187.28.157.19 0 1 8649 
+165.231.0.242 1 1 9339 20170425183528
+54.144.58.229 1 1 0 20170424114739
+202.213.176.53 2 2 89722 20170418231237
+183.83.49.182 1 1 44855 20170426083602
+189.109.86.245 0 1 15140 
+104.144.66.115 1 1 8216 20170428113910
+112.196.110.223 1 1 44861 20170421131055
+192.164.247.211 2 2 89716 20170427181639
+186.6.156.63 2 2 89710 20170418135945
+77.123.2.4 1 1 9334 20170427193836
+122.167.178.0 2 2 89722 20170430173400
+77.54.242.104 5 57 2736884 20170419183411
+79.79.148.103 1 1 29804 20170428221710
+62.28.242.106 7 7 3308 20170421174848
+76.69.242.184 2 2 89698 20170429074301
+165.231.24.167 1 1 8215 20170425192822
+94.208.146.218 2 2 89716 20170422163606
+41.225.144.237 1 1 44861 20170429191055
+91.222.226.139 1 1 44861 20170418224405
+37.157.217.125 1 1 44855 20170424071606
+54.147.244.175 1 1 0 20170422180845
+176.31.64.186 2 2 17855 20170430045253
+153.150.175.174 1 1 44861 20170420084724
+198.50.200.129 3 3 28003 20170427171806
+101.199.112.55 3 3 6488 20170421032706
+87.196.80.202 0 1 9898 
+59.184.151.46 2 2 89716 20170423162930
+177.200.90.102 1 1 44861 20170420004621
+95.180.101.22 2 2 89692 20170420080621
+195.154.217.29 1 1 9333 20170424173126
+151.76.233.48 1 1 44855 20170422230239
+94.60.2.24 4 42 762895 20170428102927
+145.133.214.123 1 1 44855 20170423013710
+89.152.228.207 0 2 19796 
+213.135.230.6 0 1 4898 
+152.115.86.162 5 67 2674290 20170421124003
+54.224.116.227 1 1 0 20170425190248
+149.202.197.94 2 2 3543 20170419051017
+158.222.10.20 1 1 8216 20170429130947
+94.61.233.143 0 3 29694 
+87.103.59.238 5 59 3564712 20170420192008
+199.30.228.155 3 25 339925 20170426202317
+89.155.58.25 3 60 552684 20170418144306
+107.152.203.9 1 1 9336 20170429121244
+36.231.237.246 2 2 89716 20170418165244
+85.246.229.219 0 1 88448 
+178.164.220.228 2 2 89716 20170422072228
+220.181.51.122 0 1 32729 
+94.60.244.66 6 72 2464851 20170428095730
+54.221.169.63 1 1 0 20170422163331
+103.54.36.226 1 1 44855 20170423041628
+5.0.95.120 1 1 44861 20170420192325
+195.170.168.76 0 1 9898 
+84.90.167.219 16 218 11878994 20170420221802
+107.174.44.155 2 2 89716 20170420031652
+79.6.165.129 2 2 89722 20170418124110
+60.54.68.253 1 1 44861 20170419130203
+54.205.6.59 1 1 0 20170430051211
+94.62.137.21 0 2 27700 
+105.101.219.46 1 1 44861 20170424235306
+117.199.22.168 1 1 44861 20170426154844
+217.129.245.150 0 1 137751 
+212.76.248.29 0 1 4898 
+23.229.65.83 1 1 8216 20170425151759
+2.80.158.75 0 1 30139 
+54.160.114.187 1 1 0 20170422004606
+92.99.141.43 2 2 89722 20170427102113
+89.115.29.135 25 316 16306220 20170427132223
+180.252.95.20 2 2 89710 20170428111755
+109.93.213.2 1 1 44861 20170430172557
+139.162.108.50 1 1 44855 20170421035925
+27.34.16.177 1 1 44861 20170427180418
+37.152.1.6 1 1 44861 20170420163442
+201.241.41.219 1 1 44855 20170422112547
+191.241.4.37 0 1 32729 
+187.253.200.210 1 1 44910 20170419194455
+103.215.148.4 2 2 89710 20170424192546
+54.197.86.2 1 1 0 20170420064837
+84.90.28.197 7 68 2465943 20170419150251
+94.60.61.144 27 302 16142117 20170421133818
+27.251.5.146 2 2 89716 20170424083814
+83.48.23.121 1 1 44861 20170424213342
+193.236.81.249 0 1 21186 
+197.226.156.53 1 1 44861 20170424045931
+64.74.215.113 1 1 0 20170421031604
+54.160.245.46 1 1 0 20170426110256
+103.5.134.35 1 1 44861 20170423161034
+104.144.205.221 1 1 8217 20170420071052
+211.222.214.39 2 2 89716 20170422115536
+188.232.8.227 2 2 18681 20170419104526
+78.30.167.182 2 2 89710 20170430013138
+177.13.41.5 1 1 44855 20170424002515
+92.21.51.131 2 2 89722 20170423082615
+179.110.245.209 2 2 89716 20170430033909
+168.1.6.10 1 1 9335 20170426224705
+120.155.125.67 0 1 228159 
+46.161.118.140 2 2 89722 20170422152356
+54.204.20.249 0 1 563826 
+94.62.198.193 0 1 167182 
+94.23.30.171 3 3 1 20170424223013
+49.49.81.65 1 1 44855 20170429113707
+66.249.93.141 0 4 39592 
+183.82.39.249 1 1 44861 20170426161635
+203.133.169.78 1 1 9340 20170419125657
+220.181.132.197 3 23 174418 20170421032614
+51.15.53.83 1 1 9332 20170425183601
+195.53.233.212 4 33 578436 20170420152631
+89.115.74.236 0 2 421455 
+1.144.96.48 4 50 3289930 20170428124606
+41.141.71.211 2 2 89710 20170420050658
+213.22.41.220 24 277 21697682 20170420153626
+118.210.1.88 2 2 89716 20170420103220
+178.80.36.217 2 2 89716 20170418165656
+139.193.199.35 2 2 89716 20170419121025
+103.44.172.226 2 2 89716 20170427195512
+117.253.175.57 1 1 3767 20170425142138
+54.237.101.227 1 1 0 20170418222949
+54.193.7.134 2 2 84326 20170420202109
+217.128.75.134 1 1 44855 20170429072809
+213.239.205.118 1 1 44861 20170425102917
+93.108.232.195 6 66 1842365 20170424110943
+115.118.71.21 1 1 44855 20170420105306
+116.66.197.76 1 1 44861 20170427034316
+54.161.196.216 1 1 0 20170423125118
+159.203.163.243 1 1 8214 20170425220839
+85.139.205.229 6 69 1942432 20170418175440
+39.50.78.171 1 1 44855 20170422101602
+101.226.66.177 2 7 14444 20170421032359
+89.115.155.39 0 1 167182 
+94.185.28.52 2 2 89716 20170428142437
+85.139.74.94 4 42 762896 20170418234904
+73.159.239.45 2 2 89710 20170425214705
+202.62.102.111 2 2 89710 20170422055209
+68.32.168.96 1 1 44855 20170429110821
+46.214.54.79 2 2 89716 20170426152521
+188.81.86.15 0 1 9898 
+52.205.51.124 1 1 0 20170429182121
+196.202.174.170 1 1 44861 20170419203306
+203.133.168.199 1 1 44855 20170426130613
+46.32.127.87 1 1 44855 20170430115936
+183.89.0.156 1 1 44861 20170429171635
+37.221.161.114 1 1 8967 20170430045323
+85.26.164.74 1 1 9336 20170424212716
+94.63.205.238 0 1 9898 
+86.41.12.222 2 2 89716 20170426202642
+117.202.136.50 2 2 89716 20170420094417
+34.203.226.4 1 1 0 20170427160504
+66.249.93.37 1 1 9338 20170418180917
+91.227.100.18 0 1 31065 
+62.48.167.82 4 42 2160214 20170420174743
+149.56.218.228 2 2 89710 20170419084532
+94.242.55.221 1 1 9337 20170428113612
+108.54.144.58 1 1 44861 20170421232710
+188.82.58.79 0 1 9898 
+91.214.36.20 2 2 89716 20170428203608
+77.239.14.215 1 1 44861 20170419155129
+188.165.235.21 1 1 44849 20170422135822
+71.11.97.43 2 2 89710 20170429201520
+98.243.249.109 0 1 228159 
+192.241.77.237 1 1 8214 20170421014751
+91.142.94.222 1 1 0 20170430065606
+34.201.138.102 1 1 0 20170426192400
+188.49.192.188 1 1 44855 20170425130403
+187.104.8.67 0 1 228159 
+184.73.46.115 1 1 0 20170421031753
+203.133.168.205 1 1 44855 20170426170125
+54.161.142.133 1 1 0 20170422073446
+175.141.234.42 1 1 44861 20170424135300
+94.61.179.113 13 154 9211779 20170420163915
+109.77.51.107 1 1 44855 20170427090224
+109.92.67.9 2 2 89722 20170428144053
+81.45.42.11 0 1 13850 
+83.223.248.102 0 1 9898 
+89.114.51.155 0 1 13850 
+54.80.238.87 1 1 0 20170420034608
+176.31.252.11 2 2 3543 20170424161511
+54.162.144.108 1 1 0 20170424005514
+43.239.73.22 2 2 89716 20170429152901
+87.103.57.107 3 32 547894 20170422163220
+107.178.194.7 1 1 5728 20170428214446
+180.153.206.17 2 12 144146 20170421032350
+118.101.75.204 1 1 44855 20170430155302
+154.244.83.248 2 2 89710 20170427142824
+36.5.191.45 9 61 1341725 20170426064452
+105.111.52.101 2 2 89710 20170421163452
+183.78.45.132 1 1 44855 20170423234404
+61.76.163.198 2 2 89716 20170422060940
+34.207.237.87 1 1 0 20170428020828
+94.132.103.142 0 1 257527 
+112.210.251.2 1 1 44861 20170423163322
+134.119.213.82 4 4 36531 20170426025757
+24.135.201.219 1 1 44861 20170427102913
+103.216.58.18 1 1 44861 20170427095218
+176.119.240.23 1 1 44861 20170421091327
+41.148.254.63 1 1 44861 20170422102050
+50.19.149.236 1 1 0 20170422120134
+188.105.107.195 1 1 44861 20170430010030
+109.64.128.70 2 2 89716 20170430160614
+104.144.7.185 1 1 9337 20170429134714
+109.71.212.7 1 1 44861 20170419153850
+54.90.22.4 1 1 0 20170430152639
+84.91.178.29 5 64 596501 20170426202417
+101.226.66.173 2 6 80163 20170421032416
+94.63.74.212 5 93 1254799 20170429230432
+62.201.114.35 1 1 44861 20170425191359
+79.140.159.5 2 2 89716 20170422120825
+87.103.3.24 4 22 1437431 20170421141447
+103.231.160.74 2 2 89710 20170430164655
+54.152.79.47 12 93 1719546 20170429123229
+94.133.189.50 3 48 1375815 20170426153203
+95.84.196.40 1 1 44855 20170424175408
+101.226.89.121 2 4 14219 20170421032354
+37.210.151.9 1 1 44861 20170418185620
+193.137.168.32 8 135 8343393 20170427132842
+79.113.43.29 1 1 44855 20170422165151
+101.98.156.50 1 1 44861 20170430001602
+47.8.9.220 1 1 44861 20170419195858
+82.102.229.141 2 2 89716 20170425055429
+203.133.168.158 1 1 9340 20170418170120
+5.228.104.127 2 17 361198 20170421121448
+192.241.82.175 1 1 8214 20170421044749
+27.34.123.166 1 1 44861 20170424135234
+185.29.11.203 1 1 9338 20170426055624
+194.187.170.105 1 1 9283 20170430233051
+151.52.1.171 1 1 44861 20170419174132
+188.82.169.42 0 1 13850 
+54.198.254.240 1 1 0 20170419065303
+193.236.44.136 0 1 48443 
+54.159.77.77 1 1 0 20170425004727
+78.199.49.209 2 2 89716 20170430010957
+151.182.9.215 2 2 89716 20170419110350
+197.35.7.143 2 2 89716 20170422213934
+223.207.245.199 2 2 89716 20170419052558
+45.242.7.224 2 2 89716 20170429193750
+85.102.180.72 1 1 44855 20170420135546
+104.194.2.161 2 2 89722 20170419073610
+111.91.15.239 1 1 44861 20170419053711
+75.69.47.32 2 2 89716 20170430230655
+23.91.237.172 1 1 44861 20170423012933
+54.145.49.106 1 1 0 20170421093938
+54.235.62.146 1 1 0 20170421032945
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 548 919 18785924 1
+20170402 551 820 14538333 1
+20170403 637 1432 32719097 1
+20170404 674 1820 64763106 1
+20170405 624 928 41980587 1
+20170406 547 642 5572266 1
+20170407 668 1442 30521316 1
+20170408 512 1024 23754245 1
+20170409 538 966 22898197 1
+20170410 542 1115 22588428 1
+20170411 661 1339 32004417 1
+20170412 626 1523 45728652 1
+20170413 577 1450 41636324 1
+20170414 533 753 16479822 1
+20170415 529 642 10208655 1
+20170416 521 702 13775011 1
+20170417 591 1189 27260695 1
+20170418 545 1983 56518622 103
+20170419 688 1975 56726103 190
+20170420 645 2441 89485518 204
+20170421 691 2352 69504216 206
+20170422 496 800 19217387 171
+20170423 420 507 5944650 156
+20170424 496 857 14364794 183
+20170425 528 1009 26627478 177
+20170426 584 1469 30392749 185
+20170427 516 1303 39429362 174
+20170428 538 1432 50451729 183
+20170429 491 973 23742068 158
+20170430 414 529 12400198 145
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 61
+15mn-30mn 128
+2mn-5mn 61
+30mn-1h 232
+5mn-15mn 86
+1h+ 419
+0s-30s 1265
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 284
+/wp-cron.php 8644 1700 977 972
+/ 3182 106238489 811 677
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 582 153356 1 56
+/invisual/ 381 12421006 2 7
+/smart_aqua_eng/wp-cron.php 336 6720 68 72
+/smart_aqua/wp-cron.php 310 6200 36 32
+/smart_aqua_eng/ 308 7632620 104 87
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 224 27219396 3 11
+/whm 212 7173020 1 17
+/contactos/ 151 2334599 19 37
+/xmlrpc.php 131 54551 0 0
+/wp-admin/admin-ajax.php 115 109365 3 3
+/marcas/ 103 3077568 3 10
+/portfolio_cat/identidade/ 72 1347132 0 4
+/feed/ 69 46689 9 5
+/portfolio_cat/fotografia/feed/ 68 5173 28 29
+/portfolio_cat/assessoria/feed/ 68 4964 29 30
+/portfolio_cat/paginacao/feed/ 68 8108 29 29
+/portfolio_cat/identidade/feed/ 67 5335 28 28
+/smart_aqua/ 64 388735 8 5
+/comments/feed/ 60 37240 6 9
+/portfolio_cat/web-design/ 57 1360189 0 0
+/portfolio_cat/video/ 52 1441679 0 1
+/portfolio_cat/paginacao/ 50 1269161 0 0
+/portfolio/iorc/ 49 1122919 0 0
+/.well-known/acme-challenge/XY2F1USYXV16-V9UBZ6BQ53U2YB_G5N4 1 64 0 0
+/features/contact-forms/ 2 78930 0 2
+/webmail 43 1455765 9 8
+/editarinvisual 5 5800 0 0
+/.well-known/acme-challenge/6uLajxgNXDTlJ19C_8NnOqon7EwdQzRIVqDde7gV6aU 1 87 0 0
+/portfolio/ls-medicall/ 48 1134265 1 3
+/biomedls/wp-admin/upgrade.php 1 21 0 0
+/.well-known/acme-challenge/OASQ8O623ADEL2YDMO1WVJR5MJ58R80D 1 64 0 0
+/.well-known/acme-challenge/9lWuKXyLZFtEjfm1o6D4S0Nv_2ByB2-yI_TVWQVvNhk 1 87 0 0
+/.well-known/acme-challenge/47M8JNG54O97S8B1JJOW79JVYWN6KVVQ 1 64 0 0
+/.well-known/acme-challenge/E2_LNHO-UJA20XMZ8N6OH-88MUXMR3Y3 1 64 0 0
+/.well-known/acme-challenge/ONBVQJZF76R7R2XBZ0Q862T-55ZMUR62 1 64 0 0
+/.well-known/acme-challenge/K3RJ_ON_VKWRMPTAE68-3LH3794L9D3A 1 64 0 0
+/portfolio/civilria-icon-novo-empreendimento/ 6 102074 0 0
+/wp-admin/ 3 78471 0 0
+/.well-known/acme-challenge/DWB-JS61V4L9JTBM0RO8602IZUIZJGFW 1 64 0 1
+/.well-known/acme-challenge/H7VQ2IEJMADHJT-83-JSK10D5GEGAYY9 1 64 0 0
+/.well-known/acme-challenge/BYQ64I1B054UD-O0RHOR6HZR5KD33QOE 1 64 0 0
+/.well-known/acme-challenge/4voSQSdklf0xx8_pDrPaQmIAGL1Ocfjn0oIvYUThwhw 1 87 0 0
+/.well-known/acme-challenge/ADD97I4PVAHJJBZEGRZGK6AMCCIN_N1X 1 64 0 0
+/home-3/ 3 41616 0 0
+/.well-known/acme-challenge/3F_NZ5Y8RHW8PPHQA25GGA2IHLTZKAVT 1 64 0 0
+/.well-known/acme-challenge/07U1-HQXRPDGQ4AGKN2RG78OVTFDQBWN 1 64 0 1
+/.well-known/acme-challenge/1_21IH5I-WQ9A8VNIFTEHCI55MUIRQAL 1 64 0 0
+/portfolio/clinicas-persona/ 8 154048 0 0
+/portfolio_cat/embalagem/feed/ 1 1603 0 0
+/.well-known/acme-challenge/U7VCRBSJZ864J7I2U6UUYHMAA9TH_WJX 1 64 0 0
+/smart_aqua/wp-admin/admin-ajax.php 2 4 0 1
+/portfolio/civilria-web-design/ 38 1196008 0 0
+/.well-known/acme-challenge/XHADXXJBA4ZJE2IGOTJ8-0SKCYNVFP-D 1 64 0 0
+/portfolio/novo-megane/ 7 182967 0 0
+/.well-known/acme-challenge/D1P-RO_MSUEXDFEAD4NX9CAN79-YC_IL 1 64 0 0
+/portfolio/susana-lopes-hair-stylist-ideology/ 7 111278 0 0
+/.well-known/acme-challenge/AQxG8NANY9rnnxVGdUN-ZUri6iF-ZEVLewW9aaWXEXA 1 87 0 0
+/.well-known/acme-challenge/QWB57JU8BOVNNNJ4YQ3DO7V8L5PXIX_- 1 64 0 0
+/.well-known/acme-challenge/VCYX5WN_MZ50GA1P5N5UVVYNUUYGDQUC 1 64 0 0
+/.well-known/acme-challenge/U82IW_COK3JJ8IE_8TE3T249P1A4W2B2 1 64 0 0
+/portfolio/unimadeiras-video-institucional-2016/ 37 951312 0 1
+/.well-known/acme-challenge/P2954IEX-COH8DGPU5IRPMXW05Y6LBZ- 1 64 0 0
+/.well-known/acme-challenge/PP-89GEZNQC5U_FVL0DO4S9DC8JCAKYR 1 64 0 0
+/.well-known/acme-challenge/J7ZWGPQ3246TQ6MM6X9ZNTAB2FFHQP3L 1 64 0 0
+/portfolio/lindeberg/ 11 188391 2 1
+/.well-known/acme-challenge/7ICS70T-SWVL981UDRN4IGDRKS2BT06J 1 64 0 1
+/.well-known/acme-challenge/C4FL68PLPXQNR6B9ZYJ5L7133MMCCPWW 1 64 0 0
+/html/feed/ 1 456 0 0
+/portfolio_cat/embalagem/ 47 1023128 0 0
+/.well-known/acme-challenge/H3U9FFJ2RH9E5WL2G1D9G9Q-OE5EHQHO 1 64 0 1
+/.well-known/acme-challenge/0XIX0J63WHZ63LIFWOX95VOD7-NVGWB5 1 64 0 0
+/.well-known/acme-challenge/T_Y8CHNB1WVU18A7HY6RB7ALBJ00KJ63 1 64 0 0
+/portfolio_cat/ativacao-de-marca/ 47 1000427 0 1
+/portfolio/unimadeiras-relatorio-de-contas/ 6 110890 0 0
+/smart_aqua/index.php 38 15361 0 3
+//index.inc.php 2 0 1 2
+/.well-known/acme-challenge/72C6UVPYKL1O6N8EC8QR7H34I_PIKHZ2 1 64 0 0
+/portfolio/ekena-bay-cmtv/ 8 136312 0 0
+/.well-known/acme-challenge/720-C-K1ME0C80BJHCNZW9RUJSICRX21 1 64 0 0
+/portfolio_cat/web-design/feed/ 34 8935 14 14
+/.well-known/acme-challenge/ENW44DIU4-_QYU7ABBR7C6PVD2Q-GFOX 1 64 0 0
+/.well-known/acme-challenge/DY-2UVEC0JAQF-FEPY4N1Q1TIRCSDF96 1 64 0 0
+/.well-known/acme-challenge/PPTZVLZ0U9WC17IFA8S2WCZITGXP0-DV 1 64 0 0
+/.well-known/acme-challenge/4CD89VU7272H8_26CGFFH4HN86TZTIWF 1 64 0 0
+/.well-known/acme-challenge/ED2FFBLYH_F4GJGHG2P-CVJUC8DU37OE 1 64 0 0
+/marcas/feed/ 24 19224 0 0
+/.well-known/acme-challenge/QFH_27PT2_S20BWZT9GY7CCVY8-TCQZG 1 64 0 0
+/wp-admin/update.php 1 10517 0 0
+/portfolio/clinicas-persona-identidade-visual/ 43 1027979 1 2
+/conteudo/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 1 2394 0 0
+/.well-known/acme-challenge/Z76DF7S2D_IH0FB7FV9IXA3KHKWHOJII 1 64 0 0
+/.well-known/acme-challenge/BIGI36W3MJBB1GEG2-NCTO_GD8LHA7OA 1 64 1 0
+/.well-known/acme-challenge/FCO2GQ_WBGFT4L_WQVXQNEV6N51EE1SK 1 64 0 0
+/old54321/wp-admin/upgrade.php 1 21 0 0
+/.well-known/acme-challenge/EQP7A6U_W9DBP84VC-XVE58J-17FS7L_ 1 64 0 0
+/.well-known/acme-challenge/Y8RLr8YsDsKeIhOSSUig_G2WxZ3GN6ro9_0XQsnj3OY 1 87 0 0
+/portfolio/dia-mundial-da-crianca-2016/ 7 104998 0 0
+/.well-known/acme-challenge/0V8V40ZG3_87E0ZTG5G9IPSG0FERJJTE 1 64 0 0
+/.well-known/acme-challenge/G3TU7KBHE2VWO72EEVB_33E0FL2_H1Z2 1 64 0 0
+/smart_aqua_eng/index.php 28 11436 2 19
+/webmail/ 2 67760 0 0
+/.well-known/acme-challenge/UH6PEHG91S3I06LNKK3NHO148J_GTKX4 1 64 0 0
+/.well-known/acme-challenge/14_E25O3LERBL262H69YFDUUY9AUPASB 1 64 0 0
+/.well-known/acme-challenge/VF3700GXZPQMRSA_YPKTH9FO1LS91NNJ 1 64 0 0
+/.well-known/acme-challenge/Q-EE7AW52S1CEQ7DGQY0SIQR70UJL6JJ 1 64 0 0
+/portfolio_cat/video/feed/ 1 6708 0 0
+/.well-known/acme-challenge/OHKGH3GVPLI-DOQT7XNUJ7SIIYFV1ZSE 1 64 0 0
+/portfolio/vr2p-identidade/ 39 1005530 0 1
+/.well-known/acme-challenge/C2EJYZ6J028BE4LGBE7JB7TJX8R2J0Z6 1 64 0 0
+/.well-known/acme-challenge/Y9GQOSA6H0PXMKY-I6-OFBIU_V1VTCLS 1 64 0 0
+/.well-known/acme-challenge/U5XGFCX2ZJX0FPZ1APA0OG1QR3--FA10 1 64 1 0
+/.well-known/acme-challenge/-PL8DEM6YCU10H530-TIW2GP2KHZQ1O9 1 64 0 0
+/portfolio/bosch-catalogo/ 8 160121 0 0
+/.well-known/acme-challenge/HKF8_IPGG2V38H5ZXS4CKBUQXNYIGNP9 1 64 0 0
+/old54321/wp-cron.php 1 20 0 0
+/.well-known/acme-challenge/XSYRIOV0Q52TR4VCOSPS24EXQ3KNOL5Z 1 64 0 0
+/.well-known/acme-challenge/74U2GJNVO55WMD7TD13POLP979IV4-TN 1 64 0 0
+/.well-known/acme-challenge/AD7YFW1GJ28HQJRWWW4S5SAYB9RZA147 1 64 0 0
+/portfolio/maldita-embalagem-e-rotulo/ 29 980338 0 7
+/index.php 2 89820 2 2
+/.well-known/acme-challenge/ZC2RL9Q6PPKYGDPK6V8J4CZC724KH-I_ 1 64 0 0
+/.well-known/acme-challenge/XZR6QA5SY56HHDWSBT1JN-A9OYHZCEU3 1 64 0 0
+/portfolio_cat/eventos/ 47 975130 0 3
+/.well-known/acme-challenge/5IKBQ8U_9I66KR_J4SXGY11RVVEQZA4I 1 64 0 0
+/.well-known/acme-challenge/FCL8CJ5OX-QTCYTZXUDXQLNJGSZZC8QP 1 64 0 0
+/wp-admin/options-reading.php 1 23695 0 0
+/works/portfolio-landing-page/ 13 328191 1 2
+/.well-known/acme-challenge/V4DP3N3KJQD78ZADAKBSA116NRK0ZVIK 1 64 0 0
+/.well-known/acme-challenge/7GE0R9N1XP__UES_W8S07R1SPLQZJ_QG 1 64 0 0
+/smart_aqua/wp-login.php 44 77946 6 6
+/.well-known/acme-challenge/YI15KAKIMSXTWFCEDDXW2NSVW8ETHK5L 1 64 0 0
+/.well-known/acme-challenge/tbovLCKFcDZKux7GyFG9zBBBpx36pxyufQCXynPH24w 1 87 0 0
+/portfolio/ekena-bay-sic-mulher/ 7 128638 0 0
+/.well-known/acme-challenge/ABU4JMTTOHIZJFOAKL7EI43ENRGF6KKC 1 64 0 0
+/.well-known/acme-challenge/GYTLNT6M52K8QMBCM_LK_V8HG35EOLJA 1 64 0 0
+/.well-known/acme-challenge/4G411476UJOJGY7H6A_9KR2IKESV8292 1 64 0 0
+/.well-known/acme-challenge/2MCM6PI720C3YDW9ATS14KU2VAQCA6CF 1 64 0 0
+/.well-known/acme-challenge/622CZW76_5_IPOQF_E3Z4D3O6PARUEQF 1 64 0 0
+/.well-known/acme-challenge/43I_8AMCDJOHRME4N--5UFQ_VHSUWPBY 1 64 0 0
+/.well-known/acme-challenge/033S9A4RWW429EGJ3Z1KBE4B1B6MYT41 1 64 0 0
+/biomedls/wp-cron.php 1 20 0 0
+/.well-known/acme-challenge/PG6SB9ULPB9MTS6JIA-3CEWRG1PXRTMX 1 64 0 0
+/.well-known/acme-challenge/NWZ3P3WFAAJKNFH_0BJ38_QN377O7ZLK 1 64 0 0
+/blog/ 33 680575 4 8
+/wp-admin/edit.php 3 94302 0 0
+/.well-known/acme-challenge/-IBQFSAHEYH4JZOSNWRBKRH3XTCAWEO9 1 64 0 0
+/.well-known/acme-challenge/04TVH2JMC9RY45VEGY-W_HJ0_15WT_OI 1 64 0 0
+//xmlrpc.php 7 1512 0 0
+/.well-known/acme-challenge/11CCXJK7DQ8GKYEOIQQJ5WCBTXU54TM7 1 64 0 0
+/portfolio/litoral-magazine-revista-trimestral/ 8 135736 0 2
+/.well-known/acme-challenge/41WNHWU-EPEQ7K12FVJ3O-G0XCGVB51I 1 64 0 0
+/.well-known/acme-challenge/0X7HT9VR62ZLUVSJNVDLHTI6RXXFSPI7 1 64 0 0
+/wp-json/ 13 430553 1 1
+/sample-page/ 1 7568 1 0
+/portfolio/alital-web-design/ 42 1130630 0 2
+/.well-known/acme-challenge/JHZ7_7NES1UK08_702RWC-W3YGO5P-NB 1 64 0 0
+/.well-known/acme-challenge/YKA9PBOSQME8_EHMUC6MSVRQZUYV4KZZ 1 64 0 0
+/.well-known/acme-challenge/MNBKTRKRQVUC0I3B6TCSGKSLA1J6-691 1 64 0 0
+/.well-known/acme-challenge/0X6JP9NPY7ZZ856SW4M26CBIC4MJ_N95 1 64 0 0
+/.well-known/acme-challenge/B9D-NYTST84U6-KA3WOXU69PMFCDJMV1 1 64 0 0
+/.well-known/acme-challenge/JU3XCCVS0FL9GRZ8SQIIEVO9GLU0O2H4 1 64 0 0
+/.well-known/acme-challenge/UIEJPA6KKCRWUF4IJ24_-X9QUYJL87CT 1 64 0 0
+/.well-known/acme-challenge/KA9VVHAAGJGRZQ26M9TUH_5TF3ZHF8Z8 1 64 0 0
+/.well-known/acme-challenge/DK_7U_WO9DMQ4GSQF_220WGIUVZUCFT8 1 64 0 0
+/.well-known/acme-challenge/RRUN07ZJHU93_HKT71D97QOROD085RR6 1 64 0 0
+/.well-known/acme-challenge/1ZFC-PI0M1ARHCPN929MM2JFGPT2T7L6 1 64 0 0
+/wp-json/oembed/1.0/embed 16 21725 0 0
+/.well-known/acme-challenge/BIMOLU1C8BLO53BQYCSYOECZLX2ICX-G 1 64 0 0
+/.well-known/acme-challenge/JO-_WIV8NW2H8LL35N51GTEC2RMVV6SP 1 64 0 0
+/.well-known/acme-challenge/HNpgu9Ehc5_j-6PwtueSSWZZc8eqvfBeNgyqpPp4XOg 1 87 0 0
+/.well-known/acme-challenge/VF4GOV_CA_BPYB9W3IJOKBZW6DZJ_373 1 64 0 0
+/.well-known/acme-challenge/-X1TL02YQSVQJPSREYMU9LAKZGK_UU1G 1 64 0 0
+/.well-known/acme-challenge/FJ3_QV3FXTOIOWKRY-QT7JO3039X2J9O 1 64 0 0
+/portfolio/ekena-bay-catalogo-2016/ 14 186376 1 1
+/.well-known/acme-challenge/NE8SZ2QQQEX0LXO9UFY37491WI3GQXQB 1 64 0 0
+/sample-page-2/ 1 7584 0 0
+//wp-admin/admin-ajax.php 12 12 4 2
+/.well-known/acme-challenge/US32S-C8XAFX6W8-SHSXCF46IAF-PBKV 1 64 1 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.eot 10 1511430 2 2
+/.well-known/acme-challenge/XB04TLVB-IKAY65HX6S1YG79796NN5CN 1 64 0 0
+/.well-known/acme-challenge/Y5E8JG_9SI2F6XQC-_MF-3KS-HWS--6Q 1 64 0 0
+/.well-known/acme-challenge/59ZYDL2_8A4QHFX4CDUNDDJH_GETM_DX 1 64 0 0
+/.well-known/acme-challenge/MVEZTMP8RPHWPKSWAZ3ZYQNU9BXF46_R 1 64 0 1
+/biomedls/wp-content/themes/biomedls/css/fontello/font/fontello.woff2 1 74289 0 0
+/.well-known/acme-challenge/FCQAA3U_7PECO35S5K_D2LGKLK0CURNW 1 64 0 0
+/wp-json 1 52008 0 0
+/.well-known/acme-challenge/J770TK2D4KL209ID44VVQ0W37SHS7YAH 1 64 0 0
+/.well-known/acme-challenge/HQKD_MUPYN0V9UXU20Q8XNE9FJMWADN_ 1 64 0 0
+/.well-known/acme-challenge/YZRA3FZFBHBCEXOFDQJSNSH8V2X1X91S 1 64 0 0
+/.well-known/acme-challenge/_JYJJ50CJEGK_WLGUWTMQ2JT1M9S2ESL 1 64 0 0
+/biomedls/ 2 14463 0 0
+/.well-known/acme-challenge/Y8ATXRA4YSOV93N3RT_VUC4GWT1LXI2T 1 64 0 0
+/.well-known/acme-challenge/AY1ICWSITJJW8DR0CXBVODEWLN7D_C06 1 64 0 0
+/wp-admin/load-scripts.php 11 721740 0 0
+/editinvisual 8 11898 0 0
+/.well-known/acme-challenge/8078GA3UQHO5HIZPEI-RIM1_MK3F43V4 1 64 0 0
+/.well-known/acme-challenge/M6Z8CZI8B2HRH4KAYSWY4CXPNWNLFR3W 1 64 0 0
+/.well-known/acme-challenge/E8HBZ7QDJZNVEA3SNRHCVGM3H950898G 1 64 0 0
+/portfolio/festival-dos-canais-outdoors/ 7 111141 0 0
+/wp-admin/load-styles.php 7 449039 0 0
+/.well-known/acme-challenge/FOB7WX3CCVE7JQI7ZD61NB4CH3JHIQYL 1 64 0 0
+/portfolio_cat/impressao/feed/ 1 1703 0 0
+/.well-known/acme-challenge/3W2NVU9AAPI0Q_YJB08P8AW3LBPS4XR6 1 64 0 0
+/smart_aqua_eng/wp-admin/admin-ajax.php 4 8 0 0
+/portfolio/vr2p/ 9 161643 0 0
+/invisual/feed/ 24 19320 0 0
+/.well-known/acme-challenge/0832CIBLGSUXKMC0SDI2F-ZZ6IRRS1DP 1 64 0 0
+/smart_aqua/xmlrpc.php 1 60 0 0
+/.well-known/acme-challenge/WC_5FV2A5SU0BLVDAHYLGFZ6K_JS6G9B 1 64 0 0
+/.well-known/acme-challenge/VILG_NBNZKN8DO3TCXM7GIPBGJAQ_C9_ 1 64 0 0
+/portfolio_cat/eventos/feed/ 1 1699 0 0
+/.well-known/acme-challenge/A6DUK7NUY5M-LJ-ZU-8A2S91KQ9FBU57 1 64 0 0
+/portfolio/apartamento-civilria/ 41 1541819 0 3
+/.well-known/acme-challenge/947WNTGTH3T715_BEW9ZOJ5HMO9_33K6 1 64 1 0
+/.well-known/acme-challenge/RA5J2YGMAOHYMN7H4WHV0TCTK6B6JTPX 1 64 0 0
+/portfolio/lardarte-catalogo/ 11 192522 1 0
+/privacy-policy/ 45 369760 22 22
+/.well-known/acme-challenge/uhqjikUC1O5Upg9eJWo0E6ItltkRvcbp7b4v1-zGKLE 1 87 0 0
+/portfolio/litoral-magazine/ 9 156777 2 0
+/.well-known/acme-challenge/G47Y5XLQX0PMWO2FA7YIQ9Q9AM8LHIDY 1 64 0 0
+/.well-known/acme-challenge/UJAI045HHVQ2RIZ0STHQU8-82NE3U_YR 1 64 0 0
+/.well-known/acme-challenge/5O76CLK140YV922CVTVKI_VXRTGD8UJZ 1 64 0 0
+/.well-known/acme-challenge/SB0ODE8IEVA0S09AGTDJRE7FP-3M40JV 1 64 0 0
+/.well-known/acme-challenge/GJXWGSLOG9NSB6-H7OBB7TLL01NFAA65 1 64 0 0
+/.well-known/acme-challenge/W9VT1JZTDORG19BMB_9IEYVG-66-_LU_ 1 64 0 0
+/.well-known/acme-challenge/EU6HPYHKFB0SM9-HTYBD-FBJLVQ62LJ6 1 64 0 0
+/.well-known/acme-challenge/MI8XMP0USHJIFCVSR95ZIV06GKURH8YS 1 64 0 0
+/wp-admin/post.php 6 783253 0 0
+/.well-known/acme-challenge/3T6QBNKPLWP202O677EHB_D-QRFPPE8B 1 64 0 0
+/.well-known/acme-challenge/KNJ517A7OG40043Y24S9Q5XAVOGN8CP8 1 64 0 0
+/portfolio/exporlux-video/ 11 162012 0 0
+/portfolio_cat/impressao/ 49 1041031 1 0
+/.well-known/acme-challenge/SPMK81DJ36BMYT5XO6S3EMENX_4IQUON 1 64 1 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.ttf 3 453165 0 0
+/.well-known/acme-challenge/SHVB8ZBRGP3WRM28HOHAY84FPHCDEPH- 1 64 0 0
+/.well-known/acme-challenge/ZMHGVWZY7FDMLPOYUCMQ2A7HMNP3D-60 1 64 0 0
+/invisual-branding-solutions/feed/ 33 24312 0 0
+/.well-known/acme-challenge/8M5Z2OZ5ZT5UYANWLW3BJC4OHI2GJFSR 1 64 0 0
+/blog/ 2 49924 0 1
+/.well-known/acme-challenge/T74VZAMQU2L51KT4LEU0-ZEA-_BERY21 1 64 0 0
+/.well-known/acme-challenge/LWSH1XULRHZGXXNVQD2X_TMOL6-DZO94 1 64 0 0
+/portfolio_cat/fotografia/ 48 1074928 1 1
+/.well-known/acme-challenge/JKV5CNP6FRAS6JPF739TF6NI49OW_TH_ 1 64 0 0
+/.well-known/acme-challenge/0G8L75BJK6ZPKE3ZQZJW24R7EFEQERJB 1 64 0 0
+/.well-known/acme-challenge/1GXW1HQF8MK3C62K00SFALX405H2OV8O 1 64 0 0
+/.well-known/acme-challenge/SOU4IHI4JZ97BZGANUA_Q9K_XTE3GGYC 1 64 0 0
+/.well-known/acme-challenge/SH1ZRKXTVJEZ0G6VMGI2H5_FN9UM64TO 1 64 0 0
+/.well-known/acme-challenge/RQ6KMRFQAX5KXG6YUMIHZMT4OJE_2ETW 1 64 0 0
+/wp-admin/admin.php 2 71480 0 0
+/.well-known/acme-challenge/MREQ6XO3C-9RUM4V40R__CY6OM7DUW3Q 1 64 0 0
+/.well-known/acme-challenge/Wk2nF17cfSC8O_zechrgyOOrAF7UWkqPqS6qp9NaQ04 1 87 0 0
+/portfolio_cat/assessoria/ 43 990917 0 0
+/.well-known/acme-challenge/0S947PA724D41UKV74GKO4B3SGG86_GX 1 64 0 0
+/.well-known/acme-challenge/K4328X7KYLNEQU4V3ZRLMOBU6IX21OM3 1 64 0 0
+/.well-known/acme-challenge/NG1DH9NB23A67REL14NOWVMNHM8ADCK7 1 64 0 1
+/.well-known/acme-challenge/M3Y1_TYI_U2WRA_FO-IS7BHK31HV64MZ 1 64 0 0
+/wp-admin/upgrade.php 1 21 1 0
+/portfolio/salpoente/ 35 1062306 0 0
+/.well-known/acme-challenge/JXU6O7GJ8OS4H_6PNFCB7_UB0SB0_4B9 1 64 0 0
+/.well-known/acme-challenge/A5IVRBLWLO4OUSOBDNGTZA1PYV5BXA4S 1 64 0 0
+/portfolio/ramalhos-video-oficial-2016/ 10 135954 0 0
+/.well-known/acme-challenge/YKE4P3G1YVWM265AO22YLOHIV6DTYR7_ 1 64 0 0
+/.well-known/acme-challenge/S3-TCRPAQ8E8M1KXLV3HHKUNN_-SKA5D 1 64 0 0
+/.well-known/acme-challenge/_PDA9918M92E6RAZK5TFBA6HN0_0X72J 1 64 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 33 5159228 1 2
+/pages/ 1 6908 0 0
+/google0255f710698bf76f.html 1 70 0 0
+/.well-known/acme-challenge/L6NPB8GL5TI20RP6C-9SRWXLTO69LHGE 1 64 0 0
+/.well-known/acme-challenge/NT5I6J1PT4QF77S456IE0L00PQ3QXU3V 1 64 0 0
+/.well-known/acme-challenge/2ROVNBZX_C5QDN59VOB144V6LY1X-MVE 1 64 0 0
+/wp-admin/update-core.php 2 44374 0 0
+/.well-known/acme-challenge/U2A-Y8I0LV3LQYCQ9L0KJJFPB7PH-O6L 1 64 0 0
+/portfolio/ekena-bay-video-oficial-2016/ 9 149718 0 0
+/old54321/ 1 20208 1 0
+/.well-known/acme-challenge/ZMJYYIHAKPF4RNSD3M1U1U00XFAZD72W 1 64 0 0
+/.well-known/acme-challenge/XS1EMALY10SS-LFRY144C449ZU6D_OQB 1 64 0 0
+/cpanel 3 101550 0 0
+/.well-known/acme-challenge/XT1VZ1TSNO-JQD19I0QW67H3YZSRRLAF 1 64 0 0
+/.well-known/acme-challenge/XD0K1Z2C-VC66VVBNKVCS428SJP5KDWT 1 64 0 0
+/.well-known/acme-challenge/A6OKFWOTC6G07SJYKLO3R-_36R2G0D84 1 64 0 0
+/.well-known/acme-challenge/P6R0ZVUPGXJB0_1T4DKC7R-G7P_X-MQB 1 64 0 0
+/.well-known/acme-challenge/8571J4A0DIEES-9CDNY0-JKQXGV3OEF3 1 64 0 0
+END_SIDER

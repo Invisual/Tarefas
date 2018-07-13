@@ -1,0 +1,329 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201708 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.tarefas.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2693                
+POS_VISITOR 7129                
+POS_DAY 7729                
+POS_DOMAIN 3437                
+POS_LOGIN 3686                
+POS_ROBOT 3841                
+POS_WORMS 4028                
+POS_EMAILSENDER 4159                
+POS_EMAILRECEIVER 4302                
+POS_SESSION 8354                
+POS_SIDER 8561                
+POS_FILETYPES 4437                
+POS_DOWNLOADS 4619                
+POS_OS 4667                
+POS_BROWSER 4796                
+POS_SCREENSIZE 5111                
+POS_UNKNOWNREFERER 5185                
+POS_UNKNOWNREFERERBROWSER 5272                
+POS_ORIGIN 5354                
+POS_SEREFERRALS 5494                
+POS_PAGEREFS 5638                
+POS_SEARCHWORDS 5786                
+POS_KEYWORDS 5938                
+POS_MISC 2355                
+POS_ERRORS 5997                
+POS_CLUSTER 3542                
+POS_SIDER_404 6108                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170901125810 1 0 11128022121371
+FirstTime 20170804123444
+LastTime 20170831194149
+LastUpdate 20170902071725 1 0 0 0 0
+TotalVisits 53                  
+TotalUnique 13                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 13                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 100 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 27 43 418626 10 16 14390
+1 0 0 0 8 8 8048
+2 1 1 1006 1 1 1409
+3 1 1 1006 5 6 6384
+4 0 0 0 1 1 1006
+5 0 0 0 0 0 0
+6 0 0 0 1 1 5546
+7 0 0 0 1 1 5546
+8 0 0 0 0 0 0
+9 214 440 10419257 35 46 50931
+10 255 358 5121387 58 75 46362
+11 195 305 4789289 22 37 37551
+12 473 749 11195421 35 54 48605
+13 74 103 1630083 21 22 30560
+14 684 988 12231473 38 55 63568
+15 326 523 7785020 47 53 30818
+16 574 809 9590157 66 82 67237
+17 279 390 4789082 41 53 39849
+18 146 211 2537530 36 43 37642
+19 90 122 1442788 7 10 9872
+20 63 80 763912 11 11 11754
+21 44 69 1024830 12 14 13479
+22 30 72 1971462 10 10 13507
+23 31 63 1610786 12 15 18302
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+pt 3488 5306 77098220
+us 19 21 224895
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+google[_+\s]web[_+\s]preview 75 75450 20170831205318 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 60 100685 0 0
+png 245 15515031 0 0
+js 70 282590 0 0
+jpg 938 52211202 0 0
+css 567 832938 0 0
+php 3447 8380669 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+ios_iphone 170 104
+winnt 2280 1312
+linux 11 11
+macosx 2866 2080
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+safari9.0 33 26
+mozilla 7 7
+chrome59.0.3071.115 705 481
+safari10.1.2 773 634
+chrome52.0.2743.116 22 11
+safari10.0 236 161
+safari10.1.1 1380 1001
+safari10.0.2 243 137
+firefox54.0 383 204
+chrome60.0.3112.101 15 5
+chrome49.0.2623.75 11 11
+chrome60.0.3112.90 1519 829
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 260 262
+From1 0 0
+From2 0 0
+From3 0 0
+From4 3247 5065
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 6 1361
+302 380 350155
+404 47 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/img/users/joaogaspar 1 https://tarefas.invisual.pt/mensagens.php
+/img/users/user.png 1 https://tarefas.invisual.pt/mensagens.php
+/img/users/filipefeio 10 https://tarefas.invisual.pt/list_clientes.php
+/apple-touch-icon-120x120-precomposed.png 2 -
+/apple-touch-icon-precomposed.png 12 -
+/insert_tarefa-diaria.php 2 https://tarefas.invisual.pt/list_tarefas_diarias.php
+/img/users/brunaferreira 1 https://tarefas.invisual.pt/mensagens.php
+/apple-touch-icon-120x120.png 2 -
+/apple-touch-icon.png 12 -
+/list_tarefas_diarias.php 1 https://tarefas.invisual.pt/insert_tarefa_diaria.php
+/img/users/pedro 2 https://tarefas.invisual.pt/mensagens.php
+/js/dcalendar.picker.js 1 https://tarefas.invisual.pt/insert_tarefa.php
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 13
+89.155.214.185 3314 4969 69222911 20170811175601
+84.91.4.229 84 181 4853354 20170828173314
+87.103.68.63 29 37 184077 20170809003430
+213.228.170.146 26 33 531133 20170804211255
+217.129.29.193 12 24 613330 20170814224423
+89.155.51.29 9 26 834351 20170810220944
+84.90.167.219 9 26 819343 20170816171530
+148.69.8.151 8 10 213829 20170809132443
+66.249.93.41 5 5 5030 20170831194149
+87.103.61.222 4 7 36220 20170811091912
+66.249.93.43 4 4 4024 20170829112632
+66.249.93.45 2 2 2012 20170822035028
+188.251.1.82 1 3 3501 20170808222108
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20170804 837 1146 14179222 5
+20170806 2 8 582366 2
+20170807 580 747 6088243 3
+20170808 664 1032 13989120 5
+20170809 821 1280 20030887 5
+20170810 321 603 12114192 7
+20170811 227 388 6843676 3
+20170812 15 37 875058 1
+20170813 1 1 1006 1
+20170814 12 24 613330 2
+20170815 8 24 818019 1
+20170816 1 2 1324 1
+20170817 2 9 584864 2
+20170819 1 1 1006 1
+20170820 1 1 1006 1
+20170822 1 1 1006 1
+20170823 1 1 1006 1
+20170824 2 2 2012 2
+20170825 1 3 3548 1
+20170826 1 1 1006 1
+20170827 3 7 294603 2
+20170828 2 6 293597 2
+20170829 1 1 1006 1
+20170830 1 1 1006 1
+20170831 1 1 1006 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 26
+30s-2mn 7
+1h+ 10
+15mn-30mn 1
+2mn-5mn 1
+30mn-1h 3
+5mn-15mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/list_tarefas.php 505 1901114 0 1
+/index.php 477 819524 1 4
+/listar_tarefa.php 442 1009079 0 3
+/login.php 358 378348 52 31
+/mensagens.php 280 822910 0 1
+/insert_tarefa.php 267 775632 0 0
+/list_my_tarefas.php 197 517734 0 5
+/tasks.php 119 315523 0 1
+/edit_tarefa.php 110 357478 0 0
+/list_tarefas_diarias.php 102 198848 0 1
+/list_clientes.php 99 230498 0 1
+/tarefas_pesquisa.php 96 284832 0 3
+/insert_cliente.php 96 168489 0 1
+/edit_prioridade.php 74 142779 0 0
+/ 60 100685 0 0
+/list_my_tasks.php 53 97521 0 1
+/list_tasks.php 34 67716 0 0
+/edit_task.php 28 63391 0 0
+/list_tarefas_urg.php 26 58729 0 0
+/registo.php 25 46604 0 0
+/edit_tarefa_diaria.php 17 40356 0 0
+/listar_tarefa_diaria.php 17 32638 0 0
+/insert_tarefa_diaria.php 11 27138 0 0
+/tasks_pesquisa.php 11 21406 0 0
+/estado_diaria.php 1 311 0 0
+/novo_user.php 1 1764 0 0
+/delete_tarefa_diaria.php 1 307 0 0
+END_SIDER

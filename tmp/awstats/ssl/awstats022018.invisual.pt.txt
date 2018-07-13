@@ -1,0 +1,1125 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201802 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 26837               
+POS_DAY 27968               
+POS_DOMAIN 3494                
+POS_LOGIN 3816                
+POS_ROBOT 3971                
+POS_WORMS 4295                
+POS_EMAILSENDER 4426                
+POS_EMAILRECEIVER 4569                
+POS_SESSION 28372               
+POS_SIDER 28578               
+POS_FILETYPES 4704                
+POS_DOWNLOADS 4971                
+POS_OS 5019                
+POS_BROWSER 5222                
+POS_SCREENSIZE 5550                
+POS_UNKNOWNREFERER 5624                
+POS_UNKNOWNREFERERBROWSER 6042                
+POS_ORIGIN 6257                
+POS_SEREFERRALS 6398                
+POS_PAGEREFS 6562                
+POS_SEARCHWORDS 6740                
+POS_KEYWORDS 6892                
+POS_MISC 2353                
+POS_ERRORS 6951                
+POS_CLUSTER 3672                
+POS_SIDER_404 7102                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180215053941 62 13620 4767582649429
+FirstTime 20180201013048
+LastTime 20180215053941
+LastUpdate 20180215075809 62 0 62 0 0
+TotalVisits 68                  
+TotalUnique 24                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 26                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 8 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 14954 12 50 900636
+1 8 8 89599 26 56 1079886
+2 9 9 74705 54 112 1940921
+3 4 4 44802 15 49 819364
+4 0 0 0 8 12 52251
+5 2 2 29845 15 55 1151108
+6 2 2 29851 27 62 1523509
+7 2 2 84378 15 26 221449
+8 15 15 792503 294 312 5906084
+9 26 94 3318366 365 417 7731492
+10 11 78 2625126 29 89 1985771
+11 33 33 2001547 623 626 11685632
+12 46 232 8284376 569 593 10678082
+13 1 1 20 18 66 1435166
+14 1 2 312158 23 47 755337
+15 10 125 3714659 23 47 1085839
+16 19 199 6007732 20 51 1079718
+17 13 134 3506876 27 85 1903605
+18 9 142 3239174 18 48 999776
+19 0 0 0 10 17 343918
+20 3 7 568399 18 41 961649
+21 3 3 14971 19 64 1395165
+22 3 3 14962 15 57 1014100
+23 51 51 2822217 1198 1213 22962667
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+pt 126 861 24426311
+us 80 220 8322896
+ru 37 37 2734718
+gb 26 26 1908737
+de 2 2 29845
+ca 1 1 84358
+za 1 1 84355
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 676 16967869 20180215011821 79
+bingbot/ 236 4774142 20180215020716 28
+bingpreview 19 311318 20180213034732 0
+no_user_agent 13 1096606 20180214175107 0
+unknown 1 69 20180214101745 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 121 2517410 0 0
+jpeg 2 30992 0 0
+Unknown 3 4137 0 0
+svg 12 4884 0 0
+html 189 8481433 0 0
+woff 2 0 0 0
+png 250 688602 0 0
+js 302 8692011 0 0
+woff2 8 980912 0 0
+php 71 433153 0 0
+jpg 188 15757686 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+macosx12 13 12
+winlong 1 1
+win8.1 84 8
+ios_iphone 158 15
+macosx 190 16
+Unknown 75 75
+unix 103 103
+linux 1 1
+macosx10 249 18
+win10 274 24
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+mozilla 3 3
+safari11.0.2 1 0
+chrome34.0.1847.137 1 1
+chrome46.0.2754.75 1 1
+Unknown 72 72
+chrome64.0.3282.140 5 1
+safari10.1.1 249 18
+safari 78 7
+chrome61.0.3163.100 12 12
+safari11.0.3 100 8
+chrome55.0.2883.87 2 2
+chrome63.0.3239.132 441 37
+netscape5.0 103 103
+safari11.0 80 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Magic_Browser 20180215053941
+WordPress/4.9.2;_https://invisual.pt 20180205121356
+WordPress/4.9.3;_https://invisual.pt 20180214232255
+Mozilla/5.0_zgrab/0.x_(compatible;_Researchscan/t12l;__http://researchscan.comsys.rwth-aachen.de) 20180205110806
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20180206071210
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/4.9.3;_https://invisual.pt 20180214232255
+WordPress/4.9.2;_https://invisual.pt 20180205121356
+Magic_Browser 20180215053941
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 123 123
+From1 1 1
+From2 15 21
+From3 2 2
+From4 132 1001
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_pt 15 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://94.46.176.249:443 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+500 1 0
+401 6 118635
+403 36 16379
+404 1970 56325155
+301 1183 1680
+302 46 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 780
+/Plone 2 -
+/CFIDE/administrator/index.cfm 3 -
+/index.rb 2 -
+/login/extern/index.html 2 -
+/login.cgi 3 -
+/users/login.php 2 -
+/torrentvolve/site/login.php 2 -
+/lua/about.lua 2 -
+/Login.do 1 -
+/pentaho-di/Login 2 -
+/group-office/about.php 2 -
+/invoker/JMXInvokerServlet 2 -
+/pmwiki.php 3 -
+/paypal/composer.json 3 -
+/Account/LogIn 2 -
+/ddem/login/ 3 -
+/conference/roschedule.php 3 -
+/auth/login 9 -
+/portfolio/clinicas-persona-identidade-visual/ 2 -
+/phpThumb/demo/phpThumb.demo.demo.php 3 -
+/ChangeLog 3 -
+/secretserver/Login.aspx 2 -
+/genealogie/Index2.php 2 -
+/.well-known/assetlinks.json 8 -
+/wps/portal/Home/Welcome/ 3 -
+/brightmail/viewLogin.do 3 -
+/LoginServlet 3 -
+/webtools/control/main 5 -
+/logon.jsp 3 -
+/i_dont_exist 6 -
+/roschedule.php 2 -
+/torrent/site/login.php 1 -
+/symphony/symphony/ 1 -
+/portfolio/novo-megane/ 1 -
+/evalsmsi/evalsmsi.php 2 -
+/mail/login.php 2 -
+/login.asp 3 -
+/wiki/doku.php 1 -
+/sql-ledger/login.pl 3 -
+/didiwiki/WikiHome 2 -
+/setup/unlock 3 -
+/nuxeo/login.jsp 3 -
+/cmk/check_mk/login.py 2 -
+/openvas345678.html 3 -
+/courier/ 2 -
+/gogs/user/login 3 -
+/Orbis/admin/login.php 2 -
+/redaxscript/ 2 -
+/fm/Login.do 2 -
+/continuum/about.action 3 -
+/rainloop/ 3 -
+/cms/admin/login.php 3 -
+/b2evolution/admin.php 2 -
+/spip/spip.php 3 -
+/phpcoin/license.php 3 -
+/index.jsp 2 -
+/Web/ 3 -
+/basilix.php 3 -
+/viewer 2 -
+/tibbr/web/login 2 -
+/cgi-nmis8/nmiscgi.pl 2 -
+/db/budget.sqlite 2 -
+/conteudo/themes/uncode/library/js/app.js 1 https://invisual.pt/portfolio/salpoente/
+/ReleaseNotes.txt 1 -
+/xf/ 2 -
+/cgi/about 2 -
+/xmldata 3 -
+/ftp/ 2 -
+/setseed-hub/ 3 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_638127884 1 -
+/Documentation/misc/about.jsp 3 -
+/portfolio/exporlux-video/ 2 -
+/login.action 2 -
+/phpgw/login.php 3 -
+/hpsm/index.do 1 -
+/signin 2 -
+/novell/welcome/index.html 2 -
+/php/login.php 6 -
+/crawler/html/infoen.htm 2 -
+/en-US/account/login 4 -
+/admin/setup.php 2 -
+/HNAP1 3 -
+/webaccess/ 3 -
+/hudson/ 3 -
+/plone 2 -
+/chklogin.cgi 2 -
+/git/ 3 -
+/admin/login.php 6 -
+/api/index.html 3 -
+/flash/README.txt 2 -
+/auth/ 3 -
+/doc/ 3 -
+/translate/about/ 2 -
+/admin.php 3 -
+/cgi-bin/.cobalt/overflow/overflow.cgi 3 -
+/csvn/login/auth 2 -
+/SeoPanel/ 3 -
+/list/lists/admin/ 3 -
+/esrs/html/about.html 3 -
+/bugs/index.cgi 2 -
+/opendocman/admin.php 2 -
+/cmplatform/showHome.do 2 -
+/zimbraAdmin/ 3 -
+/login.php 6 -
+/Device_Information.htm 3 -
+/freepbx/admin/config.php 3 -
+/invoiceplane/sessions/login 2 -
+/mrbs/web/help.php 1 -
+/web/help.php 2 -
+/myserver/index.html 2 -
+/lua/login.lua 2 -
+/clips/admin_area/login.php 1 -
+/authenticate/login 3 -
+/vsom/ 3 -
+/sapmc/sapmc.html 3 -
+/wmail/login.php 2 -
+/phorum/admin.php 2 -
+/icinga/main.html 2 -
+/Default.aspx 2 -
+/tiki-index.php 2 -
+/jsp/fw/internal/Login.jsp 2 -
+/tutos/php/mytutos.php 3 -
+/RSAarcher/Default.aspx 2 -
+/tracker/index.html 3 -
+/cgi-bin/mapserv 2 -
+/shouts.php 1 -
+/login.jsp 9 -
+/index.html 6 -
+/cms/e107_admin/admin.php 2 -
+/logon.php 6 -
+/cgit/ 3 -
+/.git/info/exclude 1 -
+/cgi-bin/mt/mt.cgi 2 -
+/magmi/web/magmi.php 1 -
+/info.php 2 -
+/tkset/login.html 3 -
+/error500.html 3 -
+/apache-wicket/index.html 2 -
+/SStc/index.html 2 -
+/html/infoen.htm 2 -
+/ads.txt 17 -
+/Backburner/ 3 -
+/cgi-bin/authLogin.cgi 2 -
+/apiclient/ember/Login.jsp 3 -
+/NodeBB/ 2 -
+/portfolio/litoral-magazine/ 1 -
+/portfolio/metalegi/ 1 -
+/ 3 -
+/about 2 -
+/SecretServer/Login.aspx 2 -
+/arcgis/rest/services/ 3 -
+/filemanager/content.php 3 -
+/phpgroupware/login.php 3 -
+/conteudo/plugins/uncode-daves-wordpress-live-search/js/daves-wordpress-live-search.js 1 https://invisual.pt/portfolio/litoral-magazine/
+/wcm/index.jsp 2 -
+/JAG/guestbook.php 2 -
+/wicket/wicket-examples/index.html 2 -
+/olt/Login.do 3 -
+/viart_cms/viart_shop.xml 2 -
+/about/ 4 -
+/phpicalendar/print.php 3 -
+/blogs/admin.php 2 -
+/cmf/login 3 -
+/tikiwiki/tiki-index.php 3 -
+/en/index.html 4 -
+/login_up.php3 3 -
+/conteudo/themes/uncode/library/js/plugins.js 1 https://invisual.pt/portfolio/salpoente/
+/config.xml.sav 3 -
+/dolph/administration/profiles.php 3 -
+/index.htm 5 -
+/cgi-bin/mapserv.exe 2 -
+/asbru/index.jsp 2 -
+/vhosts/ehcp/ 3 -
+/..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini 1 -
+/conteudo/plugins/contact-form-7/includes/js/scripts.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/CCC/login.html 3 -
+/confluence/login.action 2 -
+/startwlm/Start_Wlm.htm 1 -
+/opensso/UI/Login.jsp 3 -
+/jasperserver-pro/login.html 2 -
+/cas/login 3 -
+/dokuwiki/doku.php 1 -
+/forum/login.php 2 -
+/blob/blob.php 2 -
+/cvstrac/index 2 -
+/nexus/ 3 -
+/Applications/dellUI/Strings/EN_about_hlp.htm 1 -
+/ecms/ 3 -
+/portfolio_cat/identidade/ 2 -
+/nanocms/data/nanoadmin.php 2 -
+/prime-home/login/ 2 -
+/Allegro 3 -
+/egroupware/login.php 2 -
+/ilohamail/ 1 -
+/d/users/sign_in 2 -
+/portfolio/alital-web-design/ 1 -
+/dmanager/php/login.php 3 -
+/zTree/demo/en/index.html 2 -
+/rails/info/routes/ 2 -
+/public/about.html 2 -
+/store/ 2 -
+/ccmuser/showHome.do 1 -
+/fr/index.html 2 -
+/authentication/login 3 -
+/xoops/user.php 2 -
+/ssgmanager/about.jsf 3 -
+/Liferay/web/guest 3 -
+/conteudo/plugins/LayerSlider/static/js/layerslider.transitions.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/phpCoin165/license.php 2 -
+/sampler/ 3 -
+/cgi-bin/vmtadmin.cgi 3 -
+/ClearBudget/db/budget.sqlite 2 -
+/dm-filemanager/login.php 3 -
+/webconsole/webpages/login.jsp 3 -
+/PassTrixMain.cc 3 -
+/blog/login.php 3 -
+/kanboard/ 3 -
+/openengine/cms/website.php 2 -
+/snortreport-1.3.1/alerts.php 3 -
+/filestore/Login.do 2 -
+/go/about.php 2 -
+/jpgraph/docportal/index.html 2 -
+/conteudo/themes/uncode/library/js/min/ai-uncode.min.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/Login 6 -
+/index.ph 3 -
+/libs/granite/core/content/login.html 3 -
+/portal/ 3 -
+/pentaho-solutions/Login 4 -
+/schedule/roschedule.php 2 -
+/Open-Xchange/ox.html 2 -
+/listing.php 2 -
+/portfolio/brigadeiros-conservas/ 1 -
+/buildbot/about 2 -
+/xymon/xymon.html 2 -
+/javascripts/app.js 3 -
+/cgi-bin/chksession.cgi 2 -
+/cms/system/login.php 3 -
+/console/faces/jsp/login/BeginLogin.jsp 3 -
+/ows-bin/perlidlc.bat_1099293675 1 -
+/ecommerce/admin/login.php 3 -
+/pootle/about/ 2 -
+/nonexistent.nsf 4 -
+/nnm/main 3 -
+/api/config/v1/version/image 2 -
+/app/ui/login.jsp 3 -
+/logon.htm 3 -
+/calendar/login.php 2 -
+/mt/mt.cgi 3 -
+/pub/pki 2 -
+/wiki/SystemInfo 2 -
+/LiveTime/WebObjects/LiveTime.woa 2 -
+/dbase/aeNovo1.mdb 1 -
+/Site/Pages/login.aspx 3 -
+/account/login 4 -
+/orion/login 3 -
+/ledger/login.pl 3 -
+/portal/login 2 -
+/login.aspx 3 -
+/ldap/templates/login.php 3 -
+/phpPgAdmin/intro.php 2 -
+/home.html 3 -
+/.bzr/branch-format 1 -
+/htdocs/login.php 3 -
+/eGroupware/egroupware/login.php 2 -
+/bonita/login.jsp 3 -
+/opendb/login.php 3 -
+/login.html 9 -
+/alerts.php 3 -
+/genealogie_sql/Index2.php 2 -
+/user.php 2 -
+/collabtive/index.ph 3 -
+/apple-app-site-association 8 -
+/about.php 3 -
+/portfolio/lardarte-catalogo/ 1 -
+/auth 3 -
+/CruxCMS/login.php 2 -
+/portfolio/carne-marinhoa/ 4 -
+/artifactory/webapp/home.html 2 -
+/help_files/g_Introduction_to_the_Cisco_Firepower_System.html 3 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_916798873 1 -
+/demo/demo/phpThumb.demo.demo.php 3 -
+/console/login/LoginForm.jsp 2 -
+/magmi-importer/ReleaseNotes.txt 1 -
+/evalsmsi.php 2 -
+/phpipam/ 3 -
+/Monsta-FTP-master/ 2 -
+/afterlogic/ 3 -
+/phpinfo.php 2 -
+/.git/config 2 -
+/mail/lists/admin/ 3 -
+/web/magmi.php 1 -
+/wsman 3 -
+/configurations.do 3 -
+/orbis/admin/login.php 2 -
+/viart_shop.xml 4 -
+/magmi-importer/web/magmi.php 1 -
+/conteudo/themes/uncode/library/css/style-custom.css 1 https://invisual.pt/portfolio/salpoente/
+/tcpbx/ 2 -
+/manageengine/EmployeeSearch.cc 3 -
+/test.php 2 -
+/showHome.do 2 -
+/lists/admin/ 2 -
+/solr/ 2 -
+/login/login.html 3 -
+/kibana/app/kibana 3 -
+/discoverer/viewer 2 -
+/cms/login.php 3 -
+/SystemInfo 2 -
+/novell-service-desk/LiveTime/WebObjects/LiveTime.woa 2 -
+/FinderView/index.html 2 -
+/doc/index.html 1 -
+/rt/index.html 3 -
+/groupware/about.php 2 -
+/portfolio_cat/video/ 2 -
+/testlink/login.php 3 -
+/xmlpserver/login.jsp 2 -
+/sympa/ 3 -
+/admin-ng/login.html 2 -
+/login/index.html 3 -
+/blogs/htsrv/login.php 3 -
+/mail/accounts/inc/include.php 1 -
+/leap/ 3 -
+/license.php 2 -
+/server/version 3 -
+/vco/ 3 -
+/guestbook.php 2 -
+/de/index.html 2 -
+/DMC/titleBar.php 3 -
+/cms 2 -
+/flashlight/README.txt 2 -
+/blog/blob.php 2 -
+/cart/ 2 -
+/photo/ 3 -
+/pentaho/Login 4 -
+/admin/config.php 3 -
+/apachesolr/ 2 -
+/pmwiki/pmwiki.php 3 -
+/intro.php 2 -
+/icfb/ 2 -
+/nmiscgi.pl 2 -
+/fsm/login.jsp 2 -
+/wicket-examples/index.html 2 -
+/portfolio/adriano-carreira-medicina-dentaria/ 2 -
+/server-info 3 -
+/webcalendar/login.php 2 -
+/data/nanoadmin.php 2 -
+/kallithea/ 2 -
+/clipbucket/Upload/admin_area/login.php 2 -
+/ui/faces/Login.xhtml 3 -
+/basilix/basilix.php 3 -
+/portfolio_cat/eventos/ 1 -
+/conteudo/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/bamboo/userlogin!default.action 3 -
+/invoker/EJBInvokerServlet 2 -
+/snort/base/ 3 -
+/interface/login/login.php 2 -
+/jag/guestbook.php 2 -
+/cobbler_api 3 -
+/mrbs/help.php 1 -
+/Login.jsp 3 -
+/jasperreports/login.html 2 -
+/portfolio_cat/fotografia/ 1 -
+/pki/pub/pki 2 -
+/mail/ 3 -
+/wiki/tiki-index.php 3 -
+/conteudo/plugins/i-recommend-this/js/dot_irecommendthis.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/Moin/SystemInfo 2 -
+/roller/index.jsp 1 -
+/sendio/ice/ui/ 3 -
+/LoginPage.do 9 -
+/jetspeed/ 2 -
+/b2evolution/blogs/admin.php 1 -
+/egw/login.php 2 -
+/zdm/login_xdm_uc.jsp 3 -
+/portfolio_cat/impressao/ 3 -
+/roller/login.rol 2 -
+/wpad.dat 3 -
+/main/login.php 2 -
+/officescan/console/html/help/webhelp/Preface.html 3 -
+/sm7/index.do 2 -
+/conteudo/plugins/contact-form-7/includes/js/jquery.form.min.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/cs/ 2 -
+/postfixadmin/login.php 3 -
+/cgi-bin/dna/password.cgi 3 -
+/tutos/ChangeLog 2 -
+/groupware/login.php 2 -
+/templates/login.php 3 -
+/kanboard/jsonrpc.php 2 -
+/ui/#/ 3 -
+/cgi-bin/login.html 2 -
+/jetspeed/portal/ 2 -
+/plugin-management/html/homepage:main.int.html 3 -
+/about-show.do 2 -
+/trc/ 3 -
+/tcpdb/main.php 3 -
+/xampp/start.php 3 -
+/cart.php 3 -
+/admin_area/login.php 2 -
+/news.php 3 -
+/ntop-bin/dashboard.cgi 3 -
+/cscart/ 2 -
+/cms/data/nanoadmin.php 2 -
+/indeks.php 2 -
+/phppgadmin/intro.php 2 -
+/mve/help/en/inventory/am_about.html 3 -
+/apache/openmeetings/signin 2 -
+/manager/html 3 -
+/nodebb/ 2 -
+/non-existent.html 6 -
+/novell/LiveTime/WebObjects/LiveTime.woa 2 -
+/zport/acl_users/cookieAuthHelper/login_form 3 -
+/cms/indeks.php 2 -
+/portfolio/festival-dos-canais-2017-2/ 1 -
+/telpho/login.php 3 -
+/websvn/listing.php 2 -
+/e107/news.php 2 -
+/Index2.php 2 -
+/ipa/ui/ 3 -
+/status/hostgroup 3 -
+/monitor/check_mk/login.py 2 -
+/portfolio/maldita/ 1 -
+/viart_shop/viart_shop.xml 3 -
+/tvs/Start.do 3 -
+/WebCalendar/login.php 2 -
+/cms/symphony/ 2 -
+/vpn/index.html 3 -
+/php/mytutos.php 3 -
+/mainui/ 3 -
+/cms/index.html 2 -
+/#!/search 3 -
+/ui/modules/login/ 3 -
+/snortreport/alerts.php 3 -
+/xcart_ecommerce/cart.php 2 -
+/elite/admin/login.php 3 -
+/openwebmail-cgi/openwebmail.pl 2 -
+/xwiki/bin/view/Main/ 3 -
+/portfolio/litoral-awards-2016-porto-canal-3/ 1 -
+/main.html 2 -
+/imp/ 2 -
+/index.hsp 3 -
+/login/auth 2 -
+/portfolio/susana-lopes/ 1 -
+/conteudo/plugins/LayerSlider/static/js/greensock.js 2 https://invisual.pt/portfolio/litoral-magazine/
+/administration/profiles.php 3 -
+/geneald/Index2.php 2 -
+/boards/ 1 -
+/openmeetings/signin 2 -
+/appsuite/apps/io.ox/help/style.less 3 -
+/user/login 3 -
+/mt.cgi 2 -
+/clwarn.cgi 3 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_2109821238 1 -
+/eng/status/statprn1.htm 1 -
+/conteudo/themes/uncode/library/css/uncode-icons.css 1 https://invisual.pt/portfolio/salpoente/
+/nps/servlet/webacc 2 -
+/ssf/a/do 3 -
+/mseui/ 2 -
+/src/login.php 1 -
+/timesheet/about-show.do 2 -
+/news/admin.php 3 -
+/stats/tools.php 3 -
+/base/ 3 -
+/bds/Login.do 2 -
+/invisual/ 2 -
+/icinga/cgi-bin/config.cgi 2 -
+/apidocs/index.html 2 -
+/wiki/pmwiki.php 2 -
+/register.php 3 -
+/Login.aspx 5 -
+/dmf/login.php 3 -
+/welcome/index.html 2 -
+/server/properties 2 -
+/email/ 2 -
+/EmployeeSearch.cc 3 -
+/amserver/UI/Login.jsp 2 -
+/rave/login 2 -
+/admin/login.action 2 -
+/servlet/Login 2 -
+/cgi-bin/login.cgi 3 -
+/horde/imp/ 2 -
+/mdb-database/aeNovo1.mdb 1 -
+/nagios/login.php 3 -
+/desktop/container/ 3 -
+/fotoware/fotoweb/views/login 2 -
+/APG/info/about 3 -
+/.well-known/apple-app-site-association 8 -
+/appliance/login 2 -
+/rails/info/properties/ 2 -
+/conteudo/plugins/contact-form-7/includes/css/styles.css 3 https://invisual.pt/portfolio/festival-dos-canais/
+/portfolio/targo/ 1 -
+/squirrel/src/login.php 2 -
+/check_mk/login.py 2 -
+/jasperserver/login.html 2 -
+/chksession.cgi 2 -
+/crucible/ 2 -
+/views/login 2 -
+/FinderView-master/index.html 2 -
+/documentation.html 3 -
+/groupoffice/about.php 2 -
+/social/login 2 -
+/admin/login.jsp 5 -
+/login.jsf 3 -
+/ilias/setup/setup.php 3 -
+/apple-touch-icon-precomposed.png 2 -
+/WikiHome 2 -
+/netmri/config/userAdmin/login.tdf 3 -
+/extplorer/extplorer.xml 2 -
+/app/kibana 3 -
+/sdcard/cpt/app/signin.php 3 -
+/corporate/webpages/login.jsp 3 -
+/version 3 -
+/tiweb/Account/LogIn 2 -
+/discloser/login.php 3 -
+/Taskfreak/login.php 3 -
+/clipbucket/admin_area/login.php 2 -
+/help.php 2 -
+/shop/viart_shop.xml 2 -
+/xcart/cart.php 3 -
+/deviceinfo.htm 3 -
+/interface/logon.do 3 -
+/conteudo/plugins/LayerSlider/static/css/layerslider.css 3 https://invisual.pt/portfolio/festival-dos-canais/
+/userlogin!default.action 3 -
+/web/index.html 6 -
+/hosting/discovery 3 -
+/bugzilla/index.cgi 2 -
+/.git/description 1 -
+/Portal/Portal.mwsl 3 -
+/cpqlogin.htm 3 -
+/webapp/home.html 2 -
+/triton/login/pages/loginPage.jsf 3 -
+/phpThumb.demo.demo.php 3 -
+/svn/listing.php 1 -
+/index.asp 3 -
+/webacs/pages/common/login.jsp 3 -
+/system/cluster/node 3 -
+/app 6 -
+/Siestta/ 2 -
+/tiki/tiki-index.php 3 -
+/admin/index.jsp 2 -
+/system/login 3 -
+/cgi-bin/pki/pub/pki 2 -
+/userportal/webpages/myaccount/login.jsp 3 -
+/partymgr/control/main 2 -
+/jpgraph/index.html 2 -
+/e107_admin/admin.php 2 -
+/zTree/en/index.html 2 -
+/cucm/showHome.do 2 -
+/pgadmin/intro.php 2 -
+/html/en/index.html 3 -
+/cgi-bin/pub/pki 2 -
+/wiki/WikiHome 2 -
+/b2evolution/blogs/htsrv/login.php 3 -
+/scrumworks/login 3 -
+/login.htm 7 -
+/changelog 2 -
+/composer.json 3 -
+/board/admin.php 2 -
+/feed.php 1 -
+/oscmax/admin/login.php 3 -
+/opennms/login.jsp 3 -
+/README.txt 2 -
+/bitweaver/users/login.php 2 -
+/mrbs1261/help.php 1 -
+/docman/admin.php 3 -
+/firestats/tools.php 3 -
+/irj/portal 3 -
+/doku.php 1 -
+/cas-server-webapp/login 3 -
+/main.php 3 -
+/logeye/security/auth/login.jsp 2 -
+/web/login.html 3 -
+/taskfreak/login.php 3 -
+/Login.php 3 -
+/ui/login/ 3 -
+/site_admin/ 2 -
+/fotoweb/views/login 2 -
+/Auth.action 3 -
+/forum/admin.php 2 -
+/sNews/readme.txt 1 -
+/wiki/login.action 2 -
+/booked/Web/ 3 -
+/v-webmail/htdocs/login.php 3 -
+/conteudo/themes/uncode/library/css/style.css 1 https://invisual.pt/portfolio/salpoente/
+/gc/flash.php 3 -
+/account/login/ 3 -
+/squirrelmail/src/login.php 2 -
+/board/ 2 -
+/MNU_access_login_top.htm 3 -
+/php_info.php 2 -
+/dolphin/administration/profiles.php 2 -
+/jsonrpc.php 2 -
+/admin/login.html 2 -
+/TrackItWeb/Account/LogIn 2 -
+/vsmc.html 3 -
+/login 6 -
+/ConsoleHelp/default.jsp 3 -
+/session/login.php 3 -
+/seopanel/ 3 -
+/sysaid/Login.jsp 3 -
+/univention-management-console/ 3 -
+/license/records 3 -
+/ossim/session/login.php 3 -
+/dsc/ 3 -
+/sm/src/login.php 1 -
+/archiva/index.action 3 -
+/blob.php 2 -
+/api/about 3 -
+/bomgar/ 3 -
+/aproxengine/engine/inc/version.info 2 -
+/dienstplan/ 3 -
+/express/ 3 -
+/SimpNews/news.php 3 -
+/mail/src/login.php 1 -
+/manual/en/index.html 2 -
+/login.xhtml 3 -
+/portfolio_cat/ativacao-de-marca/ 3 -
+/portfolio/socertima-construcoes/ 1 -
+/spywall/login.php 3 -
+/forums/ 2 -
+/conteudo/uploads/2016/09/vr2p-mobile-pormenor-web-4-invisual.jpg 1 -
+/crawltrack/html/infoen.htm 2 -
+/lua/onlinehelp/LUHelp0002.html 3 -
+/portfolio/agner-service/ 3 -
+/backend/ 2 -
+/nagioslogserver/login 3 -
+/robohelp/admin/login.jsp 2 -
+/nagiosxi/login.php 3 -
+/jenkins/ 3 -
+/rtl/about.lsp 3 -
+/weblate/about/ 2 -
+/cgi-mod/index.cgi 6 -
+/sitecore/login/ 2 -
+/content.php 5 -
+/cs/login/login.htm 3 -
+/index.do 3 -
+/admin-ng/ 2 -
+/tmui/tmui/login/welcome.jsp 3 -
+/accounting/control/main 2 -
+/ui/ 3 -
+/xenforo/ 2 -
+/forum/content.php 1 -
+/print.php 3 -
+/viart/viart_shop.xml 2 -
+/WebConsole/Login.jsp 3 -
+/cgi-bin/chklogin.cgi 2 -
+/eng/js/lang_en_us.js 3 -
+/merchant-sdk-php/composer.json 3 -
+/conteudo/themes/uncode/library/js/init.js 3 https://invisual.pt/portfolio/salpoente/
+/mymsg/Login.php 3 -
+/hui/index.html 3 -
+/portfolio/ekena-bay-2017/ 3 -
+/cms/website.php 2 -
+/tiles/apidocs/index.html 2 -
+/dtlt/home.html 3 -
+/cgi-nmis4/nmiscgi.pl 2 -
+/portfolio/ipmd-instituto-portugues-de-medicina-dentaria/ 1 -
+/tools.php 3 -
+/Esprit/public/Login.jsp 3 -
+/cgi/lang/en/login.xsl 1 -
+/ccmadmin/showHome.do 1 -
+/icingaweb2/authentication/login 3 -
+/sentinel/views/logon.html 3 -
+/index 2 -
+/Security/login 3 -
+/shop/admin/login.html 3 -
+/core/orionSplashScreen.do 2 -
+/login.pl 3 -
+/titleBar.php 3 -
+/openemr/interface/login/login.php 2 -
+/greymatter/gm.cgi 2 -
+/site/login.php 2 -
+/aeNovo1.mdb 1 -
+/wiki/feed.php 1 -
+/openpro/login.php 2 -
+/start.php 3 -
+/OperaLogin/Welcome.do 3 -
+/users/login 3 -
+/html/%3f.jsp 2 -
+/gwadmin-console/login.jsp 3 -
+/rws/user/ 3 -
+/.hg/hgrc 2 -
+/gm.cgi 2 -
+/sphider/changelog 3 -
+/forum/ 2 -
+/clipbucket/upload/admin_area/login.php 2 -
+/main/web/status/ 3 -
+/cgi-bin/MANGA/index.cgi 3 -
+/mrbs1261/web/help.php 1 -
+/nidp/app 3 -
+/bitbucket/login 3 -
+/xsql/demo/adhocsql/query.xsql 3 -
+/accounts/login/ 3 -
+/coregui/login 3 -
+/admin/login-default.do 2 -
+/webman/index.cgi 2 -
+/fisheye/ 2 -
+/siestta/ 2 -
+/cgi-bin/openwebmail/openwebmail.pl 2 -
+/psconsole/faces/common/ProductVersion.jsp 2 -
+/engine/inc/version.info 2 -
+/swvm/ConsoleContainer.jsp 3 -
+/doesnt_exist/ 2 -
+/ordermgr/control/main 2 -
+/cms/ 6 -
+/CruxCMS300/manager/login.php 2 -
+/cms/engine/inc/version.info 2 -
+/xymon.html 2 -
+/cgi-bin/web_index.cgi 3 -
+/#/login 3 -
+/icinga/authentication/login 3 -
+/index.cgi 4 -
+/clearsite/about.php 3 -
+/orangehrm/login.php 3 -
+/CGI/Java/Serviceability 3 -
+/sm/index.do 2 -
+/um/ 3 -
+/CruxPA200/login.php 2 -
+/cms/news.php 2 -
+/system.xml 3 -
+/portfolio_cat/web-design/ 2 -
+/oscmax/catalog/admin/login.php 3 -
+/webapp 2 -
+/images/%3f.jsp 2 -
+/sc/index.do 2 -
+/nagios/login 3 -
+/%2bCSCOE%2b/win.js 3 -
+/extplorer.xml 2 -
+/cgi-bin/config.cgi 2 -
+/admin/public/index.html 3 -
+/ucmdb-ui/login_page.jsp 3 -
+/system/login.php 3 -
+/portfolio_cat/paginacao/ 1 -
+/repos/kallithea/ 2 -
+/spip.php 3 -
+/web/guest 5 -
+/cb/db/budget.sqlite 2 -
+/index.php5 3 -
+/vicidial/welcome.php 3 -
+/overlook/src/login.php 2 -
+/jira/login.jsp 2 -
+/cgi-bin/html/login.html 2 -
+/e107/e107_admin/admin.php 2 -
+/scripts/branding.js 3 -
+/apple-touch-icon.png 2 -
+/ox.html 2 -
+/portfolio/salpoente-2/ 1 -
+/aps/Login.do 2 -
+/eXtplorer/extplorer.xml 2 -
+/bw/users/login.php 2 -
+/manageengine/index.do 3 -
+/symphony/ 2 -
+/dfshealth.jsp 3 -
+/moin/SystemInfo 2 -
+/simpnew248/news.php 3 -
+/index_en.htm 3 -
+/SQLiteManager/main.php 3 -
+/magmi/ReleaseNotes.txt 1 -
+/crowd/console/login.action 3 -
+/php/ 2 -
+/ucs-overview/ 3 -
+/portfolio_cat/embalagem/ 1 -
+/siteadmin/ 2 -
+/fibaro/en/home/login.html 3 -
+/dfshealth.html 3 -
+/vpn/tmindex.html 3 -
+/volve/site/login.php 1 -
+/ldap-account-manager/templates/login.php 3 -
+/zenworks/jsp/fw/internal/Login.jsp 2 -
+/snort/alerts.php 3 -
+/.hg/branch 2 -
+/dokuwiki/feed.php 1 -
+/domcfg.nsf 4 -
+/cms/cms/website.php 2 -
+/Overview.html 3 -
+/tdiary/index.rb 2 -
+/vimbadmin/auth/login 3 -
+/roundcube/ 3 -
+/01.htm 3 -
+/ox6/ox.html 2 -
+/CruxPA200/Manager/login.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 26
+94.46.176.215 60 60 189203 20180214232255
+192.200.26.250 40 40 2989065 20180213121400
+185.230.125.46 37 37 2734718 20180207235227
+185.93.181.90 26 26 1908737 20180202091740
+213.22.34.241 18 250 7296951 20180212171229
+54.183.130.127 12 12 179132 20180214023426
+62.28.223.225 8 90 2557095 20180205181933
+188.82.79.43 8 84 2633307 20180205122739
+148.69.30.146 8 79 2490382 20180205152559
+2.82.172.175 8 96 2901537 20180202163208
+37.189.149.197 8 100 3106135 20180206162000
+178.166.86.47 7 78 2424064 20180207122402
+148.69.67.35 7 75 2173056 20180207091620
+52.41.211.72 6 6 89556 20180215053941 20180215053941 /
+85.244.180.80 5 44 2052651 20180207120826
+52.34.24.33 5 5 74626 20180210013323
+88.157.193.114 2 2 29836 20180205173306
+137.226.113.26 2 2 29845 20180205110806
+188.83.96.191 1 52 682079 20180201183808
+35.162.70.167 1 1 14921 20180201013048
+66.240.236.119 1 1 84358 20180203143343
+159.89.176.175 1 1 84358 20180206071210
+213.228.181.11 1 1 14932 20180214101744
+196.47.64.42 1 1 84355 20180209125224
+148.69.14.128 0 1 227800 
+188.81.237.113 0 4 538521 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20180201 14 132 3307681 6
+20180202 50 181 5974773 7
+20180203 5 5 129160 5
+20180204 4 4 29881 4
+20180205 35 314 8424361 8
+20180206 16 108 3235360 9
+20180207 71 249 9472008 8
+20180208 1 1 14934 1
+20180209 4 5 247468 4
+20180210 1 5 553449 1
+20180211 1 1 20 1
+20180212 9 81 3050859 4
+20180213 55 55 3076583 3
+20180214 6 6 59757 6
+20180215 1 1 14926 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 1
+0s-30s 50
+1h+ 2
+30mn-1h 3
+30s-2mn 4
+2mn-5mn 2
+15mn-30mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 173 8163179 46 40
+/wp-cron.php 31 620 20 19
+/wp-content/themes/uncode/core/inc/uncode-ajax.php 29 9232 0 2
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff2 8 980912 0 0
+/webmail/ 6 203322 0 0
+/contacto/ 5 57132 0 3
+/mailman/listinfo 3 4137 0 0
+/webmail/index.php 3 101958 0 0
+/webmail/htdocs/login.php 3 102231 0 0
+/webmail/login.php 2 67972 0 0
+/wp-content/themes/uncode/library/fonts/uncode-icons.woff 2 0 0 0
+/webmail/src/login.php 2 66785 0 0
+/portefolio/ 2 24237 0 2
+/portefolios/renault/ 1 11297 1 0
+/index.php 1 84355 1 1
+/joel-reigota-outinv-2018-19/ 1 10008 0 0
+/quem-somos/ 1 12258 0 0
+END_SIDER

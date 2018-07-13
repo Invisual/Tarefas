@@ -1,0 +1,249 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201008 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2509                
+POS_VISITOR 6882                
+POS_DAY 6954                
+POS_DOMAIN 3042                
+POS_LOGIN 3253                
+POS_ROBOT 3408                
+POS_WORMS 3652                
+POS_EMAILSENDER 3783                
+POS_EMAILRECEIVER 3926                
+POS_SESSION 7010                
+POS_SIDER 7147                
+POS_FILETYPES 4061                
+POS_OS 4109                
+POS_BROWSER 4148                
+POS_SCREENSIZE 4198                
+POS_UNKNOWNREFERER 4272                
+POS_UNKNOWNREFERERBROWSER 4359                
+POS_ORIGIN 4441                
+POS_SEREFERRALS 4571                
+POS_PAGEREFS 4715                
+POS_SEARCHWORDS 4863                
+POS_KEYWORDS 5015                
+POS_MISC 2173                
+POS_ERRORS 5074                
+POS_CLUSTER 3109                
+POS_SIDER_404 5158                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100901074303 1 0 8381249460764
+FirstTime 0
+LastTime 0
+LastUpdate 20100901101549 1 0 0 0 0
+TotalVisits 0                   
+TotalUnique 0                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 0
+1 0 0 0 11 11 3286
+2 0 0 0 8 8 1727481
+3 0 0 0 3 3 8060
+4 0 0 0 6 6 0
+5 0 0 0 6 6 0
+6 0 0 0 9 9 244103
+7 0 0 0 4 4 0
+8 0 0 0 7 7 0
+9 0 0 0 3 3 0
+10 0 0 0 7 7 0
+11 0 0 0 21 23 10619392
+12 0 0 0 32 32 11670523
+13 0 0 0 3 3 0
+14 0 0 0 1 1 0
+15 0 0 0 6 6 0
+16 0 0 0 3 3 0
+17 0 0 0 2 2 0
+18 0 0 0 3 3 0
+19 0 0 0 5 5 0
+20 0 0 0 1 1 7049
+21 0 0 0 8 8 1181479
+22 0 0 0 5 5 118037
+23 0 0 0 4 4 573535
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+crawl 40 22050318 20100805120637 0
+bot[+:,\.\;\/\\-] 23 4102627 20100829213428 0
+googlebot 2 0 20100827103208 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 0
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 0
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 96 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 34
+/robots.txt 27 -
+/swf/swf/eventos/mercedes.swf 3 -
+/swf/swf/design/grandesformatos.swf 4 -
+/swf/swf/eventos/smart.swf 3 -
+/swf/swf/multimedia/lf07_01.swf 2 -
+/swf/swf/multimedia/lf07_02.swf 1 -
+/swf/swf/multimedia/fm08.swf 2 -
+/swf/swf/fotografia/objectos.swf 2 -
+/swf/swf/multimedia/lf.swf 2 -
+/application/x-shockwave-flash 1 http://esp.invisual.pt/AC_RunActiveContent.js
+/swf/swf/multimedia/biju_01.swf 2 -
+/swf/swf/fotografia/automovel.swf 2 -
+/swf/swf/multimedia/lf08_01.swf 4 -
+/swf/swf/design/lm03.swf 1 http://esp.invisual.pt/swf/design/lm.swf
+/swf/swf/eventos/mini.swf 1 -
+/swf/IntroImages.swf 1 http://esp.invisual.pt/swf/design/lm.swf
+/swf/swf/multimedia/mercentro.swf 3 -
+/swf/swf/fotografia/gastronomia.swf 3 -
+/swf/swf/design/lm.swf 3 http://esp.invisual.pt/swf/design/lm.swf
+/swf/swf/multimedia/filinox.swf 1 -
+/swf/swf/design/lm01.swf 1 http://esp.invisual.pt/swf/design/lm.swf
+/swf/swf/fotografia/espacos.swf 2 -
+/swf/swf/design/linhasgraficas.swf 3 -
+/swf/swf/multimedia/serie7.swf 2 -
+/swf/swf/eventos/biju.swf 2 -
+/swf/swf/multimedia/fm07.swf 2 -
+/swf/swf/eventos/bmw7.swf 2 -
+/swf/swf/design/insercoes.swf 2 -
+/swf/swf/multimedia/fm09.swf 2 -
+/swf/swf/multimedia/mini.swf 2 -
+/swf/swf/design/lm02.swf 1 http://esp.invisual.pt/swf/design/lm.swf
+/swf/swf/design/embalagens.swf 2 -
+/swf/ClearExternalAll.swf 1 http://esp.invisual.pt/swf/multimedia/fm09.swf
+/swf/swf/eventos/litoraldesign.swf 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 0
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 0
+END_SIDER

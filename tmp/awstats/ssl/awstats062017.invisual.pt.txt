@@ -1,0 +1,604 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201706 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2669                
+POS_VISITOR 15591               
+POS_DAY 15824               
+POS_DOMAIN 3279                
+POS_LOGIN 3535                
+POS_ROBOT 3690                
+POS_WORMS 3995                
+POS_EMAILSENDER 4126                
+POS_EMAILRECEIVER 4269                
+POS_SESSION 15970               
+POS_SIDER 16127               
+POS_FILETYPES 4404                
+POS_DOWNLOADS 4505                
+POS_OS 4553                
+POS_BROWSER 4651                
+POS_SCREENSIZE 4755                
+POS_UNKNOWNREFERER 4829                
+POS_UNKNOWNREFERERBROWSER 5011                
+POS_ORIGIN 5093                
+POS_SEREFERRALS 5225                
+POS_PAGEREFS 5369                
+POS_SEARCHWORDS 5517                
+POS_KEYWORDS 5669                
+POS_MISC 2333                
+POS_ERRORS 5728                
+POS_CLUSTER 3391                
+POS_SIDER_404 5834                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170701154553 1 0 3513739237893
+FirstTime 0
+LastTime 20170622170619
+LastUpdate 20170702141127 1 0 0 0 0
+TotalVisits 5                   
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 7 8 202514
+1 0 0 0 1 1 45200
+2 0 0 0 4 4 22411
+3 0 0 0 2 3 52788
+4 1 1 0 9 9 210507
+5 1 1 45012 16 18 142866
+6 0 0 0 4 5 67735
+7 0 0 0 2 2 90024
+8 0 0 0 0 0 0
+9 0 0 0 1 3 7743
+10 0 0 0 16 19 165410
+11 0 0 0 3 3 60090
+12 0 0 0 2 2 90400
+13 0 0 0 0 0 0
+14 1 1 45006 6 7 112744
+15 0 0 0 9 9 45206
+16 0 0 0 4 5 67735
+17 24 24 739088 514 534 9083841
+18 0 0 0 7 7 22472
+19 0 0 0 10 12 52419
+20 14 14 551001 207 207 3381374
+21 0 0 0 1 1 45206
+22 0 0 0 5 5 14884
+23 0 0 0 9 11 97615
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+ca 24 24 739088
+gb 14 14 551001
+us 3 3 90018
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 35 1572544 20170630211958 0
+googlebot 18 2124 20170630141155 18
+unknown 2 306 20170622170135 2
+netcraft 1 45206 20170611150100 0
+curl 1 45018 20170605054619 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+php 4 136126 0 0
+html 36 1242501 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+unix 38 38
+Unknown 1 1
+linux 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+netscape5.0 38 38
+mozilla 1 1
+chrome34.0.1847.137 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_https://nmap.org/book/nse.html) 20170602044419
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 41 41
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 274 1352
+404 544 12414634
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 345
+/WideImage-master/composer.json 1 -
+/wsman 2 -
+/cgi-bin/web/magmi.php 1 -
+/forums/ 1 -
+/web/guest 2 -
+/jag/guestbook.php 1 -
+/icfb/ 2 -
+/3/ 1 -
+/icinga/main.html 1 -
+/cgi-bin/README.txt 1 -
+/postnuke/themes/SeaBreeze/style/style.css 1 -
+/portfolio/ekena-bay-2017/non-existent-623894686 1 -
+/icingaweb2/authentication/login 2 -
+/guestbook.php 2 -
+/cgi-bin/index.rb 1 -
+/Liferay/web/guest 1 -
+/cgi-bin/ 4 -
+/cgi-bin/php/login.php 1 -
+/viart_shop.xml 2 -
+/portfolio_cat/paginacao/non-existent-292366288 1 -
+/apple-app-site-association 21 -
+/icinga/authentication/login 2 -
+/jpgraph/index.html 1 -
+/8bKqrF9SWWbQ.html 1 -
+/invisual/non-existent-1230624285 1 -
+/viart_shop/viart_shop.xml 2 -
+/accounting/control/main 1 -
+/opennms/login.jsp 2 -
+/index.html 1 -
+/zport/acl_users/cookieAuthHelper/login_form 2 -
+/scripts/php/mytutos.php 2 -
+/app 2 -
+/session_login.cgi 2 -
+/postnuke/ 1 -
+/scripts/changelog 2 -
+/portfolio_cat/impressao/non-existent-742324934 1 -
+/content.php 1 -
+/cgi-bin/signin 1 -
+/8/ 1 -
+/portfolio_cat/fotografia/non-existent-1514365879 1 -
+/cgi-bin/userlogin!default.action 1 -
+/comments/feed/index.rb 1 -
+/invisual-branding-solutions/feed/index.rb 1 -
+/commoncgi/servlet/CCGIServlet 2 -
+/scripts/htdocs/login.php 2 -
+/scripts/login.rol 1 -
+/WebConsole/Login.jsp 2 -
+/siteadmin/ 1 -
+/genealogie_sql/Index2.php 2 -
+/portfolio_cat/ativacao-de-marca/non-existent-215473046 1 -
+/cgi-bin/ReleaseNotes.txt 1 -
+/scripts/ChangeLog 1 -
+/mt/mt-load.cgi 2 -
+/en-US/account/login 1 -
+/scripts/userlogin!default.action 2 -
+/cgi-mod/index.cgi 4 -
+/conteudo/uploads/2016/09/ 1 -
+/flashlight/README.txt 1 -
+/contactos/non-existent-1349968401 1 -
+/portfolio_cat/web-design/non-existent-1493486807 1 -
+/ows-bin/perlidlc.bat 2 -
+/genealogie/Index2.php 2 -
+/portfolio_cat/embalagem/non-existent-1326450996 1 -
+/login.xhtml 2 -
+/AdminWeb/ 1 -
+/page.php 1 -
+/downloader/ 1 -
+/portfolio/clinicas-persona-identidade-visual/non-existent-1203868437 1 -
+/lua/onlinehelp/LUHelp0002.html 2 -
+/portfolio_cat/video/changelog 1 -
+/geneald/Index2.php 2 -
+/<SCRIPT>foo</SCRIPT> 1 -
+/roller/login.rol 1 -
+/scripts/EmployeeSearch.cc 1 -
+/dtlt/home.html 2 -
+/magento/downloader/ 1 -
+/console/faces/jsp/login/BeginLogin.jsp 2 -
+/confluence/login.action 1 -
+/PHPMailer-master/composer.json 1 -
+/8bKqrF9SWWbQ.inc 1 -
+/bitweaver/users/login.php 1 -
+/Agent/ 1 -
+/portfolio_cat/identidade/start.php 1 -
+/php/mytutos.php 2 -
+/cgi-bin/mapserv 2 -
+/2/ 1 -
+/comments/feed/Index2.php 1 -
+/bw/users/login.php 1 -
+/8bKqrF9SWWbQ.htm 1 -
+/conteudo/uploads/2016/09/non-existent-2133515157 1 -
+/viart_cms/viart_shop.xml 2 -
+/composer.json 2 -
+/cgi-bin/Index2.php 2 -
+/Agents/ 1 -
+/Album/ 1 -
+/AdvWebAdmin/ 1 -
+/mt/mt-load.cgi_2007325205 1 -
+/orion/login 2 -
+/scripts/authentication/login 1 -
+/wp-json/oembed/1.0/index.php 1 -
+/kanboard/jsonrpc.php 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_680534827 1 -
+/wp-json/non-existent-1977028636 1 -
+/roller-ui/index.jsp 1 -
+/SeoPanel/ 2 -
+/opensso/UI/Login.jsp 2 -
+/.cobalt/ 1 -
+/cgi-bin/login.rol 1 -
+/portfolio_cat/identidade/non-existent-1923651690 1 -
+/manageengine/EmployeeSearch.cc 1 -
+/cgi-bin/login.jsp 1 -
+/main.html 1 -
+/conteudo/plugins/i-recommend-this/js/non-existent-756517052 1 -
+/changelog 1 -
+/portfolio_cat/assessoria/non-existent-1438847650 1 -
+/comments/feed/non-existent-1462604636 1 -
+/wp-json/awstats.pl 1 -
+/7/ 1 -
+/login 12 -
+/cgi-bin/config.cgi 1 -
+/kanboard/ 2 -
+/portfolio_cat/video/awstats.pl 1 -
+/invisual-branding-solutions/feed/Index2.php 1 -
+/scripts/jsonrpc.php 1 -
+/foo.php 1 -
+/hudson/ 2 -
+/cgi-bin/htdocs/login.php 2 -
+/wcm/index.jsp 1 -
+/marcas/non-existent-1866299188 1 -
+/conteudo/uploads/2016/09/userlogin!default.action 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi_158043123 1 -
+/wp-json/index.php 3 -
+/.well-known/assetlinks.json 21 -
+/userlogin!default.action 2 -
+/vbulletin/forum/content.php 1 -
+/conteudo/plugins/vcparticlesbackground/non-existent-1196181765 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi 2 -
+/shop/admin/ 1 -
+/web/magmi.php 1 -
+/conteudo/plugins/LayerSlider/static/js/start.php 1 -
+/cms/ChangeLog 1 -
+/web/index.html 2 -
+/status/hostgroup 2 -
+/mail/ 2 -
+/Index2.php 1 -
+/scripts/login.jsp 1 -
+/doc/index.html 1 -
+/foo.jsp 1 -
+/auth/login 2 -
+/snews/readme.html 1 -
+/portfolio/salpoente/non-existent-1576763206 1 -
+/4/ 1 -
+/cgi-bin/awstats.pl 1 -
+/scripts/web/magmi.php 1 -
+/scripts/evalsmsi.php 1 -
+/Security/login 2 -
+/cgi-bin/admin/login.php 1 -
+/Admin_files/ 1 -
+/account/login 2 -
+/v-webmail/htdocs/login.php 2 -
+/CHANGES 1 -
+/JAG/guestbook.php 1 -
+/scripts/php/login.php 1 -
+/login.html 4 -
+/portfolio/ls-medicall/non-existent-1287327897 1 -
+/scripts/users/login.php 1 -
+/10/ 1 -
+/5/ 1 -
+/cgi-bin/index.jsp 2 -
+/scripts/guestbook.php 1 -
+/conteudo/plugins/uncode-daves-wordpress-live-search/js/non-existent-1695551322 1 -
+/cgi-bin/EmployeeSearch.cc 1 -
+/wp-json/oembed/1.0/non-existent-343103822 1 -
+/scripts/Index2.php 2 -
+/tcpbx/ 2 -
+/6/ 1 -
+/nuxeo/login.jsp 2 -
+/system/login 2 -
+/wp-includes/js/non-existent-1372103479 1 -
+/cgi-bin/start.php 2 -
+/intruvert/jsp/admin/Login.jsp 2 -
+/documentation.html 2 -
+/8bKqrF9SWWbQ.sh 1 -
+/ows-bin/perlidlc.bat_2140543559 1 -
+/README.txt 1 -
+/scripts/cgi-bin/config.cgi 1 -
+/xampp/start.php 2 -
+/bamboo/userlogin!default.action 2 -
+/scripts/ReleaseNotes.txt 1 -
+/forum/ 1 -
+/xenforo/ 1 -
+/icinga/cgi-bin/config.cgi 1 -
+/PassTrixMain.cc 2 -
+/8bKqrF9SWWbQ.cgi 1 -
+/feed/Index2.php 1 -
+/kallithea/ 1 -
+/arsys/shared/login.jsp 2 -
+/README 1 -
+/RELEASE_NOTES.txt 1 -
+/partymgr/control/main 1 -
+/rainloop/ 2 -
+/cms/typo3_src/ChangeLog 1 -
+/cgi-bin/authentication/login 1 -
+/magento/admin/ 1 -
+/portfolio/iorc/non-existent-1319236949 1 -
+/cgi-bin/php/mytutos.php 1 -
+/OperaLogin/Welcome.do 2 -
+/auth 2 -
+/scripts/index.rb 2 -
+/foo.cfm 1 -
+/scripts/start.php 2 -
+/portfolio/vr2p-identidade/non-existent-570681424 1 -
+/lib/composer.json 1 -
+/sphider/changelog 2 -
+/xf/ 1 -
+/ordermgr/control/main 1 -
+/Login 2 -
+/index.jsp 1 -
+/index.htm 2 -
+/jsonrpc.php 1 -
+/cgi-bin/mapserv.exe 2 -
+/main/web/status/ 2 -
+/wiki/login.action 1 -
+/tutos/php/mytutos.php 2 -
+/conteudo/plugins/vcparticlesbackground/_3rdparty/particles.js/non-existent-774757554 1 -
+/.well-known/apple-app-site-association 22 -
+/trc/ 2 -
+/cgi-bin/evalsmsi.php 1 -
+/php/login.php 2 -
+/vbulletin/content.php 1 -
+/portfolio_cat/assessoria/userlogin!default.action 1 -
+/ChangeLog 3 -
+/postnuke/docs/distribution/tour_page1.htm 1 -
+/invisual-branding-solutions/feed/changelog 1 -
+/9/ 1 -
+/conteudo/plugins/contact-form-7/includes/js/non-existent-1543856711 1 -
+/portfolio_cat/video/non-existent-1335118648 1 -
+/leap/ 2 -
+/cgi-bin/ChangeLog 1 -
+/NonExistant1575190817/ 1 -
+/ows-bin/perlidlc.bat_512490870 1 -
+/roller-ui/login.rol 1 -
+/users/login.php 1 -
+/cgi-bin/viart_shop.xml 2 -
+/cms/ 2 -
+/scripts/awstats.pl 1 -
+/PHPMailer-master/lib/composer.json 1 -
+/ControlManager/default.htm 2 -
+/MNU_access_login_top.htm 2 -
+/magento/RELEASE_NOTES.txt 1 -
+/feed/index.rb 1 -
+/authentication/login 2 -
+/backend/ 1 -
+/portfolio_cat/eventos/non-existent-172553743 1 -
+/typo3_src/ChangeLog 1 -
+/scripts/main.html 1 -
+/users/login 2 -
+/index.rb 2 -
+/scripts/viart_shop.xml 2 -
+/ReleaseNotes.txt 1 -
+/PHPMailer-master/extras 1 -
+/webtools/control/main 2 -
+/evalsmsi/evalsmsi.php 2 -
+/configurations.do 2 -
+/login.cgi 2 -
+/site_admin/ 1 -
+/portfolio_cat/fotografia/userlogin!default.action 1 -
+/Backburner/ 2 -
+/forum/content.php 1 -
+/sNews/readme.html 1 -
+/scripts/README.txt 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 2 -
+/8bKqrF9SWWbQ.asp 1 -
+/Administration/ 1 -
+/mt/mt-load.cgi_816944014 1 -
+/CVS/Entries 1 -
+/evalsmsi.php 2 -
+/cgi-bin/web/guest 1 -
+/orbis/admin/login.php 2 -
+/asbru/index.jsp 1 -
+/scripts/web/guest 1 -
+/8bKqrF9SWWbQ.pl 1 -
+/01.htm 2 -
+/scripts/login.action 1 -
+/ntop-bin/dashboard.cgi 2 -
+/EmployeeSearch.cc 1 -
+/PHPMailer-master/README 1 -
+/tdiary/index.rb 2 -
+/dmanager/php/login.php 2 -
+/readme.txt 1 -
+/docs/distribution/tour_page1.htm 1 -
+/portfolio/civilria-web-design/non-existent-958097222 1 -
+/magento/ 1 -
+/admin/ 2 -
+/portfolio/unimadeiras-video-institucional-2016/non-existent-1100449849 1 -
+/scripts/signin 1 -
+/readme.html 1 -
+/portfolio/apartamento-civilria/non-existent-781009967 1 -
+/xmlpserver/login.jsp 2 -
+/lib/README 1 -
+/roller/index.jsp 1 -
+/scripts/admin/login.php 1 -
+/snews/readme.txt 1 -
+/portfolio_cat/video/start.php 1 -
+/seopanel/ 2 -
+/olt/Login.do 2 -
+/tutos/ChangeLog 2 -
+/LoginPage.do 2 -
+/PHPMailer/composer.json 1 -
+/cgi-bin/login.action 1 -
+/sNews/readme.txt 1 -
+/Orbis/admin/login.php 2 -
+/foo.thtml 1 -
+/portfolio_cat/identidade/awstats.pl 1 -
+/login.jsp 2 -
+/flash/README.txt 1 -
+/login.action 1 -
+/1/ 1 -
+/feed/non-existent-231198714 1 -
+/foo.shtml 1 -
+/cgi-bin/changelog 2 -
+/.well-known/dnt-policy.txt 1 -
+/conteudo/plugins/LayerSlider/static/js/awstats.pl 1 -
+/htdocs/login.php 2 -
+/awstats/wwwroot/cgi-bin/awstats.pl 1 -
+/signin 2 -
+/WideImage-master/doc/index.html 1 -
+/scripts/index.jsp 2 -
+/cgi-bin/guestbook.php 1 -
+/conteudo/plugins/LayerSlider/static/js/non-existent-80621709 1 -
+/openmeetings/signin 1 -
+/servlet/Login 2 -
+/feed/htdocs/login.php 1 -
+/wps/portal/Home/Welcome/ 2 -
+/logon.jsp 2 -
+/crowd/console/login.action 2 -
+/servlet/com.newatlanta.servletexec.JSP10Servlet/..%5c..%5cglobal.asa 1 -
+/admin/login.php 2 -
+/scripts/ 3 -
+/wp-json/changelog 1 -
+/apache/openmeetings/signin 1 -
+/PostNuke/themes/SeaBreeze/style/style.css 1 -
+/invisual-branding-solutions/feed/non-existent-1158539126 1 -
+/8bKqrF9SWWbQ.shtml 1 -
+/scripts 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+204.187.100.83 24 24 739088 20170622170619
+194.187.251.5 14 14 551001 20170607201251
+66.240.192.138 2 2 90018 20170604144835
+208.100.26.230 1 1 0 20170602044419
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20170602 2 2 45012 2
+20170604 1 1 45006 1
+20170607 14 14 551001 1
+20170622 24 24 739088 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 2
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 24 1002400 5 4
+/webmail/ 4 135548 0 0
+/webmail/htdocs/login.php 2 68154 0 0
+/webmail/index.php 2 67972 0 0
+/portfolio_cat/ativacao-de-marca/ 1 30061 0 0
+/portfolio_cat/embalagem/ 1 29905 0 0
+/feed/ 1 933 0 0
+/portfolio_cat/paginacao/ 1 8721 0 1
+/wp-json/oembed/1.0 1 1480 0 0
+/comments/feed/ 1 824 0 0
+/invisual-branding-solutions/feed/ 1 843 0 0
+/portfolio_cat/fotografia/ 1 31786 0 0
+/wp-json/oembed/1.0/ 1 1480 0 0
+END_SIDER

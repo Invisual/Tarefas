@@ -1,0 +1,1179 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201710 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2687                
+POS_VISITOR 21277               
+POS_DAY 24867               
+POS_DOMAIN 3589                
+POS_LOGIN 3957                
+POS_ROBOT 4112                
+POS_WORMS 4496                
+POS_EMAILSENDER 4627                
+POS_EMAILRECEIVER 4770                
+POS_SESSION 25568               
+POS_SIDER 25777               
+POS_FILETYPES 4905                
+POS_DOWNLOADS 5334                
+POS_OS 6530                
+POS_BROWSER 6755                
+POS_SCREENSIZE 7378                
+POS_UNKNOWNREFERER 7452                
+POS_UNKNOWNREFERERBROWSER 7719                
+POS_ORIGIN 7914                
+POS_SEREFERRALS 8056                
+POS_PAGEREFS 8211                
+POS_SEARCHWORDS 8418                
+POS_KEYWORDS 8570                
+POS_MISC 2349                
+POS_ERRORS 8629                
+POS_CLUSTER 3813                
+POS_SIDER_404 8832                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171101003627 3656 1095869 14223888474033
+FirstTime 0
+LastTime 20171031161401
+LastUpdate 20171101012254 3656 0 3655 0 0
+TotalVisits 166                 
+TotalUnique 56                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 107                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 204 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 17 388279 15 20 158709
+1 2 2 19930 18 38 432617
+2 4 26 584586 20 46 623855
+3 1 1 47832 24 34 723672
+4 0 0 0 12 32 604310
+5 25 25 1093494 557 612 13205275
+6 0 0 0 32 44 502511
+7 9 123 27993819 16 25 153392
+8 8 28 568656 13 47 2680638
+9 448 2001 123403098 82 135 1235509
+10 1582 5430 202740661 161 248 1670553
+11 2659 7667 342027062 205 282 572981
+12 1665 4850 220197574 114 196 1251362
+13 307 767 34695628 26 58 1122429
+14 1680 5562 202487202 120 217 1371163
+15 2203 7003 241505796 184 275 1162176
+16 1699 5747 262839122 140 207 1594087
+17 2125 6748 384124732 171 244 1615252
+18 1412 4021 291189063 95 169 765189
+19 27 197 9298782 24 29 190956
+20 11 62 25927265 17 18 79129
+21 45 342 42299147 999 1052 8133527
+22 53 596 79369449 27 70 769755
+23 8 58 1704179 24 39 2483802
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+pt 15874 50759 2431212221
+us 40 311 26653346
+ru 30 116 3591711
+fi 24 24 1045668
+fr 6 55 24881968
+de 3 3 0
+ve 2 2 18598
+ro 1 1 47826
+id 1 1 1254
+au 1 1 9389
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 598 16619511 20171031224247 66
+no_user_agent 37 783463 20171030150824 0
+googlebot 25 30526 20171031140545 23
+php 2 1725 20171030222236 0
+checker 2 0 20171013090429 2
+unknown 1 153 20171022051858 1
+netcraft 1 47826 20171011173906 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+woff2 192 21242944 0 0
+css 12496 264150321 0 0
+png 3325 60945093 0 0
+jpg 6504 757111825 0 0
+js 11919 545271085 0 0
+ttf 9 25443 0 0
+json 4 26240 0 0
+zip 9 15888366 0 0
+html 2541 32985396 0 0
+eot 5 324675 0 0
+jpeg 25 492194 0 0
+mp4 5 7043375 0 0
+Unknown 35 33404 0 0
+svg 246 101497 0 0
+cur 2 236 0 0
+php 13135 182201539 0 0
+woff 59 2792158 0 0
+gif 762 596826190 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 13
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/uncode-daves-wordpress-live-search.zip 1 0 514543
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/vc_clipboard.zip 1 0 15828
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/envato-wordpress-toolkit-master.zip 1 0 32485
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/uncode-core.zip 1 0 233128
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/revslider.zip 1 0 6895969
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/uncode-js_composer.zip 1 0 4925919
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/vcparticlesbackground.zip 1 0 24645
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/i-recommend-this.zip 1 0 38527
+/novo/wp-content/themes/uncode/core/plugins_activation/plugins/layersliderwp.zip 1 0 3207322
+/novo/wp-content/uploads/2017/07/video-placeholder.mp4 0 2 550591
+/novo/wp-content/uploads/2017/07/video-placeholder-2.mp4 0 4 2104454
+/novo/wp-content/uploads/2017/07/video-placeholder-3.mp4 0 1 550589
+/novo/wp-content/uploads/2017/07/video-placeholder-1.mp4 0 8 3837741
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+unix 40 40
+linux 1 1
+win7 123 22
+linuxandroid 1714 279
+Unknown 145 136
+winxp 2 2
+macosx 10340 945
+winnt 37686 14462
+ios_iphone 645 45
+win8 2 2
+ios_ipad 590 48
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 29
+chrome61.0.3163.100 28919 10794
+msie6.0 1 1
+msie11.0 46 8
+safari10.0 718 49
+safari10.0.2 701 67
+chrome62.0.3202.62 262 16
+netscape5.0 42 42
+chrome41.0.2228.0 1 1
+chrome50.0.2661.75 3 3
+safari11.0 1596 166
+mozilla 1 1
+chrome58.0.3029.110 1 1
+chrome40.0.2214.85 3 3
+opera12.17 2 2
+chrome61.0.3163.98 1714 279
+chrome47.0.1335.75 2 2
+chrome59.0.3071.109 1 1
+Unknown 143 134
+msie10.0 26 2
+safari10.1.2 1891 144
+firefox3.5.6 1 1
+iphone 54 3
+chrome34.0.1847.137 1 1
+firefox56.0 13054 4093
+safari9.0 590 48
+msie8.0 26 2
+msie9.0 17 2
+chrome52.0.2743.116 52 3
+safari10.1.1 1420 113
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Softaculous 20171012094340
+WordPress/4.8.2;_https://invisual.pt/novo 20171031142835
+Magic_Browser 20171031133311
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com) 20171012100259
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/4.8.2;_https://invisual.pt/novo 20171031142835
+Magic_Browser 20171031133311
+Softaculous 20171012094340
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 780 781
+From1 5 5
+From2 3 3
+From3 3 3
+From4 15191 50496
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://m.facebook.com 2 2
+http://router.home/index.cgi 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+401 1 42294
+307 1 20
+403 2 44
+400 5 240
+508 910 6631170
+302 858 32720
+500 80 143652
+301 468 34518
+404 941 18693194
+206 1 9357
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 477
+/cgi-bin/.cobalt/overflow/overflow.cgi_230378349 1 -
+/cod.php 2 invisual.pt
+/scripts/web/guest 1 -
+/chklogin.cgi 1 -
+/WebTrend/ 1 -
+/Microsoft-Server-ActiveSync 1 -
+/FAdIiaUkAKxl.php7 1 -
+/FAdIiaUkAKxl.html 1 -
+/scripts/php/login.php 1 -
+/typo/typo3_src/ChangeLog 1 -
+/cgi-bin/index.jsp 1 -
+/rainloop/ 1 -
+/lib/CHANGES 1 -
+/wideimage/composer.json 1 -
+/.well-known/ct/v1/sct-gossip 9 -
+/cgi-bin/awstats.pl 1 -
+/siestta/ 1 -
+/10/ 1 -
+/NonExistant1750203054/ 1 -
+/invoiceplane/sessions/login 1 -
+/Stats/ 1 -
+/readme.txt 1 -
+/mail/ 1 -
+/DMC/titleBar.php 1 -
+/viart_cms/viart_shop.xml 1 -
+/AdminWeb/ 1 -
+/DocuColor/ 1 -
+/jasperreports/login.html 1 -
+/scripts/chklogin.cgi 1 -
+/CS/ 1 -
+/.well-known/ct/v1/sct-feedback 9 -
+/HBTemplates/ 1 -
+/FAdIiaUkAKxl.shtml 1 -
+/.well-known/assetlinks.json 18 -
+/cgi-mod/index.cgi 2 -
+/scripts/viart_shop.xml 1 -
+/scripts/changelog 1 -
+/Msword/ 1 -
+/scripts/jsonrpc.php 1 -
+/3/ 1 -
+/index.php5 2 -
+/PHPMailer/README 1 -
+/DVWA/ 1 -
+/5/ 1 -
+/NSearch/ 1 -
+/ToDo/ 1 -
+/cgi-bin/mapserv.exe 1 -
+/typo3_src/ChangeLog 1 -
+/shop/RELEASE_NOTES.txt 1 -
+/discloser/login.php 1 -
+/scripts/ChangeLog 2 -
+/cgi-bin/config.cgi 1 -
+/Remote/ 1 -
+/cgi-bin/php/mytutos.php 1 -
+/account/login 1 -
+/bw/users/login.php 1 -
+/php/login.php 1 -
+/XSL/ 1 -
+/scripts/README 1 -
+/cgi-bin/signin 1 -
+/bamboo/userlogin!default.action 1 -
+/magento/downloader/ 1 -
+/magento/admin/ 1 -
+/genealogie_sql/Index2.php 1 -
+/FAdIiaUkAKxl.pl 1 -
+/.well-known/ct/v1/sth-pollination 9 -
+/LoginPage.do 1 -
+/cgi-bin/readme.txt 1 -
+/swiftmailer/lib/CHANGES 1 -
+/FAdIiaUkAKxl.asp 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 1 -
+/cgi-bin/mapserv 1 -
+/logon.jsp 1 -
+/vbulletin/content.php 1 -
+/cgi-bin/content.php 1 -
+/lib/README 1 -
+/Web_store/ 1 -
+/scripts/ 3 -
+/FAdIiaUkAKxl.php 1 -
+/Templates/ 1 -
+/scripts/start.php 1 -
+/wp-admin/user/ehssd.php 1 invisual.pt
+/tcpbx/ 1 -
+/CHANGES 1 -
+/ChangeLog 2 -
+/BizTalkServerRepository/ 1 -
+/PassTrixMain.cc 1 -
+/cgi-bin/FAdIiaUkAKxl.inc 1 -
+/cgi-bin/FAdIiaUkAKxl.php3 1 -
+/.well-known/apple-app-site-association 20 -
+/wp-includes/js/tinymce/global.php 1 invisual.pt
+/scripts/Index2.php 1 -
+/AccountsConfigService/api/ 1 -
+/cgi-bin/.cobalt/overflow/overflow.cgi 1 -
+/cgi-bin/titleBar.php 1 -
+/Security/login 1 -
+/sNews/readme.txt 1 -
+/rws/user/ 1 -
+/geneald/Index2.php 1 -
+/foo.thtml 1 -
+/wp-content/plugins/rnnvhs.php 1 invisual.pt
+/IBMWebAS/ 1 -
+/admin_index.php 1 invisual.pt
+/icinga/main.html 1 -
+/wp-conde.php 1 invisual.pt
+/scripts/users/login.php 1 -
+/cms/ 1 -
+/foo.shtml 2 -
+/EmployeeSearch.cc 1 -
+/novo/wp-content/uploads/2017/10/filipe2.gif 1 https://invisual.pt/novo/quem-somos-teste/
+/WebCalendar/ 1 -
+/BizTalkServerDocs/ 1 -
+/WideImage-master/composer.json 1 -
+/configurations.do 1 -
+/magento/RELEASE_NOTES.txt 1 -
+/cgi-bin/admin/ 1 -
+/site_admin/ 1 -
+/cgi-bin/jsonrpc.php 1 -
+/AlbumArt_/ 1 -
+/servlet/Login 1 -
+/oscmax/admin/login.php 1 -
+/scripts/typo3_src/ChangeLog 1 -
+/novo/sobrenos 1 -
+/HB/ 1 -
+/auth 1 -
+/magento/ 1 -
+/rtm.log 1 -
+/Documentation/misc/about.jsp 3 -
+/cgi-bin/Login.aspx 1 -
+/swiftmailer/lib 2 -
+/topleveldir/subdir/research-feedback 9 -
+/scripts/content.php 1 -
+/auth/login 1 -
+/ui/modules/login/ 1 -
+/PostNuke/docs/distribution/tour_page1.htm 1 -
+/scripts/userlogin!default.action 1 -
+/yt2.php 2 invisual.pt
+/docman/admin.php 1 -
+/SilverStream/Meta/Tables/ 1 -
+/crowd/console/login.action 1 -
+/foo.jsp 2 -
+/content.php 1 -
+/cgi-bin/FAdIiaUkAKxl.shtml 1 -
+/<SCRIPT>foo</SCRIPT> 1 -
+/cgi-bin/changelog 1 -
+/Login 1 -
+/01.htm 1 -
+/novo/quem-somos/teste 4 -
+/WebDB/ 1 -
+/1/ 1 -
+/7/ 1 -
+/cgi-bin/users/login.php 1 -
+/swiftmailer 1 -
+/apple-touch-icon.png 6 -
+/cgi-bin/login.action 1 -
+/4/ 1 -
+/News/ 1 -
+/wp-admin/network/gdragon.php 1 invisual.pt
+/SeoPanel/ 1 -
+/wp-admin/user/fronqx.php 1 invisual.pt
+/wp-index.php 1 invisual.pt
+/scripts/GW5/GWWEB.EXE 1 -
+/wp-includes/pomo/w7388n.php 1 invisual.pt
+/SwiftMailer/composer.json 1 -
+/Siestta/ 1 -
+/conteudo/uploads/2017/07/impress%C3%A3o-persona-outdoor-uai-1032x688.jpg 1 https://invisual.pt/portfolio_cat/impressao/
+/StoreDB/ 1 -
+/scripts/login.php 1 -
+/cgi-bin/downloader/ 1 -
+/commoncgi/servlet/CCGIServlet 2 -
+/intruvert/jsp/admin/Login.jsp 1 -
+/orion/login 1 -
+/cgi-bin/main.html 1 -
+/boards/ 1 -
+/wp-content/plugins/500.php 1 invisual.pt
+/DB4Web/ 1 -
+/FAdIiaUkAKxl.cfm 1 -
+/WSsamples/ 1 -
+/postnuke/ 1 -
+/main.html 1 -
+/scripts/index.jsp 1 -
+/scripts/GWWEB.EXE 1 -
+/scripts/lib/composer.json 1 -
+/ct/v1/sct-feedback 9 -
+/GXApp/ 1 -
+/sphider/changelog 1 -
+/admin/login.php 1 -
+/wp-includes/images/hon2our.php 1 invisual.pt
+/SwiftMailer/README 1 -
+/cgi-bin/rtm.log 1 -
+/9/ 1 -
+/wp-admin/user/gdragon.php 1 invisual.pt
+/openmeetings/signin 1 -
+/scripts/extras 1 -
+/xmlpserver/login.jsp 1 -
+/swiftmailer/CHANGES 1 -
+/scripts/rtm.log 1 -
+/2/ 1 -
+/wp-includes/class-wp-bar.php 1 invisual.pt
+/cgi-bin/login.cgi 1 -
+/console/faces/jsp/login/BeginLogin.jsp 1 -
+/cgi-bin/doc/index.html 1 -
+/users/login.php 1 -
+/wps/portal/Home/Welcome/ 1 -
+/genealogie/Index2.php 1 -
+/wp-includes/css/login_wall.php 1 invisual.pt
+/cgi-bin/EmployeeSearch.cc 1 -
+/BizTalkTracking/ 1 -
+/wp-admin/maint/gdragon.php 1 invisual.pt
+/temp.php 2 invisual.pt
+/ct/v1/sth-gossip 9 -
+/cgi-bin/login.html 1 -
+/PHPMailer-master/README 1 -
+/swiftmailer/README 1 -
+/random.php 1 invisual.pt
+/phpmailer/composer.json 1 -
+/PHPMailer/lib/composer.json 1 -
+/scripts/branding.js 1 -
+/cgi-bin/FAdIiaUkAKxl.php4 1 -
+/RSAarcher/Default.aspx 1 -
+/Liferay/web/guest 1 -
+/cgi-bin/FAdIiaUkAKxl.php 1 -
+/FAdIiaUkAKxl.sh 1 -
+/Agents/ 1 -
+/en-US/account/login 1 -
+/novo/wp-content/uploads/2017/10/filipe1.gif 2 https://invisual.pt/novo/quem-somos-teste/
+/Boutiques/ 1 -
+/wp-content/uploads/index.php 1 invisual.pt
+/shop/downloader/ 1 -
+/index.htm 1 -
+/Backburner/ 1 -
+/Login.aspx 1 -
+/xf/ 1 -
+/yt.php 1 invisual.pt
+/novo/sobrenos-teste 1 -
+/wp-content/plugins/wp-conns.php 1 invisual.pt
+/indes.php 1 invisual.pt
+/cgi-bin/readme.html 1 -
+/phpmailer/extras 1 -
+/db_z.php 1 invisual.pt
+/rnnvhs.php 1 invisual.pt
+/siteadmin/ 1 -
+/WebShop/ 1 -
+/opensso/UI/Login.jsp 1 -
+/cgi-bin/cgi-bin/config.cgi 1 -
+/Agent/ 1 -
+/wp-includes/class.wp-tmps.php 1 invisual.pt
+/cgi-bin/FAdIiaUkAKxl.cgi 1 -
+/scripts/composer.json 2 -
+/apple-touch-icon-precomposed.png 6 -
+/.well-known/ct/v1/collected-sct-feedback 9 -
+/Log/ 1 -
+/cgi-bin/web/guest 1 -
+/README/ 1 -
+/typo/ChangeLog 1 -
+/FAdIiaUkAKxl.inc 1 -
+/swiftmailer/lib/composer.json 1 -
+/Zikula_Core/docs/distribution/tour_page1.htm 1 -
+/JBookIt/ 1 -
+/board/ 1 -
+/wp-admin/network/rnnvhs.php 1 invisual.pt
+/ControlManager/default.htm 1 -
+/WideImage-master/doc/index.html 1 -
+/viart_shop/viart_shop.xml 1 -
+/Site/Pages/login.aspx 1 -
+/8/ 1 -
+/users/login 1 -
+/cgi-bin/start.php 1 -
+/tutos/php/mytutos.php 1 -
+/GWWEB.EXE 1 -
+/infos.php 1 invisual.pt
+/typo3/typo3_src/ChangeLog 1 -
+/Index2.php 1 -
+/wiki/login.action 1 -
+/cgi-bin/chklogin.cgi 1 -
+/cgi-bin/ChangeLog 2 -
+/postnuke/themes/SeaBreeze/style/style.css 1 -
+/changelog 1 -
+/apache/openmeetings/signin 1 -
+/scripts/docs/distribution/tour_page1.htm 1 -
+/xenforo/ 1 -
+/cms/ChangeLog 1 -
+/start.php 1 -
+/PostNuke/themes/SeaBreeze/style/style.css 1 -
+/doc/index.html 1 -
+/MessagingManager/ 1 -
+/ytt.php 2 invisual.pt
+/cgi-bin/ 3 -
+/CVS/Entries 1 -
+/cgi-bin/login.php 1 -
+/cgi-bin/FAdIiaUkAKxl.htm 1 -
+/cgi-bin/MANGA/index.cgi 1 -
+/OpenVASTest1745907010.html 1 -
+/SilverStream/ 1 -
+/scripts/Default.aspx 1 -
+/snews/readme.txt 1 -
+/scripts/cgi-bin/config.cgi 1 -
+/oscmax/catalog/admin/login.php 1 -
+/6/ 1 -
+/cgi-bin/admin.php 1 -
+/manageengine/EmployeeSearch.cc 1 -
+/docs/distribution/tour_page1.htm 1 -
+/PHPMailer/extras 1 -
+/trc/ 1 -
+/scripts/titleBar.php 1 -
+/kanboard/ 2 -
+/CVS/ 1 -
+/typo3/ChangeLog 1 -
+/documentation.html 1 -
+/bitweaver/users/login.php 1 -
+/status/hostgroup 1 -
+/admin.php 1 -
+/scripts/php/mytutos.php 1 -
+/lib/composer.json 1 -
+/novo/invisual 7 -
+/jsonrpc.php 1 -
+/scripts/admin/ 1 -
+/scripts/downloader/ 1 -
+/PostNuke/ 1 -
+/sample.php 1 invisual.pt
+/Mail/ 1 -
+/Corporate/ 1 -
+/Install/ 1 -
+/cgi-bin/php/login.php 1 -
+/cgi-bin/FAdIiaUkAKxl.php7 1 -
+/scripts 1 -
+/Admin_files/ 1 -
+/Zikula_Core/ 1 -
+/framework/docs/distribution/tour_page1.htm 1 -
+/cgi-bin/docs/distribution/tour_page1.htm 1 -
+/icfb/ 1 -
+/scripts/admin/login.php 1 -
+/wsman 1 -
+/novo/sobre-nos-teste 1 -
+/tutos/ChangeLog 1 -
+/Album/ 1 -
+/icinga/cgi-bin/config.cgi 1 -
+/scripts/EmployeeSearch.cc 1 -
+/wp-content/plugins/easyrotator-for-wordpress/c.php 1 invisual.pt
+/awstats/wwwroot/cgi-bin/awstats.pl 1 -
+/login.xhtml 1 -
+/pols.php 1 invisual.pt
+/forums/ 1 -
+/cgi-bin/lib/composer.json 1 -
+/asbru/index.jsp 1 -
+/wp-cache.php 1 invisual.pt
+/Default.aspx 1 -
+/cgi-bin/Index2.php 1 -
+/cgi-bin/FAdIiaUkAKxl.php5 1 -
+/novo/quem-somos/test 3 -
+/typo3/ 1 -
+/cgi-bin/Default.aspx 1 -
+/postnuke/docs/distribution/tour_page1.htm 1 -
+/FAdIiaUkAKxl.php4 1 -
+/zikula/ 1 -
+/Administration/ 1 -
+/dmanager/php/login.php 1 -
+/cgi-bin/README 1 -
+/kanboard/jsonrpc.php 1 -
+/DMR/ 1 -
+/wcm/index.jsp 1 -
+/dhGmwp2C.html 1 -
+/scripts/readme.txt 1 -
+/ows-bin/perlidlc.bat_1061705884 1 -
+/SwiftMailer/CHANGES 1 -
+/login.php 1 -
+/foo.cfm 1 -
+/foo.php 1 -
+/SecretServer/Login.aspx 1 -
+/olt/Login.do 1 -
+/userlogin!default.action 1 -
+/.well-known/dnt-policy.txt 2 -
+/xampp/start.php 1 -
+/sfn.php 1 invisual.pt
+/scripts/login.html 1 -
+/indax.php 1 invisual.pt
+/RELEASE_NOTES.txt 1 -
+/NetDynamics/ 1 -
+/.cobalt/ 1 -
+/ucmdb-ui/login_page.jsp 1 -
+/cgi-bin/FAdIiaUkAKxl.pl 1 -
+/vbulletin/forum/content.php 1 -
+/login.cgi 1 -
+/scripts/chksession.cgi 1 -
+/seopanel/ 1 -
+/AdvWebAdmin/ 1 -
+/scripts/doc/index.html 1 -
+/cgi-bin/RELEASE_NOTES.txt 1 -
+/web/guest 1 -
+/forum/ 1 -
+/php/mytutos.php 1 -
+/viart_shop.xml 1 -
+/novo/portefolios/centered-custom-one/ 2 https://invisual.pt/novo/portefolio/
+/titleBar.php 1 -
+/chksession.cgi 1 -
+/WebConsole/Login.jsp 1 -
+/novo/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/images/ui-icons_888888_256x240.png 39 https://invisual.pt/novo/wp-content/plugins/uncode-js_composer/assets/css/ui-custom-theme/jquery-ui-less.custom.min.css
+/swiftmailer/composer.json 1 -
+/snews/readme.html 1 -
+/scripts/RELEASE_NOTES.txt 1 -
+/system/login 1 -
+/lua/onlinehelp/LUHelp0002.html 1 -
+/ct/v1/sct-gossip 9 -
+/backend/ 1 -
+/composer.json 2 -
+/jasperserver/login.html 1 -
+/apple-app-site-association 19 -
+/scripts/login.action 1 -
+/main/web/status/ 1 -
+/images/CONFIGURATIONS.php 1 invisual.pt
+/FAdIiaUkAKxl.cgi 1 -
+/framework/ 1 -
+/PDG_Cart/ 1 -
+/wp-content/themes/wp-conns.php 1 invisual.pt
+/corporate/webpages/login.jsp 3 -
+/wp-admin/includes/ehssd.php 1 invisual.pt
+/Readme/ 1 -
+/swiftmailer/lib/README 1 -
+/scripts/Login.aspx 1 -
+/WebBank/ 1 -
+/PHPMailer/composer.json 1 -
+/scripts/awstats.pl 1 -
+/kallithea/ 1 -
+/cgi-bin/viart_shop.xml 1 -
+/cgi-bin/typo3_src/ChangeLog 1 -
+/cgi-bin/admin/login.php 1 -
+/zikula/docs/distribution/tour_page1.htm 1 -
+/sNews/readme.html 1 -
+/medias.php 1 invisual.pt
+/cgi-bin/FAdIiaUkAKxl.sh 1 -
+/cgi-bin/userlogin!default.action 1 -
+/tkset/login.html 1 -
+/opendocman/admin.php 1 -
+/signin 1 -
+/downloader/ 1 -
+/zport/acl_users/cookieAuthHelper/login_form 1 -
+/scripts/signin 1 -
+/shop/admin/ 1 -
+/wideimage/doc/index.html 1 -
+/FAdIiaUkAKxl.php3 1 -
+/cgi-bin/chksession.cgi 1 -
+/scripts/admin.php 1 -
+/NetDynamic/ 1 -
+/index.jsp 1 -
+/ows-bin/perlidlc.bat 1 -
+/ecommerce/admin/login.php 1 -
+/PHPMailer-master/extras 1 -
+/cgi-bin/temp.php 1 invisual.pt
+/app 1 -
+/phpmailer/lib/composer.json 1 -
+/login.action 1 -
+/ntop-bin/dashboard.cgi 1 -
+/PHPMailer-master/composer.json 1 -
+/lib 1 -
+/FAdIiaUkAKxl.php5 1 -
+/confluence/login.action 1 -
+/README 1 -
+/cgi-bin/composer.json 2 -
+/GW5/GWWEB.EXE 1 -
+/forum/content.php 1 -
+/cms/typo3_src/ChangeLog 1 -
+/ROADS/ 1 -
+/login.html 2 -
+/phpmailer/README 1 -
+/FAdIiaUkAKxl.htm 1 -
+/cgi-bin/FAdIiaUkAKxl.html 1 -
+/novo/wp-content/plugins/related-posts-for-wp/images/grabber.png 258 https://invisual.pt/novo/wp-content/plugins/related-posts-for-wp/assets/css/edit-post.css
+/wp-admin/includes/salym.php 1 invisual.pt
+/repos/kallithea/ 1 -
+/secretserver/Login.aspx 1 -
+/dtlt/home.html 2 -
+/PHPMailer-master/lib/composer.json 1 -
+/apiclient/ember/Login.jsp 1 -
+/OperaLogin/Welcome.do 1 -
+/awstats.pl 1 -
+/scripts/main.html 1 -
+/scripts/readme.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 107
+89.155.214.185 15596 49066 2209231819 20171031161401
+94.46.176.249 133 142 16082263 20171031142852
+89.181.234.55 45 563 33397403 20171030211511
+217.64.42.216 24 24 1045668 20171022052138
+185.158.151.226 16 16 683121 20171004210735
+84.91.4.229 15 203 56214560 20171022174934
+148.69.10.246 15 257 25539548 20171031131428
+87.103.58.248 11 145 28421609 20171031084140
+87.196.80.72 11 38 1801198 20171027223837
+83.132.90.174 11 135 7488307 20171030223247
+46.188.79.189 8 46 1686197 20171007112639
+2.82.175.52 8 152 9347973 20171028220417
+87.196.80.240 7 38 1883936 20171028213051
+87.196.80.115 5 47 24646871 20171030184611
+178.166.25.111 5 17 604029 20171013133722
+148.69.11.245 4 10 302836 20171013135645
+148.69.8.145 4 12 319044 20171014004405
+87.196.80.239 4 10 302706 20171013190435
+52.53.231.176 4 4 39860 20171017150514
+87.196.81.56 3 16 661416 20171013151942
+87.196.81.161 3 15 601457 20171031130849
+93.1.13.254 3 52 24786304 20171030222247
+87.196.81.27 3 21 903100 20171018191549
+87.196.80.211 3 43 1890264 20171013132205
+83.223.248.69 3 54 24443102 20171030222841
+90.154.93.189 0 1 15843 
+139.59.149.99 1 1 9389 20171011111757
+66.240.236.119 1 1 47832 20171027075011
+46.42.172.128 1 1 9427 20171002172205
+91.242.42.53 0 1 287 
+79.164.144.82 0 1 22923 
+194.67.221.77 1 1 74386 20171020083356
+35.162.70.167 1 1 9963 20171031133311
+95.28.162.238 0 1 5822 
+204.79.180.20 1 9 124583 20171028021427
+107.178.195.134 1 1 9395 20171011111236
+190.36.75.247 2 2 18598 20171012210141
+54.219.178.100 1 1 9959 20171021224845
+87.196.80.107 1 9 2756071 20171026183659
+128.69.236.239 0 1 5822 
+223.25.99.163 1 1 1254 20171013083914
+46.188.107.66 0 1 423 
+37.110.66.106 0 1 25073 
+37.187.77.211 2 2 47832 20171028021454
+176.14.192.60 0 1 426 
+95.221.50.213 0 1 634 
+178.140.117.155 0 1 3193 
+128.69.224.57 0 1 50068 
+89.36.211.128 1 1 47826 20171021053246
+188.32.18.203 0 2 5030 
+188.32.244.46 1 1 9394 20171028192756
+95.79.176.181 0 1 423 
+178.140.54.31 0 1 25073 
+95.221.50.117 0 1 28589 
+208.113.162.107 1 1 47826 20171012211626
+109.63.135.23 0 1 4323 
+2.82.167.27 1 1 11401 20171020003214
+178.140.112.206 0 1 751 
+104.197.141.11 1 1 47832 20171024035548
+109.63.141.196 0 1 10733 
+213.228.170.212 1 8 325153 20171028022745
+87.196.81.25 1 7 301048 20171014225613
+85.91.215.141 0 1 22923 
+109.63.187.25 0 1 5860 
+79.111.93.255 1 1 151143 20171028192809
+128.68.37.18 0 1 133502 
+95.27.136.181 0 1 3659 
+176.193.128.2 0 1 3046 
+79.111.177.161 0 1 19381 
+79.111.179.38 0 1 10733 
+95.220.193.196 0 1 3667 
+95.220.112.192 0 1 33766 
+128.69.161.97 0 1 634 
+94.63.6.111 2 31 712688 20171016223941
+54.67.67.222 2 2 19927 20171021212238
+46.242.73.11 0 1 33766 
+46.188.79.187 0 1 4014 
+87.196.81.66 1 1 9362 20171031090658
+176.193.124.63 0 1 1016 
+128.68.208.83 0 1 27774 
+204.79.180.22 0 1 634 
+46.242.91.219 0 1 287 
+204.79.180.6 0 4 31973 
+204.79.180.15 0 2 54391 
+46.188.21.96 0 1 3659 
+87.196.81.34 0 1 208465 
+37.204.48.174 0 1 28589 
+176.14.34.104 0 1 4323 
+176.15.54.168 0 1 133502 
+70.39.246.37 2 2 27816 20171012100259
+77.37.220.101 0 1 27774 
+138.246.253.15 1 1 0 20171004104521
+176.15.19.105 0 1 751 
+94.180.212.210 0 1 3667 
+188.32.70.150 0 1 5860 
+13.57.10.111 2 2 19927 20171016233709
+5.228.94.75 0 1 426 
+5.135.143.224 1 1 47832 20171012004911
+95.221.63.45 0 1 3046 
+109.63.207.254 1 1 151143 20171002172218
+109.63.145.121 0 1 3193 
+188.244.47.215 0 1 19381 
+138.246.253.19 2 2 0 20171011220349
+95.28.49.214 0 1 15843 
+185.27.82.7 1 1 17354 20171013083837
+87.196.81.121 1 11 8966020 20171027171356
+109.63.248.32 0 1 50068 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20171002 2 26 565343 2
+20171004 18 18 683121 3
+20171007 8 46 1686197 1
+20171011 3 3 18784 3
+20171012 1884 7605 287243328 8
+20171013 2527 8832 280552588 20
+20171014 11 73 5627276 5
+20171015 1 1 9963 1
+20171016 1680 5207 173825505 10
+20171017 668 2646 91860750 10
+20171018 749 2527 91080156 11
+20171019 36 414 18383042 6
+20171020 4 4 85827 4
+20171021 18 168 5893265 7
+20171022 28 50 1786237 2
+20171023 57 514 20272872 6
+20171024 7 151 7459527 3
+20171025 157 623 15673255 5
+20171026 2134 5432 247855316 8
+20171027 3377 8557 461093951 13
+20171028 19 148 6545764 9
+20171029 2 2 10109 2
+20171030 1681 4724 525062756 16
+20171031 911 3502 251230424 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 5
+2mn-5mn 9
+5mn-15mn 6
+0s-30s 104
+1h+ 23
+30s-2mn 4
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 239
+/novo/wp-admin/admin-ajax.php 10782 23802070 2 9
+/novo/wp-admin/post.php 835 117486817 0 0
+/novo/ 568 7156476 42 14
+/novo/wp-content/themes/uncode/core/inc/uncode-ajax.php 349 91591 0 14
+/novo/wp-admin/async-upload.php 250 365038 0 0
+/novo/wp-admin/edit.php 230 6091279 0 0
+/novo/portefolios/unimadeiras/ 194 2227154 2 2
+/novo/quem-somos-teste/ 188 1835946 10 5
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff2 184 20352974 1 3
+/novo/wp-admin/load-scripts.php 166 12709690 0 0
+/novo/portefolio/ 160 1496209 1 4
+/novo/quem-somos/ 159 1568963 2 5
+/novo/portefolios/civilria/ 150 1828623 0 0
+/novo/wp-admin/admin.php 145 13955121 0 0
+/novo/contacto/ 129 1332747 1 0
+/novo/wp-cron.php 128 2560 64 65
+/novo/portefolios/centered-custom-one/ 106 1209149 0 0
+/novo/wp-admin/load-styles.php 97 3363897 0 0
+/novo/portfolio/ 82 784947 1 1
+/ 71 2072727 23 17
+/novo/portefolios/ekena-bay/ 61 724119 1 2
+/novo/homepages/classic-agency/ 58 1271012 0 0
+/novo/invisual/ 54 884272 0 0
+/novo/portefolios/persona/ 54 662854 0 1
+/novo/portfolios/centered-custom-one/ 53 568014 0 0
+/novo/services-creative/ 1 18902 0 0
+/novo/homepages/creative-event/ 2 44637 0 0
+/novo/features/menu-variations/ 2 33102 0 0
+/novo/features/buttons/ 1 18532 0 0
+/novo/portefolios/centered-slides/ 4 41315 0 0
+/novo/wp-content/plugins/envato-wordpress-toolkit-master/assets/fonts/envato.woff 16 10956 0 0
+/novo/features/heading-styles/ 1 16168 0 0
+/novo/works__trashed/portfolio-carousel-full-width/ 1 9920 0 0
+/novo/wp-admin/plugin-install.php 2 49935 0 0
+/novo/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2 2 154324 0 0
+/novo/wp-admin/index.php 4 109158 0 0
+/novo/wp-admin/options-general.php 3 66339 0 0
+/novo/services-minimal/ 1 16050 0 0
+/novo/features/counters-countdown/ 2 35020 0 0
+/webmail/index.php 2 67972 0 0
+/novo/wp-admin/term.php 4 117524 0 0
+/novo/pages/about-creative/ 4 61209 0 0
+/novo/homepages/creative-designers/ 2 41028 0 0
+/novo/features/contact-forms/ 4 53989 0 0
+/novo/portfolio/centered-custom-two/ 1 18485 0 0
+/novo/works/ 1 8670 0 0
+/novo/features/content-carousel/ 2 38952 0 0
+/novo/pages/contact-creative/ 2 27522 0 0
+/novo/portfolio/sidebar-custom-one/ 2 31880 0 0
+/novo/pages/contact-clean/ 2 26877 0 0
+/novo/portefolios/centered-stack-full-width/ 14 133123 0 0
+/readme.html 2 14826 0 0
+/novo/wp-admin/upgrade.php 1 21 1 1
+/novo/pages/splash-page/ 1 17272 0 0
+/novo/portfolio/sidebar-custom-two/ 2 33373 0 0
+/novo/works/portfolio-images-full-width/ 2 21293 0 0
+/novo/works__trashed/portfolio-boxed-lateral/ 1 10572 0 0
+/novo/portfolio/sidebar-slides/ 2 34493 0 0
+/novo/portefolios/centered-gallery-full-width/ 7 69332 0 0
+/novo/portfolio/centered-stack-full-width/ 1 15232 0 0
+/novo/homepages/creative-department/ 2 42980 0 0
+/novo/trabalhos/ 1 10605 0 0
+/novo/sample-page/ 1 16911 0 0
+/novo/portefolios/sidebar-gallery/ 2 18721 0 0
+/wp-content/index.php 1 0 1 1
+/novo/pages/contact-grid/ 2 27713 0 0
+/novo/features/team-members/ 5 93536 0 0
+/novo/homepages__trashed/creative-digital-agency/ 1 13126 0 0
+/novo/portefolios/centered-stack/ 2 17516 0 0
+/shop/ 1 27729 0 0
+/novo/portefolios/sidebar-stack-full-width/ 1 8393 0 0
+/novo/homepages__trashed/classic-start-up/ 1 15110 0 0
+/novo/works__trashed/portfolio-boxed-grid/ 4 42343 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.eot 2 302286 2 2
+/portfolio/carne-marinhoa/ 1 8931 0 0
+/novo/portfolio/centered-custom-one/ 2 34282 0 0
+/novo/portefolios/sidebar-gallery-full-width/ 1 8700 0 0
+/novo/pages/product-digital/ 1 19822 0 0
+/wp-admin/load-styles.php 1 36006 0 0
+/novo/creative-digital-agency/ 5 64146 0 0
+/novo/portfolio/sidebar-stack-full-width/ 4 59530 0 0
+/novo/features/documentation/ 1 16371 0 0
+/novo/creative-agency/ 3 41368 0 0
+/index.php 4 191316 4 4
+/novo/works/portfolio-landing-page/ 1 10282 0 0
+/portfolio/unimadeiras-expoflorestal/ 1 9282 0 0
+/novo/works__trashed/portfolio-boxed-bigtext/ 1 9832 0 0
+/novo/pages/about-classic/ 10 162808 0 0
+/novo/wp-admin/upload.php 12 312787 0 0
+/novo/portefolios_cat/adv/ 1 9681 0 0
+/novo/2017/03/07/real-time-design-tools/ 2 39120 0 0
+/novo/portfolios/sidebar-gallery/ 1 8055 0 0
+/clientes/ 1 9739 0 0
+/novo/works/portfolio-full-width-square/ 4 39959 0 0
+/novo/works__trashed/portfolio-images-full-width/ 2 21317 0 0
+/novo/portfolio/centered-stack/ 1 16729 0 0
+/novo/pages/about-clean/ 5 80934 0 0
+/novo/works/portfolio-gallery-audio-boxed/ 2 21791 0 0
+/novo/homepages/classic-start-up/ 22 505894 0 0
+/novo/wp-admin/media-new.php 6 114532 0 0
+/novo/features/media-carousels/ 1 19920 0 0
+/novo/wp-admin/options-media.php 1 17617 0 0
+/novo/features/header-text-slides/ 1 17069 0 0
+/novo/wp-admin/options-discussion.php 1 19541 0 0
+/novo/portfolios/sidebar-stack-full-width/ 1 8166 0 0
+/novo/pages/services-simple/ 1 17462 0 0
+/novo/features/lightbox-options/ 1 19114 0 0
+/novo/wp-admin/revision.php 2 44504 0 0
+/novo/wp-content/themes/uncode/library/fonts/uncode-icons.woff 20 1963936 0 1
+/novo/pages/about-grid/ 1 16480 0 0
+/novo/features/header-with-parallax/ 1 16239 0 0
+/novo/homepages/classic-restaurant/ 1 22958 0 0
+/novo/homepages__trashed/creative-agency/ 1 13706 0 0
+/novo/wp-admin/post-new.php 8 1072409 0 0
+/novo/feed/ 1 12606 0 1
+/novo/works/portfolio-carousel-full-width/ 1 15078 0 0
+/novo/works__trashed/portfolio-full-width-grid/ 1 10630 0 0
+/portfolio/civilria-web-design/ 2 18850 2 1
+/novo/portfolio/sidebar-stack/ 1 16934 0 0
+/novo/homepages/classic-studio/ 2 32182 0 0
+/novo/wp-includes/fonts/dashicons.eot 3 22389 0 0
+/novo/features/media-gallery/ 1 22423 0 0
+/novo/portfolios/centered-custom-two/ 2 22190 0 0
+/novo/works/portfolio-boxed-grid/ 1 16674 0 0
+/novo/homepages/creative-vcard/ 1 17892 0 0
+/novo/works__trashed/portfolio-full-width-gallery/ 1 11602 0 0
+/novo/portfolio-full-width-grid/ 2 17032 0 0
+/novo/wp-content/themes/uncode/library/img/ilightbox/css/closedhand.cur 2 236 0 0
+/novo/portfolio/centered-slides-full-width/ 2 35252 0 0
+/novo/pages/contact-simple/ 3 44308 0 0
+/wp-login.php 6 8346 1 2
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 2 175370 0 0
+/webmail/ 4 135548 0 1
+/novo/works__trashed/portfolio-images-boxed/ 1 10661 0 0
+/novo/works/portfolio-full-width-lateral/ 2 27200 0 0
+/novo/wp-admin/plugins.php 3 77730 0 0
+/novo/homepages/blog-author/ 1 19756 0 0
+/novo/portefolios/sidebar-slides-full-width/ 5 47616 0 0
+/novo/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 8 80246 0 0
+/novo/features/google-maps/ 1 17931 0 0
+/portfolio_cat/impressao/ 1 8631 0 0
+/novo/shops/lookbook-vertical/ 1 15752 0 0
+/novo/homepages/classic-help-center/ 1 18365 0 0
+/novo/homepages/creative-studio/ 2 45610 0 0
+/novo/works__trashed/portfolio-boxed-metro/ 2 20656 0 0
+/novo/portefolios/marinhoa/ 24 286656 0 0
+/novo/works__trashed/portfolio-boxed-square/ 2 20682 0 0
+/novo/portefolios/sidebar-custom-one/ 1 7969 0 0
+/novo/portefolios/sidebar-slides/ 3 31435 0 0
+/novo/works__trashed/portfolio-full-width-square/ 2 20036 0 0
+/novo/features/social-share/ 1 16362 0 0
+/novo/wp-content/plugins/revslider/admin/assets/css/font/egfont.woff 3 98174 0 0
+/novo/features/thumbnails-options/ 1 17933 0 0
+/novo/portfolios/sidebar-stack/ 1 9156 0 0
+/novo/pages/about-wide/ 1 17072 0 0
+/novo/homepages/creative-agency/ 14 285619 0 0
+/novo/features/dividers/ 1 17174 0 0
+/novo/wp-admin/ 37 963220 1 0
+/novo/portfolio/sidebar-gallery-full-width/ 2 33211 0 0
+/novo/portfolios/centered-stack/ 1 8535 0 0
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 21 5558 0 4
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 6 735646 0 0
+/novo/works__trashed/portfolio-boxed-masonry/ 1 10734 0 0
+/novo/portefolios/sidebar-custom-two/ 2 18286 0 0
+/novo/wp-json/oembed/1.0/proxy 1 348 0 0
+/novo/homepages/classic-landing/ 1 21895 0 0
+/novo/pages/invisual/ 1 17130 0 0
+/novo/wp-admin/options-permalink.php 3 55552 0 0
+/novo/homepages/creative-freelance/ 6 107747 0 0
+/novo/blog/blog-full-width-lateral/ 3 56597 0 0
+/novo/pages/about-minimal/ 2 27706 0 0
+/novo/homepages/creative-digital-agency/ 18 339098 0 0
+/novo/features/header-slider-revolution/ 1 16866 0 0
+/novo/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 2 14982 0 0
+/novo/works/portfolio-images-boxed/ 2 21303 0 0
+/novo/portfolio-boxed-grid/ 4 36725 0 0
+/novo/wp-content/plugins/loco-translate/pub/font/loco.woff 1 23064 0 0
+/novo/wp-admin/theme-editor.php 2 39350 0 0
+/novo/wp-json/contact-form-7/v1/contact-forms/10131 31 32486 0 0
+/novo/works/portfolio-boxed-masonry/ 1 16833 0 0
+/novo/wp-admin/update-core.php 1 19264 0 0
+/contactos/ 5 46439 0 2
+/novo/wp-admin/edit-tags.php 7 221486 0 0
+/novo/page-404-custom/ 1 17707 0 0
+/novo/features/pricing-tables/ 1 18041 0 0
+/novo/portefolios/sidebar-stack/ 3 28185 0 0
+/novo/homepages__trashed/creative-corporation/ 1 16694 0 0
+/novo/works/portfolio-full-width-metro/ 2 26345 0 0
+/novo/wp-admin/themes.php 2 22965 0 0
+/novo/works/portfolio-full-width-masonry/ 4 51958 0 0
+/novo/features/pie-chart-progress-bar/ 1 18441 0 0
+/novo/pages/contact-minimal/ 3 39934 0 0
+/novo/pages/services-clean/ 2 37281 0 0
+/novo/homepages/classic-photographer/ 1 23288 0 0
+/novo/pages/contact-classic/ 2 27715 0 0
+/novo/works/portfolio-full-width-video/ 1 10837 0 0
+/portfolio/agner-service/ 3 28178 3 3
+/novo/features/icon-box/ 3 49076 0 0
+/novo/features/lists-styles/ 2 32892 0 0
+/novo/pages/services-classic/ 2 36215 0 0
+/novo/homepages/classic-business/ 2 42458 0 0
+/novo/works__trashed/portfolio-boxed-gallery/ 1 11629 0 0
+/novo/pages/services-grid/ 1 17745 0 0
+/novo/shops/shop-grid/ 1 15495 0 0
+/novo/portfolio/centered-gallery-full-width/ 1 15905 0 0
+/novo/portefolios/centered-slides-full-width/ 4 36599 0 0
+/invisual/ 3 28455 1 1
+/novo/homepages/creative-corporation/ 19 437161 0 0
+/novo/portfolio/centered-slides/ 5 84810 0 0
+/novo/wp-admin/widgets.php 1 47558 0 0
+/novo/features/typography/ 2 35033 0 0
+/novo/wp-json/contact-form-7/v1/contact-forms/10131/feedback 3 570 0 0
+/novo/home-3/ 1 12292 0 0
+/novo/works__trashed/portfolio-boxed-video/ 1 10608 0 0
+/novo/features/isotope-grid/ 1 18649 0 0
+/novo/wp-content/plugins/uncode-js_composer/assets/fonts/vc_icons/fonts/VC-Icons.ttf 9 25443 0 0
+/novo/homepages/creative-artist/ 2 28082 0 0
+/novo/portefolios/centered-gallery/ 1 8648 0 0
+/novo/homepages/classic-consultants/ 2 46074 0 0
+/novo/portfolio/sidebar-slides-full-width/ 4 60822 0 0
+/novo/wp-login.php 23 28267 0 0
+/novo/works/portfolio-full-width-grid/ 7 87477 0 0
+/novo/features/grid-systems/ 1 17579 0 0
+/novo/wp-admin/options-writing.php 1 18344 0 0
+/novo/wp-admin/options-reading.php 2 38588 0 0
+/novo/pages/about-simple/ 2 31895 0 0
+/novo/homepages/ 1 8673 0 0
+/novo/wp-content/themes/uncode/core/theme-options/assets/fonts/option-tree-font.woff 7 425430 0 0
+/novo/pages/services-wide/ 1 17662 0 0
+/novo/wp-content/themes/uncode/core/theme-options/selection.json 4 26240 0 0
+/novo/works__trashed/portfolio-full-width-bigtext/ 2 19696 0 0
+/novo/features/maintenance-mode/ 1 16336 0 0
+/novo/pages/faq/ 1 18112 0 0
+/novo/portefolios/centered-custom-two/ 1 10264 0 0
+/novo/portfolio/sidebar-gallery/ 1 16348 0 0
+/novo/features/header-video/ 1 17157 0 0
+/novo/pages/contact-wide/ 1 17791 0 0
+/novo/wp-admin/customize.php 9 524269 0 0
+/novo/wp-admin/nav-menus.php 20 1006538 0 0
+END_SIDER

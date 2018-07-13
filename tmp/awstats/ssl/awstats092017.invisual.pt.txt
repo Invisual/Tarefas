@@ -1,0 +1,408 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201709 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2670                
+POS_VISITOR 8929                
+POS_DAY 9598                
+POS_DOMAIN 3399                
+POS_LOGIN 3681                
+POS_ROBOT 3836                
+POS_WORMS 4162                
+POS_EMAILSENDER 4293                
+POS_EMAILRECEIVER 4436                
+POS_SESSION 9946                
+POS_SIDER 10134               
+POS_FILETYPES 4571                
+POS_DOWNLOADS 4827                
+POS_OS 4875                
+POS_BROWSER 5040                
+POS_SCREENSIZE 5370                
+POS_UNKNOWNREFERER 5444                
+POS_UNKNOWNREFERERBROWSER 5668                
+POS_ORIGIN 5887                
+POS_SEREFERRALS 6023                
+POS_PAGEREFS 6167                
+POS_SEARCHWORDS 6315                
+POS_KEYWORDS 6467                
+POS_MISC 2333                
+POS_ERRORS 6526                
+POS_CLUSTER 3537                
+POS_SIDER_404 6678                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20171001042747 1 0 9596969104343
+FirstTime 0
+LastTime 20170930155304
+LastUpdate 20171002002409 1 0 0 0 0
+TotalVisits 33                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 10 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 101760 398 412 3311827
+1 0 0 0 14 38 789056
+2 1 1 0 18 41 858574
+3 17 17 741370 808 839 6919816
+4 0 0 0 15 18 206129
+5 0 0 0 9 32 472680
+6 0 0 0 14 22 173252
+7 1 1 0 16 22 147005
+8 1 1 0 10 41 561263
+9 51 119 4654633 30 42 603453
+10 92 245 8132813 14 16 151549
+11 13 82 1857215 9 12 100244
+12 8 100 2381835 7 20 290152
+13 0 0 0 8 19 355045
+14 6 38 1113082 17 28 630677
+15 8 87 2899626 10 11 115092
+16 2 15 556433 15 36 487283
+17 3 15 546536 19 24 168098
+18 0 0 0 11 15 102705
+19 3 15 546534 10 15 89835
+20 1 1 0 15 19 173683
+21 0 0 0 24 34 98508
+22 0 0 0 11 15 57371
+23 14 14 666102 48 53 567724
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+pt 179 709 22622377
+gb 34 34 1509232
+us 8 8 56963
+de 2 2 0
+eu 1 1 9367
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+bot[\s_+:,\.\;\/\\-] 347 5562293 20170930210729 70
+no_user_agent 29 1289996 20170930132016 0
+googlebot 20 2360 20170930091804 20
+unknown 1 153 20170917030956 1
+netcraft 1 47574 20170909180245 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 241 6362702 0 0
+jpeg 11 259459 0 0
+woff2 12 1348754 0 0
+png 39 5758020 0 0
+woff 5 38292 0 0
+html 73 1931999 0 0
+css 130 2177100 0 0
+gif 2 19400 0 0
+jpg 107 5022409 0 0
+php 134 1279804 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win7 3 2
+winxp 1 1
+macosx 190 34
+macosx7 1 1
+linuxandroid 71 5
+Unknown 9 8
+unix 34 34
+winnt 445 139
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome60.0.3112.116 71 5
+Unknown 9 8
+chrome40.0.2214.85 2 2
+safari10.1.2 96 11
+firefox51.0 1 0
+msie9.0 1 1
+safari10.1.1 88 17
+chrome61.0.3163.100 72 5
+chrome56.0.2924.87 1 1
+chrome21.0.1180.82 1 1
+msie6.0 1 1
+chrome60.0.3112.113 372 133
+netscape5.0 34 34
+chrome52.0.2743.116 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WordPress/4.8.1;_https://invisual.pt/teste 20170907102800
+Softaculous 20170907094409
+WordPress/4.8.2;_https://invisual.pt 20170923115627
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/4.8.2;_https://invisual.pt 20170923115627
+WordPress/4.8.1;_https://invisual.pt/teste 20170907102800
+Softaculous 20170907094409
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 71 72
+From1 0 0
+From2 0 0
+From3 0 0
+From4 153 682
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+508 1034 7534758
+500 68 0
+400 2 96
+302 6 13138
+404 158 2977099
+301 148 1964
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 80
+/crowd/console/login.action 1 -
+/cgi-bin/viart_shop.xml 1 -
+/MNU_access_login_top.htm 1 -
+/eD1YDiwpT0X0.shtml 1 -
+/cgi-bin/ 2 -
+/ntop-bin/dashboard.cgi 1 -
+/corporate/webpages/login.jsp 2 -
+/users/login.php 1 -
+/login 2 -
+/auth/login 1 -
+/eD1YDiwpT0X0.html 1 -
+/NonExistant1330816155/ 1 -
+/teste/wp-admin/plugins.php 3 https://invisual.pt/teste/wp-admin/plugins.php
+/web/guest 1 -
+/scripts/awstats.pl 1 -
+/downloader/ 2 -
+/eD1YDiwpT0X0.sh 1 -
+/.well-known/assetlinks.json 19 -
+/cgi-bin/.hg/requires 1 -
+/scripts/ReleaseNotes.txt 1 -
+/.profile 1 -
+/eD1YDiwpT0X0.asp 1 -
+/admin/ 2 -
+/icfb/ 1 -
+/teste/wp-admin/admin-ajax.php 2 https://invisual.pt/teste/wp-admin/plugins.php
+/login.html 2 -
+/eD1YDiwpT0X0.inc 1 -
+/index.php5 2 -
+/WebConsole/Login.jsp 1 -
+/boards/ 2 -
+/mod_pagespeed_message 1 -
+/magento/admin/ 1 -
+/eD1YDiwpT0X0.php 1 -
+/forum/content.php 1 -
+/Websense/cgi-bin/WsCgiLogin.exe 2 -
+/cgi-bin/index.html 1 -
+/apple-app-site-association 18 -
+/eD1YDiwpT0X0.pl 1 -
+/cgi-bin/MANGA/index.cgi 2 -
+/ui/modules/login/ 1 -
+/commoncgi/servlet/CCGIServlet 2 -
+/webtools/control/main 1 -
+/logon.jsp 2 -
+/CVS/Entries 1 -
+/ControlManager/default.htm 2 -
+/kallithea/ 2 -
+/magento/ 1 -
+/index.html 1 -
+/magento/RELEASE_NOTES.txt 1 -
+/.well-known/apple-app-site-association 18 -
+/orion/login 1 -
+/forum/ 2 -
+/10/ 1 -
+/eD1YDiwpT0X0.php4 1 -
+/configurations.do 1 -
+/eD1YDiwpT0X0.cgi 1 -
+/xenforo/ 2 -
+/scripts/ 2 -
+/bw/users/login.php 1 -
+/content.php 1 -
+/.cobalt/ 1 -
+/Documentation/misc/about.jsp 2 -
+/eD1YDiwpT0X0.htm 1 -
+/vbulletin/content.php 1 -
+/teste/wp-cron.php 1 https://invisual.pt/teste/wp-cron.php
+/bitweaver/users/login.php 1 -
+/eD1YDiwpT0X0.php3 1 -
+/xf/ 2 -
+/cgi-bin/web/magmi.php 1 -
+/board/ 2 -
+/scripts/index.html 1 -
+/1/ 1 -
+/jasperserver/login.html 1 -
+/RELEASE_NOTES.txt 2 -
+/jpgraph/index.html 1 -
+/forums/ 2 -
+/intruvert/jsp/admin/Login.jsp 2 -
+/jpgraph/docportal/index.html 1 -
+/account/login 1 -
+/scripts/web/magmi.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+89.155.214.185 166 627 20021424 20170913105448
+185.9.19.121 17 17 767862 20170905000533
+185.94.190.157 17 17 741370 20170917031240
+94.46.176.249 8 9 237964 20170923115627
+84.91.4.229 5 72 2353091 20170930155304
+138.246.253.19 2 2 0 20170929195451
+52.53.196.125 1 1 0 20170909021942
+45.32.234.23 1 1 47580 20170905095006
+54.215.221.126 1 1 0 20170908075019
+52.53.211.186 1 1 0 20170901204947
+52.53.172.19 1 1 0 20170909151410
+178.62.99.175 1 1 9367 20170922142651
+52.53.150.48 1 1 0 20170909171405
+69.46.36.20 1 1 14 20170907102626
+107.178.194.74 1 1 9369 20170922142145
+194.140.232.254 0 1 9898 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20170901 4 11 314586 2
+20170904 26 81 3722979 6
+20170905 15 98 2803925 7
+20170906 13 164 3787628 3
+20170907 130 230 4516349 3
+20170908 1 2 9898 1
+20170909 3 3 0 3
+20170913 5 71 5929357 1
+20170917 17 17 741370 1
+20170922 3 3 18736 3
+20170923 1 1 20 1
+20170929 1 1 0 1
+20170930 5 72 2353091 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 25
+30s-2mn 1
+5mn-15mn 2
+2mn-5mn 2
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/teste/wp-admin/admin-ajax.php 79 261130 0 0
+/ 62 1705083 26 15
+/teste/wp-admin/admin.php 19 187741 0 0
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 13 3931 0 5
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 12 1348754 1 4
+/teste/wp-admin/load-scripts.php 8 437859 0 0
+/teste/wp-cron.php 5 100 0 1
+/teste/wp-admin/load-styles.php 3 249368 0 0
+/webmail/ 3 101661 1 1
+/teste/ 2 65335 1 1
+/webmail/index.php 2 67972 0 1
+/invisual/ 2 18539 0 2
+/teste/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/icomoon.woff 2 19102 0 0
+/portfolio/civilria-web-design/ 2 18736 2 2
+/teste/wp-admin/plugins.php 2 43400 0 0
+/wp-cron.php 1 20 1 1
+/teste/wp-content/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 1 2394 0 0
+/teste/wp-admin/ 1 15232 1 0
+/teste/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 1 7644 0 0
+/teste/wp-admin/plugin-install.php 1 16667 0 0
+/readme.html 1 7413 0 0
+/teste/wp-admin/themes.php 1 11616 0 0
+/teste/wp-content/plugins/fusion-builder/assets/fonts/fonts/icomoon.woff 1 9152 0 0
+END_SIDER

@@ -1,0 +1,933 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201004 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2539                
+POS_VISITOR 24028               
+POS_DAY 32587               
+POS_DOMAIN 3408                
+POS_LOGIN 3855                
+POS_ROBOT 4010                
+POS_WORMS 4453                
+POS_EMAILSENDER 4584                
+POS_EMAILRECEIVER 4727                
+POS_SESSION 33411               
+POS_SIDER 33623               
+POS_FILETYPES 4862                
+POS_OS 5188                
+POS_BROWSER 5356                
+POS_SCREENSIZE 5641                
+POS_UNKNOWNREFERER 5715                
+POS_UNKNOWNREFERERBROWSER 6074                
+POS_ORIGIN 6549                
+POS_SEREFERRALS 6695                
+POS_PAGEREFS 6872                
+POS_SEARCHWORDS 7802                
+POS_KEYWORDS 8129                
+POS_MISC 2202                
+POS_ERRORS 8346                
+POS_CLUSTER 3711                
+POS_SIDER_404 8475                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100501001454 2 151 29851562892602
+FirstTime 20100401060241
+LastTime 20100430190739
+LastUpdate 20100501071237 2 0 1 0 0
+TotalVisits 281                 
+TotalUnique 194                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 221                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 32 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 76 323 19986599 12 14 4484
+1 57 258 5490013 20 87 789040
+2 39 182 12387741 14 14 3774
+3 10 98 6698116 9 9 2260704
+4 1 1 3297 3 3 1012148
+5 0 0 0 1 1 0
+6 30 32 113871923 1 1 683564
+7 4 33 284186 5 58 1015929
+8 8 20 243299 3 3 3297
+9 35 318 5906957 17 110 10614
+10 129 1777 364806897 43 427 108424474
+11 100 1589 78637918 26 26 1020425
+12 102 1082 84594921 20 29 17672
+13 52 274 66073710 20 21 142362
+14 137 2346 352431266 65 65 76529952
+15 115 1941 240267807 22 93 8277
+16 114 1774 209871852 32 246 34948346
+17 210 4452 442054227 49 86 81202
+18 187 2980 216051737 57 261 15438
+19 106 318 98127162 22 113 1019690
+20 11 20 266754 16 16 1028630
+21 74 241 56604954 19 81 710
+22 104 124 27661224 28 372 1019202
+23 118 241 302519441 23 71 1021713
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+pt 1711 20250 2434525595
+us 27 28 195023243
+ao 13 15 10001577
+ma 13 43 12990051
+gb 10 14 261214
+es 9 26 154652
+ru 9 9 29661
+de 7 9 1872600
+jp 6 6 49507868
+br 5 7 122205
+tr 2 4 112326
+nl 2 3 9827
+mx 2 4 112326
+vn 2 4 112326
+hu 1 2 6530
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 32 7224566 20100429201105 0
+bot[+:,\.\;\/\\-] 11 36258 20100430205138 0
+spider 10 29655 20100429232514 0
+slurp 8 16479 20100428151102 0
+robot 3 9885 20100429120254 0
+no_user_agent 2 6588 20100428100017 0
+crawl 2 6591 20100430162522 0
+ia_archiver 1 3297 20100407033820 0
+msnbot 1 3297 20100406073809 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 1700 3318282 0 0
+png 8625 146387504 0 0
+ico 6 12716 0 0
+cgi 5 18195 0 0
+tmp 5 22088 0 0
+swf 879 353423198 0 0
+php 2 4040 0 0
+flv 28 1433029711 0 0
+zip 34 687495444 0 0
+html 702 5929384 0 0
+js 3705 25633372 0 0
+xml 158 3568228 0 0
+jpg 2222 44245628 0 0
+gif 2353 1754211 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+winxp 16898
+winlong 2825
+win2000 1
+symbian 397
+win98 1
+linux 1
+macosx 89
+win16 9
+winunknown 1
+win2003 18
+Unknown 23
+win2008 161
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 430
+firefox3.6 13
+chrome 799
+firefox3.0.17 1
+opera 170
+firefox3.6.2 38
+firefox3.0.5 1
+msie8.0 10356
+firefox2.0.0.11 5
+mozilla 10
+netscape5.0 1
+msie7.0 7890
+firefox3.5.9 82
+firefox3.6.3 127
+Unknown 29
+safari 464
+firefox3.5.7 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Java/1.6.0_15 20100411033900
+Java/1.6.0_20 20100423045623
+Java/1.6.0_14 20100426082259
+Java/1.6.0_18 20100426165556
+Mozilla/4.0_(compatible;) 20100429180907
+Who.is_Bot 20100415194525
+Java/1.6.0_04 20100427083937
+Java/1.6.0_17 20100414111320
+Shockwave_Flash 20100413103257
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+Microsoft_Windows_Network_Diagnostics 20100426155551
+Java/1.6.0_15 20100411033900
+Java/1.6.0_20 20100423045623
+Yandex/1.01.001_(compatible;_Win16;_I) 20100430145825
+Java/1.6.0_14 20100426082259
+Yandex/1.01.001_(compatible;_Win16;_H) 20100430132155
+Java/1.6.0_18 20100426165556
+Who.is_Bot 20100415194525
+Java/1.6.0_04 20100427083937
+Java/1.6.0_17 20100414111320
+Shockwave_Flash 20100413103257
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 546 2099
+From1 0 0
+From2 64 66
+From3 66 66
+From4 1143 18193
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 63 63
+search 1 1
+live 0 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 18
+http://www.opticanascimento.pt/menu.swf 39 39
+http://www.opticanascimento.pt/opticanasc.swf 4 4
+http://www.litoralfashion.pt/swf/videos.swf 3 3
+http://www.civilria.pt/menu.swf 3 3
+http://www.grenos.pt 2 2
+http://www.litoralfashion.pt 2 2
+http://www.mydesignaward.com/SITE/www.invisual.pt/10582.html 2 2
+http://www.civilria.pt/lake/menu.swf 1 1
+http://www.fontenova.pt/home.swf 1 1
+http://www.luxuria-bijuteria.pt/web/assinatura.swf 1 1
+http://live.vodafone.pt/!-ia90FzKJab 1 1
+http://www.bing.com/search 1 1
+http://www.grenos.pt/swf/menu.swf 1 1
+http://www.studiolightworld.com/pt/referrals 1 1
+http://www.studiolightworld.com/es/referrals 1 1
+http://www.crisalidaourivesarias.pt 1 1
+http://live.vodafone.pt/cae/search/submit_search 1 1
+http://live.vodafone.pt/!-ivcdHhaRSWnab 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+invisual 39
+invisual+aveiro 17
+invisuais+em+portugal 2
+invisual+empresa 1
+comunica%c3%a7%c3%a3o+entre+invisuais 1
+www.invisual.pt 1
+invisuale 1
+o+seu+parceiro 1
+invisual.pt 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 14
+invisual 57
+aveiro 17
+invisuais 3
+em 2
+portugal 2
+empresa 1
+www.invisual.pt 1
+invisuale 1
+parceiro 1
+comunica%c3%a7%c3%a3o 1
+entre 1
+seu 1
+invisual.pt 1
+o 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 31 7192
+206 18 223687601
+404 1881 0
+301 207 30238
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 189
+/php 1 -
+/tl/images/videos/3.flv 6 http://www.invisual.pt/tl/preview.swf
+/aveiroexpo/eventos.html 1 http://www.invisual.pt/aveiroexpo/servicos.html
+/aveiroexpo/images/calendario/2010/semin_sector_tice.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/content/calendario/2010/fitness_thumb.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/aaa.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/calendario.html 1 http://www.invisual.pt/aveiroexpo/espacos.html
+/aveiroexpo/images/calendario/2009/peq/festa_freguesias.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/images/videos/4.flv 2 http://www.invisual.pt/tl/preview.swf
+/webmailo 1 -
+/aveiroexpo/images/content/demo-only/featured-4-thumb.jpg 9 http://www.invisual.pt/aveiroexpo/index_x.html
+/aveiroexpo/images/calendario/2009/peq/anpc.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/icons/lock-and-key-110.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/js/supersubs.min.js 16 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/bullets/dot_gray.gif 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/fancy_shadow_ne.png 1 -
+/aveiroexpo/images/pageBg-slideRepeat.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/fancy_shadow_e.png 1 -
+/aveiroexpo/images/calendario/2009/peq/suma.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2008/peq/automobilia.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/content/noticias/noticia_fm2010.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/fitness.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/quote-small-repeat.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/js/invisual.js 33 http://invisual.pt/aveiroexpo/auditorio.html
+/aveiroexpo/images/slide-pager.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/ctt.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2008/peq/saude.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/calendario/2008/peq/fm.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/noticias/not%C3%ADcia01.html 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/peq/mcoutinho.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/forum.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/icons/twitter2.png 2 http://www.invisual.pt/aveiroexpo/
+/tl/images/videos/4.jpg 45 http://www.invisual.pt/tl/gallery_page.swf
+/donwload/inserc_CIVILRIA.ZIP 1 -
+/aveiroexpo.pt/index_x.html 1 -
+/aveiroexpo/images/calendario/2008/peq/seminario.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/vgg/images/links.jpg 1 http://www.invisual.pt/vgg/images/dc.jpg
+/aveiroexpo/images/fancybox/fancy_shadow_n.png 1 -
+/aveiroexpo/images/icons/social/twitter.png 2 http://www.invisual.pt/aveiroexpo/
+/tl/musica/musica_ambiente.mp3 29 http://invisual.pt/tl/preview.swf
+/aveiroexpo/images/mainMenu-divider.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/aveironoivos.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/search-bg.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/caravana.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/images/videos/3.jpg 46 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2009/peq/caravana.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2010/fmarc.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/fancybox/fancy_shadow_se.png 1 -
+/aveiroexpo/images/calendario/2009/peq/iap.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/feira_outlet.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/icons/bullet-lock.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/mapas/mapagr.jpg 2 http://www.invisual.pt/aveiroexpo/contactos.html
+/aveiroexpo/images/calendario/2009/peq/carocha.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/fitness.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/calendario2009.html 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/fancybox/fancy_progress.png 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/mcoutinho.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/slideshow/slide-3.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/agrovouga.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/icons/bullet-feed.png 2 http://www.invisual.pt/aveiroexpo/
+/tl/images/videos/8.jpg 45 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2009/luso_espanhol.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/aaa.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/tvlifes.ico 2 -
+/aveiroexpo/images/content/calendario/2010/inic_emprego_thumb.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/iscia.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/fancybox/title_left.png 1 http://www.invisual.pt/aveiroexpo/
+/tl/images/videos/2.jpg 50 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2009/financas.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/agrovouga.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/js/onLoad.min.js 16 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/slideshow/slide-4.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/mainMenu-right.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/mainMenu-left.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/conferencia.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/ribbon-wrap.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/apda.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/calendario/2009/peq/love.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/slide-next.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/content/skin-changer/skin-5.jpg 2 http://www.invisual.pt/aveiroexpo/
+/vgg/audio/01.mp3 1 http://www.invisual.pt/vgg/main.swf
+/aveiroexpo/images/side-navigation-active.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/suma.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/pageBg-repeat.png 3 http://www.invisual.pt/aveiroexpo/
+/robots.txt 96 -
+/aveiroexpo/images/calendario/2009/peq/iscia.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/slideshow/slide-5.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/icons/social/yahoo.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/ribbon.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/icons/slider-handle.gif 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/peq/financas.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/caract_tecnicas.html 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/content/skin-changer/skin-4.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/close.png 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/fancy_shadow_s.png 1 -
+/tl/images/videos/1.jpg 974 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2009/peq/cidadania.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/content/calendario/2010/stocks_thumb.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/automobilia.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/images/videos/1.flv 5 http://www.invisual.pt/tl/preview.swf
+/aveiroexpo/images/calendario/2008/peq/adriana.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/pageBg-slideBottom.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/volta_a_portugal.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/content/skin-changer/skin-2.jpg 2 http://www.invisual.pt/aveiroexpo/
+/teste 1 -
+/aveiroexpo/images/calendario/2010/porto_editora.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/aveiroexpo.html 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/js/superfish.min.js 16 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/peq/farav.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/mp3/0.mp3 14 http://www.invisual.pt/tl/preview.swf
+/aveiroexpo.pt/index.html 1 -
+/design 1 -
+/aveiroexpo/images/calendario/2009/peq/ctt.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/no-text-1956224129153381018 1 -
+/aveiroexpo/images/calendario/2010/cap.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/calendario/2009/peq/expotrakinas.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/imagens 1 -
+/aveiroexpo/images/calendario/2008/peq/farav.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/content/demo-only/blog-post-1.jpg 9 http://www.invisual.pt/aveiroexpo/index_x.html
+/aveiroexpo/images/quote-small-top.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/title_main.png 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/fancy_shadow_w.png 1 -
+/tl/xml_files/pages_xmls/01.xml 2 http://www.invisual.pt/tl/galeria.swf
+/tl/images/videos/5.jpg 46 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2009/cidadania.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/festa_freguesias.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/automobilia.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/side-navigation-bottom.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/iap.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/aveironoivos.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2008/peq/expoaveiro.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/js/LiberationSans.font.js 16 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/martifer.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/calendario/2009/peq/canina.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/slideshow/slide-6.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/slide-previous.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/canina.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/content/skin-changer/skin-changer-overlay.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/f_marco.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/arh.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/fancybox/fancy_shadow_nw.png 1 -
+/aveiroexpo/images/pageBg-slideTop.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/side-navigation-repeat.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/icons/facebook.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2010/manzfitness_10.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/pageBg-top.png 3 http://www.invisual.pt/aveiroexpo/
+/nuno 1 -
+/tl/images/videos/6.jpg 45 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/calendario/2010/stock.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/calendario/2008/peq/lf.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/aveiroexpo/images/content/skin-changer/skin-3.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2010/toyota.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/aveiroexpo/images/calendario/2009/peq/volta_a_portugal.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/quote-small-bottom.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/fancybox/smallClose-dark.png 1 http://www.invisual.pt/aveiroexpo/
+/adriazul 1 -
+/pictures 1 -
+/aveiroexpo/images/slideshow/slide-2.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/side-navigation-top.gif 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/farav.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/mainMenu-repeat.png 3 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2008/peq/interpescas.jpg 2 http://www.invisual.pt/aveiroexpo/calendario2008.html
+/tl/images/videos/5.flv 2 -
+/tl/images/videos/2.flv 4 http://www.invisual.pt/tl/preview.swf
+/aveiroexpo/images/content/demo-only/featured-3-thumb.jpg 9 http://www.invisual.pt/aveiroexpo/index_x.html
+/aveiroexpo/images/calendario/2009/anpc.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/fancybox/title_right.png 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/peq/arh.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/ola 1 -
+/no-text-2458575766004178363 1 -
+/aveiroexpo/images/fancybox/fancy_shadow_sw.png 1 -
+/aveiroexpo/images/calendario/2009/peq/luso_espanhol.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/tl/images/videos/6.flv 1 -
+/aveiroexpo/images/content/skin-changer/skin-1.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2010/emprego.jpg 1 http://www.invisual.pt/aveiroexpo/calendario2010.html
+/public 1 -
+/aveiroexpo/apresentacao.html 1 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/content/mapa_horario.swf 11 http://www.invisual.pt/aveiroexpo/contactos.html
+/aveiroexpo/images/content/calendario/2010/feira_de_marc_thumb.jpg 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/icons/social/facebook.png 1 http://www.invisual.pt/aveiroexpo/
+/tl/images/videos/7.jpg 46 http://www.invisual.pt/tl/gallery_page.swf
+/aveiroexpo/images/slideshow/slide-1.png 2 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/login-bg.png 5 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/calendario/2009/peq/f_marco.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/calendario/2009/peq/cnuo.jpg 1 http://invisual.pt/aveiroexpo/calendario2009.html
+/aveiroexpo/images/content/demo-only/featured-2-thumb.jpg 9 http://www.invisual.pt/aveiroexpo/index_x.html
+/aveiroexpo/images/content/mapa_aveiro.swf 11 http://www.invisual.pt/aveiroexpo/contactos.html
+/aveiroexpo/js/jquery.scrollTo-min.js 16 http://www.invisual.pt/aveiroexpo/
+/aveiroexpo/images/content/demo-only/featured-1-thumb.jpg 9 http://www.invisual.pt/aveiroexpo/index_x.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 221
+217.129.140.60 454 16923 683717761 20100429162149
+93.102.52.208 82 91 1920568 20100420224506
+84.90.165.16 70 77 1755149 20100421193928
+89.152.69.249 54 214 185815307 20100421234540
+84.91.224.199 51 69 20443442 20100416234955
+93.102.85.110 44 51 533882 20100424131204
+81.193.28.40 42 56 228428887 20100415145133
+93.102.34.241 34 39 843810 20100416195018
+93.102.87.159 34 39 475535 20100423012403
+188.81.87.62 34 36 109872506 20100405232653
+93.102.89.178 30 34 352351 20100424183600
+213.22.146.87 28 30 113865335 20100401061121
+188.81.160.204 27 27 121896934 20100401182706
+188.80.33.148 25 27 167861883 20100414175235
+213.22.137.11 23 25 12619480 20100416144423
+83.240.187.15 22 503 5448886 20100429183936
+217.129.26.152 21 25 13903283 20100415181114
+93.102.67.230 20 22 206616 20100424003207
+217.129.140.55 20 24 9670845 20100422191952
+195.23.65.253 20 24 9732299 20100401104057
+84.91.197.30 18 21 56660120 20100428125603
+188.80.109.56 17 21 10768130 20100413164332
+93.102.41.118 15 16 268375 20100424154246
+81.193.251.179 14 16 6965029 20100412114742
+84.91.22.170 14 18 2442161 20100429171400
+41.140.40.67 0 2 2299 
+82.155.103.25 4 6 1127763 20100404194119
+84.91.225.22 2 87 246037 20100425033522
+62.28.136.182 5 7 1151797 20100428174301
+118.69.225.254 2 4 112326 20100419081121
+188.81.160.151 6 10 2326603 20100415181136
+85.242.84.158 9 11 5473315 20100418224113
+212.13.49.247 4 6 1127763 20100414095529
+194.39.218.10 7 9 1872600 20100413181211
+83.240.187.48 1 1 2263537 20100408150728
+216.104.15.134 3 3 830560 20100428125523
+196.12.244.145 12 14 4246310 20100408160911
+77.54.77.32 8 10 2878241 20100409122407
+77.163.100.225 2 3 9827 20100423045623
+81.84.90.199 5 7 1151797 20100430110818
+62.28.115.193 8 10 1834324 20100407104634
+87.196.126.152 7 9 1267361 20100407114531
+195.22.28.68 1 1 3297 20100414170616
+131.107.137.130 1 1 35521706 20100419165557
+87.250.253.241 7 7 23073 20100430145825
+188.80.108.245 1 1 3294 20100430113451
+41.140.159.233 1 5 8739143 20100416132643
+87.103.52.180 2 4 112326 20100408211058
+184.73.233.186 1 1 3297 20100415194525
+83.240.187.94 9 11 1201517 20100429170248
+213.63.58.169 1 1 3294 20100426144635
+95.95.31.28 6 8 1865204 20100420014757
+85.241.192.251 1 1 2263537 20100407124210
+188.80.100.230 6 10 2326600 20100427231837
+89.180.240.114 1 1 3294 20100428172054
+95.136.104.83 6 8 1391357 20100427164001
+150.70.84.28 4 4 48994681 20100428130127
+87.196.251.148 6 8 1159193 20100430102648
+84.91.32.54 6 8 2326603 20100421232758
+196.12.244.178 0 4 0 
+196.12.244.173 0 2 0 
+82.154.220.97 1 1 3294 20100429025058
+200.96.162.220 1 1 3294 20100428232243
+84.91.226.154 1 1 3294 20100427190748
+89.155.54.83 0 1 2299 
+95.93.106.102 1 1 3294 20100428010120
+84.91.227.104 9 11 8743346 20100422103825
+188.81.163.221 1 1 89609102 20100423154836
+196.12.244.186 0 2 0 
+77.54.22.103 1 1 3294 20100424154144
+81.84.89.30 1 1 3294 20100426104517
+85.240.35.222 0 4 2299 
+208.80.193.42 2 2 6588 20100426081640
+89.152.68.83 0 1 0 
+213.228.176.148 1 1 3294 20100430003840
+196.12.244.142 0 2 0 
+83.240.240.179 1 1 3294 20100425110249
+195.22.29.57 11 13 8495314 20100419125041
+217.129.141.210 1 1 89609102 20100420162246
+193.126.124.201 10 11 103164 20100423101825
+89.155.55.88 6 8 2326600 20100429194035
+188.80.101.135 1 1 3294 20100427102428
+83.132.196.152 1 1 3294 20100426172905
+77.211.166.62 2 3 9821 20100426082259
+77.211.154.144 1 1 3297 20100422072604
+217.129.138.38 1 3 2462481 20100406150108
+85.241.166.48 0 2 0 
+217.110.101.138 2 4 112323 20100429180907
+82.155.216.215 1 1 3294 20100428220045
+83.240.200.110 2 2 6591 20100426112752
+84.1.246.253 1 2 6530 20100411033900
+208.80.193.60 2 2 6594 20100423103837
+83.240.187.85 1 1 3294 20100427101820
+64.124.203.72 1 1 35521706 20100419182854
+213.22.145.5 8 10 3759056 20100406130706
+208.50.101.151 1 1 8739143 20100416110552
+188.80.108.48 4 6 1127763 20100413175740
+208.80.193.58 1 1 3297 20100423123149
+85.139.126.7 10 12 60765061 20100416145520
+93.102.44.119 3 113 2773143 20100413001529
+89.214.77.1 1 1 3294 20100428234339
+71.112.82.20 1 1 35521706 20100419170007
+85.245.30.231 1 1 3297 20100422182317
+109.169.29.135 1 1 3297 20100422200957
+87.196.247.250 1 1 3297 20100413142429
+85.241.20.254 0 2 4598 
+193.137.1.102 5 7 1151797 20100430115227
+80.24.253.113 0 13 16093 
+77.211.93.161 1 1 3297 20100414111320
+85.241.157.188 1 1 3294 20100429153323
+216.104.15.138 1 1 108165 20100428125229
+84.78.45.5 2 4 112323 20100430114618
+84.90.86.28 7 15 1271959 20100401103354
+93.102.70.109 5 137 4137553 20100430021142
+93.102.65.206 4 8 112326 20100413030303
+89.214.72.55 12 14 6963823 20100427194835
+83.240.234.252 4 6 1127763 20100406125615
+95.69.95.182 6 8 1718760 20100428220648
+72.188.29.103 2 3 9821 20100426165556
+85.241.23.158 0 2 0 
+85.241.22.34 11 13 9008418 20100414162245
+62.28.77.225 1 1 3294 20100430092326
+213.22.208.65 1 1 3297 20100422100900
+85.241.154.16 1 1 3297 20100414124653
+208.50.101.158 1 1 70624005 20100415190837
+150.70.84.155 2 2 513187 20100428125822
+217.129.81.4 2 4 112323 20100428130902
+64.124.203.77 1 1 3029785 20100401172707
+193.137.168.120 9 11 3516341 20100423164913
+87.103.43.45 7 9 1722052 20100421003526
+188.80.102.35 13 15 4615551 20100426160731
+89.181.67.51 2 4 112326 20100423172445
+201.63.159.16 1 1 3294 20100428034952
+89.155.50.204 0 5 0 
+195.23.43.20 2 4 112326 20100422144845
+213.22.241.203 0 1 2299 
+213.22.146.54 1 1 3297 20100414154733
+93.102.67.26 12 13 268948 20100416013906
+62.28.102.129 2 4 112326 20100407110046
+62.28.128.231 1 1 3297 20100414173540
+88.240.113.93 2 4 112326 20100409142417
+95.136.110.144 1 1 3297 20100424093257
+93.108.74.69 0 1 2299 
+85.241.153.186 10 16 2566163 20100406000303
+217.129.243.175 6 8 2326603 20100422123652
+85.241.169.33 0 2 2299 
+62.48.198.125 0 2 4598 
+188.81.12.241 1 1 3294 20100429124259
+83.240.187.23 1 3 2464780 20100407175312
+195.23.93.57 0 2 4598 
+212.0.161.140 1 1 3294 20100427145017
+95.93.82.237 1 1 3294 20100426185011
+77.54.203.15 1 1 3297 20100413152759
+217.129.241.163 10 12 3619436 20100415215724
+83.240.187.229 1 1 3294 20100430115842
+208.80.193.62 1 1 3297 20100406172643
+208.80.193.35 2 2 6588 20100430060134
+89.214.179.195 1 1 3294 20100424224530
+188.80.104.80 0 2 2299 
+89.152.69.127 0 1 0 
+200.242.34.24 2 4 112323 20100430190739
+85.92.222.254 5 5 33271 20100429180907
+93.102.94.148 0 1 2299 
+188.140.123.236 7 9 1267361 20100417143833
+85.241.175.85 0 2 0 
+217.129.246.74 1 1 35521706 20100419164954
+216.104.15.142 1 1 713404 20100428125348
+93.102.92.99 5 188 5170636 20100415192222
+85.241.206.158 1 1 6596615 20100416180749
+217.129.247.55 6 8 1718763 20100424113010
+87.196.123.33 5 11 112326 20100414175704
+89.214.108.125 8 14 1159193 20100426200727
+217.129.26.225 1 1 3294 20100425193008
+85.240.247.107 8 10 5755053 20100423183057
+95.93.19.217 1 1 3297 20100403212033
+85.241.162.178 13 15 94114643 20100426175529
+85.241.159.133 7 9 1267361 20100412120957
+84.91.197.8 5 7 1151800 20100421184423
+216.104.15.130 2 2 4363693 20100428125256
+83.174.54.181 14 36 4233592 20100413023449
+188.81.86.126 1 1 3294 20100429172326
+85.139.98.245 1 1 3297 20100408174155
+93.102.80.126 12 13 155968 20100418173158
+93.108.207.201 1 1 3294 20100424124805
+64.191.56.197 1 1 3297 20100412191834
+89.214.94.107 8 10 1834324 20100409231610
+193.164.0.63 1 1 3294 20100429114307
+62.23.212.55 2 4 112323 20100430161839
+62.87.94.108 1 1 0 20100411085458
+95.108.151.244 2 2 6588 20100430132155
+83.240.187.234 0 3 0 
+189.137.234.158 2 4 112326 20100416180133
+93.102.76.88 13 14 127832 20100425112743
+83.174.54.180 5 22 1369804 20100413023630
+208.80.193.63 1 1 3297 20100423121037
+85.139.250.53 11 15 6106933 20100428172655
+196.12.244.171 0 2 0 
+77.54.51.92 6 393 5460543 20100413132732
+213.58.135.82 1 1 3297 20100413092644
+89.152.5.128 1 1 89609102 20100420155632
+85.241.163.214 0 2 2299 
+188.81.85.64 1 1 3297 20100423142914
+196.12.244.146 0 10 2299 
+89.152.68.140 0 4 2299 
+208.80.193.39 1 1 3294 20100428222705
+93.102.174.182 1 1 3294 20100425190002
+95.69.111.39 1 3 7308 20100428192052
+89.155.51.95 2 4 108312 20100414170127
+217.129.202.28 1 1 2850840 20100403004238
+187.34.250.58 1 1 3294 20100429204259
+93.102.234.6 1 1 3294 20100429151352
+77.54.230.12 2 2 6591 20100424143221
+77.54.167.80 1 108 1264660 20100414172505
+83.32.47.41 2 3 9821 20100427083937
+93.102.83.189 8 111 49434026 20100413234657
+41.78.17.163 13 15 10001577 20100424030345
+194.65.239.198 1 1 3294 20100429105644
+85.240.71.32 5 7 1151800 20100412143019
+85.241.173.189 1 1 3297 20100414122116
+188.80.52.55 1 1 3294 20100428172411
+85.241.166.49 1 1 3294 20100427214933
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20100401 101 122 261387908 8
+20100403 20 32 5230305 3
+20100404 4 6 1127763 1
+20100405 36 41 109874805 2
+20100406 36 68 13751225 11
+20100407 34 53 21033686 8
+20100408 39 56 18730198 8
+20100409 30 90 9175396 7
+20100411 3 4 9827 3
+20100412 61 2447 54406082 10
+20100413 67 836 193925385 18
+20100414 63 399 185935768 17
+20100415 107 595 401937870 12
+20100416 148 177 221052633 13
+20100417 42 53 2511232 3
+20100418 21 24 5629283 2
+20100419 23 36 292790484 7
+20100420 148 2959 197408250 9
+20100421 116 914 209803774 10
+20100422 46 148 21097857 11
+20100423 81 459 108123594 18
+20100424 133 151 13098037 11
+20100425 20 106 390339 7
+20100426 45 63 99936685 12
+20100427 88 2654 48211870 15
+20100428 169 5121 161104028 25
+20100429 103 2628 39189458 16
+20100430 35 182 7968259 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 27
+0s-30s 161
+2mn-5mn 24
+30s-2mn 34
+15mn-30mn 15
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 142
+/ 214 662448 183 89
+/aveiroexpo/ 180 2281250 37 25
+/idioma.swf 119 11131590 3 29
+/pt.html 83 249964 4 1
+/home.swf 80 73886804 0 8
+/swf/borbuletas.swf 71 1586442 0 7
+/tl/ 39 47950 14 0
+/tl/xml_files/banner_rotator.xml 33 70845 0 0
+/tl/xml_files/config.xml 32 24363 0 0
+/tl/pub.swf 32 52094 0 0
+/tl/xml_files/menu.xml 32 72827 0 0
+/tl/preview.swf 32 1346635 0 0
+/tl/banner.swf 32 795187 0 0
+/tl/menu.swf 32 551841 0 0
+/tl/logo_banner.swf 31 29400 0 4
+/swf/design.swf 31 7426360 1 3
+/swf/empresa.swf 30 3136785 1 7
+/aveiroexpo/calendario2010.html 30 422036 1 4
+/swf/fotografia.swf 29 16441927 1 4
+/aveiroexpo/contactos.html 29 334349 0 3
+/aveiroexpo/espacos.html 24 353025 0 2
+/swf/design/linhasgraficas.swf 24 56647200 1 3
+/tl/logo.swf 24 52131 0 0
+/swf/contactos.swf 23 162712 1 9
+/swf/internet.swf 23 27020469 0 10
+/aveiroexpo/auditorio.html 7 72125 0 0
+/swf/multimedia/mercentro.swf 5 181180 0 0
+/swf/fotografia/gastronomia.swf 9 5599431 0 4
+/aveiroexpo/eventos.html 1 14385 0 0
+/vgg/text/empresa.xml 1 6990 0 0
+/videos/mercentro.flv 5 244735455 0 1
+/swf/multimedia/fm07.swf 3 108702 0 0
+/swf/ 1 3447 0 0
+/swf/design/insercoes.swf 18 32645466 0 3
+/vgg/text/onde_estamos.xml 1 6995 0 0
+/swf/eventos/litoraldesign.swf 5 6112550 0 0
+/vgg/vgg_icon.ico 1 5686 0 0
+/download/fotografia_criancas.zip 8 284173648 5 5
+/aveiroexpo/missao_objectivos.html 6 86439 0 0
+/tl/galeria.swf 11 399360 0 0
+/tl/xml_files/gastronomia.xml 5 544055 0 1
+/swf/HTTP%20403%20Proibido_ficheiros/res6(1).tmp 1 3414 0 1
+/tl/xml_files/vanguarda.xml 2 13854 0 0
+/tl/xml_files/servicos/prod_video.xml 1 6547 0 0
+/vgg/submenu1.xml 1 396 0 0
+/swf/fotografia/espacos.swf 12 8854776 0 0
+/videos/lf07_01.flv 2 67961876 0 0
+/videos/clip_litoral08.flv 11 985700122 4 3
+/tl/animations/canal_arte.swf 1 7685 0 0
+/swf/multimedia/lf07_01.swf 2 72478 0 0
+/vgg/main.swf 1 246254 0 0
+/swf/eventos/bmw7.swf 7 1929592 0 2
+/vgg/vars_bgs.xml 1 378 0 0
+/feirademarco/pagina_inteira.zip 2 6059570 2 2
+/swf/eventos/mini.swf 3 1269699 0 1
+/swf/HTTP%20403%20Proibido_ficheiros/res4(1).tmp 1 6993 0 0
+/feirademarco/rodape_cores.zip 1 6596615 1 1
+/tl/xml_files/musica.xml 5 543975 0 2
+/videos/backstage.flv 4 71214808 0 0
+/tl/xml_files/gallery_xmls/moda.xml 1 108811 0 0
+/aveiroexpo/calendario2008.html 5 109343 0 0
+/vgg/submenu3.xml 1 881 0 0
+/cgi-sys/suspendedpage.cgi 5 18195 1 0
+/download/inserc_CIVILRIA.zip 4 78718536 1 2
+/tl/our_team_page.swf 1 51507 0 0
+/tl/tvlifes_icon.ico 2 2812 0 0
+/tl/xml_files/contactos.xml 5 2478 0 4
+/aveiroexpo/newsletter.php 2 4040 0 0
+/swf/HTTP%20403%20Proibido_ficheiros/res5(1).tmp 1 3169 0 0
+/tl/animations/canal_tv_lifes.swf 1 6744 0 1
+/aveiroexpo/index_x.html 11 235097 0 0
+/aveiroexpo/calendario2009.html 9 242110 0 3
+/vgg/text/dc.xml 1 585 0 0
+/swf/multimedia/lf08_01.swf 5 181220 0 0
+/tl/tvlifes.ico 1 1406 0 0
+/vgg/navigation.xml 1 754 0 0
+/swf/design/embalagens.swf 12 3179100 0 2
+/vgg/text/equipa.xml 1 6983 0 0
+/swf/multimedia/serie7.swf 6 1926414 0 0
+/tl/contact_page.swf 2 82199 0 0
+/tl/content_page.swf 5 230305 0 0
+/swf/videos.swf 12 96720 0 1
+/vgg/config.xml 1 644 0 0
+/vgg/preview.swf 1 40238 0 0
+/tl/contactos.swf 3 101460 0 0
+/swf/eventos.swf 22 15694888 1 5
+/download/stand_sekkala.zip 3 211872015 3 2
+/feirademarco/paginainteira_semana01.zip 1 2850840 1 1
+/tl/xml_files/gallery_xmls/travel.xml 2 217622 0 1
+/swf/fotografia/automovel.swf 12 6175320 0 1
+/download/pdf.zip 6 34956572 3 2
+/swf/multimedia/lf.swf 2 707166 0 0
+/swf/HTTP%20403%20Proibido_ficheiros/res8(1).tmp 1 7579 0 0
+/tl/conteudos.swf 2 75064 0 0
+/aveiroexpo/equipamentos.html 2 29238 0 0
+/videos/lf07_02edic.flv 2 60655734 0 0
+/aveiroexpo/salao_nobre.html 3 43348 0 0
+/aveiroexpo/aveiroexpo.html 19 293830 0 0
+/ClearExternalAll.swf 9 48933 0 1
+/aveiroexpo/sala_conferencia_1.html 2 13903 0 0
+/vgg/text/links.xml 1 361 0 1
+/swf/eventos/smart.swf 1 1278837 0 0
+/tl/xml_files/pages_xmls/01.xml 5 32735 0 1
+/swf/eventos/mercedes.swf 3 3825861 0 0
+/m.zip 1 45636309 0 1
+/aveiroexpo/orgaos_sociais.html 5 71920 0 0
+/tl/xml_files/hotelaria.xml 3 326433 0 0
+/swf/eventos/biju.swf 4 4687936 0 0
+/videos/fm07.flv 4 2761716 0 0
+/aveiroexpo/galeria.html 1 13293 0 0
+/feirademarco/paginainteira_semana03.zip 3 6790611 3 3
+/tl/xml_files/gallery_xmls/gastronomia.xml 6 652866 0 1
+/swf/multimedia/lf07_02.swf 1 36243 0 0
+/tl/xml_files/moda.xml 1 108811 0 0
+/swf/multimedia/fm09.swf 5 181115 0 1
+/tl/xml_files/licensas/01.xml 2 13094 0 1
+/tl/xml_files/our_team_settings.xml 1 485 0 0
+/feirademarco/paginainteira_semana02.zip 5 9840728 5 5
+/swf/multimedia/mini.swf 3 1008579 0 0
+/aveiroexpo/servicos.html 7 86921 0 1
+/tl/xml_files/arte.xml 4 41538 0 0
+/aveiroexpo/sample-login.html 4 5997 0 0
+/swf/fotografia/objectos.swf 13 6985147 0 1
+/vgg/images/onde_estamos.swf 1 381121 0 0
+/tl/animations/canal_musica.swf 1 7978 0 0
+/vgg/images/equipa.swf 1 76247 0 0
+/swf/multimedia/biju_01.swf 4 144944 0 0
+/vgg/ 1 2073 1 0
+/tl/xml_files/travel.xml 1 108811 0 0
+/swf/multimedia.swf 14 3325434 3 0
+/tl/gallery_page.swf 7 322189 0 0
+/aveiroexpo/foyer.html 8 122900 0 0
+/aveiroexpo/apresentacao.html 11 131993 0 2
+/tl/ologo.swf 10 21717 0 0
+/tl/tv_lifes.ico 2 2812 0 0
+/vgg/images/vgg.swf 1 1987 0 0
+/swf/multimedia/filinox.swf 3 771189 0 0
+/swf/HTTP%20403%20Proibido_ficheiros/res7(1).tmp 1 933 0 0
+/tl/xml_files/gallery_xmls/hotelaria.xml 3 326433 0 1
+/tl/xml_files/gallery_xmls/musica.xml 3 326385 0 0
+/vgg/contact/contactinfo.xml 1 293 0 0
+/swf/design/grandesformatos.swf 22 44074646 0 2
+END_SIDER

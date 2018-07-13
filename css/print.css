@@ -1,0 +1,30 @@
+.pagina-tarefa .heading-estado,
+.pagina-tarefa .heading-data,
+.pagina-tarefa .row-mensagens-tarefa,
+.pagina-tarefa .fa-wrench,
+.pagina-tarefa .fa-trash,
+.pagina-tarefa .botoes,
+.pagina-tarefa .botoes-horas {
+    display:none;
+}
+
+*{
+    font-family: sans-serif !important;
+}
+
+.print-tarefa{
+    display:block !important;
+}
+
+.tarefa-single{
+    display:none;
+}
+
+.print-tarefa h4, .print-tarefa h5{
+    font-weight:800;
+}
+
+
+.print-tarefa p{
+    font-size:11px !important;
+}

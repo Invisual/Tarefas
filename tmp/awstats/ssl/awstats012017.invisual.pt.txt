@@ -1,0 +1,295 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201701 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/ssl/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2671                
+POS_VISITOR 6513                
+POS_DAY 6899                
+POS_DOMAIN 3287                
+POS_LOGIN 3557                
+POS_ROBOT 3712                
+POS_WORMS 3987                
+POS_EMAILSENDER 4118                
+POS_EMAILRECEIVER 4261                
+POS_SESSION 7092                
+POS_SIDER 7238                
+POS_FILETYPES 4396                
+POS_DOWNLOADS 4623                
+POS_OS 4671                
+POS_BROWSER 4796                
+POS_SCREENSIZE 4983                
+POS_UNKNOWNREFERER 5057                
+POS_UNKNOWNREFERERBROWSER 5144                
+POS_ORIGIN 5226                
+POS_SEREFERRALS 5362                
+POS_PAGEREFS 5506                
+POS_SEARCHWORDS 5654                
+POS_KEYWORDS 5806                
+POS_MISC 2335                
+POS_ERRORS 5865                
+POS_CLUSTER 3413                
+POS_SIDER_404 5966                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170201020954 3 308 9941000539791
+FirstTime 0
+LastTime 20170127214457
+LastUpdate 20170201132230 3 0 2 0 0
+TotalVisits 8                   
+TotalUnique 7                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 5 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 45194 4 4 90382
+1 0 0 0 9 9 37386
+2 0 0 0 11 12 89915
+3 0 0 0 10 13 30246
+4 0 0 0 4 5 105719
+5 0 0 0 6 6 82401
+6 0 0 0 2 2 14889
+7 0 0 0 4 4 29767
+8 0 0 0 8 10 37504
+9 0 0 0 5 6 105420
+10 0 1 0 1 1 45176
+11 0 0 0 0 0 0
+12 4 41 781623 1 2 45359
+13 0 0 0 2 2 52642
+14 26 26 1019774 6 6 56113
+15 0 0 0 4 4 37702
+16 0 0 0 4 4 45200
+17 0 0 0 7 9 90058
+18 0 0 0 13 15 74881
+19 0 0 0 7 9 37448
+20 0 0 0 6 6 45140
+21 17 184 3867965 8 14 45789
+22 26 26 1019828 11 12 63661
+23 0 0 0 6 8 29885
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+nl 52 52 2039602
+us 18 185 3913159
+ru 4 41 781623
+pt 0 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 16 1888 20170131091955 16
+no_user_agent 14 633020 20170131053423 0
+netcraft 4 150800 20170125023853 0
+unknown 1 118 20170127214425 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff 3 453216 0 0
+woff2 1 122614 0 0
+html 62 2138757 0 0
+jpeg 4 43352 0 0
+jpg 25 274036 0 0
+png 16 1645241 0 0
+css 36 402205 0 0
+php 8 2453 0 0
+js 124 1652510 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx 126 12
+winnt 42 4
+macosx8 58 5
+win8.1 52 52
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+firefox51.0 1 0
+chrome55.0.2883.87 41 4
+chrome27.0.1453.93 58 5
+chrome41.0.2228.0 1 1
+chrome39.0.2171.95 126 12
+chrome54.0.2840.99 52 52
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 62 116
+From1 0 0
+From2 0 0
+From3 0 0
+From4 12 163
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 52 340
+404 71 505881
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/.well-known/assetlinks.json 20 -
+/wp-content/uploads/2016/04/pizzarte_webdesign001-1.jpg 1 -
+/feed/ 2 -
+/apple-app-site-association 24 -
+/.well-known/apple-app-site-association 23 -
+/alboi/wp-content/uploads/2015/04/alboi-footer.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+185.34.52.149 52 52 2039602 20170108223858
+52.34.171.123 5 58 423942 20170127214439
+185.165.106.250 4 41 781623 20170118122319
+104.131.62.93 4 42 1148007 20170127214435
+104.236.233.15 4 42 1148010 20170127214457
+104.236.1.93 4 42 1148006 20170127214425
+104.197.141.11 1 1 45194 20170126001148
+188.81.145.69 0 1 0 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20170106 26 26 1019774 1
+20170108 26 26 1019828 1
+20170118 4 41 781623 1
+20170126 1 1 45194 1
+20170127 17 184 3867965 4
+20170131 0 1 0 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/ 17 453607 8 4
+/conteudo/themes/uncode/core/inc/uncode-ajax.php 8 2453 0 1
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff 3 453216 0 3
+/portfolio/maldita-embalagem-e-rotulo/ 2 76474 0 0
+/portfolio_cat/ativacao-de-marca/ 2 59722 0 0
+/portfolio/ramalhos-video-oficial-2016/ 2 63450 0 0
+/portfolio_cat/embalagem/ 2 59404 0 0
+/invisual/ 2 86330 0 0
+/portfolio_cat/assessoria/ 2 62840 0 0
+/portfolio_cat/paginacao/ 2 73470 0 0
+/portfolio/unimadeiras-video-institucional-2016/ 2 66568 0 0
+/portfolio_cat/identidade/ 2 59416 0 0
+/marcas/ 2 164600 0 0
+/contactos/ 2 68080 0 0
+/portfolio/alital-web-design/ 2 74978 0 0
+/portfolio/vr2p-identidade/ 2 70598 0 0
+/portfolio_cat/impressao/ 2 59524 0 0
+/portfolio_cat/fotografia/ 2 63148 0 0
+/portfolio_cat/eventos/ 2 59510 0 0
+/portfolio/civilria-web-design/ 2 82234 0 0
+/portfolio_cat/video/ 2 77494 0 0
+/portfolio/apartamento-civilria/ 2 105618 0 0
+/portfolio/novo-megane/ 2 96840 0 0
+/portfolio/salpoente/ 2 74630 0 0
+/portfolio_cat/web-design/ 2 73230 0 0
+/blog/ 1 6992 0 0
+/conteudo/themes/uncode/library/fonts/uncode-icons.woff2 1 122614 0 0
+END_SIDER

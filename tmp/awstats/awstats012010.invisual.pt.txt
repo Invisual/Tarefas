@@ -1,0 +1,1000 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201001 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2543                
+POS_VISITOR 15010               
+POS_DAY 28116               
+POS_DOMAIN 3417                
+POS_LOGIN 4106                
+POS_ROBOT 4261                
+POS_WORMS 4671                
+POS_EMAILSENDER 4802                
+POS_EMAILRECEIVER 4945                
+POS_SESSION 29018               
+POS_SIDER 29231               
+POS_FILETYPES 5080                
+POS_OS 5386                
+POS_BROWSER 5570                
+POS_SCREENSIZE 5988                
+POS_UNKNOWNREFERER 6062                
+POS_UNKNOWNREFERERBROWSER 6454                
+POS_ORIGIN 6789                
+POS_SEREFERRALS 6935                
+POS_PAGEREFS 7101                
+POS_SEARCHWORDS 9009                
+POS_KEYWORDS 9388                
+POS_MISC 2206                
+POS_ERRORS 9622                
+POS_CLUSTER 3962                
+POS_SIDER_404 9739                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20100201010036 33 9382 10941335034333
+FirstTime 20100101154517
+LastTime 20100131232022
+LastUpdate 20100201035159 33 0 32 0 0
+TotalVisits 414                 
+TotalUnique 324                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 324                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 88 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 49 68 18933201 12 12 6582
+1 32 36 72677809 14 14 9873
+2 74 145 17394994 13 13 2030724
+3 24 39 9746712 7 8 13346
+4 7 11 2104478 5 5 3291
+5 10 14 1405208 8 8 6582
+6 5 8 23702 4 4 9873
+7 0 0 0 8 8 1012148
+8 17 27 2654765 12 13 124691
+9 203 339 407306029 186 191 7294099
+10 272 542 214535525 65 67 1596977
+11 371 723 83484248 59 69 156542917
+12 476 937 540503324 96 98 1891686
+13 246 603 264090473 106 160 170831145
+14 330 710 357075260 137 145 6899
+15 323 599 463094015 72 72 65668407
+16 255 453 1305780675 45 50 2825621
+17 420 828 320602577 71 101 3292750
+18 570 1229 216173907 124 158 438305
+19 137 226 32982630 27 32 41830
+20 80 135 32158528 18 23 128280
+21 99 159 27720417 97 98 7049892
+22 70 105 20622017 10 10 6582
+23 96 118 72482645 8 9 781
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+pt 3829 7544 3951076027
+us 33 41 436427343
+de 29 44 5517918
+es 22 34 2378314
+gb 19 31 6113216
+cn 18 29 3130431
+ma 17 25 6084857
+tr 15 27 3463281
+ph 15 19 9119367
+ro 15 25 3476055
+at 15 27 2754521
+gr 13 21 4711556
+br 13 15 5810267
+my 12 16 8047320
+nl 11 16 5800516
+kr 10 21 2264099
+in 10 14 7570017
+lu 10 12 3906286
+jp 9 13 2150069
+mc 8 12 5787410
+bg 8 12 1719964
+cl 6 10 1392044
+tw 6 12 1242698
+mx 6 10 2302246
+ba 5 9 1154427
+ru 5 5 13164
+fr 4 7 129855
+eu 1 1 3291
+ap 2 2 6580
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 86 7463962 20100131235646 0
+bot[+:,\.\;\/\\-] 19 62529 20100128115014 0
+slurp 14 39492 20100130005617 0
+spider 12 39492 20100130203803 0
+robot 5 3291 20100130103750 0
+msnbot 4 216588 20100131083048 0
+no_user_agent 2 6582 20100111081408 0
+crawl 1 3291 20100108065745 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+mp3 180 139632558 0 0
+png 6 12840 0 0
+ico 142 483310 0 0
+pdf 1 2645912 0 0
+swf 2285 703223092 0 0
+php 6 467 0 0
+flv 13 302384798 0 0
+zip 18 3048237730 0 0
+html 1032 1935408 0 0
+xml 489 601919 0 0
+jpg 2807 282571908 0 0
+js 799 1640443 0 0
+gif 276 182754 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxsuse 18
+winlong 4003
+winxp 3132
+symbian 4
+linuxubuntu 65
+win98 1
+linux 14
+bsdfreebsd 7
+macosx 358
+win16 4
+win2003 7
+Unknown 52
+win2008 389
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 118
+firefox2.0.0.20 1
+firefox3.5.6 49
+firefox3.0.16 3
+firefox3.6 33
+firefox3.0.17 77
+chrome 1801
+firefox3.0.1 2
+firefox3.5.4 9
+opera 51
+firefox2.0.0.6 3
+firefox3.0.3 18
+msie8.0 2654
+firefox2.0.0.11 8
+nokia 1
+firefox3.5.5 1
+firefox1.0 1
+mozilla 4
+msie7.0 2495
+netscape4.0 1
+firefox2.0.0.16 78
+firefox3.0.10 13
+Unknown 50
+safari 207
+netscape 1
+firefox3.5.7 375
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla 20100121101300
+Java/1.6.0_14 20100127154320
+Mozilla/4.0 20100117011956
+Java/1.6.0_13 20100105234727
+Mozilla/4.0_(compatible;SAPO_Webthumbs) 20100112112340
+Java/1.6.0 20100129033105
+Who.is_Bot 20100122230110
+Java/1.6.0_04 20100118220141
+Shockwave_Flash 20100105154509
+Java/1.6.0_17 20100124023915
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Java/1.6.0_14 20100127154320
+Yandex/1.01.001_(compatible;_Win16;_I) 20100130165914
+Java/1.6.0_13 20100105234727
+Java/1.6.0 20100129033105
+Who.is_Bot 20100122230110
+Java/1.6.0_04 20100118220141
+Shockwave_Flash 20100105154509
+Java/1.6.0_17 20100124023915
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 746 789
+From1 0 0
+From2 69 69
+From3 208 208
+From4 3143 6988
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 68 68
+live 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 41
+http://www.opticanascimento.pt/menu.swf 75 75
+http://www.mydesignaward.com/SITE/www.invisual.pt/10582.html 29 29
+http://www.luxuria-bijuteria.pt/web/assinatura.swf 18 18
+http://www.civilria.pt 8 8
+http://www.fontenova.pt/home.swf 7 7
+http://www.opticanascimento.pt 7 7
+http://www.civilria.pt/menu.swf 7 7
+http://www.studiolightworld.com/pt/referrals 5 5
+http://www.opticanascimento.pt/opticanasc.swf 4 4
+http://www.fontenova.pt 4 4
+http://www.invisual-am.pt 4 4
+http://www.adriazul.pt/flash_all_resolution.swf 3 3
+http://www.civilria.pt/antas/menu.swf 3 3
+http://www.civilria.pt/antas/index.html 3 3
+http://www.luxuria-bijuteria.pt/web/index.html 2 2
+http://www.crisalidaourivesarias.pt 2 2
+http://www.litoralfashion.pt/swf/organizacao.swf 2 2
+http://civilria.pt 2 2
+http://www.invisual-am.pt/asl/index.swf 1 1
+http://www.asl.pt 1 1
+http://www.litoralmagazine.com 1 1
+http://www.adriazul.pt/conteudos/produtos/sistema_banhos/banheiras_spas/01.swf 1 1
+http://www.jb.pt/redirect.aspx 1 1
+http://www.sidec.pt/index.swf 1 1
+http://www.grenos.pt/swf/menu.swf 1 1
+http://invisual-am.pt/asl/index.swf 1 1
+http://civilria.pt/mirador/index.html 1 1
+http://www.netculture.gr/showcategory.asp 1 1
+http://www.adriazul.pt/conteudos/coleccao/02/03.swf 1 1
+http://civilria.pt/mirador/menu.swf 1 1
+http://civilria.pt/antas/index.html 1 1
+http://www.torredepapel.pt/flash.htm 1 1
+http://www.mydesignaward.com/SITE/www.invisual.pt/next/10582.html 1 1
+http://www.civilria.pt/lake/ 1 1
+http://www.jabric.pt 1 1
+http://www.crisalidaourivesarias.pt/menu.swf 1 1
+http://www.mydesignaward.com/view-and-enjoy/just-added/page_5/ 1 1
+http://whois.domaintools.com/invisual.pt 1 1
+http://www.adriazul.pt 1 1
+http://www.drame.cn/web/page_3.htm 1 1
+http://www.aveiroexpo.pt/pt/main.swf 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 13
+invisual 40
+invisual+aveiro 12
+invisual.pt 5
+in+visual 2
+web+para+invisuais 1
+unvisual 1
+invisual+em+aveiro 1
+www.invisual.pt 1
+invisual%3f 1
+comunica%c3%a7ao+invisuais 1
+invisuais+em+portugal 1
+unvisiual 1
+in+visual+aneiro 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 16
+invisual 53
+aveiro 13
+invisual.pt 5
+in 3
+visual 3
+invisuais 3
+em 2
+unvisual 1
+para 1
+www.invisual.pt 1
+web 1
+invisual%3f 1
+aneiro 1
+comunica%c3%a7ao 1
+unvisiual 1
+portugal 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 66 412972918
+301 124 25136
+404 1035 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 72
+/civilria/mirador/image/aveiro_park/aveiro_park01.jpg 4 -
+/civilria/inguarda/image/aveiro_park/aveiro_park01.jpg 3 -
+/civilria.pt 1 -
+/robots.txt 81 -
+/civilria/lake/thumbnails/lake/lake01.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/lake/lake02.jpg 26 http://invisual.pt/civilria/lake/preview.swf
+/civilria/antas/thumbnails/plantas/2.jpg 5 http://www.invisual.pt/civilria/antas/preview.swf
+/civilria/lake/image/lake/lake07.jpg 3 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/ 2 -
+/civilria/aveiro_park/aveiro_park/aveiro_park03.jpg 4 http://www.invisual.pt/civilria/aveiro_park/preview.swf
+/no-text-4471409276461343085 1 -
+/civilria/lake/image/lake/lake09.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/logo.png 8 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/antas/tipologia.swf 3 http://www.invisual.pt/civilria/antas/preview.swf
+/civilria/backgrounds.swf 215 http://www.invisual.pt/civilria/fullscreen.swf
+/civilria/lake/image/lake/lake04.jpg 5 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/mirador/civilria.ico 4 -
+/civilria/antas/civilria.ico 10 -
+/civilria/lake/thumbnails/lake/lake05.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/no-text-1956224129153381018 1 -
+/civilria/civilria/antas/ 2 http://www.invisual.pt/civilria/menu.swf
+/civilria/lake/image/lake/lake03.jpg 13 http://invisual.pt/civilria/lake/preview.swf
+/civilria/civilria/lake/ 3 http://www.invisual.pt/civilria/menu.swf
+/civilria/antas/image/logo.swf 2 http://www.invisual.pt/civilria/antas/preview.swf
+/civilria/com_polaroides/backgrounds.swf 1 http://www.invisual.pt/civilria/com_polaroides/fullscreen.swf
+/no-text215088885815769216 1 -
+/cilvilria 1 -
+/civilria/antas/index.html 1 http://invisual.pt/civilria/menu.swf
+/civilria/lake/pageturn.mp3 212 http://www.invisual.pt/civilria/lake/catalogo.swf
+/civilria/civilria/aveiropark/ 6 http://invisual.pt/civilria/
+/civilria/lake/thumbnails/lake/lake04.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/antas/thumbnails/plantas/1.jpg 5 http://www.invisual.pt/civilria/antas/preview.swf
+/civilria/lake/image/lake/lake06.jpg 5 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/lake/lake13.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/asl 8 -
+/civilria/constroi.swf 6 http://invisual.pt/civilria/preview.swf
+/civilria/mirador/pageturn.mp3 211 http://invisual.pt/civilria/mirador/preview.swf
+/civilria/antas/plantas.swf 5 http://invisual.pt/civilria/antas/preview.swf
+/civilria/inguarda/image/logo.png 11 -
+/civilria/barra/index.html 6 http://www.invisual.pt/civilria/menu.swf
+/civilria/aveiro_park/index.html 3 http://www.invisual.pt/civilria/menu.swf
+/civilria/lake/image/lake/lake4.jpg 6 http://invisual.pt/civilria/lake/preview.swf
+/civilria/inguarda/arquitectos.swf 1 -
+/civilria/antas/pageturn.mp3 42 http://www.invisual.pt/civilria/antas/catalogo.swf
+/civilria/inguarda/image/mirador/mirador02.jpg 1 -
+/ASL 1 -
+/civilria/antas/catalogo.swf 12 http://www.invisual.pt/civilria/antas/preview.swf
+/civilria 1 -
+/civilria/mirador/thumbnails/plantas/2.jpg 2 http://invisual.pt/civilria/mirador/preview.swf
+/civilria/lake/thumbnails/lake/lake03.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/aveiropark/ 7 http://www.invisual.pt/civilria/menu.swf
+/civilria/mirador/thumbnails/plantas/1.jpg 2 http://invisual.pt/civilria/mirador/preview.swf
+/civilria/lake/image/lake/lake05.jpg 12 http://invisual.pt/civilria/lake/preview.swf
+/civilria/mirador/xml/mirador_plantas.xml 8 http://www.invisual.pt/civilria/mirador/preview.swf
+/civilria/aveiro_park/civilria.ico 2 -
+/civilria/lake/image/lake/lake10.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/lake/lake14.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/no-text-2458575766004178363 1 -
+/civilria/civilria/mirador/ 4 http://www.invisual.pt/civilria/menu.swf
+/civilria/lake/thumbnails/mirador/lake15.jpg 6 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/thumbnails/lake/lake02.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/lake/lake12.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/civilria.ico 9 -
+/civilria/lake/image/lake/lake08.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/image/lake/lake11.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/thumbnails/mirador/lake16.jpg 6 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/civlria/inguarda/ 1 http://www.invisual.pt/civilria/menu.swf
+/civilria/lake/image/mirador/mirador01.jpg 1 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/inguarda/image/mirador/mirador05.jpg 1 -
+/civilria/lake/image/lake/lake01.jpg 2 http://www.invisual.pt/civilria/lake/preview.swf
+/civilria/lake/index.html 4 http://invisual.pt/civilria/menu.swf
+/civilria_lixo/backgrounds.swf 7 http://invisual.pt/civilria_lixo/fullscreen.swf
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 324
+217.129.140.60 2396 5467 1425369872 20100130161607
+213.205.89.79 142 321 94255139 20100115152944
+213.228.140.34 57 128 57906084 20100115185811
+77.54.95.216 47 63 21234725 20100130234423
+93.102.98.224 35 73 15188315 20100111201937
+62.28.54.180 26 28 31934118 20100118135059
+77.54.164.96 26 31 45746225 20100130231401
+217.129.247.202 24 26 14636989 20100125172833
+83.240.187.63 22 26 8956169 20100125124311
+89.180.124.224 21 23 14855995 20100127125114
+89.214.191.55 21 23 12971543 20100113231043
+77.54.242.239 21 23 13304292 20100106125906
+62.28.63.186 21 23 15265221 20100112121052
+87.196.254.248 20 28 5842166 20100125095402
+84.91.7.140 19 23 52903110 20100119164654
+85.139.169.80 19 27 7176671 20100128222321
+84.91.32.254 19 21 70279836 20100111012223
+87.196.122.24 18 27 4907588 20100118090238
+89.214.103.28 18 22 6207908 20100126181453
+85.240.33.115 17 19 8491081 20100120124935
+85.241.164.147 17 19 12017549 20100114131857
+81.193.251.179 16 18 5599230 20100125162714
+85.241.152.99 16 18 10137435 20100129171753
+62.28.102.129 15 19 3563158 20100125100820
+188.81.160.206 15 17 7099364 20100124213839
+82.155.0.91 1 1 3291 20100126125239
+193.137.16.114 1 1 3291 20100105190307
+85.241.47.107 2 4 1019451 20100128002547
+84.90.160.187 1 1 3291 20100124112757
+84.90.128.234 1 1 3291 20100112155702
+188.80.176.119 2 4 112308 20100123185546
+194.79.73.254 12 16 6062026 20100104145612
+84.91.226.8 2 4 112308 20100105141728
+75.101.135.85 1 1 3291 20100122230110
+89.214.155.162 1 1 3291 20100122170239
+91.5.217.167 8 10 1504874 20100122225611
+83.132.4.41 2 4 112308 20100131182928
+201.239.126.244 6 10 1392044 20100120052731
+194.39.218.10 7 9 1267343 20100113114552
+213.13.144.4 2 4 112308 20100112112340
+151.54.106.149 1 1 3291 20100125143848
+95.93.184.210 1 1 3291 20100121235042
+87.196.119.246 1 1 3291 20100114131143
+89.122.29.81 2 3 9815 20100118220140
+83.240.187.184 1 1 50109587 20100126145427
+84.90.162.57 8 12 3957247 20100125124534
+85.139.93.30 6 8 2295381 20100109000358
+213.228.181.5 2 4 112308 20100127100915
+188.81.41.181 10 14 5040857 20100121031801
+85.241.173.196 11 13 5978734 20100114132300
+77.211.141.187 2 3 9815 20100129033102
+87.250.253.241 4 4 13164 20100130165914
+80.251.163.99 4 6 1127745 20100122142701
+85.241.20.19 6 8 2295381 20100122195202
+84.90.196.198 1 1 3291 20100124191657
+77.211.253.123 2 3 9815 20100127154320
+85.242.100.157 6 8 1159178 20100113170712
+85.138.101.54 4 6 1127745 20100126152921
+122.116.156.137 2 4 112308 20100111023834
+62.48.154.124 7 10 1163250 20100119193608
+85.241.23.97 3 3 3291 20100125091858
+217.129.244.135 2 2 6582 20100130184423
+93.102.37.242 2 4 112308 20100116115222
+89.180.244.226 2 2 3291 20100104141311
+62.28.91.17 10 14 3428387 20100120173651
+217.129.25.97 2 2 6582 20100126231527
+81.193.31.233 2 2 212773850 20100107154844
+81.84.24.66 2 4 112308 20100121083224
+79.117.106.167 6 10 2301998 20100109085309
+81.84.20.210 1 1 3291 20100110234909
+188.81.70.193 8 10 2046575 20100109093153
+195.218.28.156 10 12 3906286 20100126221343
+85.241.164.19 1 1 3291 20100103172435
+89.214.98.70 14 33 20496939 20100109133119
+213.22.58.216 1 1 3291 20100117051926
+85.241.65.215 1 1 3291 20100107023301
+89.180.106.110 1 1 3291 20100115103123
+123.237.60.45 10 14 7570017 20100107165804
+188.80.97.234 2 4 112308 20100118221805
+195.23.237.113 4 6 1127745 20100126180050
+85.242.145.54 1 1 3291 20100109164435
+85.127.4.138 10 18 2526614 20100108082309
+77.54.59.140 10 12 7834184 20100119202443
+85.138.77.59 2 4 112308 20100109175650
+89.155.41.13 6 8 2295381 20100119162206
+89.180.156.117 6 8 2295381 20100120161324
+89.242.2.20 7 11 2571165 20100108173318
+85.139.92.186 2 2 50112878 20100126125114
+94.73.46.197 8 12 1719964 20100107180432
+150.70.84.153 1 1 275656 20100120173947
+85.244.125.108 1 1 3291 20100121000229
+213.22.108.51 6 8 1159178 20100118190616
+77.54.44.100 1 1 3291 20100107113140
+89.180.197.94 1 1 3291 20100108235317
+85.241.170.50 1 1 3291 20100119154148
+93.108.176.228 9 11 3222688 20100119163451
+125.110.24.187 1 1 3291 20100122081948
+85.240.128.57 1 3 7305 20100105160920
+93.102.90.168 14 16 7048675 20100129185835
+97.87.24.153 2 2 6582 20100108063703
+189.100.234.200 1 1 3291 20100110223359
+82.154.96.27 7 9 2293564 20100104104656
+77.54.234.71 2 4 112308 20100123110812
+113.96.128.107 1 1 3291 20100113012714
+89.180.210.115 1 1 3291 20100130163124
+188.140.75.143 2 4 112308 20100119201055
+85.240.188.34 2 4 112308 20100106184602
+65.55.110.70 1 2 6524 20100113193623
+82.154.118.98 10 12 2802316 20100103023347
+216.104.15.138 1 1 108165 20100103023247
+217.129.161.71 4 4 2724373 20100126140025
+81.193.30.61 1 1 3291 20100106210009
+88.209.85.240 8 12 5787410 20100108113629
+188.80.106.209 2 4 112308 20100106000630
+119.139.179.21 4 8 1130390 20100121151013
+77.54.138.104 1 1 3291 20100117180948
+83.132.31.24 1 1 3291 20100126234325
+84.91.32.176 8 12 3314832 20100121003653
+85.241.245.76 10 12 3355331 20100115174656
+96.255.32.135 1 1 3291 20100108054930
+219.149.52.98 1 1 3291 20100114123949
+83.132.106.68 12 18 3985626 20100107220630
+77.211.121.142 2 3 9815 20100126201820
+84.90.164.192 1 1 3291 20100105170110
+85.243.57.97 6 8 1259947 20100129132434
+66.229.227.54 7 11 2104478 20100108042153
+85.139.92.233 2 4 112308 20100115214838
+85.139.92.108 6 8 2295381 20100113155749
+87.196.248.81 9 11 1779570 20100116184845
+77.54.8.147 3 5 115597 20100128193041
+85.242.213.212 1 1 3291 20100104211356
+195.23.115.179 1 1 3291 20100104094942
+193.136.93.179 1 1 3291 20100125174139
+83.212.62.146 6 10 2301998 20100107201602
+113.147.240.133 5 9 1154427 20100110095111
+84.91.29.68 1 1 3291 20100110162705
+188.80.233.121 4 6 1127745 20100113175426
+80.251.174.147 2 4 112308 20100121164729
+89.181.124.122 6 8 2295381 20100129092806
+87.196.242.57 15 21 4558267 20100111123718
+85.244.250.210 1 1 3291 20100130151028
+85.139.168.205 11 13 5129225 20100109000200
+93.108.182.245 5 7 1151782 20100131232022
+84.91.116.113 2 4 112308 20100128115638
+85.246.197.214 2 3 9815 20100124023915
+188.140.52.108 1 1 3291 20100112174451
+95.136.79.100 1 1 3291 20100114170610
+217.129.140.27 1 1 3291 20100105152530
+213.13.148.5 7 9 1162469 20100112112448
+85.241.155.131 2 4 112308 20100111121935
+115.134.79.15 12 16 8047320 20100126024928
+87.196.89.133 5 7 1151782 20100114174123
+64.124.203.75 1 1 169122948 20100127125651
+85.240.32.166 1 1 3291 20100104122004
+81.193.240.110 2 3 17547 20100106090040
+85.241.154.132 2 2 3291 20100131195843
+216.104.15.142 2 2 26716 20100120173353
+84.91.33.14 2 4 112308 20100103163335
+87.103.73.35 1 1 3291 20100131190727
+195.23.139.114 4 6 220602 20100115123402
+87.196.142.184 8 10 5793812 20100117004009
+64.79.72.114 2 3 9815 20100122064753
+82.154.195.196 3 4 112364 20100130184336
+83.132.178.90 1 1 3291 20100125185841
+121.29.129.162 1 2 4072 20100120061417
+62.48.179.229 2 2 6582 20100121095947
+89.155.110.4 5 7 1151782 20100127205110
+193.136.173.41 13 17 2590855 20100113114907
+84.90.165.136 1 1 3291 20100116150653
+193.136.173.42 2 2 6582 20100125134058
+84.90.224.161 1 1 3291 20100127192107
+85.139.169.47 2 4 112308 20100111114333
+85.92.247.253 5 9 1154427 20100107212104
+62.160.117.198 2 3 17547 20100104144315
+93.102.82.98 1 1 3291 20100109145516
+194.49.48.51 7 14 336143 20100119104954
+81.193.42.224 1 1 3291 20100120180622
+195.23.25.197 1 1 3291 20100118174231
+194.65.25.194 1 1 3291 20100128185326
+62.28.10.43 4 6 0 20100129164459
+222.221.183.120 6 10 1867206 20100126234501
+211.20.131.202 4 8 1130390 20100108135234
+82.155.7.254 1 1 3291 20100118161211
+84.90.80.81 3 3 6582 20100121143404
+93.102.64.187 1 1 3291 20100130210623
+84.91.67.173 9 11 4685374 20100120184619
+77.211.148.156 4 6 19630 20100108111440
+188.80.110.241 1 1 3291 20100122010315
+213.63.80.109 1 1 3291 20100124212238
+85.241.60.247 1 1 3291 20100109000918
+65.55.104.72 1 2 6524 20100114065744
+189.191.54.248 6 10 2302246 20100109194530
+212.18.162.33 1 1 3291 20100114180446
+85.240.207.34 1 1 3291 20100106140107
+216.104.15.134 4 4 2017590 20100120173947
+82.154.235.9 1 1 3291 20100125191155
+87.103.85.38 11 13 8968163 20100131193533
+85.139.171.170 1 2 6524 20100115135708
+82.154.251.15 3 3 9873 20100112123218
+85.139.92.209 1 1 3291 20100104100112
+83.132.0.144 1 1 3291 20100114205310
+83.240.199.45 1 1 3291 20100107162339
+194.210.64.28 8 10 2262519 20100113091601
+217.129.134.246 2 4 112308 20100121020222
+84.90.42.128 2 4 112308 20100129161051
+89.214.65.162 1 1 3291 20100120223721
+85.127.2.223 1 1 3291 20100102144344
+87.196.244.118 9 13 2279527 20100120120006
+87.196.113.199 1 1 3291 20100129171647
+193.194.130.171 2 3 9815 20100105234726
+85.127.15.240 4 8 224616 20100121230320
+62.48.196.240 11 11 2921136 20100119194108
+60.18.162.29 1 1 3291 20100112202341
+193.137.168.202 6 8 1159178 20100113113507
+85.241.95.198 9 11 5801208 20100114115010
+77.54.5.73 1 1 3291 20100125173639
+93.102.79.173 1 1 0 20100116013748
+213.22.23.156 1 1 3291 20100117232026
+80.187.109.17 7 11 2409558 20100110002700
+194.65.229.230 1 1 3291 20100121173645
+83.240.154.46 1 1 3291 20100114161254
+89.155.166.183 5 7 1151782 20100114220738
+62.48.168.229 2 4 112308 20100113111313
+173.45.107.170 1 1 3291 20100101154517
+84.90.167.208 9 11 3354715 20100124100115
+83.240.200.110 3 3 9873 20100111174002
+188.80.98.216 4 6 1127745 20100122190912
+193.231.18.7 5 9 1154427 20100108200030
+65.55.109.236 2 3 111527 20100127125659
+114.108.192.47 1 1 269614 20100118092145
+77.211.126.16 4 6 19630 20100120003323
+82.154.99.79 13 17 3007614 20100125122833
+84.91.7.203 1 1 3291 20100113114018
+119.27.62.254 2 2 6580 20100107165424
+83.240.187.22 1 1 3291 20100122122048
+89.214.199.2 1 1 3291 20100127104127
+86.80.119.213 2 3 9815 20100115100958
+64.124.203.74 1 1 169122948 20100107134526
+85.241.22.10 2 2 338245896 20100127095355
+89.180.109.12 1 1 3291 20100125084931
+41.249.7.168 11 15 3924399 20100109090420
+85.244.232.54 5 7 1151782 20100129181241
+66.249.16.212 1 1 3291 20100121001042
+213.22.38.84 12 16 4590762 20100119224043
+94.100.189.220 1 1 0 20100121101300
+85.241.213.40 1 1 3291 20100111201147
+208.50.101.153 1 1 43650902 20100107181414
+85.244.192.218 5 9 1154427 20100124220918
+188.80.98.110 15 19 2981075 20100117172207
+81.193.209.11 2 4 112308 20100112221318
+188.81.138.31 7 11 3781697 20100122200423
+85.242.108.11 1 1 3291 20100106101845
+196.12.242.184 6 10 2160458 20100122182653
+85.139.97.56 1 1 3291 20100113094939
+84.90.167.248 1 1 3291 20100101225320
+77.54.237.218 1 1 3291 20100104141831
+77.54.6.240 1 1 3291 20100118220832
+114.108.207.17 14 18 8849753 20100118092155
+74.52.245.146 1 1 3291 20100125031907
+194.65.237.215 1 1 3291 20100122165003
+208.50.101.155 1 1 50109587 20100125181701
+89.180.242.56 2 2 3291 20100105111743
+85.241.163.126 7 9 2217946 20100125121841
+85.246.204.11 1 1 3291 20100129232310
+85.241.226.38 1 1 3291 20100129180517
+188.80.151.235 5 7 1151782 20100129170258
+82.154.12.88 1 1 3291 20100117171801
+82.158.40.169 6 10 2302246 20100118094405
+62.1.129.144 7 11 2409558 20100111091746
+217.129.139.219 6 8 2295381 20100127181015
+187.20.118.190 1 1 3291 20100104163610
+217.129.131.85 5 7 1151782 20100125115348
+211.33.59.130 4 9 1133623 20100107091213
+201.2.192.47 1 1 3291 20100124030915
+82.154.161.250 1 1 3291 20100126181145
+85.241.159.226 1 1 597370072 20100113165030
+189.38.182.210 1 1 3291 20100122003341
+150.70.84.26 3 3 719986 20100120180736
+95.69.110.124 1 1 3291 20100114144723
+187.35.70.68 1 1 3291 20100122123438
+84.90.164.101 6 8 1159178 20100108194427
+217.129.128.237 1 1 3291 20100102183207
+85.246.46.72 4 8 112308 20100107180256
+222.125.223.244 2 4 112308 20100107142155
+85.139.92.50 9 23 6772009 20100108155244
+85.241.182.173 5 7 1151782 20100123210547
+194.145.60.134 1 1 3291 20100114113309
+78.185.53.93 5 9 1154427 20100108221412
+125.110.20.105 1 1 3291 20100127052656
+84.91.197.8 9 11 3638617 20100126141415
+89.180.86.74 5 7 3673403 20100121193336
+213.30.72.242 5 7 1151782 20100118121051
+78.185.110.149 10 18 2308854 20100109204843
+193.49.249.215 2 4 112308 20100112134615
+212.56.100.159 6 10 2301998 20100108150835
+87.196.119.173 1 1 3291 20100107095007
+89.214.5.24 10 12 3985626 20100115005252
+189.82.84.43 8 10 5793812 20100115031759
+213.22.218.239 1 1 3291 20100105111239
+93.108.94.157 1 3 7305 20100101161548
+87.196.178.211 4 6 1127745 20100103001631
+83.132.119.132 1 1 3291 20100125005932
+84.91.224.30 2 4 112308 20100119114732
+194.179.126.158 1 2 4072 20100107125518
+77.250.138.59 8 12 5787410 20100107220930
+85.241.228.141 7 9 3433610 20100121211830
+82.155.153.253 1 1 3291 20100114132126
+85.241.175.140 3 3 507368844 20100127175357
+65.55.230.161 1 1 3291 20100117011956
+188.80.63.131 5 7 1151782 20100111184014
+112.214.115.97 6 12 1130476 20100114022121
+93.108.120.29 1 1 3291 20100115025505
+77.169.198.228 1 1 3291 20100103055625
+84.91.226.19 1 1 3291 20100101181752
+213.63.176.39 1 1 3291 20100116193523
+193.145.46.52 1 1 3291 20100107102854
+193.137.210.254 2 4 112308 20100122111959
+174.129.225.12 1 1 3291 20100122151954
+217.129.243.130 2 4 112308 20100123185958
+85.246.150.50 6 8 2295381 20100106093402
+77.54.250.38 1 1 3291 20100121121638
+85.241.161.175 15 17 5386044 20100128100618
+82.154.130.79 1 1 3291 20100125120427
+87.103.103.221 7 9 2384809 20100117010327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20100101 4 6 17178 4
+20100102 2 2 6582 2
+20100103 27 35 7139247 9
+20100104 31 40 8508482 11
+20100105 64 81 142917676 12
+20100106 44 61 15851709 10
+20100107 94 146 664640644 23
+20100108 188 401 90823959 21
+20100109 79 144 37676382 14
+20100110 15 23 3573858 5
+20100111 357 825 162032750 16
+20100112 412 964 121501991 17
+20100113 255 528 1263363657 21
+20100114 632 1248 106835488 22
+20100115 1024 2268 219735635 17
+20100116 23 29 3619588 6
+20100117 26 32 9455023 8
+20100118 76 96 47520308 17
+20100119 88 112 77701145 13
+20100120 97 131 32836622 21
+20100121 56 84 19344010 21
+20100122 57 82 14329424 18
+20100123 11 19 1488706 4
+20100124 36 45 11634776 10
+20100125 102 124 133441640 23
+20100126 128 221 153483154 18
+20100127 48 58 1033287660 15
+20100128 52 72 18183522 8
+20100129 65 84 23176998 14
+20100130 52 66 49186490 9
+20100131 21 27 10238835 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 32
+0s-30s 260
+15mn-30mn 20
+30s-2mn 48
+2mn-5mn 30
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 173
+/ 398 1181469 347 163
+/civilria/ 220 104676 22 1
+/idioma.swf 216 19635561 0 53
+/civilria/menu.swf 192 107488808 0 0
+/civilria/vars_bgs.xml 173 13662 0 0
+/civilria/som.mp3 172 128891592 0 6
+/civilria/preview.swf 171 1851905 0 0
+/civilria/fullscreen.swf 168 96864 0 0
+/pt.html 136 404547 12 3
+/home.swf 131 121457760 0 15
+/swf/borbuletas.swf 116 2620033 2 14
+/civilria/civilria.ico 86 204696 0 1
+/civilria/antas/preview.swf 82 1385321 0 0
+/civilria/antas/xml/config.xml 81 138618 0 0
+/civilria/antas/ 79 24894 0 0
+/civilria/antas/image/logo.swf 74 116235 0 2
+/civilria/mirador/ 62 33087 1 0
+/civilria/mirador/preview.swf 59 1260400 0 0
+/civilria/lake/ 58 30264 0 0
+/civilria/mirador/image/logo.swf 55 129441 0 1
+/swf/internet.swf 54 58388521 1 28
+/civilria/mirador/xml/config.xml 54 163461 0 1
+/civilria/lake/preview.swf 53 1310828 0 0
+/civilria/lake/xml/config.xml 52 129335 0 0
+/civilria/lake/image/logo.swf 45 96563 0 0
+/swf/multimedia/mercentro.swf 3 108708 0 0
+/swf/fotografia/gastronomia.swf 12 7465908 0 5
+/civilria/aveiro_park/xml/aveiro_park_exterior.xml 2 2410 0 0
+/civilria/lake/catalogo.swf 14 13926127 0 0
+/civilria/inguarda/preview.swf 11 374538 0 0
+/civilria_lixo/menu.swf 7 5193141 0 0
+/eng/ 29 92092 1 1
+/swf/design/linhasgraficas.swf 19 44843838 1 4
+/videos/mercentro.flv 3 146841273 0 0
+/swf/multimedia/fm07.swf 2 72468 0 0
+/tedimovel/visual.zip 2 1194740144 1 2
+/civilria_lixo/fullscreen.swf 7 6054 0 0
+/swf/design/insercoes.swf 11 19529917 0 3
+/civilria/mirador/xml/mirador_interior.xml 3 4365 0 0
+/swf/eventos/litoraldesign.swf 5 6112550 0 1
+/eng/swf/borbuletas.swf 24 576888 0 7
+/eurogres/natal/eurogres.html 3 8037 3 1
+/civilria/antas/tipologia.swf 2 1185 0 0
+/civilria/antas/civilria.ico 11 56860 0 0
+/civilria/aveiro_park/localizacao.swf 2 2456 0 0
+/civilria_lixo/vars_bgs.xml 7 828 0 0
+/civilria/inguarda/catalogo.swf 1 1036 0 0
+/eng/swf/multimedia.swf 3 711816 0 1
+/eng/home.swf 28 28301812 0 3
+/swf/fotografia/espacos.swf 12 7570932 0 1
+/swf/fotografia.swf 34 17667182 1 4
+/videos/lf07_01.flv 1 33980938 0 0
+/civilria/armazens/feira_nova/feira_nova.swf 7 697258 0 0
+/civilria/habitacao/mirador_barra/mirador_barra.swf 40 3072430 0 1
+/civilria/armazens/aveiroparque/aveiroparque.swf 3 671890 0 0
+/swf/multimedia/lf07_01.swf 1 36238 0 0
+/civilria/antas/xml/antas_exterior.xml 18 3708 0 0
+/swf/eventos/bmw7.swf 8 2205248 1 2
+/eng/swf/design/linhasgraficas.swf 4 9440740 0 1
+/civilria/inguarda/ 11 9661 0 0
+/swf/eventos/mini.swf 8 3385864 0 2
+/videos/backstage.flv 5 89018510 1 1
+/civilria/lake/plantas.swf 3 3465 0 0
+/civilria/aveiro_park/catalogo.swf 3 2360496 0 0
+/civilria/a1_aveiro_sul/civilria.ico 4 22744 0 0
+/civilria/a1_aveiro_sul/xml/config.xml 8 18536 0 0
+/civilria/lake/xml/lake_exterior.xml 9 4380 0 1
+/civilria/habitacao/paco_dalameda/paco_dalameda.swf 13 2716578 0 0
+/esp/swf/multimedia.swf 1 237531 0 1
+/esp/swf/design.swf 4 1078456 1 1
+/civilria/inguarda/plantas.swf 2 2310 0 0
+/swf/design.swf 30 8091390 0 0
+/civilria/mirador/catalogo.swf 13 4937431 0 1
+/civilria/habitacao/cais_das_falcoeiras/cais_das_falcoeiras.swf 11 789083 0 0
+/swf/multimedia/lf08_01.swf 6 217356 0 0
+/civilria/mirador/plantas.swf 1 1155 0 0
+/civilria/mirador/xml/mirador_plantas.xml 2 365 0 0
+/civilria/aveiro_park/plantas.swf 4 4620 0 0
+/eng/swf/design/embalagens.swf 1 264918 0 0
+/civilria/mirador/xml/cliria.xml 10 5159 0 1
+/swf/design/embalagens.swf 9 2384325 0 0
+/civilria/com_polaroides/fullscreen.swf 1 3027 0 0
+/eng/swf/design/insercoes.swf 1 1775411 0 0
+/videos/feirademarco.flv 1 1525781 0 0
+/swf/contactos.swf 29 207088 0 13
+/civilria/aveiro_park/image/logo.swf 12 20570 0 0
+/civilria/habitacao/moradias_de_vilar/moradias_de_vilar.swf 15 687718 0 0
+/civilria/com_polaroides/menu.swf 1 714646 0 0
+/civilria/antas/localizacao.swf 16 5264148 0 0
+/swf/multimedia/serie7.swf 9 2889621 0 0
+/eng/swf/fotografia/espacos.swf 1 630911 0 1
+/eng/swf/design.swf 5 1345835 0 0
+/civilria/inguarda/civilria.ico 5 28430 0 0
+/swf/videos.swf 12 88660 0 0
+/civilria/aveiro_park/xml/config.xml 13 37734 0 0
+/civilria/com_polaroides/pictures.xml 1 3921 0 0
+/civilria/armazens/agueda_park/agueda_park.swf 12 2152026 0 0
+/civilria_lixo/preview.swf 7 80518 0 0
+/swf/eventos.swf 31 21402120 3 4
+/esp/home.swf 6 6065190 0 1
+/eng/swf/fotografia/objectos.swf 1 546541 0 0
+/civilria/lake/xml/lake_plantas.xml 11 14556 0 1
+/swf/fotografia/automovel.swf 15 7719150 0 0
+/civilria/armazens/cliria/cliria.swf 1 147918 0 0
+/swf/multimedia/lf.swf 10 3535830 0 2
+/civilria/lake/arquitectos.swf 1 1520 0 0
+/download/dafev2010.zip 4 200438348 4 4
+/esp/ 6 19734 0 0
+/eng/swf/empresa.swf 3 322680 0 1
+/civilria/com_polaroides/preview.swf 1 8538 0 0
+/civilria/mirador/civilria.ico 15 56860 0 0
+/videos/lf07_02edic.flv 1 30327867 0 0
+/civilria/lake/localizacao.swf 5 5289042 0 1
+/eng/swf/internet.swf 7 8032997 0 7
+/ClearExternalAll.swf 10 54370 0 1
+/tedimovel/clinica_cmpa.zip 3 130952706 2 2
+/tedimovel/j_dias_ferreira.zip 9 1522106532 7 7
+/civilria/a1_aveiro_sul/image/logo.swf 8 16456 0 1
+/swf/empresa.swf 35 3461280 3 8
+/swf/eventos/smart.swf 4 5115348 0 1
+/swf/eventos/mercedes.swf 8 10202296 0 0
+/civilria/mirador/mirador.pdf 1 2645912 0 0
+/swf/eventos/biju.swf 9 10547856 0 3
+/videos/fm07.flv 2 690429 0 0
+/eurogres/natal/home.swf 2 23270 0 2
+/eng/swf/eventos/mercedes.swf 1 1275017 0 0
+/swf/multimedia/lf07_02.swf 1 36242 0 0
+/civilria/a1_aveiro_sul/preview.swf 8 249692 0 0
+/civilria_lixo/civilria.ico 2 11372 0 0
+/civilria/a1_aveiro_sul/ 8 5552 0 0
+/civilria/com_polaroides/som.mp3 1 3743996 0 0
+/civilria/armazens/inguarda/inguarda.swf 6 528717 0 0
+/swf/multimedia/fm09.swf 5 181115 0 0
+/civilria/com_polaroides/vars_bgs.xml 1 434 0 0
+/civilria/antas/plantas.swf 18 8085 0 1
+/swf/multimedia/mini.swf 8 2689544 0 1
+/eng/swf/fotografia.swf 1 519569 0 0
+/civilria/inguarda/localizacao.swf 1 1228 0 0
+/civilria_lixo/ 7 6344 0 0
+/civilria_lixo/mailform.php 6 467 0 1
+/civilria/inguarda/xml/config.xml 11 32096 0 0
+/civilria/habitacao/paco_dalameda_2/paco_dalameda_2.swf 9 1883156 0 0
+/eng/swf/eventos.swf 3 2138337 0 1
+/eng/swf/contactos.swf 4 28784 0 2
+/civilria/armazens/estarreja_park/estarreja_park.swf 4 173124 0 0
+/eng/swf/design/grandesformatos.swf 4 8014524 0 2
+/civilria/aveiro_park/preview.swf 13 386598 0 0
+/swf/fotografia/objectos.swf 17 9291197 0 2
+/civilria_lixo/som.mp3 7 6996970 0 0
+/civilria/antas/catalogo.swf 13 4832775 0 0
+/civilria/mirador/localizacao.swf 5 6352682 0 1
+/civilria/aveiro_park/ 14 12464 0 0
+/civilria/com_polaroides/ 1 2587 0 0
+/civilria/antas/arquitectos.swf 2 1520 0 0
+/esp/swf/internet.swf 8 9181864 0 3
+/swf/multimedia/biju_01.swf 4 144944 0 0
+/eng/swf/multimedia/serie7.swf 2 642138 0 1
+/civilria/armazens/a1_aveiro_sul_park/a1_aveiro_sul_park.swf 28 2592198 0 0
+/civilria/aveiro_park/civilria.ico 4 22744 0 1
+/civilria/lake/xml/lake_interior.xml 5 7448 0 0
+/civilria/antas/xml/antas_plantas.xml 5 1330 0 0
+/swf/multimedia.swf 27 6413337 0 0
+/esp/swf/borbuletas.swf 4 96148 0 0
+/civilria/lake/civilria.ico 14 73918 0 0
+/swf/multimedia/filinox.swf 6 1542378 0 2
+/civilria/antas/xml/antas_interior.xml 15 9330 0 0
+/civilria/mirador/xml/mirador_exterior.xml 6 9405 0 0
+/civilria/lake/tipologia.swf 1 1185 0 0
+/civilria/com_polaroides/civilria.ico 1 5686 0 0
+/eng/swf/fotografia/automovel.swf 1 514610 0 0
+/swf/design/grandesformatos.swf 17 34205955 0 3
+/civilria/inguarda/xml/inguarda_exterior.xml 2 838 0 0
+/civilria/com_polaroides/photo_album.swf 1 40270 0 0
+END_SIDER

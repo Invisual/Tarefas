@@ -1,0 +1,187 @@
+CACHE type 5 produced by analog 6.0/Unix. Do not modify or delete!
+T	0	0	57	0	473	2	443197
+D	25026806	25311925
+17379	209	6	0	516
+17383	148	14	0	401733
+17383	149	19	0	39400
+17440	261	6	0	516
+17501	260	6	0	516
+17562	261	6	0	516
+1	1	0	0	0	25290588	0	0	25290588	0	0	64	/.well-known/acme-challenge/-1_F8IJQ70S0LR6NNB7SV2W34MKUTUFQ
+1	1	0	0	0	25026806	0	0	25026806	0	0	64	/.well-known/acme-challenge/HHSI02Z_USZNYCD8TF3DN027GMY_-RDR
+1	0	0	2	0	0	25304750	0	0	25296409	0	0	/.remote-sync.json
+1	0	0	3	1	0	25130112	25127130	0	25122827	25127130	0	/?40.77.167.118
+1	1	0	0	0	25290588	0	0	25290588	0	0	64	/.well-known/acme-challenge/_WYXD2F83VWF1JQFW9VMJM8VRT6GMCJB
+1	4	0	0	0	25032266	0	0	25032266	0	0	8021	/listar_tarefa.php?id=70
+1	1	0	0	0	25202743	0	0	25202743	0	0	64	/.well-known/acme-challenge/6KQ4F6C7FC20L79B7NCSNRACWW5ISBD5
+1	0	0	1	0	0	25114906	0	0	25114906	0	0	/.well-known/acme-challenge/K-MT_UXPA1CV69ZVDH-GO33T1IXLABRS?94.133.226.207
+1	0	0	2	0	0	25304750	0	0	25296409	0	0	/.vscode/ftp-sync.json
+1	1	0	0	0	25032261	0	0	25032261	0	0	1354	/img/favicon.ico
+1	2	0	0	0	25202743	0	0	25202743	0	0	194	/.well-known/acme-challenge/KLTeuOOPjKDBnHfZJu7t2Ozov9mForkDNiV--RAVjhE
+1	0	0	2	0	0	25304750	0	0	25296410	0	0	/sftp-config.json
+1	1	0	0	0	25032267	0	0	25032267	0	0	1823	/list_clientes.php
+1	0	0	331	0	0	25311925	0	0	25032292	0	0	/
+1	3	0	0	0	25032266	0	0	25032263	0	0	5649	/list_tarefas.php
+1	0	0	2	0	0	25304750	0	0	25296409	0	0	/.ftpconfig
+1	2	0	0	0	25290589	0	0	25290589	0	0	194	/.well-known/acme-challenge/ypbXHUUDdN8lEb7T4NeJZhuCyWTIO970UIXnKRcebfs
+1	2	0	0	0	25032266	0	0	25032261	0	0	4064	/css/estilos.css
+1	1	0	0	0	25032261	0	0	25032261	0	0	96464	/img/logo.png
+1	0	0	6	0	0	25143354	0	0	25116105	0	0	/robots.txt
+1	1	0	0	0	25032261	0	0	25032261	0	0	192579	/img/fundo.jpg
+1	0	0	0	1	0	0	25127130	0	0	25127130	0	/favicon.ico
+1	2	0	0	0	25202743	0	0	25202743	0	0	194	/.well-known/acme-challenge/-7iSwCnGFWI6G-aefG4nX6xJEM3Fp7KaWVJXVCbGXRY
+1	0	0	1	0	0	25143418	0	0	25143418	0	0	/blog/wp-login.php
+1	0	0	1	0	0	25130981	0	0	25130981	0	0	/admin?40.77.167.118
+1	1	0	0	0	25202743	0	0	25202743	0	0	64	/.well-known/acme-challenge/Y477K0FVWWD1MLP98J675ZXQ5UL3DS-W
+1	0	0	13	0	0	25098630	0	0	25032261	0	0	/?66.133.109.36
+1	0	0	3	0	0	25096892	0	0	25086808	0	0	/?138.197.75.49
+1	0	0	1	0	0	25138591	0	0	25138591	0	0	/robots.txt?185.7.214.218
+1	4	0	1	0	25032267	25032274	0	25032263	25032274	0	6540	/index.php
+1	4	0	0	0	25032266	0	0	25032263	0	0	7957	/insert_tarefa.php
+1	0	0	2	0	0	25181301	0	0	25158542	0	0	/xmlrpc.php
+1	0	0	2	0	0	25137217	0	0	25132910	0	0	/?185.7.214.218
+1	1	0	0	0	25032266	0	0	25032266	0	0	2521	/tasks.php?id=70&titulo=Primeiro Projeto Online&not=5
+1	0	0	9	0	0	25119936	0	0	25102664	0	0	/?94.133.226.207
+1	0	0	2	0	0	25304750	0	0	25296410	0	0	/.env
+1	0	0	2	0	0	25121459	0	0	25116104	0	0	/robots.txt?94.133.226.207
+1	0	0	2	0	0	25181301	0	0	25158542	0	0	/wp-login.php
+1	2	0	0	0	25114906	0	0	25114906	0	0	194	/.well-known/acme-challenge/9Abi9fbnoNFm8pNjca4vKQ2EUCWMHMrpxk-LREtvCiY
+1	2	0	0	0	25026806	0	0	25026806	0	0	194	/.well-known/acme-challenge/t4gHvB1vERREUlAgw0pWcZmuHWqny-Ghdwq1UkOz-ro
+1	1	0	0	0	25032263	0	0	25032263	0	0	96239	/img/users/eduardo.jpg
+1	1	0	0	0	25026806	0	0	25026806	0	0	64	/.well-known/acme-challenge/5874VKII3QWE1GGE1EZNPQFGUE888XCX
+1	2	0	0	0	25290589	0	0	25290589	0	0	194	/.well-known/acme-challenge/bzonZuN2micjOP1eW7JDgKD35beHfN95Zpk-K1Svf6A
+1	1	0	0	0	25032263	0	0	25032263	0	0	73	/css/queries.css
+1	2	0	0	0	25114906	0	0	25114906	0	0	194	/.well-known/acme-challenge/JN1kwjnodRbhFyL5Oyf07gzBoUqQCksvxSlsibBlVTI
+1	0	0	2	0	0	25304750	0	0	25296410	0	0	/deployment-config.json
+1	0	0	2	0	0	25101254	0	0	25099787	0	0	/?2.82.173.228
+1	0	0	1	0	0	25139550	0	0	25139550	0	0	/wp-login.php?185.7.214.218
+1	0	0	2	0	0	25039376	0	0	25039376	0	0	/listar_tarefa.php?id=20
+1	3	0	0	0	25032263	0	0	25032261	0	0	3705	/login.php
+1	0	0	76	0	0	25311459	0	0	25141534	0	0	/?176.61.142.136
+1	3	0	0	0	25032266	0	0	25032266	0	0	7382	/mensagens.php?id=70&titulo=Primeiro Projeto Online&cliente=Invisual
+1	1	0	0	0	25114906	0	0	25114906	0	0	64	/.well-known/acme-challenge/7AW_58UVKZ3ZP93JJ2HIUWX1V8JZN3QH
+1	1	0	0	0	25032266	0	0	25032266	0	0	1972	/list_tarefas_urg.php
+1	0	0	1	0	0	25140866	0	0	25140866	0	0	/wordpress/wp-login.php
+1	2	0	0	0	25026806	0	0	25026806	0	0	194	/.well-known/acme-challenge/FEgaXGQZf9i6V2-pV5PhJdF5VXzHQa1uwuvNbiaaAhI
+1	1	0	0	0	25114906	0	0	25114906	0	0	64	/.well-known/acme-challenge/YKV8KSSVLSD30UHFK5PUA65GIM5BIW7T
+1	2	0	0	0	25032266	0	0	25032266	0	0	4790	/tasks.php?id=70&titulo=Primeiro Projeto Online&cliente=Invisual
+1	0	0	1	0	0	25142121	0	0	25142121	0	0	/wp/wp-login.php
+3	4	0	0	0	25032266	0	0	25032266	0	0	9782	http://tarefas.invisual.pt/listar_tarefa.php?id=70
+3	3	0	0	0	25032266	0	0	25032263	0	0	5843	http://tarefas.invisual.pt/list_tarefas.php
+3	6	0	0	0	25032263	0	0	25032261	0	0	295201	http://tarefas.invisual.pt/login.php
+3	0	0	1	0	0	25140866	0	0	25140866	0	0	http://tamagotchi-virtual-pet.dofreedownload.com/wordpress/wp-login.php
+3	3	0	0	0	25032266	0	0	25032266	0	0	6542	http://tarefas.invisual.pt/mensagens.php?id=70&titulo=Primeiro Projeto Online&cliente=Invisual
+3	3	0	0	0	25032266	0	0	25032266	0	0	6494	http://tarefas.invisual.pt/tasks.php?id=70&titulo=Primeiro Projeto Online&cliente=Invisual
+3	0	0	1	0	0	25143418	0	0	25143418	0	0	http://talentdeveloper.com/blog/wp-login.php
+3	3	0	1	0	25032267	25032274	0	25032266	25032274	0	4905	http://tarefas.invisual.pt/tasks.php?id=70&titulo=Primeiro Projeto Online&not=5
+3	0	0	2	0	0	25142121	0	0	25139550	0	0	http://45.79.81.203:65080/t.txt
+3	5	0	0	0	25032267	0	0	25032263	0	0	101768	http://tarefas.invisual.pt/index.php
+3	4	0	0	0	25032266	0	0	25032264	0	0	8030	http://tarefas.invisual.pt/insert_tarefa.php
+3	0	0	0	1	0	0	25127130	0	0	25127130	0	http://tarefas.invisual.pt/
+4	0	0	1	0	0	25254549	0	0	25254549	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+4	8	0	0	0	25290589	0	0	25026806	0	0	856	Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+4	0	0	1	0	0	25130827	0	0	25130827	0	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+4	0	0	45	0	0	25300352	0	0	25259624	0	0	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+4	0	0	1	0	0	25222628	0	0	25222628	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+4	0	0	6	0	0	25078252	0	0	25032398	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+4	0	0	1	0	0	25292773	0	0	25292773	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36
+4	0	0	2	0	0	25299183	0	0	25298642	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+4	0	0	6	0	0	25258631	0	0	25249543	0	0	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+4	0	0	1	0	0	25117246	0	0	25117246	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+4	0	0	1	0	0	25032379	0	0	25032379	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+4	0	0	4	0	0	25042309	0	0	25032388	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12
+4	0	0	2	0	0	25109042	0	0	25097599	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+4	0	0	2	0	0	25130981	0	0	25130981	0	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31
+4	0	0	10	0	0	25143354	0	0	25116104	0	0	Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+4	0	0	12	0	0	25304750	0	0	25296409	0	0	Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+4	0	0	1	0	0	25231181	0	0	25231181	0	0	Mozilla/5.0 (Linux; Android 8.1.0; Pixel XL Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+4	0	0	2	0	0	25311469	0	0	25308589	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+4	0	0	3	0	0	25076760	0	0	25032394	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0
+4	0	0	112	0	0	25296723	0	0	25109858	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+4	0	0	2	0	0	25107002	0	0	25097098	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0
+4	0	0	3	0	0	25077591	0	0	25038366	0	0	Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1
+4	33	0	2	0	25032267	25032274	0	25032261	25032261	0	441133	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+4	0	0	1	0	0	25102017	0	0	25102017	0	0	Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1
+4	0	0	16	0	0	25311925	0	0	25301475	0	0	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+4	0	0	2	0	0	25139758	0	0	25139658	0	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+4	0	0	48	0	0	25108863	0	0	25081421	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+4	0	0	7	0	0	25042160	0	0	25032418	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0
+4	0	0	1	0	0	25252690	0	0	25252690	0	0	Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C153 Safari/604.1
+4	0	0	4	0	0	25143153	0	0	25116105	0	0	Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+4	0	0	5	0	0	25295416	0	0	25080636	0	0	Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+4	0	0	28	0	0	25221248	0	0	25181853	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+4	0	0	12	0	0	25292771	0	0	25032518	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+4	0	0	3	0	0	25039832	0	0	25038299	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+4	0	0	6	2	0	25150248	25127130	0	25110316	25127130	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+4	0	0	35	0	0	25259943	0	0	25212392	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+4	0	0	4	0	0	25143418	0	0	25139550	0	0	Mechanize/2.7.3 Ruby/1.9.3p551 (http://github.com/sparklemotion/mechanize/)
+4	0	0	1	0	0	25108408	0	0	25108408	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+4	0	0	5	0	0	25199835	0	0	25092824	0	0	Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1
+4	0	0	1	0	0	25032379	0	0	25032379	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12
+4	0	0	1	0	0	25032292	0	0	25032292	0	0	Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13E238 Safari/601.1
+4	0	0	2	0	0	25038115	0	0	25032521	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.2.5 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.5
+4	0	0	4	0	0	25076801	0	0	25032378	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+4	16	0	1	0	25290589	25114906	0	25026806	25114906	0	1208	Cpanel-HTTP-Client/1.0
+4	0	0	1	0	0	25040786	0	0	25040786	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+4	0	0	54	0	0	25311860	0	0	25262509	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+4	0	0	1	0	0	25294187	0	0	25294187	0	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+4	0	0	2	0	0	25038171	0	0	25036612	0	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+5	0	0	1	0	0	25143153	0	0	25143153	0	0	157.55.39.7
+5	0	0	1	0	0	25154017	0	0	25154017	0	0	87.103.66.178
+5	0	0	2	0	0	25116876	0	0	25116105	0	0	157.55.39.103
+5	0	0	2	0	0	25109042	0	0	25097599	0	0	178.166.25.111
+5	0	0	1	0	0	25130827	0	0	25130827	0	0	66.249.83.17
+5	0	0	1	0	0	25121459	0	0	25121459	0	0	157.55.39.47
+5	0	0	12	0	0	25304750	0	0	25296409	0	0	195.22.127.249
+5	0	0	1	0	0	25175309	0	0	25175309	0	0	165.227.105.78
+5	0	0	1	0	0	25143153	0	0	25143153	0	0	157.55.39.1
+5	0	0	1	0	0	25252690	0	0	25252690	0	0	148.69.29.22
+5	0	0	1	0	0	25143418	0	0	25143418	0	0	46.102.97.246
+5	0	0	1	0	0	25199835	0	0	25199835	0	0	87.103.56.145
+5	0	0	1	0	0	25032292	0	0	25032292	0	0	213.228.170.146
+5	0	0	0	2	0	0	25127130	0	0	25127130	0	130.185.80.91
+5	0	0	1	0	0	25251801	0	0	25251801	0	0	54.147.156.102
+5	0	0	4	0	0	25309988	0	0	25298642	0	0	129.78.110.124
+5	33	0	286	0	25032267	25259946	0	25032261	25032261	0	441133	89.155.214.185
+5	0	0	1	0	0	25116104	0	0	25116104	0	0	207.46.13.153
+5	0	0	3	0	0	25158542	0	0	25158542	0	0	43.251.17.62
+5	0	0	1	0	0	25295323	0	0	25295323	0	0	159.89.46.137
+5	4	0	0	0	25290589	0	0	25290588	0	0	302	94.46.176.215
+5	0	0	1	0	0	25101519	0	0	25101519	0	0	148.69.13.146
+5	0	0	1	0	0	25092824	0	0	25092824	0	0	2.82.173.228
+5	0	0	1	0	0	25121459	0	0	25121459	0	0	40.77.167.118
+5	0	0	1	0	0	25171043	0	0	25171043	0	0	148.69.28.208
+5	0	0	1	0	0	25138591	0	0	25138591	0	0	157.55.39.23
+5	0	0	2	0	0	25139758	0	0	25139658	0	0	54.193.46.142
+5	0	0	3	0	0	25181301	0	0	25181301	0	0	120.78.132.39
+5	0	0	1	0	0	25116105	0	0	25116105	0	0	207.46.13.47
+5	0	0	1	0	0	25077591	0	0	25077591	0	0	95.136.21.123
+5	0	0	1	0	0	25142121	0	0	25142121	0	0	181.215.125.69
+5	0	0	1	0	0	25116875	0	0	25116875	0	0	157.55.39.85
+5	0	0	117	0	0	25311469	0	0	25261074	0	0	213.22.34.241
+5	0	0	1	0	0	25262863	0	0	25262863	0	0	54.194.92.6
+5	0	0	1	0	0	25295416	0	0	25295416	0	0	165.227.112.138
+5	0	0	1	0	0	25102017	0	0	25102017	0	0	94.133.226.207
+5	0	0	1	0	0	25175214	0	0	25175214	0	0	104.131.44.209
+5	0	0	1	0	0	25140866	0	0	25140866	0	0	198.52.240.117
+5	0	0	1	0	0	25254549	0	0	25254549	0	0	89.181.234.55
+5	0	0	1	0	0	25080636	0	0	25080636	0	0	138.197.75.49
+5	8	0	0	0	25290589	0	0	25026806	0	0	856	66.133.109.36
+5	0	0	3	0	0	25311925	0	0	25311605	0	0	94.132.184.113
+5	0	0	1	0	0	25041487	0	0	25041487	0	0	89.155.51.29
+5	0	0	1	0	0	25143354	0	0	25143354	0	0	40.77.167.76
+5	0	0	1	0	0	25121459	0	0	25121459	0	0	40.77.167.5
+5	12	0	1	0	25202743	25114906	0	25026806	25114906	0	906	94.46.176.249
+5	0	0	1	0	0	25138753	0	0	25138753	0	0	157.55.39.185
+5	0	0	1	0	0	25138591	0	0	25138591	0	0	207.46.13.9
+5	0	0	1	0	0	25296723	0	0	25296723	0	0	34.242.187.79
+5	0	0	2	0	0	25130981	0	0	25130981	0	0	185.7.214.218
+5	0	0	1	0	0	25139550	0	0	25139550	0	0	176.61.142.136
+z	2	17	0	25290589	1281
+z	3	8	0	25290589	856
+z	4	29	0	25032267	55778
+z	5	2	0	25032263	192703
+z	6	1	0	25032261	192579
+c	200	57	25290589
+c	302	473	25311925
+c	403	2	25127130

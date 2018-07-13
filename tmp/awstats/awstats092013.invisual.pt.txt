@@ -1,0 +1,3183 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201309 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2004                
+POS_TIME 2692                
+POS_VISITOR 27706               
+POS_DAY 92126               
+POS_DOMAIN 3676                
+POS_LOGIN 4634                
+POS_ROBOT 4789                
+POS_WORMS 5382                
+POS_EMAILSENDER 5513                
+POS_EMAILRECEIVER 5656                
+POS_SESSION 93081               
+POS_SIDER 93296               
+POS_FILETYPES 5791                
+POS_DOWNLOADS 6218                
+POS_OS 7765                
+POS_BROWSER 8043                
+POS_SCREENSIZE 9919                
+POS_UNKNOWNREFERER 9993                
+POS_UNKNOWNREFERERBROWSER 11619               
+POS_ORIGIN 13571               
+POS_SEREFERRALS 13726               
+POS_PAGEREFS 13933               
+POS_SEARCHWORDS 22062               
+POS_KEYWORDS 23262               
+POS_MISC 2354                
+POS_ERRORS 23885               
+POS_CLUSTER 4490                
+POS_SIDER_404 24071               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131001000409 2812 788926 10019646276220
+FirstTime 20130901000459
+LastTime 20130930235749
+LastUpdate 20131001132340 2812 0 2811 0 0
+TotalVisits 2049                
+TotalUnique 1272                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1832                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 255 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 209 619 20555873 30 159 1683170
+1 209 452 8625668 26 113 822783
+2 225 468 10801142 7 110 281210
+3 152 203 2102227 10 79 1438744
+4 158 190 7594144 33 119 342353
+5 166 182 1536593 29 68 241991
+6 155 220 4926762 24 123 452628
+7 189 316 7729471 49 98 1270201
+8 248 858 22950883 31 126 1009500
+9 745 2264 71715310 91 184 1895994
+10 1355 7369 110305832 150 320 3313986
+11 2005 11806 101795338 184 290 916331
+12 2396 11696 135059208 235 394 2353623
+13 884 2323 40045962 41 136 1332636
+14 1532 8661 92150760 177 355 2152088
+15 1997 12125 245062036 198 318 921116
+16 2552 13421 186347092 211 365 1063426
+17 2120 11303 182220543 225 332 1192874
+18 1562 8689 156465664 156 263 567581
+19 259 1279 60436815 42 142 1611922
+20 393 1559 47299214 49 206 1702313
+21 630 3078 60527399 68 191 1725287
+22 956 5850 122421968 105 259 1331057
+23 433 1843 57893816 33 129 1434543
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 49
+pt 17264 100342 1589167233
+fr 2744 2847 4121363
+us 499 1444 63309130
+ua 354 358 10863370
+es 167 368 8775504
+nl 114 139 13839349
+br 109 404 15007699
+ru 57 63 1764592
+cn 53 89 7686567
+gb 25 182 12437087
+de 24 66 2933968
+fi 19 19 158809
+sa 18 137 8955048
+lu 17 27 680731
+au 13 55 975847
+in 6 6 30726
+ch 5 44 4335717
+il 4 12 563486
+ro 4 5 355340
+jp 3 3 453
+tw 3 3 17479
+at 3 57 197748
+lv 2 2 44756
+ma 2 20 2332032
+be 2 12 1334314
+tr 1 5 902732
+my 0 1 278499
+tn 1 1 2976
+mz 0 2 414188
+th 0 1 242357
+si 1 1 4543
+cz 1 1 18622
+lt 0 1 278499
+hr 0 1 278499
+ge 0 2 16297
+cv 0 9 1243367
+ao 1 3 271183
+ad 2 2 572
+am 1 1 8069
+eu 2 8 291670
+jo 1 1 8069
+vn 1 2 22595
+it 0 10 1521866
+hu 1 1 6297
+ca 2 4 58488
+za 1 1 6296
+ar 0 1 242357
+se 1 5 281588
+ve 2 6 281743
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bot[\s_+:,\.\;\/\\-] 471 1001314 20130930233155 435
+msnbot\-media 248 11408 20130930225055 248
+[\s_+:,\.\;\/\\-]bot 238 6188 20130929220124 238
+robot 121 10370022 20130926041827 14
+crawl 92 143384 20130930220755 42
+unknown 80 3520 20130930174107 80
+googlebot 73 145426 20130930024820 69
+spider 70 3220 20130930040546 70
+ia_archiver 5 130 20130928071021 5
+no_user_agent 3 391397 20130928120849 0
+netcraft 3 65469 20130909164555 0
+discovery 2 0 20130917181039 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 18
+css 25700 7310795 0 0
+ico 88 68714 0 0
+ttf 12 244195 0 0
+woff 25 740656 0 0
+php 16547 86974529 0 0
+html 3944 25704409 0 0
+xml 15 10104 0 0
+jpg 19691 1313221782 0 0
+png 11810 130961844 0 0
+pdf 18 22323334 0 0
+cgi 2 6646 0 0
+swf 26 885818 0 0
+zip 13 125434283 0 0
+js 26606 27010078 0 0
+jpeg 2 22058 0 0
+Unknown 959 12737790 0 0
+svg 2 3342 0 0
+gif 1314 2909343 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 23
+/robots.txt 1201 0 40846
+/download/paredemetalegi.zip 4 0 73373578
+/aveiroexpo/regulamento_fm2011.pdf 4 0 6576098
+/download/metalegi.zip 2 0 43150165
+/aveiroexpo/site/wp-content/uploads/2013/01/regulamento_da_feira_de_marco_20131.pdf 2 0 7482786
+/aveiroexpo/regulamento_feira_marco2012.pdf 2 0 266876
+/vgg2/wp-content/themes/fiction/plugins/nivo-slider.zip 1 0 190971
+/aveiroexpo/programa_seminario_PFMC.pdf 1 0 35616
+/vgg2/wp-content/themes/fiction/plugins/css3-pricing-tables.zip 1 0 352479
+/aveiroexpo/farav2010_regulamento.pdf 1 0 82846
+/aveiroexpo/site/wp-content/uploads/2012/03/16.03.2012-noticias-de-aveiro.pdf 1 0 822183
+/vgg/wp-content/themes/blitz/includes/plugins/revslider.zip 1 0 862466
+/vgg2/wp-content/themes/fiction/plugins/LayerSlider.zip 1 0 6782648
+/vgg2/wp-content/themes/fiction/plugins/content-blocks.zip 1 0 5681
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 1 0 1088147
+/vgg2/wp-content/themes/fiction/plugins/envato-wordpress-toolkit.zip 1 0 21186
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 1 0 87293
+/aveiroexpo/programa_frilac2011.pdf 1 0 4896489
+/vgg2/wp-content/themes/fiction/plugins/mnky-vector-icons.zip 1 0 695109
+/aveiroexpo/programa_educacao.pdf 1 0 48112
+/aveiroexpo/site/wp-content/uploads/2012/03/21.03.2012-jornal-de-paiva.pdf 1 0 300931
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_comercial.pdf 1 0 315754
+/aveiroexpo/site/wp-content/uploads/2012/05/agrovouga2012_regulamento.pdf 1 0 320203
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 21
+linuxandroid 735
+blackberry 4
+winlong 1531
+winxp 3254
+win2000 64
+symbian 1
+winvista 2092
+win95 14
+winunknown 51
+wince 6
+win2003 123
+java 293
+winnt 23
+win98 30
+linuxubuntu 158
+linux 3310
+win7 86847
+winme 3
+win16 3
+macosx 7091
+Unknown 1141
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 110
+chrome27.0.1453.94 69
+msie6.0 310
+chrome18.0.1025.308 1
+sonyericsson 1
+safari4.0.5 65
+chrome29.0.1547.62 206
+firefox18.0 7
+firefox4.0 2
+chrome29.0.1547.65 247
+safari7.1.0.714 3
+chrome28.0.1500.72 9
+msie8.0 1258
+chrome11.0.696.34 1
+opera7.60 3
+netscape3.0 7
+msie7.0 3496
+firefox23.0 78389
+chrome29.0.1547.66 3197
+opera9.0 3
+chrome30.0.1599.65 29
+opera7.11 2
+firefox2.0.0.20 1
+chrome30.0.1599.22 1
+lg\- 3
+firefox21.0 1
+safari6.0 1204
+opera9.01 3
+firefox7.0.1 2
+firefox3.6.4 66
+firefox2.0.0.6 1
+firefox12.0 26
+safari6.0.5 793
+firefox25.0 70
+safari6.0.4 632
+mozilla 4032
+chrome26.0.1410.64 4
+netscape5.0 1
+firefox14.0.1 3
+chrome10.0.648.151 2
+chrome22.0.1229.94 1
+netscape4.0 22
+firefox3.6.22 5
+safari5.1.9 591
+chrome25.0.1364.97 7
+firefox19.0 2
+firefox10.0.2 3
+safari 118
+firefox15.0.1 7
+chrome21.0.1180.89 4
+chrome29.0.1547.72 9
+safari7.0 1059
+chrome29.0.1547.57 279
+chrome21.0.1180.90 1
+chrome23.0.1271.64 161
+chrome29.0.1547.76 1330
+android 710
+firefox7.0 1
+chrome22.0.1229 17
+chrome22.0.1229.79 5
+chrome28.0.1500.95 122
+chrome11.0.696.77 1
+msie3.02 6
+chrome28.1.0.0 116
+firefox24.0 554
+opera9.80 142
+chrome15.0.874.121 1
+iphone 903
+firefox6.0.2 10
+netscape0.91 6
+safari5.1.5 299
+firefox16.0 206
+msie2.0 3
+chrome10.0.648.204 47
+msie5.0 3
+msie9.0 696
+chrome18.0.1025.1634 4
+chrome24.0.1312.52 2
+opera7.54 6
+Unknown 1218
+firefox11.0 1
+firefox3.6.7 1
+blackberry 1
+firefox17.0 9
+chrome18.0.1025.166 5
+safari3.1.2 1
+opera8.00 6
+chrome29.0.1547.59 2
+samsung 4
+chrome24.0.1290.2 2
+firefox3.0.11 1
+chrome27.0.1453.110 69
+opera8.01 6
+chrome9.0.597 1
+msie5.5 59
+chrome28.0.1500.71 153
+chrome13.0.782.215 1
+firefox3.0.5 1
+safari5.1.7 18
+chrome18.0.966.0 1
+firefox22.0 82
+firefox3.0.6 5
+chrome25.0.1364.172 4
+firefox3.6.28 2
+msie10.0 3455
+firefox6.0 13
+safari5.1 26
+chrome27.0.1453.116 15
+chrome3.0.195.27 1
+opera9.52 1
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+EMail_Exractor 20130904110110
+YahooExternalCache 20130924221011
+WordPress/3.6;_http://invisual.pt/vgg 20130912111122
+WordPress/3.5.2;_http://invisual.pt 20130930221747
+Python-urllib/2.7 20130927162037
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20130929082423
+Mozilla/5.0_Moreover/5.1_(_http://www.moreover.com;_webmaster@moreover.com) 20130916110331
+WordPress/3.6.1;_http://invisual.pt/vgg2 20130923150241
+WordPress/3.5.2;_http://invisual.pt/magmacaracas 20130924131201
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20130917205217
+viralvideochart.unrulymedia.com 20130913154039
+facebookplatform/1.0_(_http://developers.facebook.com) 20130928010049
+WordPress/3.6.1;_http://invisual.pt/vgg 20130925004326
+WordPress/3.3.1;_http://invisual.pt/aveiroexpo/site 20130929170718
+Go_1.1_package_http 20130915035046
+Mozilla/4.0 20130902062154
+Mozilla/5.0_(en-us)_AppleWebKit/534.14_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Chrome/9.0.597_Safari/534.14 20130912164021
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20130930234947
+Mozilla/3.0_(Liberate_DTV_1.1) 20130921000624
+Mozilla/4.0_(compatible;) 20130930225842
+Mozilla/5.0_(compatible;_Dataprovider_Site_Explorer;_http://www.dataprovider.com/) 20130903225009
+Nokia311/5.0_(03.90)_Profile/MIDP-2.1_Configuration/CLDC-1.1_Mozilla/5.0_AppleWebKit/420__(KHTML,_like_Gecko)_Safari/420_ 20130908132336
+MacInroy_Privacy_Auditors._See_invisual.pt's_privacy_violation_report:_http://invisual.pt.macinroy.com/invisual.pt 20130921002615
+WordPress/3.3.1;_http://invisual.pt/html 20130930230305
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 26
+EMail_Exractor 20130904110110
+YahooExternalCache 20130924221011
+Java/1.7.0_25 20130930013747
+WordPress/3.6;_http://invisual.pt/vgg 20130912111122
+WordPress/3.5.2;_http://invisual.pt 20130930221747
+Microsoft_Office/14.0_(Windows_NT_6.1;_Microsoft_Outlook_14.0.4760;_Pro;_ms-office;_MSOffice_14) 20130930124548
+GoogleEarth/7.1.1.1888(Windows;Microsoft_Windows_(5.1.2600.3);pt-PT;kml:2.2;client:Plus;type:plugin) 20130930120725
+Python-urllib/2.7 20130927162037
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20130929082423
+WordPress/3.6.1;_http://invisual.pt/vgg2 20130923150241
+GoogleEarth/7.1.1.1888(Windows;Microsoft_Windows_(6.1.7601.1);pt-PT;kml:2.2;client:Plus;type:plugin) 20130930160351
+WordPress/3.5.2;_http://invisual.pt/magmacaracas 20130924131201
+GoogleEarth/7.1.1.1888(Windows;Microsoft_Windows_(6.0.6002.2);pt-PT;kml:2.2;client:Plus;type:plugin) 20130923230102
+viralvideochart.unrulymedia.com 20130913154039
+GoogleEarth/7.1.1.1888(Windows;Microsoft_Windows_(6.1.7600.0);pt-PT;kml:2.2;client:Plus;type:plugin) 20130926192620
+facebookplatform/1.0_(_http://developers.facebook.com) 20130928010049
+WordPress/3.6.1;_http://invisual.pt/vgg 20130925004326
+WordPress/3.3.1;_http://invisual.pt/aveiroexpo/site 20130929170718
+GoogleEarth/7.1.1.1888(Macintosh;Mac_OS_X_(10.6.8);pt-PT;kml:2.2;client:Plus;type:plugin) 20130919211828
+Go_1.1_package_http 20130915035046
+GoogleEarth/6.2.2.7373(Macintosh;Mac_OS_X_(10.8.4);pt-PT;kml:2.2;client:Plus;type:plugin) 20130904231124
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20130930234947
+GoogleEarth/7.1.1.1888(Windows;Microsoft_Windows_(6.2.9200.0);pt-PT;kml:2.2;client:Plus;type:plugin) 20130908200754
+Java/1.6.0_24 20130908135617
+MacInroy_Privacy_Auditors._See_invisual.pt's_privacy_violation_report:_http://invisual.pt.macinroy.com/invisual.pt 20130921002615
+WordPress/3.3.1;_http://invisual.pt/html 20130930230305
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3436 9808
+From1 1 23
+From2 251 308
+From3 3275 4472
+From4 14567 92163
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 231 251
+search 1 1
+baidu 2 2
+bing 6 6
+ask 2 2
+sapo 9 46
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 187
+http://www.yourcrontask.com 2679 2679
+http://feirademarco.aveiroexpo.pt 84 84
+http://www.smartaqua.pt 46 46
+http://www.yourcrontask.com 44 44
+http://torrentec.net 12 12
+http://kochanelli.com 9 9
+http://skupkaru.ru 9 9
+http://www.bravica.ch/ru/ 9 9
+http://correio.portugalmail.pt/imp/index.php 8 32
+http://spplq.ru 6 6
+http://zena-na-chas-moscow.ru 6 6
+http://13-e.ru 6 6
+http://master-muznachas.ru 6 6
+http://webmail.clix.pt/mail/reademail.pl 6 26
+http://bidla.net 6 6
+http://dosugo.com 6 6
+http://energiya-lyubvi.satom.ru 6 6
+http://www.artparquet.ru 6 6
+http://avtointeres.ru 6 6
+http://s808.ru 6 6
+http://jazz-stone.ru 6 6
+http://www.remstart.ru 6 6
+http://www.salemod.ru 6 6
+http://www.medius-spb.ru 6 6
+http://sovetogorod.ru/ovosh_pomidor_virashivanie.html 5 5
+http://pyti.mybb.ru 3 3
+http://ipost.su 3 3
+http://gaspaco.ru 3 3
+http://www.wood-expert.ru 3 3
+http://www.geohouse.pt 1 1
+http://vse-kupim.ru 4 4
+http://aveicabo.pt/noticias/ 0 9
+http://uk-mg-bt.mail.yahoo.com/neo/launch 1 5
+http://www.lazy-z.com 2 2
+http://esp.hoteldeilhavo.com 1 1
+http://maldita.pt 1 1
+http://womenfitnes.ru 3 3
+http://westindies.mybb.ru 3 3
+http://moscow-clining.ru 3 3
+http://narkozavisimosti-lechenie.ru 3 3
+http://feirademarco.aveiroexpo.pt 2 2
+http://www.farmaciacapaofilipe.com/apresentacao.html 0 75
+http://aveicabo.pt/portfolios/climatizacao/ 0 48
+http://funny-pictures.feedio.net/electra-rat-fink-3i/biketechcf.com*bikes*images*bikes*2011sale*ratfink.jpg/ 0 1
+http://aveicabo.pt/portfolios/biomassa/ 0 4
+http://valdaidom.ru 3 3
+http://viktoria-center.ru 3 3
+http://icsale.ru 3 3
+http://www.insidepipe.pt/consultoria/ 0 6
+http://service.mail.com/callgate-6.71.4.0/rms/6.71.4.0/mail/getBody 0 1
+http://sait-znakomstvip.ru 3 3
+http://www.insidepipe.pt/sample-page-2/ 0 13
+http://profserviz.ru 3 3
+http://microsites.juventude.gov.pt/Portal/pt/PAveiro.htm 2 2
+http://www.bravica.tw/ru/ 3 3
+http://maldita.pt/discencias-academia-maldita/ 1 1
+http://seryeznie-znakomstva.ru 3 3
+http://www.danc.ru 3 3
+http://quotes-pictures.feedio.net/electra-rat-fink-3i/2ri.de*Images*Big*0*Harley-Davidson_FLH_Electra_Glide_1966.jpg/ 0 1
+http://aveicabo.pt 0 138
+http://www.insidepipe.pt/portfolio-2/ 0 1
+http://aveicabo.pt/portfolios/biomassa/page/2/ 0 35
+http://www.bravica.org/ru/ 3 3
+http://www.nynpharmonya.pt:2095/cpsess6157080197/3rdparty/roundcube/ 1 5
+http://www.aveiroexpo.pt 1 1
+http://aveicabo.pt/portfolios/solar-termico/ 0 61
+http://aveicabo.pt/portfolios/apresentacao/ 0 74
+http://irisdiamond.ru 3 3
+http://xn--h1abengdgi.xn--p1ai 3 3
+http://www.blogger.com/home 0 2
+http://www.insidepipe.pt/consultoria/solucoes/ 0 14
+http://ilim-smk.ru 3 3
+http://aveicabo.pt/portfolios/redes-fixas-nova-geracao-fibra-optica/ 0 194
+http://www.yandex.com.tr/gorsel/search 0 3
+http://invisual.p.macinroy.com/invisual.pt 2 2
+http://uk-mg42.mail.yahoo.com/neo/launch 1 5
+http://prikoly.ws 3 3
+http://dneprshop.com.ua 3 3
+http://www.bravica.info/ru/ 3 3
+http://www.auto-plastik.ru 3 3
+http://www.megamail.pt/sess/CPrHot6AC8zQkVQ3YWWBkTzRfV/src/read_body.php 2 6
+http://arch-skin.spb.ru 3 3
+https://www.facebook.com 0 1
+http://opticanascimento.pt 2 2
+http://greenalco.ru 3 3
+http://br-mg6.mail.yahoo.com/neo/launch 5 25
+http://www.litoralmagazine.com/Magazine%20Flip%20Book.swf 1 1
+http://ilya-muromec.ru 3 3
+http://www.triados.ru 3 3
+http://www.insidepipe.pt 0 2
+http://www.sovetskyfilm.ru 3 3
+http://gomario.ru 4 4
+http://master-remont-tehniki.ru 3 3
+http://sadovodst.ru 3 3
+http://ublaze.ru 2 2
+http://muznachas-service.ru 3 3
+http://quotes-pictures.feedio.net/electra-rat-fink/chopperbikes.es*IMAGENES*BIKES*ELECTRA*Ficha*Hawaii-Lady-Custom.jpg/ 0 1
+http://content-bis.com.ru 3 3
+http://www.primagama.pt 1 1
+http://xn--64-vlcajwgikkbam.xn--p1ai 3 3
+http://russ-tractor.ru 3 3
+http://wcb.su 3 3
+http://korea-cosmetics.ru 3 3
+http://translate.google.co.uk/translate_p 1 1
+http://narkologicheskaya-bolnica.ru 3 3
+http://ra-da.su 3 3
+http://www.insidepipe.pt/consultoria/diagnostico/ 0 10
+http://vinodelie.mybb.ru 2 2
+http://go2aveiro.blogspot.pt/2013_03_01_archive.html 0 1
+http://aztraf.pw 3 3
+http://www.studia-silk.ru 3 3
+http://background-pictures.feedio.net/electra-rat-fink-3i/biketechcf.com*bikes*images*bikes*2011sale*ratfink.jpg/ 0 1
+http://quotes-pictures.feedio.net/electra-rat-fink-3i/zeusbox.com*wallpapers*harley_davidson_sexy_girl_2011_zeusbox_com_h062011-1280x800.jpg/ 0 3
+http://quotes-pictures.feedio.net/electra-rat-fink-bike-page-2-electra-rat-fink-bike/ecx.images-amazon.com*images*I*41LHZw-E3qL._SL500_SS100_.jpg/ 0 1
+http://webmail.iol.pt/imp/index.php 2 10
+http://fsmail02.orange.co.uk/webmail/en_GB/read.html 1 5
+http://www.sidec.pt 0 1
+http://www.insidepipe.pt/imprensa/ 0 3
+http://www.santehsmet.ru 3 3
+http://www.litoralmagazine.com 1 1
+http://funny-pictures.feedio.net/electra-rat-fink-3i/celebswedding.com*wp-content*uploads*2009*10*carmen-electra-wedding-cake.jpg/ 0 1
+http://aveicabo.pt/portfolios/instalacao-manutencao/ 0 131
+http://lombard-vip.com 3 3
+http://finemaspro.net 2 2
+http://quotes-pictures.feedio.net/electra-rat-fink-3i/abecedamodelu.cz*fotky2554*fotos*_vyr_208harley_davidson_1966_flh_electra_glide_red_maisto_18_1.jpg/ 0 1
+http://kabinanadom.ru 3 3
+http://dtoil.ru 3 3
+http://www.narugka.ru 3 3
+http://www.civilria.pt 2 2
+http://www.tvspirit.net 3 3
+http://mail.domfuasfm.com/zimbra/ 1 5
+http://dom-o-fon.ru 3 3
+http://microsites.juventude.gov.pt/Portal/pt/PousadasRegiao/urbana/PAveiro.htm 1 1
+http://aveicabo.pt/portfolio/1088/ 0 2
+http://portal.canalcentral.pt 1 1
+http://maldita.pt/provadores/ 1 1
+http://quotes-pictures.feedio.net/painted-this-rat-fink-style-character-for-an-instagram-friend-4inx4in-pictures/4/ 0 1
+http://www.goldrodnik.ru 3 3
+http://aveicabo.pt/contactos/ 0 6
+http://kinoraz.ru 3 3
+http://salpoente.pt:2095/cpsess8953790419/3rdparty/roundcube/ 1 5
+http://images.yandex.ua/yandsearch 0 2
+http://remont-comp-pomosh.ru 3 3
+http://wmcbank.com 3 3
+http://smartaqua.pt 2 2
+http://sivs.ru 3 3
+http://130.185.84.82:80/html/feed/rss 2 2
+http://whois.domaintools.com/invisual.pt 1 1
+http://www.geralforum.com/board/1056/524161/exposicoes-concursos-outros-eventos-2012-a.html 0 6
+http://mobile-wallpapers.feedio.net/electra-rat-fink-electra-rat-fink-bike-out-on-a-sunday-cruise-www/channelshirt.com*img*19*91.jpg/ 0 1
+http://soldierweapons.ru 3 3
+http://aveicabo.pt/portfolios/grupo-gesconect/ 0 51
+http://www.caseiro.pt/farav-feira-de-artesanato-de-aveiro/ 1 1
+http://www.insidepipe.pt/consultoria/consultoria-2/ 0 11
+http://komputernaya-pomosh-moscow.ru 3 3
+http://xoctel.mybb.ru 3 3
+http://aveicabo.pt/portfolios/politica-de-qualidade/ 0 13
+http://aveicabo.pt/portfolios/solar-fotovoltaico/ 0 78
+http://www.me-d.ru 3 3
+http://quotes-pictures.feedio.net/electra-rat-fink/ 0 1
+http://background-pictures.feedio.net/08-electra-rat-fink-649-99/tigurpaw.com*launcher*bike*images*cruiser_rat_fink.jpg/ 0 2
+http://znakomstva-moskva77.ru 3 3
+http://aveicabo.pt/portfolios/bombas-de-calor/ 0 18
+http://rus-teh.narod.ru 3 3
+http://skandinavskiestrani.mybb.ru 3 3
+http://www.polimin.ru 3 3
+http://samsung-servicemanuals.ru 3 3
+http://aveicabo.pt 0 2
+http://xn--64-6kchjbzbbcvlt3g.xn--p1ai 3 3
+http://telety.ru 3 3
+http://ozera.info 3 3
+http://youtubeviewspromotion.com 3 3
+http://3d-pictures.feedio.net/electra-rat-fink-3-gang-cruiser-bike-metal-flake-green-shakashop-ch/shakashop.ch*imagemagic.phpquestionmarkimg=images*11_electra_bike_rat_fink_metal_flake.jpgampersandw=179ampersandh=179ampersandpage=prod_info/ 0 1
+http://background-pictures.feedio.net/fotografia-ve-culos-electra-rat-fink-3i-invisual-criamos/invisual.pt*html*wp-content*uploads*2011*09*7359.jpg/ 0 1
+http://www.insidepipe.pt 0 43
+http://correio.portugalmail.pt/imp/ 2 10
+http://goroskopy.info 3 3
+http://www.insidepipe.pt/a-agua/ 0 5
+http://remdizain.ru 3 3
+http://www.litoralfashion.pt 1 1
+http://salonatele.ru 3 3
+http://rada.ru/souvenir/ 3 3
+http://sidec.pt 0 2
+http://www.insidepipe.pt/contactos/ 0 6
+http://www.pro-body.co.il 3 3
+http://www.smartaqua.pt 2 2
+http://reg-vrn.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 37
+parque+de+exposi%c3%a7%c3%b5es+de+aveiro 6
+aveiro+expo 6
+parque+exposi%c3%a7%c3%b5es+aveiro 5
+invisual 4
+http+//www.invisual.pt/ 3
+frilac+2013 2
+su5ct1g 2
+resumo 2
+%40daeshin%2deng%2eco%2ekr+loc+pt 2
+centro+de+exposi%c3%a7%c3%b5es+de+aveiro 2
+agro+vouga+2013 2
+aveiro+centro+exposi%c3%a7%c3%b5es 1
+expoaveiro 1
+parque+de+exposicoes+aveiro 1
+agrovouga+2013 1
+parque+exposi%c3%a7oes+de+aveiro 1
+http+//invisual.pt/aveiroexpo/site/ 1
+exposicao+felina+aveiro+2013 1
+agrovouga+2013+aveiro 1
+agrovouga+2013+programa 1
+expo+aveiro 1
+frilac-aveiro-2013 1
+site+www.invisual.pt 1
+aveiro+expo+-+parque+de+exposi%c3%a7%c3%b5es+de+aveiro 1
+parque+de+exposi%c3%a7%c3%b5es+de+aveiro+localiza%c3%a7%c3%a3o 1
+gm011 1
+parque+feiras+e+exposi%c3%a7%c3%b5es+de+aveiro+aveiro 1
+centro+de+exposi%c3%a7%c3%a3o+de+aveiro 1
+%40starcoeng%2ecom+loc+pt 1
+feira+de+exposi%c3%a7%c3%b5es+de+aveiro 1
+site+invisual.pt 1
+auditorio+pavilhao+feiras+aveiro 1
+%40fransen%2deng%2ecom+loc+pt 1
+expo+classicos+aveiro 1
+%40metfabeng%2ecom+loc+pt 1
+parque+das+feiras+aveiro 1
+invisual.pt 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 44
+aveiro 35
+de 27
+exposi%c3%a7%c3%b5es 18
+parque 17
+expo 9
+2013 8
+pt 5
+loc 5
+centro 4
+http 4
+invisual 4
+//www.invisual.pt/ 3
+agrovouga 3
+feiras 3
+frilac 2
+su5ct1g 2
+resumo 2
+vouga 2
+agro 2
+site 2
+%40daeshin%2deng%2eco%2ekr 2
+invisual.pt 2
+auditorio 1
+exposi%c3%a7oes 1
+feira 1
+e 1
+programa 1
+frilac-aveiro-2013 1
+//invisual.pt/aveiroexpo/site/ 1
+exposicoes 1
+felina 1
+exposi%c3%a7%c3%a3o 1
+expoaveiro 1
+%40metfabeng%2ecom 1
+gm011 1
+www.invisual.pt 1
+- 1
+pavilhao 1
+das 1
+%40fransen%2deng%2ecom 1
+localiza%c3%a7%c3%a3o 1
+exposicao 1
+classicos 1
+%40starcoeng%2ecom 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+403 8 34468
+206 228 14935651
+400 1 3499
+302 953 57220
+500 2 1518
+508 16 116592
+301 1087 181827
+404 923 2905140
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 50
+/sitemap.xml 1 -
+/wp-content/themes/nextbiz/images/slider_btn_icon.png 12 http://invisual.pt/magmacaracas/
+/wp-content/uploads/2012/11/botao3.png 4 -
+/images/stories/0day.php 2 -
+/wp-content/uploads/2013/07/newsletter_prova-vinica_v2-600x1200.jpg 1 -
+/apple-touch-icon.png 9 -
+/cdsaveiro/equipa/ 7 http://invisual.pt/cdsaveiro/equipa/
+/html/wp-content/uploads/2011/09/adriano-carreira.jpg 1 -
+/vgg2/wp-content/themes/fiction/assets/images/background.png 18 http://invisual.pt/vgg2/wp-admin/themes.php
+/html/wp-content/themes/visualmedia/js/{path} 1 www.baidu.com
+/apple-touch-icon-114x114-precomposed.png 1 -
+/wp-content/uploads/2012/11/cabecalho.png 4 -
+/html/gallery/paginacao-construtora-da-bairrada 7 http://invisual.pt/html/gallery/paginacao-construtora-da-bairrada
+/gesconect/wp-content/uploads/2012/01/indicadorgesconect.png 670 -
+/html/gallery/ 2 http://invisual.pt/html/gallery/logotipos
+/vgg/trackback/ 1 http://invisual.pt/vgg/
+/wp-content/uploads/2013/07/footer_preto.png 1 -
+/html/wp-content/uploads/2012/03/stand_bmw_cab.jpg 1 http://invisual.pt/html/gallery/design-outros-suportes-stand-bmw-na-feira-de-marco-2012
+/html/ 10 http://www.invisual.pt/
+/civilria1/ 1 -
+/images/stories/3xp.php 2 -
+/html/wp-content/plugins/contact-form-7/includes/js/'+T.iframeSrc+' 1 www.baidu.com
+/home-ini 1 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 5 http://invisual.pt/smart_aqua/
+/labstestevao/01/styles/silver.css 2 http://invisual.wufoo.com/embed/z7x4a3/def/embedKey=z7x4a3869661&referrer=http%3Awuslashwuslashwww.google.ptwuslashurl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26frm%3D1%26source%3Dweb%26cd%3D3%26ved%3D0CDcQFjAC%26url%3Dhttp%253A%252F%252Fwww.labstestevao.com%252Finquerito_satisfacao.html%26ei%3DgtkkUu2kFMiy7AbS1oDoBA%26usg%3DAFQjCNG2Y3aWsJApicLBPO0kl_8s1l1BUA%26bvm%3Dbv.51495398%2Cd.d2k
+/vgg2/wp-content/plugins/squidix-extensions/query/style.css 75 http://invisual.pt/vgg2/wp-admin/post.php
+/wp-content/uploads/2012/11/rodape.png 4 -
+/vgg/img/1.jpg 1 http://invisual.pt/vgg/preview.swf
+/smartaqua/ 4 -
+/vgg2/wp-content/themes/fiction/assets/images/slider-background.png 10 http://invisual.pt/vgg2/wp-admin/admin-ajax.php
+/apple-touch-icon-precomposed.png 9 -
+/wp-content/uploads/wysija/bookmarks/medium/01/facebook.png 1 -
+/apple-touch-icon-114x114.png 1 -
+/VGG/WP-ADMIN 1 -
+/vgg2/wp-admin/null 2 http://invisual.pt/vgg2/wp-admin/post.php
+/vgg2/ 1 http://invisual.pt/vgg2/wp-admin/edit.php
+/aveiroexpo/site/contactos.html 1 -
+/labstestevao/01/styles/silver/logo.png 1 http://invisual.wufoo.com/embed/z7x4a3/def/embedKey=z7x4a3869661&referrer=http%3Awuslashwuslashwww.google.ptwuslashurl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26frm%3D1%26source%3Dweb%26cd%3D3%26ved%3D0CDcQFjAC%26url%3Dhttp%253A%252F%252Fwww.labstestevao.com%252Finquerito_satisfacao.html%26ei%3DgtkkUu2kFMiy7AbS1oDoBA%26usg%3DAFQjCNG2Y3aWsJApicLBPO0kl_8s1l1BUA%26bvm%3Dbv.51495398%2Cd.d2k
+/aveiroexpo/site/ 3 -
+/vgg/main.swf 1 http://invisual.pt/vgg/preview.swf
+/apple-touch-icon-144x144.png 2 -
+/wp-content/uploads/2013/07/cabecalho_20130911.png 1 -
+/subscriptions/ 1 -
+/smart_aqua/ 27 http://zebradudka.com/
+/civilria2/ 2 http://invisual.pt/civilria2/
+/apple-touch-icon-144x144-precomposed.png 2 -
+/vgg/audio/01.mp3 1 http://invisual.pt/vgg/preview.swf
+/images/stories/coreunix.php 2 -
+/civilria_01/ 3 -
+/html/whm 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1832
+217.129.137.99 13207 72144 722959235 20130930182045
+88.190.31.18 2723 2723 0 20130930235749
+84.90.234.253 1126 7339 129845095 20130923230919
+130.185.84.82 770 824 11318486 20130930234947
+69.84.207.246 252 265 7072753 20130915093147
+62.28.102.130 182 875 21842815 20130926120059
+89.153.128.145 98 994 159394593 20130930205531
+80.61.72.211 74 74 1508136 20130908135617
+83.36.159.58 73 73 1485125 20130929125101
+201.70.125.248 72 72 1449562 20130930013747
+91.207.9.226 60 60 1767420 20130917214223
+91.207.4.206 57 57 1679049 20130917034404
+178.137.92.229 45 45 1325565 20130918081430
+178.137.88.120 45 45 1325565 20130918083915
+89.153.128.206 38 299 5679130 20130930124657
+81.34.135.91 37 37 760344 20130917152319
+46.119.118.152 36 36 1060452 20130908094759
+46.118.126.194 36 36 1060452 20130908060824
+81.37.175.173 34 34 653655 20130914230728
+82.192.74.191 32 32 706699 20130903225009
+95.95.97.229 29 370 4842032 20130906225622
+89.155.201.40 28 416 4917629 20130919180421
+188.250.140.79 24 116 566586 20130915105610
+188.143.234.127 23 23 525048 20130920025239
+207.172.209.16 22 22 87155 20130914193022
+78.29.188.74 0 1 278499 
+46.165.222.180 1 5 281584 20130911190514
+62.28.106.138 3 11 437405 20130919225855
+89.152.161.209 1 1 286 20130916110754
+188.63.146.68 1 5 281588 20130914092318
+87.196.248.145 0 1 16297 
+193.137.231.253 1 1 286 20130903192610
+62.169.66.147 1 6 297885 20130912143052
+78.130.4.235 1 1 286 20130922195458
+2.137.136.152 1 5 281588 20130912082222
+2.81.71.72 1 5 281588 20130912070527
+82.155.49.169 0 1 8126 
+188.251.133.122 0 1 0 
+89.155.215.123 1 5 281588 20130912223937
+89.155.216.61 1 5 281588 20130912135558
+62.28.176.130 1 5 281588 20130912092220
+142.4.126.170 1 1 6289 20130924074401
+81.45.53.172 1 5 281588 20130912094201
+188.63.223.66 0 17 2825872 
+85.115.58.180 0 4 188772 
+62.159.241.123 3 7 281886 20130917091138
+84.90.160.202 0 16 2256453 
+92.250.35.223 0 1 8126 
+195.23.32.141 0 2 278858 
+2.83.234.30 2 8 281743 20130913151638
+213.138.224.147 0 1 173998 
+188.250.154.19 0 1 278499 
+115.239.212.135 0 1 1781 
+188.251.132.185 0 3 361482 
+89.154.20.101 0 1 528781 
+93.102.157.201 1 1 286 20130919201349
+213.22.181.42 0 2 16252 
+87.196.74.197 1 67 433794 20130913150943
+87.196.127.110 0 1 278068 
+2.81.152.139 1 5 281588 20130913155259
+188.250.155.245 1 1 286 20130910215439
+2.81.190.55 1 1 286 20130913124407
+188.140.35.193 1 5 281588 20130912221345
+89.155.20.202 1 5 281588 20130911221725
+5.158.2.211 1 5 281588 20130913130400
+88.214.180.242 1 5 281588 20130912223602
+85.247.153.237 1 5 281588 20130916161523
+188.81.124.106 1 1 286 20130906015443
+93.186.23.243 0 1 218316 
+84.91.197.16 0 1 2299 
+217.129.141.34 0 9 1243367 
+178.166.6.214 1 5 281588 20130916175645
+84.90.161.216 0 2 9006 
+82.155.52.27 0 1 278068 
+82.155.52.227 0 1 8126 
+217.129.139.1 2 20 726146 20130913110000
+115.239.212.194 0 1 2137 
+77.54.86.239 7 15 563951 20130912112143
+188.80.103.162 0 1 16297 
+115.239.212.11 0 1 74909 
+213.13.190.114 2 115 1520238 20130905171556
+188.82.243.213 0 1 16297 
+94.252.77.105 1 5 281588 20130912194651
+217.129.25.224 1 1 286 20130908140006
+89.214.93.20 5 54 832347 20130929171021
+217.129.246.83 0 54 3282280 
+2.81.140.1 0 15 122271 
+217.129.135.213 1 1 286 20130901134052
+89.153.189.24 2 6 280111 20130912180942
+188.81.17.140 0 1 8126 
+115.239.212.139 0 1 18264 
+89.155.181.8 1 1 286 20130912164750
+193.137.168.219 3 15 281898 20130923174102
+188.80.98.11 1 5 281588 20130912102403
+222.45.86.134 1 1 6297 20130916110943
+2.81.151.186 0 1 16297 
+62.28.178.26 1 1 286 20130903133555
+89.152.70.25 2 75 491458 20130902214302
+188.80.243.196 1 3 155 20130913175720
+95.69.25.42 0 3 361482 
+31.22.205.20 1 1 286 20130913202557
+187.44.255.170 5 13 563641 20130924112232
+117.215.41.215 1 1 6295 20130916105728
+79.168.101.76 1 1 286 20130908165247
+85.138.14.10 1 5 281588 20130912163627
+82.154.248.111 0 2 9006 
+188.251.52.206 1 5 281588 20130912132459
+112.225.141.210 1 1 4637 20130912122304
+2.83.151.26 1 5 281588 20130912235351
+188.37.133.180 1 67 433794 20130907212919
+69.157.185.145 0 1 16297 
+193.137.168.12 0 1 16297 
+89.155.241.218 1 5 279956 20130912001338
+188.81.85.41 3 79 535205 20130911170018
+89.155.227.146 1 1 286 20130925135022
+89.180.121.222 0 3 361482 
+213.22.116.101 1 5 281588 20130912234554
+46.229.160.208 0 6 2701603 
+84.90.151.130 1 5 279956 20130912131116
+178.116.147.43 0 1 242357 
+188.37.229.99 0 2 32594 
+189.31.157.147 0 1 242455 
+89.154.175.154 0 1 278499 
+2.81.163.212 0 5 871887 
+85.240.52.188 1 5 281588 20130912084829
+92.250.97.185 0 9 146673 
+95.92.184.68 1 1 286 20130906233122
+89.155.187.103 0 2 16252 
+70.35.74.100 3 3 17214 20130922020947
+89.214.113.122 1 1 286 20130925220451
+84.91.117.187 0 2 9006 
+62.169.93.233 2 10 559912 20130912110732
+193.137.168.204 2 4 271338 20130904152300
+2.81.134.187 0 1 26171 
+213.228.156.21 0 1 278068 
+188.143.232.31 9 9 266157 20130930065258
+2.80.215.76 3 67 770380 20130905162118
+157.55.0.156 13 58 3623870 20130918160934
+2.81.117.96 2 10 563176 20130912083454
+217.129.178.14 1 1 286 20130924063912
+62.28.242.106 0 5 679480 
+85.243.81.219 1 1 286 20130915154409
+217.129.241.177 0 2 688816 
+213.228.140.132 0 6 48891 
+95.95.80.70 1 1 286 20130907070438
+87.248.125.59 0 1 218316 
+2.81.130.110 3 15 844764 20130913003012
+2.81.48.161 0 1 8126 
+85.88.130.194 1 70 435301 20130920181424
+46.50.82.179 1 7 500895 20130913171723
+41.221.207.139 0 9 1243367 
+188.80.148.4 2 75 493101 20130926164244
+87.103.97.236 1 1 286 20130917162746
+88.214.166.168 2 4 310 20130916105559
+109.24.178.182 1 5 281588 20130913204201
+46.189.157.197 1 5 281588 20130913014731
+194.38.144.46 1 1 286 20130930121032
+157.55.104.78 1 3 271179 20130916152712
+5.249.124.127 3 67 770380 20130918140625
+213.205.87.199 1 5 281584 20130912133950
+84.91.63.105 3 15 560067 20130912083552
+177.104.97.39 0 23 4143145 
+217.129.138.200 2 2 572 20130923204005
+94.174.162.23 1 67 433794 20130908222425
+188.80.104.59 1 1 286 20130907131517
+199.30.25.77 0 1 26171 
+89.155.49.64 1 5 281588 20130912205040
+217.129.192.41 1 3 271183 20130906025225
+188.251.135.25 0 14 1786787 
+84.91.22.75 1 1 286 20130906125017
+217.129.24.59 1 1 449 20130913172124
+85.246.107.118 0 1 278499 
+89.214.143.70 0 1 242455 
+115.239.212.66 0 1 2005 
+188.81.213.23 2 75 491388 20130920122124
+178.166.2.178 11 300 1848910 20130926143704
+5.249.114.250 0 36 6066324 
+195.47.200.99 5 11 282188 20130913092912
+188.80.98.43 1 1 286 20130916180441
+79.168.204.69 0 2 9006 
+2.82.254.100 1 7 561389 20130913091448
+178.195.106.83 1 5 281588 20130912194810
+177.98.199.172 1 5 281588 20130918155433
+106.86.182.218 1 1 6298 20130916111431
+72.251.244.14 0 1 218316 
+83.240.154.24 1 5 281588 20130912094440
+90.84.146.213 1 5 281588 20130912130208
+2.81.138.150 1 5 281588 20130912093337
+81.84.233.134 0 1 8126 
+84.23.199.169 1 5 281588 20130912071612
+121.16.85.151 1 1 8069 20130913154202
+2.81.207.33 0 3 361482 
+27.33.204.21 1 5 281588 20130913000210
+2.83.25.251 2 10 563176 20130915195451
+118.160.135.94 1 1 8069 20130913155032
+188.81.215.222 2 10 561544 20130912142219
+95.95.127.192 0 1 8126 
+83.240.165.109 1 5 281588 20130913115304
+109.51.90.216 0 2 9006 
+91.177.13.35 1 5 281588 20130913080800
+62.28.243.154 0 1 8126 
+101.119.15.178 12 50 694259 20130912231722
+109.120.157.179 8 8 235656 20130917205218
+193.136.173.41 2 10 563176 20130911190436
+89.155.125.47 0 9 1243367 
+188.251.62.31 0 1 16297 
+89.155.88.40 2 10 563176 20130912082245
+85.246.3.7 0 1 278499 
+85.5.193.242 0 2 9006 
+2.82.90.102 0 3 95280 
+213.205.65.112 3 12 500214 20130912145520
+94.242.237.129 3 3 106689 20130905055601
+31.22.166.216 1 1 286 20130905220058
+64.34.169.244 1 1 35563 20130925224125
+89.214.39.77 0 1 4898 
+2.83.85.23 0 1 8126 
+62.28.35.145 1 1 286 20130909110920
+93.108.15.16 1 5 281588 20130911224733
+93.102.205.108 0 2 9006 
+95.136.99.221 0 4 281433 
+193.137.77.225 1 1 286 20130917132837
+85.242.235.217 1 5 213026 20130904102345
+188.251.29.30 2 6 271338 20130913131712
+82.25.164.106 1 5 281588 20130912185233
+217.129.27.20 0 2 9006 
+193.137.168.192 3 15 1054371 20130916105553
+89.152.71.252 0 5 814448 
+118.70.171.67 1 1 6298 20130916112717
+84.90.30.213 1 5 281588 20130913114249
+2.82.180.169 1 5 281588 20130912230431
+89.155.214.69 9 25 845694 20130914230115
+142.4.217.221 0 1 35616 
+116.113.77.136 1 1 2976 20130912120455
+217.129.139.193 7 25 1126817 20130914170328
+84.91.14.184 0 2 16252 
+188.250.214.73 2 10 281743 20130912220316
+85.138.203.72 1 5 281588 20130914195020
+194.38.144.141 1 5 281588 20130917191141
+115.239.212.133 0 2 34708 
+46.189.195.107 2 47 2526707 20130919115434
+79.169.164.223 1 5 281588 20130911215740
+199.30.24.123 1 1 286 20130903224034
+89.155.183.236 1 1 286 20130919171823
+85.241.223.134 1 5 281588 20130917170305
+123.14.19.213 1 1 8069 20130913154029
+91.121.170.197 3 3 85017 20130930170808
+46.189.238.192 1 5 281588 20130912071646
+89.155.117.147 0 2 16252 
+218.16.63.72 1 1 6297 20130916114821
+184.22.183.114 1 1 19738 20130907212237
+87.103.72.179 0 1 16297 
+87.103.64.217 1 5 281588 20130911221234
+178.166.4.48 0 1 278068 
+194.65.224.180 0 1 528781 
+188.80.108.152 3 76 497702 20130924103835
+188.251.116.36 0 2 9006 
+2.81.121.140 1 1 286 20130908102140
+84.91.117.159 1 3 271183 20130905172756
+213.228.181.9 4 142 500367 20130926103454
+83.240.252.114 10 269 1701695 20130916172128
+85.242.162.227 2 6 281743 20130912214225
+195.23.48.154 1 5 281588 20130913095315
+89.152.94.206 1 1 286 20130908165102
+54.246.137.243 0 2 9006 
+2.81.94.180 1 5 280947 20130912204930
+2.81.221.242 2 71 489216 20130912015112
+131.253.24.63 3 20 165341 20130929193250
+193.111.141.44 0 2 4944601 
+2.81.131.202 1 1 286 20130903175028
+61.137.214.43 1 1 4518 20130912120938
+188.80.100.121 1 1 286 20130921205402
+188.81.161.207 0 1 206451 
+70.39.246.37 1 1 6295 20130916110331
+188.81.43.155 7 79 824828 20130924024350
+81.7.13.161 1 1 8096 20130909203519
+88.214.165.185 1 5 281588 20130912210514
+2.81.137.245 0 3 361482 
+95.136.88.10 3 3 18942 20130928160036
+2.81.139.225 0 2 278858 
+179.208.80.41 0 1 71713 
+89.155.150.3 0 1 278499 
+84.90.27.28 1 1 286 20130908122612
+78.130.62.160 9 100 2206340 20130921101037
+193.126.153.214 1 1 286 20130919160519
+194.38.144.22 3 11 563454 20130916132606
+62.169.118.246 1 5 281588 20130912173810
+213.22.1.179 1 5 281588 20130912080442
+5.151.0.0 1 1 8069 20130913153917
+186.207.188.9 10 29 212274 20130927073916
+2.81.221.233 1 5 281588 20130912120329
+61.190.90.196 1 1 8069 20130913154141
+46.189.137.53 8 12 542655 20130912145851
+217.129.129.18 1 1 286 20130912131900
+188.250.141.124 0 2 52342 
+89.204.154.206 1 5 281588 20130912090918
+88.214.161.241 3 71 492723 20130910140740
+220.181.51.103 0 2 3357020 
+119.0.29.204 1 1 6297 20130916111057
+2.81.138.113 1 1 286 20130908163531
+89.154.183.222 8 175 832634 20130930235151
+109.51.82.79 1 5 281588 20130912142253
+2.83.29.87 0 1 8126 
+87.103.51.237 1 5 281588 20130912213845
+157.55.43.27 9 48 2810182 20130922191851
+31.4.218.214 0 1 16297 
+65.55.183.94 1 5 281584 20130912220313
+189.108.171.10 0 1 242455 
+194.65.121.13 1 5 281584 20130913105157
+62.169.66.151 5 25 1410671 20130914184634
+89.152.247.185 0 1 8126 
+84.90.139.218 0 1 528781 
+108.4.166.77 0 1 242357 
+194.65.33.94 0 5 679480 
+188.250.212.15 1 5 281588 20130913081112
+85.139.238.86 1 5 281588 20130912075633
+81.193.116.21 1 5 281588 20130912162751
+62.28.175.146 17 38 284068 20130913093750
+199.19.249.196 13 13 55655 20130924172107
+87.196.127.200 1 5 281588 20130916095259
+87.103.66.144 1 5 281588 20130912221441
+84.90.161.118 1 1 286 20130930010504
+188.250.140.252 2 10 563176 20130912113411
+78.130.40.159 0 1 8126 
+46.105.114.127 1 1 449 20130902072555
+93.39.218.57 0 9 1243367 
+209.131.38.88 1 2 36228 20130909144600
+82.155.51.39 1 1 286 20130922130948
+115.239.212.200 0 1 4006 
+87.196.70.192 1 5 281588 20130911215317
+79.169.42.63 4 16 844919 20130914204804
+188.80.240.116 1 5 281588 20130914010927
+95.92.210.249 4 14 602841 20130926105859
+85.241.196.24 6 72 784200 20130925125648
+87.103.60.153 0 1 4898 
+93.108.20.159 1 1 286 20130915215945
+89.214.203.110 1 5 281588 20130912102956
+2.81.133.121 1 5 281588 20130912100037
+213.22.21.151 1 3 155191 20130902213753
+95.136.116.130 1 5 281588 20130913122743
+89.180.211.197 0 2 9006 
+27.46.122.167 1 1 4692 20130912121037
+85.240.155.210 0 1 18388 
+82.155.142.119 11 25 1105313 20130916101235
+213.30.118.100 2 2 310 20130912133937
+194.38.128.118 0 1 1860 
+213.228.181.123 1 5 279956 20130912091908
+81.84.251.115 1 5 281588 20130912112440
+89.153.36.157 0 1 242357 
+87.196.56.114 0 4 399649 
+66.249.16.212 1 1 6314 20130905143247
+217.129.248.166 0 1 278068 
+194.210.196.19 13 285 1783857 20130928232521
+95.95.117.174 1 5 281588 20130912130432
+213.22.114.134 0 1 7146 
+190.72.181.75 2 6 281743 20130919022517
+199.36.72.12 4 4 9692 20130916121807
+93.186.31.98 1 1 286 20130908090440
+93.102.76.133 1 3 155 20130912193905
+82.155.142.38 2 7 552130 20130912201415
+82.154.113.207 1 5 281588 20130913095648
+93.102.158.78 1 1 286 20130914161040
+2.81.162.93 0 2 4898 
+2.81.20.21 6 75 1074468 20130922171323
+84.90.232.146 1 1 286 20130927221137
+82.155.29.40 4 11 738562 20130902095617
+94.245.116.28 1 3 271179 20130914235404
+86.124.249.247 0 1 242357 
+95.136.123.47 1 1 286 20130924134431
+93.108.160.170 0 1 8126 
+37.187.56.98 3 57 197748 20130909121941
+188.250.173.193 1 5 281588 20130914155750
+109.201.85.249 1 1 4643 20130912121556
+2.81.125.236 1 5 281588 20130913094214
+2.81.182.223 1 5 281588 20130913101143
+59.33.182.75 1 1 6298 20130916110841
+195.23.57.58 1 1 286 20130930152737
+2.81.222.120 1 5 281588 20130912092243
+83.223.236.110 0 1 16297 
+90.16.94.73 0 1 242357 
+82.155.122.25 1 5 281588 20130912083459
+89.155.122.16 0 1 16297 
+82.155.231.54 1 1 286 20130904191655
+2.83.90.246 2 6 281743 20130913095726
+149.11.128.10 1 5 281584 20130912165354
+66.112.167.29 1 1 5737 20130929082355
+93.108.126.194 2 74 490723 20130909232859
+82.154.80.212 0 3 95280 
+181.31.200.154 0 1 242357 
+87.248.125.57 0 1 991 
+84.91.128.213 0 1 16297 
+89.214.216.157 1 5 281588 20130914014436
+81.84.86.121 1 1 286 20130926214215
+157.55.46.250 5 25 1407920 20130913175314
+2.81.151.162 0 2 271028 
+87.103.66.227 1 1 286 20130920160531
+87.196.242.67 2 10 563176 20130912093335
+188.80.88.140 0 1 18388 
+95.136.73.230 1 5 281588 20130913083725
+49.68.133.77 1 1 8069 20130913155326
+89.155.198.224 1 5 281588 20130912220447
+188.81.161.138 0 12 1693367 
+188.82.129.29 1 5 281588 20130912213252
+115.239.212.68 0 1 833 
+179.214.136.205 0 1 278499 
+94.132.185.219 1 5 281588 20130911222000
+199.187.122.91 13 13 239396 20130928170628
+79.169.218.112 1 5 281588 20130915154234
+95.69.41.154 0 6 97782 
+66.249.82.64 4 67 1082118 20130902200601
+46.50.118.154 1 5 281588 20130912100853
+87.103.57.172 4 16 578180 20130912074122
+202.97.146.114 1 1 2989 20130912120347
+82.155.121.28 1 5 281588 20130913094106
+85.138.50.187 1 3 155191 20130917120114
+220.181.51.199 1 1 6314 20130912094300
+131.253.24.38 1 1 286 20130914045634
+84.90.29.114 1 5 281588 20130912110240
+208.80.194.126 4 4 140059 20130913210920
+2.82.241.99 0 2 16252 
+188.37.232.95 1 5 281588 20130911230527
+81.193.196.61 1 67 433794 20130905213753
+95.211.169.152 1 5 281584 20130911233512
+188.80.106.13 1 5 281588 20130912200019
+2.81.150.5 1 5 281588 20130912235929
+94.132.187.34 3 110 870548 20130923123536
+188.80.148.56 0 2 16252 
+218.60.148.65 1 1 6293 20130916110000
+217.129.189.60 1 5 281588 20130911185648
+82.155.70.7 1 5 281588 20130913194715
+89.154.38.59 0 9 1243367 
+5.158.2.150 0 9 1243367 
+82.154.74.23 1 5 281588 20130912101831
+217.129.140.65 1 1 286 20130908133021
+84.91.45.120 1 1 286 20130908141548
+2.81.135.167 1 5 281588 20130912082253
+79.169.169.248 1 1 286 20130908120730
+87.103.51.32 0 1 16297 
+217.129.241.206 4 8 282053 20130912152642
+41.250.225.88 0 1 8126 
+123.170.148.64 1 1 6294 20130916105912
+2.81.199.159 1 1 286 20130921075517
+31.4.218.119 0 1 16297 
+85.240.132.72 0 2 16252 
+62.28.27.254 1 5 281588 20130912103344
+188.83.15.166 0 1 278068 
+188.80.227.222 1 1 286 20130929163814
+95.94.56.98 2 6 281743 20130911233531
+95.94.19.93 0 1 118768 
+217.129.197.201 1 1 286 20130911141535
+188.155.143.127 0 1 86274 
+188.140.60.177 0 1 86274 
+195.245.179.94 0 3 16252 
+85.243.135.35 0 1 278068 
+193.127.177.2 2 8 291670 20130912110940
+89.214.70.159 1 1 286 20130907095627
+195.23.11.143 0 3 361482 
+2.83.60.51 2 10 563176 20130913094957
+193.126.178.128 1 5 281588 20130912213955
+87.103.60.120 1 5 281588 20130912172759
+87.103.101.185 1 5 281588 20130921214202
+89.155.201.54 1 5 281588 20130912223507
+89.155.83.178 1 5 281588 20130915123640
+195.23.89.232 2 2 572 20130918182256
+2.81.38.26 0 1 16297 
+2.82.45.252 3 15 281898 20130913104548
+62.48.251.33 1 1 286 20130909171342
+87.196.122.134 0 1 16297 
+109.50.156.210 1 5 281588 20130914044948
+213.22.0.204 1 5 279956 20130912104723
+213.190.218.193 1 5 281588 20130911192722
+2.81.223.204 1 5 281588 20130913170509
+87.103.60.42 1 5 281588 20130912103918
+85.139.138.18 1 5 281588 20130916215450
+84.91.81.245 1 1 286 20130905115902
+195.23.86.54 0 130 0 
+2.82.251.240 1 5 281588 20130912204346
+192.99.3.60 1 1 35563 20130904221712
+5.158.46.51 1 3 271183 20130913150948
+188.80.103.10 0 2 32594 
+84.91.196.162 3 96 494567 20130906115157
+89.180.7.190 1 1 286 20130927170316
+2.83.111.176 0 1 8126 
+62.28.244.59 0 1 8126 
+82.155.249.184 0 4 9796 
+82.155.55.195 1 1 286 20130908130342
+157.56.122.216 6 30 1689504 20130922160409
+213.22.0.160 1 19 444558 20130914012658
+82.155.121.216 2 75 491388 20130905121959
+195.35.96.21 3 7 281898 20130912102334
+87.196.121.192 2 7 282734 20130912135920
+89.180.120.12 0 1 218619 
+62.28.73.173 1 5 281588 20130912161211
+115.239.212.9 0 2 149818 
+213.229.128.218 0 1 278068 
+88.190.61.136 2 2 39962 20130916094805
+188.250.141.99 1 1 286 20130907141710
+95.69.45.217 0 3 361482 
+188.80.100.136 0 3 32594 
+2.81.156.250 1 1 286 20130917234101
+178.160.185.253 1 1 8069 20130913155017
+85.30.249.21 0 2 9006 
+213.30.118.97 2 6 281743 20130912131654
+88.214.167.248 0 1 4898 
+195.245.151.153 1 5 281588 20130914074543
+83.240.194.157 2 5 280752 20130912124229
+95.136.126.253 1 5 281588 20130912112516
+188.80.107.12 0 9 1243367 
+144.64.32.12 0 1 278499 
+89.154.0.234 0 2 556136 
+85.138.154.47 0 1 8126 
+188.81.215.122 1 5 279956 20130912095451
+218.208.72.122 0 1 278499 
+188.80.107.106 0 3 361482 
+217.129.141.38 1 5 281588 20130917223739
+89.155.126.10 1 5 281588 20130912212712
+217.129.245.2 0 1 8126 
+188.80.109.50 1 5 281588 20130913112825
+85.240.74.124 1 5 281588 20130913213633
+111.181.143.137 1 1 4114 20130912120841
+91.187.86.180 2 2 572 20130910205848
+201.55.31.114 0 1 158110 
+113.247.234.117 1 1 8069 20130913154252
+188.83.12.65 1 5 281588 20130912141849
+2.81.135.235 0 1 278068 
+88.214.163.173 0 1 54761 
+87.196.243.40 0 2 9006 
+77.54.86.55 1 5 281588 20130912224635
+199.30.24.118 0 1 278068 
+2.82.254.60 1 1 286 20130916214225
+188.80.99.66 0 1 4898 
+87.103.64.94 1 5 281588 20130913134033
+95.93.181.136 1 5 280947 20130912093341
+188.83.56.172 0 3 361482 
+2.82.243.247 0 2 0 
+2.81.144.153 0 2 9006 
+188.143.232.111 7 7 227431 20130930013137
+89.180.58.110 1 5 281588 20130912145201
+62.28.50.10 7 37 843752 20130913102521
+2.81.129.157 0 2 9796 
+83.240.136.248 1 1 286 20130906144203
+193.137.168.214 2 6 281874 20130923140014
+2.81.136.11 1 1 286 20130921215532
+81.35.231.59 1 1 286 20130902162512
+2.81.113.236 1 11 22349 20130921111621
+2.80.230.182 1 5 281588 20130912210119
+89.152.70.114 1 1 0 20130912215134
+188.250.214.87 2 4 9578 20130928103403
+62.28.106.132 0 1 18388 
+87.196.97.209 0 17 2670065 
+84.90.161.163 1 5 281588 20130912080151
+178.33.122.74 2 2 1380 20130917053547
+60.10.174.167 1 1 6294 20130916105411
+189.4.100.21 1 1 5888 20130919193509
+77.123.40.78 1 1 2423 20130903071618
+217.129.27.127 4 8 282053 20130916115341
+89.214.147.182 0 3 361482 
+89.152.121.74 4 160 927261 20130930230542
+87.103.14.223 0 18 146673 
+188.250.206.18 0 1 528781 
+115.239.212.138 0 2 19446 
+88.214.160.165 1 1 155 20130916115230
+213.205.65.240 0 1 16297 
+213.141.30.28 1 5 281588 20130912112435
+212.183.128.242 1 5 281588 20130912105612
+89.152.70.48 1 5 281588 20130913102615
+204.210.133.44 0 1 242357 
+217.129.27.50 1 1 286 20130910205906
+5.249.70.32 1 1 286 20130919185344
+2.81.4.117 2 75 491388 20130913113112
+87.103.74.31 3 116 1357561 20130904220543
+79.168.234.226 1 3 155191 20130903103303
+188.251.61.197 0 1 278499 
+193.137.224.5 1 5 281588 20130912100313
+220.181.51.108 0 1 133438 
+196.46.136.91 1 1 6296 20130916110600
+89.155.43.2 1 5 281588 20130912175801
+80.31.181.254 1 5 281588 20130913102750
+98.195.119.65 0 1 242357 
+2.81.136.229 0 1 26171 
+2.81.132.10 1 1 286 20130926110713
+87.103.72.1 0 1 16297 
+2.82.75.121 1 5 281588 20130914124400
+89.155.248.186 1 5 281588 20130913092648
+217.129.241.74 4 20 1126352 20130912172835
+188.82.242.216 1 5 281588 20130912213954
+82.155.127.186 1 1 286 20130904212947
+2.81.190.148 0 2 9006 
+84.91.46.59 1 1 286 20130922172502
+85.139.231.124 0 1 8126 
+195.23.91.9 1 5 281588 20130912085929
+217.129.24.121 1 5 279956 20130912101800
+87.103.74.42 1 5 281588 20130912211916
+193.137.65.116 1 5 279956 20130912091646
+89.128.50.58 1 1 286 20130909104239
+5.158.6.198 1 1 286 20130908123504
+84.90.165.91 1 1 286 20130915213931
+189.4.196.216 0 1 528781 
+193.137.168.232 1 5 281588 20130912091642
+95.94.234.236 1 5 279956 20130912185916
+187.108.177.33 0 1 242357 
+188.80.96.231 1 1 286 20130908022530
+89.152.248.154 1 4 220453 20130917143035
+213.13.127.130 0 12 1693367 
+188.37.199.28 1 2 14440 20130916092447
+177.157.88.16 0 1 278499 
+2.83.113.159 0 1 8126 
+46.229.170.197 1 1 35563 20130929114544
+89.155.126.95 0 14 2115254 
+217.129.230.86 0 1 8126 
+77.54.180.21 1 1 286 20130925165224
+213.141.22.106 0 1 8126 
+62.28.233.68 0 49 263484 
+85.240.194.221 1 5 281588 20130912111830
+89.155.50.20 1 5 281588 20130912235404
+93.108.150.69 1 5 281588 20130912125308
+188.81.43.169 19 102 915876 20130904005841
+87.103.66.254 1 5 281588 20130912213156
+193.137.168.208 3 15 844764 20130918093729
+93.108.197.89 1 1 286 20130923005754
+94.153.64.66 12 12 353484 20130904162818
+218.6.145.22 1 1 8069 20130913155404
+84.90.167.1 1 1 286 20130906105934
+2.82.230.128 1 5 281588 20130912155147
+85.245.167.99 0 2 279801 
+188.82.240.69 1 1 286 20130913145905
+83.223.180.120 0 2 414188 
+89.155.200.242 0 15 122271 
+94.225.193.164 0 1 528781 
+88.214.167.150 2 4 310 20130913160514
+188.80.243.72 1 1 286 20130907113325
+79.197.247.213 1 5 281588 20130913045046
+87.103.35.140 1 5 281588 20130912221411
+2.81.220.100 0 1 16297 
+188.250.95.167 1 5 281588 20130912125235
+89.155.216.141 2 8 550498 20130912160317
+89.180.184.59 0 2 16252 
+81.84.245.113 0 1 16297 
+95.69.57.91 1 5 281588 20130912060637
+82.155.123.179 2 10 281102 20130913174328
+37.28.218.246 1 1 286 20130906124045
+5.43.27.2 1 5 281588 20130912122419
+213.22.4.244 3 17 281898 20130925230034
+87.103.74.120 1 5 281588 20130912193252
+200.152.34.20 0 1 171733 
+2.81.149.199 1 5 281588 20130913175120
+2.83.182.63 0 1 278068 
+95.211.224.24 0 2 7482786 
+87.103.74.213 1 5 281588 20130912085945
+84.90.84.39 1 5 281588 20130913124720
+2.83.80.37 0 12 1693367 
+213.30.118.69 2 2 572 20130912115036
+188.140.28.117 1 1 286 20130922152306
+2.81.157.131 2 72 489881 20130913140239
+93.108.17.255 1 5 281588 20130912180722
+188.97.187.16 1 1 286 20130919210926
+85.139.157.193 1 5 281588 20130911222323
+95.94.214.238 1 5 281588 20130913112748
+23.22.131.24 2 2 73675 20130913154039
+77.54.220.91 1 5 281588 20130914092030
+188.140.123.87 0 1 278499 
+2.81.144.213 1 5 281588 20130913154030
+188.83.60.178 0 4 361482 
+87.103.49.125 0 1 16297 
+115.239.212.6 1 2 51286 20130902062138
+89.180.207.12 1 5 281588 20130912125152
+80.27.103.225 1 7 561389 20130912133632
+188.81.215.61 1 4 463055 20130910162716
+62.169.119.252 1 5 281588 20130912103248
+221.193.17.138 1 1 3673 20130912120703
+89.214.96.253 1 1 286 20130915165801
+188.81.85.37 1 1 286 20130911164903
+62.28.70.133 1 5 281588 20130913121935
+83.240.247.100 1 5 281588 20130912161716
+188.80.102.99 2 43 795912 20130902172132
+2.81.127.235 1 5 281588 20130918185213
+178.166.37.37 0 1 278068 
+2.83.241.94 1 5 280597 20130917221348
+87.103.51.34 1 5 281588 20130912211918
+109.50.175.156 0 1 8126 
+84.91.44.204 0 1 4898 
+2.81.85.180 1 5 281588 20130912002647
+77.27.24.242 1 70 435301 20130906144850
+78.130.111.143 0 2 16252 
+85.243.130.83 0 1 16297 
+95.95.29.208 1 1 286 20130905121210
+2.83.132.160 0 1 8126 
+89.153.198.215 1 1 286 20130919205153
+217.129.186.187 2 8 552771 20130917134556
+188.80.111.159 1 5 281588 20130912083516
+213.228.181.48 1 11 285578 20130912092434
+88.214.166.180 0 1 16297 
+192.99.9.164 1 1 6314 20130904121331
+65.55.217.213 0 1 278068 
+84.91.32.149 0 1 16297 
+194.65.37.67 9 84 844536 20130915101707
+193.106.136.46 6 6 176742 20130912022803
+2.81.128.99 6 116 1294407 20130911142419
+95.95.219.54 0 2 9006 
+85.243.142.212 0 1 8126 
+95.69.125.70 0 2 9006 
+79.169.85.176 1 1 286 20130918134526
+84.91.5.160 1 1 286 20130901115347
+89.153.215.19 1 5 281588 20130913014419
+188.251.61.16 0 11 1637765 
+213.22.6.133 0 4 18012 
+2.81.127.152 1 5 281588 20130923002217
+195.23.36.57 1 5 281588 20130918120627
+5.9.113.104 3 3 20355 20130920192246
+93.108.130.4 1 5 281588 20130912101817
+199.30.24.255 1 1 286 20130907073108
+85.240.139.75 1 5 281588 20130912200039
+192.99.2.120 6 6 37515 20130907051428
+93.102.153.245 1 5 281588 20130914214353
+217.129.241.189 1 5 281588 20130913003725
+69.171.234.114 0 1 10279 
+87.196.204.225 1 5 281588 20130912183309
+119.147.101.133 1 1 4114 20130912120812
+188.80.111.4 2 6 281743 20130912214100
+77.201.157.59 1 5 281588 20130913114855
+62.28.232.136 1 5 281584 20130912123625
+82.154.61.181 0 7 880893 
+217.129.143.239 1 5 281588 20130912082445
+84.90.234.132 1 1 286 20130903233421
+213.22.204.158 0 2 9006 
+82.155.113.240 1 5 281588 20130912232245
+193.126.186.35 1 1 286 20130908164013
+188.82.214.40 0 4 812588 
+2.83.201.144 5 72 785745 20130921220014
+82.154.140.130 2 6 281743 20130912120450
+93.108.33.26 1 5 281588 20130912100413
+200.153.228.174 1 67 433794 20130927195928
+87.103.74.65 1 1 286 20130913200318
+84.90.165.56 0 7 880893 
+77.91.205.49 0 3 361482 
+192.99.3.15 11 11 79417 20130916045242
+188.251.222.2 2 10 559912 20130911223117
+87.103.57.34 1 5 281588 20130913152336
+2.81.152.18 1 67 433794 20130909170822
+62.169.113.74 0 20 1637117 
+157.55.43.25 3 26 898630 20130913132214
+217.129.131.134 4 114 1497508 20130906105946
+85.138.124.130 1 5 281588 20130913091305
+84.90.157.251 12 36 283293 20130922183728
+93.108.161.142 1 5 284319 20130913003752
+89.155.125.8 0 4 542056 
+188.83.12.14 1 70 435301 20130919201302
+62.28.5.23 1 5 281588 20130912092444
+193.126.131.193 0 9 1243367 
+82.155.171.125 1 1 286 20130916232952
+201.43.151.110 0 1 171733 
+188.250.183.119 0 9 1243367 
+85.242.70.230 1 5 281588 20130912234206
+46.165.209.232 1 5 281584 20130911213524
+199.30.24.126 0 1 278068 
+95.176.142.166 1 1 4543 20130912122034
+89.153.128.51 3 9 281898 20130912165744
+93.102.94.172 1 1 286 20130922201421
+46.165.240.92 1 1 5879 20130906031720
+78.130.95.186 0 5 814448 
+2.82.255.105 5 25 1124875 20130912121002
+195.23.89.202 0 2 9006 
+189.10.128.25 0 1 278068 
+188.251.220.238 0 1 16297 
+189.73.93.191 0 1 242455 
+84.91.27.114 1 1 286 20130902231943
+89.155.54.127 2 6 280242 20130912164753
+220.181.51.202 1 1 6314 20130923085744
+198.27.80.33 1 1 18674 20130916183202
+213.22.114.182 1 1 286 20130910190042
+62.48.168.229 1 5 281584 20130912154115
+2.83.8.164 1 5 281588 20130913094753
+79.169.216.178 0 1 8126 
+2.81.171.251 1 5 281588 20130914134923
+2.83.193.144 1 3 270542 20130902113452
+188.81.66.212 1 1 286 20130908181303
+89.155.187.144 1 5 281588 20130912215840
+157.55.46.249 8 43 2750789 20130919223227
+115.239.212.7 0 1 6933 
+194.65.129.161 1 5 281588 20130912135906
+94.23.202.64 2 38 131832 20130918130016
+85.60.52.85 1 5 281588 20130912101233
+188.82.215.218 0 2 9006 
+157.55.235.56 12 58 3368603 20130925121602
+85.246.19.126 0 1 86274 
+217.129.215.89 0 5 679480 
+81.84.243.145 0 1 16297 
+92.250.80.190 1 5 281588 20130912113703
+78.130.61.245 0 3 16297 
+85.241.80.229 1 5 281588 20130912201349
+82.154.45.1 1 5 281588 20130912144308
+213.228.152.131 14 31 1134334 20130926094705
+109.50.101.83 1 5 281588 20130913025524
+78.130.14.72 1 1 286 20130916124007
+2.81.131.6 1 1 286 20130907145652
+213.228.152.81 6 18 845205 20130917092421
+85.241.16.56 1 5 155 20130922214343
+83.97.145.124 1 5 281588 20130912085031
+85.242.206.128 6 123 962972 20130929171845
+94.132.227.31 1 5 281588 20130912115001
+75.37.13.247 0 1 242357 
+188.83.55.254 0 4 361482 
+89.152.3.55 0 1 18388 
+2.82.254.8 0 4 0 
+89.155.157.233 1 1 286 20130907235947
+193.137.168.16 7 80 1339044 20130923144728
+217.129.226.254 1 5 281588 20130911231255
+188.82.76.39 1 1 286 20130906225717
+177.188.139.40 0 1 171733 
+124.122.163.11 0 1 242357 
+8.28.16.254 1 1 151 20130903113947
+85.243.122.43 0 1 8126 
+62.169.125.136 0 1 8126 
+194.65.85.25 3 9 281898 20130912190200
+87.103.49.85 1 1 286 20130906132905
+46.24.111.195 1 5 281588 20130912105827
+193.194.132.75 1 7 290594 20130913082326
+89.155.202.151 1 1 286 20130908112314
+87.196.139.185 1 5 281588 20130912220507
+85.244.40.44 2 10 559912 20130912180859
+123.69.62.94 1 1 6298 20130916110457
+93.108.61.66 0 1 8126 
+78.130.71.137 1 3 155 20130912153705
+84.91.238.159 0 13 1646771 
+60.252.56.250 1 1 4643 20130912121554
+93.102.217.112 1 5 281588 20130913153806
+95.136.72.190 7 88 907900 20130925173504
+2.81.81.198 3 15 281898 20130912111538
+197.148.19.163 1 5 281588 20130912100251
+213.190.216.49 11 31 1537222 20130921140840
+213.22.4.56 1 1 286 20130908010135
+188.82.202.36 1 1 286 20130907235445
+82.155.123.26 2 2 572 20130926182417
+2.81.155.97 2 75 491388 20130920170006
+188.83.127.239 1 5 213026 20130923151343
+62.48.213.222 3 67 770380 20130903134527
+93.102.89.71 1 5 281588 20130921093453
+2.81.176.78 6 75 804521 20130925152139
+213.22.4.183 1 5 279956 20130912124209
+2.81.56.246 1 1 286 20130919122301
+95.95.8.203 1 5 281588 20130912134128
+82.154.121.123 1 3 271183 20130918092133
+117.197.68.188 1 1 3673 20130912120659
+2.81.117.195 0 11 0 
+95.174.185.203 0 2 16252 
+213.58.135.83 2 7 290000 20130913110306
+82.155.53.11 0 2 271028 
+94.133.203.99 0 1 278499 
+85.243.246.80 1 5 281588 20130913003523
+213.228.158.23 0 1 4898 
+188.83.119.93 1 1 286 20130908114210
+188.82.53.81 13 22 527086 20130902125611
+2.81.142.178 12 97 2047217 20130920152943
+193.106.136.61 3 3 88371 20130914203937
+83.240.187.37 2 14 844609 20130912173248
+84.77.223.98 0 1 344408 
+92.250.111.244 1 5 281588 20130912205405
+86.123.244.87 3 3 106689 20130919165340
+88.214.167.23 1 5 281588 20130911233216
+94.75.244.163 3 7 281886 20130912143515
+188.251.133.206 0 1 0 
+89.152.108.70 2 12 850343 20130912153014
+87.103.61.2 1 3 155 20130915122336
+217.129.140.89 2 2 572 20130924002056
+87.103.64.166 2 70 488551 20130910141519
+188.82.204.95 1 1 286 20130907100402
+84.90.25.137 2 2 572 20130901132234
+84.91.116.36 1 1 286 20130905181314
+89.154.82.216 0 2 9006 
+62.169.86.131 1 5 281588 20130913002657
+36.57.167.71 1 1 8069 20130913153917
+2.80.97.16 0 1 278499 
+87.103.57.207 0 1 16297 
+93.186.31.96 1 1 286 20130908090647
+198.27.69.78 2 2 12628 20130929053226
+94.133.187.191 0 2 9006 
+213.30.118.99 2 10 470515 20130911184935
+91.116.137.33 1 5 281588 20130912201910
+217.212.230.81 1 5 281588 20130912065534
+95.69.73.12 1 5 281588 20130912081112
+188.82.240.143 0 2 9006 
+89.155.126.250 0 1 278499 
+77.248.60.223 1 5 281588 20130912230729
+85.242.11.79 1 5 281588 20130913011555
+87.103.66.203 1 5 281588 20130913162854
+199.30.24.144 3 67 770380 20130915225224
+178.166.50.145 1 5 281588 20130912111654
+93.108.10.43 1 5 281588 20130912092904
+2.83.243.181 1 3 155 20130903151520
+188.251.115.118 1 5 281588 20130915105917
+2.80.75.54 0 1 8126 
+188.251.213.208 0 1 16297 
+82.155.139.225 1 5 281588 20130912152317
+208.80.194.29 1 1 28642 20130912141054
+93.102.167.12 0 5 814448 
+70.194.70.108 0 1 242357 
+194.65.81.94 1 3 271179 20130909161056
+88.214.162.133 0 1 16297 
+217.129.180.13 1 5 281588 20130912185520
+89.155.124.239 1 1 286 20130908005131
+62.169.67.133 1 5 281588 20130913003734
+193.106.136.60 3 3 88371 20130909082046
+62.28.143.238 0 1 278068 
+74.117.180.60 0 1 315754 
+2.82.232.127 1 5 281588 20130912130734
+110.87.47.45 0 5 18012 
+92.250.69.128 1 5 281588 20130912124856
+194.79.89.163 1 1 286 20130902144147
+77.54.83.195 1 5 281588 20130912163343
+2.82.255.113 0 1 16297 
+212.18.172.52 2 6 281743 20130916161629
+123.151.23.12 1 1 46179 20130913154247
+210.22.120.246 1 1 4543 20130912122028
+62.28.113.42 2 10 563172 20130913114423
+81.37.208.166 1 1 286 20130907220218
+188.80.105.80 2 6 281743 20130912155212
+2.80.95.110 0 1 278499 
+220.248.166.66 1 1 6298 20130916112024
+2.81.134.179 1 3 271183 20130903193527
+89.180.184.230 1 5 281588 20130913104042
+177.42.163.22 1 5 188927 20130915162358
+87.103.60.94 1 1 286 20130901111700
+95.136.97.207 1 5 281588 20130912123215
+199.30.24.30 0 1 1860 
+83.240.187.171 3 15 281898 20130912135709
+77.54.253.158 1 1 286 20130929145324
+94.153.64.9 9 9 265113 20130911111210
+83.240.139.193 1 1 286 20130909115724
+213.22.5.142 0 8 1484922 
+213.205.67.227 1 1 286 20130910080958
+81.84.136.145 6 30 282363 20130913110900
+2.81.42.184 11 135 1203107 20130905031515
+95.92.4.17 1 5 281588 20130912070546
+82.155.161.10 1 5 281588 20130913100805
+84.91.86.92 2 10 281743 20130912144359
+2.81.119.130 0 3 361482 
+82.154.181.197 1 5 281588 20130912091018
+89.154.97.88 1 5 281584 20130916135029
+84.90.164.211 1 1 286 20130908095756
+81.37.142.247 1 5 281588 20130912153556
+89.214.201.73 0 4 559602 
+2.81.132.28 1 5 281588 20130926012732
+88.214.163.177 1 5 281588 20130916203736
+195.23.51.99 1 1 286 20130905151514
+89.2.228.36 1 5 281588 20130913160418
+213.30.118.65 0 1 16297 
+195.23.37.9 0 2 9006 
+123.120.162.181 1 1 6298 20130916110344
+188.81.214.80 1 1 286 20130914210420
+193.137.168.32 5 11 553498 20130924174427
+2.82.153.93 0 8 1241507 
+217.129.128.55 1 5 279956 20130911203525
+188.80.144.15 1 1 286 20130907205011
+41.225.14.104 1 1 2976 20130912120503
+89.180.60.149 0 15 2085865 
+194.39.218.10 1 5 281588 20130912131922
+95.136.125.213 1 5 281588 20130913084011
+78.188.47.109 1 1 4518 20130912120952
+213.22.222.228 0 1 278499 
+216.38.216.101 1 1 5887 20130924204745
+65.55.157.174 2 9 744158 20130911205011
+87.103.72.167 0 1 16297 
+177.130.207.225 1 5 281588 20130913134750
+88.214.161.95 0 1 8126 
+88.227.90.137 0 1 218619 
+87.103.66.36 1 5 281588 20130912203811
+87.103.66.97 0 1 16297 
+168.224.160.14 2 10 563172 20130918153543
+155.91.64.11 0 4 2018 
+85.244.59.92 0 2 9006 
+217.129.130.221 1 1 286 20130907201944
+2.81.132.139 1 1 286 20130901225226
+85.242.224.91 0 2 271028 
+2.81.159.26 0 1 1860 
+79.169.46.37 1 5 281588 20130917222552
+188.250.3.24 0 1 16297 
+81.84.155.240 16 104 928745 20130913183859
+188.80.88.233 1 1 286 20130919164506
+5.43.48.61 4 16 783220 20130915152042
+87.103.60.84 1 5 281588 20130912215307
+89.152.73.201 1 1 286 20130906181154
+193.47.185.124 2 9 501683 20130916092832
+84.91.32.54 0 3 361482 
+37.189.48.152 1 1 286 20130922155947
+87.248.125.58 1 2 61640 20130924221011
+2.81.131.46 5 17 282208 20130912180501
+31.4.184.152 1 5 281588 20130911193055
+157.55.43.26 7 61 5494452 20130916155741
+193.137.168.76 3 15 844764 20130923102548
+46.165.223.16 1 6 297881 20130912125013
+46.189.170.42 0 2 278858 
+193.137.232.28 6 10 696716 20130912184636
+77.54.66.239 1 1 286 20130919163758
+82.155.54.57 1 5 281588 20130912102352
+85.240.178.204 1 5 281588 20130912211533
+194.38.144.122 0 9 1760730 
+188.82.161.194 0 5 265344 
+2.83.237.157 1 5 281588 20130912182949
+193.126.178.34 1 1 286 20130927214738
+2.81.68.42 1 5 281588 20130912095408
+188.80.103.202 4 175 1149599 20130918211035
+2.81.31.182 0 3 361482 
+2.82.33.172 1 5 281588 20130912101900
+193.137.208.136 7 264 1724812 20130906163038
+94.132.168.140 0 1 278499 
+217.129.140.4 1 5 281588 20130912210734
+217.129.167.93 3 67 770380 20130904203644
+188.80.106.146 0 3 361482 
+2.81.46.207 0 2 16252 
+84.91.105.5 0 1 8126 
+188.251.61.8 1 17 681237 20130912102258
+85.94.224.19 3 7 281898 20130912102556
+89.180.210.254 1 5 281588 20130912090901
+62.28.165.18 0 1 8126 
+89.152.8.78 3 95 444876 20130916230224
+95.136.99.81 14 70 282962 20130917120620
+84.90.151.129 1 1 286 20130927205021
+188.250.143.54 2 6 108051 20130904142856
+65.188.242.149 0 2 484714 
+69.42.65.250 0 1 26171 
+95.104.121.217 0 2 16297 
+137.175.13.164 2 2 14707 20130914152617
+217.129.198.248 1 71 436870 20130925220323
+31.148.246.199 1 1 18622 20130914213734
+89.155.123.190 1 5 281588 20130911234935
+88.240.85.47 0 1 242357 
+89.155.189.206 2 2 572 20130915170713
+188.80.242.204 0 28 799298 
+46.50.41.150 0 2 9006 
+195.23.123.161 2 2 572 20130906160035
+85.138.2.196 0 1 528781 
+199.30.25.78 0 1 26171 
+195.245.181.180 4 78 2535036 20130924172107
+194.65.1.253 1 5 281588 20130912100355
+188.140.33.156 1 5 281588 20130914092537
+213.228.140.2 6 107 1621041 20130923105143
+84.91.45.128 1 1 286 20130916001437
+188.80.104.73 1 3 271183 20130911105122
+85.25.134.59 2 2 12628 20130921002615
+89.154.131.86 1 1 286 20130906210107
+2.81.139.61 1 1 286 20130913160327
+84.90.235.199 1 4 280947 20130912230542
+188.251.29.108 1 5 281588 20130911191124
+85.243.192.216 1 5 281588 20130912162039
+85.244.73.203 0 1 173998 
+195.3.144.241 2 2 44756 20130926105508
+212.13.37.129 17 409 16823651 20130919132205
+217.129.132.45 1 1 286 20130922092016
+2.81.34.72 1 5 279956 20130912110053
+213.228.167.104 1 5 281588 20130912093920
+78.149.233.150 1 5 281588 20130911201831
+187.121.11.244 3 73 444521 20130918145134
+62.28.43.39 0 7 361482 
+87.103.57.5 1 5 281588 20130912220028
+2.81.79.140 1 1 286 20130930000741
+87.103.72.235 1 5 281588 20130913230041
+109.50.100.253 1 5 281588 20130912095646
+77.54.239.67 0 1 278499 
+109.51.122.105 1 5 281588 20130913000246
+188.140.108.60 6 70 777076 20130908234337
+68.189.78.224 0 1 242357 
+2.81.149.201 0 1 16297 
+41.72.42.121 1 3 271183 20130916003422
+158.129.192.95 0 1 278499 
+201.21.72.47 1 5 281588 20130911231949
+2.81.172.73 0 3 9796 
+87.103.64.114 1 1 286 20130901082252
+88.214.167.86 3 7 281898 20130912123319
+89.155.186.177 1 5 281588 20130913002510
+105.172.8.216 1 5 281588 20130912141240
+115.239.212.136 0 1 15158 
+93.102.73.227 1 3 271183 20130902091418
+96.10.151.74 1 1 5738 20130909194526
+88.207.155.21 0 2 9006 
+198.7.58.151 1 5 281584 20130911213525
+84.90.166.39 0 9 1243367 
+78.137.215.76 1 5 281588 20130912165949
+217.129.187.8 1 5 281588 20130912165104
+77.54.197.129 2 6 281743 20130912195359
+2.81.104.51 0 1 4898 
+91.227.100.17 0 9 1099768 
+2.81.131.244 2 6 425733 20130905173509
+188.80.98.121 1 1 286 20130923174529
+195.234.134.115 7 13 562291 20130912110756
+84.90.138.186 0 1 278068 
+198.204.240.116 1 1 8069 20130913154613
+87.103.59.119 1 5 281588 20130912124346
+188.80.104.56 4 10 280421 20130912172846
+188.80.107.37 2 6 281874 20130912091808
+193.126.188.119 1 5 281588 20130923165714
+77.54.254.117 3 13 563331 20130914174137
+77.54.27.225 1 5 281588 20130912160056
+62.28.178.18 0 2 9006 
+217.129.135.122 1 1 286 20130917235433
+171.89.42.117 1 1 3673 20130912120638
+193.136.206.164 13 95 878571 20130916112801
+2.81.225.31 1 1 286 20130902194608
+2.81.22.50 1 67 433794 20130902165431
+82.154.128.152 1 5 281588 20130912093041
+31.22.175.254 4 14 280421 20130912014931
+95.136.61.207 1 5 281588 20130912115650
+89.155.50.126 1 1 286 20130928235223
+2.83.226.49 1 5 281588 20130916155007
+87.103.91.57 0 14 2131152 
+2.81.191.182 1 1 286 20130914143044
+89.109.118.154 0 1 171733 
+217.129.218.34 0 8 1321887 
+195.23.36.98 2 10 563176 20130913134810
+193.137.239.121 1 1 286 20130917153357
+2.81.188.93 0 2 9006 
+200.223.164.53 1 1 8069 20130913154125
+84.90.24.35 2 95 490723 20130905143207
+95.95.33.165 1 5 281588 20130914110859
+89.155.125.149 2 8 552771 20130919150123
+217.129.212.208 0 2 9006 
+82.155.143.205 1 3 155 20130912114413
+89.155.215.129 1 5 281588 20130912173855
+83.240.242.186 1 1 286 20130906162056
+72.251.244.13 0 2 1632 
+85.1.152.51 0 1 8126 
+70.25.20.116 1 1 286 20130923141701
+2.81.139.17 1 5 281588 20130913103028
+89.6.107.41 0 1 1860 
+2.81.125.191 1 5 281588 20130913091809
+213.30.118.98 1 2 16583 20130926084742
+2.81.140.17 1 5 281588 20130919215844
+188.81.215.131 0 2 0 
+188.80.38.133 0 9 1243367 
+2.81.43.220 0 1 8126 
+95.95.200.48 1 5 281588 20130914080106
+95.136.112.42 1 5 281588 20130913223005
+89.155.201.17 1 5 281588 20130912091730
+84.90.24.48 1 5 281588 20130914162928
+84.91.43.48 0 1 8126 
+195.23.58.253 0 3 361482 
+188.251.213.222 0 1 16297 
+213.228.181.124 3 11 563462 20130918165820
+115.239.212.8 0 2 15073 
+94.132.42.107 1 5 281588 20130912101238
+188.27.47.130 1 1 6294 20130916110035
+31.22.218.83 0 1 240214 
+89.152.249.17 3 7 281898 20130912225742
+66.249.80.45 0 2 484714 
+94.132.43.106 1 5 281588 20130911233608
+59.90.83.239 1 1 4518 20130912120937
+85.242.164.62 0 1 528781 
+79.154.246.21 1 66 620852 20130906111944
+77.230.220.53 1 1 286 20130910102632
+2.81.141.21 4 20 282053 20130913105200
+87.103.49.208 1 5 284318 20130911213532
+193.126.23.67 6 22 845229 20130913155347
+194.65.138.120 5 19 854211 20130913175253
+188.80.99.237 1 5 281588 20130912121402
+37.19.34.57 1 1 6298 20130916110442
+68.40.51.22 0 1 242357 
+157.56.122.218 7 45 3326228 20130914135947
+188.82.250.240 1 1 286 20130922224723
+87.248.125.56 0 1 641 
+84.90.28.45 1 5 155662 20130901203256
+188.80.144.233 5 75 504539 20130930173351
+188.250.215.35 1 5 281588 20130912102059
+217.129.223.196 1 5 281588 20130912152520
+213.22.1.31 1 1 286 20130909112314
+150.70.172.112 1 1 151 20130915205113
+95.93.34.9 0 1 8126 
+85.246.43.4 1 5 281588 20130912152730
+81.84.54.132 1 5 281588 20130912192404
+188.250.214.111 0 9 1243367 
+177.142.170.198 6 28 1123748 20130912205539
+188.81.85.69 1 5 281588 20130912224755
+188.81.163.117 0 15 122271 
+62.48.211.55 1 5 281584 20130912164509
+89.152.71.87 0 3 48891 
+94.132.43.223 1 5 281588 20130920015031
+193.137.36.5 4 13 591955 20130912172900
+188.251.31.247 5 25 1404676 20130913083013
+193.137.95.67 0 1 278068 
+213.22.114.30 1 1 286 20130909103437
+87.103.49.182 1 5 281588 20130912152419
+84.90.233.7 1 5 281588 20130912193841
+62.28.6.53 0 5 814448 
+193.136.93.231 1 1 286 20130927185125
+84.91.140.50 1 5 279956 20130913041021
+82.155.53.58 1 5 281588 20130912211007
+81.193.44.155 0 1 8126 
+2.80.252.207 0 2 9006 
+87.103.68.123 0 1 16297 
+2.81.127.224 2 6 281743 20130912204444
+85.214.25.242 1 1 35563 20130918034009
+62.169.66.149 1 5 281588 20130921082036
+157.56.19.89 2 8 552763 20130924221019
+85.243.246.7 0 7 853404 
+87.103.49.89 1 5 281588 20130912195505
+193.126.130.47 1 1 286 20130908010555
+157.55.0.155 2 13 612059 20130912213310
+217.129.131.125 1 1 286 20130908140317
+202.108.19.31 1 1 32745 20130916110159
+37.115.112.120 3 3 88371 20130912015630
+188.251.62.233 2 5 61736 20130912225527
+176.32.156.243 1 1 8069 20130913160219
+89.155.214.205 3 11 563331 20130912075930
+2.81.180.143 1 1 449 20130924141358
+177.32.2.141 1 5 281588 20130912015847
+188.83.210.209 0 1 158110 
+208.80.194.30 1 1 28642 20130912145254
+88.214.162.249 0 1 4898 
+2.82.193.10 1 5 281588 20130913010028
+2.81.222.254 1 1 286 20130918141757
+89.155.53.234 1 5 281588 20130916123107
+82.155.140.217 1 5 281588 20130916093702
+2.81.85.36 1 5 281588 20130912203440
+87.103.60.86 1 5 281588 20130913110140
+78.130.99.103 1 3 271183 20130902155337
+109.50.73.165 0 1 8126 
+188.251.139.97 3 11 563331 20130912231816
+2.81.158.53 2 10 281743 20130924160411
+2.81.122.173 2 76 493089 20130916203108
+85.139.254.185 1 1 286 20130916171114
+199.231.64.20 2 2 12590 20130925004258
+213.58.198.122 2 6 281743 20130912214041
+84.18.23.97 1 1 286 20130906131417
+195.23.84.149 0 2 9006 
+46.50.16.55 0 16 2198017 
+2.80.177.9 2 6 281743 20130912101012
+82.155.54.60 1 5 281588 20130912222115
+85.242.211.51 1 5 281588 20130912233442
+2.80.242.169 5 73 812254 20130904110824
+72.52.94.234 1 66 433129 20130905143328
+62.83.214.208 0 2 32594 
+188.80.151.58 0 2 9006 
+193.137.168.193 2 8 436779 20130916112149
+79.169.147.185 2 6 281743 20130915110233
+93.102.162.215 1 5 281588 20130912081836
+199.30.24.246 0 2 9006 
+95.95.161.106 1 5 281588 20130911233529
+5.158.38.42 1 5 281588 20130912074136
+188.80.148.70 1 1 286 20130903175524
+157.55.46.251 6 29 1688863 20130913144029
+62.28.176.66 1 4 220099 20130912090050
+87.103.57.160 1 1 286 20130904150054
+76.121.197.103 0 1 242357 
+170.136.110.10 0 1 1860 
+85.246.221.34 1 5 155 20130912231042
+87.103.14.201 1 4 220103 20130913105748
+2.81.158.148 2 78 66888358 20130906151922
+2.81.131.91 1 5 280947 20130912102542
+217.129.241.47 3 3 0 20130915145241
+80.102.218.26 1 5 281588 20130915164731
+188.83.125.68 0 1 278499 
+188.80.96.152 1 5 281588 20130914202529
+188.80.151.140 2 10 559912 20130912095111
+85.94.224.20 10 10 1550 20130912104521
+217.129.142.52 1 1 286 20130908144621
+188.80.102.15 0 9 1243367 
+188.81.160.25 0 1 278499 
+195.23.175.134 1 5 281588 20130913101332
+41.251.90.183 0 9 1760730 
+93.102.157.98 0 3 361482 
+85.244.160.188 1 5 281588 20130912105701
+81.84.109.174 0 1 528781 
+85.139.252.113 1 5 281588 20130912182119
+213.205.83.82 1 3 155 20130916160849
+31.22.247.145 0 1 16297 
+82.155.157.21 0 1 16297 
+217.129.200.192 0 2 16252 
+2.80.102.21 0 2 278858 
+94.133.117.181 15 229 4161423 20130908113237
+91.200.13.40 4 4 107138 20130918041308
+2.83.234.114 1 5 281588 20130912234845
+201.86.70.114 0 1 278499 
+95.69.70.200 0 1 8126 
+193.126.184.223 0 2 9006 
+83.132.227.134 1 5 279956 20130912120448
+199.30.25.83 3 67 770380 20130906160151
+92.250.33.36 2 7 426204 20130903083846
+195.23.41.26 0 2 9006 
+85.242.172.70 0 2 9006 
+95.93.232.10 0 1 278068 
+188.251.67.144 1 1 286 20130926153312
+93.108.226.178 0 2 9006 
+213.228.128.16 2 6 281743 20130912123623
+89.2.188.28 0 1 16297 
+95.136.56.170 0 1 278068 
+81.253.35.97 1 5 281588 20130913021716
+87.103.64.161 1 5 281588 20130913093501
+89.155.216.104 1 5 281588 20130912215646
+199.30.25.66 1 1 286 20130928051305
+144.64.16.55 1 5 281588 20130913003409
+213.205.65.96 1 67 433794 20130919180405
+188.80.193.223 2 9 500059 20130913124242
+2.83.178.179 1 5 281588 20130912070819
+213.22.116.83 5 74 819202 20130912091143
+188.80.236.115 0 1 8126 
+88.214.162.131 2 6 280111 20130913021854
+217.69.133.186 2 4 13958 20130920195629
+62.28.187.218 1 5 281588 20130912095110
+82.155.123.149 0 11 1325710 
+2.81.107.149 1 5 281588 20130912124331
+116.25.249.137 2 2 11760 20130904120753
+2.81.149.90 0 8 333242 
+95.95.64.121 1 5 281588 20130912231006
+77.224.190.129 1 5 281588 20130913083635
+188.250.216.48 0 1 278499 
+217.129.26.235 1 1 286 20130909115833
+188.140.31.232 1 5 281588 20130912215158
+188.80.101.29 0 1 0 
+94.46.226.203 0 2 9006 
+94.132.42.189 1 1 286 20130902214850
+31.4.220.138 0 1 16297 
+121.199.44.146 1 1 4538 20130912121646
+87.103.68.228 1 5 281588 20130913114851
+2.81.143.139 1 5 281588 20130911215805
+89.214.76.76 4 68 776269 20130923143558
+88.210.67.34 1 1 25279 20130904110110
+84.91.100.4 1 5 281588 20130912113636
+89.145.108.207 0 3 654948 
+188.140.123.190 0 1 8126 
+92.250.121.18 0 1 278068 
+2.81.158.10 6 24 562524 20130903134602
+89.214.46.119 3 54 905777 20130906120314
+217.129.242.224 0 1 278499 
+193.137.234.108 0 1 86274 
+82.155.87.80 0 1 8126 
+194.79.89.96 4 8 282053 20130913182258
+195.23.21.140 1 1 286 20130927142735
+89.251.47.160 1 1 6297 20130916120512
+5.135.139.230 9 9 31977 20130915035046
+77.54.197.122 0 29 3815194 
+213.228.181.55 0 2 271028 
+87.196.244.196 2 6 281743 20130916092919
+94.132.206.23 0 1 278499 
+117.204.44.187 1 1 4316 20130912120912
+89.152.29.175 0 1 278499 
+88.214.167.198 1 1 155 20130916111455
+188.80.31.67 1 5 281588 20130914091954
+220.181.51.110 2 3 1619176 20130927183709
+85.243.73.73 0 2 9006 
+82.155.54.83 1 1 286 20130903153228
+37.115.112.43 6 6 176742 20130906221721
+77.242.202.229 0 2 9006 
+85.139.190.4 0 1 86274 
+85.243.83.196 1 1 286 20130914194031
+212.55.167.216 1 5 280947 20130913100245
+188.251.59.214 0 12 2048809 
+217.129.240.126 0 1 16297 
+81.193.153.253 1 1 286 20130904104619
+87.103.60.23 1 5 281588 20130913004309
+90.84.144.86 1 5 281588 20130912165852
+188.251.222.217 1 1 286 20130904091109
+88.214.161.105 4 4 620 20130916110543
+188.82.229.194 1 5 281588 20130913103236
+193.111.141.54 1 1 19738 20130908145153
+89.154.121.57 1 1 286 20130905092603
+183.238.59.61 1 1 6295 20130916110035
+89.155.187.79 1 67 433794 20130911153418
+37.15.161.250 1 1 286 20130909111205
+113.61.209.60 1 1 4543 20130912122120
+217.129.246.34 1 5 281588 20130912085023
+217.129.166.111 2 68 440108 20130919103452
+87.103.74.37 1 3 155 20130915150806
+115.239.212.134 0 1 3701 
+89.155.215.97 1 5 281588 20130911234838
+109.251.87.203 0 1 234865 
+62.48.187.219 1 5 281588 20130916095131
+2.81.79.77 1 1 286 20130912160907
+217.129.104.149 1 5 281588 20130915204800
+92.250.109.20 1 5 281588 20130913020605
+62.28.82.77 2 6 281874 20130927104525
+2.81.201.43 0 9 1243367 
+84.90.165.180 1 1 286 20130923201712
+84.90.82.93 2 10 563176 20130920213520
+188.250.115.175 0 1 8126 
+89.155.125.195 1 1 286 20130901205831
+62.28.183.49 2 18 1126042 20130912100352
+84.91.40.123 0 3 9796 
+188.250.123.245 0 1 278499 
+188.37.152.119 0 1 16297 
+188.81.214.82 0 2 9006 
+85.2.211.145 2 12 842977 20130917101913
+157.55.235.59 3 13 834347 20130914202511
+84.91.86.152 0 1 8126 
+193.136.99.101 1 5 281588 20130912152359
+89.155.214.18 4 91 651512 20130918222203
+66.249.85.194 0 2 484714 
+95.92.190.104 1 5 281588 20130912183232
+87.103.66.153 0 2 9796 
+2.81.121.102 1 1 286 20130915164157
+94.132.43.63 1 5 281588 20130913023844
+85.240.241.83 0 2 278858 
+151.52.193.163 0 1 278499 
+89.155.54.241 1 5 281588 20130912231754
+88.191.177.128 1 19 65916 20130930075120
+86.189.9.113 1 5 281588 20130912104144
+2.3.75.30 1 1 286 20130902090437
+111.17.162.26 1 1 8069 20130913153929
+213.30.118.101 1 9 345144 20130912084756
+2.81.166.142 0 24 4451145 
+2.81.135.136 1 5 281588 20130912201420
+188.250.140.83 1 67 433794 20130913105915
+62.28.141.114 1 9 561389 20130913090013
+62.28.110.218 1 1 286 20130912155943
+41.76.148.114 0 2 414188 
+178.137.5.76 12 12 353484 20130918021633
+85.241.163.1 1 5 281588 20130912231228
+87.103.60.242 1 5 281588 20130912160630
+188.80.102.121 1 5 281588 20130914010415
+188.251.63.120 0 12 1693367 
+188.250.171.136 1 5 281588 20130911220636
+93.108.64.44 2 111 637186 20130921145240
+37.139.52.23 4 4 117828 20130905203305
+62.28.68.42 5 17 845054 20130923155317
+217.129.135.91 0 12 1698284 
+2.80.38.187 1 5 281588 20130911210600
+89.181.210.178 1 5 281588 20130912080404
+62.48.172.142 1 5 281588 20130912094002
+2.83.241.188 0 1 26171 
+92.250.60.166 1 5 281588 20130912162429
+62.28.238.4 1 21 346776 20130912164256
+87.103.15.151 1 5 281588 20130912092330
+188.251.61.76 1 1 286 20130903143236
+2.81.128.53 0 1 16297 
+194.79.70.206 3 15 844764 20130913151313
+95.136.112.106 2 78 520603 20130916173814
+89.214.182.51 0 1 16297 
+217.129.240.180 2 10 280111 20130912105246
+94.132.228.125 1 5 279956 20130913191646
+89.214.86.211 7 170 2282030 20130924185237
+193.137.168.196 0 1 1860 
+95.136.86.161 1 5 281588 20130911215157
+212.18.172.193 1 5 281588 20130912080332
+62.28.245.146 0 17 2805033 
+217.129.130.32 3 15 563331 20130912084951
+83.217.155.133 1 5 281588 20130912155940
+82.154.187.153 0 1 8126 
+62.48.154.39 4 149 983015 20130926185550
+194.65.92.65 1 5 281584 20130912092037
+77.227.217.134 1 1 286 20130903195215
+188.80.100.143 0 1 8126 
+31.22.157.92 0 1 8126 
+217.129.63.205 0 1 8126 
+69.255.150.64 1 5 281588 20130912185421
+62.48.253.19 0 1 278068 
+177.206.3.236 0 1 242455 
+62.28.67.177 0 2 8126 
+213.22.116.228 1 1 155 20130913124340
+89.153.134.51 0 2 556136 
+188.81.199.149 0 1 278499 
+213.138.226.97 2 72 443184 20130910080337
+176.127.14.45 1 1 286 20130905151500
+2.83.230.102 1 5 281588 20130912095208
+65.55.255.28 1 5 281584 20130912223535
+89.155.27.228 1 5 281588 20130912010454
+65.55.183.185 1 5 281584 20130912023524
+2.81.82.17 0 15 2687542 
+2.81.119.21 1 5 281588 20130915153847
+193.126.136.237 1 5 281588 20130912082939
+109.50.174.92 1 5 281588 20130913155113
+123.186.136.53 1 1 4543 20130912122122
+62.28.237.170 14 161 2585665 20130912121731
+173.252.101.114 0 1 10279 
+213.22.2.248 1 5 281588 20130913020349
+2.81.130.242 2 10 281743 20130912111711
+180.166.31.2 1 1 6297 20130916110305
+188.250.215.49 1 5 281588 20130912110534
+85.241.49.223 1 5 281588 20130912061318
+186.228.88.66 0 1 242455 
+193.136.230.136 0 2 9006 
+89.214.57.145 0 2 9006 
+2.81.142.245 1 1 286 20130916154858
+93.108.248.211 1 1 286 20130923154556
+81.193.13.74 1 1 286 20130915222818
+2.81.154.117 1 5 281588 20130913130647
+187.11.244.183 0 1 278499 
+78.29.173.48 0 1 278499 
+83.223.234.148 1 5 281588 20130913111940
+193.137.21.32 9 90 912840 20130924172337
+78.3.56.218 0 1 278499 
+2.81.147.236 0 1 16297 
+85.247.15.131 1 5 281588 20130913065200
+194.65.231.79 0 1 8126 
+195.23.235.90 1 1 286 20130912081732
+212.252.186.106 0 1 218619 
+2.102.154.105 1 5 281588 20130912172925
+108.5.70.95 0 1 242357 
+89.153.169.201 1 1 286 20130920104158
+2.81.220.193 3 110 1360209 20130925105739
+88.214.162.39 1 5 155 20130918051700
+89.155.215.203 1 5 281588 20130912214708
+188.81.214.252 1 67 433794 20130906114903
+31.22.218.232 1 5 281588 20130912132938
+194.65.91.147 2 6 281874 20130912114708
+93.102.164.149 0 2 16252 
+188.80.10.8 0 1 278499 
+82.155.120.175 2 2 572 20130904163409
+188.80.19.21 1 5 281588 20130916170406
+95.92.229.139 2 10 281743 20130916181527
+89.181.152.217 1 5 281588 20130915150852
+85.138.32.186 1 1 286 20130912224259
+81.84.77.124 1 5 281588 20130915190337
+62.169.86.134 1 5 281588 20130926004720
+66.249.81.157 2 15 884404 20130923153041
+87.103.74.175 1 5 281588 20130912092753
+2.6.31.15 1 1 286 20130914231014
+213.30.118.66 0 1 16297 
+176.57.141.254 1 1 11258 20130918071915
+89.154.57.33 1 5 281588 20130913145117
+95.95.4.112 1 5 281588 20130912224008
+85.241.164.109 1 5 281588 20130912151712
+188.82.58.233 0 1 16297 
+89.155.124.149 0 4 542056 
+2.81.124.84 1 5 281588 20130929184915
+113.190.242.166 0 1 16297 
+78.130.30.208 1 5 281588 20130912141504
+193.126.22.189 0 1 242455 
+217.129.240.236 1 5 281588 20130916100428
+109.51.251.98 9 176 1292316 20130913200008
+157.55.235.58 8 40 2252672 20130915152249
+2.81.151.215 1 9 563021 20130916095822
+87.103.66.24 1 5 281588 20130912054618
+88.214.181.239 1 5 281588 20130912151547
+88.214.162.180 1 5 281588 20130912105726
+82.155.142.212 1 5 281588 20130912121917
+87.103.49.58 1 5 281588 20130913095816
+117.26.252.234 1 1 6290 20130921112326
+178.166.13.9 1 1 286 20130910112217
+89.152.245.34 0 9 1243367 
+183.246.21.144 1 1 8069 20130913154347
+65.55.227.217 1 5 281584 20130912153615
+188.81.85.228 1 1 286 20130927162151
+87.103.72.161 1 5 281588 20130912032827
+2.83.190.129 0 1 16297 
+220.181.51.109 0 1 133438 
+2.81.147.66 4 4 1144 20130919140131
+95.136.77.29 1 5 281588 20130912182643
+194.65.152.9 1 1 29457 20130930112108
+87.103.60.50 0 1 16297 
+79.168.212.145 0 1 86274 
+87.103.2.192 3 112 2318699 20130906174414
+188.251.140.222 1 5 279956 20130912225512
+46.189.223.247 1 5 281588 20130912150739
+89.152.71.177 0 2 16252 
+198.7.58.153 2 6 281735 20130912042012
+188.250.120.65 1 1 286 20130922153528
+83.240.187.143 2 10 563176 20130912121034
+83.223.166.93 1 5 281588 20130912090544
+157.56.122.217 9 53 2664632 20130919174426
+92.250.97.24 1 5 281588 20130913161407
+188.81.69.2 1 5 213026 20130902155235
+188.80.180.108 0 1 86274 
+84.91.22.20 1 5 281588 20130917203337
+61.130.20.138 1 1 4114 20130912120811
+71.57.119.193 0 1 242357 
+200.225.201.2 3 49 730257 20130917005711
+89.155.198.182 0 1 16297 
+188.80.99.205 1 5 281588 20130912125907
+2.81.136.183 1 5 281588 20130912111440
+84.90.83.199 1 1 286 20130928163958
+177.132.2.21 0 1 278499 
+217.129.137.5 1 5 281588 20130914110617
+62.28.234.130 1 1 449 20130927155905
+188.154.4.59 1 1 286 20130903213843
+1.207.228.0 1 1 4590 20130912122247
+2.81.76.221 1 1 286 20130903194832
+157.55.43.24 7 31 1834286 20130925210714
+62.159.241.125 1 5 281584 20130916092526
+117.26.226.133 1 1 37739 20130915074904
+213.63.134.245 0 2 9006 
+93.186.31.97 1 1 286 20130908090357
+188.80.151.153 2 39 1072282 20130923153743
+93.108.79.234 1 1 286 20130921143840
+188.80.98.119 1 5 281588 20130913070211
+218.66.68.240 0 2 9006 
+46.229.167.149 1 1 35563 20130907202308
+188.81.225.99 1 5 279956 20130912181433
+92.250.53.212 1 5 281588 20130911191836
+199.30.24.218 1 1 286 20130930140210
+89.155.125.145 1 5 281588 20130927131157
+84.91.70.108 0 2 8126 
+84.90.13.175 0 3 361482 
+62.48.179.229 1 3 271179 20130907173227
+72.251.244.17 0 1 61485 
+89.155.216.241 0 17 277049 
+199.30.24.86 1 1 286 20130917145030
+93.108.169.154 8 160 1143636 20130912115716
+2.81.157.53 1 5 281588 20130912223747
+85.243.74.114 1 5 281588 20130911215608
+188.80.96.148 1 5 281588 20130912092942
+187.58.33.169 1 1 4692 20130912121037
+95.95.97.17 1 1 286 20130913095650
+188.250.237.92 0 1 8126 
+82.155.82.16 1 5 281588 20130913225237
+206.165.69.70 1 5 279956 20130912141008
+87.103.59.150 1 5 284319 20130912194148
+77.54.64.70 1 1 286 20130910203649
+82.155.20.59 1 1 286 20130906180401
+188.83.37.99 1 1 286 20130906103312
+84.90.233.137 1 1 286 20130926203212
+157.55.235.57 9 43 2532624 20130916143403
+61.189.170.83 1 1 3673 20130912120638
+94.245.116.30 2 10 563168 20130913194447
+122.117.206.203 1 1 4867 20130912121102
+87.103.66.78 0 1 16297 
+2.81.124.61 0 3 95280 
+87.103.73.0 1 5 281588 20130912084520
+217.129.132.39 1 5 281588 20130912152928
+150.70.173.43 2 2 302 20130915205010
+65.55.215.249 1 1 286 20130913090842
+200.137.75.98 0 1 242455 
+188.80.150.126 1 1 286 20130922130134
+86.66.58.81 1 5 281588 20130912000055
+188.80.147.89 0 2 9006 
+188.83.78.168 1 1 286 20130904161325
+188.251.28.150 1 1 286 20130907150742
+188.83.157.44 1 5 281588 20130926210543
+2.83.189.44 1 3 271183 20130906155327
+217.129.132.85 2 7 951 20130914150251
+85.247.129.228 1 5 281588 20130912215246
+193.137.168.215 2 10 563176 20130913123511
+87.196.119.189 0 1 8126 
+89.214.99.202 1 3 271183 20130903234037
+88.228.31.120 0 1 218619 
+2.81.119.85 0 10 1245227 
+187.79.147.16 1 5 281588 20130913042641
+213.205.65.127 4 7 620 20130917165129
+95.95.191.93 2 10 470515 20130912183433
+217.129.244.234 1 5 281588 20130912210443
+188.80.103.231 1 5 281588 20130911214515
+82.155.55.237 3 85 637909 20130916162905
+95.93.140.198 1 1 6314 20130921000624
+85.245.40.197 2 8 281743 20130913082230
+82.155.122.23 1 5 281588 20130913093658
+89.155.55.92 1 5 281588 20130912005651
+78.130.21.132 2 6 281743 20130912164516
+89.152.6.66 0 1 278499 
+2.81.196.142 0 2 16252 
+188.80.101.246 1 5 281588 20130924124529
+78.130.116.132 2 10 281743 20130913115821
+89.155.122.12 1 1 286 20130905132951
+89.181.253.225 1 5 281588 20130912105302
+2.81.120.240 1 1 286 20130913121506
+203.109.70.177 1 1 5285 20130912131326
+82.229.218.109 0 9 1243367 
+78.130.21.89 0 2 9006 
+79.168.8.212 1 5 281588 20130912124353
+193.106.136.47 3 3 88371 20130906145413
+188.37.215.19 1 1 286 20130914191338
+188.82.9.88 1 1 286 20130916122740
+188.81.87.170 1 1 286 20130908135514
+85.240.107.61 0 1 278068 
+84.90.164.185 6 153 1289093 20130916193332
+87.196.222.184 0 1 8126 
+50.57.120.161 0 2 9006 
+89.155.124.142 1 5 281588 20130911231454
+85.240.228.132 1 5 281588 20130911200230
+46.189.180.86 1 5 281588 20130913101135
+62.169.66.5 1 1 286 20130908074706
+84.91.32.191 1 1 286 20130902230743
+2.81.148.232 1 3 271183 20130904181923
+188.80.111.219 2 2 572 20130905103522
+2.80.214.91 4 70 781566 20130923104251
+87.103.14.183 0 1 8126 
+2.81.121.223 1 35 790692 20130925155134
+89.155.125.155 2 6 281743 20130912100214
+193.137.168.202 4 16 844919 20130916095315
+72.251.244.15 1 1 155 20130911221458
+188.81.212.189 1 1 286 20130908083500
+188.83.215.217 1 5 281588 20130912195028
+89.155.81.219 0 9 1243367 
+2.80.95.248 1 5 281588 20130911233517
+188.80.243.161 1 3 271183 20130919124616
+2.80.120.32 0 1 8126 
+2.81.135.205 0 5 814448 
+213.228.181.57 2 7 342878 20130916175552
+2.81.146.138 1 1 286 20130927175327
+78.130.105.152 1 1 5887 20130925164559
+188.80.146.62 0 2 9006 
+188.80.224.99 1 5 281588 20130911215035
+2.83.251.106 1 67 433794 20130920171303
+85.242.90.38 0 1 7146 
+121.9.233.242 1 1 6295 20130916110042
+62.28.233.100 0 1 8126 
+77.54.69.212 0 1 16297 
+93.102.204.131 0 2 9006 
+87.103.74.142 1 5 279956 20130913072030
+213.58.139.35 1 5 281588 20130912141413
+217.129.128.115 1 1 286 20130928234301
+188.80.117.86 0 15 2498809 
+87.196.120.61 0 1 0 
+81.84.251.173 0 1 16297 
+37.28.237.185 1 5 281588 20130917192315
+217.129.30.134 0 2 16252 
+95.60.71.224 0 1 16297 
+2.81.3.60 0 1 16297 
+85.88.137.118 0 4 18012 
+82.226.74.90 0 2 16252 
+213.228.181.49 0 5 287074 
+199.30.24.31 0 1 278068 
+213.22.2.26 1 5 281588 20130913171613
+2.83.142.118 0 2 414188 
+2.81.145.87 1 5 155662 20130903155201
+81.193.35.236 0 1 8126 
+85.243.131.56 0 1 8126 
+85.246.157.190 1 5 281588 20130911204936
+188.80.109.29 7 284 1880736 20130920120807
+88.214.164.186 0 2 9006 
+157.56.122.219 4 18 1115931 20130920111528
+2.81.168.210 0 2 4898 
+93.108.160.53 0 1 278068 
+2.81.20.219 4 91 651512 20130925153630
+82.155.222.185 0 1 8126 
+95.92.39.157 2 2 572 20130910125718
+2.83.243.109 0 2 9006 
+89.155.188.73 1 1 286 20130909181630
+46.50.109.242 0 2 16252 
+217.129.247.88 1 5 281588 20130912070828
+84.90.251.29 0 1 173998 
+213.22.6.83 2 8 281743 20130925005851
+60.22.48.146 1 1 8069 20130913154155
+2.80.244.172 0 1 278068 
+188.81.160.234 0 4 32594 
+217.129.200.27 0 2 9006 
+87.103.57.155 0 1 16297 
+62.234.3.161 0 1 242357 
+195.245.118.5 0 2 32594 
+81.84.100.131 0 2 271028 
+82.155.1.138 0 2 9006 
+178.166.84.196 0 1 16297 
+188.82.240.211 1 5 281588 20130913172007
+81.9.154.8 1 5 281588 20130913185614
+79.168.31.140 1 5 281588 20130912155203
+89.155.120.174 2 6 281743 20130912215803
+2.83.240.189 1 1 286 20130921222351
+87.103.51.47 1 5 281588 20130912015216
+2.81.139.129 1 1 286 20130913223509
+84.90.21.125 2 6 281743 20130912220332
+82.39.179.202 1 5 281588 20130912213230
+84.91.128.163 0 1 8126 
+83.240.167.47 1 1 286 20130918092303
+95.93.151.39 1 5 281588 20130912064354
+195.23.154.29 0 2 32594 
+217.129.246.136 1 5 281588 20130912225145
+198.7.58.155 1 5 281584 20130911213525
+87.103.86.63 1 5 218471 20130912171851
+80.251.164.241 0 1 278068 
+212.55.146.155 0 3 361482 
+188.251.221.21 3 68 443615 20130912162519
+188.81.215.224 1 5 281588 20130912211619
+188.80.103.21 1 5 281588 20130912182435
+195.245.162.102 0 2 16252 
+109.169.70.134 1 1 449 20130901175937
+85.245.59.24 1 5 281588 20130912124050
+46.50.126.4 0 18 2620179 
+31.22.167.184 1 5 280947 20130911220828
+82.155.121.140 1 1 0 20130922150539
+188.81.162.26 0 1 16297 
+62.97.105.234 1 5 155662 20130913124019
+46.165.223.3 3 7 281886 20130912110511
+188.82.83.16 0 1 8126 
+87.103.66.204 2 4 271338 20130912083713
+212.199.153.98 4 12 563486 20130913092604
+82.155.143.202 1 1 286 20130907154403
+84.90.150.235 1 1 286 20130923202145
+188.81.84.117 1 1 286 20130911105801
+87.103.68.110 1 1 4172 20130911165751
+195.23.180.4 0 2 279801 
+84.90.149.242 2 10 563176 20130912145655
+77.54.15.165 1 1 286 20130920231851
+87.103.60.46 1 5 281588 20130912115020
+188.80.100.13 1 5 281588 20130912075945
+81.193.246.128 0 8 1129480 
+113.212.70.233 1 1 6639 20130913225205
+88.214.164.17 1 5 281588 20130913113934
+2.83.133.238 1 1 155 20130912173749
+2.83.40.27 1 5 281588 20130912170223
+112.95.72.39 0 2 9006 
+89.155.165.72 2 10 281102 20130921175027
+89.214.234.247 2 10 563176 20130912115517
+84.90.141.62 0 13 2052322 
+62.169.66.150 4 17 861347 20130915194723
+93.102.207.35 1 1 286 20130911141407
+220.181.51.107 1 1 3323 20130927183706
+89.180.13.245 0 1 278499 
+188.80.105.219 1 1 286 20130913140310
+88.214.162.164 2 6 281743 20130912000632
+2.81.147.45 0 10 9006 
+89.180.63.154 0 3 279801 
+213.30.84.49 1 1 286 20130916145641
+94.132.138.98 0 16 2805557 
+80.90.174.154 1 1 8069 20130913161214
+88.214.165.170 1 5 281588 20130913163955
+89.152.70.32 2 10 563176 20130913012512
+94.245.116.27 5 31 1960381 20130913064246
+115.239.212.72 0 2 6027 
+87.103.68.78 1 5 280947 20130912142921
+89.155.49.109 1 5 281588 20130913102730
+2.83.146.130 0 2 414188 
+87.196.115.126 2 10 310 20130914081206
+213.30.17.106 10 215 845648 20130923153850
+188.81.160.56 1 5 281588 20130912095918
+217.129.247.254 0 6 9006 
+2.81.148.223 0 4 18012 
+82.154.180.92 1 1 286 20130906171447
+2.81.130.71 5 7 775 20130914095217
+83.240.200.253 2 10 281743 20130912120859
+195.242.218.133 12 12 353484 20130916120723
+188.250.143.144 20 425 9866196 20130907113226
+85.246.18.122 1 67 433794 20130919185107
+193.136.24.141 0 1 8126 
+87.103.64.49 3 4 13955 20130914151800
+213.228.163.5 0 2 16297 
+82.155.160.136 1 5 281588 20130913092214
+193.126.7.14 17 83 846934 20130912161433
+83.240.241.99 0 1 8126 
+157.55.46.248 6 30 1689504 20130913225101
+87.103.49.184 1 5 281588 20130912071356
+188.82.132.171 4 137 1579584 20130927152905
+80.254.158.76 2 7 343220 20130912080532
+82.154.244.109 5 25 281567 20130912234055
+91.200.14.59 1 1 449 20130916155812
+94.75.244.176 1 5 281584 20130911215008
+220.181.51.105 1 2 1615853 20130927183707
+85.242.103.234 1 1 5887 20130926115531
+93.231.131.254 0 1 7146 
+89.155.123.69 1 5 281588 20130911191225
+109.51.129.64 2 7 500059 20130912230456
+84.90.80.215 3 15 281898 20130915232333
+80.129.56.141 1 5 281588 20130912220918
+178.94.36.125 0 1 234865 
+92.239.226.4 1 5 281588 20130912082845
+2.81.143.27 0 9 1243367 
+89.155.50.13 1 6 297885 20130912163654
+108.133.77.93 1 1 286 20130927001803
+2.81.158.178 1 5 281588 20130912155850
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20130901 144 174 3402599 27
+20130902 208 605 12476183 47
+20130903 265 824 19018495 57
+20130904 216 832 12765386 47
+20130905 258 1312 21168849 49
+20130906 262 1983 153710247 59
+20130907 154 420 10654482 36
+20130908 242 579 13062207 59
+20130909 189 552 9914893 42
+20130910 183 845 9047139 35
+20130911 478 2757 49087329 94
+20130912 1995 11697 196268533 554
+20130913 1519 8347 86411445 257
+20130914 261 601 19965871 69
+20130915 456 777 20611180 62
+20130916 1631 11349 51275086 113
+20130917 246 851 21666880 61
+20130918 298 1386 25442047 44
+20130919 676 5664 62187270 40
+20130920 460 3206 41651167 28
+20130921 144 576 8405966 25
+20130922 128 234 2583377 24
+20130923 4225 23854 307516717 32
+20130924 1130 5356 176479276 30
+20130925 1642 5922 92515929 37
+20130926 1002 4117 72897076 30
+20130927 1372 4874 78019070 31
+20130928 137 439 5658280 13
+20130929 172 380 5233989 22
+20130930 1437 6261 167472752 25
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 102
+5mn-15mn 55
+0s-30s 1662
+2mn-5mn 39
+30s-2mn 73
+15mn-30mn 35
+30mn-1h 83
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 482
+/wp-admin/admin-ajax.php 3094 1300829 0 6
+/wp-cron.php 2838 0 72 72
+/vgg2/wp-admin/admin-ajax.php 1644 3370206 0 0
+/wp-admin/media-upload.php 1539 4344781 0 0
+/vgg/wp-admin/admin-ajax.php 1531 315987 0 2
+/subscriptions/ 1486 245065 984 983
+/wp-admin/async-upload.php 1288 1138594 0 0
+/smart_aqua/ 508 11487255 143 131
+/wp-admin/post.php 422 10616535 0 0
+/aveiroexpo/site/ 296 85019 286 284
+/smart_aqua/wp-cron.php 277 0 75 73
+/vgg/ 265 2317739 85 83
+/html/ 263 3574601 163 95
+/html/wp-cron.php 256 0 101 95
+/wp-admin/admin.php 256 4786760 0 0
+/vgg/wp-admin/post.php 235 5781786 0 0
+/wp-admin/load-scripts.php 230 13903961 0 0
+/wp-content/themes/central/css/style_dynamic.php 191 34770 2 0
+/wp-content/themes/central/js/custom_js.php 191 4202 0 2
+/wp-content/themes/central/css/style_dynamic_responsive.php 191 24257 0 0
+/wp-content/themes/central/css/custom_css.php 191 4584 0 0
+/wp-content/themes/central/js/default_dynamic.php 191 318005 0 1
+/vgg/wp-admin/load-scripts.php 130 6548480 0 0
+/vgg/wp-admin/themes.php 111 2919616 0 0
+/wp-admin/edit.php 110 1168546 0 0
+/html/archives/5351 12 220164 0 0
+/html/gallery/desdobraveis-edificio-park 1 17707 0 0
+/html/gallery/3d-edificio-esgueira 3 38759 0 0
+/aveiroexpo/site/calendario-pea-2012/ 1 4980 0 0
+/html/gallery/eventos-diario-de-aveiro-25-anos 1 32731 0 0
+/wp-content/plugins/wysija-newsletters/js/admin-subscribers-edit-manual.php 11 7252 0 0
+/wp-admin/users.php 1 7669 0 0
+/vgg2/advanced-options/ 1 6331 0 0
+/html/gallery/www-pizzarte-com 3 40647 0 0
+/vgg2/teste/ 1 6455 0 0
+/vgg2/wp-admin/customize.php 1 4075 0 0
+/subscriptions 10 1510 9 9
+/contactos/ 16 84323 0 0
+/vgg/vera-lucia-bolhao-pereira-azevedo/ 2 16856 0 0
+/vgg/mafalda-da-costa-inacio/ 2 16844 0 0
+/vgg/text/empresa.xml 1 193 0 0
+/html/gallery/3d-aveiro-park 3 39951 0 0
+/html/gallery/multimedia-dvd-filinox 2 22099 0 0
+/vgg2/wp-admin/load-scripts.php 107 5871217 0 0
+/html/gallery/eventos-mercentro-classe-c 1 25666 0 0
+/vgg/wp-admin/post-new.php 66 1529950 0 0
+/vgg2/wp-admin/widgets.php 1 31455 0 0
+/html/archives/gallery-category/arquitectura 5 36084 0 0
+/smart_aqua_eng/ 8 90223 6 6
+/vgg/text/onde_estamos.xml 1 196 0 0
+/html/archives/gallery-category/produtos 4 29463 0 0
+/aveiroexpo/site/feira-de-stocks/ 1 7386 0 0
+/trabalhos/page/2/ 7 33842 0 0
+/html/gallery/fotografia-veiculos-mercedes-sls 6 44867 1 3
+/html/gallery/eventos-biju 2 64194 0 0
+/vgg/amadeu-rodrigo-gomes-dos-santos/ 2 17324 0 0
+/vgg2/wp-admin/load-styles.php 39 928517 0 0
+/html/gallery/outros-stand-aveicabo 1 18125 0 0
+/html/videos-2 3 39066 0 1
+/html/archives/gallery-category/veiculos 9 67073 0 1
+/vgg/armandino-bonito-da-conceicao-galacho/ 2 17464 0 0
+/html/gallery/outdoors 15 160084 0 1
+/html/gallery/outros-stand-ilhamar 2 34578 0 0
+/vgg/escritorio-estarreja/ 14 106850 0 0
+/portfolio_page/wiseberry/ 3 11515 0 0
+/html/gallery/3d-abril 4 44134 0 0
+/html/gallery/3d-espaco-pizzarte 3 48872 0 0
+/html/gallery/fotografia-moda-marc-jacobs 3 59943 2 2
+/html/gallery/outros-constutora-da-bairrada 1 17806 0 0
+/aveiroexpo/videos.html 1 3606 0 1
+/html/archives/455 14 243717 0 0
+/html/gallery/frota-aveicabo-energias-renovaveis 4 28104 0 0
+/html/gallery/fotografia-moda-crisalida-02 1 20380 0 0
+/html/gallery/3d-logo-pizzarte 5 49280 0 0
+/vgg2/wp-admin/options-permalink.php 3 75135 0 0
+/vgg/main.swf 1 239585 0 0
+/html/gallery/www-adriazul-pt 3 40263 0 0
+/html/archives/449 13 224182 0 0
+/process/ 2 9832 0 0
+/magmacaracas/wp-admin/post.php 6 136715 0 0
+/html/gallery/fotografia-veiculos-mercedes-slk 1 22863 0 0
+/html/gallery/condominio-empresarial 1 3709 0 1
+/wp-login.php 83 107939 16 14
+/html/gallery/fotografia-moda-tom-ford 1 20177 0 0
+/aveiroexpo/site/expotrakinas-1-a-4-novembro/ 1 22382 0 0
+/html/gallery/desdobraveis-shop-guide-biju 1 17706 0 0
+/html/archives/gallery-category/eventos 15 73205 1 4
+/portfolio_page/ekenabay/ 17 78589 0 0
+/html/archives/466 13 238108 0 0
+/aveiroexpo/images/pub/insys.swf 1 3394 0 0
+/portfolio_page/adriano-carreira/ 3 13089 0 0
+/aveiroexpo/site/2013/07/01/ 1 21269 0 0
+/html/gallery/desdobraveis-construtora-da-bairrada 1 17429 0 0
+/html/archives/3440 13 237939 0 0
+/vgg/ana-cristina-de-almeida-amaral-luis-gomes/ 2 17340 0 0
+/vgg/wp-admin/media-new.php 2 13404 0 0
+/magmacaracas/wp-admin/async-upload.php 2 1018 0 0
+/vgg/secretariado-estarreja/ 4 29154 0 0
+/html/archives/436 13 239824 0 0
+/vgg/wp-admin/update-core.php 2 10339 0 0
+/aveiroexpo/site/imprensa/imprensa-congressos/ 1 5023 0 0
+/vgg/blog/ 2 20168 0 0
+/html/gallery/www-sos-clip-com 3 40656 0 1
+/html/wp-includes/wlwmanifest.xml 8 8424 0 0
+/aveiroexpo/site/imprensa/imprensa-feiras/ 2 48000 0 0
+/vgg2/about-us-2/ 6 48963 0 0
+/magmacaracas/wp-login.php 2 2491 0 0
+/aveiroexpo/ 2 31502 2 1
+/portfolio_page/aveiro-expo/ 1 3023 0 0
+/vgg2/900-icons/ 1 6137 0 0
+/vgg/home-2/home-layout-2/ 8 68570 0 0
+/vgg2/dummy-data-included/ 2 12462 0 0
+/vgg2/wp-admin/admin.php 43 869234 0 0
+/vgg/navigation.xml 1 274 0 0
+/vgg/team/ana-cristina-de-almeida-amaral-luis-gomes/ 2 16006 0 0
+/html/gallery/multimedia-dvd-clipping-litoral-fashion 1 19480 0 0
+/html/gallery/www-crisalidaourivesarias-pt 1 18652 0 0
+/html/gallery/produtos-calcado 2 41482 0 0
+/html/videos-3d 20 257612 0 2
+/html/gallery/linhas-graficas 13 114766 2 3
+/basquiats-s-burroughs-portrait/ 2 11390 0 0
+/html/gallery/www-goldenclub-com-pt 2 37156 0 0
+/html/gallery/outros-frota-ilhamar 3 39822 0 0
+/html/gallery/design-outros-suportes-stand-bmw-na-feira-de-marco-2012 2 7352 1 2
+/trabalhos/page/3/ 3 13108 0 0
+/sidebar-page/ 1 5993 0 0
+/html/gallery/desdobraveis-veigas 2 35296 0 0
+/aveiroexpo/site/wp-cron.php 20 0 4 8
+/wp-admin/themes.php 1 6583 0 0
+/wp-admin/options-discussion.php 2 14600 0 0
+/html/archives/3453 12 221088 0 0
+/vgg2/advogados-estagiarios/ 3 24465 0 0
+/vgg/wp-admin/theme-editor.php 2 33593 0 0
+/vgg/wp-content/themes/Karma/truethemes_framework/extended/3d-tag-cloud/tagcloud.swf 17 34538 0 0
+/vgg/wp-content/themes/blitz/font/fontawesome-webfont.woff 16 566384 0 0
+/html/archives/5227 14 244273 0 1
+/vgg2/wp-cron.php 30 0 1 2
+/vgg/preview.swf 1 40266 0 0
+/html/feed/atom 17 399502 2 2
+/cgi-sys/defaultwebpage.cgi 2 6646 2 1
+/trabalhos/ 60 298097 0 0
+/html/gallery/www-gradinox-pt 2 36912 0 0
+/vgg/escritorio-aveiro/ 16 117388 0 0
+/html/gallery/fotografia-moda-castigodelito/castdelito02 1 3724 0 0
+/vgg2/historia/ 8 50172 0 0
+/vgg/wp-admin/options-reading.php 4 27328 0 0
+/wp-admin/ 45 629784 0 0
+/html/questionario-consumidor-final 2 34668 0 0
+/portfolio_page/pizzarte/ 10 44665 0 0
+/html/archives/5645 16 250483 0 0
+/vgg/wp-admin/async-upload.php 31 13615 0 0
+/vgg/slides/slide-1/ 4 32958 0 0
+/portfolio_page/neoplast/ 7 30982 0 0
+/vgg2/advogados_socios_vgg/ 4 32461 0 0
+/vgg2/wp-content/plugins/mnky-vector-icons/inc/font/moon.ttf 6 209568 0 0
+/html/archives/5634 14 228452 0 1
+/portfolio_page/nasa-solar-system-calendar/ 15 70540 0 0
+/vgg2/escritorio-leiria/ 2 11922 0 0
+/aveiroexpo/site/contact/ 4 41200 2 2
+/vgg/home-2/home-layout-3/ 4 35285 0 0
+/aveiroexpo/site/portfolio/ 1 6322 0 0
+/wp-admin/nav-menus.php 7 143937 0 0
+/aveiroexpo/site/wp-admin/export.php 2 107000 0 0
+/html/gallery/design-outros-farav 3 24497 0 1
+/vgg2/5-star-support/ 1 6283 0 0
+/html/gallery/fotografia-moda-balenciaga 1 19396 0 0
+/magmacaracas/wp-admin/admin-ajax.php 42 20345 0 1
+/html/archives/gallery-category/multimedia 10 50897 0 1
+/interactive-shortcode/ 8 45202 0 0
+/html/gallery/www-fontenova-pt 2 37068 0 0
+/html/gallery/www-labstestevao-com 2 37188 0 0
+/vgg2/valores/ 8 44185 0 0
+/portfolio-2-column-text/ 6 31646 0 0
+/vgg2/secretariado-estarreja-2/ 2 11190 0 0
+/vgg2/secretariado_leiria_vgg/ 3 16836 0 0
+/magmacaracas/wp-admin/load-styles.php 5 94342 0 0
+/smart_aqua_eng/wp-cron.php 7 0 4 5
+/portfolio-2-columns/ 4 21650 0 0
+/equipa/ 20 93059 0 0
+/vgg2/wp-admin/update.php 2 27259 0 0
+/vgg/advogados-estagiarios/ 8 63280 0 0
+/aveiroexpo/site/wp-admin/load-scripts.php 3 84229 0 0
+/blog-with-sidebar/ 2 10556 0 0
+/aveiroexpo/site/2012/04/ 1 5943 1 1
+/wp-admin/upload.php 32 314535 0 0
+/vgg2/wp-admin/async-upload.php 4 1961 0 0
+/html/gallery/3d-gesconect 1 3569 0 0
+/html/gallery/www-marianaurbanizacao-com 4 29661 0 0
+/aveiroexpo/site/agrovouga-2012/ 1 8992 0 0
+/html/gallery/desdobraveis-forgestil 1 17665 0 0
+/vgg/noticias-2/ 7 65893 0 0
+/html/gallery/desdobraveis-optica-nascimento 1 17379 0 0
+/html/feed 25 394649 7 7
+/portfolio_page/future-cityscapes/ 10 45205 0 0
+/html/gallery/desdobraveis-eurogres-marca-celebration 1 17860 0 0
+/aveiroexpo/site/wp-admin/load-styles.php 1 27158 0 0
+/html/gallery/eventos-mini 2 54898 0 0
+/html/gallery/desdobraveis-smart-aqua 1 17723 0 0
+/html/gallery/design-outros-afccn 2 7240 0 0
+/portfolio_page/optica-nascimento/ 2 8816 0 0
+/html/gallery/www-veigas-pt 3 11025 0 1
+/html/gallery/fotografia-veiculos-porche 1 22554 0 0
+/aveiroexpo/site/feira-de-stocks-2/ 1 21614 0 1
+/html/gallery/outros-frota-smart-aqua 6 36725 0 0
+/blog/ 1 5348 0 0
+/html/gallery/eventos-ferro-inauguracao 3 39616 0 1
+/html/gallery/eventos-serie-7 2 52200 0 0
+/vgg2/wp-admin/edit.php 68 1956885 0 0
+/html/gallery/desdobraveis-laboratorio-st-estevao 1 17852 0 0
+/html/gallery/www-opticanascimento-pt 1 18676 0 0
+/vgg/images/onde_estamos.swf 1 381199 0 0
+/vgg/wp-admin/upload.php 2 20413 0 0
+/portfolio_page/bmw/ 1 2871 0 0
+/vgg2/grid-blog-2/ 10 80057 0 0
+/html/gallery/video-institucional-ferro-portugal 1 3716 0 1
+/html/gallery/www-restaurantecentenario-com 1 18551 0 0
+/html/gallery/fotografia-veiculos-smart 1 20785 0 0
+/vgg2/wp-admin/options-reading.php 12 314484 0 0
+/html/videos 24 282657 1 2
+/html/gallery/fotografia-moda-giorgio-armani 1 20023 0 0
+/portfolio_page/diario-de-aveiro/ 2 7292 0 0
+/vgg/wp-admin/nav-menus.php 46 736292 0 0
+/html/gallery/www-vonhaff-com-pt 3 40713 0 1
+/html/gallery/fotografia-arquitectura-centro-cultural-de-angeja 2 7312 0 0
+/vgg/wp-admin/options-general.php 3 36928 0 0
+/vgg/wp-admin/import.php 2 10909 0 0
+/mail_layout/INvisual.html 1 603 0 1
+/html/gallery/www-aveiroexpo-pt 3 40470 0 1
+/vgg/typography/ 6 46240 0 0
+/vgg/pricing-tables/ 2 13996 0 0
+/vgg/legislacao/ 4 33842 0 0
+/html/archives/5383 12 221160 0 0
+/aveiroexpo/site/wp-login.php 3 3647 0 0
+/aveiroexpo/site/aveiro-expo-servicos/ 1 6103 0 0
+/vgg/wp-admin/about.php 1 6258 0 0
+/portfolio_page/ilhamar/ 5 20284 0 0
+/html/gallery/www-viveirosdolitoral-com 3 10869 0 1
+/blog-grid/ 1 5086 0 0
+/html/gallery/www-ilhamar-com 2 36956 0 0
+/vgg2/wp-admin/post-new.php 12 826755 0 0
+/vgg/images/vgg.swf 1 1845 0 0
+/webmail 11 93907 3 3
+/vgg2/ligacoes-uteis/ 1 7330 0 0
+/aveiroexpo/images/pub/forum_empresarial.swf 1 13172 0 0
+/html/gallery/eventos-fashion-tv 2 57358 0 0
+/portfolio_page/faustin/ 9 38766 0 0
+/vgg2/callout-3/ 1 5430 0 0
+/html/gallery/desdobraveis 17 320463 0 6
+/html/gallery/produtos-gres-ceramica 1 21346 0 0
+/vgg2/secretariado-aveiro/ 3 16920 0 0
+/vgg2/wp-admin/options-general.php 6 163251 0 0
+/vgg/wp-admin/options-writing.php 2 15578 0 0
+/portfolio_page/ferro/ 30 136437 0 0
+/vgg/wp-admin/theme-install.php 4 26555 0 0
+/aveiroexpo/images/pub/asl.swf 1 59649 0 0
+/wp-admin/update-core.php 1 6719 0 0
+/vgg2/callouts/ 1 5930 0 0
+/vgg/wp-content/themes/blitz/includes/shortcodes/tinymce/editor_plugin.php 100 290700 0 0
+/vgg2/wp-admin/upload.php 1 26130 0 0
+/wp-admin/post-new.php 34 810123 0 0
+/vgg2/unlimited-colors/ 1 6079 0 0
+/vgg/secretariado-leiria/ 4 29130 0 0
+/html/gallery/multimedia-cd-apresentacao-aveiro-expo 1 3786 0 0
+/vgg2/wp-admin/plugin-install.php 1 21177 0 0
+/home-in/page/2/ 3 15384 0 0
+/html/gallery/fotografia-veiculos-electra-rat-fink-3i 2 25890 1 0
+/html/gallery/outros-aveiro-park 2 37880 0 0
+/html/gallery/desdobraveis-farav09 2 35342 0 0
+/apresentacao/ 23 113540 0 0
+/vgg2/advogados-associados-e-colaboradores/ 4 26986 0 0
+/vgg/contacts-v2/ 2 15198 0 0
+/aveiroexpo/site/visitantes/ 1 5243 0 0
+/vgg2/wp-admin/themes.php 64 1607329 0 0
+/elements/ 4 27948 0 0
+/html/gallery/outros-stand-skalla 2 35534 0 0
+/html/gallery/embalagens 9 130392 0 1
+/html/gallery/desdobraveis-azimute 2 35300 0 0
+/vgg2/advogados-socios/ 1 6392 0 0
+/vgg/contacts-v1/ 2 15224 0 0
+/wp-admin/user-new.php 1 6222 0 0
+/vgg/rafael-alexandre-lopes-nevado/ 2 17296 0 0
+/html/videos/videos-2 11 39919 0 3
+/html/gallery/fotografia-veiculos-mini-cooper-s 1 21560 0 0
+/vgg/faber-miguel-simoes-da-silva-melo-campos/ 2 17314 0 0
+/html/archives/gallery-category/web_design 23 111863 0 1
+/portfolio_page/epa/ 14 62336 0 0
+/html/archives/gallery-category/moda 5 51968 0 0
+/vgg/wp-admin/widgets.php 6 66256 0 0
+/vgg/wp-admin/load-styles.php 53 1113149 0 0
+/vgg/2013/09/12/ 8 82348 0 0
+/portfolio-3-columns/ 2 8411 0 0
+/vgg/wp-admin/plugin-install.php 1 3796 0 0
+/aveiroexpo/site/category/calendario-2013/ 5 48957 0 3
+/full-width-page/ 5 31255 0 0
+/html/gallery/desdobraveis-clinica-do-certoma 1 17372 0 0
+/html/archives/5387 13 224953 0 0
+/portfolio_page/aveicabo/ 1 4685 0 0
+/vgg/wp-login.php 25 31278 1 1
+/vgg2/boxed-and-wide-version/ 2 12439 0 0
+/vgg/advogados-socios/ 40 305828 0 0
+/html/gallery/fotografia-moda-biju 3 59214 2 2
+/aveiroexpo/site/wp-admin/ 1 10321 0 0
+/html/gallery/fotografia-espacos-comerciais-visual 4 14684 0 1
+/html/archives/gallery-category/3d 12 75404 0 1
+/html/gallery/fotografia-gastronomia 8 98189 0 0
+/vgg/wp-admin/plugins.php 6 49475 0 0
+/vgg/wp-admin/upgrade.php 1 1 0 0
+/vgg/vars_bgs.xml 1 197 0 0
+/vgg/wp-admin/options-discussion.php 4 30004 0 0
+/wp-admin/customize.php 1 2846 0 0
+/html/gallery/insercoes 8 132160 0 0
+/portfolio_page/melbourne-identity/ 1 4683 0 0
+/vgg2/blog-home-2/ 1 8003 0 0
+/html/archives/portfolio-category/video 1 17292 0 0
+/aveiroexpo/site/congressos-e-convencoes/ 1 5866 0 0
+/vgg/maria-da-luz-portugal-fontes-pereira-de-melo-granjeia/ 2 17174 0 0
+/vgg/wp-admin/update.php 3 13544 0 0
+/html/gallery/fotografia-moda-castigodelito-02 1 20356 0 0
+/portfolio_page/litoral-magazine/ 6 23766 1 1
+/teste/ 1 2243 0 0
+/magmacaracas/wp-admin/admin.php 1 9573 0 0
+/html/archives/4867 13 240123 0 0
+/html/gallery/paginacao-construtora-da-bairrada 11 251240 7 7
+/html/gallery/produtos-decoracao 2 37860 0 0
+/sample-page/ 35 200485 5 0
+/html/gallery/logotipos 18 198204 2 3
+/home-in/ 39 203055 4 0
+/aveiroexpo/site/congressos-e-convencoes/aveiro-expo/ 12 62611 7 5
+/aveiroexpo/site/aveiro-expo-objectivos/ 1 8858 0 0
+/vgg/wp-admin/edit-tags.php 3 27145 0 0
+/vgg/services/ 2 15954 0 0
+/html/gallery/multimedia-dvd-grenos 3 41424 0 0
+/html/gallery/design-outros-diario-de-aveiro 2 7178 0 0
+/portfolio_page/restaurante-salpoente/ 22 98384 0 0
+/vgg2/wp-admin/ 7 192223 0 0
+/html/gallery/eventos-litoral-fashion 1 27137 0 0
+/html/gallery/desdobraveis-aveiro-park 1 17680 0 0
+/vgg/page/2/ 4 36816 0 0
+/html/archives/gallery-category/espacos-comerciais 6 38398 0 0
+/portfolio_page/feira-de-marco/ 21 97557 0 0
+/vgg/wp-admin/ 19 315545 0 0
+/vgg/home/ 1 6648 0 0
+/vgg/columns/ 4 29140 0 0
+/aveiroexpo/site/congressos-e-convencoes/foyer-atrio/ 1 5299 0 0
+/wp-admin/profile.php 1 6840 0 0
+/vgg/about-us/ 8 67991 0 0
+/aveiroexpo/site/festa-de-natal/ 1 7470 1 0
+/vgg/wp-admin/options-media.php 1 5912 0 0
+/html/gallery/www-litoralmagazine-com 1 18672 0 0
+/html/archives/5360 14 242543 0 0
+/vgg/secretariado/ 14 99662 0 0
+/vgg/text/equipa.xml 1 188 0 0
+/wp-admin/update.php 2 6378 0 0
+/vgg2/wp-content/plugins/mnky-vector-icons/inc/font/fontawesome-webfont.woff 9 174272 0 0
+/portfolio_page/farav/ 11 50361 0 0
+/html/archives/5642 17 241550 0 0
+/vgg/claudia-martins-queiros/ 2 17246 0 0
+/html/gallery/produtos-ourivesaria 2 43708 0 0
+/vgg/wp-admin/admin.php 71 1033297 0 0
+/trico/ 2 8832 0 0
+/mail_layout/ 1 328 1 0
+/home-in/page/3/ 1 4780 0 0
+/wp-admin/options-general.php 5 43240 0 0
+/vgg2/wp-admin/plugins.php 11 317768 0 0
+/vgg/config.xml 1 381 0 0
+/html/gallery/produtos-oculos 2 35334 0 0
+/html/archives/5624 20 267888 0 1
+/portfolio_page/heliflex/ 7 28273 0 1
+/wp-admin/load-styles.php 101 1707242 0 0
+/vgg2/home-page-10/ 7 95182 0 0
+/vgg/noticias/ 9 65976 0 0
+/html/xmlrpc.php 10 1212 0 0
+/magmacaracas/wp-admin/load-scripts.php 7 356632 0 0
+/html/gallery/paginacao-aveiro-expo 1 3711 0 0
+/vgg2/wp-admin/post.php 78 5522889 0 0
+/aveiroexpo/site/9a-expo-aveiro/ 1 21606 0 0
+/portfolio_page/mercentro/ 7 31978 0 0
+/html/gallery/eventos-lake-ii 4 16824 0 0
+/html/portfolio/video 2 33590 0 0
+/html/gallery/desdobraveis-aveicabo 1 18500 0 0
+/html/archives/gallery-category/paginacao 4 47098 0 0
+/vgg2/blog-style-1-full-width/ 1 7845 0 0
+/html/archives/5333 16 250123 0 0
+/html/gallery/fotografia-moda-castigodelito 1 20448 0 0
+/aveiroexpo/images/pub/teka.swf 1 35890 0 0
+/html/gallery/www-civilria-pt 4 43958 0 1
+/fixed-header/ 11 69628 0 0
+/wp-admin/plugins.php 3 28376 0 0
+/vgg2/aveiro/ 1 5990 0 0
+/html/archives/5225 13 239109 0 0
+/vgg2/wp-content/plugins/mnky-vector-icons/inc/font/zocial-regular-webfont.ttf 6 34627 0 0
+/vgg/faqs/ 2 14788 0 0
+/vgg/wp-admin/edit.php 104 1083462 0 0
+/portfolio-4-columns/ 3 16408 0 0
+/vgg/manuel-cristiano-de-sousa-de-lucena-e-vale/ 2 17288 0 0
+/vgg2/blog-style-3-right-sidebar/ 1 8812 0 0
+/html/gallery/outros 4 45946 0 0
+/magmacaracas/wp-admin/ 1 13271 0 0
+/wp-admin/widgets.php 1 10721 0 0
+/vgg/wp-admin/options-permalink.php 4 26968 0 0
+/html/contactos 63 450686 4 32
+/vgg/wp-admin/customize.php 6 71115 0 0
+/vgg/portfolio/portfolio-2cols/ 2 14028 0 0
+/html/archives/5628 13 240812 0 0
+/vgg2/escritorio-aveiro/ 2 11918 0 0
+/html/archives/5338 12 225492 0 0
+/vgg/ana-rita-dos-santos-bicho/ 2 16836 0 0
+/aveiroexpo/site/imprensa/eventos/ 4 25224 3 3
+/typography/ 8 47565 0 0
+/portfolio_page/linegraph-symbols/ 2 8918 0 0
+/vgg2/wp-login.php 15 19122 2 4
+/html/gallery/www-susanalopes-pt 2 37100 0 0
+/html/gallery/desdobraveis-mariana-urbanizacao 1 17399 0 0
+/portfolio_page/civilria/ 6 26308 0 0
+/vgg/advogados-associados-e-colaboradores/ 10 72896 0 0
+/vgg/area-de-trabalho/ 4 27866 0 0
+/aveiroexpo/site/aveiro-expo-missao-estatuto/ 2 12850 0 0
+/html/gallery/eventos-litoral-design 1 26214 0 0
+/html/gallery/outros-a17-logistic-park 1 18620 0 0
+/magmacaracas/wp-admin/edit.php 1 8326 0 0
+/magmacaracas/wp-cron.php 7 0 1 1
+/html/gallery/multimedia-dvd-mini-cabriolet 2 22198 0 0
+/vgg2/wp-admin/import.php 3 71702 0 0
+/aveiroexpo/site/wp-content/themes/aveiroexpo_template/scripts/pie/PIE.php 2 24638 0 0
+/html/gallery/www-luxuria-bijuteria-pt 1 18632 0 0
+/html/gallery/eventos-smart 2 47800 0 0
+/wp-admin/options-reading.php 3 20544 0 0
+/aveiroexpo/site/imprensa/imprensa-institucional/ 1 8206 0 0
+/whm 46 391782 14 22
+/vgg/wp-cron.php 57 0 4 6
+/vgg/ana-mafalda-francisco/ 2 17248 0 0
+/html/gallery/fotografia-moda-crisalida-01 1 19510 0 0
+/vgg/jose-alexandre-silvares-de-vilhegas-de-lucena-e-vale/ 2 17350 0 0
+/vgg2/block/flickr-widget-2/ 2 14432 0 0
+/magmacaracas/home-version-5/ 8 46032 0 0
+/wp-admin/edit-tags.php 3 22661 0 0
+/vgg/escritorio-leiria/ 17 128147 0 0
+/vgg2/wp-admin/theme-install.php 3 20338 0 0
+/portfolio_page/litoral-fashion/ 18 83594 0 0
+/vgg/valores/ 18 141223 0 0
+/vgg/images/equipa.swf 1 76280 0 0
+/html/gallery/3d-gesconect-2 2 7172 0 0
+/smart_aqua/index.php 73 34793 0 12
+/vgg2/wp-admin/nav-menus.php 22 1114258 0 0
+/html/gallery/www-farmaciacapaofilipe-com 1 18760 0 0
+/vgg/historia/ 44 325759 0 0
+/html/gallery/produtos-gradeamento 2 37886 0 0
+/html/gallery/design-outros-suportes-frota-insidepipe 2 7270 0 0
+/vgg/sandra-isabel-domingues-da-silva/ 2 16854 0 0
+/vgg/wp-admin/export.php 2 54354 0 0
+/wp-admin/options-permalink.php 1 6517 0 0
+/vgg2/blog-home/ 1 8683 0 0
+/vgg/home-2/ 6 56094 0 0
+/vgg/portfolio/portfolio-4cols/ 2 14028 0 0
+/vgg/wp-admin/edit-comments.php 2 19680 0 0
+/wp-admin/options-writing.php 1 7328 0 0
+/aveiroexpo/site/frilac/ 4 22258 2 0
+/vgg2/advogados-estagiarios-2/ 1 7450 0 0
+/magmacaracas/ 14 118856 6 3
+/aveiroexpo/site/aveiro-expo-apresentacao/ 1 6647 0 0
+/html/gallery/multimedia-dvd-bmw-serie-7 3 26328 0 0
+/vgg/page-elements/ 10 87336 0 0
+/vgg2/ 47 343165 0 0
+/vgg/team/armandino-bonito-da-conceicao-galacho/ 2 16140 0 0
+/html/archives/446 13 224512 0 0
+/html/archives/5344 14 243273 0 0
+/html/gallery/fotografia-espacos-comerciais-latina-adega 1 3665 0 0
+/html/gallery/3d-edififio-park 4 42330 1 0
+/aveiroexpo/site/category/calendario-2011/ 1 49005 0 0
+/vgg2/advogados_associados_e_colaboradores_vgg/ 1 6186 0 0
+/html/archives/category/noticias 2 12778 0 0
+/aveiroexpo/site/pedro-abrunhosa/ 1 21672 0 0
+/vgg2/escritorio-estarreja/ 1 6009 0 0
+/html/gallery/3d-delta 3 40091 0 0
+/vgg/area-reservada/ 6 44172 0 1
+/html/archives/gallery-category/outros 7 67761 0 1
+/html/gallery/fotografia-arquitectura-cais-dos-falcoeiros 5 93424 2 1
+/html/gallery/desdobraveis-asl 2 35400 0 0
+/vgg/contact/contactinfo.xml 1 251 0 0
+/sobre-nos/ 1 3292 0 0
+/html/gallery/design-outros-crisalida 2 7182 0 0
+/aveiroexpo/site/imprensa/convencoes/ 1 5019 0 0
+END_SIDER

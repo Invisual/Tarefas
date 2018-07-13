@@ -1,0 +1,3070 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201606 will be lost/reset.
+# Last config file used to build this data file was /home/pg22933/tmp/awstats/awstats.invisual.pt.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2695                
+POS_VISITOR 99211               
+POS_DAY 118648              
+POS_DOMAIN 3779                
+POS_LOGIN 4684                
+POS_ROBOT 4839                
+POS_WORMS 5705                
+POS_EMAILSENDER 5836                
+POS_EMAILRECEIVER 5979                
+POS_SESSION 119596              
+POS_SIDER 119810              
+POS_FILETYPES 6114                
+POS_DOWNLOADS 6565                
+POS_OS 11719               
+POS_BROWSER 12300               
+POS_SCREENSIZE 18136               
+POS_UNKNOWNREFERER 18210               
+POS_UNKNOWNREFERERBROWSER 21500               
+POS_ORIGIN 23733               
+POS_SEREFERRALS 23891               
+POS_PAGEREFS 24123               
+POS_SEARCHWORDS 33813               
+POS_KEYWORDS 34689               
+POS_MISC 2357                
+POS_ERRORS 35481               
+POS_CLUSTER 4540                
+POS_SIDER_404 35696               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160701000010 2056 516917 10635477572686
+FirstTime 20160601000010
+LastTime 20160630235900
+LastUpdate 20160701132154 2056 0 2055 0 0
+TotalVisits 479                 
+TotalUnique 237                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 630                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 220 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1213 2977 99140911 673 1083 9440864
+1 1094 2299 65615560 1211 1536 16596326
+2 1123 1913 33961653 1612 1885 20519603
+3 938 1294 15028660 928 1274 20532133
+4 963 1639 37008466 458 884 16200809
+5 914 1402 26868980 530 833 10071926
+6 1001 1635 31235797 853 1158 12162008
+7 919 1674 24841321 769 1102 8834011
+8 1126 2269 42584943 988 1236 11828486
+9 2355 6341 234573346 741 1072 18828786
+10 3066 9595 399378780 753 1146 15652214
+11 3310 10680 367999826 643 1046 9589787
+12 2975 9756 395124983 595 955 14847070
+13 1549 3580 110204793 681 1153 21251214
+14 2971 8775 333333796 833 1313 19961763
+15 3447 10753 467374695 615 1212 16399242
+16 3023 11016 472058668 925 1540 25856894
+17 2799 7928 344311239 948 1272 13045861
+18 5077 13117 509016898 702 1046 12791035
+19 1777 4243 98965037 757 1079 10143922
+20 1197 2703 78865342 820 1242 9116594
+21 1199 3270 86100935 758 1115 16107952
+22 1262 3924 123277489 898 1516 18731084
+23 1252 3753 132751039 698 1064 15621014
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 46
+pt 43794 120946 4398987525
+gb 1918 1961 2954298
+us 324 671 22451244
+ru 128 385 6138677
+ua 90 91 2217038
+br 72 832 20860506
+ma 53 321 28426493
+fr 41 177 10668193
+es 35 396 16567409
+cz 21 24 194192
+ca 11 124 3896248
+mx 8 98 1104574
+cr 8 8 54
+ar 7 47 2942031
+tz 6 34 1742620
+cl 6 52 2953959
+nl 5 71 857762
+de 5 16 116966
+cn 3 26 385578
+mz 3 67 770378
+co 3 67 770378
+in 2 5 47400
+eu 2 2 18607
+lu 1 2 160491
+ro 1 10 72663
+ch 0 4 18866
+ao 0 1 381490
+ve 0 1 43506
+be 0 22 2290054
+dk 0 2 9433
+sv 0 1 32586
+at 0 5 23305
+jp 0 1 189085
+mo 0 1 996762
+za 0 2 9433
+au 0 2 9433
+jm 0 1 22025
+ie 0 3 13872
+bg 1 1 38976
+md 1 1 2596
+se 1 3 18733
+pl 0 26 112894
+lb 0 6 19674
+tn 0 2 9433
+it 0 16 66284
+il 0 2 9433
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+bot[\s_+:,\.\;\/\\-] 4654 93898300 20160630235244 853
+googlebot 4371 47043878 20160630233522 1001
+no_user_agent 3257 16416921 20160626233727 13
+bingpreview 939 9239480 20160630205029 0
+scanner 573 29965109 20160630182817 276
+slurp 419 9571426 20160630235900 37
+googlebot\-image 335 19235879 20160630235752 0
+spider 314 20903961 20160630235104 24
+unknown 264 33716 20160630204402 264
+google[_+\s]web[_+\s]preview 261 9690902 20160629085036 0
+[\s_+:,\.\;\/\\-]bot 243 32052108 20160630191303 2
+robot 236 1280756 20160630233303 70
+crawl 104 7244062 20160630153409 16
+php 76 9527842 20160627023230 0
+ruby\/ 19 69809 20160628023335 0
+msnbot\-media 7 30972 20160620082801 0
+curl 3 75847 20160630094256 0
+ia_archiver 2 306 20160623063728 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 19
+pdf 86 138386300 0 0
+Unknown 702 14674184 0 0
+ico 482 94542 0 0
+xml 2 2098 0 0
+txt 10 4720 0 0
+css 11510 79286118 0 0
+eot 1 7469 0 0
+ttf 6 501519 0 0
+gif 5220 16381877 0 0
+png 15706 135325696 0 0
+woff2 397 9517504 0 0
+cgi 68 445279 0 0
+woff 296 14936455 0 0
+html 6527 74265330 0 0
+jpg 28850 3534972509 0 0
+js 18073 319607729 0 0
+php 38551 191122820 0 0
+bmp 2 30682 0 0
+svg 47 60326 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 67
+/arcadamagazine/arcadamagazine_n17.pdf 30 0 97544012
+/wp-content/plugins/contact-form-7/license.txt 10 0 4720
+/smart_aqua/wp-content/uploads/2012/04/oje_30_mar_2012.pdf 7 0 7068719
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf 4 0 6997634
+/testeali/wp-content/uploads/2016/05/Catalogo-Vinil-Alital-S.A..pdf 3 0 2869335
+/arcadamagazine/arcadamagazine_n15.pdf 3 0 12198915
+/smart_aqua/wp-content/uploads/2012/04/expresso_30_mar_2012.pdf 3 0 3767976
+/testeali/wp-content/uploads/2016/05/Catalogo-Berlim-Alital-S.A..pdf 2 0 2752528
+/testeali/wp-content/uploads/2016/05/Catalogo-Karma-Alital-S.A..pdf 2 0 1495780
+/arcadamagazine/arcadamagazine_n14.pdf 2 0 7334996
+/arcadamagazine/arcadamagazine_n13.pdf 2 0 9472898
+/testeali/wp-content/uploads/2016/05/Orpheus.pdf 2 0 1596384
+/testeali/wp-content/uploads/2016/05/Catalogo-Replay-Alital-S.A..pdf 2 0 2412766
+/hotelaveirocenter/wp-content/uploads/2014/03/tarifas_aveiro_center_2014.pdf 2 0 260752
+/testeali/wp-content/uploads/2016/05/Catalogo-Class-Alital-S.A..pdf 2 0 2530270
+/testeali/wp-content/uploads/2016/05/Catalogo-Box-Alital-S.A..pdf 1 0 570750
+/testeali/wp-content/uploads/2016/05/Catalogo-Signo-Alital-S.A..pdf 1 0 419111
+/testeali/wp-content/uploads/2016/05/Catalogo-Xilla-Alital-S.A..pdf 1 0 503306
+/testeali/wp-content/uploads/2016/05/Cat%E2%80%A0logo-Myst-Alital-S.A..pdf 1 0 758644
+/testeali/wp-content/uploads/2016/05/Catalogo-Kelly-Alital-S.A..pdf 1 0 824817
+/testeali/wp-content/uploads/2016/05/Catalogo-Elipse-Alital-S.A..pdf 1 0 1112191
+/testeali/wp-content/uploads/2016/05/Catalogo-Luxor-Alital-S.A..pdf 1 0 1069765
+/testeali/wp-content/uploads/2016/05/Catalogo-Flex-Alital-S.A..pdf 1 0 823046
+/testeali/wp-content/uploads/2016/05/Catalogo-Polo-Alital-S.A..pdf 1 0 991486
+/testeali/wp-content/uploads/2016/05/Catalogo-Step-Alital-S.A..pdf 1 0 905213
+/testeali/wp-content/uploads/2016/05/Catalogo-Domino-Alital-S.A..pdf 1 0 929224
+/testeali/wp-content/uploads/2016/05/Catalogo-Zoe-Alital-S.A..pdf 1 0 1005710
+/testeali/wp-content/uploads/2016/05/Catalogo-Heritage-Alital-S.A..pdf 1 0 798606
+/testeali/wp-content/uploads/2016/05/Catalogo-Mustang-Alital-S.A..pdf 1 0 1161909
+/testeali/wp-content/uploads/2016/05/Catalogo-Quartzo-Alital-S.A..pdf 1 0 1111533
+/testeali/wp-content/uploads/2016/05/Catalogo-Prisma-Alital-S.A..pdf 1 0 1396486
+/testeali/wp-content/uploads/2016/05/Catalogo-Skin-Alital-S.A..pdf 1 0 965500
+/testeali/wp-content/uploads/2016/05/Catalogo-Open-Alital-S.A..pdf 1 0 1326308
+/testeali/wp-content/uploads/2016/05/Catalogo-Safira-Alital-S.A..pdf 1 0 817646
+/testeali/wp-content/uploads/2016/05/Catalogo-Icon-Alital-S.A..pdf 1 0 819519
+/testeali/wp-content/uploads/2016/05/Catalogo-Fortis-Alital-S.A..pdf 1 0 1221388
+/testeali/wp-content/uploads/2016/05/Catalogo-Flat-Alital-S.A..pdf 1 0 498022
+/testeali/wp-content/uploads/2016/05/Catalogo-Hidra-Alital-S.A..pdf 1 0 251066
+/testeali/wp-content/uploads/2016/05/Catalogo-Mesas-apoio-Alital-S.A..pdf 1 0 239970
+/testeali/wp-content/uploads/2016/05/Catalogo-Lyra-Alital-S.A..pdf 1 0 589386
+/testeali/wp-content/uploads/2016/05/Catalogo-Manhatan-Alital-S.A..pdf 1 0 793709
+/testeali/wp-content/uploads/2016/05/Catalogo-Quadra-B-Alital-S.A..pdf 1 0 913319
+/testeali/wp-content/uploads/2016/05/Catalogo-Donna-Alital-S.A..pdf 1 0 1273871
+/testeali/wp-content/uploads/2016/05/Catalogo-Emotion-Alital-S.A..pdf 1 0 522212
+/testeali/wp-content/uploads/2016/05/Catalogo-Storm-Alital-S.A..pdf 1 0 836179
+/smart_aqua/wp-content/uploads/2012/04/aicep_30_mar_2012.pdf 1 0 427252
+/smart_aqua/wp-content/uploads/2012/04/tribuna_de_macau.pdf 1 0 88796
+/testeali/wp-content/uploads/2016/05/Catalogo-XN-Alital-S.A..pdf 1 0 512078
+/testeali/wp-content/uploads/2016/05/Catalogo-Vertice-Alital-S.A..pdf 1 0 764543
+/testeali/wp-content/uploads/2016/05/Catalogo-Pulchra-Alital-S.A..pdf 1 0 1082807
+/hosteldoalboi/wp-content/uploads/2015/06/tabela_precos_hostel2015.pdf 1 0 150469
+/testeali/wp-content/uploads/2016/05/Catalogo-Kea-Alital-S.A..pdf 1 0 812687
+/arcadamagazine/arcadamagazine_16.pdf 1 0 3228415
+/testeali/wp-content/uploads/2016/05/Catalogo-Jacobsen-Alital-S.A..pdf 1 0 875287
+/testeali/wp-content/uploads/2016/05/Catalogo-Thesis-Alital-S.A..pdf 1 0 847161
+/testeali/wp-content/uploads/2016/05/Catalogo-Smile-Alital-S.A..pdf 1 0 964424
+/testeali/wp-content/uploads/2016/05/Catalogo-Emme-Alital-S.A..pdf 1 0 1663546
+/testeali/wp-content/uploads/2016/05/Catalogo-Alpha-Alital-S.A..pdf 1 0 562741
+/testeali/wp-content/uploads/2016/05/Catalogo-Spark-Alital-S.A..pdf 1 0 830877
+/testeali/wp-content/uploads/2016/05/Catalogo-Mantis-Alital-S.A..pdf 1 0 809401
+/testeali/wp-content/uploads/2016/05/Catalogo-Nielsen-Alital-S.A..pdf 1 0 353138
+/testeali/wp-content/uploads/2016/05/Catalogo-Parker-Alital-S.A..pdf 1 0 1983205
+/testeali/wp-content/uploads/2016/05/Catalogo-Marshall-Alital-S.A..pdf 1 0 2828212
+/testeali/wp-content/uploads/2016/05/Catalogo-Oslo-Alital-S.A..pdf 1 0 462731
+/programa_aveironoivos.pdf 1 0 874290
+/testeali/wp-content/uploads/2016/05/Catalogo-Format-Alital-S.A..pdf 1 0 770161
+/testeali/wp-content/uploads/2016/05/Catalogo-Aktiva-Alital-S.A..pdf 1 0 1394528
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 35
+macosx5 2 2
+macosx9 509 81
+macosx6 90 9
+ios_ipad 2110 190
+win8 871 243
+win7 19359 3797
+psp 27 0
+win95 5 5
+j2me 1 0
+ios_iphone 3459 297
+linuxgentoo 2 2
+winnt 17403 2443
+macosx7 107 14
+macintosh 1 1
+win98 11 11
+java 279 261
+linuxandroid 5924 587
+win2000 78 77
+win2003 59 59
+macosx4 643 78
+winxp 2461 906
+macosx8 145 23
+Unknown 24382 24271
+unix 71 13
+winme 13 13
+win16 3 3
+macosx 41813 11771
+linux 2792 692
+linuxubuntu 234 29
+winphone 382 35
+winlong 848 215
+winunknown 109 107
+win8.1 2341 313
+wince 1 1
+blackberry 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 282
+chrome41.0.2225.0 5 5
+chrome50.20.2661.78 3 0
+chrome48.0.2564.103 1 1
+alcatel 1 0
+chrome50.0.2661.94 117 13
+chrome39.0.0.0 58 0
+chrome17.0.963.65 2 2
+chrome37.0.2049.0 33 33
+chrome44.0.2403.133 257 25
+safari6.1.5 1 1
+chrome32.0.1700.107 700 63
+opera38.0.2220.29 57 7
+chrome28.0.1464.0 1 1
+firefox21.0 9 9
+firefox3.6.8 1 1
+chrome36.0.1985.67 56 56
+chrome30.0.1599.101 30 6
+chrome51.0.2683.0 2 0
+msie 1 1
+chrome30.0.1599.66 5 5
+chrome37.0.2062.120 9 6
+firefox3.6.9 2 2
+msie2.0 5 5
+chrome48.4.2564.88 44 6
+chrome38.0.2125.122 3 0
+chrome43.0.2357.124 8 0
+firefox18.0 8 4
+opera8.00 1 1
+chrome49.0.2623.108 52 7
+netscape4.79 3 3
+chrome10.0.648.204 42 41
+safari6.2 3 0
+chrome48.0.2564.116 54 8
+chrome14.0.814.0 1 1
+chrome47.0.2526.80 6 0
+chrome49.0.2623.91 6 0
+chrome49.0.2623.110 6 2
+firefox45.0 160 24
+chrome30.0.1599.103 3 0
+opera7.11 6 6
+chrome51.0.2704.103 9620 1210
+chrome50.7.2661.78 13 4
+chrome21.0.1228.0 67 3
+msie5.01 14 14
+chrome31.0.1650.59 48 5
+chrome51.6.2704.63 1 0
+chrome53.0.2763.0 3 0
+chrome18.6.872.0 1 0
+chrome40.0.2214.93 1 0
+chrome50.0.2661.103 65 10
+chrome34.0.1847.118 139 21
+applesyndication 32 32
+chrome47.0.2526.106 2 0
+chrome43.0.2357.134 4 2
+msie9.0 572 139
+firefox40.0 36 8
+opera23.0.1522.77 1 1
+safari9.0 2684 352
+chrome51.0.2704.106 52 6
+firefox11.0 65 1
+firefox3.5.6 5 5
+chrome40.0.2214.111 3 0
+chrome42.0.2311.111 7 0
+firefox43.0.4 3 0
+firefox2.0.0.11 2 2
+chrome30.0.0.0 281 23
+opera7.02 3 3
+chrome38.0.2125.104 49 6
+chrome46.0.2490.76 19 0
+chrome19.0.1042.0 1 0
+chrome5.0.375.99 4 4
+chrome19.0.1062.0 1 1
+webcapture 1 1
+firefox26.0 1 0
+safari7.0 150 53
+chrome48.0.2564.109 2 0
+chrome48.0.2564.97 55 6
+firefox47.0 6356 1293
+msie5.5 37 37
+firefox14.0.1 11 11
+chrome35.0.1916.153 269 44
+chrome50.0.2661.102 23924 5532
+firefox37.0 1795 285
+msie3.02 1 1
+chrome48.0.2564.106 1 0
+chrome46.0.2486.0 1142 108
+firefox42.0 16 4
+chrome44.0.2403.157 8 0
+netscape0.6 3 3
+firefox33.0 34 14
+chrome41.0.2224.3 2 2
+safari8.0 1244 259
+safari8.0.8 270 52
+chrome43.0.2357.121 4 0
+firefox27.0 1 1
+opera10.10 1 1
+chrome11.0.696.3 1 1
+msie10.0 411 186
+chrome10.0.649.0 1 1
+chrome19.0.1063.0 1 1
+chrome40.0.2214.109 25 7
+chrome27.0.1453 5 0
+lynx 4 3
+chrome39.0.2171.95 49 7
+firefox40.1 1314 1314
+firefox39.0 10 10
+chrome16.0.912.36 1 0
+netscape0.91 1 1
+safari7.1.8 8 0
+firefox22.0 48 7
+blackberry 1 1
+msie5.0 10 10
+chrome40.0.2214.115 55 12
+chrome41.0.2272.96 3 0
+chrome50.0.2661.89 1503 139
+chrome18.0.1025.1634 3 0
+msie8.0 846 324
+chrome14.0.801.0 1 1
+netscape 2 2
+chrome12.0.742.112 2 1
+chrome47.0.2526.83 14 0
+chrome42.0.2311.135 125 13
+firefox6.0 1 1
+chrome27.0.1453.110 1 1
+safari8.0.2 3 0
+safari9.0.2 32 6
+chrome31.0.1650.63 6 2
+safari6.2.5 3 0
+chrome13.0.752.0 1 1
+chrome42.0.2311.90 63 18
+safari7.1.7 3 0
+firefox29.0 100 89
+opera9.00 5 5
+firefox 1 1
+chrome28.0.1500.71 28 8
+opera9.0 11 11
+firefox5.0 5 5
+chrome49.0.2600.0 6 0
+chrome36.0.1985.135 3 0
+Unknown 9731 9689
+msie4.01 7 7
+chrome26.0.1410.64 3 3
+chrome51.0.2704.79 669 106
+safari4.1.3 635 78
+firefox7.0.1 7 4
+chrome46.0.2490.86 32 0
+chrome38.0.2125.111 5 0
+firefox6.0.2 72 13
+chrome5.0.307.11 3 3
+chrome45.0.2454.93 10 10
+firefox3.6.3 74 56
+safari8.0.3 41 6
+firefox3.0.19 3 0
+chrome11.0.696.14 1 0
+firefox36.0 71 5
+chrome41.0.2227.1 2 2
+opera7.54 4 4
+chrome18.0.1003.1 3 0
+chrome11.0.654.0 1 1
+svn040 9 0
+firefox10.0 3 0
+msie7.0 834 98
+chrome33.0.0.0 42 0
+firefox41.0 103 103
+chrome49.0.2623.112 1380 153
+chrome53.0.2767.0 3 0
+chrome10.0.648.11 1 0
+firefox16.0 1 0
+chrome44.0.2403.107 2 0
+opera7.0 11 11
+safari5.1 42 9
+chrome48.0.2564.82 46 6
+chrome47.0.2526.111 1512 300
+opera36.0.2130.32 59 59
+firefox28.0 8 8
+opera9.01 3 3
+opera36.0.2130.75 1 0
+chrome45.0.0.11014 1 0
+chrome50.4.2661.78 3 0
+safari4.0.4 2 0
+chrome44.0.2403.125 3 1
+chrome35.0.1916.114 9 4
+svn080 1 0
+chrome42.0.0.10338 2 0
+chrome13.0.782.220 2 1
+chrome36.0.1985.143 3419 341
+firefox3.6 203 203
+firefox34.0 10 10
+libwww 11 11
+chrome49.0.2623.87 99 24
+chrome49.0.2623.105 73 6
+safari7.1.3 4 4
+safari7.0.3 3 3
+msie11.0 2393 299
+chrome19.0.1061.1 3 3
+netscape5.0 14664 14656
+chrome27.0.1453.93 2 1
+chrome44.0.2403.130 3 0
+chrome45.0.2454.85 94 12
+chrome28.0.1500.94 48 6
+firefox4.0 4 4
+chrome49.0.2623.75 33 16
+firefox31.0 54 54
+vodafone 50 6
+chrome12.0.742.91 1 1
+opera7.60 3 3
+opera12.16 73 26
+safari9.1 406 74
+msie6.0 316 313
+lg\- 15 0
+chrome18.0.1025.166 50 6
+opera8.50 3 2
+chrome41.0.2228.0 96 96
+chrome14.0.813.0 1 1
+opera6.01 5 5
+opera36.0.2130.65 50 7
+chrome51.0.2704.77 3 0
+firefox3.5.2 4 4
+chrome15.0.874.120 1 0
+chrome46.0.2490.71 46 6
+chrome34.0.1847.76 145 20
+chrome51.0.2704.84 14107 3597
+opera10.50 1 1
+safari5.1.9 5 2
+firefox4.0.1 5 5
+chrome38.0.2125.101 197 55
+chrome38.0.1025.166 4 1
+safari9.1.1 5862 1878
+chrome37.0.0.0 152 21
+safari4.0 1 1
+chrome46.0.2490.80 2 0
+netscape3.0 6 6
+chrome44.0.2403.90 1 0
+chrome51.0.2704.63 200 14
+firefox44.0 153 24
+chrome17.0.963.66 1 1
+firefox35.0 64 16
+firefox48.0 47 6
+chrome11.0.669.0 1 0
+chrome45.0.2454.101 12 12
+chrome52.0.2743.49 4 1
+netscape4.76 3 3
+safari6.1.6 49 7
+chrome33.0.1750.152 12 12
+chrome45.0.2488.22 1 1
+firefox2.0.0.4 3 3
+firefox46.0 5173 1064
+chrome42.0.2311.152 2 2
+chrome34.0.1847.131 72 21
+firefox4.2 2 2
+safari 453 43
+chrome44.0.2403.155 44 6
+mozilla 1315 167
+opera38.0.2220.31 181 16
+chrome32.0.1667.0 12 0
+chrome43.0.2357.93 3 0
+firefox30.0 2 2
+chrome39.0.2049.0 4 4
+chrome11.0.696.34 10 1
+chrome37.0.2062.103 5 0
+chrome38.0.2125.102 175 18
+firefox12.0 2 2
+chrome50.0.2661.86 228 6
+firefox32.0 6 6
+opera8.01 12 12
+chrome34.0.1847.137 3 3
+firefox38.0 37 0
+chrome18.0.1025.151 1 1
+safari9.0.3 14 0
+chrome53.0.2766.0 2 0
+chrome17.0.963.56 2 2
+opera35.0.2066.37 1 1
+netscape4.61 3 3
+firefox43.0 61 11
+android 307 52
+firefox3.6.28 13 13
+firefox17.0 53 12
+iphone 1601 12
+chrome48.0.2564.95 99 14
+chrome26.0.1410.43 1 1
+chrome26.0.1410.63 112 112
+chrome51.0.2704.81 2183 215
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 54
+WordPress/4.4.3;_http://invisual.pt/old 20160615124157
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20160611012359
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20160630235244
+Apple-PubSub/65.28 20160623192308
+WordPress/3.9.3;_http://invisual.pt 20160624215230
+luis@cybo.com 20160616190120
+Mozilla/5.0_(Android_5.0.2;_Tablet;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160624010208
+Safari/10600.1.25_CFNetwork/720.0.9_Darwin/14.0.0_(x86_64) 20160613175441
+ltx71_-_(http://ltx71.com/) 20160626070756
+WordPress/4.5.2;_http://invisual.pt/hosteldoalboi 20160615124314
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20160630235900
+WordPress/4.5.3;_http://invisual.pt/alboi 20160630205113
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20160630205445
+Mozilla/5.0_(Android_5.0.2;_Mobile;_rv:47.0)_Gecko/47.0_Firefox/47.0 20160629124307
+Mozilla/5.0 20160630235519
+finbot 20160630135850
+Mozilla/5.0_(Android_4.4.4;_Mobile;_rv:46.0)_Gecko/46.0_Firefox/46.0 20160601220744
+Whibse 20160613161542
+WordPress/4.5.2;_http://invisual.pt 20160621202142
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20160629211822
+com.apple.WebKit.WebContent/10600.1.25_CFNetwork/720.0.9_Darwin/14.0.0_(x86_64) 20160627170707
+libwww-perl/5.833 20160626195406
+WordPress/4.5.2;_http://invisual.pt/hoteldassalinas 20160621192527
+libwww-perl/6.05 20160626194743
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20160615060728
+Xenu_Link_Sleuth/1.3.8 20160602095610
+Mozilla/4.0_(compatible;) 20160624180647
+Opera/9.80_(SpreadTrum;_Opera_Mini/4.4.31492/37.8625;_U;_id)_Presto/2.12.423_Version/12.16 20160627140956
+com.apple.WebKit.WebContent/10600.8.9_CFNetwork/720.5.7_Darwin/14.5.0_(x86_64) 20160630130518
+facebookexternalhit/1.1 20160624154555
+WordPress/4.3.5;_http://invisual.pt/modelin 20160630130516
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_1_subscribers;_feed-id=12303538711860344498) 20160613220919
+Softaculous 20160615124316
+nutch-1.4/Nutch-1.4 20160620063349
+WordPress/4.2.8;_http://invisual.pt/hoteldassalinas 20160615061232
+Mozilla/5.0_Firefox/35.0 20160609075928
+Mozilla/5.0_(compatible;_Nmap_Scripting_Engine;_http://nmap.org/book/nse.html) 20160610163314
+WordPress/4.2.8;_http://invisual.pt/alboi 20160613172344
+scrapyproject_(_http://www.profound.net) 20160623083613
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20160630220017
+WordPress/4.5.2;_http://invisual.pt/alboi 20160621202058
+Blackboard_Safeassign 20160607161414
+Opera/9.80_(Android;_Opera_Mini/16.0.2168/37.8583;_U;_pt)_Presto/2.12.423_Version/12.16 20160617112916
+Pinterest/0.2_(_http://www.pinterest.com/) 20160623231501
+WordPress/4.5.3;_http://invisual.pt/hoteldassalinas 20160630101558
+libwww-perl/6.01 20160617022202
+WordPress/4.5.3;_http://invisual.pt 20160630232658
+Mozilla 20160614135700
+WordPress/4.5.2;_http://invisual.pt/testeali 20160622151713
+WordPress/4.5.3;_http://invisual.pt/testeali 20160627093750
+WordPress/4.5.2;_http://invisual.pt/hotelaveirocenter 20160615124244
+IPS/1.0 20160623095802
+WordPress/4.3.4;_http://invisual.pt/modelin 20160623163943
+Safari/11601.6.17_CFNetwork/760.5.1_Darwin/15.5.0_(x86_64) 20160627085801
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 40
+Whibse 20160613161542
+finbot 20160630135850
+Java/1.6.0_04 20160625123803
+WordPress/4.5.2;_http://invisual.pt 20160621202142
+WordPress/4.5.2;_http://invisual.pt/hoteldassalinas 20160621192527
+com.apple.WebKit.WebContent/10600.1.25_CFNetwork/720.0.9_Darwin/14.0.0_(x86_64) 20160627170707
+Java/1.8.0_77 20160626044013
+WordPress/3.9.3;_http://invisual.pt 20160624215230
+WordPress/3.2.1;_http://invisual.pt/smart_aqua 20160630235244
+Apple-PubSub/65.28 20160623192308
+luis@cybo.com 20160616190120
+Apache-HttpClient/4.5.2_(Java/1.8.0_65) 20160623051544
+WordPress/3.2.1;_http://invisual.pt/smart_aqua_eng 20160630235900
+WordPress/4.5.2;_http://invisual.pt/hosteldoalboi 20160615124314
+ltx71_-_(http://ltx71.com/) 20160626070756
+WordPress/4.5.3;_http://invisual.pt/alboi 20160630205113
+Microsoft_Office/16.0_(Microsoft_Outlook_Mail_16.0.6769;_Pro) 20160617144451
+Java/1.8.0_91 20160618080937
+WordPress/4.4.3;_http://invisual.pt/old 20160615124157
+Microsoft_Office/16.0_(Microsoft_Outlook_Mail_16.0.6965;_Pro) 20160623231420
+WordPress/4.5.2;_http://invisual.pt/testeali 20160622151713
+WordPress/4.5.2;_http://invisual.pt/hotelaveirocenter 20160615124244
+WordPress/4.5.3;_http://invisual.pt/testeali 20160627093750
+IPS/1.0 20160623095802
+WordPress/4.3.4;_http://invisual.pt/modelin 20160623163943
+WordPress/4.2.8;_http://invisual.pt/alboi 20160613172344
+scrapyproject_(_http://www.profound.net) 20160623083613
+Blackboard_Safeassign 20160607161414
+WordPress/4.5.2;_http://invisual.pt/alboi 20160621202058
+WordPress/4.5.3;_http://invisual.pt 20160630232658
+Pinterest/0.2_(_http://www.pinterest.com/) 20160623231501
+WordPress/4.5.3;_http://invisual.pt/hoteldassalinas 20160630101558
+com.apple.WebKit.WebContent/10600.8.9_CFNetwork/720.5.7_Darwin/14.5.0_(x86_64) 20160630130518
+Xenu_Link_Sleuth/1.3.8 20160602095610
+facebookexternalhit/1.1 20160624154555
+WordPress/4.3.5;_http://invisual.pt/modelin 20160630130516
+Feedfetcher-Google;_(_http://www.google.com/feedfetcher.html;_1_subscribers;_feed-id=12303538711860344498) 20160613220919
+nutch-1.4/Nutch-1.4 20160620063349
+WordPress/4.2.8;_http://invisual.pt/hoteldassalinas 20160615061232
+Softaculous 20160615124316
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28778 30698
+From1 16 18
+From2 456 1324
+From3 767 8820
+From4 16533 85676
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+baidu 6 6
+yandex 11 11
+google_image 5 11
+yahoo 1 1
+google 421 1166
+bing 12 120
+live 0 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 237
+http://www.smartaqua.pt 89 89
+http://smartaqua.pt 53 53
+http://fix-website-errors.com/try.php 51 51
+http://webcache.googleusercontent.com/search 17 75
+http://royal-betting.net 15 15
+https://ebin.cc 12 12
+http://woman-orgasm.ru 12 12
+http://buttons-for-website.com 11 11
+http://free-video-tool.com 11 11
+http://freenode.info 10 10
+http://www.mybesthotel.eu/hoteis/hotel-de-ilhavo-plaza 10 10
+http://sad-torg.com.ua 10 10
+http://homelygarden.com 9 9
+http://www.pornoklad.net 8 8
+http://ifirestarter.ru 8 8
+http://kvectim.ru 7 7
+http://www.alveris.ru 7 7
+http://elvel.com.ua 7 7
+http://alital.pt 7 66
+http://kinobaks.com 6 6
+http://keywords-monitoring-success.com/try.php 6 6
+http://nimfa.pro 6 6
+http://94.46.176.249/~pg22933/ 6 6
+http://zvetki.ru 6 6
+http://runstocks.com 6 6
+http://accessories.afora.ru 1 1
+http://backgroundcheckabouth.top/government-background-check-drug-test.html 2 2
+http://leonorreis.com 1 1
+http://hotelaveirocenter.com/en/booking/ 0 3
+http://www.odisseias.com/top/destaques/presente-noite-spa-ou-jantar-5990-pack-1/46183 2 2
+http://free-video-tool.com 1 1
+http://gelendzhik.xrus.org 1 1
+http://arcada-imobiliaria.com/lojas/ 0 1
+http://prepodka.net 3 3
+http://rollystore.com:2095/cpsess4358698408/3rdparty/roundcube/ 0 1
+http://hoteldassalinas.com/en 0 1
+http://hoteldassalinas.com/es/room/estudio/ 0 8
+http://hoteldassalinas.com/en/attraction/museum-of-vista-alegre/ 0 6
+http://gsmtlf.ru 5 5
+http://alojamentodoalboi.com/es/ 0 6
+http://confeitariaframboesa.pt/confeitarias-framboesa-criam-campanha-de-solidariedade/ 1 1
+http://advogados-vgg.pt/escritorios/aveiro/ 1 1
+http://inzn.ru 3 3
+http://www.ctm-stroy.ru 4 4
+http://www.bonssons.com/onde-ficar/ 2 2
+http://xn--80aebbcbcdemfkhba4byaehoejh8dza3v.xn--p1ai 4 4
+http://bryansk.xrus.org 2 2
+http://xn-----6kccaibs5cb8afhjrfmix2n.xn--p1ai 2 2
+http://www.hoteldassalinas.pt/pt-pt/promocoes/dia-dos-namorados 0 1
+http://www.muz-baza.net 3 3
+http://dimkino.ru 3 3
+http://ingress-store.com 3 3
+http://hvd-store.com 1 1
+http://intervsem.ru 4 4
+http://hotelaveirocenter.com/es/nuestras-habitaciones-2/ 0 2
+http://www.cm-ilhavo.pt/pages/1768 2 2
+http://www.mosrif.ru/produktsiya 1 1
+http://mlicnak.top/blog/ 1 1
+http://istock-mebel.ru 3 3
+http://sexsaoy.com 3 3
+http://www.igogo.pt/hotel-de-ilhavo/ 2 2
+http://hotelaveirocenter.com/nossos-quartos 0 2
+http://hotelaveirocenter.com/attraction/parque-infante-d-pedro-1km/ 0 2
+http://www.bookmaker-bet.com 2 2
+http://www.styro.ru 3 3
+http://finteks.ru 3 3
+http://hotelaveirocenter.com/attraction/porto-pesca/ 0 2
+http://www.arcada-imobiliaria.com/quemsomos/ 0 3
+http://pt.letsbonus.com/leiria/hotel-ilhavo-4-viagens-2-6-20160531160736-375209 1 1
+http://www.playocean.net/portugal/ilhavo/alojamento 5 5
+http://alital.pt/empresa/ 1 1
+http://royal-investments.net 3 3
+http://tadalafil-sildenafil.com 3 3
+http://flooringinstallation-edmonton.com 3 3
+http://mirgam.net 2 2
+http://hotelaveirocenter.com/pt 0 12
+http://wedding-salon.net 3 3
+http://zaim-pod-zalog-krasnodar.ru 2 2
+http://alojamentodoalboi.com/o-alojamento/ 0 3
+http://bankrot-spb.ru 3 3
+http://hotelaveirocenter.com/contactos/ 0 12
+http://www.hoteldassalinas.pt/en/booking 0 42
+http://hoteldassalinas.com/en/contacts/ 0 19
+http://spravkavspb.ru 3 3
+http://hotelaveirocenter.com/attraction/aeroporto-sa-carneiro/ 0 2
+http://hotelaveirocenter.com/es/hotel/ 0 2
+http://sexphoto.site 2 2
+http://pravoholding.ru 2 2
+http://den-noch24.ru 5 5
+http://advogados-vgg.pt/quem-somos/advogados-socios/ 1 1
+http://adrianocarreira.com/areas/protese-fixa/ 1 1
+http://hoteldassalinas.com 0 4748
+http://www.exchanges-bet.com 3 3
+http://www.arcada-imobiliaria.com/lojas/ 0 3
+http://kemerovo.xrus.org 3 3
+http://alojamentodoalboi.com/en/ 0 5
+http://mirtorrent.net 2 2
+http://hotelaveirocenter.com/es/ 0 32
+http://hotelaveirocenter.com/es/reservas/ 0 2
+http://hoteldassalinas.com/es/ 0 1
+http://lsmedicall.pt 2 2
+http://hoteldassalinas.com/nossos-quartos/ 0 3
+http://vladimir.xrus.org 2 2
+http://www.solferias.pt/Programacao/Viagens-na-Minha-Terra/Centro/Hoteis/Ilhavo 1 1
+http://www.odisseias.com/hoteis-e-viagens-lisboa/destaques/presente-noite-especial-para-dois-com-jantar-ou-spa-num-de-30-hoteis/46183 1 1
+http://burger-imperia.com 3 3
+http://gps495.ru 1 1
+http://pt.kompass.com/c/invisual-branding-solutions-lda/pt030587/ 1 1
+http://hyipmanager.in 3 3
+http://www.veigas.pt 2 2
+http://www.facebook.com 1 1
+http://belgorod.xrus.org 1 1
+http://server2.kproxy.com/servlet/redirect.srv/syv/stjeduibx/p1/ 1 1
+http://hotelaveirocenter.com/reserva/ 0 4
+http://zdesformula.ru 6 6
+http://grupoalboi.com/testimonials/carla-santos-e-jose-pires-dos-santos/ 0 6
+http://buy-cheap-pills-order-online.com 6 6
+http://hoteldassalinas.com/en/the-hotel/ 0 26
+http://hoteldassalinas.com/en/the-city/ 0 10
+http://hotelaveirocenter.com/en/room/single-standard-room/ 0 8
+http://hoteldassalinas.com/room/estudio/ 0 6
+https://biznesschat.net 3 3
+http://hoteldassalinas.com/en/slider/enjoy-an-exciting-studio/ 0 3
+http://pizza-imperia.com 1 1
+http://hoteldassalinas.com 0 99
+http://pallene/CML/_controls/emailbody/msgBody.aspx 0 1
+http://vologda.xrus.org 3 3
+http://hotelaveirocenter.com/room/quarto-duplo-standard/ 0 2
+http://hoteldassalinas.com/pt 0 13
+http://zastenchivosti.net 3 3
+https://www.facebook.com 5 5
+http://oils.afora.ru 2 2
+http://www.aveiro.co.pt/categoria.aspx 3 3
+http://www.vesnatehno.ru 6 6
+http://www.hoteldassalinas.pt/es 0 1
+http://hoteldassalinas.com/o-hotel/ 0 9
+http://hotelaveirocenter.com/attraction/ecomuseu-marinha-da-troncalhada-900-m/ 0 2
+http://izoll.ru 3 3
+http://dnepr-avtospar.com.ua 3 3
+http://hoteldassalinas.com/reservas/ 0 21
+http://mail.primagama.pt/webmail/ 0 1
+http://www.symbol-s.ru 2 2
+http://astrakhan.xrus.org 2 2
+http://www.vesnatehno.com 5 5
+http://archidom.info 6 6
+http://alital.pt/contactos/ 2 2
+http://onlyforemont.ru 3 3
+http://kruzakivrazbor.ru 1 1
+http://sucuri.net 2 11
+http://hoteldassalinas.com/gallery/galeria/ 0 6
+http://pizza-tycoon.com 1 1
+http://www.hoteis.pt/6407/link/http://www.hoteldeilhavo.com 2 2
+http://hotelaveirocenter.com/en/ 0 18
+http://https-legalrc.biz 3 3
+http://ladykrossovki.ru 3 3
+http://letous.ru 3 3
+http://www.losviajeros.com/index.php 1 1
+http://rumamba.com 3 3
+http://kinderok.com 3 3
+http://alojamentodoalboi.com 0 171
+http://e-collantes.com 6 6
+http://www.hotelaveirocenter.com 0 2
+http://solitaire-game.ru 3 3
+http://hotelaveirocenter.com/attraction/jardins-do-rossio-600-m/ 0 2
+http://tires.afora.ru 6 6
+http://turismoenportugal.blogspot.fr/2010/08/playa-barra-de-aveiro.html 1 1
+http://avtocredit-legko.ru 3 3
+http://maldita.pt 1 1
+http://money-every-day.com 6 6
+http://kupit-adenu.ru 3 3
+http://m.facebook.com 4 4
+http://hoteldassalinas.com/en/promotions/ 0 6
+http://hotelaveirocenter.com/attraction/praia-da-costa-nova/ 0 2
+http://hoteldassalinas.com/en/attraction/ilhavo-maritime-museum/ 0 3
+http://esk-sambist.ru 1 1
+http://lipetsk.xrus.org 6 6
+http://runovschool.ua 3 3
+http://hoteldassalinas.com/en/testimonials/cristina-portugal-2/ 0 3
+http://grupoalboi.com 0 18
+http://es.lifecooler.com/lifecooleres/hotel-torres-novas-hoteles-405500-1.html 2 2
+http://smartaqua.pt 2 2
+http://hotelaveirocenter.com 0 1158
+http://www.cm-ilhavo.pt/pages/1810 1 1
+http://hotelaveirocenter.com/nossos-quartos/ 0 2
+http://grupoalboi.com 1 1280
+http://biznesluxe.ru 6 6
+http://civilria.pt/empresarial-portfolio/ 1 1
+http://hd720kino.ru 4 4
+http://wallpapers-best.com 3 3
+http://hotelaveirocenter.com 0 28
+http://my-big-family.com 3 3
+http://fm-upgrade.ru 3 3
+http://www.fnac.pt/mp8737838/Odisseias-Hotel-Ilhavo-Plaza-4-Noite-et-SPA-c-Opcao-de-Jantar-et-Massagem-1-Noite-SPA-Jantar 1 1
+http://hoteldassalinas.com/en/ 0 47
+http://mmog-play.ru 5 5
+http://hoteldassalinas.com/es/hotel/ 0 3
+http://tl.rulate.ru 2 2
+https://td-33.ru 2 2
+http://www.positive2b.ru 3 3
+http://turismoenportugal.blogspot.com.es/2010/08/playa-barra-de-aveiro.html 1 1
+http://kproxy.com/doproxy.jsp 2 2
+http://crmportal.optimus.pt/pdc2/home.pdc 0 1
+http://vashsvet.com 6 6
+http://hoteldassalinas.com/en/booking/ 0 9
+http://www.odisseias.com/off-viagens/destaques/hotel-ilhavo-plaza-4-noite-spa-c-opcao-de-jantar-massagem/46062 1 1
+http://www.bonssons.com/en/staying-there/ 2 2
+http://hoteldassalinas.com/servicos/ 0 3
+http://www.infoempresas.com.pt/Distrito_SANTAREM/Empresas-50.html 1 1
+http://www.arcada-imobiliaria.com 0 6
+http://www.pai.pt/nieto-fernandez-actividades-turisticas-de-torres-novas-lda-torres-novas-santa-maria-salvador-e-santiago-2350-418/ 1 1
+http://civilria.pt 4 4
+http://arcada-imobiliaria.com 0 1
+http://alojamentodoalboi.com/attraction/bioria-20-km/ 0 3
+http://hoteldassalinas.com/a-cidade/ 0 1
+http://uytmaster.ru 3 3
+http://hoteldassalinas.com/en/the-plant-is-an-alternative-to-salt-once-it-was-a-curse-is-now-a-gourmet-herb/ 0 3
+http://voloomoney.com 5 5
+http://dnepr-avtospar.com.ua 2 2
+http://adrianocarreira.com 1 1
+http://sygraem.com 1 1
+http://hotelaveirocenter.com/en/the-hotel/ 0 4
+http://abiente.ru 4 4
+http://djonwatch.ru 6 6
+http://vykupavto-krasnodar.ru 6 6
+http://linerdrilling.com 3 3
+http://www.veigas.pt/piscinas.html 1 1
+http://gastronom.com.ua 2 2
+http://vipsiterip.org 3 3
+http://www.rospromtest.ru/content.php 3 3
+http://letolove.ru 5 5
+http://perm.afora.ru 6 6
+http://wallpapersdesk.info 3 3
+http://hoteldassalinas.com/es/nuestras-habitaciones/ 0 5
+http://hotelaveirocenter.com/en/service/hotel-reception-provided-services/ 0 2
+http://hotelaveirocenter.com/service/lavandaria/ 0 2
+http://www.multihotel.info/hoteis/zona-centro/aveiro/ 1 1
+http://hoteldassalinas.com/en/attraction/forum-aveiro-shopping-center-950-m/ 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 10
+invisual+revista+aveiro 6
+comprar+redutores+de+caudal 3
+invisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion+aveiro+portugal+moda%7cinvisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion+aveiro+portugal+moda 3
+litoralfashion 3
+web+design+%26+development+company 2
+contacto+hotel+de+ilhavo 1
+ekena+bay+2015+catalogo+pre%c3%a7o 1
+litoral+brand 1
+hotel+torres+novas 1
+invisual.pt 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 30
+aveiro 12
+portugal 6
+revista 6
+invisual 6
+de 4
+comprar 3
+redutores 3
+invisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion 3
+moda 3
+moda%7cinvisual%7cbrandingsolutions%7cmarketingecomunica%810%8a4%810%8a0o%7cdesign%7cinternet%7cwebdesign%7cnewsletters%7cfotografia%7cvideo%7c3d%7cprojetos%7cativa%810%8a4%810%8a0oeeventos%7cbrand%7clitoralmagazine%7clitoralfashion 3
+caudal 3
+litoralfashion 3
+%26 2
+design 2
+company 2
+web 2
+development 2
+hotel 2
+bay 1
+pre%c3%a7o 1
+contacto 1
+ekena 1
+ilhavo 1
+2015 1
+litoral 1
+invisual.pt 1
+brand 1
+catalogo 1
+torres 1
+novas 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+508 91 79452
+403 2274 34696
+302 843 15360
+405 13 600
+400 2 238
+500 727 18032
+301 3783 192488
+503 145 128529
+206 4 36591
+404 4583 57298179
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1048
+/aveiroexpo/js/jquery.easing.1.3.min.js 6 -
+/https:/maps.googleapis.com/maps/api/js 7 -
+/smart_aqua_eng/wp-content/themes/invisual/options/timthumb.php 4 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0004_Replay-3.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php 1 http://eventosportugal.pt/wp-content/plugins/wp-front-end-repository/js/uploadify/uploadify.php
+/unimadeiras/wp-includes/js/jquery/ui/sortable.min.js 1 -
+/1 5 http://invisual.pt/1
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 2 -
+/menu_reveillon_2014.pdf 1 -
+/smart_aqua/red2l-135x135.jpg 1 -
+/smart_aqua_eng/wp-content/themes/invisual/php/timthumb.php 1 -
+/wp-content/uploads/2016/04/marca_wuniforms.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_wuniforms-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_wuniforms-600x399.jpg%20600w 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumb.php 8 -
+/civilria4/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-polo_0002_Polo-10.jpg 1 http://alital.pt/wp-admin/admin.php
+/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/testeali/wp-content/plugins/LayerSlider/static/scss/_transition_builder.scss 1 -
+/smart_aqua/wp-content/uploads/2012/04/wp-admin/admin-ajax.php 2 -
+/upload/upload.php 1 -
+/wp/xmlrpc.php 3 -
+/wp-content/uploads/2016/04/marca_aveicabo.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_aveicabo-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_aveicabo-600x399.jpg%20600w 1 -
+/wp-content/plugins/aspose-cloud-ebook-generator/aspose_posts_exporter_download.php 1 -
+/ekenabay/shop-online/product-category/trendy/bk13002 1 -
+/images/stories/wawalo.gif 2 -
+/wp-slider.php 3 eventosportugal.pt/wp-slider.php
+/wp-content/themes/Anthology/style.css 3 http://invisual.pt/wp-content/themes/Anthology/style.css
+/contact/popup-pomo.php 1 -
+/wp-content/themes/schema-corporate/classes/revslider/temp/update_extract/revslider/robot.php 1 -
+/blog/robots.txt 8 -
+/aveiroexpo/js/cufon-yui.js 7 http://farmaciacapaofilipe.com/apresentacao.html
+/wp-content/plugins/wp-symposium/server/php/NNHRQxeFZPDGRk.php 1 -
+/wp-content/themes/paragon/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-box_.jpg 8 http://alital.pt/wp-admin/admin.php
+/testeali/wp-content/uploads/2016/06/ambiente-donna_0002_Donna-2.jpg 9 http://alital.pt/wp-admin/admin.php
+/diff.php 3 http://invisual.pt/
+/contactos/mailto:geral@invisual.pt 6 -
+/programa_especial-beleza_bem-estar.pdf 5 -
+/template.php 1 http://invisual.pt/
+/testeali/wp-content/plugins/LayerSlider/static/fonts/dashicons.woff 1 -
+/sites/all/libraries/elfinder/php/connector.minimal.php 1 http://invisual.pt/sites/all/libraries/elfinder/php/connector.minimal.php
+/wp-content/uploads/2016/04/video_mercentro.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_mercentro-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_mercentro-600x399.jpg%20600w 1 -
+/wp-content/plugins/weever-apps-20-mobile-web-apps/file-upload.php 1 http://eventosportugal.pt/wp-content/plugins/weever-apps-20-mobile-web-apps/file-upload.php
+/testevgg/tag/inspiration/ 2 -
+/https:/www.youtube.com/embed/AynkNRuwu_U 7 -
+/testeali/wp-content/uploads/2016/06/ambiente-nielsen_0000_ambiente-nielsen_0000_Nielsen.jpg 7 http://alital.pt/wp-admin/admin.php
+/unimadeiras/wp-content/themes/theme_pizzarte/js/prettyphoto/css/prettyPhoto.css 1 -
+/testeali/wp-content/themes/bridge/js/custom_js.js 1 -
+/html/archives/gallery-category/outros 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/wp-admin/admin.php 2 http://invisual.pt/wp-admin/plugins.php
+/apple-touch-icon.png 21 -
+/smart_aqua/wp-content/uploads/2012/04/visao_30_mar_2012.pdf/wp-admin/admin-ajax.php 2 -
+/wp-content/themes/RoyalOak/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/html/archives/date/2011/10 1 -
+/wp-content/plugins/wp-pagenavi/thumb.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/license.php 5 -
+/hoteldassalinas/es/slider/disfruta-de-un-emocionante-estudio/feed/ 1 -
+/html/archives/446 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-heritage_.jpg 8 http://alital.pt/wp-admin/admin.php
+/general/weibo/javascript/LazyUploadify/uploadify.css 1 http://hoteldeilhavo.com
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/ari.php 10 -
+/upload.aspx 2 -
+/not_found 32 -
+/smart_aqua_eng/wp-content/themes/invisual/inc/thumb.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/MG_7333.jpg 5 -
+/assets/global/plugins/jquery-file-upload/server/php 3 -
+/wp-content/themes/dazzling/inc/js/main.js 2 -
+/wp-content/plugins/resume-submissions-job-postings/installer.php 4 -
+/html/gallery/www-luxuria-bijuteria-pt 1 -
+/wp-content/themes/cuckootap/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/skin.editor.scss 1 -
+/aveiroexpo/site/feira-de-marco-2011/ 2 -
+/wp-content/themes/acento/includes/view-pdf.php 2 -
+/programa_ementa_fim_ano2011.pdf 7 -
+/wp-content/uploads/2016/04/marca_metalegi-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_metalegi-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_metalegi-1-600x399.jpg%20600w 1 -
+/lyb.php 1 -
+/aveiroexpo/site/aviso-legal/ 1 -
+/smart_aqua/wp-admin/options-link.php 9 -
+/wp-content/plugins/revslider/temp/update_extract/ 1 http://invisual.pt/wp-content/plugins/revslider/temp/update_extract/
+/wp-config.php~ 1 -
+/edic_10.swf 1 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-polo_0004_Polo-6.jpg 1 http://alital.pt/wp-admin/admin.php
+/smart_aqua_eng/wp-admin/admin-ajax.php 24 -
+/programa_fim_de_ano_2013.pdf 1 -
+/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 13 -
+/wp-content/themes/optimizepress/lib/admin/media-upload.php 2 http://invisual.pt/wp-content/themes/optimizepress/lib/admin/media-upload.php
+/testeali/wp-content/uploads/2016/06/ambiente-elipse_0000_Elipse-1200.jpg 8 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php.gif 2 -
+/wp-content/plugins/wp-pagenavi/functions/cache/external_c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/wp-content/force-download.php 3 -
+/smart_aqua/wp-content/plugins/wp-mobile-detector/cache/db.php 1 -
+/edic04_reigota.swf 2 -
+/smart_aqua_eng/wp-content/plugins/revslider/temp/update_extract/revslider/demit.php 1 -
+/video_gallery.swf 2 -
+/smart_aqua/%3Fpage_id%3D27&amp 8 -
+/smart_aqua_eng/wp-content/themes/invisual/img_x.php 2 -
+/smart_aqua_eng/wp-content/themes/invisual/framework/scripts/timthumb.php 2 -
+/wp-content/themes/rockstar-theme/functions/upload-handler.php 2 http://eventosportugal.pt/wp-content/themes/rockstar-theme/functions/upload-handler.php
+/testeali/wp-content/themes/bridge/css/linea-icons/style.css 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/lib/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-open_0000_Layer-6.jpg 3 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/site/portfolio/2-pavilhoes/ 1 -
+/edic05_joel.swf 1 -
+/portfolio_page/bmw-aveiro 1 -
+/code.php 2 http://invisual.pt/
+/wp-content/themes/satoshi/upload-file.php 1 http://invisual.pt/wp-content/themes/satoshi/upload-file.php
+/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 2 -
+/html/gallery/fotografia-gastronomia 1 -
+/meivcore/2014/10/08/excepteur-sint-obcaecat-cupiditat-non-proident-culpa/ 1 -
+/wp-content/themes/estrutura-basica/scripts/download.php 1 -
+/slideshow/image1.jpg 3 -
+/wp-includes/class.wp-date.php 2 -
+/wp-content/plugins/zingiri-web-shop/admin.css 5 -
+/affiliate/ 1 http://hoteldeilhavo.com/affiliate/
+/testevgg/tag/science/ 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-smile_.jpg 7 http://alital.pt/wp-admin/admin.php
+/images/stories/petx.php 5 -
+/hoteldassalinas/en/slider/enjoy-an-exciting-studio/feed/ 1 -
+/admin.php 4 -
+/smart_aqua_eng/images/stories/wawalo.gif 2 -
+/smart_aqua_eng/wp-content/themes/invisual/plugins/timthumb.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.php 2 -
+/swf/moda.swf 1 -
+/wp-content/themes/central/js/timthumb.php 5 -
+/esp/swf/mapa.swf 2 -
+/themes.php 2 http://invisual.pt/
+/f_%20semana_romantico_tn.pdf 1 -
+/mini_vacaciones_especial_2011.pdf 1 -
+/cdsaveiro/paulo-portas-encerra-debate-da-proposta-de-orcamento-do-estado-para-2013/ 1 -
+/smart_aqua/wp-admin/includes/themes.php 9 -
+/smart_aqua/wp-content/themes/smartaqua/wpsc-images/delete.png 10 http://invisual.pt/smart_aqua/wp-content/themes/smartaqua/wpsc-default.css
+/testeali/wp-content/uploads/2016/06/ambiente-spark_-1.jpg 7 http://alital.pt/wp-admin/admin.php
+/portfolio_page/mirador-business-center/ 2 -
+/swf/entidades.swf 1 -
+/video_gallery.xml 1 -
+/ekenabay/shop-online/product-category/trendy/bk13006 2 -
+/smart_aqua/wp-content/themes/smartaqua/tools/timthumb.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/love.php 2 -
+/wp-content/plugins/wp-editor/readme.txt 2 -
+/testeali/wp-content/plugins/LayerSlider/static/js/minicolors/ 1 -
+/cdsaveiro/historia/ 1 -
+/mini_ferias_beleza_e_bem_estar_2013.pdf 5 -
+/testeali/wp-content/themes/bridge/js/qode-like.min.js 1 -
+/promocoes/.ftpquota 1 -
+/edic_02.swf 1 -
+/smart_aqua/wp-content/themes/smartaqua/library/thumb/timthumb.php 1 -
+/wp-content/plugins/wp-mobile-detector/cache/z2.php 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4135.jpg 4 -
+/descobrir_ria_aveiro_ilhavo_fim_semana.pdf 5 -
+/wp-config.php.bak 10 -
+/portfolio_page/lar-darte/ 4 -
+/wp-content/themes/photocrati-theme-v4.07/style.css 2 http://invisual.pt/wp-content/themes/photocrati-theme-v4.07/style.css
+/testevgg/team/ 2 -
+/wp-content/plugins/front-end-upload/destination.php 7 -
+/fck/editor/ 3 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_layer_settings.scss 1 -
+/smart_aqua_eng/%3Fpage_id%3D43&amp 6 -
+/unimadeiras/wp-content/themes/theme_pizzarte/css/skin.css 1 -
+/html/archives/5383 2 -
+/wp-content/plugins/wp-e-commerce/license.txt 4 -
+/wp-content/plugins/php-event-calendar/readme.txt 2 http://invisual.pt/wp-content/plugins/php-event-calendar/readme.txt
+/html/archives/5360 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-quartzo_0000_Quartzo_.jpg 1 http://alital.pt/wp-admin/admin.php
+/smart_aqua/wp-content/plugins/wp-mobile-detector/resize.php 1 -
+/f_sem_romantico_ilhavo.pdf 14 -
+/unimadeiras/wp-includes/js/underscore.min.js 1 -
+/testevgg/news/page/2/ 3 -
+/security.php 4 -
+/wp-content/themes/central/thumb.php 16 -
+/wp-content/themes/beach_apollo/advance/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/wp-content/uploads/2016/04/marca_aveiro_expo-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_aveiro_expo-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_aveiro_expo-1-600x399.jpg%20600w 1 -
+/buying-clomifene/ 3 -
+/aveiroexpo/site/farav2013-26-julho-a-4-agosto 1 -
+/include.php 1 http://invisual.pt/
+/smart_aqua/wp-content/themes/smartaqua/js/timthumb.php 1 -
+/aveicabo/news/aveicabo.html 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-class_0000_Class-11.jpg 7 http://alital.pt/wp-admin/admin.php
+/septii.php 4 -
+/wp-content/plugins/user-meta/readme.txt 3 -
+/https:/www.youtube.com/embed/mV0p5CX54Ao 7 -
+/administrator/ 16 -
+/wordpress/ 5 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb.php 8 -
+/https:/www.youtube.com/embed/ock_R6k3U_o 7 -
+/cfg-contactform-3/inc/upload.php 2 -
+/aveiroexpo/calendario2008.html 1 -
+/unimadeiras/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/session.php 1 http://invisual.pt/
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 http://invisual.pt/wp-content/plugins/formcraft/file-upload/server/content/upload.php
+/lib.php 2 http://invisual.pt/
+/main.swf 3 -
+/html/archives/5628 1 -
+/wp-content/plugins/ewww-image-optimizer/readme.txt 1 -
+/https:/www.youtube.com/embed/xN_ITqFAIQk 6 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/mode/ 1 -
+/wp-content/wp-functions.php 1 -
+/meivcore/2015/01/08/ 1 -
+/smart_aqua/%3Fpage_id%3D44&amp 5 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/sitemap.php 1 -
+/colegioportugues/bem-vindo/regulamento-interno/ 1 http://colegioportugues.pt/inscricoes/
+/wp-content/themes/central/thumb/timthumb.php 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-flex_0001_ambiente-flex_0003_Flex-2.jpg 3 http://alital.pt/wp-admin/admin.php
+/global.php 1 http://invisual.pt/
+/aveiroexpo/js/hoverIntent.min.js 8 http://farmaciacapaofilipe.com/apresentacao.html
+/historial.swf 1 -
+/smart_aqua_eng/ 12 -
+/smartaqua/ 3 -
+/language/en-GB/en-GB.xml 3 invisual.pt/language/en-GB/en-GB.xml
+/aveiroexpo/js/LiberationSans.font.js 6 -
+/smart_aqua_eng/xmlrpc.php 1 -
+/aveiroexpo/site/wp-content/uploads/2011/12/ 1 -
+/wp-content/plugins/wp-pagenavi/timthumb.php 1 -
+/colegioportugues/ 5 -
+/sites/all/libraries/elfinder/files/wp-cache.php 1 http://www.googlebot.com/bot.html
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 2 -
+/wp-includes/pomo/test.php 1 -
+/administrator/components/com_maian15/charts/php-ofc-library/ofc_upload_image.php 2 -
+/components/com_hdflvplayer/hdflvplayer/download.php 2 -
+/contactos/wp-admin/admin-ajax.php 10 -
+/wp-content/plugins/simple-download-button-shortcode/simple-download-button_dl.php 2 -
+/wp-content/plugins/wp-pagenavi/timthumb.phptimthumb.php 2 -
+/blog/wp-admin/ 1 -
+/uploadify.css 1 http://hoteldeilhavo.com
+/view.php 1 http://invisual.pt/
+/smart_aqua/wp-content/themes/smartaqua/includes/timthumb/timthumb.php 1 -
+/unimadeiras/wp-admin/js/media-upload.min.js 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-signo_0001_Signo-7.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.plugins.min.js 3 -
+/ekenabay/shop-online/product-category/trendy/bk13001 2 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 2 -
+/wp-content/themes/ultimatum/wonderfoundry/addons/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/wp-content/plugins/nmedia-user-file-uploader/readme.txt 4 -
+/teste2/investor-relations/ 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_transition_gallery.scss 1 -
+/wp-content/plugins/mac-dock-gallery/bugslist.txt 5 -
+/blog/ 4 -
+/html/archives/gallery-category/web_design 8 -
+/smart_aqua/wp-content/themes/smartaqua/lib/custom/timthumb.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/thumb/timthumb.php 2 -
+/wp-content/plugins/simple-dropbox-upload-form/ 3 -
+/wp-content/plugins/wp-mobile-detector/timthumb.php 3 -
+/ekenabay/shop-online/product-category/curvy/bk13103 1 -
+/unimadeiras/wp-includes/js/jquery/jquery.js 1 -
+/wp-content/plugins/wp-mobile-detector/cache/indax.php 2 -
+/whnm 1 -
+/ementa_grupos_empresas.pdf 2 -
+/article.php 3 http://invisual.pt/
+/html/archives/5642 1 -
+/old/wp-admin/ 1 -
+/wp-content/plugins/wp-mobile-detector/readme.txt 4 http://invisual.pt/wp-content/plugins/wp-mobile-detector/readme.txt
+/wp-admin/admin-ajax.php 72 -
+/template.swf 7 -
+/css.php 1 http://invisual.pt/
+/wp-content/themes/SMWF/inc/download.php 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/civilria2/ 9 -
+/wp-content/themes/central/lib/scripts/timthumb.php 2 -
+/wp-indeks.php 14 -
+/smart_aqua/images/stories/iam.php 1 -
+/teste2/career/business-development/ 1 -
+/upload.asp 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_interface.scss 1 -
+/wp-content/themes/anthology/style.css 2 http://invisual.pt/wp-content/themes/anthology/style.css
+/js/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/aveiroexpo/js/jquery.fancybox-1.2.6.pack.js 6 -
+/aveiroexpo/site/congressos-e-convencoes/auditorio/ 1 -
+/cfg-contactform-5/inc/upload.php 2 -
+/buy-lean-tea/ 2 -
+/smart_aqua_eng/wp-admin/wp-db.php 1 -
+/wp-content/themes/central/img_x.php 3 -
+/wp-content/themes/central/lib/timthumb.php 3 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.class.php 4 -
+/wp-content/themes/central/inc/thumb.php 4 -
+/wp-content/themes/central/scripts/imageResize.php 3 -
+/testeali/wp-content/uploads/2016/05/ambiente-kelly.jpg 7 http://alital.pt/wp-admin/admin.php
+/smart_aqua_eng/%3Fpage_id%3D41&amp 1 -
+/wp-includes/upgrade/theme-compat/popup-pomo.php 1 -
+/ 31 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.main.php 1 -
+/smart_aqua/magmi/web/download_file.php 1 -
+/descubra_torres_novas.pdf 1 -
+/html/gallery/desdobraveis 3 -
+/idevaffiliate/ 1 http://hoteldeilhavo.com/idevaffiliate/
+/html/gallery/www-vonhaff-com-pt 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-mustang_0001_Mustang-34.jpg 4 http://alital.pt/wp-admin/admin.php
+/teste2/2014/06/08/ambitioni-dedisse-scripsisse-iudicaretur/ 2 -
+/smart_aqua_eng/wp-content/themes/invisual/modules/timthumb.php 3 -
+/baptizados_e_comunhoes.pdf 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-jacobsen_0000_Jacobsen-5.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/wp-pagenavi/scripts/timthumb.php 1 -
+/hoteldassalinas/wp-json/ 1 -
+/sao_valentim_2014.pdf 2 -
+/mini_vacaciones_especial_2012.pdf 1 -
+/%C3%83%C2%A2%C3%A2%E2%80%9A%C2%AC%C3%85%E2%80%9C 2 -
+/wp-content/themes/platform/style.css 5 -
+/user.php 1 http://invisual.pt/
+/wp-content/themes/cameleon/includes/fileuploader/fileuploader.js 2 -
+/ekenabay/shop-online/product-category/trendy/fb13002 1 -
+/wp-content/uploads/2016/04/lf_2015_sicnoticias.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/lf_2015_sicnoticias-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/lf_2015_sicnoticias-600x399.jpg%20600w 1 -
+/portfolio_page/leonor-reis-personal-branding/ 6 -
+/wp-content/themes/central/picsize.php 3 -
+/html/archives/5344 1 -
+/wp-content/themes/central/php/timthumb.php 1 -
+/page.php 3 http://invisual.pt/
+/wp-content/plugins/user-photo/admin.css 3 -
+/ekenabay/shop-online/product-category/trendy/fb13004 1 -
+/wp-config.php.txt 2 -
+/wp-content/plugins/auto-attachments/a-a.css 4 -
+/wp-content/themes/dandelion/style.css 1 http://invisual.pt/wp-content/themes/dandelion/style.css
+/aveiroexpo/site/wp-content/uploads/2012/10/aveiroexpo2-284x173.jpg 10 -
+/buffet_natal.pdf 2 -
+/wp-includes/js/scriptaculous/wp-scriptaculous.js 1 http://sucuri.net
+/insidepipe4/wp-content/uploads/2011/12/fundo1.jpg 1 -
+/wp-content/plugins/mypixs/mypixs/downloadpage.php 1 -
+/wp-content/plugins/justified-image-grid/download.php 2 -
+/Whm 2 -
+/wp-content/uploads/2016/04/marca_ribsol-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_ribsol-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_ribsol-1-600x399.jpg%20600w 1 -
+/almoco_buffet_natal_ano_novo.pdf 2 -
+/wp-content/themes/central/tools/timthumb.php 6 -
+/wp-content/plugins/xdata-toolkit/css/timepicker.css 1 -
+/wp-content/plugins/wp-pagenavi/scripts/thumb.php 1 -
+/aveiroexpo/site/portfolio/ 1 -
+/blog//xmlrpc.php 16 -
+/wp-content/themes/evolve/js/back-end/libraries/fileuploader/upload_handler.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-xn_.jpg 5 http://alital.pt/wp-admin/admin.php
+/cfg-contactform-4/inc/upload.php 2 -
+/go.php 1 http://ya.ru
+/sao_martinho_2013.pdf 1 -
+/wp-content/plugins/custom-content-type-manager/index.html 4 -
+/wp-data.php 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-polo_0001_Polo-12.jpg 1 http://alital.pt/wp-admin/admin.php
+/swf/promotores.swf 1 -
+/%C3%A2%E2%82%AC%C5%93 1 -
+/html/gallery/fotografia-moda-biju 1 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/README.md 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/ushell.php 4 -
+/https:/www.youtube.com/embed/pn9mqqas1F4 7 -
+/wp-content/plugins/revslider/temp/update_extract/wp-cache.php 1 http://www.googlebot.com/bot.html
+/ckeditor/popup-pomo.php 1 -
+/wp-content/plugins/nextgen-gallery/changelog.txt 4 -
+/wp-content/uploads/2016/06/video_exporlux.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/06/video_exporlux-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/06/video_exporlux-600x399.jpg%20600w 1 -
+/wp-content/themes/designplus/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/admin/login.php 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-polo_0000_Polo-8.jpg 1 http://alital.pt/wp-admin/admin.php
+/smart_aqua/%3Fpage_id%3D4&amp 4 -
+/aveiroexpo/site/portfolio/project-number-5/ 1 -
+/smart_aqua/%3Fpage_id%3D23&amp 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-emotion_0000_Emotion-5.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 7 -
+/wp-content/plugins/wp-property/action_hooks.php 4 -
+/wp-includes/js/tinymce/plugins/textcolor/ajax-requests.new.php 1 http://hoteldeilhavo.com/wp-includes/js/tinymce/plugins/textcolor/ajax-requests.new.php
+/Foyer 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-orpheus_0001_Orpheus-6.jpg 7 http://alital.pt/wp-admin/admin.php
+/edic03_joel.xml 1 -
+/colegioportugues/bem-vindo/inscricoes/ 5 -
+/html/ 13 -
+/relax_at_ilhavo_eng.pdf 15 -
+/wso.php 2 invisual.pt/wso.php
+/ekenabay/shop-online/product-category/trendy/fb13001 2 -
+/html/archives/449 1 -
+/jantar_reveillon_14.pdf 1 -
+/wp-content/uploads/2016/04/video_OPTICA_NASCIMENTO.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_OPTICA_NASCIMENTO-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_OPTICA_NASCIMENTO-600x399.jpg%20600w 1 -
+/wp-content/plugins/zip-attachments/download.php 1 -
+/eng/main.swf 1 -
+/wp-content/plugins/wp_modx/mod_system.php 2 http://hoteltorresnovas.com/wp-content/plugins/wp_modx/mod_system.php
+/wp-content/themes/nevada/revslider/temp/update_extract/revslider/robot.php 1 -
+/eng/ 1 -
+/wp-content/plugins/plugin-newsletter/preview.php 2 -
+/smart_aqua/wp-content/themes/smartaqua/library/timthumb.php 1 -
+/wp-content/plugins/wp-mobile-detector/admin/css/style.css 2 -
+/smart_aqua/wp-content/plugins/simple-ads-manager/js/slider/tmpl.js 1 -
+/wp-touchn.php 1 http://hoteltorresnovas.com/wp-touchn.php
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/theme/ 1 -
+/ehm 2 -
+/html 2 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.phtml 2 -
+/meivcore/2015/03/08/ 3 -
+/insidepipe4/ 9 -
+/alboi/xmlrpc.php 3 -
+/wp-content/themes/central/img.php 4 -
+/apple-touch-icon-precomposed.png 18 -
+/smart_aqua_eng/%3Fpage_id%3D59&amp 6 -
+/aveiroexpo/site/encontro-distrital-de-freguesias/ 2 -
+/wp-content/plugins/showbiz/temp/update_extract/revslider/sitemap.php 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0003_Replay-22.jpg 1 http://alital.pt/wp-admin/admin.php
+/ekenabay/shop-online/product-category/curvy/bk13104 1 -
+/wp-content/themes/bazar/theme/templates/sliders/revolution-slider/temp/update_extract/revslider/robot.php 1 -
+/html/archives/gallery-category/3d 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/prettyphoto/js/jquery.prettyPhoto.js 1 -
+/testeali/wp-content/plugins/LayerSlider/static/%20codemirror/lib/codemirror.js 56 http://invisual.pt/testeali/wp-admin/admin.php
+/buffet_de_natal_2014.pdf 1 -
+/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/ 1 http://invisual.pt/wp-content/plugins/work-the-flow-file-upload/public/assets/jQuery-File-Upload-9.5.0/server/php/index.php
+/smart_aqua/wp-content/plugins/revslider/temp/update_extract/revslider/demit.php 6 -
+/testevgg/tag/opportunities/ 2 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/script.js 1 -
+/wp-content/themes/central/includes/ajax_mail.php 3 http://invisual.pt/contactos/
+/unimadeiras/wp-includes/js/jquery/ui/widget.min.js 1 -
+/wordpress/xmlrpc.php 4 -
+/dia_internacional_da_mulher_2013.pdf 4 -
+/smart_aqua/wp-content/themes/smartaqua/lib/scripts/timthumb.php 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/swipe.js 1 -
+/wp-content/plugins/custom-contact-forms/readme.txt 2 -
+/submenu_fotos.xml 1 -
+/wp-content/themes/central/libs/timthumb.php 1 -
+/smart_aqua/images/stories/petx.php 5 -
+/promocoes/descubre_ilhavo_esp.pdf 2 -
+/wp-content/plugins/wp-image-news-slider/functions.php 4 -
+/ementas_de_natal_2013.pdf 7 -
+/wp-content/plugins/accordion/js/swfupload/js/upload.php 1 http://eventosportugal.pt/wp-content/plugins/accordion/js/swfupload/js/upload.php
+/testeali/wp-content/uploads/2016/05/ambiente-quartzo_0001_Quartzo-4.jpg 2 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/functions/timthumb.php 14 -
+/home.php 2 -
+/wp-content/plugins/wp-homepage-slideshow/functions.php 5 -
+/blog/xmlrpc.php 3 -
+/unimadeiras/wp-includes/js/comment-reply.min.js 1 -
+/html/archives/466 2 -
+/teste2/2014/10/08/excepteur-sint-obcaecat-cupiditat-non-proident-culpa/ 3 -
+/smart_aqua_eng/wp-content/themes/invisual/scripts/timthumb.php 6 -
+/video.htm 1 -
+/language/en-US/en-US.xml 3 invisual.pt/language/en-US/en-US.xml
+/wp-content/uploads/2016/04/video_EKENABAY.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_EKENABAY-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_EKENABAY-600x399.jpg%20600w 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/arhy.php 2 -
+/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php 1 http://invisual.pt/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php
+/smart_aqua/%3Fpage_id%3D13&amp 5 -
+/testevgg/2016/02/04/hello-world/wp-admin/admin-ajax.php 2 -
+/programa_eventos_desportivos_2014-15.pdf 1 -
+/ajax.php 1 http://invisual.pt/
+/js/fr.php 23 -
+/wp-content/plugins/revslider/rs-plugin/css/captions.css 4 -
+/shell.php 4 -
+/portfolio_page/adriano-e-lito/ 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/ 1 -
+/affiliates/ 1 http://hoteldeilhavo.com/affiliates/
+/aveiroexpo/links_uteis.html 1 -
+/wp-content/plugins/another-wordpress-classifieds-plugin/AWPCP.po 4 -
+/akeeba/popup-pomo.php 1 -
+/meivcore/2014/09/08/gallery-showcase/ 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-domino_0000_Domino.jpg 7 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_regulamento.pdf 3 -
+/app/etc/local.xml 1 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.cache.php 2 -
+/stats.php 7 http://invisual.pt/
+/wp-content/plugins/tinymce-thumbnail-gallery/php/download-image.php 2 -
+/aveiroexpo/regulamento_feira_marco2012.pdf 1 -
+/smart_aqua_eng/%3Fpage_id%3D67&amp 18 -
+/aveiroexpo/regulamento_fm2011.pdf 4 -
+/smart_aqua/images/stories/adminx.gif 2 -
+/smart_aqua/wp-content/themes/smartaqua/lib/timthumb/timthumb.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-alpha_0001_ambiente-alpha_0000_Layer-19.jpg 3 http://alital.pt/wp-admin/admin.php
+/smart_aqua/wp-content/themes/smartaqua/layouts/timthumb.php 1 -
+/edic_06.swf 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/love.php 2 -
+/mini_ferias_beleza_e_bem_estar_2012.pdf 5 -
+/edic07_eliana.swf 1 -
+/wp-content/themes/central/scripts/timthumb.php 13 -
+/blog// 1 -
+/wp-admin/options-link.php 45 -
+/belo_outono.pdf 1 -
+/wp-post.php 5 http://invisual.pt/wp-post.php
+/testeali/wp-content/themes/bridge/js/TweenLite.min.js 1 -
+/mdocs-posts/ 2 hoteltorresnovas.com/mdocs-posts/
+/testeali/wp-content/uploads/2016/06/ambiente-prisma_0003_Prisma-9.jpg 8 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/framework/scripts/timthumb.php 5 -
+/default.aspx 1 -
+/aveiroexpo/site/wp-content/uploads/2012/11/ficha_de_inscricao_sector_de_exposicao.pdf 1 -
+/ekenabay/shop-online/product-category/trendy/bk13007 2 -
+/aveiroexpo/ficha_sector_comercial.pdf 1 -
+/s_valentim_2015.pdf 2 -
+/wp-content/uploads/2016/04/video_ICON.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_ICON-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_ICON-600x399.jpg%20600w 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-thesis_0001_ambiente-thesis_0002_Layer-1-copy.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/category-grid-view-gallery/cat_grid.php 5 -
+/wp-content/themes/central/_tbs.php 2 -
+/wp-content/b374k-2.8.php 4 -
+/almoco_buffet_de_natal_2013.pdf 1 -
+/s_valentim_2011.pdf 1 -
+/smart_aqua_eng/wp-content/themes/invisual/libs/timthumb.php 1 -
+/inc/jquery/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/wp.php 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-oslo_.png 6 http://alital.pt/wp-admin/admin.php
+/hoteldassalinas/slider/desfrute-de-um-estudio-apaixonante/feed/ 1 -
+/wp-cache.php 4 -
+/wp-cron.php 40 -
+/wp-content/uploads/2016/04/marca_rapidsol.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_rapidsol-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_rapidsol-600x399.jpg%20600w 1 -
+/bajatax.php 2 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/cache.php 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_layout.scss 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.php.gif 2 -
+/banquetes_de_casamento_aperitivos.pdf 3 -
+/images/stories/adminx.gif 2 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/me.php 12 -
+/wp-content/plugins/meteor-extras/includes/bundles/revslider/temp/update_extract/revslider/me.php 13 -
+/feed/ 3 -
+/edic07_joel.swf 1 -
+/portfolio_page/montages-metalegi/ 4 -
+/es-ES 1 -
+/smart_aqua/wp-content/themes/smartaqua/modules/timthumb.php 3 -
+/smart_aqua/wp-content/plugins/showbiz/temp/update_extract/showbiz/me.php 1 -
+/edic_09.swf 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0001_Replay-24.jpg 1 http://alital.pt/wp-admin/admin.php
+/images/stories/explore.gif 1 -
+/smart_aqua_eng/admin/categories.php/login.php 1 -
+/Public/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/admin/categories.php/login.php 2 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/package.json 1 -
+/edic_03.swf 1 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.info.php 4 -
+/option.php 1 http://invisual.pt/
+/aveiroexpo/dossier_imprensa_fm_09.pdf 5 -
+/buffet_de_natal_pequenos_grupos_2013.pdf 1 -
+/testeali/contactos/ 1 http://invisual.pt/testeali/about/
+/eng/text/o_hotel.xml 1 -
+/meivcore/2014/06/08/ambitioni-dedisse-scripsisse-iudicaretur/ 1 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.header.php 15 -
+/wp-content/uploads/2016/04/marca_colegio_portugues.jpg 1 -
+/wp-content/uploads/2016/04/marca_agner.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_agner-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_agner-600x399.jpg%20600w 1 -
+/assets/global/plugins/jquery-file-upload/server/php/ 1 http://hoteldeilhavo.com/assets/global/plugins/jquery-file-upload/server/php/
+/wp-content/themes/FR0_theme/down.php 2 -
+/wp-content/plugins/wp-pagenavi/inc/thumb.php 1 -
+/wp-content/plugins/blaze-slide-show-for-wordpress/css/default.css 1 -
+/unimadeiras/wp-includes/js/jquery/ui/mouse.min.js 1 -
+/wp-config.php.orig 1 -
+/wp-includes/css/ 1 
+/wp-content/plugins/wp-mobile-detector/resize.php 16 -
+/wp-content/plugins/user-avatar/readme.txt 4 -
+/generic-nizoral/ 4 -
+/Fachada 3 -
+/promocaodamulher.pdf 3 -
+/banquetes_de_casamento.pdf 4 -
+/smart_aqua/wp-content/themes/smartaqua/thumbopen.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/timthumb/timthumb.php 1 -
+/noite_de_nupcias_tn.pdf 1 -
+/wp-content/themes/coffeeandcream/includes/revslider/temp/update_extract/revslider/robot.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb/image.php 1 -
+/wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 http://invisual.pt/wp-content/themes/saico/framework/_scripts/valums_uploader/php.php
+/addons/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/wp-content/plugins/wp-mobile-detector/cache/cache.php 4 -
+/promocoes/descobrir_ilhavo.pdf 13 -
+/testeali/wp-content/uploads/2016/06/ambiente-parker_0001_Parker-19.jpg 7 http://alital.pt/wp-admin/admin.php
+/https:/www.youtube.com/embed/OAfanS_V_Aw 7 -
+/html/archives/455 1 -
+/title.php 1 http://invisual.pt/
+/aveiroexpo/site/conferencia-do-banco-de-portugal-26-novembro/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/scripts/imageResize.php 1 -
+/aveiroexpo/programa_frilac2011.pdf 2 -
+/html/gallery/fotografia-veiculos-mercedes-classe-r 1 -
+/wp-content/plugins/filedownload/download.php/ 3 -
+/testevgg/portfolio/ 4 -
+/aveiroexpo/site/congressos-e-convencoes/salas-de-reunioes/ 1 -
+/html/wp-content/uploads/2011/09/IMG_0677.jpg 1 -
+/wp-content/plugins/fcchat/default.png 4 -
+/smart_aqua/wp-content/themes/smartaqua/library/functions/timthumb.php 1 -
+/programa_fim_de_ano_2012.pdf 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-karma_0002_ambiente-karma_.jpg 3 http://alital.pt/wp-admin/admin.php
+/ekenabay/shop-online/product-category/trendy/bk13008 1 -
+/wp-content/themes/centum/revslider/temp/update_extract/revslider/robot.php 1 -
+/hoteldassalinas/xmlrpc.php 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/mailchimp-widget-min.js 1 -
+/wp-includes/upgrade/theme-compat/wp-functions.php 4 -
+/unimadeiras/wp-includes/js/jquery/ui/core.min.js 1 -
+/smart_aqua/wp-content/themes/smartaqua/scripts/imageResize.php 1 -
+/wp-content/plugins/wp-symposium/readme.txt 1 http://invisual.pt/wp-content/plugins/wp-symposium/readme.txt
+/wp-content/themes/mTheme-Unus/css/css.php 4 -
+/edic09_gil.swf 2 -
+/images/stories/mil.gif 2 -
+/smart_aqua/xmlrpc.php 4 -
+/privacy.php 4 -
+/wp-content/plugins/google-mp3-audio-player/direct_download.php 5 -
+/smart_aqua/images/stories/explore.gif 1 -
+/default.asp 1 -
+/aveiroexpo/js/superfish.min.js 7 -
+/portfolio_page/mercentro/ 3 -
+/almoco_buffet_de_natal_14.pdf 1 -
+/wp-content/plugins/wp-mobile-detector/themes/wz-mobile/style.css 1 http://hoteldeilhavo.com/wp-content/plugins/wp-mobile-detector/themes/wz-mobile/style.css
+/testeali/wp-content/uploads/2016/05/ambiente-signo_0002_Signo.jpg 5 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/amplus/style.css 2 http://invisual.pt/wp-content/themes/amplus/style.css
+/testeali/wp-content/themes/bridge/js/default_dynamic.js 1 -
+/buy-cheap-supra/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/picsize.php 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-mustang_0000_Mustang-39.jpg 1 http://alital.pt/wp-admin/admin.php
+/upload/upload.html 1 -
+/buy-generic-dipyridamole/ 3 -
+/user/register 1 -
+/wp-content/uploads/2016/04/marca_feira_de_marco.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_feira_de_marco-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_feira_de_marco-600x399.jpg%20600w 1 -
+/portfolio_page/diario-de-aveiro/ 3 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 http://invisual.pt/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+/edic08_eliana.xml 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-luxor_0000_Layer-6.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/marca_ipmd.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_ipmd-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_ipmd-600x399.jpg%20600w 1 -
+/buffet_de_natal_2013.pdf 1 -
+/html/archives/5227 1 -
+/edic08_tenente.xml 1 -
+/uploadify/uploadify.php 1 http://invisual.pt/uploadify/uploadify.php
+/wp-content/plugins/revslider/temp/update_extract/revslider/xxx.php 2 -
+/wp-content/uploads/2016/04/marca_maldita-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_maldita-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_maldita-1-600x399.jpg%20600w 1 -
+/wp-content/plugins/ninja-forms/ninja_forms.php 2 -
+/smart_aqua/robots.txt 1 -
+/smart_aqua_eng/wp-content/themes/invisual/lib/scripts/timthumb.php 2 -
+/buy-vardenafil/ 4 -
+/admin/Cms_Wysiwyg/directive/index/ 3 -
+/testeali/wp-content/plugins/LayerSlider/static/fonts/dashicons.ttf 1 -
+/smart_aqua_eng/wp-content/themes/invisual/themify/img_x.php 2 -
+/wp-content/uploads/2016/04/marca_fonte_nova.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_fonte_nova-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_fonte_nova-600x399.jpg%20600w 1 -
+/html/archives/5624 1 -
+/wp-content/plugins/wp-pagenavi/functions/cache/c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/smart_aqua/images/stories/explore.php 1 -
+/aveiroexpo/site/wp-content/uploads/2011/03/aveiroexpo-2.jpg 6 -
+/testeali/wp-content/uploads/2016/06/ambiente-hidra_0000_Hidra-3.jpg 6 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/js/jquery.overlabel.min.js 9 http://farmaciacapaofilipe.com/apresentacao.html
+/model.php 2 http://invisual.pt/
+/smart_aqua_eng/wp-content/themes/invisual/tools/timthumb.php 3 -
+/testevgg/2016/02/04/hello-world/ 4 -
+/qpwoeifchgvbxskfgueoxmzz 2 -
+/testeali/teste%20ali 1 -
+/portfolio_page/mirador-business-center 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/noticia_feira_de_marco2013.jpg 1 -
+/ementas_de_natal_2014.pdf 3 -
+/icon_lf.ico 2 -
+/testevgg/portfolio_page/luv-deluxe-3000/ 3 -
+/wp-content/themes/authentic/includes/download.php 2 -
+/aveiroexpo/site/simposio-nacional-de-artes-e-oficios/ 1 -
+/smart_aqua/wp-content/themes/smartaqua/timthumb.php 5 -
+/testeali/wp-content/uploads/2016/06/ambiente-vinil_0001_Vinil-2.jpg 7 http://alital.pt/wp-admin/admin.php
+/sql.php 1 http://invisual.pt/
+/meivcore/2015/01/ 1 -
+/programa_especial_beleza_e_bem_estar.pdf 4 -
+/wp-content/uploads/2016/04/video_leonor_reis.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_leonor_reis-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_leonor_reis-600x399.jpg%20600w 1 -
+/portfolio_page/biorumo/ 3 -
+/components/com_creativecontactform/fileupload/ 2 -
+/insidepipe/ 6 -
+/wp-content/upgrade/theme-compat/wp-functions.php 6 -
+/utf.php 1 http://invisual.pt/
+/wp-content/themes/central/timthumb/image.php 3 -
+/test/wp-admin/ 2 -
+/wp-content/plugins/wpmarketplace/libs/cart.php 1 http://eventosportugal.pt/wp-content/plugins/wpmarketplace/libs/cart.php
+/smart_aqua_eng/wp-admin/options-link.php 1 -
+/blog 5 http://invisual.pt/blog
+/mail_layout/invisual2013.jpg%20name= 1 -
+/wp-includes/pomo/files.php 1 -
+/wp-content/plugins/uploader/readme.txt 2 http://eventosportugal.pt/wp-content/plugins/uploader/readme.txt
+/smart_aqua/%3Fpage_id%3D31&amp 2 -
+/green.php 2 invisual.pt/green.php
+/aveiroexpo/site/farav-2012-27-de-julho-a-5-de-agosto/ 1 -
+/wp-content/plugins/ninja-forms/readme.txt 2 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/lib/ 1 -
+/ekenabay/shop-online/product-category/curvy/bk13105 1 -
+/wp-content/uploads/2016/04/lw_porto_canal.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/lw_porto_canal-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/lw_porto_canal-600x399.jpg%20600w 1 -
+/wp-content/themes/reganto-theme/functions/upload-handler.php 2 http://invisual.pt/wp-content/themes/reganto-theme/functions/upload-handler.php
+/bitrix/admin/ 2 -
+/wp-content/themes/Dandelion/style.css 1 http://invisual.pt/wp-content/themes/Dandelion/style.css
+/rest/ 1 hoteltorresnovas.com/rest/
+/about/ 1 http://invisual.pt/testeali/
+/wp-content/plugins/wp-mobile-detector/cache/css.php 3 -
+/administrator/components/com_jinc/classes/graphics/php-ofc-library/ofc_upload_image.php 2 -
+/wp-content/plugins/wpstorecart/lgpl.txt 3 -
+/wp-content/plugins/wp-mobile-detector/cache/timthumb.main.class.php 1 -
+/aveiroexpo/programa_educacao.pdf 4 -
+/smart_aqua/%3Fpage_id%3D17&amp 1 -
+/setup.php 2 invisual.pt/setup.php
+/meivcore/2015/11/17/ 1 -
+/gallery-traditional/casa_velha.swf 1 -
+/wp/ 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-emme_0001_Emme-4.jpg 3 http://alital.pt/wp-admin/admin.php
+/portfolio_page/bmw-aveiro/ 6 -
+/wp-content/plugins/wp-symposium/server/php/index.php 3 -
+/wp-content/uploads/2016/04/marca_daifer-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_daifer-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_daifer-1-600x399.jpg%20600w 1 -
+/wpfoot.php 4 -
+/testeali/wp-content/themes/bridge/css/custom_css.css 1 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/addon/ 1 -
+/wp-content/plugins/wp-ecommerce-shop-styling/includes/download.php 3 -
+/wp-content/plugins/wpmarketplace/readme.txt 8 -
+/ekenabay/shop-online/product-category/trendy/bk13005 1 -
+/esp/main.swf 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-kea.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/video_BOSCH.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_BOSCH-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_BOSCH-600x399.jpg%20600w 1 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/CONTRIBUTING.md 1 -
+/smart_aqua/wp-content/plugins/showbiz/temp/update_extract/showbiz/ari.php 6 -
+/html/archives/gallery-category/veiculos 1 -
+/readme.html 1 -
+/portfolio_page/susana-lopes/ 3 -
+/media/popup-pomo.php 1 -
+/main.html 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_mixins.scss 1 -
+/smart_aqua/app/etc/local.xml 1 -
+/eng/config.xml 1 -
+/aveiroexpo/js/jquery.bgiframe.min.js 7 -
+/ajax/wp-functions.php 4 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0002_Replay-23.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/modules/timthumb.php 9 -
+/wp-content/themes/central/includes/timthumb.php 13 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/cache.php 9 -
+/wp-includes/widgets/title.php 1 -
+/carnaval_2012.pdf 1 -
+/smart_aqua_eng/wp-content/plugins/showbiz/temp/update_extract/showbiz/ari.php 1 -
+/wp-content/plugins/candidate-application-form/downloadpdffile.php 2 -
+/wp-content/plugins/revolution-slider/temp/update_extract/revolution-slider/joss.php 2 -
+/wp-content/uploads/2016/04/video_FEIRADEMARCO.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_FEIRADEMARCO-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_FEIRADEMARCO-600x399.jpg%20600w 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-storm_0001_Storm-21-1200-1.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/themify/img_x.php 3 -
+/%C3%83%C6%92%C3%82%C2%A2%C3%83%C2%A2%C3%A2%E2%82%AC%C5%A1%C3%82%C2%AC%C3%83%E2%80%A6%C3%A2%E2%82%AC%C5%93 1 -
+/eng/swf/mapa.swf 1 -
+/testevgg/tag/development/ 2 -
+/wordpress/wp-admin/ 2 -
+/aveiroexpo/site/feira-de-marco-2012-2/ 2 -
+/programa_fim_ano_romantico_rest_torres_novas.pdf 1 -
+/testeali/wp-content/plugins/LayerSlider/static/codemirror/LICENSE 1 -
+/html/gallery/logotipos 1 -
+/%E2%80%9C 1 -
+/wp-content/uploads/2016/06/video_Dia_da_Crianca_2015.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/06/video_Dia_da_Crianca_2015-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/06/video_Dia_da_Crianca_2015-600x399.jpg%20600w 1 -
+/administrator/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 2 -
+/wp-content/themes/platformpro/style.css 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-icon_0000_ambiente-icon_0001_Icon-2-1.jpg 9 http://alital.pt/wp-admin/admin.php
+/ajax/popup-pomo.php 1 -
+/hoteldeilhavo.ico 7 -
+/smart_aqua/wp-content/themes/smartaqua/options/timthumb.php 4 -
+/tmp.php 4 -
+/aveiroexpo/site/wp-content/uploads/2012/06/farav2012_ficha_inscricao.pdf 4 -
+/images/stories/iam.php 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_slide_settings.scss 1 -
+/menu_grupos.pdf 4 -
+/administrator/components/com_redmystic/chart/ofc-library/ofc_upload_image.php 2 -
+/wp-content/plugins/showbiz/temp/update_extract/revslider/up.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-alpha_0000_ambiente-alpha_0001_Layer-18.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/TheLoft/download.php 2 -
+/magmi/web/download_file.php 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/admin_new.scss 1 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 http://eventosportugal.pt/sites/all/libraries/elfinder/connectors/php/connector.php
+/edic06_joel.swf 1 -
+/wp-content/themes/central/plugins/timthumb.php 2 -
+/wp-content/themes/kiddo/style.css 2 http://eventosportugal.pt/wp-content/themes/kiddo/style.css
+/testevgg/tag/trends/ 2 -
+/sao_martinho_ementa_2013.pdf 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-vertice_.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/arhy.php 2 -
+/testeali/2016/04/06/hello-world/wp-admin/admin-ajax.php 1 -
+/wp-includes/routing.php 14 -
+/wp-content/plugins/wp-pagenavi/inc/timthumb.php 1 -
+/mini_ferias_beleza_e_bem_estar_2011.pdf 3 -
+/aveiroexpo/site/wp-content/uploads/2013/01/feira_de_marco_2013-_planta2.pdf 5 -
+/wp-content/plugins/font-uploader/font-uploader-free.php 2 -
+/wp-admin/includes/themes.php 43 -
+/wp-content/themes/sportpress/scripts/timthumb.php 1 -
+/editar 5 -
+/testeali/wp-content/uploads/2016/06/ambiente-mantis_.jpg 8 http://alital.pt/wp-admin/admin.php
+/smart_aqua/wp-content/themes/smartaqua/timthumb/timthumb.php 1 -
+/html/archives/3440 1 -
+/ekenabay/shop-online/product-category/curvy/bk13107 1 -
+/edic_04.swf 1 -
+/wp-content/plugins/magic-fields/MF_Constant.php 4 -
+/wp-includes/ms-files-qu.php 1 -
+/wp-content/plugins/wp-pagenavi/functions/thumb.php 1 -
+/aveiroexpo/site/wp-content/uploads/2012/05/aveiro.jpg 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-aktiva_0002_Aktiva-8.jpg 7 http://alital.pt/wp-admin/admin.php
+/html/archives/gallery-category/desdobraveis-design 1 -
+/blog.php 1 http://invisual.pt/
+/wp-admin/options-smedia.php 4 -
+/administrator/components/com_jnewsletter/includes/openflashchart/php-ofc-library/ofc_upload_image.php 2 -
+/html/archives/gallery-category/eventos 3 -
+/aveiroexpo/js/jquery.cycle.all.min.js 8 http://farmaciacapaofilipe.com/apresentacao.html
+/smart_aqua/wp-content/themes/smartaqua/scripts/timthumb.php 3 -
+/banquetes_casam.pdf 2 -
+/smart_aqua/web/download_file.php 1 -
+/apple-touch-icon-120x120.png 1 -
+/testeali/wp-content/uploads/2015/05/jpg-300x500. 4 http://invisual.pt/testeali/about/
+/smart_aqua/ 49 -
+/wp-content/plugins/wptf-image-gallery/lib-mbox/ajax_load.php 3 -
+/wp-content/plugins/wp-pagenavi/cache/external_c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-zoe_0003_ambiente-zoe_0004_Layer-21.jpg 6 http://alital.pt/wp-admin/admin.php
+/jantar_reveillon_2013.pdf 2 -
+/voucher_prenda.pdf 2 -
+/wp-content/themes/sketch/404.php 2 invisual.pt/wp-content/themes/sketch/404.php
+/programa_fim_de_ano_2014.pdf 2 -
+/news/html/ 1 -
+/teste2/career/architect/ 1 -
+/testevgg/tag/ecology/ 5 -
+/wp-content/upgrade/theme-compat/wp-up.php 2 -
+/wp-content/themes/stendhal/theme/templates/sliders/revolution-slider/temp/update_extract/revslider/robot.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/up.php 1 -
+/smart_aqua_eng/wp-content/themes/invisual/js/timthumb.php 3 -
+/cfg-contactform-1/inc/upload.php 2 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0000_Replay-24-copy.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/qualifire/scripts/script.js 1 -
+/smart_aqua/%3Fpage_id%3D19&amp 9 -
+/admin/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/smart_aqua_eng/wp-content/themes/invisual/includes/timthumb.php 8 -
+/teste2/company-presentation/ 1 -
+/aveiroexpo/programa_porto_aveiro.pdf 5 -
+/smart_aqua/wp-content/themes/smartaqua/thumb.php 7 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/_tinymce.scss 1 -
+/edic07_eliana.xml 2 -
+/wp-content/plugins/wysija-newsletters/readme.txt 1 -
+/aveiroexpo/site/portfolio/project-number-2/ 3 -
+/testeali/wp-content/uploads/2016/06/ambiente-polo_0003_Polo-9.jpg 6 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/central/thumbopen.php 3 -
+/html/archives/5338 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/joss.php 2 -
+/edic_05.swf 1 -
+/smart_aqua_eng/wp-includes/wp-css.php 1 -
+/aveiroexpo/dossier_imprensa_farav09.pdf 6 -
+/testeali/wp-content/uploads/2015/05/jpg-500x600. 1 http://invisual.pt/testeali/about/
+/finder/popup-pomo.php 1 -
+/wp-content/themes/NativeChurch/download/download.php 2 -
+/wp-content/plugins/wp-mobile-detector/js/jMobile.min.js 2 -
+/plugins/plugins.php 2 http://hoteltorresnovas.com/plugins/plugins.php
+/testeali/wp-content/uploads/2016/06/ambiente-manhattan_.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/uploads/2016/04/video_renault_megane.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_renault_megane-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_renault_megane-600x399.jpg%20600w 1 -
+/slideshow/home.swf 1 -
+/edic06_eliana.xml 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumbopen.php 1 -
+/wp-content/plugins/bepro-listings/css/generic_listings_1.css 2 -
+/civilria2 1 -
+/ementa_grupos.pdf 13 -
+/edic_08.swf 1 -
+/ekenabay/shop-online/product-category/trendy/bk13003 1 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/modernizr.min.js 1 -
+/wp-content/plugins/formcraft/file-upload/server/php/upload.php 13 -
+/alboi/ 6 -
+/html/archives/3453 2 -
+/wp-content/plugins/ultimate-product-catalogue/product-sheets/wp-setup.php 4 -
+/ementas_natal.pdf 6 -
+/smart_aqua_eng/wp-content/themes/invisual/_tbs.php 1 -
+/aveiroexpo/js/jquery-1.4.min.js 6 -
+/hoteldassalinas/es/slider/visita-aveiro/feed/ 1 -
+/menu.php 4 http://invisual.pt/
+/smart_aqua_eng/wp-content/uploads/wysija/themes/mp/auto.php 1 -
+/aveiroexpo/salao_nobre.html 1 -
+/wp-content/themes/core/includes/fileuploader/upload_handler.php 1 http://invisual.pt/wp-content/themes/core/includes/fileuploader/upload_handler.php
+/wp-content/themes/twentythirteen/404.php 1 invisual.pt/wp-content/themes/twentythirteen/404.php
+/aveiroexpo/programa_ti_s_.pdf 1 -
+/wp-content/themes/kernel-theme/functions/upload-handler.php 1 http://eventosportugal.pt/wp-content/themes/kernel-theme/functions/upload-handler.php
+/ini.php 1 http://invisual.pt/
+/unimadeiras/wp-includes/js/thickbox/thickbox.js 1 -
+/s_martinho_programa_ementa.pdf 1 -
+/wp-content/themes/central/timthumb.php 15 -
+/html/archives/5351 1 -
+/smart_aqua_eng/wp-content/themes/invisual/thumb/timthumb.php 2 -
+/smart_aqua_eng/wp-content/themes/invisual/functions/timthumb.php 6 -
+/buffet_de_natal_pequenos_grupos_14.pdf 1 -
+/portfolio_page/royal-school-of-languages 1 -
+/registros/popup-pomo.php 1 -
+/septi.php 4 -
+/wp-content/plugins/wp-mobile-detector/cache/db.php 3 -
+/wp/wp-admin/ 2 -
+/wp-content/plugins/ajax-store-locator-wordpress_0/sl_file_download.php 3 -
+/html/gallery/pizzarte 2 -
+/wp-misc.php 1 eventosportugal.pt/wp-misc.php
+/s_martinho_ementa.pdf 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-safira_.jpg 7 http://alital.pt/wp-admin/admin.php
+/testeali/wp-content/uploads/2016/06/ambiente-marshall_0000_Marshall-10.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/./simple-image-manipulator/controller/download.php 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-berlim_0002_Layer-14.jpg 3 http://alital.pt/wp-admin/admin.php
+/especial_mulher_2014.pdf 1 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 1 http://invisual.pt//wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php
+/language/pt-PT/pt-PT.xml 3 invisual.pt/language/pt-PT/pt-PT.xml
+/aveiroexpo/site/wp-content/uploads/2011/03/IMG_4133.jpg 5 -
+/testevgg/tag/nature/ 2 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor.config.js 5 -
+/smart_aqua_eng/%3Fpage_id%3D65&amp 11 -
+/https:/www.youtube.com/embed/q4yurXMyxRk 7 -
+/wp-content/themes/Dandelion/functions/upload-handler.php 1 http://invisual.pt/wp-content/themes/Dandelion/functions/upload-handler.php
+/wp-content/uploads/2016/04/video_PORTUCEL_SOPORCEL.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_PORTUCEL_SOPORCEL-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_PORTUCEL_SOPORCEL-600x399.jpg%20600w 1 -
+/cdsaveiro/autarcas-2/ 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-lyra_0001_ambiente-lyra_0000_Lyra-2-copy.jpg 5 http://alital.pt/wp-admin/admin.php
+/testeali/wp-content/plugins/wordfence/css/images/ui-bg_flat_100_fffaba_40x100.png 1 http://invisual.pt/testeali/wp-content/plugins/wordfence/css/jquery-ui.theme.min.css
+/include/lib/js/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/smart_aqua/wp-content/themes/smartaqua/lib/timthumb.php 1 -
+/aveiroexpo/js/jquery.cluetip.min.js 7 -
+/smart_aqua_eng/wp-admin/includes/themes.php 1 -
+/testevgg/ 2 -
+/html/archives/5333 1 -
+/smart_aqua/wp-admin/admin-ajax.php 32 -
+/wp-content/themes/striking_r/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/wp-content/plugins/wp-symposium/server/php/bKRdMfjSCwMreo.php 1 -
+/testeali/ 1 http://invisual.pt/testeali/
+/wp-content/uploads/2016/04/marca_grupo_alboi.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_grupo_alboi-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_grupo_alboi-600x399.jpg%20600w 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/demit.php 7 -
+/wp-config.php.save 2 -
+/wp-content/uploads/2016/04/video_COLEGIO_PORTUGUES.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_COLEGIO_PORTUGUES-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_COLEGIO_PORTUGUES-600x399.jpg%20600w 1 -
+/testeali/wp-content/uploads/2016/06/ambiente-fortis_0006_Fortis-4.jpg 3 http://alital.pt/wp-admin/admin.php
+/wp-content/themes/antioch/lib/scripts/download.php 3 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 3 http://invisual.pt/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/buffet_ilhavo.pdf 13 -
+/wp-content/themes/pindol/revslider/temp/update_extract/revslider/robot.php 1 -
+/preview.swf 1 -
+/wp-content/plugins/robotcpa/f.php 1 -
+/wso2.php 2 invisual.pt/wso2.php
+/wp-content/themes/cuckoobizz/framework/plugins/revslider/temp/update_extract/revslider/robot.php 1 -
+/aveiroexpo/site/category/calendario-2012-2/feed/ 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/slider_settings.scss 1 -
+/admin/upload.php 2 -
+/testeali/wp-content/uploads/2016/05/ambiente-luxor_0002_Layer-4.jpg 1 http://alital.pt/wp-admin/admin.php
+/cmd.php 2 invisual.pt/cmd.php
+/wp-content/themes/photocrati-theme/admin/gallery/upload_edit.php 1 http://invisual.pt/wp-content/themes/photocrati-theme/admin/gallery/upload_edit.php
+/default.php 1 -
+/main.htm 1 -
+/teste 1 -
+/slide03 1 -
+/teste2/2015/11/17/hello-world/ 1 -
+/cfg-contactform-6/inc/upload.php 1 -
+/wp-content/themes/liofolio/Lioit/revslider/temp/update_extract/revslider/robot.php 1 -
+/aveiroexpo/js/jquery.scrollTo-min.js 7 -
+/almoco_buffet_de_ano_novo.pdf 2 -
+/wp-content/uploads/2016/04/video_SALPOENTE.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_SALPOENTE-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_SALPOENTE-600x399.jpg%20600w 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/joss.phtml 2 -
+/testeali/2013/10/04/oscar-wilde/wp-admin/admin-ajax.php 2 -
+/dia_internacional_da_mulher_2015.pdf 1 -
+/wp-content/plugins/wp-yasslideshow/css/data_tables.css 1 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/db.php 12 -
+/testeali/wp-content/uploads/2016/06/ambiente-flat_0000_Flat.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/dukapress/lib/dp_image.php 2 -
+/testeali/wp-content/themes/bridge/js/lemmon-slider.min.js 1 -
+/wp-content/themes/incrediblewp/revslider/temp/update_extract/revslider/robot.php 1 -
+/unimadeiras/wp-includes/js/shortcode.min.js 1 -
+/wp-admin/post.php 1 http://invisual.pt/wp-admin/post.php
+/aveiroexpo/js/jquery-ui-1.7.2.min.js 7 http://farmaciacapaofilipe.com/apresentacao.html
+/user/ 3 -
+/data/plugin/uploadify/uploadify.css 1 http://hoteldeilhavo.com
+/wp-content/themes/central/library/timthumb.php 1 -
+/carnaval_2011.pdf 1 -
+/wp-content/plugins/wp-filemanager/fm.php 5 -
+/hoteldassalinas/en/slider/visit-aveiro/feed/ 1 -
+/testeali/wp-content/uploads/2016/05/ambiente-signo_0000_Signo-8.jpg 1 http://alital.pt/wp-admin/admin.php
+/ekenabay/shop-online/product-category/trendy/bk13008/http%3A 1 -
+/edic02_joel.swf 2 -
+/wp-content/themes/OptimizePress/lib/admin/media-upload.php 3 http://invisual.pt/wp-content/themes/OptimizePress/lib/admin/media-upload.php
+/portfolio_page/mercentro 1 -
+/contactus.swf 1 -
+/wp-content/plugins/wp-pagenavi/cache/c5cc2c525a64766ba2933c8cbc69b1b2.php 1 -
+/aveiroexpo/programa_festa_freguesias.pdf 4 -
+/cfg-contactform-2/inc/upload.php 2 -
+/wp-content/themes/medicate/script/revslider/temp/update_extract/revslider/robot.php 1 -
+/wp-content/uploads/2016/04/leonor_reis_sicmulher.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/leonor_reis_sicmulher-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/leonor_reis_sicmulher-600x399.jpg%20600w 1 -
+/wp-checking.php 4 -
+/Piscina 2 -
+/aveiroexpo/site/wp-content/uploads/2011/03/SLK_2008_interior_sol-102.jpg 4 -
+/relaxe_em_ilhavo.pdf 16 -
+/testeali/wp-content/uploads/2016/05/ambiente-luxor_0001_Layer-5.jpg 1 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/wp-filemanager/incl/libfile.php 4 -
+/smart_aqua/admin/categories.php/login.php 1 -
+/wp-content/plugins/gallery-plugin/gallery-plugin.php 3 -
+/unimadeiras/wp-content/themes/theme_pizzarte/js/superfish/superfish.js 1 -
+/defines.php 1 http://invisual.pt/
+/wp-content/plugins/wp-levoslideshow/css/default.css 1 -
+/web/download_file.php 1 -
+/slide02 1 -
+/wp-content/plugins/wp-mobile-detector/cache/adodb.class.php 1 -
+/version.php 4 -
+/aveiroexpo/js/jquery.localscroll-min.js 6 -
+/aveiroexpo/js/supersubs.min.js 7 http://farmaciacapaofilipe.com/apresentacao.html
+/testeali/editar 1 -
+/promocoes/ 1 -
+/banq_casam_aperitivos.pdf 1 -
+/aveiroexpo/site/wp-content/uploads/2012/03/logo_aveiroexpo.png 1 -
+/wp-content/themes/central/options/timthumb.php 11 -
+/fim_semana_romantico_ilhavo.pdf 19 -
+/baptizados_comunh.pdf 2 -
+/portfolio_page/royal-school-of-languages/function.gethostbyaddr 4 -
+/plugin.php 1 http://invisual.pt/
+/aveiroexpo/site/ 34 -
+/buffet_de_pascoa.pdf 1 -
+/wp-content/themes/u-design/scripts/script.js 4 -
+/smart_aqua/wp-content/themes/smartaqua/library/resource/timthumb.php 1 -
+/tiki-calendar.php 3 -
+/xmlrpc.php 1224 -
+/wp-content/themes/central/shwso.php 2 http://hoteltorresnovas.com/wp-content/themes/central/shwso.php
+/testeali/wp-content/uploads/2016/06/ambiente-pulchra_0001_ambiente-pulchra_0002_Layer-8.jpg 3 http://alital.pt/wp-admin/admin.php
+/smart_aqua_eng/wp-content/plugins/wp-mobile-detector/readme.txt 1 http://invisual.pt/smart_aqua_eng/wp-content/plugins/wp-mobile-detector/readme.txt
+/wp-content/themes/Newspapertimes_1/download.php 2 -
+/error.php 1 http://invisual.pt/
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/xxx.php 2 -
+/wp-content/themes/clockstone/theme/functions/upload.php 2 http://eventosportugal.pt/wp-content/themes/clockstone/theme/functions/upload.php
+/edic04_fp.xml 2 -
+/wp-content/plugins/cimy-user-extra-fields/README_OFFICIAL.txt 3 -
+/images/stories/explore.php 1 -
+/noite_nupcias_ilhavo.pdf 18 -
+/aveicabo1 1 -
+/jantar_reveillon_12.pdf 2 -
+/civilria/boas_festas_civilria.gif 3 https://outlook.live.com
+/text/promocoes.xml 1 -
+/wp-content/plugins/showbiz/temp/update_extract/showbiz/me.php 12 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/ 2 http://invisual.pt/wp-content/plugins/revslider/temp/update_extract/revslider/
+/slide01 1 -
+/wp-content/plugins/wp-mobile-detector/ 2 -
+/wp-content/plugins/recent-backups/download-file.php 2 -
+/testeali/wp-content/uploads/2016/06/ambiente-format_0000_Layer-1.jpg 3 http://alital.pt/wp-admin/admin.php
+/aveiroexpo/site/2012/11/ 1 -
+/smart_aqua_eng/wp-content/themes/invisual/img.php 3 -
+/xmlrppc.php 4 -
+/header.php 3 http://invisual.pt/
+/smart_aqua_eng/wp-content/uploads/wysija/themes/mp/cmd.php 1 -
+/smart_aqua/wp-content/themes/smartaqua/includes/timthumb.php 7 -
+/smart_aqua/%3Fpage_id%3D35&amp 5 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/global.scss 1 -
+/smart_aqua/wp-content/themes/smartaqua/functions/timthumb.php 5 -
+/smart_aqua_eng/wp-content/themes/invisual/timthumb/image.php 1 -
+/wp-content/themes/Avada/framework/plugins/revslider/temp/update_extract/revslider/me.php 12 -
+/testeali/wp-content/plugins/LayerSlider/static/fonts/dashicons.eot 1 -
+/themes/fckeditor/editor/ 4 -
+/swf/noticia2010.swf 2 -
+/administrator/components/com_acymailing/inc/openflash/php-ofc-library/ofc_upload_image.php 2 -
+/wp-content/plugins/showbiz/temp/update_extract/revslider/ushell.php 4 -
+/html/gallery/fotografia-arquitectura-cais-dos-falcoeiros 1 -
+/smart_aqua_eng/%3Fp%3D175&amp 4 -
+/portfolio_page/restaurante-salpoente 2 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 3 http://invisual.pt/wp-content/plugins/complete-gallery-manager/frames/upload-images.php
+/wp-content/plugins/db-backup/download.php 2 -
+/WHM 2 -
+/wp-content/plugins/wp-symposium/server/php/SZFxQcnqYGNiIU.php 1 -
+/wp-content/uploads/2016/04/marca_meia_maratona.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_meia_maratona-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_meia_maratona-600x399.jpg%20600w 1 -
+/testeali/wp-content/plugins/LayerSlider/static/scss/sliders_list.scss 1 -
+/smart_aqua/%3Fpage_id%3D21&amp 1 -
+/aveiroexpo/site/18a-convencao-internacional-de-fitness/ 1 -
+/wp-content/uploads/2016/04/video_MEIVCORE.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_MEIVCORE-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/video_MEIVCORE-600x399.jpg%20600w 1 -
+/aveiroexpo/agrovouga2010_reg.pdf 3 -
+/admin/ 3 -
+/ekenabay/shop-online/product-category/trendy/tk13002 2 -
+/esp/config.xml 1 -
+/wp-content/uploads/2016/04/marca_gesconect-1.jpg%20645w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_gesconect-1-300x200.jpg%20300w,%20http:/invisual.pt/wp-content/uploads/2016/04/marca_gesconect-1-600x399.jpg%20600w 1 -
+/testevgg/2013/10/04/madrids-photographer-marathon/ 1 -
+/html/archives/5634 2 -
+/portfolio_page/heliflex/ 4 -
+/wp-content/plugins/wp-pagenavi/functions/timthumb.php 2 -
+/images/stories/pbot.php 2 -
+/wp-content/themes/MichaelCanthony/download.php 2 -
+/wp-content/themes/purevision/sliders/swfobject.js 1 -
+/components/com_hwdvideoshare/assets/uploads/flash/flash_upload.php 1 -
+/aveiroexpo/site/wp-content/uploads/2013/03/banner1.jpg 2 -
+/progbelezabemestar.pdf 2 -
+/wp-content/plugins/pica-photo-gallery/picadownload.php 3 -
+/portfolio_page/linegraph-symbols/ 4 -
+/testeali/wp-content/uploads/2016/06/ambiente-step_0000_Step-12.jpg 7 http://alital.pt/wp-admin/admin.php
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 2 http://eventosportugal.pt/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php
+/portfolio_page/future-cityscapes/ 3 -
+/portfolio_page/restaurante-salpoente/ 3 -
+/aveiroexpo/site/wp-content/uploads/2012/03/agrovouga_2012.jpg 1 -
+/mini_vacaciones_belleza_y_bienestar_2012_espanha.pdf 1 -
+/html/gallery/fotografia-espacos-comerciais-hotel-de-ilhavo 7 -
+/informacion/popup-pomo.php 1 -
+/carnaval_2013.pdf 3 -
+/wp-content/plugins/revslider/temp/update_extract/revslider/info.php 1 -
+/wp-content/plugins/wp-cache.php 1 http://www.googlebot.com/bot.html
+/testeali/wp-content/uploads/2016/05/ambiente-skin.jpg 2 http://alital.pt/wp-admin/admin.php
+/sw.php 4 -
+/smart_aqua/wp-content/themes/sportpress/scripts/timthumb.php 1 -
+/portfolio_page/royal-school-of-languages/ 6 -
+/testeali/wp-content/uploads/2016/05/ambiente-replay_0005_Replay-7.jpg 1 http://alital.pt/wp-admin/admin.php
+/components/com_sexycontactform/fileupload/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 630
+94.46.176.249 39649 103755 3721827102 20160630235900
+213.22.116.224 2813 9297 327412120 20160603184600
+130.185.87.230 456 456 10047 20160603210519
+151.236.217.218 237 237 0 20160605222518
+178.79.159.44 220 220 0 20160605225518
+178.79.184.115 217 217 0 20160605231509
+85.159.211.249 216 216 0 20160605231020
+212.71.252.46 214 214 0 20160605230011
+176.58.97.39 213 213 0 20160605223509
+176.58.113.125 211 211 0 20160605231009
+88.80.184.58 195 195 0 20160605231519
+212.111.41.181 182 182 0 20160605224510
+188.250.77.38 107 1504 105284350 20160603165949
+94.46.176.215 81 81 1936 20160605225637
+93.159.230.88 55 150 1378353 20160605225950
+54.197.150.173 41 41 1114785 20160603160206
+105.158.91.78 41 236 20326162 20160605154751
+93.159.230.28 33 90 827009 20160603142820
+94.60.75.31 28 154 12400200 20160601120329
+89.155.51.136 25 151 7829619 20160602225216
+88.157.194.6 25 114 982898 20160602090243
+194.44.187.10 24 24 318122 20160603200713
+172.245.254.67 23 23 555052 20160605142627
+104.223.71.88 23 23 545754 20160605142625
+93.159.230.90 22 60 551342 20160601225554
+194.65.57.1 0 2 9433 
+176.32.11.135 0 1 151192 
+95.18.73.255 0 4 18866 
+88.3.111.180 0 2 9433 
+62.28.66.170 0 4 1007804 
+89.155.198.197 0 7 35120 
+178.167.51.223 0 1 151387 
+2.80.106.45 0 2 9433 
+37.189.148.47 6 46 2925408 20160601221638
+193.137.168.179 0 12 47418 
+87.103.120.6 8 50 2928262 20160602104612
+89.153.193.42 0 6 19674 
+213.22.116.66 0 9 33546 
+144.76.153.198 1 1 32867 20160601124836
+2.155.227.188 0 2 9433 
+179.222.187.165 3 67 770378 20160602221145
+81.61.193.124 0 2 9433 
+77.54.161.215 0 3 13872 
+188.250.175.41 2 13 104680 20160603192727
+66.102.6.127 0 4 15929 
+216.81.71.138 1 1 23714 20160605201031
+187.200.164.148 0 1 40307 
+178.137.19.16 9 9 207963 20160605141117
+93.108.246.69 0 1 147438 
+54.161.36.156 16 68 3320190 20160601064247
+150.241.215.102 0 3 13872 
+4.79.123.1 0 1 3503726 
+85.137.35.240 0 2 9433 
+94.60.58.34 0 2 19796 
+62.28.82.129 0 3 13872 
+13.92.138.107 1 1 6102 20160603110815
+87.66.117.251 0 3 491097 
+77.233.123.39 0 6 19674 
+79.27.215.43 0 3 13872 
+85.137.237.160 6 46 2925407 20160602225600
+85.247.180.150 0 3 13872 
+80.26.100.240 0 1 4439 
+186.19.25.246 6 45 2926036 20160602210058
+80.15.147.177 4 29 2171521 20160603101725
+200.168.205.227 0 2 9433 
+212.18.171.234 0 1 151192 
+195.23.53.50 0 3 13872 
+62.28.226.49 6 46 2925407 20160601170531
+83.132.251.110 0 3 13872 
+62.28.237.170 0 7 1363681 
+89.101.107.242 0 3 13872 
+188.250.151.218 0 2 9433 
+193.201.224.120 2 2 122 20160603200800
+130.206.76.18 0 1 3186 
+77.130.85.144 0 2 9433 
+72.27.123.104 0 1 22025 
+189.74.89.162 0 2 9433 
+62.28.25.30 0 2 9433 
+87.103.48.151 0 1 3212658 
+212.14.14.114 0 3 13872 
+92.49.97.114 0 3 13872 
+85.139.46.237 0 1 20287 
+37.189.117.69 7 48 2926374 20160602001929
+62.28.166.45 0 1 8627 
+213.143.50.125 0 3 13872 
+201.4.242.3 0 1 37157 
+54.197.108.60 0 6 19674 
+95.92.7.119 6 44 2924066 20160601143553
+194.224.104.82 6 46 2925406 20160602112515
+177.24.71.66 0 9 33546 
+46.229.167.149 2 2 77952 20160605222938
+89.153.207.85 0 3 13872 
+87.103.49.47 0 1 9898 
+212.49.136.29 0 2 9433 
+188.250.139.139 0 2 9433 
+62.169.84.60 0 2 19796 
+81.39.224.220 0 6 19674 
+85.246.181.154 5 70 781159 20160602084021
+122.179.161.176 0 3 13872 
+94.61.251.206 0 4 39592 
+213.22.4.106 0 2 9433 
+104.209.188.207 0 1 147438 
+188.37.81.93 6 46 2925408 20160605225549
+94.132.158.14 8 48 2925447 20160601173515
+94.132.124.163 0 3 13872 
+193.236.80.32 0 2 46119 
+46.189.168.73 0 2 341372 
+40.117.100.247 1 1 9300 20160603110815
+177.102.77.55 0 1 28092 
+83.35.223.103 0 1 4270 
+85.243.90.158 10 62 3319275 20160603011711
+66.249.92.85 4 4 3656 20160603082310
+89.155.54.109 0 6 27744 
+216.81.71.144 1 1 23714 20160605201039
+94.60.114.234 0 3 13872 
+186.205.0.242 1 1 6995 20160603155628
+191.237.43.252 1 1 38976 20160602111232
+13.92.179.151 1 1 6093 20160603110823
+31.10.128.38 0 2 9433 
+80.39.133.25 0 2 9433 
+89.180.151.86 0 2 9433 
+92.250.10.128 0 3 13872 
+2.83.58.222 0 8 1187519 
+62.169.84.56 0 3 19331 
+93.108.234.19 0 3 13872 
+89.115.35.19 11 97 5035437 20160602111430
+66.249.92.81 8 8 7312 20160603111530
+87.103.115.25 7 25 272643 20160603110120
+62.28.171.254 0 1 8627 
+83.61.251.196 0 3 13872 
+2.83.192.84 0 3 13872 
+45.32.129.200 2 3 65674 20160602154113
+2.81.206.200 0 1 5824 
+89.115.206.248 0 2 9433 
+54.235.54.218 0 6 19674 
+91.200.12.33 1 1 9299 20160605140541
+41.205.37.123 0 1 381490 
+89.74.141.158 0 3 13872 
+62.28.3.26 0 294 1358678 
+87.119.100.69 1 1 38976 20160602095610
+85.245.39.185 8 91 928941 20160603151702
+94.60.187.218 0 3 13872 
+216.81.71.97 1 1 23714 20160605201033
+78.130.26.82 0 2 9433 
+188.81.237.56 7 46 2926067 20160602222103
+37.189.40.154 3 16 66283 20160603170547
+178.166.23.204 0 2 9433 
+95.93.57.43 0 3 13872 
+150.129.47.7 2 2 33528 20160603034828
+213.13.46.223 1 1 9299 20160605182957
+189.145.29.108 0 6 19674 
+194.65.91.147 0 3 13872 
+93.108.157.246 0 3 13872 
+5.9.94.207 1 1 32867 20160601053325
+94.62.137.21 0 1 9898 
+188.250.77.132 0 3 13872 
+86.242.144.103 0 2 9433 
+179.177.181.111 0 1 228159 
+95.93.11.99 12 75 692920 20160601104743
+195.55.79.11 0 2 9433 
+179.209.166.90 0 3 13872 
+213.22.118.60 6 44 2924853 20160603184206
+192.40.114.47 8 8 54 20160601012655
+95.18.78.180 0 2 9433 
+159.180.162.12 0 2 9433 
+89.154.174.18 0 3 13872 
+185.29.206.26 0 6 19674 
+62.28.15.102 0 2 9433 
+87.217.73.202 0 2 9433 
+86.212.149.254 0 3 13872 
+213.228.163.62 0 6 19674 
+94.132.101.220 3 67 770378 20160602124202
+84.90.26.104 0 4 12836 
+60.246.255.185 0 1 996762 
+79.168.133.5 14 82 5618168 20160601133943
+85.219.89.86 0 8 37177 
+189.68.129.230 0 3 13872 
+171.25.193.20 1 1 9300 20160603094850
+188.82.54.138 0 2 18525 
+94.132.186.190 3 65 4878861 20160601222708
+85.246.208.229 6 44 2924065 20160602220618
+70.55.55.80 0 2 9433 
+213.30.118.65 0 3 160625 
+188.80.99.175 0 2 9433 
+79.148.151.167 0 2 9433 
+81.84.243.51 4 75 804835 20160602144344
+155.133.82.87 3 3 183 20160601111502
+107.191.52.168 12 12 121677 20160601105821
+5.165.254.24 0 3 13872 
+88.0.222.173 0 2 9433 
+94.142.200.140 0 2 9433 
+83.132.99.3 1 4 27619 20160601234735
+173.254.207.136 22 22 464119 20160605142551
+66.249.88.243 0 2 9433 
+87.103.20.184 0 2 19796 
+88.157.140.194 7 48 2926496 20160602112504
+192.38.33.15 0 2 9433 
+62.169.84.32 4 68 776263 20160601112251
+188.81.53.89 0 3 13872 
+13.92.143.108 1 1 6084 20160603110815
+89.40.181.115 1 1 39117 20160603064704
+85.240.178.254 0 1 8649 
+87.103.18.94 0 2 23748 
+89.155.50.217 0 2 1342 
+176.10.220.107 0 2 9433 
+13.90.212.35 1 1 9298 20160603110814
+47.55.190.224 0 1 151192 
+41.94.220.41 3 67 770378 20160601073847
+213.156.109.253 0 3 13872 
+46.50.22.64 0 3 13872 
+213.60.238.205 0 2 9433 
+199.30.228.130 0 3 13872 
+85.139.175.249 6 46 2925408 20160603161939
+85.245.181.232 6 46 2925407 20160603193625
+62.169.84.36 0 1 9898 
+213.22.0.213 0 1 9898 
+95.90.229.190 0 2 9433 
+66.102.6.121 0 3 11490 
+176.78.118.206 6 46 2925408 20160605184939
+177.42.102.5 0 4 18866 
+217.129.160.148 0 2 9433 
+13.92.176.237 1 1 9295 20160603110814
+85.241.32.172 0 5 23305 
+62.48.252.145 0 3 27152 
+193.203.106.18 0 3 25881 
+89.114.88.165 0 3 13872 
+176.31.39.23 1 1 6985 20160601060814
+212.22.37.11 0 2 9433 
+37.189.195.171 3 55 475236 20160602190020
+193.137.44.132 0 9 33546 
+193.137.168.32 0 6 252698 
+160.217.191.155 0 3 13872 
+79.169.65.15 7 48 2926375 20160601004417
+62.28.181.218 0 6 1238071 
+176.123.5.14 1 1 2596 20160603151249
+84.91.47.207 9 68 5220445 20160603004038
+195.245.197.32 4 69 774617 20160601164656
+177.141.154.76 0 3 13872 
+89.155.186.253 0 2 9433 
+38.99.97.104 10 10 35024 20160605223101
+189.6.25.124 0 1 185048 
+54.204.71.155 16 68 3320191 20160605171354
+81.193.86.173 0 2 505564 
+179.237.9.27 0 1 31065 
+144.64.5.149 7 47 2926212 20160601205917
+83.53.38.25 0 2 9433 
+89.152.216.21 0 2 9433 
+189.136.231.129 3 67 770377 20160605160454
+87.103.18.78 0 1 9898 
+79.158.107.30 0 3 13872 
+213.22.114.11 0 6 19674 
+89.153.226.81 0 1 3212658 
+24.212.17.23 0 1 4439 
+193.136.124.154 6 46 2925405 20160602150529
+195.53.233.211 6 52 4130737 20160603195617
+61.135.190.223 2 9 231187 20160603022718
+66.249.88.208 0 1 4439 
+178.137.87.136 6 6 179070 20160602110930
+80.103.223.138 0 4 18866 
+95.95.30.160 0 1 30139 
+66.249.93.63 1 1 9296 20160602112554
+89.152.57.71 0 3 536664 
+186.237.172.10 0 6 19674 
+2.82.174.57 0 9 33546 
+83.99.46.52 1 2 160491 20160601151258
+79.12.128.151 0 3 13872 
+189.35.179.25 0 1 30139 
+83.34.126.60 0 2 9433 
+2.80.168.88 0 5 23305 
+168.90.224.73 0 2 9433 
+193.137.168.16 0 18 67092 
+188.82.98.121 7 48 2926375 20160602174717
+93.159.230.89 11 30 275669 20160602102921
+62.28.190.98 6 46 2925408 20160601165021
+188.37.209.114 0 1 137822 
+213.13.52.240 0 1 4619 
+46.50.3.123 0 2 9433 
+144.64.33.91 7 37 532976 20160603170752
+188.37.22.167 0 9 33546 
+66.102.8.235 0 1 2057 
+66.249.93.49 2 25 267179 20160602000310
+71.76.27.161 0 3 13872 
+83.46.144.48 0 3 13872 
+89.155.76.11 7 34 306150 20160603130116
+187.10.32.237 0 6 19674 
+179.186.187.90 0 3 13872 
+188.83.255.41 0 2 9433 
+187.64.87.232 0 2 284844 
+124.188.157.132 0 2 9433 
+193.144.16.48 0 2 9433 
+92.66.253.178 3 67 770377 20160605140032
+213.141.23.154 0 3 13872 
+195.23.9.44 7 37 550571 20160601094822
+85.87.189.234 0 3 13872 
+94.61.239.175 0 1 228159 
+95.16.25.247 0 2 9433 
+94.61.93.132 0 1 30139 
+109.49.114.151 22 121 1064928 20160601142920
+199.64.75.68 8 50 2927472 20160601161808
+46.50.4.117 0 2 9433 
+37.189.102.143 0 3 13872 
+62.42.78.53 0 2 9433 
+79.158.216.224 0 2 9433 
+177.157.251.204 6 45 2926036 20160601194208
+88.210.68.19 0 3 13872 
+188.250.128.58 0 1 2057 
+194.107.127.9 4 4 156468 20160605193926
+61.197.199.222 0 1 189085 
+62.169.70.153 0 1 9898 
+195.23.44.42 4 27 2445899 20160601172809
+83.240.153.212 0 9 33546 
+188.80.151.239 0 3 13872 
+94.60.173.76 7 47 2974464 20160601155815
+85.138.219.10 7 48 2926373 20160602005505
+5.43.59.234 0 3 25881 
+62.169.86.103 0 1 9898 
+188.80.150.155 3 5 33084 20160603144329
+66.249.93.45 1 25 117487 20160603113830
+85.244.35.96 7 47 2925428 20160601175329
+172.245.254.83 22 22 535180 20160605142548
+201.83.75.243 3 67 770378 20160601151205
+217.16.184.169 21 21 180320 20160605143811
+131.108.10.239 0 2 9433 
+62.169.84.52 0 1 9898 
+80.128.39.113 0 3 13872 
+216.81.71.78 1 1 23714 20160605201031
+46.118.121.215 6 6 179070 20160602051446
+88.21.117.44 0 2 9433 
+66.249.91.121 1 1 914 20160605174412
+91.198.182.228 0 8 37246 
+188.80.110.114 0 3 13872 
+188.82.35.134 0 1 151192 
+190.46.189.176 0 6 19674 
+85.139.138.78 6 41 2919240 20160603161424
+62.28.81.94 0 3 13872 
+217.129.78.148 7 48 3077405 20160602001253
+195.23.86.114 0 2 9433 
+213.60.67.150 0 3 13872 
+85.240.99.214 6 29 271523 20160603205011
+85.242.214.254 5 77 813048 20160602120501
+186.167.244.17 0 1 43506 
+85.138.51.209 6 45 2925249 20160605182306
+89.153.205.205 0 3 13872 
+95.95.254.31 0 1 9898 
+66.249.92.77 2 2 1828 20160602173523
+189.49.48.223 0 2 9433 
+73.170.13.98 0 9 33546 
+201.69.168.84 3 67 770378 20160602034019
+86.229.4.204 9 48 2931814 20160602154727
+144.64.1.191 0 2 19796 
+188.80.97.83 0 9 33546 
+46.50.54.126 7 29 1302574 20160602085250
+200.117.41.146 1 1 9299 20160602000853
+62.28.122.226 0 2 9433 
+177.21.160.228 5 78 861145 20160602011705
+177.34.170.46 6 30 1239507 20160605205506
+37.57.231.225 2 2 0 20160602025959
+81.45.92.0 0 2 9433 
+66.249.81.231 0 1 3186 
+54.160.154.33 0 6 19674 
+62.28.88.102 8 49 2926395 20160603142409
+89.155.48.165 0 2 9433 
+196.206.87.147 12 83 8090898 20160605182740
+87.103.52.245 0 2 19796 
+179.8.87.201 0 2 9433 
+213.4.199.112 0 2 9433 
+177.138.16.150 0 3 13872 
+88.174.208.77 0 2 9433 
+85.84.231.155 0 2 9433 
+186.250.135.80 0 1 151192 
+194.190.75.136 0 3 13872 
+2.82.171.83 0 3 13872 
+188.251.14.127 0 3 13872 
+190.0.230.91 8 8 54 20160601094415
+83.240.135.85 0 1 26282 
+193.50.193.25 0 3 12619 
+213.228.181.53 0 1 8627 
+130.185.87.215 6 6 120 20160605224945
+80.200.37.179 0 3 13872 
+66.249.93.11 0 2 9796 
+84.122.2.23 0 3 13872 
+109.129.202.175 0 3 13872 
+190.162.142.254 6 44 2924852 20160601164438
+40.117.98.250 1 1 6976 20160603110820
+87.196.164.79 0 1 9898 
+5.81.3.245 0 2 9433 
+40.117.44.32 1 1 9300 20160605225318
+62.28.191.2 0 3 13872 
+66.249.91.123 5 5 4570 20160605144631
+104.219.54.175 1 1 9304 20160603170823
+85.247.18.206 0 3 13872 
+85.246.240.250 1 1 9298 20160602192553
+213.30.118.102 6 44 2924854 20160603100303
+88.157.193.114 0 3 13872 
+89.140.174.172 0 3 13872 
+46.50.21.184 0 1 9898 
+177.83.151.206 0 1 28092 
+61.135.190.222 0 1 3730 
+85.243.236.75 0 2 9433 
+85.247.239.236 0 2 9433 
+95.93.129.207 6 88 887434 20160601235642
+193.236.57.184 1 7 37680 20160603100454
+79.169.123.126 3 58 456314 20160601101129
+94.132.122.161 5 70 1010305 20160603175555
+84.90.251.226 4 12 73683 20160602101650
+94.60.192.135 0 1 9898 
+46.50.20.110 0 1 104207 
+93.108.244.159 0 3 13872 
+91.198.182.227 0 2 9433 
+13.92.236.142 1 1 6104 20160603110815
+194.117.2.103 0 6 19674 
+84.109.88.181 0 2 9433 
+77.54.216.81 0 2 9433 
+31.4.177.88 0 3 13872 
+200.193.242.4 0 2 9433 
+188.80.89.116 0 7 60389 
+94.132.243.3 6 41 2919239 20160602225346
+74.54.135.98 0 1 181 
+80.34.23.103 0 9 33546 
+132.255.199.130 6 34 1742624 20160601183233
+177.84.21.120 6 21 267385 20160605211503
+66.249.88.218 0 3 13872 
+188.251.151.251 0 1 9898 
+61.135.190.105 1 16 150661 20160603022721
+194.79.86.9 0 2 17254 
+93.108.168.255 0 6 19674 
+186.144.29.88 3 67 770378 20160602043604
+207.102.138.158 2 8 34773 20160602095836
+5.158.43.12 0 2 9433 
+69.156.67.11 3 67 770378 20160602064100
+83.60.216.97 0 2 9433 
+188.37.108.251 0 3 13872 
+66.249.93.5 0 3 14694 
+188.80.90.25 0 1 8627 
+201.51.201.23 6 45 2926037 20160603133624
+193.236.56.17 1 1 5885 20160602123455
+193.50.193.26 0 8 29107 
+176.79.91.54 0 1 9898 
+2.93.168.209 7 48 2927173 20160603123353
+179.213.241.102 6 45 2926035 20160602133804
+13.70.204.166 4 4 15623 20160602161208
+54.234.209.78 16 68 3320188 20160602040440
+194.79.73.247 10 53 2960257 20160601160854
+85.242.174.113 4 68 776261 20160603173115
+62.28.242.106 3 3 1653 20160603163259
+89.155.48.133 0 1 20287 
+89.180.189.121 0 1 88564 
+81.193.169.95 6 46 2925408 20160602161729
+46.189.247.235 2 9 71669 20160602155930
+188.81.38.208 0 1 4172 
+188.250.158.196 10 58 3994992 20160603164029
+46.50.38.83 0 1 9898 
+109.135.2.71 0 2 9433 
+188.37.121.63 0 2 9433 
+134.102.153.85 0 3 13872 
+172.98.84.189 0 1 112878 
+94.61.78.222 0 3 13872 
+157.55.235.57 0 1 9898 
+85.245.171.141 0 2 9433 
+66.102.6.125 0 6 33618 
+200.89.83.78 0 1 32586 
+186.226.213.126 3 13 59016 20160601231422
+95.19.237.178 0 3 13872 
+201.27.212.146 3 67 770377 20160603190022
+91.151.210.166 4 4 48 20160605225645
+41.221.55.150 6 34 1742620 20160602065409
+213.190.197.165 0 9 33546 
+216.81.71.126 1 1 23714 20160601194654
+138.36.125.167 6 33 1484362 20160602023230
+193.137.168.234 0 9 33546 
+188.80.69.247 6 47 3073642 20160601154845
+94.61.85.21 0 1 151192 
+213.58.196.58 0 4 18866 
+2.139.190.224 0 3 13872 
+79.144.108.156 0 2 9433 
+173.179.100.201 6 45 2926033 20160602054310
+199.87.254.76 3 3 21595 20160603052401
+80.108.118.239 0 3 13872 
+189.26.19.107 0 2 9433 
+89.181.138.107 0 2 22133 
+128.65.232.147 7 83 924772 20160602154516
+89.181.20.47 0 3 13872 
+188.250.173.168 0 1 9898 
+188.80.151.46 0 3 13872 
+94.60.192.114 0 2 9433 
+89.180.145.9 0 2 9433 
+213.22.41.220 0 9 89082 
+193.137.168.215 0 6 19674 
+176.31.117.225 19 19 2444785 20160602132215
+91.227.100.18 6 46 2925408 20160602214035
+89.154.42.32 6 40 2916297 20160605155958
+217.129.28.6 0 2 17254 
+85.120.205.152 0 9 33546 
+81.43.32.142 0 3 13872 
+89.155.214.220 0 4 22499 
+80.58.208.123 0 2 9433 
+37.189.74.207 0 6 27744 
+131.174.171.118 0 2 9433 
+83.132.40.123 0 1 151192 
+66.102.8.240 0 1 7376 
+104.144.186.11 22 22 465901 20160605142553
+89.155.96.77 0 1 9898 
+187.113.69.139 0 2 9433 
+64.246.165.190 1 1 1139 20160602000126
+104.223.17.182 18 18 427127 20160605142501
+193.144.37.42 0 2 9433 
+151.226.55.252 9 48 2935384 20160601111412
+89.153.202.10 0 3 13941 
+178.137.90.153 9 9 268605 20160605143637
+95.95.98.156 6 46 2925405 20160602110540
+195.154.13.210 1 1 9299 20160603024950
+212.145.153.141 6 46 2925408 20160601174029
+212.230.132.130 0 2 9433 
+79.168.82.172 2 9 71667 20160602190620
+89.180.159.118 0 9 33546 
+213.30.63.94 16 102 971742 20160603153653
+46.50.33.82 0 1 9898 
+188.82.157.126 0 2 17254 
+188.80.111.120 2 6 145321 20160601215004
+88.157.198.202 0 3 13872 
+82.155.194.35 0 3 13872 
+62.28.158.178 12 97 1738424 20160603153553
+94.60.51.176 7 47 2925426 20160602074030
+201.170.15.246 0 3 13872 
+87.103.19.240 0 1 9898 
+66.249.88.111 0 2 9433 
+85.244.253.151 0 2 9433 
+87.65.37.54 0 2 9433 
+46.185.68.84 18 18 515610 20160605171948
+2.82.163.6 0 3 13872 
+213.30.118.97 0 2 8318666 
+66.102.6.123 0 4 18311 
+83.12.231.114 0 17 71278 
+37.28.237.197 0 4 34508 
+2.82.165.212 0 6 19674 
+195.23.182.120 6 45 2924224 20160601181609
+188.80.186.241 9 71 5684124 20160601233328
+82.154.169.27 7 48 3082344 20160602170854
+109.206.177.62 2 2 18607 20160603062957
+151.68.5.243 0 2 9433 
+177.40.25.121 0 3 13872 
+89.114.226.243 0 8 29107 
+179.159.132.38 0 2 9433 
+2.137.238.169 0 2 9433 
+190.139.58.52 0 1 6696 
+2.82.174.91 0 3 13872 
+93.102.193.153 4 12 73686 20160601105542
+79.158.118.29 0 3 13872 
+83.132.17.195 0 1 8627 
+88.171.172.246 6 44 2924065 20160602154705
+46.50.3.98 0 3 13872 
+62.169.84.39 0 1 9898 
+90.63.233.236 0 2 9433 
+5.43.45.149 0 2 20397 
+188.251.69.151 0 1 30139 
+95.136.121.51 10 53 2959453 20160602111654
+2.83.194.178 21 151 8459258 20160603151549
+177.194.157.121 0 6 19674 
+41.137.35.1 0 2 9433 
+90.109.116.150 0 3 13872 
+212.13.42.35 0 1 9898 
+97.74.119.75 6 6 92 20160603191911
+66.249.93.47 2 25 418495 20160602000310
+201.26.47.236 3 67 770378 20160602153556
+87.103.54.174 0 3 13872 
+188.76.216.214 6 45 2926037 20160601150509
+94.132.57.10 7 37 533767 20160601214938
+188.82.52.119 0 9 33546 
+178.137.167.51 3 3 89535 20160601081325
+193.137.2.138 3 67 770377 20160603120353
+83.52.21.83 0 3 13872 
+66.249.93.8 0 2 19796 
+186.217.106.76 0 1 228159 
+193.126.72.14 0 2 20397 
+94.61.64.10 0 2 9433 
+216.81.71.106 1 1 38976 20160602144205
+85.84.40.143 0 2 9433 
+193.137.168.232 0 3 13872 
+89.155.127.142 0 1 888 
+191.247.231.36 0 2 9433 
+82.112.164.98 0 6 19674 
+62.28.153.2 0 2 9433 
+69.121.55.205 0 2 9433 
+66.249.91.127 1 1 914 20160601052459
+83.165.50.166 0 2 9433 
+94.60.206.236 0 3 13872 
+178.194.177.52 0 2 9433 
+62.210.89.157 1 1 38976 20160601055130
+193.43.158.229 0 2 9433 
+87.103.53.69 0 1 9898 
+188.80.151.91 8 49 2926395 20160601135259
+95.93.240.2 0 3 13872 
+95.251.154.11 0 2 9433 
+195.23.32.4 0 1 8627 
+85.152.216.16 0 2 9433 
+66.249.88.213 0 2 9433 
+176.78.144.57 9 60 3318308 20160601185816
+193.137.36.94 0 3 13872 
+62.28.62.214 0 1 8649 
+87.103.14.35 0 3 13872 
+188.82.33.32 0 3 13872 
+37.252.96.52 5 5 48 20160603174952
+200.230.37.247 0 1 228159 
+94.132.78.122 7 25 272475 20160603194800
+87.103.48.174 0 3 13872 
+186.249.113.77 5 70 781397 20160605151241
+189.252.250.240 5 21 260344 20160605190700
+83.51.234.38 0 1 4270 
+213.61.152.126 0 3 13872 
+177.80.183.228 0 2 9433 
+87.103.98.233 0 3 25881 
+213.30.118.100 0 2 9433 
+193.145.252.132 0 9 33546 
+40.121.54.42 1 1 6084 20160603110814
+188.82.159.201 0 1 8627 
+62.169.115.33 6 44 2924066 20160602132729
+89.181.88.21 15 119 6592131 20160602145730
+160.159.126.73 0 2 9433 
+91.198.182.229 0 2 9433 
+83.240.246.157 0 1 8627 
+178.50.68.226 0 9 1752347 
+216.81.71.88 1 1 23714 20160601194706
+13.90.211.12 1 1 6098 20160603110816
+66.249.91.125 5 5 4570 20160605204100
+188.81.236.16 0 3 25881 
+213.30.51.68 6 46 3688276 20160603105827
+66.249.93.61 0 1 159 
+89.115.226.26 0 3 13872 
+46.118.125.82 10 10 298450 20160605174302
+85.192.72.55 0 1 37157 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20160601 2588 8819 327237726 130
+20160602 2163 7191 240367985 133
+20160603 1496 5160 171709268 123
+20160605 667 1644 69166921 68
+20160606 1628 6268 242119635 1
+20160607 2211 7414 237945137 1
+20160608 1876 4661 151536461 1
+20160609 3669 10691 494693075 1
+20160610 1049 2184 57373047 1
+20160611 993 1770 26916181 1
+20160612 1346 2139 42382589 1
+20160613 1234 3075 117386335 1
+20160614 2659 6971 223342236 1
+20160615 1725 4736 171360328 1
+20160616 1471 4606 255157952 1
+20160617 1541 3330 101493979 1
+20160618 1071 2179 60374773 1
+20160619 1762 2609 42045734 1
+20160620 1223 2784 90385866 1
+20160621 1529 3915 120729124 1
+20160622 1515 4304 148209691 1
+20160623 1603 4899 266475085 1
+20160624 2392 6998 299183829 1
+20160625 979 1873 44444376 1
+20160626 1434 2808 75100681 1
+20160627 1681 4616 155822034 1
+20160628 985 2867 85820225 1
+20160629 996 2630 85848318 1
+20160630 1064 3395 124994566 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 28
+15mn-30mn 14
+30mn-1h 18
+0s-30s 245
+1h+ 138
+30s-2mn 20
+2mn-5mn 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 284
+/wp-cron.php 8938 34715 71 103
+/testeali/wp-admin/admin-ajax.php 8158 4676350 0 2
+/alboi/wp-cron.php 7490 1060 105 68
+/wp-admin/admin-ajax.php 3041 250772 9 9
+/ 1679 19169883 132 74
+/xmlrpc.php 1322 5241942 0 0
+/wp-content/themes/central/css/style_dynamic.php 991 190642 3 5
+/wp-content/themes/central/css/style_dynamic_responsive.php 983 126479 2 2
+/wp-content/themes/central/css/custom_css.php 977 125716 0 4
+/wp-content/themes/central/js/default_dynamic.php 949 1682834 2 6
+/wp-content/themes/central/js/custom_js.php 939 20198 1 48
+/testeali/wp-admin/post.php 882 74456285 0 0
+/testeali/ 725 2122992 2 1
+/smart_aqua/wp-cron.php 532 10640 1 2
+/whm 521 4613575 1 1
+/smart_aqua/ 502 7339285 39 21
+/testeali/wp-admin/load-scripts.php 457 54590273 0 0
+/testeali/wp-content/plugins/mousewheel-smooth-scroll/js/wpmss.php 428 1225364 0 0
+/televisao/ 406 7667209 12 11
+/testeali/wp-content/themes/bridge/bridge/css/font-awesome/fonts/fontawesome-webfont.woff2 392 9194224 0 0
+/smart_aqua/index.php 310 165302 2 20
+/smart_aqua_eng/wp-cron.php 288 5760 1 2
+/testeali/wp-admin/load-styles.php 255 18714897 0 0
+/testeali/wp-admin/async-upload.php 240 287149 0 0
+/contactos/ 217 2105975 4 4
+/testeali/portfolio_page/xilla/ 14 126128 0 0
+/portfolio_page/cerveja-maldita-rotulo/ 3 34502 0 0
+/testeali/portfolio_page/domino/ 14 132483 0 0
+/testeali/wp-admin/plugins.php 19 499071 0 0
+/portfolio_page/colegio-portugues-webdesign/ 2 28283 0 0
+/html/feed/atom/ 1 471 0 0
+/testeali/wp-content/uploads/2015/05/jpg-300x200. 6 102888 0 0
+/testeali/portfolio_page/hidra/ 22 202731 0 0
+/portfolio_page/salpoente-video/ 3 34504 0 0
+/wp-content/themes/inbranding/css/custom_css.php 1 127 0 0
+/feed/ 127 146519 28 27
+/testeali/portfolio_page/myst/ 11 99540 0 0
+/marcas/ 70 854931 0 1
+/invisual/ 113 1145923 2 2
+/smart_aqua_eng/xmlrpc.php 3 126 0 0
+/portfolio_page/socertima-jornal-de-negocios/ 1 21692 0 0
+/wp-admin/widgets.php 6 89382 0 0
+/testeali/wp-admin/update-core.php 5 112413 0 0
+/wp-admin/post-new.php 2 65620 0 0
+/wp-admin/media-upload.php 9 67785 0 0
+/portfolio_page/litoral-magazine-paginacao/ 7 54971 0 0
+/old/wp-content/themes/central/js/custom_js.php 1 22 0 0
+/testeali/wp-admin/term.php 1 23081 0 0
+/old/ 1 5581 0 0
+/portfolio_page/meivcore-stand/ 6 49908 0 0
+/portfolio_page/boca-torta/ 7 54594 0 0
+/testeali/portfolio_page/storm/ 15 142279 0 0
+/portfolio_page/ipmd-identidade/ 8 60471 0 0
+/testeali/portfolio_page/replay/ 18 168638 1 2
+/wp-login.php 11 32868 0 0
+/smart_aqua_eng/ 217 6786376 21 19
+/testeali/wp-admin/edit-tags.php 6 144049 0 0
+/testeali/portfolio_page/skin/ 16 148831 0 0
+/editar 60 108360 0 0
+/ativacao-de-marca/ 46 599786 0 2
+/hosteldoalboi/wp-admin/upgrade.php 2 2967 0 0
+/wp-admin/load-scripts.php 159 9555831 0 0
+/comments/feed/ 52 38383 3 2
+/hotelaveirocenter/ 1 31818 0 0
+/smart_aqua_eng/wp-admin/admin-post.php 1 0 0 0
+/portfolio_page/ribsol-identidade/ 7 55171 0 0
+/testeali/wp-admin/user-new.php 1 22945 0 0
+/portfolio_page/bosch-paginacao/ 6 50680 0 0
+/wp-content/plugins/revslider/rs-plugin/font/revicons.eot 1 7469 0 0
+/testeali/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2 4 266500 0 0
+/testeali/about/ 107 958359 1 0
+/old/wp-content/themes/central/css/custom_css.php 1 22 0 0
+/wp-admin/plugins.php 45 636617 0 0
+/wp-admin/edit.php 16 243518 0 0
+/smart_aqua_eng/index.php 4 1626 0 0
+/portfolio_page/adriano-carreira-identidade/ 11 80671 1 1
+/portfolio_page/dia-da-crianca-2015/ 5 48610 0 0
+/wp-admin/update.php 7 54023 0 0
+/testeali/wp-content/themes/bridge/bridge/framework/admin/assets/css/font-awesome/fonts/fontawesome-webfont.ttf 3 250800 0 0
+/testeali/portfolio_page/spark/ 14 133539 0 0
+/smart_aqua/wp-login.php 2 9634 0 0
+/fotografia-invisual/ 43 612018 1 1
+/identidade/ 51 1116789 0 0
+/cpanel 2 17740 0 0
+/testeali/wp-content/plugins/envato-wordpress-toolkit/assets/fonts/envato.woff 57 35712 0 0
+/webdesign/ 48 819342 1 1
+/portfolio_page/ekenabay-identidade/ 7 55972 0 0
+/cgi-sys/defaultwebpage.cgi 66 444468 0 0
+/testeali/portfolio_page/orpheus/ 17 158637 0 0
+/eventos-invisual/ 40 504840 0 0
+/testeali/operativas/ 2 12957 0 0
+/testeali/contactos/ 106 846192 0 1
+/portfolio_page/atz-webdesign/ 4 39502 0 0
+/testeali/wp-content/uploads/2015/05/jpg-150x150. 6 71688 0 0
+/portfolio_page/adriano-carreira-webdesign/ 11 217290 0 0
+/modelin/ 5 58884 1 0
+/video/ 66 936935 0 0
+/portfolio_page/civilria-andar-modelo/ 8 65404 1 0
+/testeali/wp-admin/admin.php 209 7218847 0 0
+/testeali/wp-admin/options-general.php 3 92642 0 0
+/testeali/portfolio_page/safira/ 13 120723 0 0
+/testeali/portfolio_page/nielsen/ 11 102628 0 0
+/portfolio_page/framboesa-identidade/ 8 61369 0 0
+/testeali/portfolio_page/elipse/ 17 159771 0 1
+/wp-admin/upgrade.php 1 21 0 0
+/portfolio_page/litoral-magazine-webdesign/ 26 404660 1 2
+/smart_aqua/wp-includes/wlwmanifest.xml 1 1053 0 0
+// 1 9299 0 0
+/testeali/portfolio_page/box/ 12 113077 0 0
+/testeali/multiusos/ 1 6960 0 0
+/portfolio_page/video-oficial-ekena-bay-2016/ 18 237527 0 0
+/wp-admin/update-core.php 2 18584 0 0
+/paginacao-invisual/ 38 568888 0 0
+/testeali/portfolio_page/marshall/ 13 125562 0 0
+/hoteldassalinas/wp-admin/upgrade.php 3 3002 0 0
+/testeali/portfolio_page/mantis/ 14 134707 0 0
+/testeali/wp-admin/options-reading.php 1 22810 0 0
+/portfolio_page/feira-de-marco-video/ 3 34032 0 0
+/testeali/portfolio_page/mustang/ 16 153384 0 0
+/webmail 67 594649 3 3
+/portfolio_page/fashion-tv-optica-nascimento/ 6 53162 0 0
+/wp-admin/post.php 48 1708963 0 0
+/testeali/portfolio_page/icon/ 19 175346 0 0
+/testeali/portfolio_page/polo/ 14 131224 0 0
+/testeali/portfolio_page/emme/ 32 287804 0 0
+/testeali/portfolio_page/flex/ 37 347294 1 1
+/portfolio_page/litoral-awards/ 3 35713 0 0
+/testeali/portfolio/ 86 899163 1 1
+/portfolio_page/daifer/ 7 55034 0 0
+/wp-admin/upload.php 1 15211 0 0
+/portfolio_page/leonor-reis-sic-mulher/ 3 32693 0 0
+/wp-content/plugins/wysija-newsletters/index.php 9 279 0 0
+/portfolio_page/o-dia-mercentro-video/ 3 33298 0 0
+/testeali/portfolio_page/emotion/ 12 113018 0 0
+/portfolio_page/bosch-video/ 3 33181 0 0
+/testeali/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 6 53148 0 0
+/portfolio_page/spcv-webdesign/ 28 435744 1 3
+/portfolio_page/optica-nascimento-video/ 6 52174 0 0
+/portfolio_page/exporlux-no-museu-nacional-do-azulejo/ 8 47275 0 0
+/portfolio_page/dia-mundial-da-crianca-2016/ 1 7481 0 0
+/portfolio_page/aveicabo/ 6 48653 0 0
+/modelin/wp-admin/upgrade.php 1 21 0 0
+/testeali/wp-admin/plugin-install.php 4 110698 0 0
+/portfolio_page/stand-entreposto-a-fontes/ 33 441948 3 2
+/testeali/wp-admin/users.php 1 23914 0 0
+/testeali/author/linairia/ 1 5160 0 0
+/testeali/wp-content/themes/bridge/bridge/includes/shortcodes/qode_shortcodes_popup.html 1 1014 0 0
+/subscriptions/ 1 155 0 0
+/testeali/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff 1 83551 0 0
+/portfolio_page/grupo-alboi-identidade/ 16 237667 0 0
+/testeali/wp-content/uploads/2015/05/jpg 12 8711412 0 0
+/testeali/rececao/ 1 7049 0 0
+/testeali/wp-admin/upgrade.php 1 21 0 0
+/rebranding-da-empresa-socertima/ 2 11020 0 0
+/testeali/portfolio_page/fortis/ 36 332886 0 1
+/rebranding-da-marca-alital/ 2 10894 0 0
+/portfolio_page/colegio-portugues-identidade/ 11 80587 0 0
+/portfolio_page/meivcore/ 5 44102 0 0
+/imprensa-escrita/ 30 471356 1 1
+/portfolio_page/metalegi-iberica-identidade/ 8 62783 0 0
+/portfolio_page/salpoente-revista-sabado/ 1 21714 0 0
+/testeali/portfolio_page/vinil/ 26 246170 0 0
+/portfolio_page/salpoente-revista_must/ 1 21688 0 0
+/testeali/portfolio_page/pulchra/ 31 289237 0 0
+/wp-json/ 7 8144 0 0
+/portfolio_page/ferro-reclamo/ 1 21853 0 0
+/testeali/portfolio_page/luxor/ 14 131649 0 0
+/testeali/portfolio_page/donna/ 15 142164 0 0
+/smart_aqua/wp-admin/admin-ajax.php 98 196 0 5
+//wp-admin/admin-ajax.php 53 767 5 0
+/portfolio_page/aveiro-expo-identidade/ 9 67035 1 0
+/testeali/portfolio_page/aktiva/ 21 197697 0 0
+/testeali/portfolio_page/manhattan/ 11 103787 0 0
+/portfolio_page/pizzarte-webdesign/ 2 28438 0 0
+/wp-content/themes/inbranding/css/style_dynamic.php 1 188 0 0
+/testeali/portfolio_page/mesas/ 19 176401 0 0
+/wp-includes/wlwmanifest.xml 1 1045 0 0
+/testeali/portfolio_page/lyra/ 19 175544 0 0
+/testeali/portfolio_page/jacobsen/ 18 167544 0 0
+/wp-admin/term.php 1 9098 0 0
+/portfolio_page/apresentacao-do-novo-smart/ 3 34790 0 0
+/testeali/portfolio_page/zoe/ 24 229239 0 0
+/wp-json/oembed/1.0/embed 20 31692 0 0
+/portfolio_page/portucel-soporcel-video/ 1 6199 0 0
+/portfolio_page/meia-maratona-identidade/ 9 66213 0 0
+/testeali/portfolio_page/signo/ 42 393973 0 0
+/hosteldoalboi/wp-cron.php 2 256 0 0
+/testeali/portfolio_page/parker/ 16 156034 0 0
+/testeali/portfolio_page/smile/ 12 112988 0 0
+/portfolio_page/unimadeiras-identidade/ 9 67472 0 0
+/portfolio_page/w-uniforms-identidade/ 9 66818 0 0
+/smart_aqua_eng/wp-admin/admin-ajax.php 46 92 0 2
+/testeali/wp-admin/post-new.php 2 82832 0 0
+/testeali/wp-content/themes/bridge/bridge/css/font-awesome/fonts/fontawesome-webfont.ttf 3 250719 0 0
+/testeali/wp-content/uploads/2015/05/jpg-1024x683. 1 105829 0 0
+/testeali/portfolio_page/vertice/ 12 110610 0 0
+/wp-admin/plugin-install.php 13 228870 0 0
+/wp-admin/load-styles.php 62 3929213 0 0
+/portfolio_page/pizzarte-25oaniversario/ 2 27366 0 0
+/testeali/portfolio_page/step/ 16 150256 0 0
+/testeali/wp-admin/update.php 4 73419 0 0
+/portfolio_page/ekena-bay-paginacao/ 9 65936 0 0
+/portfolio_page/meivcore-video/ 4 38684 0 0
+/old/wp-cron.php 1 20 0 0
+/wp-admin/options-reading.php 1 11537 0 0
+/testeali/portfolio_page/xn/ 12 110298 0 0
+/testeali/wp-content/uploads/2015/05/jpg-500x500. 7 316351 0 0
+/html/feed/ 4 2055 0 0
+/index.php 1 8915 0 0
+/testeali/wp-admin/export.php 2 198477 0 0
+/hotelaveirocenter/wp-admin/upgrade.php 2 2995 0 0
+/testeali/wp-admin/ 35 874603 2 0
+/portfolio_page/eurogres-embalagem/ 2 27762 0 0
+/hoteldassalinas/wp-cron.php 208 6073 0 0
+/testeali/wp-content/themes/bridge/bridge/css/elegant-icons/fonts/ElegantIcons.woff 1 63368 0 0
+/testeali/portfolio_page/quartzo/ 17 159486 0 0
+/modelin/wp-cron.php 4 80 0 0
+/alboi/wp-admin/upgrade.php 3 2854 0 0
+/hoteldassalinas/wp-content/plugins/socials-ignited/fonts/fontawesome-webfont.woff2 1 56780 0 0
+/testeali/wp-content/themes/bridge/bridge/css/font-awesome/fonts/fontawesome-webfont.woff 37 1002686 0 1
+/portfolio_page/confeitaria-framboesa-webdesign/ 13 216859 0 0
+/portfolio_page/litoral-fashion-2005-sic-noticias/ 4 52940 0 0
+/embalagem/ 35 525997 0 0
+/testeali/portfolio_page/heritage/ 13 120189 1 0
+/wp-content/themes/inbranding/css/style_dynamic_responsive.php 1 130 0 0
+/portfolio_page/rapidsol-identidade/ 8 60652 0 0
+/portfolio_page/icon-video/ 4 40103 0 0
+/testeali/portfolio_page/berlim/ 24 227132 0 0
+/old/wp-content/themes/central/js/default_dynamic.php 1 1726 0 0
+/testeali/portfolio_page/prisma/ 12 112754 0 0
+/portfolio_page/ekena-bay-fotografia/ 47 578113 1 1
+/smart_aqua_eng/wp-login.php 1 5637 0 0
+/testeali/portfolio_page/quadra/ 13 119093 0 0
+/testeali/wp-admin/edit.php 45 1163687 0 0
+/old/wp-content/themes/central/css/style_dynamic.php 1 188 0 0
+/wp-admin/async-upload.php 3 1859 0 0
+/alboi/ 14 343529 2 2
+/testeali/portfolio_page/kea/ 11 101282 0 1
+/portfolio_page/gesconect-identidade/ 6 34023 0 0
+/old/wp-content/themes/central/css/style_dynamic_responsive.php 1 130 0 0
+/testeali/wp-cron.php 106 3699 0 0
+/cgi-sys/suspendedpage.cgi 2 811 0 0
+/smart_aqua/xmlrpc.php 1 42 0 0
+/portfolio_page/branding-pessoal-leonor-reis-video/ 8 66503 0 0
+/portfolio_page/salpoente-identidade/ 6 34367 0 0
+/portfolio_page/entreposto-a-fontes-video/ 7 57148 0 0
+/wp-content/plugins/ 2 0 2 2
+/portfolio_page/cerveja-maldita-embalagem/ 7 55058 0 0
+/wp-content/plugins/better-wp-security/lib/icon-fonts/fonts/ithemes-icons.woff 21 45762 0 0
+/hoteldassalinas/ 2 38736 0 0
+/testeali/direcionais/ 4 28397 0 0
+/wp-admin/edit-tags.php 1 13723 0 0
+/testeali/portfolio_page/open/ 40 355352 0 1
+/hosteldoalboi/ 1 30761 0 0
+/portfolio_page/maldita-identidade/ 7 55197 0 0
+/portfolio_page/agner-service-identidade/ 6 49236 0 0
+/portfolio_page/smart-aqua/ 7 54439 0 0
+/portfolio_page/tv-ria/ 7 54452 0 0
+/portfolio_page/litoral-awards-14-porto-canal/ 4 39079 0 0
+/portfolio_page/meivcore-webdesign/ 2 28425 0 0
+/portfolio_page/mercedes-sls-mercentro/ 4 41309 0 0
+/portfolio_page/colegio-portugues-video/ 2 28130 0 0
+/testeali/portfolio_page/karma/ 25 231726 0 0
+/testeali/portfolio_page/class/ 17 160361 0 0
+/testeali/wp-content/themes/bridge/bridge/framework/admin/assets/css/font-awesome/fonts/fontawesome-webfont.woff 173 13652228 0 0
+/wp-admin/index.php 1 13218 0 0
+/novo-website-da-empresa-agner-service/ 2 10952 0 0
+/testeali/portfolio_page/kelly/ 14 130931 0 0
+/portfolio_page/pizzarte-gins/ 6 52754 0 1
+/testeali/portfolio_page/alpha/ 15 141512 0 0
+/testeali/portfolio_page/thesis/ 18 171273 0 0
+/portfolio_page/civilria-webdesign/ 36 474452 1 4
+/testeali/wp-login.php 55 77909 1 0
+/testeali/portfolio_page/format/ 32 283966 3 1
+/hotelaveirocenter/wp-cron.php 3 276 0 0
+/portfolio_page/agner/ 31 430488 1 1
+/portfolio_page/feira-de-marco-identidade/ 7 55780 0 0
+/wp-admin/ 37 502436 0 0
+/outdoor/ 32 445490 0 0
+/portfolio_page/fonte-nova-identidade/ 7 54804 0 0
+/testeali/portfolio_page/flat/ 12 111898 0 0
+/testeali/portfolio_page/oslo/ 9 83461 0 0
+/wp-admin/admin.php 57 2662979 0 0
+/wp-admin/options-general.php 4 38617 0 0
+END_SIDER
