@@ -2,20 +2,20 @@
 
 class classes_DbManager{
 
-	private $_username = "pg22933";
-	//private $_username = "root";
-	private $_password = "16dbEDCFJd";
-	//private $_password = "";
+	//private $_username = "pg22933";
+	private $_username = "root";
+	//private $_password = "16dbEDCFJd";
+	private $_password = "";
 	private $_host = "localhost";
-	private $_dbName = "pg22933_tarefas";
-	//private $_dbName = "tarefas";
+	//private $_dbName = "pg22933_tarefas";
+	private $_dbName = "tarefas";
 	public $_myDb;
 	private static $_objecto = false;
 	private $_purifier;
 
 	public function __construct(){
-		//error_reporting(E_ALL); ini_set('display_errors','On');
-		error_reporting(0);
+		error_reporting(E_ALL); ini_set('display_errors','On');
+		//error_reporting(0);
 
 		require_once 'library/HTMLPurifier.auto.php';
 
@@ -865,6 +865,19 @@ class classes_DbManager{
 				
 							$query = $this->_myDb-> prepare("SELECT nome_cargo_user FROM users  WHERE id_user = :iduser");
 							$query->bindParam(":iduser", $iduser);
+							$iduser = $iduser;		 
+							$query -> execute();
+							return ($query);
+				
+			}
+
+
+
+			public function horasUtilizador($iduser){
+				
+							$query = $this->_myDb-> prepare("SELECT * FROM horas INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente where user_id = :iduser ");
+							$query->bindParam(":iduser", $iduser);
+				
 							$iduser = $iduser;		 
 							$query -> execute();
 							return ($query);

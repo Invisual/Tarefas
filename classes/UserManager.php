@@ -834,5 +834,46 @@ class classes_UserManager {
 	}
 
 
+
+	public function updateHorasGeral($hora_inicio, $hora_fim, $dia, $idhora, $idtarefa){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("UPDATE horas set hora_inicio = :hora_inicio, hora_fim = :hora_fim, dia = :dia WHERE id_hora = :idhora");
+
+		$query->bindParam(':hora_inicio', $hora_inicio);
+		$query->bindParam(':hora_fim', $hora_fim);
+		$query->bindParam(':idhora', $idhora);
+		$query->bindParam(':dia', $dia);
+
+		$hora_inicio = $myDbGet->purificar($hora_inicio);
+		$hora_fim = $myDbGet->purificar($hora_fim);
+		$dia = $myDbGet->purificar($dia);
+		$idhora = $idhora;
+		$idtarefa = $idtarefa;
+		$query->execute();
+
+		
+		if (!$query) {
+				echo "
+			<script type='text/javascript'>
+				window.alert('Algo correu mal, tente de novo.');
+				location.reload();
+			</script>
+			";
+		}
+		
+		else {
+			echo "
+			<script type='text/javascript'>
+				window.alert('Este registo de horas foi editado!');
+				window.location.href = 'listar_horas_users.php';
+			</script>
+			";
+		}
+			
+	}
+
+
 }
 ?>

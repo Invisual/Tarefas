@@ -90,6 +90,18 @@ include('notificacoes.php');
       </li>
       <?php } ?>
 
+
+      <?php if($_SESSION['superadmin']==1){ ?>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <span class="icons-menu" title="Tarefas para Processar" style="font-weight:700;">H</span>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="listar_horas_users.php">Horas de Utilizadores</a></li>
+        </ul>
+      </li>
+      <?php } ?>
+
       </ul>
     
 
