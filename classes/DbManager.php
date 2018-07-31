@@ -787,7 +787,7 @@ class classes_DbManager{
 		public function horasClienteMes($idcliente, $mes){
 				
 
-						$query = $this->_myDb->prepare("SELECT SEC_TO_TIME(SUM(TIME_TO_SEC(TIMEDIFF(hora_fim, hora_inicio)))) AS 'horastotais'  FROM `horas` INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente  WHERE id_cliente= $idcliente and avenca=1 and dia LIKE '%/$mes'");
+						$query = $this->_myDb->prepare("SELECT SEC_TO_TIME(SUM(TIME_TO_SEC(TIMEDIFF(hora_fim, hora_inicio)))) AS 'horastotais'  FROM `horas` INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente  WHERE id_cliente= $idcliente and processada=1 and faturada = 2 and dia LIKE '%/$mes'");
 				
 						$idcliente = $this->purificar($idcliente);
 						$mes = $this->purificar($mes);

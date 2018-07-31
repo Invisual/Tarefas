@@ -261,6 +261,7 @@ $('#btn-processar-bulk').click(function(){
             data: { 'id': id },
             success: function(){
                 console.log(id);
+				alert('Nice');
             },
 			error: function(xhr, status, error) {
 				console.log(xhr);

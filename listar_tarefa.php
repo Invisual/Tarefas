@@ -209,6 +209,13 @@ function checkDelete(){
 </script>
 
 <script language="JavaScript" type="text/javascript">
+function checkCopy(){
+    return confirm('Tem a certeza que quer copiar esta Tarefa?');
+}
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
 function checkDeleteObservacao(){
     return confirm('Tem a certeza que quer eliminar esta Observação?');
 }
@@ -368,6 +375,7 @@ if(!empty($_POST['submit'])){
 							else{?>
 							<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
 							<?php } ?>
+							<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
 							<a href = "edit_tarefa.php?id=<?php echo $idtarefa ?>"><i class="fa fa-wrench" aria-hidden="true" title="Editar Tarefa"></i></a>
 							<a href = "delete_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkDelete()"><i class="fa fa-trash-o" aria-hidden="true" title="Apagar Tarefa"></i></a>
 						</div>
