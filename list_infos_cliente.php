@@ -224,7 +224,7 @@ $.ajax({
 				<div class="col-md-4">
 					<h5>Link cPanel</h5>
 					<br>
-					<p><?php echo $linkCpanel ?></p>
+					<p><a href="<?php echo $linkCpanel ?>"><?php echo $linkCpanel ?></a></p>
 				</div>
 
 				<div class="col-md-4">
@@ -267,7 +267,7 @@ $.ajax({
 				<div class="col-md-4">
 					<h5>Link WordPress</h5>
 					<br>
-					<p><?php echo $linkWp ?></p>
+					<p><a href="<?php echo $linkWp ?>"><?php echo $linkWp ?></a></p>
 				</div>
 
 				<div class="col-md-4">
