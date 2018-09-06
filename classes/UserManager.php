@@ -230,6 +230,63 @@ class classes_UserManager {
 
 
 
+	public function insertInfoCliente($cliente, $linkCpanel, $loginCpanel, $passCpanel, $nicDns, $passDns, $linkWp, $userWp, $passWp, $emailsInfo, $outros){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("INSERT INTO infos_clientes (cliente_id, link_cpanel, username_cpanel, password_cpanel, nichandle_dns, password_dns, link_wordpress, username_wordpress, password_wordpress, emails, outros) 
+		VALUES (:cliente, :linkCpanel, :loginCpanel, :passCpanel, :nicDns, :passDns, :linkWp, :userWp, :passWp, :emailsInfo, :outros)");
+
+		$query->bindParam(':cliente', $cliente);
+		$query->bindParam(':linkCpanel', $linkCpanel);
+		$query->bindParam(':loginCpanel', $loginCpanel);
+		$query->bindParam(':passCpanel', $passCpanel);
+		$query->bindParam(':nicDns', $nicDns);
+		$query->bindParam(':passDns', $passDns);
+		$query->bindParam(':linkWp', $linkWp);
+		$query->bindParam(':userWp', $userWp);
+		$query->bindParam(':passWp', $passWp);
+		$query->bindParam(':emailsInfo', $emailsInfo);
+		$query->bindParam(':outros', $outros);
+		
+		$cliente = $myDbGet->purificar($cliente);
+		$linkCpanel = $myDbGet->purificar($linkCpanel);
+		$loginCpanel = $myDbGet->purificar($loginCpanel);
+		$passCpanel = $myDbGet->purificar($passCpanel);
+		$nicDns = $myDbGet->purificar($nicDns);
+		$passDns = $myDbGet->purificar($passDns);
+		$linkWp = $myDbGet->purificar($linkWp);
+		$userWp = $myDbGet->purificar($userWp);
+		$passWp = $myDbGet->purificar($passWp);
+		$emailsInfo = $myDbGet->purificar($emailsInfo);
+		$outros = $myDbGet->purificar($outros);
+
+		$query->execute();
+
+
+		if (!$query) {
+				echo "
+			<script type='text/javascript'>
+				window.alert('Algo correu mal, tente de novo.');
+				location.reload();
+			</script>
+			";
+		}
+		
+		else {
+			echo "
+			<script type='text/javascript'>
+				window.alert('Nova Info de Cliente Adicionada!');
+				window.location.href = 'list_clientes.php';
+			</script>
+			";
+		}
+			
+	}
+
+
+
+
     public function insertObservacao($userobs, $tarefaobs, $textoobs){
 		
 		$myDb = $this->_controlPanel->getMyDb();
@@ -359,6 +416,64 @@ class classes_UserManager {
 			
 	}
 	
+
+
+	public function updateInfoCliente($idinfo, $cliente, $linkCpanel, $loginCpanel, $passCpanel, $nicDns, $passDns, $linkWp, $userWp, $passWp, $emailsInfo, $outros){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("UPDATE infos_clientes set cliente_id = :cliente, link_cpanel = :linkCpanel, username_cpanel = :loginCpanel, password_cpanel = :passCpanel, nichandle_dns = :nicDns, password_dns = :passDns, link_wordpress = :linkWp, username_wordpress = :userWp, password_wordpress = :passWp, emails = :emailsInfo, outros = :outros WHERE id_info = :idinfo");
+
+		$query->bindParam(':idinfo', $idinfo);
+		$query->bindParam(':cliente', $cliente);
+		$query->bindParam(':linkCpanel', $linkCpanel);
+		$query->bindParam(':loginCpanel', $loginCpanel);
+		$query->bindParam(':passCpanel', $passCpanel);
+		$query->bindParam(':nicDns', $nicDns);
+		$query->bindParam(':passDns', $passDns);
+		$query->bindParam(':linkWp', $linkWp);
+		$query->bindParam(':userWp', $userWp);
+		$query->bindParam(':passWp', $passWp);
+		$query->bindParam(':emailsInfo', $emailsInfo);
+		$query->bindParam(':outros', $outros);
+
+		$idinfo = $myDbGet->purificar($idinfo);
+		$cliente = $myDbGet->purificar($cliente);
+		$linkCpanel = $myDbGet->purificar($linkCpanel);
+		$loginCpanel = $myDbGet->purificar($loginCpanel);
+		$passCpanel = $myDbGet->purificar($passCpanel);
+		$nicDns = $myDbGet->purificar($nicDns);
+		$passDns = $myDbGet->purificar($passDns);
+		$linkWp = $myDbGet->purificar($linkWp);
+		$userWp = $myDbGet->purificar($userWp);
+		$passWp = $myDbGet->purificar($passWp);
+		$emailsInfo = $myDbGet->purificar($emailsInfo);
+		$outros = $myDbGet->purificar($outros);
+
+		$query->execute();
+
+		
+		if (!$query) {
+				echo "
+			<script type='text/javascript'>
+				window.alert('Algo correu mal, tente de novo.');
+				location.reload();
+			</script>
+			";
+		}
+		
+		else {
+			echo "
+			<script type='text/javascript'>
+				window.alert('Esta info de cliente foi editada!');
+				window.location.href = 'list_clientes.php?x';
+			</script>
+			";
+		}
+			
+	}
+
+
 	
 	
 	public function updateHoras($hora_inicio, $hora_fim, $dia, $idhora, $idtarefa){
@@ -868,6 +983,48 @@ class classes_UserManager {
 			<script type='text/javascript'>
 				window.alert('Este registo de horas foi editado!');
 				window.location.href = 'listar_horas_users.php';
+			</script>
+			";
+		}
+			
+	}
+
+
+	public function adicionarHora($hora_inicio, $hora_fim, $dia, $user, $idtarefa){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("INSERT INTO horas (user_id, tarefa_id, hora_inicio, hora_fim, dia) VALUES (:user, :idtarefa, :hora_inicio, :hora_fim, :dia)");
+		
+
+		$query->bindParam(':hora_inicio', $hora_inicio);
+		$query->bindParam(':hora_fim', $hora_fim);
+		$query->bindParam(':user', $user);
+		$query->bindParam(':dia', $dia);
+		$query->bindParam(':idtarefa', $idtarefa);
+
+		$hora_inicio = $myDbGet->purificar($hora_inicio);
+		$hora_fim = $myDbGet->purificar($hora_fim);
+		$dia = $myDbGet->purificar($dia);
+		$user = $myDbGet->purificar($user);
+		$idtarefa = $idtarefa;
+		$query->execute();
+
+		
+		if (!$query) {
+				echo "
+			<script type='text/javascript'>
+				window.alert('Algo correu mal, tente de novo.');
+				location.reload();
+			</script>
+			";
+		}
+		
+		else {
+			echo "
+			<script type='text/javascript'>
+				window.alert('Novo registo de horas adicionado!');
+				window.location.href = 'listar_tarefa.php?id=".$idtarefa."';
 			</script>
 			";
 		}

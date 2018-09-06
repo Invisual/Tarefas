@@ -14,8 +14,8 @@ class classes_DbManager{
 	private $_purifier;
 
 	public function __construct(){
-		error_reporting(E_ALL); ini_set('display_errors','On');
-		//error_reporting(0);
+		//error_reporting(E_ALL); ini_set('display_errors','On');
+		error_reporting(0);
 
 		require_once 'library/HTMLPurifier.auto.php';
 
@@ -85,6 +85,30 @@ class classes_DbManager{
 
 			$query->bindParam(":idtarefa", $idtarefa);
 			$idtarefa =$idtarefa;
+			$query -> execute();
+			return ($query);
+		 
+		 }
+
+
+		 public function listInfoCliente ($idcliente){
+		 
+			$query = $this->_myDb->prepare("SELECT *  FROM infos_clientes INNER JOIN clientes ON infos_clientes.cliente_id=clientes.id_cliente WHERE cliente_id = :idcliente ") ; 
+
+			$query->bindParam(":idcliente", $idcliente);
+			$idcliente =$idcliente;
+			$query -> execute();
+			return ($query);
+		 
+		 }
+
+
+		 public function listInfoClienteById($idinfo){
+		 
+			$query = $this->_myDb->prepare("SELECT *  FROM infos_clientes INNER JOIN clientes ON infos_clientes.cliente_id=clientes.id_cliente WHERE id_info = :idinfo ") ; 
+
+			$query->bindParam(":idinfo", $idinfo);
+			$idinfo =$idinfo;
 			$query -> execute();
 			return ($query);
 		 
@@ -762,7 +786,7 @@ class classes_DbManager{
 		
 		public function contarTarefasClienteAvenca($idcliente){
 			
-			$query = $this->_myDb->prepare("SELECT COUNT(*) AS total FROM tarefas where cliente_id = :idcliente and avenca = 1");
+			$query = $this->_myDb->prepare("SELECT COUNT(*) AS total FROM tarefas where cliente_id = :idcliente and faturada = 2");
 			$query->bindParam(":idcliente", $idcliente);
 			$idcliente = $idcliente;
 			$query -> execute();
@@ -882,6 +906,17 @@ class classes_DbManager{
 							$query -> execute();
 							return ($query);
 				
+			}
+
+
+
+			public function getLastId(){
+				
+				$query = $this->_myDb-> prepare("SELECT * FROM tarefas ORDER BY id_tarefa DESC LIMIT 1");
+		 
+				$query -> execute();
+				return ($query);
+	
 			}
 		
 		

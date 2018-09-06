@@ -75,8 +75,9 @@ $countTarefas = $obj->contarTarefasCliente($dados['id_cliente']);
 	<div class="row row-list" style="margin: 5vh auto;">
 
 		<div class="col-md-3"><h5><strong>Cliente</strong> <br><br><?php echo $dados['nome']; ?> </h5></div>
-		<div class="col-md-3"><h5><strong>Tarefas</strong> <br><br><?php echo $countTarefas; ?> </h5></div>
-		<div class="col-md-3"><h5><strong>Ver Tarefas</strong>  <br><br><a href = "list_tarefas.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
+		<div class="col-md-2"><h5><strong>Tarefas</strong> <br><br><?php echo $countTarefas; ?> </h5></div>
+		<div class="col-md-2"><h5><strong>Ver Tarefas</strong>  <br><br><a href = "list_tarefas.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
+		<div class="col-md-2"><h5><strong>Ver Infos Cliente</strong>  <br><br><a href = "list_infos_cliente.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
 		<div class="col-md-3"><h5><strong>Eliminar Cliente</strong> <br><br><a href = "delete_cliente.php?cliente=<?php echo $dados['id_cliente']; ?>" onclick="return checkDelete()"><button type="button" class="btn btn-danger">X</button></a></h5> </div>
 
 	</div>
@@ -85,9 +86,10 @@ $countTarefas = $obj->contarTarefasCliente($dados['id_cliente']);
 
   	<div class="row row-list" style="margin: 5vh auto;">
 
-		<div class="col-md-4"><h5><strong>Cliente</strong> <br><br><?php echo $dados['nome']; ?> </h5></div>
-		<div class="col-md-4"><h5><strong>Projetos</strong> <br><br><?php echo $countTarefas; ?> </h5></div>
-		<div class="col-md-4"><h5><strong>Ver Projetos</strong>  <br><br><a href = "list_tarefas.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
+		<div class="col-md-3"><h5><strong>Cliente</strong> <br><br><?php echo $dados['nome']; ?> </h5></div>
+		<div class="col-md-3"><h5><strong>Projetos</strong> <br><br><?php echo $countTarefas; ?> </h5></div>
+		<div class="col-md-3"><h5><strong>Ver Projetos</strong>  <br><br><a href = "list_tarefas.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
+		<div class="col-md-3"><h5><strong>Ver Infos Cliente</strong>  <br><br><a href = "list_infos_cliente.php?cliente=<?php echo $dados['id_cliente']; ?>"><button type="button" class="btn btn-info">Ver</button></a></h5></div>
 
 	</div>
 

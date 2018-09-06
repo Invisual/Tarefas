@@ -200,6 +200,19 @@ h4, h5{
 .botoes-tarefa-mobile{
 	display:none;
 }
+
+.add-hora-custom{
+	position:absolute;
+	right:10px;
+	bottom:-14px;
+}
+
+.add-hora-custom a{
+	font-size: 45px;
+    font-weight: 500;
+    color: #2196f3;
+}
+
 </style>
 
 <script language="JavaScript" type="text/javascript">
@@ -283,6 +296,7 @@ while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
 	$corprioridade = $dados['cor_prioridade'];
 	$processada = $dados['processada'];
 	$avenca = $dados['avenca'];
+	$diaria = $dados['diaria'];
 	$newValAvenca = !$avenca;
 	if($avenca==1){
 		$newValAvenca = 0;
@@ -375,7 +389,9 @@ if(!empty($_POST['submit'])){
 							else{?>
 							<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
 							<?php } ?>
-							<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
+							<?php if($diaria == 1){?>
+								<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
+							<?php } ?>
 							<a href = "edit_tarefa.php?id=<?php echo $idtarefa ?>"><i class="fa fa-wrench" aria-hidden="true" title="Editar Tarefa"></i></a>
 							<a href = "delete_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkDelete()"><i class="fa fa-trash-o" aria-hidden="true" title="Apagar Tarefa"></i></a>
 						</div>
@@ -513,7 +529,14 @@ if(!empty($_POST['submit'])){
 										else if(empty($hi) && empty($hf)){?>
 											<button name="inicio" onclick="return RefreshWindow();" class="btn btn-primary block-btn btn-hora-ini"><i class="fa fa-clock-o icon-notificacoes" aria-hidden="true"></i></button>
 										<?php } ?>
-						</form>					
+						</form>
+						
+						<?php if($_SESSION['superadmin']==1){?>
+							<div class="add-hora-custom">
+								<a href="adicionarhoras.php?idtarefa=<?php echo $idtarefa ?>">+</a>
+							</div>	
+						<?php } ?>
+									
 					</div>
 
 					<div class="col-md-2"></div>

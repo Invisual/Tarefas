@@ -1,184 +1,195 @@
 <?php include('headers.php'); ?>
 <title>INVISUAL - Tarefas</title>
-
+<script src="https://tarefas.invisual.pt/js/moment.js"></script>
 <style>
-
-
-#alternar-estado-nao-faturado:checked ~.nao-faturado{
-  display:block;
+body{
+	font-family: 'Raleway', sans-serif;
 }
 
-#alternar-estado-nao-faturado:checked ~.faturado{
-  display:none;
+.maincf{
+	padding-bottom:70px;
 }
 
-#alternar-estado-nao-faturado:checked ~.avenca{
-  display:none;
+h3 strong{
+    color:#2196f3;
 }
 
-#alternar-estado-nao-faturado:checked ~.porprocessar{
-  display:none;
+.row-filtros{
+    margin-right: 1.5%;
+    margin-left: 1.5%;
 }
 
-#alternar-estado-faturado:checked ~.faturado{
-  display:block;
+.row-filtros .col-md-5{
+    text-align:center;
 }
 
-#alternar-estado-faturado:checked ~.nao-faturado{
-  display:none;
+.col-md-5 form{
+    display:inline-block;
 }
 
-#alternar-estado-faturado:checked ~.avenca{
-  display:none;
-}
-
-#alternar-estado-faturado:checked ~.porprocessar{
-  display:none;
-}
-
-#alternar-estado-avenca:checked ~.avenca{
-  display:block;
-}
-
-#alternar-estado-avenca:checked ~.nao-faturado{
-  display:none;
-}
-
-#alternar-estado-avenca:checked ~.faturado{
-  display:none;
-}
-
-#alternar-estado-avenca:checked ~.porprocessar{
-  display:none;
-}
-
-#alternar-estado-por-processar:checked ~.porprocessar{
-	display:block;
-}
-
-#alternar-estado-por-processar:checked ~.avenca{
-	display:none;
-}
-
-#alternar-estado-por-processar:checked ~.nao-faturado{
-	display:none;
-}
-
-#alternar-estado-por-processar:checked ~.faturado{
-	display:none;
-}
-
-
-#alternar-estado-nao-faturado{
-  margin-left:3vw;
-}
-
-#alternar-estado-faturado{
-  margin-left:3vw;
-}
-
-#alternar-estado-avenca{
-  margin-left:3vw;
-}
-
-#alternar-estado-por-processar{
-  margin-left:3vw;
-}
-
-.pesquisa-tarefas-ajax{
-	margin-left:3vw;
-	height: 40px !important;
-	border-radius: 3px !important;
-	border: 1px solid #cccc;
-    margin-right: 5px;
-    text-indent: 10px;
+.col-md-5 select{
+    border-radius: 14px;
+    background-color: #f7f7f7;
+    border: none;
+    height: 40px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     margin-bottom: 15px;
+    margin-top: 10px;
+    text-indent: 15px;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    width: 150px;
 }
 
-.icon-faturacao{
-	font-size: 30px;
-    color: #5093e1;
+
+.row-tarefa-admin{
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding-bottom: 20px;
     position: relative;
-    top: 40px;
+    padding: 20px 0 22px 0;
+    color: #333;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    overflow: hidden;
 }
 
-.check-faturacao{
-	color:green;
+.row .col-md-1, .row .col-md-2, .row .col-md-3{
+    text-align:center;
+    font-size: 13px;
+    color: #797676;
+    font-weight: 500;
 }
 
-.times-faturacao{
-	color:red;
+.row h2{
+    color: #5a5454;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing:.03em;
 }
 
-.check-naofat{
-	color:#e6ce50;
+.estadotarefa-2{
+    border-bottom:8px solid black;
 }
 
-.btn-pesquisa-cliente{
-	background-color:#5093e1;
-	border:none;
-	border-radius:2px;
-	color:#fff;
-	height:40px;
-	width:40px;
-	transition:all .5s ease;
+.tarefa-single-highlight{
+		border: 4px solid #5093e1;
 }
 
-.btn-pesquisa-cliente:hover{
-	border:1px solid #5093e1;
-	background:transparent;
-	color:#5093e1;
+.btn-ir-tarefa{
+    color: #2196f3;
+    background-color: transparent;
+    border: 2px solid #2196f3;
+    font-weight: 600;
+    letter-spacing: .05em;
+    transition: all .5s ease !important;
 }
 
-.horas-totais-tarefas-processadas{
-	position:absolute;
-	background-color:#5093e1;
-	color:#fff;
-	padding:10px;
-	top:0;
-	right:50px;
-	border-radius:2px;
+.btn-ir-tarefa:hover{
+    background-color:#2196f3;
+    color:#fff;
 }
 
-.horas-totais-tarefas-processadas h3{
-	margin:0 !important;
-	padding:0 !important;
+.user-img{
+    width:45px;
+    border-radius:50%;
 }
 
-.tarefa-processada-highlight{
-	border: 2px solid #5093e1;
+.faturadatarefa-0 .estadotarefa{
+    color: #feea3a;
+}
+
+.faturadatarefa-1 .estadotarefa{
+    color: #4bae4f;
+}
+
+.faturadatarefa-2 .estadotarefa{
+    color: #2196f3;
+}
+
+.faturadatarefa-3 .estadotarefa{
+    color: #f34235;
+}
+
+.fixed-bar{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .select-bulk{
-	position: absolute;
-    top: 0;
-    right: 225px;
+    display: inline-block;
+    padding-right: 40px;
 }
 
 .select-bulk select{
-	height: 40px !important;
-    border-radius: 3px !important;
-    border: 1px solid #cccc;
-    margin-right: 5px;
-    text-indent: 10px;
-    width: 140px;
+    border-radius: 14px;
+    background-color: #f7f7f7;
+    border: none;
+    height: 40px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-indent: 15px;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .select-bulk button{
-	background-color: #5093e1;
-    border: none;
-    border-radius: 2px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 14px;
+    background-color: #2196f3;
+    border: 2px solid #2196f3;
     color: #fff;
     height: 40px;
-    padding:10px;
+    font-weight: 600;
     transition: all .5s ease;
+    letter-spacing: .05em;
+    padding: 0 15px 0 15px;
 }
 
-.select-bulk button:hover{
-	border: 1px solid #5093e1;
-    background: transparent;
-    color: #5093e1;
+#contadorhoras{
+    display: inline-block;
+    border: 3px solid #2196f3;
+    border-radius: 5px;
+    padding: 10px;
+    color: #2196f3;
+    position:absolute;
+    right:40px;
+    top:0;
 }
+
+#contadorhoras h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    letter-spacing: .05em;
+}
+
+#tarefas-container .text-center{
+    margin-top:100px;
+}
+
+
+@media only screen and (max-width:700px){
+    #contadorhoras{
+        position:unset;
+    }
+
+    .select-bulk {
+    margin-top: 50px;
+}
+}
+
 </style>
 
 <?php
@@ -188,11 +199,17 @@ require_once ('utils/Autoloader.php');
 session_start();
 
 
+$actual_link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+
 if($_SESSION['logged_in']!=1){
 	header('location:index.php');
 }
 
 
+if($_SESSION['superadmin']!=1){
+	header('location:index.php');
+}
 
 if (empty($myControlPanel)) {
 
@@ -216,270 +233,283 @@ if (empty($myControlPanel)) {
 
 
 
-if(!empty($_POST)){
-	
-	$idtarefa = $_POST['tarefaid'];
-	$valfaturacao= $_POST['faturacao'];
-
-	try{		
-		$log = new classes_UserManager($myControlPanel);
-		$update = $log->updateFaturacaoTarefa($idtarefa, $valfaturacao);
-		
-	}
-	catch (invalidArgumentException $e){
-
-		$e->getMessage();
-	}
-	
-}
-
 
 ?>
 
 
 <?php include('navbar.php'); ?>
-<body class="pagina-tarefas-processadas">
+<body>
 
-<div class="container-fluid" style="position:relative; top:10vh;">
+<div class="container-fluid maincf" style="position:relative; top:10vh;">
 
-<h3 class="page-header"><span class="icons-header" title="Tarefas" style="font-weight:700;">P</span> &nbsp; Todas as <strong>Tarefas Processadas</strong></h3>
+    <h3 class="page-header"><i class="fa fa-tasks icons-header" title="Tarefas" aria-hidden="true"></i> &nbsp; Todas as <strong>Tarefas Processadas</strong></h3>
 
+    <div id="contadorhoras"></div>
 
-	<form name="pesquisa" action="" method="POST">
+    <div class="row row-filtros">
+    
+        <div class="col-md-5">
 
-<?php	$var = 'teste'; ?>
-		<input type="text" id="pesquisa_ajax" name="cliente" class="pesquisa-tarefas-ajax" placeholder="Pesquisar Clientes">
-
-		<select name="mes" class="pesquisa-tarefas-ajax" style="margin-left:10px;">
-			<option disabled selected>Mês</option>
-			<option value="01">Janeiro</option>
-			<option value="02">Fevereiro</option>
-			<option value="03">Março</option>
-			<option value="04">Abril</option>
-			<option value="05">Maio</option>
-			<option value="06">Junho</option>
-			<option value="07">Julho</option>
-			<option value="08">Agosto</option>
-			<option value="09">Setembro</option>
-			<option value="10">Outubro</option>
-			<option value="11">Novembro</option>
-			<option value="12">Dezembro</option>
-		</select>
-		
-		<input type="submit" name="pesquisacliente" value="Ir" class="btn-pesquisa-cliente">
-	</form>
+            <form id="filtros-form">
+                <select name="clientes" id="filtro-cliente">
+                    <option value="" selected>Cliente</option>
+                    <?php
+                    $myDb = new classes_DbManager;
+                    $query = $myDb->_myDb->prepare("Select * from clientes order by nome");
+                    $query->execute();
+                    while($row = $query->fetch(PDO::FETCH_ASSOC))
+                        {
+                        echo "<option value=".$row['id_cliente'].">".$row['nome']."</option>";
+                        }
+                    ?>
+                </select>
 
 
-	<div id="container-tarefas">
-
-		<input type="checkbox" id="alternar-estado-nao-faturado"><label for="alternar-estado-nao-faturado"> &nbsp; Mostrar Tarefas não Faturadas</label>
-		<input type="checkbox" id="alternar-estado-faturado"><label for="alternar-estado-faturado"> &nbsp; Mostrar Tarefas já Faturadas</label>
-		<input type="checkbox" id="alternar-estado-avenca"><label for="alternar-estado-avenca"> &nbsp; Mostrar Tarefas em Avença</label>
-		<input type="checkbox" id="alternar-estado-por-processar"><label for="alternar-estado-por-processar"> &nbsp; Mostrar Tarefas por Tratar</label>
-
-		<?php 
-
-		
-
-					$obj = new classes_DbManager ();
-					$mesativo = 0;
-					$horastodastarefas = '';
-					$minutostodastarefas = '';
-
-			if(empty($_POST['pesquisacliente'])){
-						$dado = $obj-> tarefasAjax();
-			}
-			else{
-				$cliente = $_POST['cliente'];
-				$mes = $_POST['mes'];
-				$dado = $obj-> tarefasAjaxCliente($cliente, $mes);
-
-				if(!empty($mes)){
-						$mesativo = $mes;
-						
-						switch ($mes){
-
-							case '01':
-							$nomemes = 'Janeiro';
-							break;
-
-							case '02':
-							$nomemes = 'Fevereiro';
-							break;
-
-							case '03':
-							$nomemes = 'Março';
-							break;
-
-							case '04':
-							$nomemes = 'Abril';
-							break;
-
-							case '05':
-							$nomemes = 'Maio';
-							break;
-							
-							case '06':
-							$nomemes = 'Junho';
-							break;
-
-							case '07':
-							$nomemes = 'Julho';
-							break;
-
-							case '08':
-							$nomemes = 'Agosto';
-							break;
-
-							case '09':
-							$nomemes = 'Setembro';
-							break;
-
-							case '10':
-							$nomemes = 'Outubro';
-							break;
-
-							case '11':
-							$nomemes = 'Novembro';
-							break;
-
-							case '12':
-							$nomemes = 'Dezembro';
-							break;
-						}
-
-				}
-			}
-
-					while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
-					$process = $dados['processada'];
-					$myDb = new classes_DbManager;
-					$interv = $obj->_myDb->prepare("Select * from intervenientes_tarefa INNER JOIN users on intervenientes_tarefa.user_interv_id=users.id_user where tarefa_interv_id = '$dados[id_tarefa]'");
-					$interv->execute();
-					
-
-					if($dados['faturada'] == 0){$selected1 = 'selected'; $selected2 =''; $selected3 =''; $selected4 =''; $class_faturacao = 'nao-faturado'; $iconfaturacao = '<i class="fa fa-check check-naofat icon-faturacao"></i>';}
-					else if($dados['faturada'] == 1){$selected1 = ''; $selected2 ='selected'; $selected3 =''; $selected4 =''; $class_faturacao = 'faturado'; $iconfaturacao = '<i class="fa fa-check check-faturacao icon-faturacao"></i>';}
-					else if($dados['faturada'] == 2){$selected1 = ''; $selected2 =''; $selected3 ='selected'; $selected4 ='';  $class_faturacao = 'avenca'; $iconfaturacao = '<i class="fa fa-check acordo-faturacao icon-faturacao"></i>';}
-					else if($dados['faturada'] == 3){$selected1 = ''; $selected2 =''; $selected3 =''; $selected4 ='selected';  $class_faturacao = 'porprocessar'; $iconfaturacao = '<i class="fa fa-times times-faturacao icon-faturacao"></i>';}
-					
-		?>
-
-				<div class="row row-list tarefa-processada-single <?php echo $class_faturacao ?> " style="margin: 5vh auto;" id="<?php echo $dados['id_tarefa'];?>">
-					<a href = "listar_tarefa.php?id=<?php echo $dados['id_tarefa']?>">
-						<div class="col-md-1"> <h5><strong>Cliente</strong> <br><br><?php echo $dados['nome'];?></h5></div>
-						<div class="col-md-2"> <h5><strong>Título</strong><br><br><?php echo $dados['titulo'];?></h5></div>
-						<div class="col-md-3"> <h5><strong>Intervenientes</strong><br><br>
-			<?php while($intervenientes= $interv->fetch(PDO::FETCH_ASSOC)){ ?>
-					<img src="img/users/<?php echo $intervenientes['img'] ?>" class="img-circle" width="40px" title="<?php echo $intervenientes['nome_user'] ?>">
-			 <?php } ?> 
-			</h5></div>
-						<div class="col-md-2"><h5>
-						<?php if($mesativo == 0){ ?>
-							<strong>Horas</strong><br><br>
-							<?php
-								$horastotais = $obj-> horasAjax($dados['id_tarefa']);
-								
-								while($horas= $horastotais->fetch(PDO::FETCH_ASSOC)){
-									if(!empty($horas['horastotais'])){
-									$hours = substr($horas['horastotais'],0,2);
-									$minutes = substr($horas['horastotais'],3,2);
-									$horastodastarefas += $hours;
-									$minutostodastarefas += $minutes;
-									echo $hours.'h:'.$minutes.'m';}
-									else{
-										echo "Sem Horas";
-									}
-								}
-							}
-							
-							else if($mesativo != 0){ ?>
-								<strong>Horas em <?php echo $nomemes ?></strong><br><br>
-								<?php
-									$horastotaismes = $obj-> horasAjaxMes($dados['id_tarefa'], $mesativo);
-
-									while($horasmes= $horastotaismes->fetch(PDO::FETCH_ASSOC)){
-										if(!empty($horasmes['horastotais'])){
-										$horasativas = substr($horasmes['horastotais'],0,2);
-										$minutosativos = substr($horasmes['horastotais'],3,2);
-										$horastodastarefas += $horasativas;
-										$minutostodastarefas += $minutosativos;
-										echo $horasativas.'h:'.$minutosativos.'m';}
-										else{
-											echo "Sem Horas";
-										}
-									}
-							}
-							?>
-						</h5>
-						</div>
-					</a>
-					<div class="col-md-2"> <h5><strong>Faturação</strong> <br><br>
-						<form method="POST" action="">
-							<select class="form-control" name="faturacao" required>
-								<option <?php echo $selected1; ?> value="0">Não faturada</option>
-								<option <?php echo $selected2; ?> value="1">Faturada</option>
-								<option <?php echo $selected3; ?> value="2">Avença</option>
-								<option <?php echo $selected4; ?> value="3">Por Tratar</option>
-							</select><br>
-							<button type="submit" name="btnestado" id="btncheckestado" style="background-color:transparent; border:none;"><i class="fa fa-check" aria-hidden="true"></i></button>
-							<input type="hidden" name="tarefaid" value="<?php echo $dados['id_tarefa']?>">
-						</form>
-					</div>
-					<div class="col-md-2"><?php echo $iconfaturacao; ?></div></div>
+                <select name="mes" id="filtro-mes">
+                    <option value="">Mês</option>
+                    <option value="01">Janeiro</option>
+                    <option value="02">Fevereiro</option>
+                    <option value="03">Março</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Maio</option>
+                    <option value="06">Junho</option>
+                    <option value="07">Julho</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Setembro</option>
+                    <option value="10">Outubro</option>
+                    <option value="11">Novembro</option>
+                    <option value="12">Dezembro</option>
+                </select>
 
 
-		<?php } ?>
+                <select name="faturada" id="filtro-faturada">
+                    <option value="">Estado do Process.</option>
+                    <option value="0">Não Faturada</option>
+                    <option value="1">Já Faturada</option>
+                    <option value="2">Em Avença</option>
+                    <option value="3">Por Tratar</option>
+                </select>
+            </form>
+        
+        </div>
 
-	</div>
-
-	
-
-<?php 
-while($minutostodastarefas > 60){
-		$horastodastarefas += 1;
-		$minutostodastarefas -= 60;
-	}
-?>
-<div class="horas-totais-tarefas-processadas" <?php if($horastodastarefas<01 && $minutostodastarefas<01){?> style="display:none;" <?php } ?> >
-<h3>
-	<?php echo "
-		$horastodastarefas"."h:".$minutostodastarefas."m
-	" ?>
-</h3>
-</div>
+         <div class="col-md-2"></div>
 
 
-<div class="select-bulk">
-	<select name="selectbulk">
-		<option value="0">Não Faturada</option>
-		<option value="1">Faturada</option>
-		<option value="2">Avença</option>
-		<option value="3">Por Tratar</option>
-	</select>
-	<button id="btn-select-bulk">Submeter</button>
-</div>
+        <div class="col-md-5">
+        
+            <div class="select-bulk">
+                <select name="selectbulk">
+                    <option value="0">Não Faturada</option>
+                    <option value="1">Faturada</option>
+                    <option value="2">Avença</option>
+                    <option value="3">Por Tratar</option>
+                </select>   
+                <button id="btn-select-bulk" class="btn-submeter-tarefas">Submeter</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="tarefas-container"></div>
+
+
 
 </div>
 
 
 
-</body>
+<script>    
+$(document).ready(function(){
+
+        //Definir todas as variáveis iniciais que vamos precisar
+        var horastodastarefas = 0;
+        var minutostodastarefas = 0;
+        var arrTarefasInteiro;
+
+        var options = {
+            cliente: '',
+            mes: '',
+            faturada: ''
+        }
+
+
+        //Definir Função que vai ser chamada no AJAX e vai ser chamada sempre que haja mudança num dos select
+        function assignDataToArray(){
+
+            //Inicialmente, limpamos todas as tarefas na DIV contentor
+            $('#tarefas-container').empty();
+            
+            //Criamos uma nova variável que vai guardar o array que vem do AJAX, mas filtrado com os filtros desejados
+            arrTarefas = arrTarefasInteiro.tarefas.filter(tar => (
+                tar.id_cliente.includes(options.cliente) && (tar.dia == null ? false : tar.dia.substring(3,5).includes(options.mes)) && tar.faturada.includes(options.faturada) 
+            ));
+            
+            //Inicializar, fora do loop principal, as variáveis que vão contar todas as horas de todas as Tarefas
+            var horasTodasTarefas = 0;
+            var minutosTodasTarefas = 0;
+
+            //Loop para percorrer este array filtrado
+            for(var i = 0, count=arrTarefas.length; i<count; i++){
+
+            //Switch para dar nome em vez de valores ao campo 'faturada' de cada Tarefa
+            switch(arrTarefas[i].faturada){
+                case '0':
+                faturadaName = 'Não Faturada';
+                break;
+
+                case '1':
+                faturadaName = 'Já Faturada';
+                break;
+
+                case '2':
+                faturadaName = 'Em Avença';
+                break;
+
+                case '3':
+                faturadaName = 'Por Tratar';
+                break;
+
+                default:
+                faturadaName = '-';
+                break;
+            }
+            
+            //Criar variável onde vai ficar o HTML com a informação dos users destas tarefa, para depois ser injetado no append em baixo
+            var usersList = '';
+            for(var x = 0, contar=arrTarefas[i].intervenientes.length; x<contar; x++){
+                    var utilizador = arrTarefasInteiro.users[arrTarefas[i].intervenientes[x]];
+                    usersList += '<img class="user-img" src="img/users/'+ utilizador.img+'" title="'+ utilizador.nome +'" alt="'+ utilizador.nome +'"/>';
+            }
+
+
+            //Ir buscar as horas associadas a cada tarefa e fazer as contas necessárias para determinar o tempo total de cada tarefa.
+            //Por fim criamos a variável 'tempoTotal' que vai guardar o registo completo de tempo de cada tarefa.
+            var horasList = '';
+            var horasTotais = 0;
+            var minutosTotais = 0;
+            for(var y=0, contarY=arrTarefas[i].horas_tarefa.length; y<contarY; y++){
+                    var hora = arrTarefasInteiro.horas[arrTarefas[i].horas_tarefa[y]];
+                    var startTime=moment(hora.hora_inicio, "HH:mm a");
+                    var endTime=moment(hora.hora_fim, "HH:mm a");
+                    var duration = moment.duration(endTime.diff(startTime));
+                    var hours = parseInt(duration.asHours());
+                    var minutes = parseInt(duration.asMinutes())%60;
+                    horasTotais += hours;
+                    minutosTotais += minutes;
+                    //horasList += '<span>'+hora.hora_inicio+' |</span>'
+            }
+            while(minutosTotais > 60){
+		        horasTotais += 1;
+		        minutosTotais -= 60;
+            }
+
+            if(isNaN(horasTotais)){
+                horasTotais = '-' ;
+            }
+            else{
+                horasTodasTarefas += horasTotais
+            }
+
+            if(isNaN(minutosTotais)){
+                minutosTotais = '-' ;
+            }
+            else{
+                minutosTodasTarefas += minutosTotais;
+                
+            }
+            var tempoTotal = horasTotais+'h:'+minutosTotais+'m';
+
+
+
+
+            //Append deste html que basicamente é toda a informação sobre cada tarefa
+            $('#tarefas-container').append(
+                "<div class='row row-tarefa-admin faturadatarefa-"+arrTarefas[i].faturada+"' id='"
+                +arrTarefas[i].id_tarefa+"'><div class='col-md-2'><h2>Cliente</h2> <br> "
+                +arrTarefas[i].nome+"</div><div class='col-md-2'><h2>Título</h2> <br> "
+                +arrTarefas[i].titulo+"</div><div class='col-md-2'><h2>Descrição</h2> <br> "
+                +arrTarefas[i].descricao.substring(0, 60) + "..."+"</div><div class='col-md-1'><h2>Estado</h2> <br> <p class='estadotarefa'>"
+                +faturadaName+"</p></div><div class='col-md-1'><h2>Horas</h2><br>"
+                +tempoTotal+"</div><div class='col-md-2'><h2>Intervenientes</h2> <br>"
+                +usersList+"</div><div class='col-md-2'><h2>Ver Tarefa</h2><br><a href='listar_tarefa.php?id="
+                +arrTarefas[i].id_tarefa+"'><button class='btn main-btn btn-ir-tarefa'>Ir</button></a></div></div>"
+            );
+
+            }
+
+            if(arrTarefas.length === 0){
+                $('#tarefas-container').empty().append('<h3 class="text-center">Sem dados. Tente outros filtros de pesquisa..</h3>');
+            }
+            
+            while(minutosTodasTarefas > 60){
+		        horasTodasTarefas += 1;
+		        minutosTodasTarefas -= 60;
+            }
+            var tempoTotalTodasTarefas = horasTodasTarefas+'h:'+minutosTodasTarefas+'m';
+            $('#contadorhoras').empty().append('<h3>'+tempoTotalTodasTarefas+'</h3>');
+
+        }
+
+
+
+        // AJAX Call para ir buscar todas as tarefas. No sucesso, chama a função definida mais em cima
+        $.ajax({
+            type:'POST',
+            url:'ajax/listagem_ajax_processadas_all.php',
+            dataType: "json",
+            success:function(data){
+                arrTarefasInteiro = data;
+                assignDataToArray();
+            }
+        });
+
+
+
+        
+
+        //Cada um destes blocos trata de cada um dos selects
+        $('#filtro-cliente').change(function(){
+            options.cliente = $(this).val();
+            assignDataToArray();
+        });
+
+        $('#filtro-faturada').change(function(){
+            options.faturada = $(this).val();
+            assignDataToArray();
+        });
+
+        $('#filtro-mes').change(function(){
+            options.mes = $(this).val();
+            assignDataToArray();
+        });
+
+
+});
+
+</script>
+
+
 
 <script>
-
-$('.tarefa-processada-single').click(function(){
-	$(this).toggleClass('tarefa-processada-highlight');
+//Script para podermos Processar várias tarefas de uma vez 
+$(document).on('click', '.row-tarefa-admin', function()
+{
+    $(this).toggleClass('tarefa-single-highlight');
 });
 
 
 $('#btn-select-bulk').click(function(){
-	$('.tarefa-processada-highlight').each(function(i, obj) {
+	$('.tarefa-single-highlight').each(function(i, obj) {
 		var id = $(this).attr('id');		
 		var option = $('select[name=selectbulk]').val();
 		$.ajax({
             type: "GET",
-            url: "http://tarefas.invisual.pt/ajax/bulk-processadas.php",
+            url: "./ajax/bulk-processadas.php",
             data: { 'id': id, 'option': option  },
             success: function(){
                 console.log('Sucesso');
@@ -496,7 +526,11 @@ $('#btn-select-bulk').click(function(){
 
 	
 });
-
 </script>
+
+
+</body>
+
+
 
 </html>

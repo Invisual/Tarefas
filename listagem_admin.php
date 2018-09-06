@@ -83,6 +83,10 @@ h3 strong{
     letter-spacing:.03em;
 }
 
+.estadotarefa-2{
+    border-bottom:8px solid black;
+}
+
 .tarefa-single-highlight{
 		border: 4px solid #5093e1;
 }
@@ -182,7 +186,7 @@ if (empty($myControlPanel)) {
                 <option value="-" selected>Colaboradores</option>
 				<?php
 				$myDb = new classes_DbManager;
-				$query = $myDb->_myDb->prepare("Select * from users order by nome_user");
+				$query = $myDb->_myDb->prepare("Select * from users where inativo != '1' order by nome_user");
 				$query->execute();
 				while($row = $query->fetch(PDO::FETCH_ASSOC))
 					{
@@ -257,7 +261,7 @@ $(document).ready(function(){
                     }
 
                     $('#tarefas-container').append(
-                        "<div class='row row-tarefa-admin' id='"
+                        "<div class='row row-tarefa-admin estadotarefa-"+data[index].estado+"' id='"
                         +data[index].id_tarefa+"'><div class='col-md-2'><h2>Cliente</h2> <br> "
                         +data[index].nome+"</div><div class='col-md-2'><h2>Título</h2> <br> "
                         +data[index].titulo+"</div><div class='col-md-2'><h2>Descrição</h2> <br> "
@@ -337,7 +341,7 @@ $('#filtros-form').change(function(){
                     }
 
                     $('#tarefas-container').append(
-                        "<div class='row row-tarefa-admin' id='"
+                        "<div class='row row-tarefa-admin estadotarefa-"+data[index].estado+"' id='"
                         +data[index].id_tarefa+"'><div class='col-md-2'><h2>Cliente</h2> <br> "
                         +data[index].nome+"</div><div class='col-md-2'><h2>Título</h2> <br> "
                         +data[index].titulo+"</div><div class='col-md-2'><h2>Descrição</h2> <br> "
@@ -360,6 +364,9 @@ $('#filtros-form').change(function(){
                          });
 
                 });
+                if (!$.trim(data)){
+                    $('#tarefas-container').append('<h2 style="text-align:center; margin-top:75px;">Sem dados...</h2>');
+                }
             }
         });
 

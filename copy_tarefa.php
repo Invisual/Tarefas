@@ -57,6 +57,12 @@ while($users= $getIntervenientes->fetch(PDO::FETCH_ASSOC)){
 try{		
 	$log = new classes_UserManager($myControlPanel);
 	$insert = $log->insertTarefa($titulo, $desc, $cliente, $datafim, $intervenientes, $diaria, $avenca);
+
+	$getId = $db -> getLastId();
+	while($dadosid= $getId->fetch(PDO::FETCH_ASSOC)){
+		$idval = $dadosid['id_tarefa'];
+	}
+
 	
 }
 catch (invalidArgumentException $e){
@@ -66,7 +72,7 @@ catch (invalidArgumentException $e){
 
 
 
-header("Location:list_tarefas.php");
+header("Location:listar_tarefa.php?id=".$idval);
 
 
 ?>

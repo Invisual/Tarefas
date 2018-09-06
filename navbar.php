@@ -68,7 +68,8 @@ include('notificacoes.php');
           <i class="fa fa-users icons-menu" title="Clientes" aria-hidden="true"></i>
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="list_clientes.php">Ver Tarefas por Cliente</a></li>
+          <li><a href="list_clientes.php">Ver Clientes</a></li>
+          <li><a href="insert_info_cliente.php">Adicionar Info de Cliente</a></li>
           <?php if($_SESSION['admin'] == 1){ ?>
           <li><a href="list_clientes_avencados.php">Bolsas de Horas por Cliente</a></li>
           <li><a href="insert_cliente.php">Adicionar Cliente</a></li>
@@ -101,6 +102,7 @@ include('notificacoes.php');
         </ul>
       </li>
       <?php } ?>
+
 
       </ul>
     
