@@ -5,7 +5,7 @@ header('Content-Type: application/json');
         $arraycompleto = [];
         
         $data=array();
-        $q=mysqli_query($con,"SELECT * FROM tarefas LEFT JOIN horas on tarefas.id_tarefa = horas.tarefa_id INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente where processada= '1' GROUP BY id_tarefa");
+        $q=mysqli_query($con,"SELECT * FROM tarefas LEFT JOIN horas on tarefas.id_tarefa = horas.tarefa_id INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente where processada= '1' GROUP BY id_tarefa ORDER BY id_tarefa DESC");
         mysqli_set_charset( $con, 'utf8');
         
     
@@ -19,12 +19,18 @@ header('Content-Type: application/json');
       $row['intervenientes'] = $intervenientesarray;
 
 
-      $horastarefaquery=mysqli_query($con,"select id_hora from `horas` where tarefa_id = '".$row['id_tarefa']."'" );
+      $horastarefaquery=mysqli_query($con,"select id_hora, dia from `horas` where tarefa_id = '".$row['id_tarefa']."'" );
       $horastarefaarray = [];
+      $diastarefaarray = [];
       while($horastarefarow=mysqli_fetch_assoc($horastarefaquery)){
         $horastarefaarray[] = $horastarefarow['id_hora'];
+        $diastarefaarray[] = $horastarefarow['dia'];
+      }
+      if(!$diastarefaarray){
+        $diastarefaarray = ['1/13'];
       }
       $row['horas_tarefa'] = $horastarefaarray;
+      $row['dias_tarefa'] = $diastarefaarray;
 
 
       $data[] = $row;

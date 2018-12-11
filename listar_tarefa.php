@@ -50,6 +50,7 @@ h5{
 .pgrande{
 	font-weight:700;
 	padding-left:25px;
+	cursor:pointer;
 }
 
 .icon-observacoes{
@@ -72,17 +73,19 @@ h5{
 }
 
 .desc-tarefa{
-	font-size: 19px;
+	font-size: 16px;
     color: #797676;
-	padding-bottom: 20px;
+	padding-bottom: 55px;
+	padding-left: 20px;
 }
 
 .botoes-tarefa{
-	text-align:right;
-	padding-bottom: 20px;
+	position: absolute;
+    top: 8px;
+    right: 15px;
 }
 
-.primeira-row-tarefa{
+.primeira-row-tarefa, .blocks-tarefa .col-md-12{
 	margin-top:40px;
 	background-color: #fff;
     border-radius: 14px;
@@ -187,9 +190,24 @@ h4, h5{
     color: #797676;
 }
 
-.tarefa-cliente, .data-tarefa, .estado-tarefa, .tarefa-avenca{
-	color: #5a5454;
-	font-weight:600;
+.meta-tarefa{
+	position: absolute;
+    bottom: 2px;
+    right: 15px;
+}
+
+.meta-tarefa h5{
+	display: inline-block;
+    color: #bbb6b6;
+    font-weight: 600;
+    margin-left: 25px;
+    font-size: 1em;
+    letter-spacing: .01em;
+}
+
+.meta-tarefa i{
+	margin-right:8px;
+	color:#797777;
 }
 
 .iconprocessada {
@@ -213,6 +231,126 @@ h4, h5{
     color: #2196f3;
 }
 
+.modal-tarefa{
+	margin: auto;
+  	position: absolute;
+  	top: 25%; 
+	left: 0;
+	right: 0;
+	background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.16), 0 22px 16px rgba(0,0,0,0.23);
+    width: 40%;
+	padding: 30px 25px 20px 25px;
+	text-align:center;
+	opacity:0;
+	display:none;
+}
+
+.mostrar-modal{
+	display:block;
+	animation: mostrarModal .3s ease-in;
+	animation-fill-mode: forwards;
+}
+
+@keyframes mostrarModal{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+.close-modal{
+	position: absolute;
+    right: 11px;
+    top: 6px;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: #666;
+	cursor:pointer;
+}
+
+.modal-tarefa label{
+	display:block;
+	text-align:left;
+	width:90%;
+	margin:0 auto 10px auto;
+	color: #666;
+    letter-spacing: .02em;
+}
+
+.modal-tarefa textarea{
+	width:90%;
+	margin:0 auto;
+	border-radius: 7px;
+    background-color: #f7f7f7;
+    border: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    text-indent: 15px;
+	height:70px;
+}
+
+.modal-tarefa button{
+	font-weight: 600;
+    letter-spacing: .02em;
+    border-radius: 7px;
+}
+
+.icon-registo-custos{
+	padding:0 !important;
+}
+
+.preenchido{
+	padding: 7px !important;
+    border-radius: 2px;
+    background-color: #2196f3;
+    margin-left: 15px;
+}
+
+.preenchido i{
+	color:#fff;
+	padding:0;
+}
+
+.alerta-modal{
+	font-size:12px;
+	margin: 15px 0 0 0;
+}
+
+.mt0{
+	margin-top:0 !important;
+}
+
+.mt20{
+	margin-top:20px !important;
+}
+
+.mb10{
+	margin-bottom:10px;
+}
+
+.mb5{
+	margin-bottom:5px;
+}
+
+.col-center{
+	text-align:center;
+}
+
+table{
+	width:98% !important;
+}
+textarea, select, input, button { outline: none; }
+
+@media screen and (max-width: 767px){
+	.modal-tarefa {
+		width:85%;
+	}
+}
 </style>
 
 <script language="JavaScript" type="text/javascript">
@@ -283,6 +421,11 @@ $dado = $obj-> listTarefa($idtarefa);
 $notificacaoVista = $obj -> notificacaoVista($idnotificacao, $iduser);
 $usersTarefa = $obj-> usersTarefa($idtarefa);
 $registoshoras = $obj-> registosHoras($idtarefa);
+$registosfaturacoes = $obj -> registosFaturacoes($idtarefa);
+$contarRegistoCustos = $obj -> contarRegistosCustosTarefa($idtarefa);
+$registoCustos = $obj -> listarRegistosCustosTarefa($idtarefa);
+$registoConcluida = $obj -> registosConcluida($idtarefa);
+
 
 while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
     $titulo = $dados['titulo'];
@@ -295,8 +438,12 @@ while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
 	$prioridade = $dados['nome_prioridade'];
 	$corprioridade = $dados['cor_prioridade'];
 	$processada = $dados['processada'];
+	$faturada = $dados['faturada'];
 	$avenca = $dados['avenca'];
 	$diaria = $dados['diaria'];
+	$foifaturada = $dados['foi_faturada'];
+	$observacoesFaturacao = $dados['observacoes_faturacao'];
+	$tipotarefa = $dados['tipo_tarefa'];
 	$newValAvenca = !$avenca;
 	if($avenca==1){
 		$newValAvenca = 0;
@@ -304,6 +451,26 @@ while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
 	else{
 		$newValAvenca = 1;
 	}
+}
+
+
+while($dados= $registosfaturacoes->fetch(PDO::FETCH_ASSOC)){
+	$dataRegistoFaturacao = $dados['data'];
+	$userRegistoFaturacao = $dados['nome_user'];
+	$dia = substr($dataRegistoFaturacao, 8, 2);
+	$mes = substr($dataRegistoFaturacao, 5, 2);
+	$ano = substr($dataRegistoFaturacao, 0, 4);
+	$dataCompleta = $dia.'/'.$mes.'/'.$ano;
+}
+
+
+while($dados= $registoConcluida->fetch(PDO::FETCH_ASSOC)){
+	$dataRegistoConcluida = $dados['data'];
+	$userRegistoConcluida = $dados['nome_user'];
+	$diaC = substr($dataRegistoConcluida, 8, 2);
+	$mesC = substr($dataRegistoConcluida, 5, 2);
+	$anoC = substr($dataRegistoConcluida, 0, 4);
+	$dataCompletaConcluida = $diaC.'/'.$mesC.'/'.$anoC;
 }
 
 $newDateIni = date("d-m-Y", strtotime($dataini));
@@ -328,6 +495,45 @@ else if($estado == 5){
 	$state = "Aguarda Aprovação Externa";
 }
 
+switch($faturada){
+	case '0':
+	$faturadaName = 'Para Faturar';
+	break;
+
+	case '1':
+	$faturadaName = 'Faturada';
+	break;
+
+	case '2':
+	$faturadaName = 'Em Avença';
+	break;
+
+	case '3':
+	$faturadaName = 'Em Análise';
+	break;
+
+	case '4':
+	$faturadaName = 'Gratuita';
+	break;
+
+	default:
+	$faturadaName = '-';
+	break;
+}
+
+switch($tipotarefa){
+	case '0':
+	$nameTipo = 'Tarefa Normal';
+	break;
+
+	case '1':
+	$nameTipo = 'Tarefa Diária';
+	break;
+
+	case '2':
+	$nameTipo = 'Tarefa Externa';
+	break;
+}
 
 if(!empty($_POST['submit'])){
 	$userobs = $iduser;
@@ -357,52 +563,54 @@ if(!empty($_POST['submit'])){
 			
 			<?php if($_SESSION['admin']==1){ ?>
 				<div class="botoes-tarefa-mobile">
-					<?php if(isset($_GET['link'])){?>
-						<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1&link=<?php echo $_GET['link'].'&conc=1' ?>" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
-						<?php } else if(isset($_GET['linktodas'])){?>
-							<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1&link=<?php echo $_GET['linktodas'].'?&conc=1' ?>" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
-						<?php }
-						else{?>
-							<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
+						<span <?php if($processada == 0){ echo 'onclick="return processarTarefa()"';}?> class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">C</span>
+						<?php if($processada == 1 && $_SESSION['superadmin']==1){ ?>
+								<span <?php if($foifaturada == 0){ echo "onclick='return faturarTarefa(".$idtarefa.",".$foifaturada.")'";}?> class="pgrande <?php if($foifaturada == 1){ ?>iconprocessada <?php } ?>"title="Marcar como Faturada">F</span>
 						<?php } ?>
+						<?php if($contarRegistoCustos > 0 && $faturada != 2) {?>
+							<a href="editar_custos_tarefa.php?id=<?php echo $idtarefa ?>"><span class="icon-registo-custos preenchido"><i class="fas fa-file-invoice-dollar"></i></span></a>
+						<?php } else if($faturada != 2){?>
+							<a href="insert_custos_tarefa.php?id=<?php echo $idtarefa ?>"><span class="icon-registo-custos"><i class="fas fa-file-invoice-dollar"></i></span></a>
+						<?php } ?>
+						<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
 						<a href = "edit_tarefa.php?id=<?php echo $idtarefa ?>"><i class="fa fa-wrench" aria-hidden="true" title="Editar Tarefa"></i></a>
 						<a href = "delete_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkDelete()"><i class="fa fa-trash-o" aria-hidden="true" title="Apagar Tarefa"></i></a>
 				</div>
 			<?php } ?>
 
 			<div class="row primeira-row-tarefa">
-
-				<div class="col-md-6">
 					<h3 class="header-tarefa"><?php echo $titulo ?></h3>
 					<br>
-					<p class="desc-tarefa"><?php echo $desc ?></p>
-				</div>
+					<div class="desc-tarefa"><?php echo $desc ?></div>
 
-				<div class="col-md-6" style="text-align:right;">
+
 					<?php if($_SESSION['admin']==1){ ?>
 						<div class="botoes-tarefa">
-							<?php if(isset($_GET['link'])){?>
-									<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1&link=<?php echo $_GET['link'].'&conc=1' ?>" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
-							<?php } else if(isset($_GET['linktodas'])){?>
-								<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1&link=<?php echo $_GET['linktodas'].'?&conc=1' ?>" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
-							<?php }
-							else{?>
-							<a href = "processar_tarefa.php?id=<?php echo $idtarefa ?>&val=1" onclick="return checkProcessada()"><span class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">P</span></a>
+							<span <?php if($processada == 0){ echo 'onclick="return processarTarefa()"';}?> class="pgrande <?php if($processada == 1){ ?>iconprocessada <?php } ?>"title="Para Processar">C</span>
+							<?php if($processada == 1 && $_SESSION['superadmin']==1){ ?>
+								<span onclick='return faturarTarefa(<?php echo $idtarefa.",".$foifaturada ?>)' class="pgrande <?php if($foifaturada == 1){ ?>iconprocessada <?php } ?>"title="Marcar como Faturada">F</span>
 							<?php } ?>
-							<?php if($diaria == 1){?>
-								<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
+							<?php if($contarRegistoCustos > 0 && $faturada != 2) {?>
+							<a href="editar_custos_tarefa.php?id=<?php echo $idtarefa ?>"><span class="icon-registo-custos preenchido"><i class="fas fa-file-invoice-dollar"></i></span></a>
+							<?php } else if($faturada != 2){?>
+								<a href="insert_custos_tarefa.php?id=<?php echo $idtarefa ?>"><span class="icon-registo-custos"><i class="fas fa-file-invoice-dollar"></i></span></a>
 							<?php } ?>
+							<a href = "copy_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkCopy()"><i class="fa fa-copy" aria-hidden="true" title="Copiar Tarefa"></i></a>
 							<a href = "edit_tarefa.php?id=<?php echo $idtarefa ?>"><i class="fa fa-wrench" aria-hidden="true" title="Editar Tarefa"></i></a>
 							<a href = "delete_tarefa.php?id=<?php echo $idtarefa ?>" onclick="return checkDelete()"><i class="fa fa-trash-o" aria-hidden="true" title="Apagar Tarefa"></i></a>
 						</div>
 					<?php } ?>
 					<?php if($avenca == 1){?>
-					<h5 class="tarefa-avenca">Tarefa Avençada</h4>
+						<h5 class="tarefa-avenca">Tarefa Avençada</h4>
 					<?php } ?>
-					<h5 class="tarefa-cliente"><?php echo $cliente; ?></h4>
-					<h5 class="data-tarefa"><?php echo $newDateFim;?></h4>
-					<h5 class="estado-tarefa"><?php echo $state?></h4>
-				</div>
+					<div class="meta-tarefa">
+						<h5 class="tarefa-tipo"><i class="fa fa-info"></i><?php echo $nameTipo; ?></h5>
+						<h5 class="tarefa-cliente"><i class="fa fa-users"></i><?php echo $cliente; ?></h5>
+						<h5 class="data-tarefa"><i class="fa fa-calendar"></i><?php echo $newDateFim;?></h5>
+						<h5 class="estado-tarefa"><i class="fa fa-tasks"></i><?php echo $state?></h5>
+						<h5 class="faturacao-tarefa"><i class="fa fa-credit-card"></i><?php echo $faturadaName?></h5>
+					</div>
+
 
 			</div>
 
@@ -547,7 +755,89 @@ if(!empty($_POST['submit'])){
 					</div>
 
 				</div>
+				
+				<?php if($_SESSION['admin']==1 && $faturada != 2){ ?>
+				<div class="row">
 
+					<div class="col-md-12 block-custos-faturacao">
+						<h4 class="blocks-title">Custos para Faturação</h4>
+						<?php
+							if($contarRegistoCustos){
+								$custoTotalFornecedor = 0;
+								$custoTotalVenda = 0;
+								$i = 1;
+								echo '<table class="table">
+										<thead>
+										<tr>
+											<th scope="col">#</th>
+											<th scope="col">Serviço</th>
+											<th style="text-align:center;" scope="col">Custos Fornecedor</th>
+											<th style="text-align:center;" scope="col">Valores Venda</th>
+										</tr>
+										</thead>
+										<tbody>';
+								while($dados = $registoCustos->fetch(PDO::FETCH_ASSOC)){
+									echo '<tr>
+											<th scope="row">'.$i.'</th>
+											<td>'.$dados['servico'].'</td>
+											<td style="text-align:center;font-family: sans-serif;">'.$dados['custo_fornecedor'].'</td>
+											<td style="text-align:center;font-family: sans-serif;">'.$dados['custo_venda'].'</td>
+										</tr>';
+									$custoTotalFornecedor += $dados['custo_fornecedor'];
+									$custoTotalVenda += $dados['custo_venda'];
+									$i++;
+								}
+								$resultado = $custoTotalVenda - $custoTotalFornecedor;
+								echo '<tr>
+											<th scope="row"></th>
+											<td></td>
+											<td style="text-align:center;"><strong>Total</strong></td>
+											<td style="text-align:center;"><strong>Total</strong></td>
+										</tr>
+										<tr>
+											<th scope="row"></th>
+											<td></td>
+											<td style="text-align:center;font-family: sans-serif;">'.$custoTotalFornecedor.'€</td>
+											<td style="text-align:center;font-family: sans-serif;">'.$custoTotalVenda.'€</td>
+										</tr>
+										<tr>
+											<th scope="row"></th>
+											<td></td>
+											<td></td>
+											<td style="text-align:center;"><strong>Resultado</strong></td>
+										</tr>
+										<tr>
+											<th scope="row"></th>
+											<td></td>
+											<td></td>
+											<td style="text-align:center;font-family: sans-serif;">'.$resultado.'€</td>
+										</tr>
+										</tbody>
+										</table>
+										';
+									}
+							else{
+								echo 'Esta Tarefa ainda não tem um Registo de Custos associado.';
+							}	
+						?>
+					</div>
+					
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-12 block-observacoes-faturacao">
+						<h4 class="blocks-title">Observações para Faturação</h4>
+						<p>
+							<?php if($observacoesFaturacao == ''){echo 'Esta Tarefa não tem qualquer Observação para Faturação.';}
+							else{echo $observacoesFaturacao;} ?>
+						</p>
+					</div>
+
+				</div>
+				<?php if($dataRegistoConcluida){ echo "<h6 class='frase-faturacao-tarefa'>Esta tarefa foi marcada como 'Concluída' por ".$userRegistoConcluida." no dia ".$dataCompletaConcluida.".</h6>"; }?>
+				<?php if($dataRegistoFaturacao){ echo "<h6 class='frase-faturacao-tarefa'>Esta Tarefa foi Faturada por ".$userRegistoFaturacao." no dia ".$dataCompleta.".</h6>"; }?>
+				<?php } ?>
 
 			</div>
 
@@ -628,8 +918,80 @@ if(!empty($_POST['submit'])){
 </div>
 
 
+<div class="modal-tarefa modal-tarefa-processada">
+	<div class="close-modal">X</div>
+	<form method="POST" action="processar_tarefa.php" class="form-processar-tarefa">
+		<div class="form-group form-input-last">
+			<label for="observacoes">Observações</label>
+	    	<textarea name="observacoes" id="observacoes"></textarea>
+		</div>
+		<input type="hidden" name="idtarefa" value="<?php echo $idtarefa ?>" />
+		<input type="hidden" name="valfaturada" value="<?php echo $faturada ?>" />
+		<input type="hidden" name="titulotarefa" value="<?php echo $titulo ?>" />
+		<input type="hidden" name="user" value="<?php echo $iduser ?>" />
+		<input type="hidden" name="tipo" value="1"/>
+		<div class="form-group">
+			<button class="btn btn-primary">Concluir Tarefa</button>
+		</div>
+	</form>
+</div>
+
+
 
 </div>
+
+<script>
+
+
+	function processarTarefa(){
+		var contarRegistoCustos = "<?php echo $contarRegistoCustos; ?>";
+		var idtarefa = "<?php echo $idtarefa; ?>";
+		var modoFaturacao = "<?php echo $faturada; ?>";
+
+        if(modoFaturacao == 3){
+			alert("O modo de Faturação desta Tarefa está definido como 'Em Análise'. Tem que alterar isto para poder marcar a Tarefa como 'Concluída'.")
+		}
+		else{
+			$('.modal-tarefa').addClass('mostrar-modal');
+			if(contarRegistoCustos == 0){
+				$('.modal-tarefa form').append('<p class="alerta-modal">Esta Tarefa não tem nenhum Registo de Custos associado. Pode adicionar um <a href="insert_custos_tarefa.php?id='+idtarefa+'">aqui</a>.</p>')
+			}
+		}
+		
+	}
+
+
+
+
+	function faturarTarefa(tarefa, val){
+      var newVal = 0;
+      var valFaturada = 0;
+      val == 0 ? newVal = 1 : newVal = 0;
+      val == 0 ? valFaturada = 1 : valFaturada = 0;
+      $.ajax({
+            type:'GET',
+            url:'./ajax/faturar-tarefa.php',
+            data: { 'id': tarefa, 'val': newVal, 'faturada': valFaturada  },
+            success: function(){
+				if(newVal == 1){
+					alert("Esta Tarefa foi actualizada como 'Faturada'!");
+				}
+                else{
+					alert("Esta Tarefa foi actualizada como 'Por Faturar'!");
+				}
+                location.reload()
+            },
+            error: function(xhr, status, error) {
+                console.log(xhr);
+                alert('Algo correu mal! Tente de novo por favor.');
+            }	
+        });
+  	}
+
+	$('.close-modal').on('click', function(){
+		$('.modal-tarefa').removeClass('mostrar-modal');
+	})
+</script>
 
 <script>
 	function RefreshWindow()

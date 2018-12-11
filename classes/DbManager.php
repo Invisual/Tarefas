@@ -89,8 +89,8 @@ class classes_DbManager{
 			return ($query);
 		 
 		 }
-
-
+		 
+		 
 		 public function listInfoCliente ($idcliente){
 		 
 			$query = $this->_myDb->prepare("SELECT *  FROM infos_clientes INNER JOIN clientes ON infos_clientes.cliente_id=clientes.id_cliente WHERE cliente_id = :idcliente ") ; 
@@ -101,8 +101,8 @@ class classes_DbManager{
 			return ($query);
 		 
 		 }
-
-
+		 
+		 
 		 public function listInfoClienteById($idinfo){
 		 
 			$query = $this->_myDb->prepare("SELECT *  FROM infos_clientes INNER JOIN clientes ON infos_clientes.cliente_id=clientes.id_cliente WHERE id_info = :idinfo ") ; 
@@ -113,6 +113,7 @@ class classes_DbManager{
 			return ($query);
 		 
 		 }
+		 
 		 
 		 
 		 public function listHora($idhora){
@@ -185,7 +186,7 @@ class classes_DbManager{
 
 		  public function listarTarefasUser($idutilizador){
 			
-			$query = $this->_myDb->prepare("SELECT * FROM tarefas INNER JOIN clientes ON tarefas.cliente_id=clientes.id_cliente INNER JOIN prioridade ON tarefas.prioridade_id = prioridade.id_prioridade INNER JOIN intervenientes_tarefa ON tarefas.id_tarefa = intervenientes_tarefa.tarefa_interv_id INNER JOIN users on intervenientes_tarefa.user_interv_id = users.id_user INNER JOIN ordem on tarefas.id_tarefa = ordem.id_tarefa_ordem WHERE id_user = :idutilizador AND id_user_ordem = :idutilizador and processada = 0 ORDER BY diaria desc, CHAR_LENGTH(valor_ordem), valor_ordem asc");
+			$query = $this->_myDb->prepare("SELECT * FROM tarefas INNER JOIN clientes ON tarefas.cliente_id=clientes.id_cliente INNER JOIN prioridade ON tarefas.prioridade_id = prioridade.id_prioridade INNER JOIN intervenientes_tarefa ON tarefas.id_tarefa = intervenientes_tarefa.tarefa_interv_id INNER JOIN users on intervenientes_tarefa.user_interv_id = users.id_user INNER JOIN ordem on tarefas.id_tarefa = ordem.id_tarefa_ordem WHERE id_user = :idutilizador AND id_user_ordem = :idutilizador and processada = 0 GROUP BY id_tarefa ORDER BY tipo_tarefa desc, CHAR_LENGTH(valor_ordem), valor_ordem asc");
 			$query->bindParam(":idutilizador", $idutilizador);
 			$idutilizador = $idutilizador;
 			$query -> execute();
@@ -212,7 +213,7 @@ class classes_DbManager{
 		  public function listarMinhasTarefas ($iduser){
 		 
 	
-			$query = $this->_myDb->prepare("SELECT * FROM tarefas INNER JOIN clientes ON tarefas.cliente_id=clientes.id_cliente INNER JOIN prioridade ON tarefas.prioridade_id = prioridade.id_prioridade INNER JOIN intervenientes_tarefa ON tarefas.id_tarefa = intervenientes_tarefa.tarefa_interv_id INNER JOIN users on intervenientes_tarefa.user_interv_id = users.id_user INNER JOIN ordem on tarefas.id_tarefa = ordem.id_tarefa_ordem WHERE id_user = :iduser AND id_user_ordem = :iduser AND processada = 0 ORDER BY diaria desc, CHAR_LENGTH(valor_ordem), valor_ordem asc");
+			$query = $this->_myDb->prepare("SELECT * FROM tarefas INNER JOIN clientes ON tarefas.cliente_id=clientes.id_cliente INNER JOIN prioridade ON tarefas.prioridade_id = prioridade.id_prioridade INNER JOIN intervenientes_tarefa ON tarefas.id_tarefa = intervenientes_tarefa.tarefa_interv_id INNER JOIN users on intervenientes_tarefa.user_interv_id = users.id_user INNER JOIN ordem on tarefas.id_tarefa = ordem.id_tarefa_ordem WHERE id_user = :iduser AND id_user_ordem = :iduser AND processada = 0 GROUP BY id_tarefa ORDER BY tipo_tarefa desc, CHAR_LENGTH(valor_ordem), valor_ordem asc");
 			$query->bindParam(":iduser", $iduser);
 			$iduser = $iduser;
 			
@@ -414,6 +415,25 @@ class classes_DbManager{
 			return ($query);
 		}
 
+		public function deleteTarefaFaturada($idtarefa) {
+			
+			$query = $this->_myDb->prepare("DELETE FROM tarefas_faturadas WHERE tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);
+			$idtarefa = $idtarefa;	 
+			$query -> execute();
+			return ($query);
+		}
+
+
+		public function deleteCustosTarefa($idtarefa) {
+			
+			$query = $this->_myDb->prepare("DELETE FROM custos_tarefa WHERE tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);
+			$idtarefa = $idtarefa;	 
+			$query -> execute();
+			return ($query);
+		}
+
 
 		 
 		 public function contarTarefas(){
@@ -513,12 +533,22 @@ class classes_DbManager{
 
 		public function listAllUsers(){
 			
-						$query = $this->_myDb->prepare("SELECT * from users order by nome_user asc");
+						$query = $this->_myDb->prepare("SELECT * from users where inativo != '1' order by nome_user asc");
 						$query -> execute();
 						return($query);
 			
-					}
-		
+		}
+
+
+		public function listUsersCargo($cargo){
+			
+			$query = $this->_myDb->prepare("SELECT * from users where inativo != '1' and cargo = :cargo order by nome_user asc");
+			$query->bindParam(":cargo", $cargo);
+			$cargo = $cargo;
+			$query -> execute();
+			return($query);
+
+		}		
 
 
 		public function getNotificacoes($iduser){
@@ -675,7 +705,52 @@ class classes_DbManager{
 					}
 
 
-					
+		public function registosFaturacoes($idtarefa){
+			
+			$query = $this->_myDb-> prepare("SELECT * from tarefas_faturadas INNER JOIN users on tarefas_faturadas.user_id = users.id_user WHERE tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);	 
+			$idtarefa = $idtarefa;
+			$query -> execute();
+			return($query);
+			
+		}
+
+
+		public function contarRegistosCustosTarefa($idtarefa){
+						
+			$query = $this->_myDb-> prepare("SELECT COUNT(*) AS total FROM custos_tarefa where tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);	 
+			$idtarefa = $idtarefa;
+			$query -> execute();
+			$row = $query->fetchAll(PDO::FETCH_ASSOC);
+			$count = $row[0]['total'];
+			return($count);
+			
+		}
+
+
+		public function listarRegistosCustosTarefa($idtarefa){
+			
+			$query = $this->_myDb-> prepare("SELECT * from custos_tarefa WHERE tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);	 
+			$idtarefa = $idtarefa;
+			$query -> execute();
+			return($query);
+			
+		}
+
+
+		public function registosConcluida($idtarefa){
+			
+			$query = $this->_myDb-> prepare("SELECT * from tarefas_concluidas INNER JOIN users on tarefas_concluidas.user_id = users.id_user WHERE tarefa_id = :idtarefa");
+			$query->bindParam(":idtarefa", $idtarefa);	 
+			$idtarefa = $idtarefa;
+			$query -> execute();
+			return($query);
+			
+		}
+
+		
 		public function consultaHoras($iduser, $idtarefa){
 						
 						$query = $this->_myDb-> prepare("SELECT * FROM horas WHERE user_id = :iduser and tarefa_id = :idtarefa order by id_hora desc limit 1");
@@ -690,17 +765,47 @@ class classes_DbManager{
 	    
 	    
 	    
-	    public function processarTarefa($idtarefa, $val){
+	    public function processarTarefa($idtarefa, $observacoes, $valfaturada, $titulotarefa){
 							
-							$query = $this->_myDb-> prepare("UPDATE tarefas set processada= :val, faturada = 3 WHERE id_tarefa = :idtarefa");
-							$query->bindParam(":idtarefa", $idtarefa);
-							$query->bindParam(":val", $val);
-							$idtarefa = $idtarefa;		 
-							$val = $val;
-							$query -> execute();
-							return ($query);
+					$query = $this->_myDb-> prepare("UPDATE tarefas set processada = 1, observacoes_faturacao = :observacoes WHERE id_tarefa = :idtarefa");
+					$query->bindParam(":idtarefa", $idtarefa);
+					$query->bindParam(":observacoes", $observacoes);
+					$idtarefa = $idtarefa;		 
+					$observacoes = $this->purificar($observacoes);
+					$query -> execute();
+
+					if($valfaturada == 0){
+						$to      = 'contabilidade@invisual.pt';
+						$subject = "Nova Tarefa para Faturar - '".$titulotarefa."'";
+						$message = "A Tarefa '<strong>".$titulotarefa."</strong>' foi Processada e definida como 'Em Análise' ou 'Por Faturar'.
+						<br><br>
+						Pode vê-la e actualizar o seu estado aqui: <a href='https://tarefas.invisual.pt/listar_tarefa.php?id=".$idtarefa."'>Ver Tarefa</a>";
+						$headers = "From: tarefas@invisual.pt" . "\r\n";
+						$headers .= "Reply-To: tarefas@invisual.pt" . "\r\n";
+						$headers .= "MIME-Version: 1.0\r\n";
+						$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+						mail($to, $subject, $message, $headers);
+					}
+						
 							
 			}
+
+
+
+			public function inserirRegistoProcessarTarefa($idtarefa, $user){
+							
+				$query = $this->_myDb-> prepare("INSERT INTO tarefas_concluidas (tarefa_id, user_id) VALUES (:idtarefa, :user)");
+				$query->bindParam(":idtarefa", $idtarefa);
+				$query->bindParam(":user", $user);
+				$idtarefa = $idtarefa;		 
+				$user = $user;
+				$query -> execute();
+				return ($query);
+				
+			}
+
+
 
 			public function tarefasAjaxCliente($cliente, $mes){
 
@@ -811,7 +916,7 @@ class classes_DbManager{
 		public function horasClienteMes($idcliente, $mes){
 				
 
-						$query = $this->_myDb->prepare("SELECT SEC_TO_TIME(SUM(TIME_TO_SEC(TIMEDIFF(hora_fim, hora_inicio)))) AS 'horastotais'  FROM `horas` INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente  WHERE id_cliente= $idcliente and processada=1 and faturada = 2 and dia LIKE '%/$mes'");
+						$query = $this->_myDb->prepare("SELECT SEC_TO_TIME(SUM(TIME_TO_SEC(TIMEDIFF(hora_fim, hora_inicio)))) AS 'horastotais'  FROM `horas` INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente  WHERE id_cliente= $idcliente and faturada = 2 and dia LIKE '%/$mes'");
 				
 						$idcliente = $this->purificar($idcliente);
 						$mes = $this->purificar($mes);
@@ -894,9 +999,7 @@ class classes_DbManager{
 							return ($query);
 				
 			}
-
-
-
+			
 			public function horasUtilizador($iduser){
 				
 							$query = $this->_myDb-> prepare("SELECT * FROM horas INNER JOIN tarefas on horas.tarefa_id = tarefas.id_tarefa INNER JOIN clientes on tarefas.cliente_id = clientes.id_cliente where user_id = :iduser ");
@@ -907,9 +1010,9 @@ class classes_DbManager{
 							return ($query);
 				
 			}
-
-
-
+			
+			
+			
 			public function getLastId(){
 				
 				$query = $this->_myDb-> prepare("SELECT * FROM tarefas ORDER BY id_tarefa DESC LIMIT 1");

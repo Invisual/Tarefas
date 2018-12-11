@@ -185,7 +185,6 @@ else if($estado == 5){
 					<option value="" disabled>Estado</option>
 					<option <?php if($estado == 0){ echo "selected"; }?> value="0">Por Iniciar</option>
 					<option <?php if($estado == 1){ echo "selected"; }?> value="1">Em Curso</option>
-					<option <?php if($estado == 2){ echo "selected"; }?> value="2">Concluída</option>
 					<option <?php if($estado == 3){ echo "selected"; }?> value="3">Pausa</option>
 					<option <?php if($estado == 4){ echo "selected"; }?> value="4">Aguarda Aprovação Interna</option>
 					<option <?php if($estado == 5){ echo "selected"; }?> value="5">Aguarda Aprovação Externa</option>

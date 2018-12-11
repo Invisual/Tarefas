@@ -249,3 +249,25 @@ Stack trace:
 [12-Jul-2018 11:53:23 America/Chicago] PHP Notice:  Undefined index: option in /home/pg22933/tarefas.invisual.pt/ajax/bulk-processadas.php on line 8
 [12-Jul-2018 11:53:25 America/Chicago] PHP Notice:  Undefined index: id in /home/pg22933/tarefas.invisual.pt/ajax/bulk-processadas.php on line 7
 [12-Jul-2018 11:53:25 America/Chicago] PHP Notice:  Undefined index: option in /home/pg22933/tarefas.invisual.pt/ajax/bulk-processadas.php on line 8
+[18-Jul-2018 08:18:47 America/Chicago] PHP Notice:  Undefined index: id in /home/pg22933/tarefas.invisual.pt/ajax/bulk-tarefas-concluidas.php on line 7
+[20-Jul-2018 12:10:40 America/Chicago] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/pg22933/tarefas.invisual.pt/ajax/ajax-clientes.php on line 5
+[31-Jul-2018 06:59:44 America/Chicago] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pg22933/tarefas.invisual.pt/ajax/db.php on line 4
+[31-Jul-2018 06:59:44 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/pg22933/tarefas.invisual.pt/ajax/db.php on line 4
+[05-Sep-2018 17:22:21 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:22:21 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:22:46 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:22:46 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:24:02 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:24:02 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:28:11 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:28:11 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:28:58 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:28:58 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:31:13 America/Chicago] PHP Notice:  Undefined variable: userquery in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[05-Sep-2018 17:31:13 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/pg22933/tarefas.invisual.pt/ajax/listagem_ajax_processadas_all.php on line 29
+[06-Sep-2018 03:31:25 America/Chicago] PHP Notice:  Undefined index: tarefa in /home/pg22933/tarefas.invisual.pt/ajax/get_intervenientes_tarefa.php on line 8
+[06-Sep-2018 03:31:25 America/Chicago] PHP Notice:  Undefined index: tarefa in /home/pg22933/tarefas.invisual.pt/ajax/get_intervenientes_tarefa.php on line 8
+[06-Sep-2018 03:31:25 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/pg22933/tarefas.invisual.pt/ajax/get_intervenientes_tarefa.php on line 14
+[06-Sep-2018 03:31:25 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/pg22933/tarefas.invisual.pt/ajax/get_intervenientes_tarefa.php on line 14
+[14-Sep-2018 08:51:04 America/Chicago] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/pg22933/tarefas.invisual.pt/ajax/ajax-clientes.php on line 5
+[14-Sep-2018 08:51:09 America/Chicago] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/pg22933/tarefas.invisual.pt/ajax/ajax-clientes.php on line 5

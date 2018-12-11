@@ -35,7 +35,6 @@ $idtarefa=$_GET["id"];
 $db = classes_DbManager::ob();
 
 $getTarefa = $db -> listTarefa($idtarefa);
-
 while($dados= $getTarefa->fetch(PDO::FETCH_ASSOC)){
     $titulo = $dados['titulo'].' - CÓPIA';
     $desc = $dados['descricao'];
@@ -43,6 +42,7 @@ while($dados= $getTarefa->fetch(PDO::FETCH_ASSOC)){
     $cliente = $dados['cliente_id'];
 	$diaria = $dados['diaria'];
 	$avenca = $dados['avenca'];
+	$tipo = $dados['tipo_tarefa'];
 }
 
 
@@ -54,15 +54,30 @@ while($users= $getIntervenientes->fetch(PDO::FETCH_ASSOC)){
 	array_push($intervenientes, $iduser);
 }
 
+
+
+
+
+
+
 try{		
 	$log = new classes_UserManager($myControlPanel);
-	$insert = $log->insertTarefa($titulo, $desc, $cliente, $datafim, $intervenientes, $diaria, $avenca);
+	$insert = $log->insertTarefa($titulo, $desc, $cliente, $datafim, $intervenientes, $diaria, $avenca, $tipo);
 
 	$getId = $db -> getLastId();
 	while($dadosid= $getId->fetch(PDO::FETCH_ASSOC)){
 		$idval = $dadosid['id_tarefa'];
 	}
 
+	$getCustos = $db -> listarRegistosCustosTarefa($idtarefa);
+	while($dadosCustos= $getCustos->fetch(PDO::FETCH_ASSOC)){
+		$servico = $dadosCustos['servico'];
+		$custofornecedor = $dadosCustos['custo_fornecedor'];
+		$custovenda = $dadosCustos['custo_venda'];
+		$fornecedor = '.';
+
+		$insertCusto = $log->insertCustosTarefa($idval, $servico, $custofornecedor, $custovenda, $fornecedor, 2);
+	}
 	
 }
 catch (invalidArgumentException $e){

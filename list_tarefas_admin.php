@@ -257,11 +257,10 @@ $('#btn-processar-bulk').click(function(){
 		var id = $(this).attr('id');		
 		$.ajax({
             type: "GET",
-            url: "http://localhost/tarefas/ajax/bulk-tarefas-concluidas.php",
+            url: "http://tarefas.invisual.pt/ajax/bulk-tarefas-concluidas.php",
             data: { 'id': id },
             success: function(){
                 console.log(id);
-				alert('Nice');
             },
 			error: function(xhr, status, error) {
 				console.log(xhr);

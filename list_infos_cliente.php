@@ -114,6 +114,32 @@ h4, h5{
 .icons i{
 	font-size:20px;
 }
+
+.print{
+    display:none;
+}
+
+@media print { 
+.row-info-cliente{
+    display:none !important;
+}
+.print{
+    display:block !important;
+}
+.container-fluid{
+    top:0 !important;
+}
+h4{
+    font-size:14px !important;
+}
+h5{
+    font-size:12px !important;
+}
+p{
+    font-size:10px !important;
+}
+}
+
 </style>
 
 
@@ -171,6 +197,7 @@ while($dados= $dado->fetch(PDO::FETCH_ASSOC)){
 }
 
 $splitemails = explode(",", $emails);
+$splitoutros = explode(",", $outros);
 
 if(!$linkCpanel){$linkCpanel='-';}
 if(!$userCpanel){$userCpanel='-';}
@@ -189,7 +216,7 @@ if(!$emails){$emails='-';}
 <body class="pagina-tarefa">
 
 <script>
-var prompt = prompt("Password Obrigat贸ria");
+var prompt = prompt("Introduzir Password");
 var pass = '123', pag = 'infos';
 $.ajax({
 	type:'POST',
@@ -208,7 +235,7 @@ $.ajax({
 	<?php 
 	
 	if($vazio == 1){
-		echo "<h3 class='text-center'>Este Cliente ainda n茫o tem um registo de infos. Crie um <a href='insert_info_cliente.php'>aqui</a>.</h1>";
+		echo "<h3 class='text-center'>Este Cliente ainda não tem um registo de infos. Crie um <a href='insert_info_cliente.php'>aqui</a>.</h1>";
 	}
 	else{
 	?>
@@ -308,7 +335,9 @@ $.ajax({
 					<div class="col-md-12">
 						<h5>Outros</h5>
 						<br>
-						<p><?php echo $outros ?></p>
+						<?php foreach($splitoutros as $outro){
+						echo '<p>'.$outro.'</p>';
+					} ?>
 					</div>
 
 				</div>
@@ -318,8 +347,55 @@ $.ajax({
 	</div>
 
 	<?php } ?>
+	
+	<div class="print">
+	    
+	    <h4>Infos do Cliente - <strong><?php echo $nomeCliente ?></strong></h4>
+	    
+	    <h5>Link cPanel</h5>
+		<p><?php echo $linkCpanel ?></p>
+	    <h5>Username cPanel</h5>
+		<p><?php echo $userCpanel ?></p>
+		<h5>Password cPanel</h5>
+		<p><?php echo $passCpanel ?></p>
+		
+		 <hr>
+		 
+         <h5>NicHandle DNS</h5>
+		<p><?php echo $nicDns ?></p>
+        <h5>Password DNS</h5>
+		<p><?php echo $passDns ?></p>
+		
+		 <hr>
+        
+        <h5>Link WordPress</h5>
+		<p><?php echo $linkWp ?></p>
+        <h5>Username WordPress</h5>
+		<p><?php echo $userWp ?></p>
+		<h5>Password WordPress</h5>
+		<p><?php echo $passWp ?></p>
+		
+		 <hr>
+  
+        <h5>Emails</h5>
+		<?php foreach($splitemails as $email){
+			        echo '<p>'.$email.'</p>';
+			    } ?>
+		
+		 <hr>
+        
+	    <h5>Outros</h5>
+		<?php foreach($splitoutros as $outro){
+				    echo '<p>'.$outro.'</p>';
+				} ?>
+	    
+	    
+	</div>
 
 </div>
+
+
+
 
 <script>
 	function RefreshWindow()

@@ -41,7 +41,7 @@ body{
     margin: auto;
 }
 
-input[type="text"], select, textarea{
+.row-form-holder input[type="text"], select, .row-form-holder textarea{
 	border-radius: 14px;
     background-color: #f7f7f7;
     border: none;

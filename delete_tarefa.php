@@ -41,6 +41,8 @@ $deletenotifmsg = $delete-> deleteNotificacaoMensagemByTarefa($idtarefa);
 $deleteordem = $delete-> deleteOrdem($idtarefa);
 $deletehoras = $delete-> deleteHoras($idtarefa);
 $deleteobservacoes = $delete-> deleteObservacoes($idtarefa);
+$deletefaturada = $delete-> deleteTarefaFaturada($idtarefa);
+$deletecustostarefa = $delete-> deleteCustosTarefa($idtarefa);
 $deletetarefa = $delete-> deleteTarefa($idtarefa);
 
 if(!empty($idcliente)){

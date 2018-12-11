@@ -46,16 +46,34 @@ include('notificacoes.php');
 
       <li><a href="index.php"><i class="fa fa-home icons-menu" title="Home" aria-hidden="true"></i></a></li>
 
+
+       <?php if($_SESSION['admin']==1){ ?>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            <span class="icons-menu" title="Administração" style="font-weight:700;">A</span>
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="listagem_admin.php">Todas as Tarefas</a></li>
+            <li><a href="list_tarefas_faturadas.php">Tarefas Faturadas</a></li>
+            <li><a href="list_clientes_avencados.php">Bolsas de Horas por Cliente</a></li>
+          </ul>
+        </li>
+      <?php } ?>
+
+      <?php if($_SESSION['admin']==1){ ?>
+      <li class="dropdown">
+          <a href="list_tarefas_processadas.php">
+            <span class="icons-menu" title="Tarefas Concluídas" style="font-weight:700;">C</span>
+          </a>
+      </li>
+      <?php } ?>
+
       <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
          <i class="fa fa-tasks icons-menu" title="Tarefas" aria-hidden="true"></i>
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <?php if($_SESSION['superadmin']==1){ ?>
-          <li><a href="list_tarefas_admin.php">Ver Todas Tarefas</a></li>
-        <?php } else{ ?>
           <li><a href="list_tarefas.php">Ver Todas Tarefas</a></li>
-        <?php } ?>
           <li><a href="list_my_tarefas.php">As Minhas Tarefas</a></li>
           <li><a href="insert_tarefa.php">Inserir Tarefa</a></li>
         </ul>
@@ -69,27 +87,13 @@ include('notificacoes.php');
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="list_clientes.php">Ver Clientes</a></li>
-          <li><a href="insert_info_cliente.php">Adicionar Info de Cliente</a></li>
           <?php if($_SESSION['admin'] == 1){ ?>
-          <li><a href="list_clientes_avencados.php">Bolsas de Horas por Cliente</a></li>
           <li><a href="insert_cliente.php">Adicionar Cliente</a></li>
           <?php } ?>
+          <li><a href="insert_info_cliente.php">Adicionar Info de Cliente</a></li>
         </ul>
       </li>
 
-
-
-      <?php if($_SESSION['admin']==1){ ?>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-          <span class="icons-menu" title="Tarefas para Processar" style="font-weight:700;">P</span>
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="list_tarefas_processadas.php">Tarefas Processadas</a></li>
-          <li><a href="bulk_tarefas_processadas.php">Ações em Massa</a></li>
-        </ul>
-      </li>
-      <?php } ?>
 
 
       <?php if($_SESSION['superadmin']==1){ ?>
@@ -102,7 +106,6 @@ include('notificacoes.php');
         </ul>
       </li>
       <?php } ?>
-
 
       </ul>
     
@@ -139,35 +142,6 @@ include('notificacoes.php');
           </li>
     
 
-
-
-
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><div class="notificacoes"><i style="font-size:1.6em;" class="fa fa-comments icon-notificacoes" aria-hidden="true"></i><?php if($countNotificacoesMensagens != 0){?><p style="margin-top:-8px;"><?php echo $countNotificacoesMensagens;?></p><?php } ?></div></a>
-            <ul class="dropdown-menu">
-              <?php
-              if($countNotificacoesMensagens != 0){
-              $getNotificacoesMensagens= $count->getNotificacoesMensagens($iduser); 
-               while($notif = $getNotificacoesMensagens->fetch(PDO::FETCH_ASSOC)){ 
-              ?>
-                  <li <?php if($notif['aberta_not_msg'] == 0){?>style="background-color:#e6e5e5 !important;"<?php } ?>>
-                    <a href="mensagens.php?id=<?php echo $notif['id_tarefa']; ?>&titulo=<?php echo $notif['titulo']; ?>&not=<?php echo $notif['id_not_msg']; ?>&cliente=<?php echo $notif['nome']; ?>">
-                        Foi identificado numa mensagem em - <strong><?php echo $notif['titulo']; ?></strong>
-                    </a>
-                  </li>
-               <?php } } else{?>
-                  <li style="padding: 5px 10px 5px 10px;font-size: 13px;"><span>Sem mensagens</span></li>
-               <?php } ?>
-            </ul>
-          </li>
-
-          
-          
-          
-          
-
-    
-
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><div class="notificacoes"><i style="font-size:1.3em;margin-top:2px;" class="fa fa-bell icon-notificacoes" aria-hidden="true"></i><?php if($countNotificacoes != 0){?><p style="margin-top:-8px;"><?php echo $countNotificacoes;?></p><?php } ?></div></a>
             <ul class="dropdown-menu">
@@ -183,6 +157,13 @@ include('notificacoes.php');
                <?php } ?>
                <li style="margin-top:15px;"><a href="limpar_notificacoes.php?id=<?php echo $_SESSION["id"] ?>&link=<?php echo $actual_link; ?>">Limpar tudo &nbsp; <i class="fa fa-times"></i></a></li>
             </ul>
+          </li>
+
+
+          <li class="dropdown">
+            <a href="regulamento.php" style="margin-top: 8px;">
+              <span class="icons-menu" title="Regulamento" style="font-weight:700;">R</span>
+            </a>
           </li>
           
       

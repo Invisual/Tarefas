@@ -108,11 +108,11 @@ class classes_UserManager {
 	
 	
 	
-	public function insertTarefa($titulo, $descricao, $cliente, $datafim, $intervenientes, $diaria, $avenca){
+	public function insertTarefa($titulo, $descricao, $cliente, $datafim, $intervenientes, $diaria, $faturacao, $tipo){
 		
 		$myDb = $this->_controlPanel->getMyDb();
 		$myDbGet = $this->_controlPanel->get();
-		$query = $myDb->prepare("INSERT INTO tarefas (titulo, descricao, cliente_id, data_ini, data_fim, estado, prioridade_id, urgente, diaria, avenca) VALUES (:titulo, :descricao, :cliente, :dataini, :datafim, :estado, :prioridade, :urgente, :diaria, :avenca)");
+		$query = $myDb->prepare("INSERT INTO tarefas (titulo, descricao, cliente_id, data_ini, data_fim, estado, prioridade_id, urgente, faturada, diaria, tipo_tarefa) VALUES (:titulo, :descricao, :cliente, :dataini, :datafim, :estado, :prioridade, :urgente, :faturacao, :diaria, :tipo)");
 
 		$query->bindParam(':titulo', $title);
 		$query->bindParam(':descricao', $desc);
@@ -122,14 +122,16 @@ class classes_UserManager {
 		$query->bindParam(':estado', $estado);
 		$query->bindParam(':prioridade', $prioridade);
 		$query->bindParam(':diaria', $diaria);
-		$query->bindParam(':avenca', $avenca);
+		$query->bindParam(':faturacao', $faturacao);
+		$query->bindParam(':tipo', $tipo);
 		$query->bindParam(':urgente', $urgente);
 		
 		$title = $myDbGet->purificar($titulo);
 		$desc = $myDbGet->purificar($descricao);
 		$client = $myDbGet->purificar($cliente);
 		$diaria = $myDbGet->purificar($diaria);
-		$avenca = $myDbGet->purificar($avenca);
+		$faturacao = $myDbGet->purificar($faturacao);
+		$tipo = $myDbGet->purificar($tipo);
 		$prioridade = 1;
 		$datain = '0000-00-00';
 		$datafi = $myDbGet->purificar($datafim);
@@ -183,6 +185,91 @@ class classes_UserManager {
 		}
 			
 	}
+
+
+
+
+
+	public function insertCustosTarefa($idtarefa, $servicos, $custosfornecedor, $custosvenda, $nomefornecedor, $tipo){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("INSERT INTO custos_tarefa (tarefa_id, servico, custo_fornecedor, custo_venda, fornecedor) VALUES (:idtarefa, :servico, :custofornecedor, :custovenda, :nomefornecedor)");
+		if($tipo == 2){
+			$query->bindParam(':idtarefa', $idtarefa);
+			$query->bindParam(':servico', $servico);
+			$query->bindParam(':custofornecedor', $custof);
+			$query->bindParam(':custovenda', $custov);
+			$query->bindParam(':nomefornecedor', $nomefornecedor);
+			
+			$idtarefa = $idtarefa;
+			$servico = $myDbGet->purificar($servicos);
+			$custof = $myDbGet->purificar($custosfornecedor);
+			$custov = $myDbGet->purificar($custosvenda);
+			$nomefornecedor = $myDbGet->purificar($nomefornecedor);
+
+			$query->execute();
+		}
+		else{
+			for($x=0; $x < count($servicos); $x++){
+
+				$query->bindParam(':idtarefa', $idtarefa);
+				$query->bindParam(':servico', $servico);
+				$query->bindParam(':custofornecedor', $custof);
+				$query->bindParam(':custovenda', $custov);
+				$query->bindParam(':nomefornecedor', $nomefornecedor);
+				
+				$idtarefa = $idtarefa;
+				$servico = $myDbGet->purificar($servicos[$x]);
+				$custof = $myDbGet->purificar($custosfornecedor[$x]);
+				$custov = $myDbGet->purificar($custosvenda[$x]);
+				$nomefornecedor = $myDbGet->purificar($nomefornecedor[$x]);
+
+				if(strpos($custof, '.') == false) {
+					$custof .= '.00';
+				}
+				if(strpos($custov, '.') == false) {
+					$custov .= '.00';
+				}
+				
+				$query->execute();
+			}
+		}
+
+		if (!$query) {
+				echo "
+			<script type='text/javascript'>
+				window.alert('Algo correu mal, tente de novo.');
+				location.reload();
+			</script>
+			";
+		}
+		
+		else {
+			echo "
+			<script type='text/javascript'>
+				window.alert('Foi adicionado um registo de Custos a esta Tarefa!');
+				window.location.href = 'listar_tarefa.php?id=".$idtarefa."';
+			</script>
+			";
+		}
+			
+	}
+
+
+
+	public function deleteCustosTarefa($idtarefa){
+		
+		$myDb = $this->_controlPanel->getMyDb();
+		$myDbGet = $this->_controlPanel->get();
+		$query = $myDb->prepare("DELETE from custos_tarefa WHERE tarefa_id = :idtarefa");
+		$query->bindParam(':idtarefa', $idtarefa);
+		$idtarefa = $idtarefa;
+		$query->execute();
+
+	}
+
+	
 	
 	
 	
@@ -226,10 +313,9 @@ class classes_UserManager {
 		}
 			
 	}
-
-
-
-
+	
+	
+	
 	public function insertInfoCliente($cliente, $linkCpanel, $loginCpanel, $passCpanel, $nicDns, $passDns, $linkWp, $userWp, $passWp, $emailsInfo, $outros){
 		
 		$myDb = $this->_controlPanel->getMyDb();
@@ -328,22 +414,22 @@ class classes_UserManager {
 
 
 
-	public function updateTarefa($titulo, $descricao, $cliente, $dataini, $datafim, $urgente, $estado, $intervenientes, $idtarefa, $tarefadiaria, $avencatarefa){
+	public function updateTarefa($titulo, $descricao, $cliente, $dataini, $datafim, $urgente, $intervenientes, $idtarefa, $tarefadiaria, $faturacao, $tipotarefa){
 		
 		$myDb = $this->_controlPanel->getMyDb();
 		$myDbGet = $this->_controlPanel->get();
-		$query = $myDb->prepare("UPDATE tarefas set titulo = :titulo, descricao = :descricao, cliente_id = :cliente, data_ini = :dataini, data_fim = :datafim, estado = :estado, prioridade_id = :prioridade, urgente = :urgente, diaria = :tarefadiaria, avenca = :avencatarefa WHERE id_tarefa = :idtarefa");
+		$query = $myDb->prepare("UPDATE tarefas set titulo = :titulo, descricao = :descricao, cliente_id = :cliente, data_ini = :dataini, data_fim = :datafim, prioridade_id = :prioridade, urgente = :urgente, diaria = :tarefadiaria, faturada = :faturacao, tipo_tarefa = :tipotarefa WHERE id_tarefa = :idtarefa");
 
 		$query->bindParam(':titulo', $titulo);
 		$query->bindParam(':descricao', $descricao);
 		$query->bindParam(':cliente', $cliente);
 		$query->bindParam(':dataini', $dataini);
 		$query->bindParam(':datafim', $datafim);
-		$query->bindParam(':estado', $estado);
 		$query->bindParam(':prioridade', $prioridade);
 		$query->bindParam(':urgente', $urgente);
 		$query->bindParam(':tarefadiaria', $tarefadiaria);
-		$query->bindParam(':avencatarefa', $avencatarefa);
+		$query->bindParam(':faturacao', $faturacao);
+		$query->bindParam(':tipotarefa', $tipotarefa);
 		$query->bindParam(':idtarefa', $idtarefa);
 
 		$titulo = $myDbGet->purificar($titulo);
@@ -351,11 +437,11 @@ class classes_UserManager {
 		$clinte = $myDbGet->purificar($cliente);
 		$dataini = $myDbGet->purificar($dataini);
 		$datafim = $myDbGet->purificar($datafim);
-		$estado = $myDbGet->purificar($estado);
 		$prioridade = 1;
 		$urgente = $myDbGet->purificar($urgente);
 		$tarefadiaria = $myDbGet->purificar($tarefadiaria);
-		$avencatarefa = $myDbGet->purificar($avencatarefa);
+		$faturacao = $myDbGet->purificar($faturacao);
+		$tipotarefa = $myDbGet->purificar($tipotarefa);
 		$idtarefa = $idtarefa;
 		$query->execute();
 
@@ -365,24 +451,15 @@ class classes_UserManager {
 		$idtarefa = $idtarefa;
 		$deleteinterv -> execute();
 
-		$deleteintervordem = $myDb->prepare("DELETE FROM ordem WHERE id_tarefa_ordem = :tarefa");
-		$deleteintervordem->bindParam(':tarefa', $idtarefa);
-		$idtarefa = $idtarefa;
-		$deleteintervordem -> execute();
-
-
 		$queryinterv = $myDb->prepare("INSERT INTO intervenientes_tarefa (tarefa_interv_id, user_interv_id) VALUES (:tarefa, :user)");
 		$queryordem = $myDb->prepare("INSERT INTO ordem (id_tarefa_ordem, id_user_ordem, valor_ordem) VALUES (:tar, :utilizador, :valor)");
-		for($x=0; $x < count($intervenientes); $x++)
-		{	
-
+		for($x=0; $x < count($intervenientes); $x++){	
 			$queryinterv->bindParam(':tarefa', $idtarefa);
 			$queryinterv->bindParam(':user', $user);
 
 			$idtarefa = $idtarefa;
 			$user = $myDbGet->purificar($intervenientes[$x]);
 			$queryinterv -> execute();
-
 
 			$queryordem->bindParam(':tar', $tar);
 			$queryordem->bindParam(':utilizador', $utilizador);
@@ -409,15 +486,15 @@ class classes_UserManager {
 			echo "
 			<script type='text/javascript'>
 				window.alert('A Tarefa foi editada!');
-				window.location.href = 'list_tarefas.php';
+				window.location.href = 'listar_tarefa.php?id=".$idtarefa."';
 			</script>
 			";
 		}
 			
 	}
 	
-
-
+	
+	
 	public function updateInfoCliente($idinfo, $cliente, $linkCpanel, $loginCpanel, $passCpanel, $nicDns, $passDns, $linkWp, $userWp, $passWp, $emailsInfo, $outros){
 		
 		$myDb = $this->_controlPanel->getMyDb();
@@ -472,8 +549,7 @@ class classes_UserManager {
 		}
 			
 	}
-
-
+	
 	
 	
 	public function updateHoras($hora_inicio, $hora_fim, $dia, $idhora, $idtarefa){
@@ -947,9 +1023,8 @@ class classes_UserManager {
 		}
 			
 	}
-
-
-
+	
+	
 	public function updateHorasGeral($hora_inicio, $hora_fim, $dia, $idhora, $idtarefa){
 		
 		$myDb = $this->_controlPanel->getMyDb();
@@ -988,8 +1063,8 @@ class classes_UserManager {
 		}
 			
 	}
-
-
+	
+	
 	public function adicionarHora($hora_inicio, $hora_fim, $dia, $user, $idtarefa){
 		
 		$myDb = $this->_controlPanel->getMyDb();

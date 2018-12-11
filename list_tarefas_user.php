@@ -6,6 +6,10 @@
     #alternar-estado{
         padding-left:3vw;
     }
+
+	.tipo-2{
+		border-bottom: 8px solid #2196f3;
+	}
     
 </style>
 
@@ -120,6 +124,7 @@ $estado = $dados['estado'];
 $ordem = $dados['valor_ordem'];
 $process = $dados['processada'];
 $diaria = $dados['diaria'];
+$tipo = $dados['tipo_tarefa'];
 $newDateIni = date("d-m-Y", strtotime($dados['data_ini']));
 $newDateFim = date("d-m-Y", strtotime($dados['data_fim']));
 
@@ -149,7 +154,7 @@ else if($estado == 5){
 
 <?php if($diaria == 0){ ?>
 
-<div class="row row-list estado-<?php echo $estado ?>" style="margin: 5vh auto;<?php if($estado==2){echo "border-bottom:4px solid black !important;";}?><?php if($process==1){echo "border-bottom:4px solid #5093e1 !important;";}?><?php if($urg==1){echo "border-bottom:4px solid red";}?>">
+<div class="row row-list estado-<?php echo $estado ?> tipo-<?php echo $tipo ?>" style="margin: 5vh auto;<?php if($estado==2){echo "border-bottom:4px solid black !important;";}?><?php if($process==1){echo "border-bottom:4px solid #5093e1 !important;";}?><?php if($urg==1){echo "border-bottom:4px solid red";}?>">
 
 		<a href = "listar_tarefa.php?id=<?php echo $dados['id_tarefa']; ?>&link=<?php echo $actual_link; ?>">
 
@@ -202,7 +207,6 @@ else if($estado == 5){
 					<option value="" disabled>Estado</option>
 					<option <?php if($estado == 0){ echo "selected"; }?> value="0">Por Iniciar</option>
 					<option <?php if($estado == 1){ echo "selected"; }?> value="1">Em Curso</option>
-					<option <?php if($estado == 2){ echo "selected"; }?> value="2">Concluída</option>
 					<option <?php if($estado == 3){ echo "selected"; }?> value="3">Pausa</option>
 					<option <?php if($estado == 4){ echo "selected"; }?> value="4">Aguarda Aprovação Interna</option>
 					<option <?php if($estado == 5){ echo "selected"; }?> value="5">Aguarda Aprovação Externa</option>
@@ -219,7 +223,7 @@ else if($estado == 5){
 	
 	</div>
 
-<?php } else if($diaria == 1){?>
+<?php } else if($tipo == 1){?>
 
 	<div class="row row-list estado-<?php echo $estado ?>" style="border-bottom: 8px solid #ffe631; height:85px; margin: 5vh auto;<?php if($estado==2){echo "border-bottom:4px solid black !important;";}?><?php if($process==1){echo "border-bottom:4px solid #5093e1 !important;";}?><?php if($urg==1){echo "border-bottom:4px solid red";}?>">
 
@@ -251,7 +255,6 @@ else if($estado == 5){
 					<option value="" disabled>Estado</option>
 					<option <?php if($estado == 0){ echo "selected"; }?> value="0">Por Iniciar</option>
 					<option <?php if($estado == 1){ echo "selected"; }?> value="1">Em Curso</option>
-					<option <?php if($estado == 2){ echo "selected"; }?> value="2">Concluída</option>
 					<option <?php if($estado == 3){ echo "selected"; }?> value="3">Pausa</option>
 					<option <?php if($estado == 4){ echo "selected"; }?> value="4">Aguarda Aprovação Interna</option>
 					<option <?php if($estado == 5){ echo "selected"; }?> value="5">Aguarda Aprovação Externa</option>

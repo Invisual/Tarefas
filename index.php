@@ -7,26 +7,28 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
-
 .col-index-users{
     background-color: #fff;
     border-radius: 14px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     min-height: 150px;
-    position: relative;
-    padding: 20px 10px 10px 22px;
     color: #333;
 	border-left:none !important;
 	background-repeat: no-repeat !important;
-    background-size: contain !important;
-	background-position: center right !important;
+    background-size: 50% !important;
+	background-position: bottom right !important;
+	margin-left:0;
+	padding:12px;
 }
-
 
 .col-index-users:hover {
     box-shadow: 0 5px 9px rgba(0,0,0,0.26), 0 5px 9px rgba(0,0,0,0.29) !important;
     top: -3px;
     border-left: none !important;
+}
+
+.col-index-users .row, .col-index-users .col-md-12{
+	height:100%;
 }
 
 .h3userindex{
@@ -35,7 +37,8 @@ body{
     color: #5a5454;
     font-weight: 700;
     letter-spacing: .02em;
-    font-size: 20px;
+	font-size: 16px;
+	position:unset;
 }
 
 .cargo-user{
@@ -44,16 +47,50 @@ body{
     font-weight: 600;
     letter-spacing: .03em;
     color: #b1aeae;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .tarefas-user{
 	margin: 0;
-    margin-top: 45px;
-    position: absolute;
+	position: absolute;
+	bottom:0;
     color: #2196f3;
-    font-weight: 600;
+	font-weight: 600;
+	font-size:12px;
+	letter-spacing: .05em;
+}
+
+
+@media only screen and (min-width:991px){
+	.flex-container{
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	margin:10px 0 30px 0;
+	}
+
+	.flex-item{
+		width:13%;
+	}
+}
+
+@media only screen and (max-width:991px){
+	.col-index-users{
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    min-height: 150px;
+    color: #333;
+	border-left:none !important;
+	background-repeat: no-repeat !important;
+    background-size: contain !important;
+	background-position: bottom right !important;
+	margin-left:0;
+	padding:12px;
+	width:65%;
+	margin:0 auto;
+}
 }
 </style>
 
@@ -209,11 +246,58 @@ if (empty($myControlPanel)) {
 
 
 
+
+
+
+
 <div class="container-fluid containerindex" style="position:relative; top:10vh; padding-bottom:5vh;">
 
-		<div class="row-fluid rowindex" style="position:relative; padding-left:34vh; width:96%;">
-		    
-			<?php while($dados= $listUsers->fetch(PDO::FETCH_ASSOC)){
+<div class="flex-container">
+
+
+		<div class="flex-item">
+
+				<?php 
+				$listUsersCargo = $count->listUsersCargo(1);
+				while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+					$nome = $dados['nome_user'];
+					$img = $dados['img'];
+					$id = $dados['id_user'];
+
+					$CargoUser = $count->CargoUtilizador($id);
+					$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+					while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+						$cargo = $dados['nome_cargo_user'];
+					}
+
+
+
+					?>
+
+					<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+					<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+						<div class="row">
+							<div class="col-md-12">
+								<h3 class="h3userindex"><?php echo $nome; ?></h3>
+								<h4 class="cargo-user"><?php echo $cargo ?></h4>
+								<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+							</div>
+						</div>
+					</div>
+					</a>
+
+				<?php } ?>
+
+		</div>
+
+
+		<div class="flex-item">
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(2);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
 
 				$nome = $dados['nome_user'];
 				$img = $dados['img'];
@@ -228,24 +312,251 @@ if (empty($myControlPanel)) {
 
 
 
-			?>
-				
-			<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
-				<div class="col-md-4 col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
 					<div class="row">
 						<div class="col-md-12">
 							<h3 class="h3userindex"><?php echo $nome; ?></h3>
 							<h4 class="cargo-user"><?php echo $cargo ?></h4>
 							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
 						</div>
-						
 					</div>
 				</div>
-			</a>
+				</a>
 
 			<?php } ?>
 
 		</div>
+
+
+		<div class="flex-item">
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(3);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+		</div>
+				
+		
+
+		<div class="flex-item">
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(4);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+		</div>
+
+
+		<div class="flex-item">
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(5);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+		</div>
+
+
+		<div class="flex-item">
+
+				<?php 
+			$listUsersCargo = $count->listUsersCargo(6);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+		</div>
+
+
+
+		<div class="flex-item">
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(7);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+			<?php 
+			$listUsersCargo = $count->listUsersCargo(8);
+			while($dados= $listUsersCargo->fetch(PDO::FETCH_ASSOC)){
+
+				$nome = $dados['nome_user'];
+				$img = $dados['img'];
+				$id = $dados['id_user'];
+
+				$CargoUser = $count->CargoUtilizador($id);
+				$TarefasPorUser = $count->TarefasPorUtilizador($id);
+
+				while($cargos= $CargoUser->fetch(PDO::FETCH_ASSOC)){
+					$cargo = $dados['nome_cargo_user'];
+				}
+
+
+
+				?>
+
+				<a href="list_tarefas_user.php?iduser=<?php echo $id; ?>">		
+				<div class="col-spaced col-index-users" style="margin-top:30px;border-left: 8px solid #487bb8; background: #fff url('img/users/<?php echo $img; ?>');">
+					<div class="row">
+						<div class="col-md-12">
+							<h3 class="h3userindex"><?php echo $nome; ?></h3>
+							<h4 class="cargo-user"><?php echo $cargo ?></h4>
+							<h5 class="tarefas-user"><?php echo $TarefasPorUser ?> Tarefas</h5>
+						</div>
+					</div>
+				</div>
+				</a>
+
+			<?php } ?>
+
+		</div>
+
+
+</div>
 
 
 

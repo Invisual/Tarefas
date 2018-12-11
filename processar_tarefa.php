@@ -29,24 +29,26 @@ if($_SESSION['logged_in']!=1){
 }
 
 
-$idtarefa=$_GET["id"];
+$idtarefa=$_POST["idtarefa"];
+$observacoes=$_POST["observacoes"];
+$valfaturada=$_POST["valfaturada"];
+$titulotarefa=$_POST["titulotarefa"];
+$user=$_POST['user'];
+$tipo=$_POST['tipo'];
 
-$val = $_GET['val'];
-
-$link = $_GET['link'];
-
-$conc = $_GET['conc'];
 
 $processar = classes_DbManager::ob();
 
-$processartarefa = $processar -> processarTarefa($idtarefa, $val);
+$processartarefa = $processar -> processarTarefa($idtarefa, $observacoes, $valfaturada, $titulotarefa);
+$registoProcessarTarefa = $processar -> inserirRegistoProcessarTarefa($idtarefa, $user);
 
-
-if(isset($_GET['link'])){
-	header("Location:$link&conc=$conc");
+if($tipo == 2){
+	header("Location:listagem_admin.php");
 }
 else{
-header("Location:listar_tarefa.php?id=$idtarefa");
+	header("Location:listar_tarefa.php?id=$idtarefa");
 }
+
+
 
 ?>

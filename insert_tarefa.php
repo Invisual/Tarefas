@@ -1,7 +1,9 @@
 <?php include('headers.php'); ?>
 <link href="css/bootstrap-combined.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.min.css">
-
+<link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.0/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.0/js/froala_editor.pkgd.min.js"></script>
 <title>INVISUAL - Adicionar Tarefa</title>
 
 <style>
@@ -42,7 +44,7 @@ body{
     margin: auto;
 }
 
-input[type="text"], select, textarea{
+.form-inserir-tarefa input[type="text"], .form-inserir-tarefa select, .form-inserir-tarefa textarea{
 	border-radius: 14px;
     background-color: #f7f7f7;
     border: none;
@@ -133,7 +135,18 @@ textarea{
     font-weight: 600;
 }
 
+.fr-element{
+	min-height:150px !important;
+}
 
+#print-1, #getPDF-1, #html-1, #undo-1, #specialCharacters-1, #emoticons-1, #insertFile-1, #insertTable-1, #insertLink-1, #insertImage-1, #insertVideo-1, #insertHR-1, #selectAll-1, #clearFormatting-1,
+#help-1, #redo-1{
+	display:none;
+}
+
+.fr-separator{
+	display:none;
+}
 </style>
 
 
@@ -143,7 +156,7 @@ header ('Content_type: text/html; charset=ISO-8859-1');
 require_once ('utils/Autoloader.php');
 session_start();
 
-if($_SESSION['logged_in']!=1){
+if($_SESSION['logged_in']!=1 || $_SESSION['admin']==0){
 	header('location:index.php');
 }
 
@@ -179,27 +192,18 @@ if(!empty($_POST)){
 	$descricao = $_POST['descricao'];
 	$cliente = $_POST['cliente'];
 	$datafim = $_POST['datafim'];
+	$faturacao = $_POST['faturacao'];
+	$tipo = $_POST['tipo_tarefa'];
 	$intervenientes = $_POST['intervenientes'];
 
 	
-	if(($_POST['diaria']) && ($_POST['diaria'] == 1)){
-		$diaria = 1;
-	}
-	else{
-		$diaria = 0;
-	}
+	if($_POST['tipo_tarefa'] == 1){ $diaria = 1; }
+	else{ $diaria = 0;}
 
-
-	if(($_POST['avenca']) && ($_POST['avenca'] == 1)){
-		$avenca = 1;
-	}
-	else{
-		$avenca = 0;
-	}
 
 	try{		
 		$log = new classes_UserManager($myControlPanel);
-		$insert = $log->insertTarefa($titulo, $descricao, $cliente, $datafim, $intervenientes, $diaria, $avenca);
+		$insert = $log->insertTarefa($titulo, $descricao, $cliente, $datafim, $intervenientes, $diaria, $faturacao, $tipo);
 		
 	}
 	catch (invalidArgumentException $e){
@@ -222,7 +226,7 @@ if(!empty($_POST)){
 
 <h3 class="page-header"><i class="fa fa-tasks icons-header" title="Tarefas" aria-hidden="true"></i> &nbsp;Adicionar Tarefa</h1>
 
-<form name="tarefas" method="POST" enctype="multipart/form-data" action="">
+<form name="tarefas" class="form-inserir-tarefa" method="POST" enctype="multipart/form-data" action="">
 <br>
 
 <div class="row-form-holder form-titulo-cliente-desc">
@@ -259,7 +263,7 @@ if(!empty($_POST)){
 
 <div class="row-form-holder form-titulo-cliente-desc row-checkboxes">
 
-	<h2>Data, Tarefa Diária e Tarefa Avençada.</h2>
+	<h2>Data, Tipo e Faturação de Tarefa.</h2>
 	
 	<div class="row rowinsert">
 
@@ -290,23 +294,25 @@ if(!empty($_POST)){
 
 		<div class="col-md-4 col-center">
 
-				<span class="checkbox-span">Tarefa Diária</span>
-				<div class="checkboxOne">
-					<input type="checkbox" value="1" id="checkboxOneInput" name="diaria" />
-					<label for="checkboxOneInput"></label>
-    			</div>
+			<select name="tipo_tarefa" required>
+			<option value="" disabled>Tipo de Tarefa</option>
+				<option value="0" selected>Tarefa Normal</option>
+				<option value="1">Tarefa Diária</option>
+				<option value="2">Tarefa Externa</option>
+			</select>
 		
 		</div>
 		
 		
 		<div class="col-md-4 col-center">
 
-				<span class="checkbox-span">Tarefa Avençada</span>
-				<div class="checkboxOne">
-					<input type="checkbox" value="1" id="checkboxTwoInput" name="avenca" />
-					<label for="checkboxTwoInput"></label>
-    			</div>
-
+			<select name="faturacao" required>
+				<option value="" disabled selected>Tipo de Faturação</option>
+				<option value="0">Para Faturar</option>
+				<option value="2">Em Avença</option>
+				<option value="3">Em Análise</option>
+				<option value="4">Gratuita</option>
+			</select>
 		
 		</div>
 
@@ -326,7 +332,7 @@ if(!empty($_POST)){
 		<h5>CEO & Financial</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 1 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 1 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -341,7 +347,7 @@ if(!empty($_POST)){
 		<h5>Design</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 2 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 2 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -356,7 +362,7 @@ if(!empty($_POST)){
 		<h5>Web Design</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 3 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 3 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -371,7 +377,7 @@ if(!empty($_POST)){
 		<h5>Account</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 4 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 4 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -387,10 +393,10 @@ if(!empty($_POST)){
 
 	<div class="row rowinsert row-users" style="margin-top:5vh !important;">
 		<div class="col-md-3">
-		<h5>Press</h5>
+		<h5>Press & Copy</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 5 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 5 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -405,7 +411,7 @@ if(!empty($_POST)){
 		<h5>Digital Marketing</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 6 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 6 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -420,7 +426,7 @@ if(!empty($_POST)){
 		<h5>Multimedia</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 7 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 7 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -435,7 +441,7 @@ if(!empty($_POST)){
 		<h5>Production</h5>
 			<?php
 					$myDb = new classes_DbManager;
-					$query = $myDb->_myDb->prepare("Select * from users where cargo = 8 order by nome_user asc");
+					$query = $myDb->_myDb->prepare("Select * from users where cargo = 8 and inativo != '1' order by nome_user asc");
 					$query->execute();
 					while($row = $query->fetch(PDO::FETCH_ASSOC))
 						{ ?>
@@ -461,8 +467,11 @@ if(!empty($_POST)){
 
 
 </div>
-
-
+<script>
+  $(function() {
+    $('textarea').froalaEditor()
+  });
+</script>
 </body>
 
 
